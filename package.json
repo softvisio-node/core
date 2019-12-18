@@ -1,0 +1,37 @@
+{
+    "author": "zdm <zdm@softvisio.net>",
+    "bugs": {
+        "email": "zdm@softvisio.net",
+        "url": "https://bitbucket.org/softvisio/softvisio-core/issues"
+    },
+    "description": "Softisio Core",
+    "devDependencies": {
+        "@babel/cli": "^7.7.5",
+        "@babel/core": "^7.7.5",
+        "@babel/plugin-proposal-class-properties": "^7.7.4",
+        "@babel/preset-env": "^7.7.6",
+        "@softvisio/eslint-config": "^0.1.14",
+        "babel-eslint": "^10.0.3",
+        "eslint-plugin-vue": "^6.0.1"
+    },
+    "homepage": "https://bitbucket.org/softvisio/softvisio-core",
+    "keywords": [
+        "softvisio",
+        "core"
+    ],
+    "license": "ISC",
+    "main": "lib/index.js",
+    "name": "@softvisio/core",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/softvisio/softvisio-core.git"
+    },
+    "scripts": {
+        "build": "yarn babel -d lib src",
+        "fix": "yarn eslint bin lib src --fix",
+        "lint": "yarn eslint bin lib src",
+        "prepublishOnly": "yarn run build"
+    },
+    "type": "commonjs",
+    "version": "0.1.0"
+}
