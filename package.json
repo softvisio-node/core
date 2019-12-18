@@ -10,7 +10,7 @@
         "@babel/core": "^7.7.5",
         "@babel/plugin-proposal-class-properties": "^7.7.4",
         "@babel/preset-env": "^7.7.6",
-        "@softvisio/eslint-config": "^0.1.14",
+        "@softvisio/eslint-config": "workspace:softvisio-eslint-config",
         "babel-eslint": "^10.0.3",
         "eslint-plugin-vue": "^6.0.1"
     },
