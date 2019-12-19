@@ -84,7 +84,7 @@ class Coro {
     // }
 }
 
-var coro = new Coro();
+const coro = new Coro();
 
 class Thread {
     constructor ( thread, resolve ) {

@@ -1,7 +1,7 @@
 # INSTALL AND USE
 
 ```
-yarn adnn @softvisio/core
+yarn add @softvisio/core
 ```
 
 # CORO
