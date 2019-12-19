@@ -11,7 +11,7 @@ const prettierApi = require( "prettier" );
 
 const terserApi = require( "terser" );
 
-const defaultEslintConfig = path.resolve(__dirname, '../share/.eslintrc.yaml');
+const defaultEslintConfig = path.resolve( __dirname, "../share/.eslintrc.yaml" );
 
 var server = net.createServer( function ( socket ) {
     var rl = readline.createInterface( socket, socket );
@@ -62,29 +62,29 @@ function eslint ( data ) {
         };
     }
 
-	var report;
+    var report;
 
-	try {
+    try {
     	report = engine.executeOnText( data.data, data.path, true );
-	}
-	catch (err) {
+    }
+    catch ( err ) {
 
-		// fallback to default settings
-		if (err.message.includes('No ESLint configuration found')) {
-			data.options.useEslintrc = false;
-			data.options.configFile = defaultEslintConfig;
+        // fallback to default settings
+        if ( err.message.includes( "No ESLint configuration found" ) ) {
+            data.options.useEslintrc = false;
+            data.options.configFile = defaultEslintConfig;
 
-			engine = new eslintApi.CLIEngine( data.options);
+            engine = new eslintApi.CLIEngine( data.options );
 
-			report = engine.executeOnText( data.data, data.path, true );
-		}
-		else {
-			return {
-            "status": 0,
-            "reason": err.message,
-        };
-		}
-	}
+            report = engine.executeOnText( data.data, data.path, true );
+        }
+        else {
+            return {
+                "status": 0,
+                "reason": err.message,
+            };
+        }
+    }
 
     return {
         "status": 1,
