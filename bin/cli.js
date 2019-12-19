@@ -11,7 +11,7 @@ const prettierApi = require( "prettier" );
 
 const terserApi = require( "terser" );
 
-const defaultEslintConfig = path.resolve( __dirname, "../share/.eslintrc.yaml" );
+const defaultEslintConfig = path.resolve( __dirname, "../share/eslintrc.yaml" );
 
 var server = net.createServer( function ( socket ) {
     var rl = readline.createInterface( socket, socket );
