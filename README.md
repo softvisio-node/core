@@ -28,35 +28,21 @@ api.call('class/method', arg1, argN, function (res) {
         console.log(res.status, res.reason);
     }
 });
-``` 
+```
 
-# CORO
+# CONDVAR
 
 ```
-const coro = require( "@softvisio/core/lib/coro.js" );
+const condvar = require( "@softvisio/core/lib/async/condvar.js" );
 
-function timer ( timeout, cb ) {
-    setTimeout( cb, timeout );
-}
+var cv = condvar().begin();
 
-function* thread ( ) {
-    var res;
+cv.begin();
+async(...).then(cv.end());
 
-    res = yield time( 1, coro.cb() );
+cv.begin();
+async(...).then(cv.end());
 
-    res = yield time( 1, coro.cb() );
-
-    retrn res;
-}
-
-( async () => {
-    var res;
-
-    coro.run( thread() );
-    coro.run( thread() );
-
-    res = await coro.run( thread() );
-    res = await coro.run( thread() );
-} )();
+await cv.end().recv();
 
 ```
