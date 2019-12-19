@@ -32,8 +32,8 @@
     },
     "scripts": {
         "build": "yarn run lint",
-        "fix": "yarn eslint bin lib src --fix",
-        "lint": "yarn eslint bin lib src",
+        "fix": "yarn eslint bin lib --fix",
+        "lint": "yarn eslint bin lib",
         "prepublishOnly": "yarn run build"
     },
     "type": "commonjs",
