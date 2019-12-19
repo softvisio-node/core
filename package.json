@@ -1,18 +1,21 @@
 {
     "author": "zdm <zdm@softvisio.net>",
+    "bin": {
+        "softvisio-cli": "./bin/cli.js"
+    },
     "bugs": {
         "email": "zdm@softvisio.net",
         "url": "https://bitbucket.org/softvisio/softvisio-core/issues"
     },
+    "dependencies": {
+        "eslint": "^6.7.2",
+        "prettier": "^1.19.1",
+        "terser": "^4.4.3"
+    },
     "description": "Softisio Core",
     "devDependencies": {
-        "@babel/cli": "^7.7.5",
-        "@babel/core": "^7.7.5",
-        "@babel/plugin-proposal-class-properties": "^7.7.4",
-        "@babel/preset-env": "^7.7.6",
         "@softvisio/eslint-config": "workspace:softvisio-eslint-config",
         "babel-eslint": "^10.0.3",
-        "eslint": "^6.7.2",
         "eslint-plugin-vue": "^6.0.1"
     },
     "homepage": "https://bitbucket.org/softvisio/softvisio-core",
@@ -28,7 +31,7 @@
         "url": "https://bitbucket.org/softvisio/softvisio-core.git"
     },
     "scripts": {
-        "build": "yarn babel -d lib src",
+        "build": "yarn run lint",
         "fix": "yarn eslint bin lib src --fix",
         "lint": "yarn eslint bin lib src",
         "prepublishOnly": "yarn run build"

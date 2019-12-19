@@ -3,9 +3,7 @@ data/
 wiki/
 
 # node
-src/
 .eslintrc.yaml
-babel.config.js
 TODO.txt
 
 # yarn
