@@ -8,6 +8,7 @@
         "url": "https://bitbucket.org/softvisio/softvisio-core/issues"
     },
     "dependencies": {
+        "callable-instance": "^1.0.1",
         "eslint": "^6.7.2",
         "prettier": "^1.19.1",
         "terser": "^4.4.3"
@@ -37,5 +38,5 @@
         "prepublishOnly": "yarn run build"
     },
     "type": "commonjs",
-    "version": "0.2.2"
+    "version": "0.2.1"
 }
