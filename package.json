@@ -12,7 +12,8 @@
         "eslint": "^6.7.2",
         "jssha": "^2.3.1",
         "prettier": "^1.19.1",
-        "terser": "^4.4.3"
+        "terser": "^4.4.3",
+        "uuid": "^3.3.3"
     },
     "description": "Softisio Core",
     "devDependencies": {
