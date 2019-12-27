@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "callable-instance": "^1.0.1",
-        "eslint": "^6.7.2",
+        "eslint": "^6.8.0",
         "jssha": "^2.3.1",
         "prettier": "^1.19.1",
         "terser": "^4.4.3",
@@ -19,7 +19,7 @@
     "devDependencies": {
         "@softvisio/eslint-config": "workspace:softvisio-eslint-config",
         "babel-eslint": "^10.0.3",
-        "eslint-plugin-vue": "^6.0.1"
+        "eslint-plugin-vue": "^6.1.1"
     },
     "homepage": "https://bitbucket.org/softvisio/softvisio-core",
     "keywords": [
