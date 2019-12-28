@@ -65,10 +65,9 @@ function eslint ( data ) {
     var report;
 
     try {
-    	report = engine.executeOnText( data.data, data.path, true );
+        report = engine.executeOnText( data.data, data.path, true );
     }
     catch ( err ) {
-
         // fallback to default settings
         if ( err.message.includes( "No ESLint configuration found" ) ) {
             data.options.useEslintrc = false;

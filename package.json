@@ -16,10 +16,6 @@
         "uuid": "^3.3.3"
     },
     "description": "Softisio Core",
-    "devDependencies": {
-        "@softvisio/eslint-config": "workspace:softvisio-eslint-config",
-        "babel-eslint": "^10.0.3"
-    },
     "homepage": "https://bitbucket.org/softvisio/softvisio-core",
     "keywords": [
         "softvisio",
@@ -33,10 +29,10 @@
         "url": "https://bitbucket.org/softvisio/softvisio-core.git"
     },
     "scripts": {
-        "build": "yarn run lint",
-        "lint": "yarn eslint bin lib --fix",
-        "prepublishOnly": "yarn run build"
+        "build": "npm run lint",
+        "lint": "eslint --fix --ext=.js,.vue bin lib",
+        "prepublishOnly": "npm run build"
     },
     "type": "commonjs",
-    "version": "0.2.5"
+    "version": "0.2.6"
 }
