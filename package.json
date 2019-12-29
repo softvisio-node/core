@@ -42,5 +42,5 @@
         "prepublishOnly": "npm run build"
     },
     "type": "commonjs",
-    "version": "0.2.6"
+    "version": "0.2.7"
 }
