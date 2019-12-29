@@ -16,6 +16,14 @@
         "uuid": "^3.3.3"
     },
     "description": "Softisio Core",
+    "devDependencies": {
+        "@babel/core": "^7.7.7",
+        "@softvisio/eslint-config": "workspace:softvisio-eslint-config",
+        "babel-eslint": "^10.0.3",
+        "eslint-plugin-babel": "^5.3.0",
+        "eslint-plugin-vue": "^6.1.1",
+        "semver": "^7.1.1"
+    },
     "homepage": "https://bitbucket.org/softvisio/softvisio-core",
     "keywords": [
         "softvisio",
