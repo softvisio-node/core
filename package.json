@@ -17,7 +17,10 @@
     },
     "description": "Softisio Core",
     "devDependencies": {
-        "@softvisio/eslint-config": "workspace:softvisio-eslint-config"
+        "@softvisio/eslint-config": "workspace:softvisio-eslint-config",
+        "babel-eslint": "^10.0.3",
+        "eslint-plugin-babel": ">=5.3.0",
+        "eslint-plugin-vue": ">=6.1.2"
     },
     "homepage": "https://bitbucket.org/softvisio/softvisio-core",
     "keywords": [
