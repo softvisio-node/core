@@ -39,5 +39,5 @@
         "publish": "yarn lint && yarn npm publish"
     },
     "type": "commonjs",
-    "version": "0.2.7"
+    "version": "0.2.8"
 }
