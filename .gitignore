@@ -3,7 +3,6 @@ data/
 wiki/
 
 # node
-dist/
 node_modules/
 
 # yarn
