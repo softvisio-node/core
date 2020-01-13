@@ -10,6 +10,7 @@
     "dependencies": {
         "callable-instance": ">=1.0.1",
         "eslint": ">=6.8.0",
+        "json5": ">=2.1.1",
         "jssha": ">=2.3.1",
         "prettier": ">=1.19.1",
         "terser": ">=4.4.3",
