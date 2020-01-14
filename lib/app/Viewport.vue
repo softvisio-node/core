@@ -39,9 +39,9 @@ export default {
                 view = this.publicView;
             }
 
-            if ( this.view ) this.view.destroy();
+            if ( this.view ) this.view.$destroy();
 
-            this.view = this.extAdd( view, this.viewport );
+            this.view = this.extAddVueComponent( view, this.viewport );
         } );
     },
 
