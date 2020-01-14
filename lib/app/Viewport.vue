@@ -5,9 +5,11 @@
 <script>
 import( "#ewc/ext-panel.component" );
 
-import Vue from "vue";
+import extAdd from "./mixins/extAdd";
 
 export default {
+    "mixins": [extAdd],
+
     "data": () => {
         return {
             "viewport": null,
@@ -39,21 +41,9 @@ export default {
                 view = this.publicView;
             }
 
-            var viewport = this.viewport,
-                wrapper = Ext.create( {
-                    "xtype": "component",
-                } );
-
             if ( this.view ) this.view.destroy();
 
-            this.view = viewport.add( wrapper );
-
-            var ComponentClass = Vue.extend( view ),
-                instance = new ComponentClass();
-
-            instance.$mount();
-
-            wrapper.setContentEl( instance.$el );
+            this.view = this.extAdd( view, this.viewport );
         } );
     },
 
