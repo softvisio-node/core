@@ -3,8 +3,6 @@
 </template>
 
 <script>
-import( "#ewc/ext-panel.component" );
-
 import extAdd from "./mixins/extAdd";
 
 export default {
