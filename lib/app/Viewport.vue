@@ -1,5 +1,5 @@
 <template>
-    <ext-panel viewport="true" layout="card" scrollable="y" @ready="viewportReady"/>
+    <ext-panel viewport="true" layout="card" @ready="viewportReady"/>
 </template>
 
 <script>
