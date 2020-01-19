@@ -1,10 +1,10 @@
 # common
 data/
 wiki/
+TODO.txt
 
 # node
 .eslintrc.yaml
-TODO.txt
 
 # yarn
 .yarn/
