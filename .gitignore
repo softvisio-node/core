@@ -1,10 +1,10 @@
 # common
-data/
-wiki/
+/data/
+/wiki/
 
 # node
-node_modules/
+/node_modules/
 
 # yarn
-.yarn/
-.pnp.*
+/.yarn/
+/.pnp.*
