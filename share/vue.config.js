@@ -54,6 +54,12 @@ var config = {
         //     .exclude.clear()
         //     .end();
 
+        // exclude ext, ewc from babel-loader
+        config.module
+            .rule( "js" )
+            .exclude.add( /[\\/]share[\\/](?:ext|ewc)-v[\d.]+[\\/]/ )
+            .end();
+
         if ( process.env.NODE_ENV === "production" ) {
             // configure html minification, https://github.com/kangax/html-minifier#options-quick-reference
             config.plugin( "html" ).tap( ( args ) => {
