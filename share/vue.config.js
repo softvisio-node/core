@@ -49,10 +49,10 @@ var config = {
 
     "chainWebpack": ( config ) => {
         // clear exclude for "babel-loader"
-        config.module
-            .rule( "js" )
-            .exclude.clear()
-            .end();
+        // config.module
+        //     .rule( "js" )
+        //     .exclude.clear()
+        //     .end();
 
         if ( process.env.NODE_ENV === "production" ) {
             // configure html minification, https://github.com/kangax/html-minifier#options-quick-reference
