@@ -3,7 +3,8 @@
 const webpack = require( "webpack" );
 
 var config = {
-    // "filenameHashing": false, // NOTE uncomment for cordova app
+    "filenameHashing": process.env.VUE_APP_CORDOVA ? false : true,
+
     "outputDir": "www",
 
     "devServer": {
