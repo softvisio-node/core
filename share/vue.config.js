@@ -3,9 +3,8 @@
 const webpack = require( "webpack" );
 
 var config = {
-    "filenameHashing": process.env.VUE_APP_CORDOVA ? false : true,
-
-    "outputDir": "www",
+    "filenameHashing": process.env.VUE_APP_BUILD_CORDOVA ? false : true,
+    "outputDir": process.env.VUE_APP_BUILD_CORDOVA ? "www" : "dist",
 
     "devServer": {
         "contentBase": "build",
