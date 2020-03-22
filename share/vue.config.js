@@ -37,7 +37,6 @@ var config = {
         // aliases
         config.resolve.alias["#ext.js"] = "@softvisio/ext/lib/ext-" + process.env.EXT_VERSION + ".js";
         config.resolve.alias["#ewc.js"] = "@softvisio/ext/lib/ewc-" + process.env.EWC_VERSION + ".js";
-        // config.resolve.alias["#ewc"] = "@softvisio/ext/share/ewc-" + process.env.EWC_VERSION;
         config.resolve.alias["#swc"] = "@softvisio/web-components/lib";
 
         // global vars
