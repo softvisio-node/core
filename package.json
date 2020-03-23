@@ -36,7 +36,7 @@
         "url": "https://bitbucket.org/softvisio/softvisio-core.git"
     },
     "scripts": {
-        "lint": "eslint --fix --ext=.js,.vue bin lib",
+        "lint": "eslint --fix --ext=.js,.vue bin lib share",
         "publish": "yarn lint && yarn npm publish"
     },
     "type": "commonjs",

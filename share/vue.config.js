@@ -1,6 +1,6 @@
 // https://cli.vuejs.org/config/
 
-const webpack = require( "webpack" );
+// const webpack = require( "webpack" );
 
 var config = {
     "filenameHashing": process.env.VUE_APP_BUILD_CORDOVA ? false : true,
@@ -40,9 +40,9 @@ var config = {
         config.resolve.alias["#swc"] = "@softvisio/web-components/lib";
 
         // global vars
-        config.plugins.push( new webpack.ProvidePlugin( {
-            "Ext": config.resolve.alias["#ext.js"],
-        } ) );
+        // config.plugins.push( new webpack.ProvidePlugin( {
+        //     "Ext": config.resolve.alias["#ext.js"],
+        // } ) );
     },
 
     "chainWebpack": ( config ) => {
@@ -53,10 +53,10 @@ var config = {
         //     .end();
 
         // exclude ext, ewc from babel-loader
-        config.module
-            .rule( "js" )
-            .exclude.add( /[\\/]share[\\/](?:ext|ewc)-v[\d.]+[\\/]/ )
-            .end();
+        // config.module
+        //     .rule( "js" )
+        //     .exclude.add( /[\\/]share[\\/](?:ext|ewc)-v[\d.]+[\\/]/ )
+        //     .end();
 
         if ( process.env.NODE_ENV === "production" ) {
             // configure html minification, https://github.com/kangax/html-minifier#options-quick-reference
