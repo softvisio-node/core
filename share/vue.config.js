@@ -52,10 +52,16 @@ var config = {
         //     .exclude.clear()
         //     .end();
 
-        // exclude ext, ewc from babel-loader
+        // exclude ext from babel-loader
         // config.module
         //     .rule( "js" )
-        //     .exclude.add( /[\\/]share[\\/](?:ext|ewc)-v[\d.]+[\\/]/ )
+        //     .exclude.add( /[\\/]share[\\/]ext-v[\d.]+[\\/]/ )
+        //     .end();
+
+        // exclude ewc from babel-loader
+        // config.module
+        //     .rule( "js" )
+        //     .exclude.add( /[\\/]share[\\/]ewc-v[\d.]+[\\/]/ )
         //     .end();
 
         if ( process.env.NODE_ENV === "production" ) {
