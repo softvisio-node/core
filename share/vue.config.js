@@ -52,17 +52,30 @@ var config = {
         //     .exclude.clear()
         //     .end();
 
-        // exclude ext from babel-loader
-        // config.module
-        //     .rule( "js" )
-        //     .exclude.add( /[\\/]share[\\/]ext-v[\d.]+[\\/]/ )
-        //     .end();
+        if ( process.env.NODE_ENV === "development" || process.env.VUE_APP_BUILD_CORDOVA ) {
+            // exclude ext from babel-loader
+            config.module
+                .rule( "js" )
+                .exclude.add( /[\\/]share[\\/]ext-v[\d.]+[\\/]/ )
+                .end();
 
-        // exclude ewc from babel-loader
-        // config.module
-        //     .rule( "js" )
-        //     .exclude.add( /[\\/]share[\\/]ewc-v[\d.]+[\\/]/ )
-        //     .end();
+            // exclude ewc from babel-loader
+            config.module
+                .rule( "js" )
+                .exclude.add( /[\\/]share[\\/]ewc-v[\d.]+[\\/]/ )
+                .end();
+        }
+
+        // exclude amcharts4 additional libs from bundle
+        config.externals( [
+            function ( context, request, callback ) {
+                if ( /xlsx|canvg|pdfmake/.test( request ) ) {
+                    return callback( null, "commonjs " + request );
+                }
+
+                callback();
+            },
+        ] );
 
         if ( process.env.NODE_ENV === "production" ) {
             // configure html minification, https://github.com/kangax/html-minifier#options-quick-reference
