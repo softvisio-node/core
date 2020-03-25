@@ -77,6 +77,13 @@ var config = {
             },
         ] );
 
+        // load *.worker.js via worker-loader
+        config.module
+            .rule( "worker" )
+            .test( /\.worker\.js$/ )
+            .use( "worker-loader" )
+            .loader( "worker-loader" );
+
         if ( process.env.NODE_ENV === "production" ) {
             // configure html minification, https://github.com/kangax/html-minifier#options-quick-reference
             config.plugin( "html" ).tap( ( args ) => {
