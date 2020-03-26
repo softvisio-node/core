@@ -2,6 +2,8 @@
 
 // const webpack = require( "webpack" );
 
+process.env.VUE_APP_BUILD_CORDOVA = !!+process.env.VUE_APP_BUILD_CORDOVA || process.env.VUE_APP_BUILD_CORDOVA === "true" ? 1 : "";
+
 var config = {
     "filenameHashing": process.env.VUE_APP_BUILD_CORDOVA ? false : true,
     "outputDir": process.env.VUE_APP_BUILD_CORDOVA ? "www" : "dist",
