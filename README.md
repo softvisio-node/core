@@ -1,7 +1,7 @@
 # INSTALL AND USE
 
 ```
-yarn add @softvisio/core
+yarn add --dev @softvisio/core
 ```
 
 # API
