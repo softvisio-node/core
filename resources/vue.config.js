@@ -58,13 +58,13 @@ var config = {
             // exclude ext from babel-loader
             config.module
                 .rule( "js" )
-                .exclude.add( /[\\/]share[\\/]ext-v[\d.]+[\\/]/ )
+                .exclude.add( /[\\/]resources[\\/]ext-v[\d.]+[\\/]/ )
                 .end();
 
             // exclude ewc from babel-loader
             config.module
                 .rule( "js" )
-                .exclude.add( /[\\/]share[\\/]ewc-v[\d.]+[\\/]/ )
+                .exclude.add( /[\\/]resources[\\/]ewc-v[\d.]+[\\/]/ )
                 .end();
         }
 
