@@ -44,8 +44,8 @@
     },
     "scripts": {
         "lint": "eslint --fix --ext=.js,.vue bin lib resources",
-        "publish": "yarn lint && yarn npm publish"
+        "publish": "yarn npm publish"
     },
     "type": "commonjs",
-    "version": "0.10.0"
+    "version": "0.11.0"
 }
