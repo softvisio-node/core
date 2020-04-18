@@ -24,6 +24,7 @@
         "eslint-plugin-vue": ">=6.1.2"
     },
     "exports": {
+        ".": "lib/index.js",
         "./": "./lib/",
         "./resources/": "./resources/"
     },
@@ -33,7 +34,6 @@
         "core"
     ],
     "license": "ISC",
-    "main": "lib/index.js",
     "name": "@softvisio/core",
     "repository": {
         "type": "git",
@@ -47,5 +47,5 @@
         "publish": "yarn npm publish"
     },
     "type": "commonjs",
-    "version": "0.11.0"
+    "version": "0.11.1"
 }
