@@ -24,7 +24,7 @@
         "eslint-plugin-vue": ">=6.1.2"
     },
     "exports": {
-        ".": "lib/index.js",
+        ".": "./lib/index.js",
         "./": "./lib/",
         "./resources/": "./resources/"
     },
@@ -47,5 +47,5 @@
         "publish": "yarn npm publish"
     },
     "type": "commonjs",
-    "version": "0.12.0"
+    "version": "0.12.1"
 }
