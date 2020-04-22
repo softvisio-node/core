@@ -1,28 +1,124 @@
-type: object
-properties:
-    openrpc: { type: string }
-    into:
-        type: object
-        properties:
-            title: { type: string }
-            description: { type: string }
-            version: { type: string }
-        required: [title, description, version]
-    servers:
-        type: array
-    methods:
-        type: array
-        items:
+# https://spec.open-rpc.org/#content-descriptor-object
+
+schema:
+    type: object
+    properties:
+        openrpc: { type: string }
+
+        info:
             type: object
             properties:
-                name: { type: string }
-                summary: { type: string }
+                title: { type: string }
                 description: { type: string }
-                required: { type: boolean }
-                deprecated: { type: boolean }
-                paramStructure: { type: 'string', enum: ['by-position'] }
-                params: {}
-            required: [name, description]
-    components:
-        type: [object, 'null']
-required: [openrpc, info]
+                termsOfService: { type: string }
+                conttact: { $ref: '/#/components/contactObject' }
+                license: { $ref: '/#/components/licenseObject' }
+                version: { type: string }
+            required: [title, version]
+
+        servers:
+            type: array
+
+        methods:
+            type: array
+            items:
+                type: object
+                properties:
+                    name: { type: string }
+                    summary: { type: string }
+                    description: { type: string }
+                    externalDocs: { $ref: '/#/components/externalDocumentationObject' }
+                    required: { type: boolean }
+                    deprecated: { type: boolean }
+                    paramStructure: { type: 'string', enum: ['by-position'] }
+                    params:
+                        type: array
+                        items:
+                            - oneOf:
+                                  - $ref: '/#/components/referenceObject'
+                                  - $ref: '/#/components/contentDescriptorObject'
+                                  - $ref: '/#/components/oneOfObject'
+                required: [name, description]
+
+        components:
+            type: [object, 'null']
+            properties:
+                contentDescriptors:
+                    type: object
+                    additionalProperties: { $ref: '/#/components/contentDescriptorObject' }
+                schemas:
+                    type: object
+                    additionalProperties: { $ref: '/#/components/schemaObject' }
+                examples: { type: object }
+                links: { type: object }
+                errors: { type: object }
+                examplePairingObjects: { type: object }
+                tags:
+                    type: object
+                    additionalProperties: { $ref: '/#/components/tagObject' }
+            additionalProperties: false
+
+    required: [openrpc, info]
+
+components:
+    referenceObject:
+        type: object
+        properties:
+            $ref: { type: string }
+        required: [$ref]
+        additionalProperties: false
+
+    contentDescriptorObject:
+        type: object
+        properties:
+            name: { type: string }
+            summary: { type: string }
+            description: { type: string }
+            required: { type: boolean }
+            schema: {} # TODO
+            deprecated: { type: boolean }
+        required: [name, schema]
+
+    oneOfObject:
+        type: object
+        properties:
+            oneOf:
+                type: array
+                items:
+                    - oneOf:
+                          - $ref: '/#/components/referenceObject'
+                          - $ref: '/#/components/contentDescriptorObject'
+                minItems: 1
+        required: [oneOf]
+
+    externalDocumentationObject:
+        type: object
+        properties:
+            description: { type: string }
+            url: { type: string }
+        required: [url]
+
+    tagObject:
+        type: object
+        properties:
+            name: { type: string }
+            summary: { type: string }
+            description: { type: string }
+            externalDocs: { $ref: '/#/components/externalDocumentationObject' }
+        required: [name]
+
+    schemaObject: # TODO
+        type: object
+
+    contactObject:
+        type: object
+        properties:
+            name: { type: string }
+            url: { type: string }
+            email: { type: string }
+
+    licenseObject:
+        type: object
+        properties:
+            name: { type: string }
+            url: { type: string }
