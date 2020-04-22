@@ -1,0 +1,17 @@
+type: object
+properties:
+    openrpc: { type: string }
+    into:
+        type: object
+        properties:
+            title: { type: string }
+            description: { type: string }
+            version: { type: string }
+        required: [title, description, version]
+    servers:
+        type: array
+    methods:
+        type: array
+    components:
+        type: [object, 'null']
+required: [openrpc, info]
