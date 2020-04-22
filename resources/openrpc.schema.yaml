@@ -12,6 +12,17 @@ properties:
         type: array
     methods:
         type: array
+        items:
+            type: object
+            properties:
+                name: { type: string }
+                summary: { type: string }
+                description: { type: string }
+                required: { type: boolean }
+                deprecated: { type: boolean }
+                paramStructure: { type: 'string', enum: ['by-position'] }
+                params: {}
+            required: [name, description]
     components:
         type: [object, 'null']
 required: [openrpc, info]
