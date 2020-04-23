@@ -1,0 +1,23 @@
+openrpc: 1.2.4
+info:
+    title:
+    description:
+    version: v0.1.0
+servers:
+    - name: devel
+      url: http://devel/api
+    - name: production
+      url: https://domain.com/api
+
+methods:
+    # METHOD-NAME
+    - name: method-name
+      description: Method desc
+      deprecated: false
+      params:
+          - name: param_name
+            summary: param summary
+            schema:
+
+components:
+    schemas:
