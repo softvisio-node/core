@@ -1,8 +1,10 @@
 openrpc: 1.2.4
+
 info:
     title:
     description:
     version: v0.1.0
+
 servers:
     - name: devel
       url: http://devel/api
