@@ -41,20 +41,20 @@ schema:
                 required: [name, description]
 
         components:
-            type: [object, 'null']
+            type: ['null', object]
             properties:
                 contentDescriptors:
-                    type: object
+                    type: ['null', object]
                     additionalProperties: { $ref: '/#/components/contentDescriptorObject' }
                 schemas:
-                    type: object
+                    type: ['null', object]
                     additionalProperties: { $ref: '/#/components/schemaObject' }
-                examples: { type: object }
-                links: { type: object }
-                errors: { type: object }
-                examplePairingObjects: { type: object }
+                examples: { type: ['null', object] }
+                links: { type: ['null', object] }
+                errors: { type: ['null', object] }
+                examplePairingObjects: { type: ['null', object] }
                 tags:
-                    type: object
+                    type: ['null', object]
                     additionalProperties: { $ref: '/#/components/tagObject' }
             additionalProperties: false
 
