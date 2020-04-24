@@ -1,0 +1,64 @@
+# <%- spec.info.title %>
+
+version: __<%- spec.info.version %>__
+
+
+<%- spec.info.description %>
+
+## Table of Contents
+
+* Methods
+<% for ( let method of spec.methods ) { %>
+    __* [<%- method.name %>](.<%- method.name %>)__<%- method.summary ? ` - method.summary` : ""  %>
+<% } -%>
+
+## Methods
+
+<% for ( let method of spec.methods ) { %>
+<% if (method.deprecated) { %>
+## ~~<%- method.name %>~~
+
+This method is __DEPRECATED__.
+<% } else { %>
+## <%- method.name %>
+<% } %>
+
+<% if (method.summary) { %>
+__Summary__: <%- method.summary %><br/>
+<% } %>
+
+<% if (method.description) { %>
+<%- method.description %>
+<% } %>
+
+```javascript
+let res = await $api.call( "<%- method.id %>"<%- method.templateParams %> );
+```
+
+### Parameters:
+
+<% if (!method.params) { %>
+Method require no parameters.
+<% } else { %>
+<% for ( let param of method.params ) { %>
+* __<%- param.name %>__<%- param.summary ? ` - ${param.summary}` : "" %>
+
+<% if (param.deprecated) { %>
+This parameter is __DEPRECATED__.
+<% } %>
+
+<% if (param.required) { %>
+This parameter is __REQUIRED__.
+<% } %>
+
+<% if (param.description) { %>
+<%- param.description %>
+<% } %>
+
+```yaml
+<%- param.templateSchema %>
+```
+<% } %>
+<% } %>
+
+<% } -%>
