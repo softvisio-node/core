@@ -14,12 +14,13 @@ servers:
 methods:
     # METHOD-NAME
     - name: method-name
-      summary: summary
-      description: Method desc
+      summary: Short methos summary
+      description: Long method description
       deprecated: false
       params:
           - name: param_name
             summary: param summary
+            required: false
             schema:
 
 components:

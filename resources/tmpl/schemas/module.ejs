@@ -6,19 +6,33 @@ version: __<%- spec.info.version %>__
 
 * [Methods](#methods)
 <% for ( let method of spec.methods ) { -%>
-    * __[<%- method.deprecated ? "<del>" : "" %><%- method.name %><%- method.deprecated ? "</del>" : "" %>](#<%- method.name %>)__<%- method.summary ? ` - method.summary` : "" %>
+<% if (method.deprecated) { -%>
+    * __[~~<%- method.name %>~~](#<%- `${method.name}-deprecated` %>)__ `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>
+<% } else { -%>
+    * __[<%- method.name %>](#<%- method.name %>)__<%- method.summary ? ` - ${method.summary}` : "" %>
+<% } -%>
 <% } -%>
 
 # Methods
 
 <% for ( let method of spec.methods ) { -%>
-## <%- method.deprecated ? "<del>" : "" %><%- method.name %><%- method.deprecated ? "</del>" : "" %><%- method.summary ? ` - ${method.summary}` : "" %>
+<% if (method.deprecated) { -%>
+## ~~<%- method.name %>~~ `[deprecated]`
+<% } else { -%>
+## <%- method.name %>
+<% } -%>
+<% if (method.summary) { -%>
 
-<%- method.description || "" %>
+<%- method.summary %>
+<% } -%>
 
-```javascript
+```
 let res = await $api.call( "<%- method.id %>"<%- method.templateParams %> );
 ```
+<% if (method.description) { -%>
+
+<%- method.description %>
+<% } -%>
 
 #### Parameters
 
@@ -26,13 +40,14 @@ let res = await $api.call( "<%- method.id %>"<%- method.templateParams %> );
 Method require no parameters.
 <% } else { -%>
 <% for ( let param of method.params ) { -%>
-* <%- param.deprecated ? "<del>" : "" %>__<%- param.name %>__ <sub>[ <%- !param.required ? "not " : "" %>required ]</sub><%- param.deprecated ? "</del>" : "" %><%- param.summary ? ` - ${param.summary}` : "" -%>
+* __<%- param.name %>__ `[<%- !param.required ? "not " : "" %>required]`<%- param.summary ? ` - ${param.summary}` : "" %>
+<% if (param.description) { -%>
 
-<%- param.description || "" -%>
+<%- param.description %>
+<% } -%>
 
-```yaml
 <%- param.templateSchema -%>
-```
+
 <% } -%>
 <% } -%>
 <% } -%>

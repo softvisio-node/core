@@ -25,11 +25,10 @@ openrpcSpec:
                     params:
                         type: array
                         items:
-                            - oneOf:
+                            - anyOf:
                                   - $ref: '/#/components/referenceObject'
                                   - $ref: '/#/components/contentDescriptorObject'
-                                  - $ref: '/#/components/oneOfObject'
-                required: [name, description]
+                required: [name, summary]
 
         components: { $ref: '/#/components/componentsObject' }
 
@@ -88,20 +87,7 @@ components:
             description: { type: string }
             required: { type: boolean }
             schema: {} # TODO
-            deprecated: { type: boolean }
         required: [name, schema]
-
-    oneOfObject:
-        type: object
-        properties:
-            oneOf:
-                type: array
-                items:
-                    - oneOf:
-                          - $ref: '/#/components/referenceObject'
-                          - $ref: '/#/components/contentDescriptorObject'
-                minItems: 1
-        required: [oneOf]
 
     externalDocumentationObject:
         type: object
