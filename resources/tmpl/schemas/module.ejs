@@ -9,7 +9,7 @@ version: __<%- spec.info.version %>__
 
 * Methods
 <% for ( let method of spec.methods ) { %>
-    __* [<%- method.name %>](.<%- method.name %>)__<%- method.summary ? ` - method.summary` : ""  %>
+    * __[<%- method.name %>](.<%- method.name %>)__<%- method.summary ? ` - method.summary` : ""  %>
 <% } -%>
 
 ## Methods
