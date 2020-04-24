@@ -1,0 +1,5 @@
+# API Documentation
+
+<% for ( let spec in specs ) { %>
+__* [<%- specs[spec].path %>](.<%- specs[spec].path %>)__<%- specs[spec].info.title ? ` - ${specs[spec].info.title}` : ""  %>
+<% } -%>
