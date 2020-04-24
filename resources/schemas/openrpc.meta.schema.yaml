@@ -1,20 +1,11 @@
 # https://spec.open-rpc.org/#content-descriptor-object
 
-schema:
+openrpcSpec:
     type: object
     properties:
         openrpc: { type: string }
 
-        info:
-            type: object
-            properties:
-                title: { type: string }
-                description: { type: string }
-                termsOfService: { type: string }
-                conttact: { $ref: '/#/components/contactObject' }
-                license: { $ref: '/#/components/licenseObject' }
-                version: { type: string }
-            required: [title, version]
+        info: { $ref: '/#/components/infoObject' }
 
         servers:
             type: array
@@ -40,27 +31,48 @@ schema:
                                   - $ref: '/#/components/oneOfObject'
                 required: [name, description]
 
-        components:
-            type: ['null', object]
-            properties:
-                contentDescriptors:
-                    type: ['null', object]
-                    additionalProperties: { $ref: '/#/components/contentDescriptorObject' }
-                schemas:
-                    type: ['null', object]
-                    additionalProperties: { $ref: '/#/components/schemaObject' }
-                examples: { type: ['null', object] }
-                links: { type: ['null', object] }
-                errors: { type: ['null', object] }
-                examplePairingObjects: { type: ['null', object] }
-                tags:
-                    type: ['null', object]
-                    additionalProperties: { $ref: '/#/components/tagObject' }
-            additionalProperties: false
+        components: { $ref: '/#/components/componentsObject' }
 
     required: [openrpc, info]
 
+openrpcComponents:
+    type: object
+    properties:
+        openrpc: { type: string }
+        info: { $ref: '/#/components/infoObject' }
+        components: { $ref: '/#/components/componentsObject' }
+    required: [openrpc, info]
+
 components:
+    infoObject:
+        type: object
+        properties:
+            title: { type: string }
+            description: { type: string }
+            termsOfService: { type: string }
+            conttact: { $ref: '/#/components/contactObject' }
+            license: { $ref: '/#/components/licenseObject' }
+            version: { type: string }
+        required: [title, version]
+
+    componentsObject:
+        type: ['null', object]
+        properties:
+            contentDescriptors:
+                type: ['null', object]
+                additionalProperties: { $ref: '/#/components/contentDescriptorObject' }
+            schemas:
+                type: ['null', object]
+                additionalProperties: { $ref: '/#/components/schemaObject' }
+            examples: { type: ['null', object] }
+            links: { type: ['null', object] }
+            errors: { type: ['null', object] }
+            examplePairingObjects: { type: ['null', object] }
+            tags:
+                type: ['null', object]
+                additionalProperties: { $ref: '/#/components/tagObject' }
+        additionalProperties: false
+
     referenceObject:
         type: object
         properties:
