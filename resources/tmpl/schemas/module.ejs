@@ -4,17 +4,15 @@ version: __<%- spec.info.version %>__
 
 <%- spec.info.description %>
 
-## Table of Contents
-
-* Methods
-<% for ( let method of spec.methods ) { %>
-    * __[<%- method.deprecated ? "<del>" : "" %><%- method.name %><%- method.deprecated ? "</del>" : "" %>](.<%- method.name %>)__<%- method.summary ? ` - method.summary` : ""  %>
+* [Methods](#methods)
+<% for ( let method of spec.methods ) { -%>
+    * __[<%- method.deprecated ? "<del>" : "" %><%- method.name %><%- method.deprecated ? "</del>" : "" %>](#<%- method.name %>)__<%- method.summary ? ` - method.summary` : "" %>
 <% } -%>
 
-## Methods
+# Methods
 
 <% for ( let method of spec.methods ) { -%>
-### <%- method.deprecated ? "<del>" : "" %><%- method.name %><%- method.deprecated ? "</del>" : "" %><%- method.summary ? ` - ${method.summary}` : "" %>
+## <%- method.deprecated ? "<del>" : "" %><%- method.name %><%- method.deprecated ? "</del>" : "" %><%- method.summary ? ` - ${method.summary}` : "" %>
 
 <%- method.description || "" %>
 
@@ -22,13 +20,13 @@ version: __<%- spec.info.version %>__
 let res = await $api.call( "<%- method.id %>"<%- method.templateParams %> );
 ```
 
-### Parameters:
+#### Parameters
 
 <% if (!method.params) { -%>
 Method require no parameters.
 <% } else { -%>
 <% for ( let param of method.params ) { -%>
-* <%- param.deprecated ? "<del>" : "" %>__<%- param.name %>__<%- param.required ? "<sub> [required]</sub>" : "" %><%- param.deprecated ? "</del>" : "" %><%- param.summary ? ` - ${param.summary}` : "" -%>
+* <%- param.deprecated ? "<del>" : "" %>__<%- param.name %>__ <sub>[ <%- !param.required ? "not " : "" %>required ]</sub><%- param.deprecated ? "</del>" : "" %><%- param.summary ? ` - ${param.summary}` : "" -%>
 
 <%- param.description || "" -%>
 

@@ -14,6 +14,7 @@ servers:
 methods:
     # METHOD-NAME
     - name: method-name
+      summary: summary
       description: Method desc
       deprecated: false
       params:
