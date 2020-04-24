@@ -27,7 +27,8 @@
     },
     "exports": {
         ".": "./lib/index.js",
-        "./": "./lib/"
+        "./": "./lib/",
+        "./resources/": "./resources/"
     },
     "homepage": "https://bitbucket.org/softvisio/softvisio-core",
     "keywords": [
