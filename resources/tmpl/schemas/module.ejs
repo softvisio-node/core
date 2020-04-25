@@ -7,9 +7,9 @@ version: __<%- spec.info.version %>__
 * [Methods](#methods)
 <% for ( let method of spec.methods ) { -%>
 <% if (method.deprecated) { -%>
-    * __[~~<%- method.name %>~~](#<%- `${method.name}-deprecated` %>)__ `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>
+    * [__~~<%- method.name %>~~__ `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- `${method.name}-deprecated` %>)
 <% } else { -%>
-    * __[<%- method.name %>](#<%- method.name %>)__<%- method.summary ? ` - ${method.summary}` : "" %>
+    * [__<%- method.name %>__<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- method.name %>)
 <% } -%>
 <% } -%>
 
