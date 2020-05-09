@@ -1,4 +1,4 @@
-anyOf:
+oneOf:
     # commands
     - type: object
       properties:
@@ -58,4 +58,4 @@ anyOf:
                       schema: { type: object }
                   required: [summary, schema]
                   additionalProperties: false
-          additionalProperties: false
+          additionalProperties1: false
