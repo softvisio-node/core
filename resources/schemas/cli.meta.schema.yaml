@@ -42,6 +42,7 @@ anyOf:
                   type: object
                   properties:
                       summary: { type: string }
+                      default: { type: [string, integer] }
                       minItems: { type: integer, default: 0, minimum: 0 }
                       maxItems: { type: integer, default 1, minimum: 1 }
                       schema: { type: object }
