@@ -2,7 +2,7 @@ anyOf:
     # commands
     - type: object
       properties:
-          summary: { typ: string }
+          summary: { type: string }
           description: { typ: string }
           commands:
               type: object
