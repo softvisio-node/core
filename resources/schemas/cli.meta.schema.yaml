@@ -22,20 +22,29 @@ anyOf:
               additionalProperties:
                   type: object
                   properties:
-                      short: { type: string, minLength: 1, maxLength: 1 }
+                      short:
+                          anyOf:
+                              - type: boolean
+                                const: false
+                              - type: string
+                                minLength: 1
+                                maxLength: 1
                       summary: { type: string }
-                      minIems: { type: integer, default: 0, minimum: 0 }
+                      default: { type: [string, integer, boolean] }
+                      minItems: { type: integer, default: 0, minimum: 0 }
                       maxItems: { type: integer, default 1, minimum: 1 }
                       schema: { type: object }
                   required: [summary, schema]
+                  additionalProperties: false
           arguments:
               type: object
               additionalProperties:
                   type: object
                   properties:
                       summary: { type: string }
-                      minIems: { type: integer, default: 0, minimum: 0 }
+                      minItems: { type: integer, default: 0, minimum: 0 }
                       maxItems: { type: integer, default 1, minimum: 1 }
                       schema: { type: object }
                   required: [summary, schema]
+                  additionalProperties: false
           additionalProperties: false
