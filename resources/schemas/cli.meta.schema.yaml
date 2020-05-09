@@ -9,7 +9,7 @@ anyOf:
               additionalProperties:
                   type: [string, object]
               minProperties: 1
-      required: [commands]
+      required: [summary, commands]
       additionalProperties: false
 
     # options
