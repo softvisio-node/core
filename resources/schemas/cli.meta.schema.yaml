@@ -31,8 +31,13 @@ anyOf:
                                 maxLength: 1
                       summary: { type: string }
                       default: { type: [string, integer, boolean] }
-                      minItems: { type: integer, default: 0, minimum: 0 }
-                      maxItems: { type: integer, default 1, minimum: 1 }
+                      minItems: { type: integer, minimum: 0 }
+                      maxItems:
+                          anyOf:
+                              - type: boolean
+                                const: false
+                              - type: integer
+                                minimum: 1
                       schema: { type: object }
                   required: [summary, schema]
                   additionalProperties: false
@@ -43,8 +48,13 @@ anyOf:
                   properties:
                       summary: { type: string }
                       default: { type: [string, integer] }
-                      minItems: { type: integer, default: 0, minimum: 0 }
-                      maxItems: { type: integer, default 1, minimum: 1 }
+                      minItems: { type: integer, minimum: 0 }
+                      maxItems:
+                          anyOf:
+                              - type: boolean
+                                const: false
+                              - type: integer
+                                minimum: 1
                       schema: { type: object }
                   required: [summary, schema]
                   additionalProperties: false
