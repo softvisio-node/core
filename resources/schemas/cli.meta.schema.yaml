@@ -1,13 +1,12 @@
-oneOf:
+anyOf:
     # commands
     - type: object
       properties:
           summary: { type: string }
-          description: { typ: string }
+          description: { type: string }
           commands:
               type: object
-              additionalProperties:
-                  type: [string, object]
+              additionalProperties: true
               minProperties: 1
       required: [summary, commands]
       additionalProperties: false
@@ -15,8 +14,8 @@ oneOf:
     # options
     - type: object
       properties:
-          summary: { typ: string }
-          description: { typ: string }
+          summary: { type: string }
+          description: { type: string }
           options:
               type: object
               additionalProperties:
@@ -58,4 +57,4 @@ oneOf:
                       schema: { type: object }
                   required: [summary, schema]
                   additionalProperties: false
-          additionalProperties1: false
+      additionalProperties: false
