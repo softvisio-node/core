@@ -146,6 +146,7 @@ __metadata:
     prettier: ">=1.19.1"
     terser: ">=4.4.3"
     uuid: ">=3.3.3"
+    uws: "https://github.com/uNetworking/uWebSockets.js#v17.4.0"
     yaml: ">=1.9.2"
   bin:
     softvisio-cli: ./bin/cli.js
@@ -1495,6 +1496,13 @@ resolve@^1.12.0:
   bin:
     uuid: dist/bin/uuid
   checksum: 3/22da594669649efaa4b2ba80a6c612cf267a5f72c1159fed83d4450c12e4dc16a214dae5f757eb455971539b099af3b5ff5e1c06d9a4f20318db7a3e3bf46b18
+  languageName: node
+  linkType: hard
+
+"uws@https://github.com/uNetworking/uWebSockets.js#v17.4.0":
+  version: 17.4.0
+  resolution: "uws@https://github.com/uNetworking/uWebSockets.js#commit=116a85f9668dcb03e7799db06dc8275bc43c0963"
+  checksum: 3/b1f43e86890846127870f356f91bd52c30a640be6a72188dbd0e609b1675f8df62d3da381153638ec070eb20bae6b1a654da22dd17b44c39df5b3b4c58def15f
   languageName: node
   linkType: hard
 
