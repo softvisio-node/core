@@ -17,7 +17,7 @@
         "prettier": ">=1.19.1",
         "terser": ">=4.4.3",
         "uuid": ">=3.3.3",
-        "uws": "https://github.com/uNetworking/uWebSockets.js#v17.4.0",
+        "uws": "https://bitbucket.org/softvisio/uws.git#master",
         "yaml": ">=1.9.2"
     },
     "description": "Softisio Core",
