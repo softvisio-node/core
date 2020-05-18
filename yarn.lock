@@ -139,6 +139,7 @@ __metadata:
     terser: ">=4.4.3"
     uuid: ">=3.3.3"
     uws: "https://bitbucket.org/softvisio/uws.git#master"
+    ws: ">=7.3.0"
     yaml: ">=1.9.2"
   bin:
     softvisio-cli: ./bin/cli.js
@@ -1552,6 +1553,21 @@ resolve@^1.12.0:
   dependencies:
     mkdirp: ^0.5.1
   checksum: 3/e8f8fddefea3eaaf4c8bacf072161f82d5e05c5fb8f003e1bae52673b94b88a4954d97688c7403a20301d2f6e9f61363b1affe74286b499b39bc0c42f17a56cb
+  languageName: node
+  linkType: hard
+
+"ws@npm:>=7.3.0":
+  version: 7.3.0
+  resolution: "ws@npm:7.3.0"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ^5.0.2
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: 3/c1f386013bd30afa9e4d0aa28eee85767a9e1b8fa74fc482eac503840f1012c2c1339745be36b0737f0245515646892b6073e376deac911a7bdf1ec90fc0f86f
   languageName: node
   linkType: hard
 

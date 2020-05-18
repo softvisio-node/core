@@ -19,6 +19,7 @@
         "terser": ">=4.4.3",
         "uuid": ">=3.3.3",
         "uws": "https://bitbucket.org/softvisio/uws.git#master",
+        "ws": ">=7.3.0",
         "yaml": ">=1.9.2"
     },
     "description": "Softisio Core",
