@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-const Cli = require( "@softvisio/core/lib/cli" );
+const cli = require( "@softvisio/core/lib/cli" );
 const Vim = require( "@softvisio/core/lib/build/vim" );
 
-class App extends mix( Cli ) {
+class App {
     static cli () {
         return {
             "summary": "Softvisio build tool.",
@@ -14,13 +14,4 @@ class App extends mix( Cli ) {
     }
 }
 
-new App();
-// -----SOURCE FILTER LOG BEGIN-----
-//
-// +-------+---------------+------------------------------+--------------------------------------------------------------------------------+
-// | Sev.  | Line:Col      | Rule                         | Description                                                                    |
-// |=======+===============+==============================+================================================================================|
-// | ERROR | 6:19          | no-undef                     | 'mix' is not defined.                                                          |
-// +-------+---------------+------------------------------+--------------------------------------------------------------------------------+
-//
-// -----SOURCE FILTER LOG END-----
+cli( App );
