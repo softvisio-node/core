@@ -431,11 +431,16 @@ __metadata:
   linkType: hard
 
 "debug@npm:^4.0.1, debug@npm:^4.1.0, debug@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "debug@npm:4.1.1"
+  version: 4.2.0
+  resolution: "debug@npm:4.2.0"
   dependencies:
-    ms: ^2.1.1
-  checksum: 3/3601a6ce96e4698ed3edf0ee6e67ef0317adfcdae2f66a43b23d1b14e8888b422337429b16dbbcba6801e7bfa6cbb8de3128fbacfb8ae1cd9bd7615ea6baf970
+    ms: 2.1.2
+  peerDependencies:
+    supports-color: "*"
+  peerDependenciesMeta:
+    supports-color:
+      optional: true
+  checksum: 3/dcfb8ede26b4d899628a75806923ab9ad29daae7db0f6f1ca6227b660693ae0ca085c7f87261793abe0832ad56aff2afc33f907c6b5dc96a41fc208771feb465
   languageName: node
   linkType: hard
 
@@ -1045,7 +1050,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ms@npm:^2.1.1":
+"ms@npm:2.1.2":
   version: 2.1.2
   resolution: "ms@npm:2.1.2"
   checksum: 3/9b65fb709bc30c0c07289dcbdb61ca032acbb9ea5698b55fa62e2cebb04c5953f1876a1f3f7f4bc2e91d4bf4d86003f3e207c3bc6ee2f716f99827e62389cd0e
@@ -1402,15 +1407,15 @@ resolve@^1.12.0:
   linkType: hard
 
 "terser@npm:>=4.4.3":
-  version: 4.6.13
-  resolution: "terser@npm:4.6.13"
+  version: 4.7.0
+  resolution: "terser@npm:4.7.0"
   dependencies:
     commander: ^2.20.0
     source-map: ~0.6.1
     source-map-support: ~0.5.12
   bin:
     terser: bin/terser
-  checksum: 3/dbb9ff02c2b11341e1525dcffec7a80a25737a64c17719b4ae00aee7585d2742f450692dfec8ee13f0f0ff58136a70fbe280d0a3cb50e14ad92204e9ac65e879
+  checksum: 3/514910eef6688f65d5df576148472a58f70a7a8044d0badb9be3962ea32729fd7a8b4319dabd8c1774557818dca6b2118623c84af14c3fc3adaaf54b1c03bf61
   languageName: node
   linkType: hard
 
@@ -1493,9 +1498,9 @@ resolve@^1.12.0:
   linkType: hard
 
 "uws@https://bitbucket.org/softvisio/uws.git#master":
-  version: 17.4.0
-  resolution: "uws@https://bitbucket.org/softvisio/uws.git#commit=c4b5f2cef5848c27ed879fc15eee96c2432f5d65"
-  checksum: 3/b1f43e86890846127870f356f91bd52c30a640be6a72188dbd0e609b1675f8df62d3da381153638ec070eb20bae6b1a654da22dd17b44c39df5b3b4c58def15f
+  version: 17.5.0
+  resolution: "uws@https://bitbucket.org/softvisio/uws.git#commit=9422288d1d403f34dfdb86ec338e9557e202789c"
+  checksum: 3/5f1d984e98c99f5ba6e1406da35ee27e1f424518cbae53260b86fce571eb97b053e6442843470bbd44258c6b4ccb7932bea3874e2e1063d51c858956d00d9632
   languageName: node
   linkType: hard
 
