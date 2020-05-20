@@ -1,8 +1,5 @@
 {
     "author": "zdm <zdm@softvisio.net>",
-    "bin": {
-        "softvisio-cli": "./bin/cli.js"
-    },
     "bugs": {
         "email": "zdm@softvisio.net",
         "url": "https://bitbucket.org/softvisio/softvisio-core/issues"
@@ -10,12 +7,9 @@
     "dependencies": {
         "ajv": ">=6.12.2",
         "ejs": ">=3.1.2",
-        "eslint": ">=6.8.0",
         "json5": ">=2.1.3",
         "jssha": ">=2.3.1",
         "mime-db": ">=1.44.0",
-        "prettier": ">=1.19.1",
-        "terser": ">=4.4.3",
         "uuid": ">=3.3.3",
         "uws": "https://bitbucket.org/softvisio/uws.git#master",
         "ws": ">=7.3.0",
@@ -25,6 +19,7 @@
     "devDependencies": {
         "@softvisio/eslint-plugin": ">=0.4.0",
         "babel-eslint": "^10.0.3",
+        "eslint": ">=6.8.0",
         "eslint-plugin-babel": ">=5.3.0",
         "eslint-plugin-vue": ">=6.1.2"
     },
@@ -48,5 +43,5 @@
         "publish": "yarn npm publish"
     },
     "type": "commonjs",
-    "version": "0.15.0"
+    "version": "0.16.0"
 }
