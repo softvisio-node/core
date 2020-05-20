@@ -127,7 +127,6 @@ __metadata:
     "@softvisio/eslint-plugin": ">=0.4.0"
     ajv: ">=6.12.2"
     babel-eslint: ^10.0.3
-    callable-instance: ">=1.0.1"
     ejs: ">=3.1.2"
     eslint: ">=6.8.0"
     eslint-plugin-babel: ">=5.3.0"
@@ -302,13 +301,6 @@ __metadata:
   version: 1.1.1
   resolution: "buffer-from@npm:1.1.1"
   checksum: 3/540ceb79c4f5bfcadaabbc18324fa84c50dc52905084be7c03596a339cf5a88513bee6831ce9b36ddd046fab09257a7c80686e129d0559a0cfd141da196ad956
-  languageName: node
-  linkType: hard
-
-"callable-instance@npm:>=1.0.1":
-  version: 1.0.1
-  resolution: "callable-instance@npm:1.0.1"
-  checksum: 3/1d5e743dce9500609553ba16f3d7186c876598475a14c9489d200cae6233a7ee952a66d6cf46c283b35cf1f91cb04022d9b4174c806105053ca82314f4b12f9b
   languageName: node
   linkType: hard
 

@@ -9,7 +9,6 @@
     },
     "dependencies": {
         "ajv": ">=6.12.2",
-        "callable-instance": ">=1.0.1",
         "ejs": ">=3.1.2",
         "eslint": ">=6.8.0",
         "json5": ">=2.1.3",
