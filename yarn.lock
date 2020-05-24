@@ -142,8 +142,8 @@ __metadata:
     eslint: ">=6.8.0"
     eslint-plugin-babel: ">=5.3.0"
     eslint-plugin-vue: ">=6.1.2"
+    hash-wasm: ">=3.0.1"
     json5: ">=2.1.3"
-    jssha: ">=2.3.1"
     mime-db: ">=1.44.0"
     uuid: ">=3.3.3"
     uws: "https://bitbucket.org/softvisio/uws.git#master"
@@ -1184,6 +1184,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hash-wasm@npm:>=3.0.1":
+  version: 3.0.1
+  resolution: "hash-wasm@npm:3.0.1"
+  checksum: 3/c0d75b035d5c1a513ded9fe650b07eb6bb465efc2fe418686198ba261c81cddc7e5d5e61ec2c151e96eaea484f4c9b3c706bd6e6d782069d9c4bcdc404ac12de
+  languageName: node
+  linkType: hard
+
 "http-signature@npm:~1.2.0":
   version: 1.2.0
   resolution: "http-signature@npm:1.2.0"
@@ -1453,13 +1460,6 @@ __metadata:
     json-schema: 0.2.3
     verror: 1.10.0
   checksum: 3/ee0177b7ef39e6becf18c586d31fabe15d62be88e7867d3aff86466e4a3de9a2cd47b6e597417aebc1cd3c2d43bc662e79ab5eecdadf3ce0643e909432ed6d2c
-  languageName: node
-  linkType: hard
-
-"jssha@npm:>=2.3.1":
-  version: 3.1.0
-  resolution: "jssha@npm:3.1.0"
-  checksum: 3/4eab9f8f8de2d870f3a5a2a788f4fccccea891deae876e3ae7d5c433ba1c3bd459da47aa91cd66570d869016457d6e802bb941aff7a597c1683763866b34d0fc
   languageName: node
   linkType: hard
 
