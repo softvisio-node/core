@@ -344,9 +344,9 @@ __metadata:
   linkType: hard
 
 "aws4@npm:^1.8.0":
-  version: 1.9.1
-  resolution: "aws4@npm:1.9.1"
-  checksum: 3/d59822631844f9da1caf966cfab90ffafa22cc6c50835f9f5ebff83acdbcffc24eca44fa50d4aa191a6cee81747df38b9880547cc1df8a1380c80dd507b8e6ce
+  version: 1.10.0
+  resolution: "aws4@npm:1.10.0"
+  checksum: 3/f8c20a0031a2ae88bb29a89d5e5f8139eb0cc8aa964d0a8d69a476a4b0f6cf3954e3dd40bd08cea69c95ee31e2e69226d82e804628261a2375223ac67582009d
   languageName: node
   linkType: hard
 
@@ -799,8 +799,8 @@ __metadata:
   linkType: hard
 
 "eslint@npm:>=6.8.0":
-  version: 7.0.0
-  resolution: "eslint@npm:7.0.0"
+  version: 7.1.0
+  resolution: "eslint@npm:7.1.0"
   dependencies:
     "@babel/code-frame": ^7.0.0
     ajv: ^6.10.0
@@ -840,7 +840,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 3/6f5b92b843767f459b60f52312da7ba31c34b8d958f29c1fa96d1c564c270ebe272250f81fe8f1368ddfe2ec2fd3d89c6a160b18effe1269853f7e35c7010317
+  checksum: 3/26b8bc7947b9b8c42f05965a24cd9ea261f0d7b2b5993135bdac403bc65df7812338a2a0999810cae865ff877ec0e17eb818534179d765b7ed36a3a90c3a69b3
   languageName: node
   linkType: hard
 
@@ -1364,8 +1364,8 @@ __metadata:
   linkType: hard
 
 "jake@npm:^10.6.1":
-  version: 10.6.1
-  resolution: "jake@npm:10.6.1"
+  version: 10.7.1
+  resolution: "jake@npm:10.7.1"
   dependencies:
     async: 0.9.x
     chalk: ^2.4.2
@@ -1373,7 +1373,7 @@ __metadata:
     minimatch: ^3.0.4
   bin:
     jake: ./bin/cli.js
-  checksum: 3/c49eda175dcb1c6e959a42840df7f6da79db7b585fb374ac322520070e4b21ec6e26b99de76acc66218015347e9e40f1907ba5409e55be1a7c52dcf83af84904
+  checksum: 3/20cf9588b6e47a842ee3fe7654fdc64a2a641a8be0274b4edf2cfad8f33f5ee82e1e862872ede9487a28ba6ea776ef93b2899aa802d8e2807b98c3a86fd04a49
   languageName: node
   linkType: hard
 
@@ -1385,14 +1385,14 @@ __metadata:
   linkType: hard
 
 "js-yaml@npm:^3.13.1":
-  version: 3.13.1
-  resolution: "js-yaml@npm:3.13.1"
+  version: 3.14.0
+  resolution: "js-yaml@npm:3.14.0"
   dependencies:
     argparse: ^1.0.7
     esprima: ^4.0.0
   bin:
     js-yaml: bin/js-yaml.js
-  checksum: 3/277157fdf235757b71cfbf24f6bef57576a26d9b4cf89b63d89c9044da7b0f9d16c3629c8b5fd549ae343523727a0df1598794e9a4429763cee4e17056ff8523
+  checksum: 3/2eb95464e5263aedc20ae2d9280f0e29b00adab15ece080ec42473d7055efaab24b904108644d115f687efe05a5bde02972b883aafa93607c4c108f667a56fa7
   languageName: node
   linkType: hard
 
@@ -1623,8 +1623,8 @@ __metadata:
   linkType: hard
 
 "node-gyp@npm:latest":
-  version: 6.1.0
-  resolution: "node-gyp@npm:6.1.0"
+  version: 5.1.1
+  resolution: "node-gyp@npm:5.1.1"
   dependencies:
     env-paths: ^2.2.0
     glob: ^7.1.4
@@ -1639,7 +1639,7 @@ __metadata:
     which: ^1.3.1
   bin:
     node-gyp: bin/node-gyp.js
-  checksum: 3/c1d7b77db2e5c9a97ddc6a9b6dfd4149f57b69bee89f7f41c2f537911be5c84f310409aa0d149caf7c48c67110c387dd27797736e6f3b47eaf8c2288b3722090
+  checksum: 3/dc378a26d50165eb90c4331f221f17149258724ec094d1905120db0a6759452a5d5a631de3701e86bf441f8bfd4e83dd94c8c48bc8ef9f4f3e6a9fba95b0552c
   languageName: node
   linkType: hard
 
@@ -2347,7 +2347,7 @@ resolve@^1.12.0:
   languageName: node
   linkType: hard
 
-"tar@npm:4.4.10":
+"tar@npm:4.4.10, tar@npm:^4.4.2":
   version: 4.4.10
   resolution: "tar@npm:4.4.10"
   dependencies:
@@ -2362,7 +2362,7 @@ resolve@^1.12.0:
   languageName: node
   linkType: hard
 
-"tar@npm:^4.4.12, tar@npm:^4.4.2":
+"tar@npm:^4.4.12":
   version: 4.4.13
   resolution: "tar@npm:4.4.13"
   dependencies:
@@ -2498,9 +2498,9 @@ resolve@^1.12.0:
   linkType: hard
 
 "uws@https://bitbucket.org/softvisio/uws.git#master":
-  version: 17.5.0
-  resolution: "uws@https://bitbucket.org/softvisio/uws.git#commit=9422288d1d403f34dfdb86ec338e9557e202789c"
-  checksum: 3/5f1d984e98c99f5ba6e1406da35ee27e1f424518cbae53260b86fce571eb97b053e6442843470bbd44258c6b4ccb7932bea3874e2e1063d51c858956d00d9632
+  version: 17.6.0
+  resolution: "uws@https://bitbucket.org/softvisio/uws.git#commit=a4246930f2e237a744cabb6e2a6fdec7a53ab99b"
+  checksum: 3/0c3e317c9005b88570f8cfc33bea1e7bfa159709b8b44e5413e3a5f4139c966cc089c9f2d2d2b25b8d8d749e0b8c970c15a660e7622b82d69478b63f3c3ba34c
   languageName: node
   linkType: hard
 
