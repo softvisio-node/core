@@ -1,4 +1,6 @@
-module.exports = `
+const sql = require( "@softvisio/core/lib/sql" );
+
+module.exports = sql`
 
 -- PERMISSIONS
 CREATE TABLE "app_permission" (
