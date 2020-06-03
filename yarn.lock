@@ -134,6 +134,7 @@ __metadata:
     eslint-plugin-vue: ">=6.1.2"
     hash-wasm: ">=3.1.1"
     json5: ">=2.1.3"
+    lru-cache: ">=5.1.1"
     mime-db: ">=1.44.0"
     notepack.io: ">=2.3.0"
     utf-8-validate: ">=5.0.2"
@@ -1331,6 +1332,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lru-cache@npm:>=5.1.1":
+  version: 5.1.1
+  resolution: "lru-cache@npm:5.1.1"
+  dependencies:
+    yallist: ^3.0.2
+  checksum: 3/ffd9a280fa3400e731265db502270c2a65432f3fbfac23d480c72f675ec16dbbeddd57d4baf7aca70ab7af49949fad1bcaaf5a5e6e1cfed7316de71bb5dddf1c
+  languageName: node
+  linkType: hard
+
 "mime-db@npm:1.44.0, mime-db@npm:>=1.44.0":
   version: 1.44.0
   resolution: "mime-db@npm:1.44.0"
@@ -2239,7 +2249,7 @@ resolve@^1.12.0:
   languageName: node
   linkType: hard
 
-"yallist@npm:^3.0.0, yallist@npm:^3.0.3":
+"yallist@npm:^3.0.0, yallist@npm:^3.0.2, yallist@npm:^3.0.3":
   version: 3.1.1
   resolution: "yallist@npm:3.1.1"
   checksum: 3/f352c93b92f601bb0399210bca37272e669c961e9bd886bac545380598765cbfdfb4f166e7b6c57ca4ec8a5af4ab3fa0fd78a47f9a7d655a3d580ff0fc9e7d79
