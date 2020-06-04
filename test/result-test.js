@@ -1,22 +1,22 @@
-const { res, returnRes } = require( "../lib/result" );
+const { result, parseResult } = require( "../lib/result" );
 
-console.log( res( 200 ) );
-console.log( res( 200, "data" ) );
-console.log( res( [200], "data" ) );
-console.log( res( [200, "Custom"], "data" ) );
+console.log( result( 200 ) );
+console.log( result( 200, "data" ) );
+console.log( result( [200], "data" ) );
+console.log( result( [200, "Custom"], "data" ) );
 try {
-    console.log( res( "200" ) );
+    console.log( result( "200" ) );
 }
 catch ( e ) {
     console.log( e );
 }
 
-console.log( returnRes( 200 ) );
-console.log( returnRes( [200] ) );
-console.log( returnRes( [200, "Custom"] ) );
-console.log( returnRes( [[200, "Custom"], "data"] ) );
+console.log( parseResult( 200 ) );
+console.log( parseResult( [200] ) );
+console.log( parseResult( [200, "Custom"] ) );
+console.log( parseResult( [[200, "Custom"], "data"] ) );
 try {
-    console.log( returnRes( {} ) );
+    console.log( parseResult( {} ) );
 }
 catch ( e ) {
     console.log( e );
