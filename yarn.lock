@@ -133,6 +133,7 @@ __metadata:
     eslint-plugin-babel: ">=5.3.0"
     eslint-plugin-vue: ">=6.1.2"
     hash-wasm: ">=3.1.1"
+    js-yaml: ">=3.14.0"
     json5: ">=2.1.3"
     lru-cache: ">=5.1.1"
     mime-db: ">=1.44.0"
@@ -141,7 +142,6 @@ __metadata:
     uuid: ">=3.3.3"
     uws: "https://bitbucket.org/softvisio/uws.git#master"
     ws: ">=7.3.0"
-    yaml: ">=1.9.2"
   peerDependencies:
     argon2: ">=0.26.2"
     better-sqlite3: ">=7.0.1"
@@ -1236,7 +1236,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^3.13.1":
+"js-yaml@npm:>=3.14.0, js-yaml@npm:^3.13.1":
   version: 3.14.0
   resolution: "js-yaml@npm:3.14.0"
   dependencies:
@@ -2253,12 +2253,5 @@ resolve@^1.12.0:
   version: 3.1.1
   resolution: "yallist@npm:3.1.1"
   checksum: 3/f352c93b92f601bb0399210bca37272e669c961e9bd886bac545380598765cbfdfb4f166e7b6c57ca4ec8a5af4ab3fa0fd78a47f9a7d655a3d580ff0fc9e7d79
-  languageName: node
-  linkType: hard
-
-"yaml@npm:>=1.9.2":
-  version: 1.10.0
-  resolution: "yaml@npm:1.10.0"
-  checksum: 3/d4cc9f9724f8d0aebc2cf52e4e6aa7059f12d50deb54b5225d103462fb2af36e5c0bb419101ca4b1f0cd3b4db9e4139cf2c690e863ac6227648d39d6f4e2522c
   languageName: node
   linkType: hard
