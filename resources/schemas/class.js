@@ -50,6 +50,7 @@ var s = {
                             "additionalProperties": false,
                         },
                     },
+                    "skipParamsValidation": { "type": "boolean" },
                     "_isApiMethod": { "type": "boolean" },
                 },
                 "required": ["name", "summary", "access"],
