@@ -116,7 +116,8 @@
   permissions:
     type: array
     items:
-      type: string # TODO *, !, @, regexp/a-z/
+      type: string
+      pattern: '^([!@*]|[a-z-]+)$'
 
   # TODO
   throws:
@@ -137,5 +138,5 @@
         description: { type: string }
         required: { type: boolean }
         schema: { type: object }
-      required: [name, summary, schema]
+      required: [name, schema]
       additionalProperties: false
