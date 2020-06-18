@@ -1,0 +1,141 @@
+- $id: module
+  type: object
+  properties:
+    summary: { type: string }
+    description: { type: string }
+  required: [summary]
+  additionalProperties: false
+
+- $id: function
+  type: object
+  properties:
+    function: { type: string }
+    summary: { type: string }
+    description: { type: string }
+    ignored: { type: 'boolean' }
+    deprecated: { type: 'string' }
+    async: { type: 'boolean' }
+    throws: { $ref: 'components#/throws' }
+    params: { $ref: 'components#/params' }
+  required: [function, summary]
+  additionalProperties: false
+
+- $id: class
+  type: object
+  properties:
+    class: { type: string }
+    summary: { type: string }
+    description: { type: string }
+    ignored: { type: boolean }
+    deprecated: { type: 'string' }
+    extends:
+      type: array
+      items: { type: string }
+      minItems: 1
+    events: { $ref: 'components#/events' }
+    permissions: { $ref: 'components#/permissions' }
+  required: [class, summary]
+  additionalProperties: false
+
+- $id: subClass
+  type: object
+  properties:
+    class: { type: string }
+    summary: { type: string }
+    description: { type: string }
+    ignored: { type: boolean }
+    deprecated: { type: 'string' }
+    extends:
+      type: array
+      items: { type: string }
+      minItems: 1
+    events: { $ref: 'components#/events' }
+    permissions: { $ref: 'components#/permissions' }
+  required: [class]
+  additionalProperties: false
+
+- $id: property
+  type: object
+  properties:
+    property: { type: string }
+    summary: { type: string }
+    description: { type: string }
+    ignored: { type: boolean }
+    deprecated: { type: 'string' }
+    static: { type: boolean }
+  required: [property, summary]
+  additionalProperties: false
+
+- $id: subProperty
+  type: object
+  properties:
+    property: { type: string }
+    summary: { type: string }
+    description: { type: string }
+    ignored: { type: boolean }
+    deprecated: { type: 'string' }
+    static: { type: boolean }
+  required: [property]
+  additionalProperties: false
+
+- $id: method
+  type: object
+  properties:
+    method: { type: string }
+    summary: { type: string }
+    description: { type: string }
+    ignored: { type: boolean }
+    deprecated: { type: 'string' }
+    static: { type: boolean }
+    async: { type: 'boolean' }
+    skipParamsValidation: { type: 'boolean' }
+    permissions: { $ref: 'components#/permissions' }
+    throws: { $ref: 'components#/throws' }
+    params: { $ref: 'components#/params' }
+  required: [method, summary]
+  additionalProperties: false
+
+- $id: subMethod
+  type: object
+  properties:
+    method: { type: string }
+    summary: { type: string }
+    description: { type: string }
+    ignored: { type: boolean }
+    deprecated: { type: 'string' }
+    static: { type: boolean }
+    async: { type: 'boolean' }
+    skipParamsValidation: { type: 'boolean' }
+    permissions: { $ref: 'components#/permissions' }
+    throws: { $ref: 'components#/throws' }
+    params: { $ref: 'components#/params' }
+  required: [method]
+  additionalProperties: false
+
+- $id: components
+  permissions:
+    type: array
+    items:
+      type: string # TODO *, !, @, regexp/a-z/
+
+  # TODO
+  throws:
+    type: array
+
+  # TODO
+  events:
+    type: array
+
+  params:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      properties:
+        name: { type: string }
+        summary: { type: string }
+        description: { type: string }
+        required: { type: boolean }
+        schema: { type: object }
+      required: [name, summary, schema]
+      additionalProperties: false
