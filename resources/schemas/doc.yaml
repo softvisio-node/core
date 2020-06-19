@@ -1,11 +1,19 @@
+# module
 - $id: module
   type: object
   properties:
     summary: { type: string }
     description: { type: string }
-  required: [summary]
+
+    _name: { type:string }
+    _isModule: { type: boolean }
+    _id: { type: string }
+    _moduleId: { type: string }
+    _namespaceId: { type: ['null', string] }
+  required: [summary, _name, _isModule, _id, _moduleId]
   additionalProperties: false
 
+# function
 - $id: function
   type: object
   properties:
@@ -17,9 +25,18 @@
     async: { type: 'boolean' }
     throws: { $ref: 'components#/throws' }
     params: { $ref: 'components#/params' }
-  required: [function, summary]
+
+    _name: { type: string }
+    _isFunction: { type: boolean }
+    _id: { type: string }
+    _moduleId: { type: string }
+    _namespaceId: { type: ['null', string] }
+    _memberOf: { type: string }
+
+  required: [function, summary, _name, _isFunction, _id, _moduleId, _memberOf]
   additionalProperties: false
 
+# class
 - $id: class
   type: object
   properties:
@@ -34,26 +51,17 @@
       minItems: 1
     events: { $ref: 'components#/events' }
     permissions: { $ref: 'components#/permissions' }
-  required: [class, summary]
+
+    _name: { type: string }
+    _isClass: { type: boolean }
+    _id: { type: string }
+    _moduleId: { type: string }
+    _namespaceId: { type: ['null', string] }
+
+  required: [class, summary, _name, _isClass, _id, _moduleId]
   additionalProperties: false
 
-- $id: subClass
-  type: object
-  properties:
-    class: { type: string }
-    summary: { type: string }
-    description: { type: string }
-    ignored: { type: boolean }
-    deprecated: { type: 'string' }
-    extends:
-      type: array
-      items: { type: string }
-      minItems: 1
-    events: { $ref: 'components#/events' }
-    permissions: { $ref: 'components#/permissions' }
-  required: [class]
-  additionalProperties: false
-
+# property
 - $id: property
   type: object
   properties:
@@ -63,21 +71,19 @@
     ignored: { type: boolean }
     deprecated: { type: 'string' }
     static: { type: boolean }
-  required: [property, summary]
+
+    _name: { type: string }
+    _isProperty: { type: boolean }
+    _id: { type: string }
+    _moduleId: { type: string }
+    _namespaceId: { type: ['null', string] }
+    _memberOf: { type: string }
+    _access: { $res: 'components#/access' }
+
+  required: [property, summary, _name, _isProperty, _id, _moduleId, _memberOf, _access]
   additionalProperties: false
 
-- $id: subProperty
-  type: object
-  properties:
-    property: { type: string }
-    summary: { type: string }
-    description: { type: string }
-    ignored: { type: boolean }
-    deprecated: { type: 'string' }
-    static: { type: boolean }
-  required: [property]
-  additionalProperties: false
-
+# method
 - $id: method
   type: object
   properties:
@@ -92,27 +98,25 @@
     permissions: { $ref: 'components#/permissions' }
     throws: { $ref: 'components#/throws' }
     params: { $ref: 'components#/params' }
-  required: [method, summary]
-  additionalProperties: false
 
-- $id: subMethod
-  type: object
-  properties:
-    method: { type: string }
-    summary: { type: string }
-    description: { type: string }
-    ignored: { type: boolean }
-    deprecated: { type: 'string' }
-    static: { type: boolean }
-    async: { type: 'boolean' }
-    skipParamsValidation: { type: 'boolean' }
-    permissions: { $ref: 'components#/permissions' }
-    throws: { $ref: 'components#/throws' }
-    params: { $ref: 'components#/params' }
-  required: [method]
+    _name: { type: string }
+    _isMethod: { type: boolean }
+    _id: { type: string }
+    _moduleId: { type: string }
+    _namespaceId: { type: ['null', string] }
+    _memberOf: { type: string }
+    _access: { $res: 'components#/access' }
+    _inheritedFrom: { type: string }
+    _overrides: { type: string }
+
+  required: [method, summary, _name, _isMethod, _id, _moduleId, _memberOf, _access]
   additionalProperties: false
 
 - $id: components
+  access:
+    type: string
+    enum: [private, protected, public]
+
   permissions:
     type: array
     items:
