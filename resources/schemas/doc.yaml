@@ -19,7 +19,6 @@
     function: { type: string }
     summary: { $ref: 'components#/summary' }
     description: { $ref: 'components#/desc' }
-    ignored: { type: 'boolean' }
     deprecated: { $ref: 'components#/deprecated' }
     async: { type: 'boolean' }
     throws: { $ref: 'components#/throws' }
@@ -40,7 +39,6 @@
     class: { type: string }
     summary: { $ref: 'components#/summary' }
     description: { $ref: 'components#/desc' }
-    ignored: { type: boolean }
     deprecated: { $ref: 'components#/deprecated' }
     extends:
       type: array
@@ -64,7 +62,6 @@
     property: { type: string }
     summary: { $ref: 'components#/summary' }
     description: { $ref: 'components#/desc' }
-    ignored: { type: boolean }
     deprecated: { $ref: 'components#/deprecated' }
     static: { type: boolean }
 
@@ -84,7 +81,6 @@
     method: { type: string }
     summary: { $ref: 'components#/summary' }
     description: { $ref: 'components#/desc' }
-    ignored: { type: boolean }
     deprecated: { $ref: 'components#/deprecated' }
     static: { type: boolean }
     async: { type: 'boolean' }
