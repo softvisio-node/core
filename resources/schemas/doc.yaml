@@ -27,9 +27,9 @@
     _module: { $ref: 'components#/module' }
     _id: { type: string }
     _name: { type: string }
-    _isFunction: { $ref: 'components#/true' }
+    isFunction: { $ref: 'components#/true' }
 
-  required: [function, summary, _module, _id, _name, _isFunction]
+  required: [function, summary, _module, _id, _name, isFunction]
   additionalProperties: false
 
 # class
