@@ -8,8 +8,8 @@
     _module: { $ref: 'components#/module' }
     _id: { type: string }
     _name: { type:string }
-    _members: { type: object }
-  required: [summary, _module, _id, _name, _members]
+    members: { type: object }
+  required: [summary, _module, _id, _name, members]
   additionalProperties: false
 
 # function
@@ -50,9 +50,9 @@
     _module: { $ref: 'components#/module' }
     _id: { type: string }
     _name: { type: string }
-    _members: { type: object }
+    members: { type: object }
 
-  required: [class, summary, _module, _id, _name, _members]
+  required: [class, summary, _module, _id, _name, members]
   additionalProperties: false
 
 # property
