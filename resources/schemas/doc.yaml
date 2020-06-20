@@ -20,7 +20,7 @@
     summary: { $ref: 'components#/summary' }
     description: { $ref: 'components#/desc' }
     ignored: { type: 'boolean' }
-    deprecated: { type: 'string' }
+    deprecated: { $ref: 'components#/deprecated' }
     async: { type: 'boolean' }
     throws: { $ref: 'components#/throws' }
     params: { $ref: 'components#/params' }
@@ -41,7 +41,7 @@
     summary: { $ref: 'components#/summary' }
     description: { $ref: 'components#/desc' }
     ignored: { type: boolean }
-    deprecated: { type: 'string' }
+    deprecated: { $ref: 'components#/deprecated' }
     extends:
       type: array
       items: { type: string }
@@ -65,7 +65,7 @@
     summary: { $ref: 'components#/summary' }
     description: { $ref: 'components#/desc' }
     ignored: { type: boolean }
-    deprecated: { type: 'string' }
+    deprecated: { $ref: 'components#/deprecated' }
     static: { type: boolean }
 
     _module: { $ref: 'components#/module' }
@@ -85,7 +85,7 @@
     summary: { $ref: 'components#/summary' }
     description: { $ref: 'components#/desc' }
     ignored: { type: boolean }
-    deprecated: { type: 'string' }
+    deprecated: { $ref: 'components#/deprecated' }
     static: { type: boolean }
     async: { type: 'boolean' }
     skipParamsValidation: { type: 'boolean' }
@@ -104,6 +104,9 @@
   additionalProperties: false
 
 - $id: components
+  deprecated:
+    type: string
+
   true:
     type: boolean
     const: true
