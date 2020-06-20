@@ -5,11 +5,11 @@
     summary: { $ref: 'components#/summary' }
     description: { $ref: 'components#/desc' }
 
-    _module: { $ref: 'components#/module' }
+    module: { $ref: 'components#/module' }
     _id: { type: string }
     _name: { type:string }
     members: { type: object }
-  required: [summary, _module, _id, _name, members]
+  required: [summary, module, _id, _name, members]
   additionalProperties: false
 
 # function
@@ -24,12 +24,12 @@
     throws: { $ref: 'components#/throws' }
     params: { $ref: 'components#/params' }
 
-    _module: { $ref: 'components#/module' }
+    module: { $ref: 'components#/module' }
     _id: { type: string }
     _name: { type: string }
     isFunction: { $ref: 'components#/true' }
 
-  required: [function, summary, _module, _id, _name, isFunction]
+  required: [function, summary, module, _id, _name, isFunction]
   additionalProperties: false
 
 # class
@@ -47,12 +47,12 @@
     events: { $ref: 'components#/events' }
     permissions: { $ref: 'components#/permissions' }
 
-    _module: { $ref: 'components#/module' }
+    module: { $ref: 'components#/module' }
     _id: { type: string }
     _name: { type: string }
     members: { type: object }
 
-  required: [class, summary, _module, _id, _name, members]
+  required: [class, summary, module, _id, _name, members]
   additionalProperties: false
 
 # property
@@ -65,13 +65,13 @@
     deprecated: { $ref: 'components#/deprecated' }
     static: { type: boolean }
 
-    _module: { $ref: 'components#/module' }
+    module: { $ref: 'components#/module' }
     _id: { type: string }
     _name: { type: string }
     isProperty: { $ref: 'components#/true' }
     access: { $res: 'components#/access' }
 
-  required: [property, summary, _module, _id, _name, isProperty, access]
+  required: [property, summary, module, _id, _name, isProperty, access]
   additionalProperties: false
 
 # method
@@ -89,7 +89,7 @@
     throws: { $ref: 'components#/throws' }
     params: { $ref: 'components#/params' }
 
-    _module: { $ref: 'components#/module' }
+    module: { $ref: 'components#/module' }
     _id: { type: string }
     _name: { type: string }
     isMethod: { $ref: 'components#/true' }
@@ -97,7 +97,7 @@
     access: { $res: 'components#/access' }
     inheritedFrom: { type: string }
 
-  required: [method, summary, _module, _id, _name, isMethod, access]
+  required: [method, summary, module, _id, _name, isMethod, access]
   additionalProperties: false
 
 - $id: components
