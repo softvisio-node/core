@@ -93,7 +93,7 @@
     _id: { type: string }
     _name: { type: string }
     _isMethod: { $ref: 'components#/true' }
-    _isApiMethod: { $ref: 'components#/true' }
+    isApiMethod: { $ref: 'components#/true' }
     _access: { $res: 'components#/access' }
     _inheritedFrom: { type: string }
 
