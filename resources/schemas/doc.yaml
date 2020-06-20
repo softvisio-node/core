@@ -7,9 +7,9 @@
 
     module: { $ref: 'components#/module' }
     _id: { type: string }
-    _name: { type:string }
+    name: { type:string }
     members: { type: object }
-  required: [summary, module, _id, _name, members]
+  required: [summary, module, _id, name, members]
   additionalProperties: false
 
 # function
@@ -26,10 +26,10 @@
 
     module: { $ref: 'components#/module' }
     _id: { type: string }
-    _name: { type: string }
+    name: { type: string }
     isFunction: { $ref: 'components#/true' }
 
-  required: [function, summary, module, _id, _name, isFunction]
+  required: [function, summary, module, _id, name, isFunction]
   additionalProperties: false
 
 # class
@@ -49,10 +49,10 @@
 
     module: { $ref: 'components#/module' }
     _id: { type: string }
-    _name: { type: string }
+    name: { type: string }
     members: { type: object }
 
-  required: [class, summary, module, _id, _name, members]
+  required: [class, summary, module, _id, name, members]
   additionalProperties: false
 
 # property
@@ -67,11 +67,11 @@
 
     module: { $ref: 'components#/module' }
     _id: { type: string }
-    _name: { type: string }
+    name: { type: string }
     isProperty: { $ref: 'components#/true' }
     access: { $res: 'components#/access' }
 
-  required: [property, summary, module, _id, _name, isProperty, access]
+  required: [property, summary, module, _id, name, isProperty, access]
   additionalProperties: false
 
 # method
@@ -91,13 +91,13 @@
 
     module: { $ref: 'components#/module' }
     _id: { type: string }
-    _name: { type: string }
+    name: { type: string }
     isMethod: { $ref: 'components#/true' }
     isApiMethod: { $ref: 'components#/true' }
     access: { $res: 'components#/access' }
     inheritedFrom: { type: string }
 
-  required: [method, summary, module, _id, _name, isMethod, access]
+  required: [method, summary, module, _id, name, isMethod, access]
   additionalProperties: false
 
 - $id: components
