@@ -68,10 +68,10 @@
     _module: { $ref: 'components#/module' }
     _id: { type: string }
     _name: { type: string }
-    _isProperty: { $ref: 'components#/true' }
+    isProperty: { $ref: 'components#/true' }
     access: { $res: 'components#/access' }
 
-  required: [property, summary, _module, _id, _name, _isProperty, access]
+  required: [property, summary, _module, _id, _name, isProperty, access]
   additionalProperties: false
 
 # method
