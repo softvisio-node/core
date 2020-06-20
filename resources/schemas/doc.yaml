@@ -3,7 +3,7 @@
   type: object
   properties:
     summary: { $ref: 'components#/summary' }
-    description: { type: string }
+    description: { $ref: 'components#/desc' }
 
     _module: { $ref: 'components#/module' }
     _id: { type: string }
@@ -18,7 +18,7 @@
   properties:
     function: { type: string }
     summary: { $ref: 'components#/summary' }
-    description: { type: string }
+    description: { $ref: 'components#/desc' }
     ignored: { type: 'boolean' }
     deprecated: { type: 'string' }
     async: { type: 'boolean' }
@@ -39,7 +39,7 @@
   properties:
     class: { type: string }
     summary: { $ref: 'components#/summary' }
-    description: { type: string }
+    description: { $ref: 'components#/desc' }
     ignored: { type: boolean }
     deprecated: { type: 'string' }
     extends:
@@ -63,7 +63,7 @@
   properties:
     property: { type: string }
     summary: { $ref: 'components#/summary' }
-    description: { type: string }
+    description: { $ref: 'components#/desc' }
     ignored: { type: boolean }
     deprecated: { type: 'string' }
     static: { type: boolean }
@@ -83,7 +83,7 @@
   properties:
     method: { type: string }
     summary: { $ref: 'components#/summary' }
-    description: { type: string }
+    description: { $ref: 'components#/desc' }
     ignored: { type: boolean }
     deprecated: { type: 'string' }
     static: { type: boolean }
@@ -105,6 +105,9 @@
 
 - $id: components
   summary:
+    type: string
+
+  desc:
     type: string
 
   module:
@@ -143,7 +146,7 @@
       properties:
         name: { type: string }
         summary: { $ref: 'components#/summary' }
-        description: { type: string }
+        description: { $ref: 'components#/desc' }
         required: { type: boolean }
         schema: { type: object }
       required: [name, schema]
