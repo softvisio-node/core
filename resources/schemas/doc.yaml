@@ -120,8 +120,8 @@
       id: { type: string }
       path: { type: string }
       name: { type: string }
-      namespaceId: { type: ['null', string] }
-    required: [id, path, name, namespaceId]
+      namespacePath: { type: ['null', string] }
+    required: [id, path, name, namespacePath]
     additionalProperties: false
 
   access:
