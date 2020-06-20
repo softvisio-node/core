@@ -129,15 +129,11 @@
     enum: [private, protected, public]
 
   permissions:
-    type: object
-    properties:
-      '!': { $ref: 'components#/true' } # not authenticted
-      '@': { $ref: 'components#/true' } # authenticated
-      '*': { $ref: 'components#/true' } # any
-    patternProperties:
-      '^[a-z-]+$': { $ref: 'components#/true' }
-    additionalProperties: false
-    minProperties: 1
+    type: array
+    items:
+      type: string
+      pattern: '^(?:[!@*]|[a-z-]+)$'
+    minItems: 1
 
   # TODO
   throws:
