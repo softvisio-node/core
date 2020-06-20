@@ -28,7 +28,7 @@
     _module: { $ref: 'components#/module' }
     _id: { type: string }
     _name: { type: string }
-    _idFunction: { type: boolean }
+    _isFunction: { $ref: 'components#/true' }
 
   required: [function, summary, _module, _id, _name, _isFunction]
   additionalProperties: false
@@ -71,7 +71,7 @@
     _module: { $ref: 'components#/module' }
     _id: { type: string }
     _name: { type: string }
-    _isProperty: { type: boolean }
+    _isProperty: { $ref: 'components#/true' }
     _access: { $res: 'components#/access' }
 
   required: [property, summary, _module, _id, _name, _isProperty, _access]
@@ -96,7 +96,7 @@
     _module: { $ref: 'components#/module' }
     _id: { type: string }
     _name: { type: string }
-    _isMethod: { type: boolean }
+    _isMethod: { $ref: 'components#/true' }
     _access: { $res: 'components#/access' }
     _inheritedFrom: { type: string }
 
@@ -104,6 +104,10 @@
   additionalProperties: false
 
 - $id: components
+  true:
+    type: boolean
+    const: true
+
   summary:
     type: string
 
