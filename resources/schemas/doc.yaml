@@ -141,6 +141,7 @@
     patternProperties:
       '^[a-z-]+$': { $ref: 'components#/true' }
     additionalProperties: false
+    minProperties: 1
 
   # TODO
   throws:
