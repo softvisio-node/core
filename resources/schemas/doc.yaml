@@ -5,12 +5,11 @@
     summary: { type: string }
     description: { type: string }
 
-    _name: { type:string }
-    _isModule: { type: boolean }
+    _module: { $ref: 'components#/module' }
     _id: { type: string }
-    _moduleId: { type: string }
-    _namespaceId: { type: ['null', string] }
-  required: [summary, _name, _isModule, _id, _moduleId]
+    _name: { type:string }
+    _members: { type: object }
+  required: [summary, _module, _id, _name, _members]
   additionalProperties: false
 
 # function
@@ -26,14 +25,13 @@
     throws: { $ref: 'components#/throws' }
     params: { $ref: 'components#/params' }
 
-    _name: { type: string }
-    _isFunction: { type: boolean }
+    _module: { $ref: 'components#/module' }
     _id: { type: string }
-    _moduleId: { type: string }
-    _namespaceId: { type: ['null', string] }
+    _name: { type: string }
+    _idFunction: { type: boolean }
     _memberOf: { type: string }
 
-  required: [function, summary, _name, _isFunction, _id, _moduleId, _memberOf]
+  required: [function, summary, _module, _id, _name, _isFunction, _memberOf]
   additionalProperties: false
 
 # class
@@ -52,13 +50,12 @@
     events: { $ref: 'components#/events' }
     permissions: { $ref: 'components#/permissions' }
 
-    _name: { type: string }
-    _isClass: { type: boolean }
+    _module: { $ref: 'components#/module' }
     _id: { type: string }
-    _moduleId: { type: string }
-    _namespaceId: { type: ['null', string] }
+    _name: { type: string }
+    _members: { type: object }
 
-  required: [class, summary, _name, _isClass, _id, _moduleId]
+  required: [class, summary, _module, _id, _name, _members]
   additionalProperties: false
 
 # property
@@ -72,15 +69,14 @@
     deprecated: { type: 'string' }
     static: { type: boolean }
 
+    _module: { $ref: 'components#/module' }
+    _id: { type: string }
     _name: { type: string }
     _isProperty: { type: boolean }
-    _id: { type: string }
-    _moduleId: { type: string }
-    _namespaceId: { type: ['null', string] }
     _memberOf: { type: string }
     _access: { $res: 'components#/access' }
 
-  required: [property, summary, _name, _isProperty, _id, _moduleId, _memberOf, _access]
+  required: [property, summary, _module, _id, _name, _isProperty, _memberOf, _access]
   additionalProperties: false
 
 # method
@@ -99,20 +95,29 @@
     throws: { $ref: 'components#/throws' }
     params: { $ref: 'components#/params' }
 
+    _module: { $ref: 'components#/module' }
+    _id: { type: string }
     _name: { type: string }
     _isMethod: { type: boolean }
-    _id: { type: string }
-    _moduleId: { type: string }
-    _namespaceId: { type: ['null', string] }
     _memberOf: { type: string }
     _access: { $res: 'components#/access' }
     _inheritedFrom: { type: string }
     _overrides: { type: string }
 
-  required: [method, summary, _name, _isMethod, _id, _moduleId, _memberOf, _access]
+  required: [method, summary, _module, _id, _name, _isMethod, _memberOf, _access]
   additionalProperties: false
 
 - $id: components
+  module:
+    type: object
+    properties:
+      id: { type: string }
+      path: { type: string }
+      name: { type: string }
+      namespaceId: { type: ['null', string] }
+    required: [id, path, name, namespaceId]
+    additionalProperties: false
+
   access:
     type: string
     enum: [private, protected, public]
