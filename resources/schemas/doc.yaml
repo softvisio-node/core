@@ -118,10 +118,9 @@
     type: object
     properties:
       id: { type: string }
-      path: { type: string }
       name: { type: string }
       namespacePath: { type: ['null', string] }
-    required: [id, path, name, namespacePath]
+    required: [id, name, namespacePath]
     additionalProperties: false
 
   access:
