@@ -92,12 +92,12 @@
     _module: { $ref: 'components#/module' }
     _id: { type: string }
     _name: { type: string }
-    _isMethod: { $ref: 'components#/true' }
+    isMethod: { $ref: 'components#/true' }
     isApiMethod: { $ref: 'components#/true' }
     access: { $res: 'components#/access' }
-    _inheritedFrom: { type: string }
+    inheritedFrom: { type: string }
 
-  required: [method, summary, _module, _id, _name, _isMethod, access]
+  required: [method, summary, _module, _id, _name, isMethod, access]
   additionalProperties: false
 
 - $id: components
