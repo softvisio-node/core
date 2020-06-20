@@ -29,9 +29,8 @@
     _id: { type: string }
     _name: { type: string }
     _idFunction: { type: boolean }
-    _memberOf: { type: string }
 
-  required: [function, summary, _module, _id, _name, _isFunction, _memberOf]
+  required: [function, summary, _module, _id, _name, _isFunction]
   additionalProperties: false
 
 # class
@@ -73,10 +72,9 @@
     _id: { type: string }
     _name: { type: string }
     _isProperty: { type: boolean }
-    _memberOf: { type: string }
     _access: { $res: 'components#/access' }
 
-  required: [property, summary, _module, _id, _name, _isProperty, _memberOf, _access]
+  required: [property, summary, _module, _id, _name, _isProperty, _access]
   additionalProperties: false
 
 # method
@@ -99,12 +97,10 @@
     _id: { type: string }
     _name: { type: string }
     _isMethod: { type: boolean }
-    _memberOf: { type: string }
     _access: { $res: 'components#/access' }
     _inheritedFrom: { type: string }
-    _overrides: { type: string }
 
-  required: [method, summary, _module, _id, _name, _isMethod, _memberOf, _access]
+  required: [method, summary, _module, _id, _name, _isMethod, _access]
   additionalProperties: false
 
 - $id: components
