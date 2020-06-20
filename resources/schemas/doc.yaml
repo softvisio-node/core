@@ -2,7 +2,7 @@
 - $id: module
   type: object
   properties:
-    summary: { type: string }
+    summary: { $ref: 'components#/summary' }
     description: { type: string }
 
     _module: { $ref: 'components#/module' }
@@ -17,7 +17,7 @@
   type: object
   properties:
     function: { type: string }
-    summary: { type: string }
+    summary: { $ref: 'components#/summary' }
     description: { type: string }
     ignored: { type: 'boolean' }
     deprecated: { type: 'string' }
@@ -38,7 +38,7 @@
   type: object
   properties:
     class: { type: string }
-    summary: { type: string }
+    summary: { $ref: 'components#/summary' }
     description: { type: string }
     ignored: { type: boolean }
     deprecated: { type: 'string' }
@@ -62,7 +62,7 @@
   type: object
   properties:
     property: { type: string }
-    summary: { type: string }
+    summary: { $ref: 'components#/summary' }
     description: { type: string }
     ignored: { type: boolean }
     deprecated: { type: 'string' }
@@ -82,7 +82,7 @@
   type: object
   properties:
     method: { type: string }
-    summary: { type: string }
+    summary: { $ref: 'components#/summary' }
     description: { type: string }
     ignored: { type: boolean }
     deprecated: { type: 'string' }
@@ -104,6 +104,9 @@
   additionalProperties: false
 
 - $id: components
+  summary:
+    type: string
+
   module:
     type: object
     properties:
@@ -139,7 +142,7 @@
       type: object
       properties:
         name: { type: string }
-        summary: { type: string }
+        summary: { $ref: 'components#/summary' }
         description: { type: string }
         required: { type: boolean }
         schema: { type: object }
