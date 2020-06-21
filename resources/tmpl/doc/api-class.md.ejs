@@ -5,7 +5,7 @@ version: __<%- spec.info.version %>__
 <%- spec.info.description %>
 
 * [Methods](#methods)
-<% for ( let method of spec.methods ) { -%>
+<% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].isMethod).map(id => spec.members[id]) ) { -%>
 <% if (method.deprecated) { -%>
     * [__~~<%- method.name %>~~__ `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- `${method.name}-deprecated` %>)
 <% } else { -%>
@@ -15,7 +15,7 @@ version: __<%- spec.info.version %>__
 
 # Methods
 
-<% for ( let method of spec.methods ) { -%>
+<% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].isMethod).map(id => spec.members[id]) ) { -%>
 <% if (method.deprecated) { -%>
 ## ~~<%- method.name %>~~ `[deprecated]`
 <% } else { -%>
