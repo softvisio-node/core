@@ -56,6 +56,14 @@ RUN \
     && popd \
     && rm -rf softvisio-vue-ext \
     \
+    # pre-install app template
+    && git clone https://bitbucket.org/softvisio/templates.git \
+    && pushd templates/app-vue-ext \
+    && yarn-unlink \
+    && yarn \
+    && popd \
+    && rm -rf templates \
+    \
     # cleanup node build environment
     && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/env-build-node.sh | /bin/bash -s -- cleanup
 

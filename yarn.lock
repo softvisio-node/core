@@ -142,11 +142,11 @@ __metadata:
     notepack.io: ">=2.3.0"
     utf-8-validate: ">=5.0.2"
     uuid: ">=3.3.3"
-    uws: "https://bitbucket.org/softvisio/uws.git#master"
     ws: ">=7.3.0"
   peerDependencies:
     argon2: ">=0.26.2"
-    better-sqlite3: ">=7.0.1"
+    better-sqlite3: ">=7.1.0"
+    uws: "*"
   languageName: unknown
   linkType: soft
 
@@ -1972,13 +1972,6 @@ resolve@^1.12.0:
   bin:
     uuid: ./bin/uuid
   checksum: 1ce3f37e214d6d0dc94a6a9663a0365013ace66bc3fd5b203e6f5d2eeb978aaee1192367222386345d30b4c6a447928c501121aa84c637724bf105ef57284949
-  languageName: node
-  linkType: hard
-
-"uws@https://bitbucket.org/softvisio/uws.git#master":
-  version: 18.1.0
-  resolution: "uws@https://bitbucket.org/softvisio/uws.git#commit=872b74fbb3ade6eab21c29818ce46001efbe1a61"
-  checksum: 7ffc5305a998dbe8f230bf4d158e2de2b47f300301e8ab2c39332a2dfd56b1d2aeee0ca31774cde38e0b27b5a9a0f93b19083373392355c25859f31df7744807
   languageName: node
   linkType: hard
 
