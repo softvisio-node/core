@@ -7,12 +7,9 @@ USER root
 ENV TZ=UTC \
     WORKSPACE="/var/local"
 
-ENV PATH="$DIST_PATH/bin:$PATH"
+WORKDIR $WORKSPACE
 
 ADD . $WORSPACE/softvisio-core
-
-# WORKDIR $DIST_PATH
-WORKDIR $WORKSPACE
 
 SHELL [ "/bin/bash", "-l", "-c" ]
 
@@ -44,12 +41,20 @@ RUN \
     # install yarn config
     && curl -fsSLo ~/.yarnrc.yml $URL/.yarnrc.yml \
     \
-    # fill yarn cache
+    # pre-install @softvisio/core
     && pushd $WORSPACE/softvisio-core \
     && yarn-unlink \
     && yarn \
     && popd \
     && rm -rf $WORSPACE/softvisio-core \
+    \
+    # pre-install @softvisio/vue-ext
+    && git clone https://bitbucket.org/softvisio/softvisio-vue-ext.git \
+    && pushd softvisio-vue-ext \
+    && yarn-unlink \
+    && yarn \
+    && popd \
+    && rm -rf softvisio-vue-ext \
     \
     # cleanup node build environment
     && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/env-build-node.sh | /bin/bash -s -- cleanup
