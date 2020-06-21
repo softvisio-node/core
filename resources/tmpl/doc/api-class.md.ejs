@@ -1,25 +1,29 @@
 # <%- spec.info.title %>
 
+TEST
+
 version: __<%- spec.info.version %>__
 
 <%- spec.info.description %>
 
 * [Methods](#methods)
 <% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].isMethod).map(id => spec.members[id]) ) { -%>
+<% const methodName = method.name.replace(/_/g, "\\_") -%>
 <% if (method.deprecated) { -%>
-    * [__~~<%- method.name %>~~__ `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- `${method.name}-deprecated` %>)
+    * [__~~<%- methodName %>~~__ `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- `${method.name}-deprecated` %>)
 <% } else { -%>
-    * [__<%- method.name %>__<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- method.name %>)
+    * [__<%- methodName %>__<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- method.name %>)
 <% } -%>
 <% } -%>
 
 # Methods
 
 <% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].isMethod).map(id => spec.members[id]) ) { -%>
+<% const methodName = method.name.replace(/_/g, "\\_") -%>
 <% if (method.deprecated) { -%>
-## ~~<%- method.name %>~~ `[deprecated]`
+## ~~<%- methodName %>~~ `[deprecated]`
 <% } else { -%>
-## <%- method.name %>
+## <%- methodName %>
 <% } -%>
 <% if (method.summary) { -%>
 
