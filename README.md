@@ -33,7 +33,7 @@ api.call('class/method', arg1, argN, function (res) {
 # CONDVAR
 
 ```
-const condvar = require( "@softvisio/core/lib/async/condvar.js" );
+const condvar = require( "@softvisio/core/async/condvar.js" );
 
 var cv = condvar().begin();
 
