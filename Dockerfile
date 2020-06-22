@@ -27,27 +27,7 @@ RUN \
     \
     # setup node
     && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/setup-node.sh | /bin/bash \
-    \
-    # pre-install @softvisio/core
-    && pushd $WORSPACE/softvisio-core \
-    && npm i --unsafe \
-    && popd \
-    && rm -rf $WORSPACE/softvisio-core \
-    \
-    # pre-install @softvisio/vue-ext
-    && git clone https://bitbucket.org/softvisio/softvisio-vue-ext.git \
-    && pushd softvisio-vue-ext \
-    && npm i --unsafe \
-    && popd \
-    && rm -rf softvisio-vue-ext \
-    \
-    # pre-install app template
-    && git clone https://bitbucket.org/softvisio/templates.git \
-    && pushd templates/app-vue-ext \
-    && npm i --unsafe \
-    && popd \
-    && rm -rf templates \
-    \
+    \    \
     # cleanup node build environment
     && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/env-build-node.sh | /bin/bash -s -- cleanup
 
