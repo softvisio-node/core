@@ -54,5 +54,5 @@
         "lint": "eslint --fix --ext=.js lib"
     },
     "type": "commonjs",
-    "version": "0.21.0"
+    "version": "0.22.0"
 }
