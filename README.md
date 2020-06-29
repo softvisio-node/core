@@ -21,7 +21,7 @@ const api = new softvisioApi({
 });
 
 api.call('class/method', arg1, argN, function (res) {
-    if ( res.isOk() ) {
+    if ( res.ok ) {
         console.log(res.data);
     }
     else {
