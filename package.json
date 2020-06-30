@@ -22,13 +22,6 @@
         "ws": ">=7.3.0"
     },
     "description": "Softisio Core",
-    "devDependencies": {
-        "@softvisio/eslint-plugin": ">=0.4.0",
-        "babel-eslint": "^10.0.3",
-        "eslint": ">=6.8.0",
-        "eslint-plugin-babel": ">=5.3.0",
-        "eslint-plugin-vue": ">=6.1.2"
-    },
     "exports": {
         ".": "./lib/index.js",
         "./": "./lib/",
@@ -41,11 +34,6 @@
     ],
     "license": "ISC",
     "name": "@softvisio/core",
-    "peerDependencies": {
-        "argon2": ">=0.26.2",
-        "better-sqlite3": ">=7.1.0",
-        "uws": "*"
-    },
     "repository": {
         "type": "git",
         "url": "https://bitbucket.org/softvisio/softvisio-core.git"
