@@ -1,5 +1,9 @@
 {
     "author": "zdm <zdm@softvisio.net>",
+    "browser": {
+        "./lib/api/client.js": "./lib/api/client/browser.js",
+        "./lib/util.js": "./lib/util/browser.js"
+    },
     "bugs": {
         "email": "zdm@softvisio.net",
         "url": "https://bitbucket.org/softvisio/softvisio-core/issues"
