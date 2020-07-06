@@ -1,12 +1,34 @@
 {
+    "name": "@softvisio/core",
+    "version": "0.26.1",
+    "description": "Softisio Core",
+    "keywords": [
+        "softvisio",
+        "core"
+    ],
+    "homepage": "https://bitbucket.org/softvisio/softvisio-core",
+    "bugs": {
+        "url": "https://bitbucket.org/softvisio/softvisio-core/issues",
+        "email": "zdm@softvisio.net"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/softvisio/softvisio-core.git"
+    },
+    "license": "ISC",
     "author": "zdm <zdm@softvisio.net>",
+    "type": "commonjs",
+    "exports": {
+        ".": "./lib/index.js",
+        "./": "./lib/",
+        "./resources/": "./resources/"
+    },
     "browser": {
         "./lib/api/client.js": "./lib/api/client/browser.js",
         "./lib/util.js": "./lib/util/browser.js"
     },
-    "bugs": {
-        "email": "zdm@softvisio.net",
-        "url": "https://bitbucket.org/softvisio/softvisio-core/issues"
+    "scripts": {
+        "lint": "eslint --fix --ext=.js lib"
     },
     "dependencies": {
         "ajv": ">=6.12.2",
@@ -23,27 +45,5 @@
         "utf-8-validate": ">=5.0.2",
         "uuid": ">=3.3.3",
         "ws": ">=7.3.0"
-    },
-    "description": "Softisio Core",
-    "exports": {
-        ".": "./lib/index.js",
-        "./": "./lib/",
-        "./resources/": "./resources/"
-    },
-    "homepage": "https://bitbucket.org/softvisio/softvisio-core",
-    "keywords": [
-        "softvisio",
-        "core"
-    ],
-    "license": "ISC",
-    "name": "@softvisio/core",
-    "repository": {
-        "type": "git",
-        "url": "https://bitbucket.org/softvisio/softvisio-core.git"
-    },
-    "scripts": {
-        "lint": "eslint --fix --ext=.js lib"
-    },
-    "type": "commonjs",
-    "version": "0.26.0"
+    }
 }
