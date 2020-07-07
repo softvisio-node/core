@@ -1,6 +1,6 @@
 {
     "name": "@softvisio/core",
-    "version": "0.27.0",
+    "version": "0.28.0",
     "description": "Softisio Core",
     "keywords": [
         "softvisio",
@@ -28,7 +28,7 @@
         "./lib/util.js": "./lib/util/browser.js"
     },
     "scripts": {
-        "lint": "eslint --fix --ext=.js lib"
+        "lint": "softvisio-cli lint *.* lib resources test"
     },
     "dependencies": {
         "ajv": ">=6.12.2",
