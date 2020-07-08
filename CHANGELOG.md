@@ -1,3 +1,8 @@
+## v0.31.0 (Wed, 08 Jul 2020 17:11:51 GMT)
+
+-   fs.tmp.dir added
+-   .docker.yaml added
+
 ## v0.30.0 (Wed, 08 Jul 2020 13:28:05 GMT)
 
 -   cli boolean options refactored
