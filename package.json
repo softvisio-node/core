@@ -28,7 +28,7 @@
         "./lib/util.js": "./lib/util/browser.js"
     },
     "scripts": {
-        "lint": "softvisio-cli lint *.* lib resources test"
+        "lint": "softvisio-cli lint"
     },
     "dependencies": {
         "ajv": ">=6.12.2",
@@ -46,5 +46,11 @@
         "utf-8-validate": ">=5.0.2",
         "uuid": ">=3.3.3",
         "ws": ">=7.3.0"
-    }
+    },
+    "lint": [
+        "*.*",
+        "lib",
+        "resources",
+        "test"
+    ]
 }
