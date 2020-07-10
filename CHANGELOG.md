@@ -1,3 +1,11 @@
+## v0.32.0 (Fri, 10 Jul 2020 20:57:57 GMT)
+
+-   mime refactored
+-   lint config added to package.json
+-   readTree replaced with glob
+-   cli allow - and -- arguments
+-   cli option required fixed
+
 ## v0.31.0 (Wed, 08 Jul 2020 17:11:51 GMT)
 
 -   fs.tmp.dir added
