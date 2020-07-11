@@ -1,3 +1,7 @@
+## v0.32.1 (Sat, 11 Jul 2020 04:46:10 GMT)
+
+-   docker clean dnf cache
+
 ## v0.32.0 (Fri, 10 Jul 2020 20:57:57 GMT)
 
 -   mime refactored
