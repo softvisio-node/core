@@ -1,3 +1,7 @@
+## v0.32.2 (Sun, 12 Jul 2020 06:37:14 GMT)
+
+-   .eslintrc.yaml updated
+
 ## v0.32.1 (Sat, 11 Jul 2020 04:46:10 GMT)
 
 -   docker clean dnf cache
