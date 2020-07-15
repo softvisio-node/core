@@ -9,9 +9,9 @@
 -   [Methods](#methods)
 <% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].isApiMethod).map(id => spec.members[id]) ) { -%>
 <% if (method.deprecated) { -%>
-    -   [**~~<%- method.apiName %>~~** `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- `${method.name}-deprecated` %>)
+    -   [**~~<%- method.apiName %>~~** `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- `${method.markdownId}` %>-deprecated)
 <% } else { -%>
-    -   [**<%- method.apiName %>**<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- method.name %>)
+    -   [**<%- method.apiName %>**<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- method.markdownId %>)
 <% } -%>
 <% } -%>
 
