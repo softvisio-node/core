@@ -1,3 +1,12 @@
+## 0.33.0 (2020-07-15)
+
+-   docs generator
+-   file tree isEmpty() method added
+-   cli help fixed
+-   docs fixed
+-   confirm prompt fixed
+-   changelog format updated
+
 ## 0.32.2 (2020-07-12)
 
 -   .eslintrc.yaml updated
