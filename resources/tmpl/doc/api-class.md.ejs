@@ -1,29 +1,27 @@
-# <%- spec.info.title %>
+# <%- spec.name %>
 
-TEST
+<%- spec.summary %>
+<% if (spec.description) { -%>
 
-version: __<%- spec.info.version %>__
+<%- spec.description %>
+<% } -%>
 
-<%- spec.info.description %>
-
-* [Methods](#methods)
-<% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].isMethod).map(id => spec.members[id]) ) { -%>
-<% const methodName = method.name.replace(/_/g, "\\_") -%>
+-   [Methods](#methods)
+<% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].apiName).map(id => spec.members[id]) ) { -%>
 <% if (method.deprecated) { -%>
-    * [__~~<%- methodName %>~~__ `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- `${method.name}-deprecated` %>)
+    -   [**~~<%- method.apiName %>~~** `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- `${method.name}-deprecated` %>)
 <% } else { -%>
-    * [__<%- methodName %>__<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- method.name %>)
+    -   [**<%- method.apiName %>**<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- method.name %>)
 <% } -%>
 <% } -%>
 
 # Methods
+<% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].apiName).map(id => spec.members[id]) ) { -%>
 
-<% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].isMethod).map(id => spec.members[id]) ) { -%>
-<% const methodName = method.name.replace(/_/g, "\\_") -%>
 <% if (method.deprecated) { -%>
-## ~~<%- methodName %>~~ `[deprecated]`
+## ~~<%- method.apiName %>~~ `[deprecated]`
 <% } else { -%>
-## <%- methodName %>
+## <%- method.apiName %>
 <% } -%>
 <% if (method.summary) { -%>
 
@@ -39,19 +37,19 @@ let res = await $api.call( "<%- method.id %>"<%- method.templateParams %> );
 <% } -%>
 
 #### Parameters
-
 <% if (!method.params) { -%>
+
 Method require no parameters.
 <% } else { -%>
 <% for ( let param of method.params ) { -%>
-* __<%- param.name %>__ `[<%- !param.required ? "not " : "" %>required]`<%- param.summary ? ` - ${param.summary}` : "" %>
+
+-   **<%- param.name %>** `[<%- !param.required ? "not " : "" %>required]`<%- param.summary ? ` - ${param.summary}` : "" %>
 <% if (param.description) { -%>
 
 <%- param.description %>
 <% } -%>
 
 <%- param.templateSchema -%>
-
 <% } -%>
 <% } -%>
 <% } -%>
