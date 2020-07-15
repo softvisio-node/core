@@ -1,4 +1,4 @@
-# <%- spec.name %>
+# <%- spec.apiNamespace %>
 
 <%- spec.summary %>
 <% if (spec.description) { -%>
@@ -7,7 +7,7 @@
 <% } -%>
 
 -   [Methods](#methods)
-<% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].apiName).map(id => spec.members[id]) ) { -%>
+<% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].isApiMethod).map(id => spec.members[id]) ) { -%>
 <% if (method.deprecated) { -%>
     -   [**~~<%- method.apiName %>~~** `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- `${method.name}-deprecated` %>)
 <% } else { -%>
@@ -16,7 +16,7 @@
 <% } -%>
 
 # Methods
-<% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].apiName).map(id => spec.members[id]) ) { -%>
+<% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].isApiMethod).map(id => spec.members[id]) ) { -%>
 
 <% if (method.deprecated) { -%>
 ## ~~<%- method.apiName %>~~ `[deprecated]`
@@ -29,11 +29,25 @@
 <% } -%>
 
 ```
-let res = await $api.call( "<%- method.id %>"<%- method.templateParams %> );
+let res = await api.call( "<%- method.apiFullName %>"<%- method.templateParams %> );
 ```
 <% if (method.description) { -%>
 
 <%- method.description %>
+<% } -%>
+
+#### Permissions
+
+<% for ( let permission of method.permissions ) { -%>
+<% if ( permission === "*" ) { -%>
+-   "\*" - any user;
+<% } else if ( permission === "!" ) { -%>
+-   "!" - any not-authenticated user;
+<% } else if ( permission === "@" ) { -%>
+-   "@" - any authenticated user;
+<% } else { -%>
+-   "<%- permission %>";
+<% } -%>
 <% } -%>
 
 #### Parameters
