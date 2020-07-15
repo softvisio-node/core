@@ -1,3 +1,7 @@
+## 0.33.1 (2020-07-15)
+
+-   wiki generator fixed
+
 ## 0.33.0 (2020-07-15)
 
 -   docs generator
