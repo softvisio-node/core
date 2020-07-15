@@ -1,8 +1,11 @@
 # Documentation
-<% if ( apiClasses.length ) { -%>
+<% if ( hasApi ) { -%>
 
 -   API documentation
-<% for ( let spec of apiClasses.sort( (a, b) => { return a.apiNamespace.localeCompare(b.apiNamespace) } ) ) { -%>
-    -   [**<%- spec.apiNamespace %>** - <%- spec.summary %>](./<%- spec.module.namespacePath %>)
+<% for ( let ver of Object.keys(apiClasses).sort() ) { -%>
+    -   <%- ver %>
+<% for ( let spec of apiClasses[ver].sort( (a, b) => { return a.apiNamespace.localeCompare(b.apiNamespace) } ) ) { -%>
+        -   [**<%- spec.apiNamespace %>** - <%- spec.summary %>](./<%- spec.module.namespacePath %>)
+<% } -%>
 <% } -%>
 <% } -%>
