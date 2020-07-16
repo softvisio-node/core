@@ -1,3 +1,7 @@
+## 0.33.3 (2020-07-16)
+
+-   user_name -> username
+
 ## 0.33.2 (2020-07-15)
 
 -   wiki generator fixed
