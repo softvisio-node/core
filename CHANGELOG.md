@@ -1,3 +1,9 @@
+## 0.35.0 (2020-07-17)
+
+-   UserName -> Username
+-   userName -> username
+-   lint patterns updated
+
 ## 0.34.0 (2020-07-16)
 
 -   ansi colors added
