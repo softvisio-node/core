@@ -17,7 +17,6 @@
     },
     "license": "ISC",
     "author": "zdm <zdm@softvisio.net>",
-    "type": "commonjs",
     "exports": {
         ".": "./lib/index.js",
         "./": "./lib/",
@@ -50,8 +49,8 @@
     },
     "lint": [
         "*.*",
-        "lib",
-        "resources",
-        "test"
+        "lib/**",
+        "resources/**",
+        "test/**"
     ]
 }
