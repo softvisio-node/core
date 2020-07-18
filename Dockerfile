@@ -14,7 +14,8 @@ ADD . $WORSPACE/softvisio-core
 SHELL [ "/bin/bash", "-l", "-c" ]
 
 ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
-ONBUILD ENV DIST_PATH="$WORKSPACE/dist"
+ONBUILD ENV DIST_DIR="$WORKSPACE/dist"
+ONBUILD WORKDIR $DIST_DIR/data
 
 RUN \
     # setup host
