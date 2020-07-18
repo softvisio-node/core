@@ -1,3 +1,9 @@
+## 0.36.0 (2020-07-18)
+
+-   util getRandomFreePort, portIsFree functions added
+-   ejs sync render
+-   nginx loadbalancer config added
+
 ## 0.35.0 (2020-07-17)
 
 -   UserName -> Username
