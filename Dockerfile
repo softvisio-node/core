@@ -13,9 +13,11 @@ ADD . $WORSPACE/softvisio-core
 
 SHELL [ "/bin/bash", "-l", "-c" ]
 
+ONBUILD USER root
 ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
 ONBUILD ENV DIST_DIR="$WORKSPACE/dist"
 ONBUILD WORKDIR $DIST_DIR/data
+ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "node ../bin/main.js \"$@\"", "bash" ]
 
 RUN \
     # setup host
