@@ -1,3 +1,8 @@
+## 0.37.0 (2020-07-18)
+
+-   dockerfile updated
+-   project location in docker renamed to /var/local/dist
+
 ## 0.36.0 (2020-07-18)
 
 -   util getRandomFreePort, portIsFree functions added
