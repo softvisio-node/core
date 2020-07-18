@@ -17,6 +17,7 @@ ONBUILD USER root
 ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
 ONBUILD ENV DIST_DIR="$WORKSPACE/dist"
 ONBUILD WORKDIR $DIST_DIR/data
+ONBUILD ADD . $DIST_DIR
 ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "node ../bin/main.js \"$@\"", "bash" ]
 
 RUN \
