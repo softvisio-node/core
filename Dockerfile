@@ -1,6 +1,6 @@
 FROM centos:latest
 
-LABEL maintainer="zdm@softvisio.net"
+LABEL maintainer="zdm <zdm@softvisio.net>"
 
 USER root
 
