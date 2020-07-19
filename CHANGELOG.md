@@ -1,3 +1,13 @@
+## 0.38.0 (2020-07-19)
+
+-   chrome api prototype
+-   cloudflare cidrs added
+-   getRealIP method added
+-   nginx loadbalancer config updated
+-   cache-control fixed for proxies
+-   api client "persistent" replaced with "onDemand"
+-   api "ping" message type added
+
 ## 0.37.0 (2020-07-18)
 
 -   dockerfile updated
