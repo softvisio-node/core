@@ -1,3 +1,8 @@
+## 0.39.0 (2020-07-20)
+
+-   docs fixed
+-   ip-addr class added
+
 ## 0.38.0 (2020-07-19)
 
 -   chrome api prototype
