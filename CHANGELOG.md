@@ -1,3 +1,9 @@
+## 0.41.0 (2020-07-21)
+
+-   server memory cache removed
+-   loadbalancer config updated
+-   app.listen renamed to app.\_listen
+
 ## 0.40.0 (2020-07-20)
 
 -   unlink tmp on process exit
