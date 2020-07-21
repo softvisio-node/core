@@ -1,3 +1,7 @@
+## 0.42.0 (2020-07-21)
+
+-   api session/signin added possibility to check user permissions on sign in
+
 ## 0.41.0 (2020-07-21)
 
 -   server memory cache removed
