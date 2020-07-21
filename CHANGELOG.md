@@ -1,3 +1,7 @@
+## 0.42.1 (2020-07-21)
+
+-   signin permissions renamed
+
 ## 0.42.0 (2020-07-21)
 
 -   api session/signin added possibility to check user permissions on sign in
