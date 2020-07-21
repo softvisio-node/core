@@ -1,3 +1,9 @@
+## 0.43.0 (2020-07-21)
+
+-   session signin statuses added
+-   doc block parser fixed
+-   fs.config.write fixed
+
 ## 0.42.1 (2020-07-21)
 
 -   signin permissions renamed
