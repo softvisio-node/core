@@ -1,3 +1,7 @@
+## 0.43.1 (2020-07-21)
+
+-   upsert user auth hash
+
 ## 0.43.0 (2020-07-21)
 
 -   session signin statuses added
