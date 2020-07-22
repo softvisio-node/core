@@ -1,3 +1,8 @@
+## 0.44.0 (2020-07-22)
+
+-   api auth_hash table renamed to user_hash
+-   settings smtp from field added
+
 ## 0.43.1 (2020-07-21)
 
 -   upsert user auth hash
