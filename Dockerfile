@@ -29,9 +29,12 @@ RUN \
     \
     # install latest node
     && n latest \
-    && dnf clean all
+    && dnf clean all \
     # \
     # setup node
+    && npm config set better-sqlite3_binary_host "https://bitbucket.org/softvisio/prebuild/raw/master/better-sqlite3" \
+    && npm config set argon2_binary_host "https://bitbucket.org/softvisio/prebuild/raw/master/argon2" \
+    && npm config set uws_binary_host "https://bitbucket.org/softvisio/prebuild/raw/master/uws"
     # && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/setup-node.sh | /bin/bash \
     # \    \
     # cleanup node build environment
