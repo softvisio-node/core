@@ -1,3 +1,8 @@
+## 0.44.1 (2020-07-25)
+
+-   npm prebuild binary hosts added
+-   npm git links changed to git+https
+
 ## 0.44.0 (2020-07-22)
 
 -   api auth_hash table renamed to user_hash
