@@ -32,7 +32,8 @@ RUN \
     && dnf clean all \
     # \
     # setup node
-    && npm config set better-sqlite3_binary_host "https://bitbucket.org/softvisio/node-prebuild/raw/master/better-sqlite3"
+    && npm config set better-sqlite3_binary_host "https://bitbucket.org/softvisio/node-prebuild/raw/master/better-sqlite3" \
+    && npm config set uws_binary_host "https://bitbucket.org/softvisio/node-prebuild/raw/master/uws"
     # && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/setup-node.sh | /bin/bash \
     # \    \
     # cleanup node build environment
