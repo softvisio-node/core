@@ -1,3 +1,9 @@
+## 0.44.2 (2020-07-30)
+
+-   docker file updated
+-   docker remove cached node
+-   docker pre-build urls updated
+
 ## 0.44.1 (2020-07-25)
 
 -   npm prebuild binary hosts added
