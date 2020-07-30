@@ -29,6 +29,7 @@ RUN \
     \
     # install latest node
     && n latest \
+    && n rm latest \
     && dnf clean all \
     # \
     # setup node
