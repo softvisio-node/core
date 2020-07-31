@@ -1,3 +1,8 @@
+## 0.44.3 (2020-07-31)
+
+-   nginx vhost renamed to vhosts
+-   engines added to package.json
+
 ## 0.44.2 (2020-07-30)
 
 -   docker file updated
