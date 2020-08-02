@@ -1,3 +1,11 @@
+## 0.45.0 (2020-08-02)
+
+-   docs yaml dump settings updated
+-   docs multiline yaml fixed
+-   wiki markdown links fixed for bitbucket
+-   api signin method docs updated
+-   chrome removed in favour of puppeteer
+
 ## 0.44.3 (2020-07-31)
 
 -   nginx vhost renamed to vhosts
