@@ -33,7 +33,7 @@
 <% } -%>
 
 ```
-let res = await api.call( "<%- method.apiFullName %>"<%- method.templateParams %> );
+const res = await api.call( "<%- method.apiFullName %>"<%- method.templateParams %> );
 ```
 <% if (method.description) { -%>
 
