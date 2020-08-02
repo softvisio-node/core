@@ -15,10 +15,13 @@
 <% } -%>
 <% } -%>
 
+<a id="methods"></a>
+
 # Methods
 <% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].isApiMethod).map(id => spec.members[id]) ) { -%>
 
 <a id="<%- method.markdownId %>"></a>
+
 <% if (method.deprecated) { -%>
 ## ~~<%- method.apiName %>~~ `[deprecated]`
 <% } else { -%>
