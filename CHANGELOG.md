@@ -1,3 +1,10 @@
+## 0.45.1 (2020-08-03)
+
+-   deps updated
+-   shrinkwrap added
+-   chain proxy server class added
+-   api class template updated
+
 ## 0.45.0 (2020-08-02)
 
 -   docs yaml dump settings updated
