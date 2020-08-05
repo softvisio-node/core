@@ -1,3 +1,7 @@
+## 0.45.2 (2020-08-05)
+
+-   shrinkwrap updated
+
 ## 0.45.1 (2020-08-03)
 
 -   deps updated
