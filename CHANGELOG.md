@@ -1,3 +1,8 @@
+## 0.45.3 (2020-08-07)
+
+-   .eslintrc.yaml removed
+-   api schema skipParamsValidation -> noParamsValidation
+
 ## 0.45.2 (2020-08-05)
 
 -   shrinkwrap updated
