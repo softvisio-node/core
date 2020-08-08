@@ -1,3 +1,7 @@
+## 0.46.0 (2020-08-08)
+
+-   app env substitute vars
+
 ## 0.45.3 (2020-08-07)
 
 -   .eslintrc.yaml removed
