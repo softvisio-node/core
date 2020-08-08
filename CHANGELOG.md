@@ -1,3 +1,8 @@
+## 0.47.1 (2020-08-08)
+
+-   api validate email regexp updated
+-   api username length expanded to 255 chars
+
 ## 0.47.0 (2020-08-08)
 
 -   electron updates app mixin
