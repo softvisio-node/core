@@ -1,3 +1,7 @@
+## 0.47.0 (2020-08-08)
+
+-   electron updates app mixin
+
 ## 0.46.0 (2020-08-08)
 
 -   app env substitute vars
