@@ -39,7 +39,7 @@ RUN \
     && npm config set uws_binary_host "https://raw.githubusercontent.com/softvisio/node-prebuild/master/uws"
     # \
     # && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/setup-node.sh | /bin/bash \
-    # \    \
+    # \
     # cleanup node build environment
     # && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/env-build-node.sh | /bin/bash -s -- cleanup
 
