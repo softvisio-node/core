@@ -1,3 +1,9 @@
+## 0.48.1 (2020-08-13)
+
+-   proxy server refactored
+-   https proxy refactored
+-   http proxy refactored
+
 ## 0.48.0 (2020-08-13)
 
 -   ip-addr subnet cidr mask fixed
