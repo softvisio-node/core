@@ -1,3 +1,11 @@
+## 0.48.0 (2020-08-13)
+
+-   ip-addr subnet cidr mask fixed
+-   proxies added
+-   server moved to http/server
+-   typo in dockerfile
+-   util readChunk function added
+
 ## 0.47.1 (2020-08-08)
 
 -   api validate email regexp updated
