@@ -1,3 +1,7 @@
+## 0.48.2 (2020-08-14)
+
+-   proxy server socks5 connection protocol updated
+
 ## 0.48.1 (2020-08-13)
 
 -   proxy server refactored
