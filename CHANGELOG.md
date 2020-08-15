@@ -1,3 +1,9 @@
+## 0.48.3 (2020-08-15)
+
+-   proxy server refactored
+-   proxy socket error handlers
+-   util readLine params changed
+
 ## 0.48.2 (2020-08-14)
 
 -   proxy server socks5 connection protocol updated
