@@ -1,3 +1,7 @@
+## 0.48.5 (2020-08-15)
+
+-   proxy server authentication
+
 ## 0.48.4 (2020-08-15)
 
 -   proxy server check connection type before connect to upstream proxy
