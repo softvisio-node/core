@@ -1,3 +1,12 @@
+## 0.49.0 (2020-08-17)
+
+-   namesilo api
+-   http/fetch duplicate statusText in reason property
+-   api user object id renamed to guid
+-   http agent tls servername added
+-   ip-addr refactored
+-   status codes updated
+
 ## 0.48.5 (2020-08-15)
 
 -   proxy server authentication
