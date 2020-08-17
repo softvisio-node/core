@@ -1,3 +1,9 @@
+## 0.50.0 (2020-08-17)
+
+-   deps updated
+-   threads return 404 in thread not found
+-   namesilo api updated
+
 ## 0.49.0 (2020-08-17)
 
 -   namesilo api
