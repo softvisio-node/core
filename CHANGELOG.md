@@ -1,3 +1,11 @@
+## 0.52.0 (2020-08-18)
+
+-   token encoded as base58
+-   util toBase58, fromBase58 functions added
+-   base-x deps added
+-   encode default password to base64u
+-   default password length set to 16 bytes
+
 ## 0.51.1 (2020-08-18)
 
 -   allow to send event to the several threads at once
