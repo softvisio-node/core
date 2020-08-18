@@ -1,3 +1,7 @@
+## 0.51.1 (2020-08-18)
+
+-   allow to send event to the several threads at once
+
 ## 0.51.0 (2020-08-18)
 
 -   allow to send event to multiple users at once
