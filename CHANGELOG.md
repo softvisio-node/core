@@ -1,3 +1,8 @@
+## 0.51.0 (2020-08-18)
+
+-   allow to send event to multiple users at once
+-   api getObjectUsers method added
+
 ## 0.50.0 (2020-08-17)
 
 -   deps updated
