@@ -1,3 +1,9 @@
+## 0.52.1 (2020-08-19)
+
+-   webpack cache-control updated
+-   nginx proxy add-modified-since header added
+-   api handle token decode errors
+
 ## 0.52.0 (2020-08-18)
 
 -   token encoded as base58
