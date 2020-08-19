@@ -1,3 +1,7 @@
+## 0.54.0 (2020-08-19)
+
+-   token type converted to string
+
 ## 0.53.0 (2020-08-19)
 
 -   api tokens structire updated
