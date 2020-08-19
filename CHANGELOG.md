@@ -1,3 +1,9 @@
+## 0.53.0 (2020-08-19)
+
+-   api tokens structire updated
+-   bytesToUuid renamed to bufferToUuid
+-   nginx conf tabs fixed
+
 ## 0.52.1 (2020-08-19)
 
 -   webpack cache-control updated
