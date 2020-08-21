@@ -1,3 +1,10 @@
+## 0.56.0 (2020-08-21)
+
+-   api setUserPassword accepts user id or name
+-   api setUserEnabled accepts user id or name
+-   api admin/users/set-password endpoint added
+-   api token permissions merge fixed
+
 ## 0.55.0 (2020-08-19)
 
 -   api tokens
