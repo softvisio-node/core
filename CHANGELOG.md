@@ -1,3 +1,15 @@
+## 0.57.0 (2020-08-22)
+
+-   util quotemeta func added
+-   archive.org api
+-   majestic api
+-   moz api
+-   namesilo api refactored
+-   MaxThreads class added
+-   semaphore refactored
+-   fetch creates agent if proxy is specified
+-   proxy url parsing improved
+
 ## 0.56.0 (2020-08-21)
 
 -   api setUserPassword accepts user id or name
