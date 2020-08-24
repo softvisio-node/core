@@ -1,3 +1,9 @@
+## 0.58.0 (2020-08-24)
+
+-   puppeteer api added
+-   2captcha class added
+-   deps updated
+
 ## 0.57.0 (2020-08-22)
 
 -   util quotemeta func added
