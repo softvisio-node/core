@@ -1,3 +1,8 @@
+## 0.58.1 (2020-08-25)
+
+-   deps updated
+-   2captcha request method fixed
+
 ## 0.58.0 (2020-08-24)
 
 -   puppeteer api added
