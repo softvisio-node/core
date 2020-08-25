@@ -35,7 +35,7 @@
         "base-x": ">=3.0.8",
         "bufferutil": ">=4.0.1",
         "ejs": ">=3.1.5",
-        "eventemitter3": ">=4.0.5",
+        "eventemitter3": ">=4.0.6",
         "fast-xml-parser": ">=3.17.4",
         "glob": ">=7.1.6",
         "hash-wasm": ">=3.7.2",
