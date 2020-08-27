@@ -1,3 +1,10 @@
+## 0.59.0 (2020-08-27)
+
+-   sql supporn for nested transactions added
+-   util bufferToUuid, uuidToBuffer removed
+-   sql inTransaction getter
+-   local api methods supports optional dbh parameter
+
 ## 0.58.1 (2020-08-25)
 
 -   deps updated
