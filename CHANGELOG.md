@@ -1,3 +1,10 @@
+## 0.60.0 (2020-08-28)
+
+-   api admin/users/set-username method added
+-   api setUserName method added
+-   api process usernameIsEmail option on create user
+-   puppeteer uses google chrome stable by default on linux
+
 ## 0.59.0 (2020-08-27)
 
 -   sql supporn for nested transactions added
