@@ -1,3 +1,7 @@
+## 0.61.2 (2020-08-30)
+
+-   deps updated
+
 ## 0.61.1 (2020-08-30)
 
 -   proxy.session -> proxy.sessionId
