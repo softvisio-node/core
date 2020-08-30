@@ -220,6 +220,14 @@
                 "yallist": "^4.0.0"
             }
         },
+        "maxmind": {
+            "version": "4.1.4",
+            "resolved": "https://registry.npmjs.org/maxmind/-/maxmind-4.1.4.tgz",
+            "integrity": "sha512-DfcZPpc0XJVF1yypRpVqMs9JiSYYShVkfexSjwTbfqZMCEoQlCU83ooX9cRmWMUaLqm4zffi7HtZg7XqcJaL1A==",
+            "requires": {
+                "tiny-lru": "7.0.6"
+            }
+        },
         "mime-db": {
             "version": "1.44.0",
             "resolved": "https://registry.npmjs.org/mime-db/-/mime-db-1.44.0.tgz",
@@ -288,6 +296,11 @@
             "requires": {
                 "has-flag": "^3.0.0"
             }
+        },
+        "tiny-lru": {
+            "version": "7.0.6",
+            "resolved": "https://registry.npmjs.org/tiny-lru/-/tiny-lru-7.0.6.tgz",
+            "integrity": "sha512-zNYO0Kvgn5rXzWpL0y3RS09sMK67eGaQj9805jlK9G6pSadfriTczzLHFXa/xcW4mIRfmlB9HyQ/+SgL0V1uow=="
         },
         "uri-js": {
             "version": "4.2.2",
