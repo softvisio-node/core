@@ -1,3 +1,7 @@
+## 0.61.1 (2020-08-30)
+
+-   proxy.session -> proxy.sessionId
+
 ## 0.61.0 (2020-08-30)
 
 -   proxy refactored
