@@ -1,3 +1,8 @@
+## 0.61.0 (2020-08-30)
+
+-   proxy refactored
+-   luminati proxy type added
+
 ## 0.60.0 (2020-08-28)
 
 -   api admin/users/set-username method added
