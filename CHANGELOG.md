@@ -1,3 +1,8 @@
+## 0.61.3 (2020-08-30)
+
+-   proxy dns use resolve()
+-   proxy options parser imprved
+
 ## 0.61.2 (2020-08-30)
 
 -   deps updated
