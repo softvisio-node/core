@@ -1,3 +1,9 @@
+## 0.62.0 (2020-08-30)
+
+-   maxmind wrapper added
+-   puppeteer.proxy -> .proxyServer
+-   debug log removed
+
 ## 0.61.3 (2020-08-30)
 
 -   proxy dns use resolve()
