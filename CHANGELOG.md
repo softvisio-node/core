@@ -1,3 +1,7 @@
+## 0.63.3 (2020-08-31)
+
+-   debug log removed
+
 ## 0.63.2 (2020-08-31)
 
 -   cache control headers fixed
