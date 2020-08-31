@@ -1,3 +1,7 @@
+## 0.63.1 (2020-08-31)
+
+-   geolite2-redist source updated
+
 ## 0.63.0 (2020-08-31)
 
 -   proxy get peer ip refactored
