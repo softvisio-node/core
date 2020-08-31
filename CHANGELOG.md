@@ -1,3 +1,8 @@
+## 0.63.2 (2020-08-31)
+
+-   cache control headers fixed
+-   nginx vhost config updated
+
 ## 0.63.1 (2020-08-31)
 
 -   geolite2-redist source updated
