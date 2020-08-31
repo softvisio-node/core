@@ -1,3 +1,9 @@
+## 0.63.0 (2020-08-31)
+
+-   proxy get peer ip refactored
+-   maxmind refactored
+-   ip-addr geo, asn properties added
+
 ## 0.62.0 (2020-08-30)
 
 -   maxmind wrapper added
