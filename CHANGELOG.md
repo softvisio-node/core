@@ -1,3 +1,7 @@
+## 0.63.4 (2020-08-31)
+
+-   app log on installing loadbalancer config
+
 ## 0.63.3 (2020-08-31)
 
 -   debug log removed
