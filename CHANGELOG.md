@@ -1,3 +1,9 @@
+## 0.63.5 (2020-09-01)
+
+-   api log params validation errors in devel mode
+-   api devel property added
+-   smtp refactored
+
 ## 0.63.4 (2020-08-31)
 
 -   app log on installing loadbalancer config
