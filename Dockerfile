@@ -32,6 +32,10 @@ RUN \
     && n rm latest \
     && dnf clean all \
     \
+    # make global node modules loadable
+    && rm -rf ~/.node_modules \
+    && ln -s ~/.npm/lib/node_modules ~/.node_modules \
+    \
     # setup node
     && npm config set prefix ~/.npm \
     && npm config set cache ~/.npm-cache \
