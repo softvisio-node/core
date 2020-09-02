@@ -1,3 +1,7 @@
+## 0.64.0 (2020-09-02)
+
+-   luminati proxy getters added
+
 ## 0.63.5 (2020-09-01)
 
 -   api log params validation errors in devel mode
