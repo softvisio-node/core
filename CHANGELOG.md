@@ -1,3 +1,7 @@
+## 0.64.1 (2020-09-02)
+
+-   puppeteer arguments added
+
 ## 0.64.0 (2020-09-02)
 
 -   luminati proxy getters added
