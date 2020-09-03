@@ -1,3 +1,7 @@
+## 0.65.1 (2020-09-03)
+
+-   nginx tmpl path fixed
+
 ## 0.65.0 (2020-09-03)
 
 -   nginx moved to root
