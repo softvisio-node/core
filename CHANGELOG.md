@@ -1,3 +1,11 @@
+## 0.65.0 (2020-09-03)
+
+-   nginx moved to root
+-   smtp moved to root
+-   puppeteer default args updated
+-   puppeteer moved to the root
+-   docker make global node modules loadable
+
 ## 0.64.1 (2020-09-02)
 
 -   puppeteer arguments added
