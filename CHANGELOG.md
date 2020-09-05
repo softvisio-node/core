@@ -1,3 +1,12 @@
+## 0.66.0 (2020-09-05)
+
+-   deps updated
+-   uws tag changed to latest
+-   smtp refactored
+-   nodemailer removed
+-   readLine refactored
+-   readChunk, readLine encoding option added
+
 ## 0.65.1 (2020-09-03)
 
 -   nginx tmpl path fixed
