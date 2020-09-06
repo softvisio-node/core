@@ -1,3 +1,8 @@
+## 0.67.0 (2020-09-06)
+
+-   api GET endpoints added
+-   api POST endpoints added
+
 ## 0.66.0 (2020-09-05)
 
 -   deps updated
