@@ -423,6 +423,15 @@
                 "merge-deep": "^3.0.1"
             }
         },
+        "puppeteer-extra-plugin-stealth": {
+            "version": "2.6.1",
+            "resolved": "https://registry.npmjs.org/puppeteer-extra-plugin-stealth/-/puppeteer-extra-plugin-stealth-2.6.1.tgz",
+            "integrity": "sha512-KPoqjvYdnX8BpcjuXZKethad11WY1UfVzckSmOpBCCtdYic1s6esPhenLTvBEfZQ5XAT61yLK8jQtNgkML0QVg==",
+            "requires": {
+                "debug": "^4.1.1",
+                "puppeteer-extra-plugin": "^3.1.7"
+            }
+        },
         "safe-buffer": {
             "version": "5.2.1",
             "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz",
