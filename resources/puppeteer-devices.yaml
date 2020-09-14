@@ -1,1 +1,25 @@
+windows10:
+  windowSize: [1280, 720]
+  viewport:
+    width: 1280
+    height: 620
+    deviceScaleFactor: 1
+    isMobile: false
+    hasTouch: false
+    isLandscape: false
+  userAgent: ~
+  userAgentPlatform: Windows NT 10.0; Win64; x64
+  platform: Win32
 
+linux:
+  windowSize: [1280, 720]
+  viewport:
+    width: 1280
+    height: 620
+    deviceScaleFactor: 1
+    isMobile: false
+    hasTouch: false
+    isLandscape: false
+  userAgent: ~
+  userAgentPlatform: X11; Linux x86_64
+  platform: Linux x86_64
