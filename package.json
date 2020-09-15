@@ -30,7 +30,7 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "ajv": ">=6.12.4",
+        "ajv": ">=6.12.5",
         "ansi-colors": ">=4.1.1",
         "base-x": ">=3.0.8",
         "bufferutil": ">=4.0.1",
