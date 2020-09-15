@@ -1,3 +1,19 @@
+## 0.68.0 (2020-09-15)
+
+-   dns class added
+-   proxy server resolve
+-   proxy resolveHostname method removed
+-   resolve option removed from proxy
+-   puppeteer refactored
+-   proxy startSession() options
+-   deps updated
+-   puppeteer devices
+-   proxy server refactored
+-   puppeteer windows size added
+-   maxmind unref updater timer
+-   app props replaced with getters
+-   api http endpoints refactored
+
 ## 0.67.0 (2020-09-06)
 
 -   api GET endpoints added
