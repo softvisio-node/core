@@ -1,3 +1,11 @@
+## 0.69.0 (2020-09-17)
+
+-   2captcha docs fixed
+-   google serp api added
+-   proxy sockets destroy fixed
+-   puppeteer timezone emulation refactored
+-   puppeteer devices added
+
 ## 0.68.1 (2020-09-15)
 
 -   deps updated
