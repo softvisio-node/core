@@ -5,6 +5,7 @@ LABEL maintainer="zdm <zdm@softvisio.net>"
 USER root
 
 ENV TZ=UTC \
+    LIBC=-el8 \
     WORKSPACE="/var/local"
 
 WORKDIR $WORKSPACE
