@@ -1,3 +1,11 @@
+## 0.70.0 (2020-09-20)
+
+-   puppeteer devices refactored
+-   puppeteer devices resolutions added
+-   deps updated
+-   docker mirrors
+-   docker LIBC env var exported
+
 ## 0.69.0 (2020-09-17)
 
 -   2captcha docs fixed
