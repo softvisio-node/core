@@ -1,3 +1,8 @@
+## 0.71.0 (2020-09-29)
+
+-   proxy server stats
+-   deps updated
+
 ## 0.70.0 (2020-09-20)
 
 -   puppeteer devices refactored
