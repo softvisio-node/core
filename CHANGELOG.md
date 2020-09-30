@@ -1,3 +1,7 @@
+## 0.72.0 (2020-09-30)
+
+-   pptr headfulMaximized option
+
 ## 0.71.0 (2020-09-29)
 
 -   proxy server stats
