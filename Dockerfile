@@ -10,7 +10,7 @@ ENV TZ=UTC \
 
 WORKDIR $WORKSPACE
 
-ADD . $WORSPACE/softvisio-core
+# ADD . $WORSPACE/softvisio-core
 
 SHELL [ "/bin/bash", "-l", "-c" ]
 
