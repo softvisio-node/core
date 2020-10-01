@@ -25,6 +25,10 @@ RUN \
     # setup host
     source <( curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/setup-host.sh ) \
     \
+    # setup docker base image
+    && dnf -y install tini \
+    && ln -s /usr/local/bin/tini /usr/local/bin/docker-init \
+    \
     # setup node build environment
     # && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/env-build-node.sh | /bin/bash -s -- setup \
     \
