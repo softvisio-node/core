@@ -1,3 +1,7 @@
+## 0.73.1 (2020-10-07)
+
+-   api token read fixed
+
 ## 0.73.0 (2020-10-07)
 
 -   get app settings getter
