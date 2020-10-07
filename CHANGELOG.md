@@ -1,3 +1,10 @@
+## 0.73.0 (2020-10-07)
+
+-   get app settings getter
+-   app auth getters
+-   api classes constructor removed
+-   api getters
+
 ## 0.72.1 (2020-10-07)
 
 -   deps updated
