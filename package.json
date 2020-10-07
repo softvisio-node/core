@@ -41,7 +41,7 @@
         "hash-wasm": ">=4.2.2",
         "js-yaml": ">=3.14.0",
         "lru-cache": ">=6.0.0",
-        "maxmind": ">=4.2.0",
+        "maxmind": ">=4.3.0",
         "mime-db": ">=1.45.0",
         "node-fetch": ">=2.6.1",
         "notepack.io": ">=2.3.0",
