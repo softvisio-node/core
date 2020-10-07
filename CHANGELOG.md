@@ -1,3 +1,8 @@
+## 0.72.1 (2020-10-07)
+
+-   deps updated
+-   google serp fixed
+
 ## 0.72.0 (2020-09-30)
 
 -   pptr headfulMaximized option
