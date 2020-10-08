@@ -1,3 +1,8 @@
+## 0.74.0 (2020-10-08)
+
+-   app set root password from file on init
+-   code cleanup
+
 ## 0.73.2 (2020-10-08)
 
 -   api base class moved
