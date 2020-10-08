@@ -1,3 +1,7 @@
+## 0.73.2 (2020-10-08)
+
+-   api base class moved
+
 ## 0.73.1 (2020-10-07)
 
 -   api token read fixed
