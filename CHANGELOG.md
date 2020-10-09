@@ -1,3 +1,8 @@
+## 0.75.0 (2020-10-09)
+
+-   puppeteer proxy option supports boolean values
+-   proxy server stats
+
 ## 0.74.0 (2020-10-08)
 
 -   app set root password from file on init
