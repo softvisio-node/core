@@ -1,3 +1,8 @@
+## 0.76.0 (2020-10-10)
+
+-   puppeteer devices refactored
+-   proxy server stat event
+
 ## 0.75.0 (2020-10-09)
 
 -   puppeteer proxy option supports boolean values
