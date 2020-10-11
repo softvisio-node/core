@@ -30,7 +30,7 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "ajv": ">=6.12.5",
+        "ajv": ">=6.12.6",
         "ansi-colors": ">=4.1.1",
         "base-x": ">=3.0.8",
         "bufferutil": ">=4.0.1",
@@ -38,7 +38,7 @@
         "eventemitter3": ">=4.0.7",
         "fast-xml-parser": ">=3.17.4",
         "glob": ">=7.1.6",
-        "hash-wasm": ">=4.2.2",
+        "hash-wasm": ">=4.3.0",
         "js-yaml": ">=3.14.0",
         "lru-cache": ">=6.0.0",
         "maxmind": ">=4.3.0",
