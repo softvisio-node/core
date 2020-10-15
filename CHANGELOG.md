@@ -1,3 +1,13 @@
+## 0.77.0 (2020-10-15)
+
+-   api docs formatted
+-   linted
+-   yaml comments formatted
+-   yaml comments flow level removed
+-   proxy type added
+-   packetstream proxy
+-   deps updated
+
 ## 0.76.0 (2020-10-10)
 
 -   puppeteer devices refactored
