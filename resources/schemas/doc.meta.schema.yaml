@@ -2,10 +2,10 @@
 - $id: module
   type: object
   properties:
-    summary: { $ref: 'components#/summary' }
-    description: { $ref: 'components#/desc' }
+    summary: { $ref: "components#/summary" }
+    description: { $ref: "components#/desc" }
 
-    module: { $ref: 'components#/module' }
+    module: { $ref: "components#/module" }
     id: { type: string }
     name: { type:string }
     members: { type: object }
@@ -17,17 +17,17 @@
   type: object
   properties:
     function: { type: string }
-    summary: { $ref: 'components#/summary' }
-    description: { $ref: 'components#/desc' }
-    deprecated: { $ref: 'components#/deprecated' }
-    async: { type: 'boolean' }
-    throws: { $ref: 'components#/throws' }
-    params: { $ref: 'components#/params' }
+    summary: { $ref: "components#/summary" }
+    description: { $ref: "components#/desc" }
+    deprecated: { $ref: "components#/deprecated" }
+    async: { type: "boolean" }
+    throws: { $ref: "components#/throws" }
+    params: { $ref: "components#/params" }
 
-    module: { $ref: 'components#/module' }
+    module: { $ref: "components#/module" }
     id: { type: string }
     name: { type: string }
-    isFunction: { $ref: 'components#/true' }
+    isFunction: { $ref: "components#/true" }
 
   required: [function, summary, module, id, name, isFunction]
   additionalProperties: false
@@ -37,17 +37,17 @@
   type: object
   properties:
     class: { type: string }
-    summary: { $ref: 'components#/summary' }
-    description: { $ref: 'components#/desc' }
-    deprecated: { $ref: 'components#/deprecated' }
+    summary: { $ref: "components#/summary" }
+    description: { $ref: "components#/desc" }
+    deprecated: { $ref: "components#/deprecated" }
     extends:
       type: array
       items: { type: string }
       minItems: 1
-    events: { $ref: 'components#/events' }
-    permissions: { $ref: 'components#/permissions' }
+    events: { $ref: "components#/events" }
+    permissions: { $ref: "components#/permissions" }
 
-    module: { $ref: 'components#/module' }
+    module: { $ref: "components#/module" }
     id: { type: string }
     name: { type: string }
     members: { type: object }
@@ -60,16 +60,16 @@
   type: object
   properties:
     property: { type: string }
-    summary: { $ref: 'components#/summary' }
-    description: { $ref: 'components#/desc' }
-    deprecated: { $ref: 'components#/deprecated' }
+    summary: { $ref: "components#/summary" }
+    description: { $ref: "components#/desc" }
+    deprecated: { $ref: "components#/deprecated" }
     static: { type: boolean }
 
-    module: { $ref: 'components#/module' }
+    module: { $ref: "components#/module" }
     id: { type: string }
     name: { type: string }
-    isProperty: { $ref: 'components#/true' }
-    access: { $res: 'components#/access' }
+    isProperty: { $ref: "components#/true" }
+    access: { $res: "components#/access" }
 
   required: [property, summary, module, id, name, isProperty, access]
   additionalProperties: false
@@ -79,22 +79,22 @@
   type: object
   properties:
     method: { type: string }
-    summary: { $ref: 'components#/summary' }
-    description: { $ref: 'components#/desc' }
-    deprecated: { $ref: 'components#/deprecated' }
+    summary: { $ref: "components#/summary" }
+    description: { $ref: "components#/desc" }
+    deprecated: { $ref: "components#/deprecated" }
     static: { type: boolean }
-    async: { type: 'boolean' }
-    noParamsValidation: { type: 'boolean' }
-    permissions: { $ref: 'components#/permissions' }
-    throws: { $ref: 'components#/throws' }
-    params: { $ref: 'components#/params' }
+    async: { type: "boolean" }
+    noParamsValidation: { type: "boolean" }
+    permissions: { $ref: "components#/permissions" }
+    throws: { $ref: "components#/throws" }
+    params: { $ref: "components#/params" }
 
-    module: { $ref: 'components#/module' }
+    module: { $ref: "components#/module" }
     id: { type: string }
     name: { type: string }
-    isMethod: { $ref: 'components#/true' }
-    isApiMethod: { $ref: 'components#/true' }
-    access: { $res: 'components#/access' }
+    isMethod: { $ref: "components#/true" }
+    isApiMethod: { $ref: "components#/true" }
+    access: { $res: "components#/access" }
     inheritedFrom: { type: string }
 
   required: [method, summary, module, id, name, isMethod, access]
@@ -119,7 +119,7 @@
     properties:
       id: { type: string }
       name: { type: string }
-      namespacePath: { type: ['null', string] }
+      namespacePath: { type: ["null", string] }
     required: [id, name, namespacePath]
     additionalProperties: false
 
@@ -131,7 +131,7 @@
     type: array
     items:
       type: string
-      pattern: '^(?:[!@*]|[a-z-]+)$'
+      pattern: "^(?:[!@*]|[a-z-]+)$"
     minItems: 1
 
   # TODO
@@ -149,8 +149,8 @@
       type: object
       properties:
         name: { type: string }
-        summary: { $ref: 'components#/summary' }
-        description: { $ref: 'components#/desc' }
+        summary: { $ref: "components#/summary" }
+        description: { $ref: "components#/desc" }
         required: { type: boolean }
         schema: { type: object }
       required: [name, schema]

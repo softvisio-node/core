@@ -1,4 +1,4 @@
-'':
+"":
   iso2: null
   google: google.com
   name: Worldwide
@@ -522,8 +522,8 @@ nl:
   iso2: nl
   google: google.nl
   name: Netherlands
-'no':
-  iso2: 'no'
+"no":
+  iso2: "no"
   google: google.no
   name: Norway
 np:
