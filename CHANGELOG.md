@@ -1,3 +1,8 @@
+## 0.78.0 (2020-10-16)
+
+-   puppeteer refactored
+-   fs tmp refactored
+
 ## 0.77.0 (2020-10-15)
 
 -   api docs formatted
