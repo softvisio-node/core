@@ -1,3 +1,8 @@
+## 0.79.0 (2020-10-17)
+
+-   cli short options fixed
+-   load app settings from .config.yaml
+
 ## 0.78.0 (2020-10-16)
 
 -   puppeteer refactored
