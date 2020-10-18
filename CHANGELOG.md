@@ -1,3 +1,7 @@
+## 0.80.0 (2020-10-18)
+
+-   app config refactored
+
 ## 0.79.0 (2020-10-17)
 
 -   cli short options fixed
