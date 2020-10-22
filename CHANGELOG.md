@@ -1,3 +1,7 @@
+## 0.81.1 (2020-10-22)
+
+-   dockerfile fixed
+
 ## 0.81.0 (2020-10-22)
 
 -   docker tags mapping added
