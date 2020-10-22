@@ -1,3 +1,8 @@
+## 0.80.1 (2020-10-22)
+
+-   deps updated
+-   readme
+
 ## 0.80.0 (2020-10-18)
 
 -   app config refactored
