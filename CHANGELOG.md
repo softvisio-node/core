@@ -1,3 +1,7 @@
+## 0.81.0 (2020-10-22)
+
+-   docker tags mapping added
+
 ## 0.80.2 (2020-10-22)
 
 -   npm 7 reverted to 6
