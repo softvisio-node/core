@@ -12,5 +12,5 @@ You may need to install following optional dependencies, depending on your proje
 npm i argon2 --save-prod
 npm i better-sqlite3 --save-prod
 npm i geolite2-redist --save-prod
-npm i uws@git+https://bitbucket.org/softvisio/uws.git#latest --save-prod
+npm i uws@bitbucket:softvisio/uws#latest --save-prod
 ```
