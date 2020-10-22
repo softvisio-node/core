@@ -33,15 +33,16 @@ RUN \
     && n rm latest \
     && dnf clean all \
     \
-    # make global node modules loadable
-    && rm -rf ~/.node_modules \
-    && ln -s ~/.npm/lib/node_modules ~/.node_modules \
-    \
     # setup node
     && npm config set prefix ~/.npm \
     && npm config set cache ~/.npm-cache \
     && npm config set better-sqlite3_binary_host "https://raw.githubusercontent.com/softvisio/node-prebuild/master/better-sqlite3" \
-    && npm config set uws_binary_host "https://raw.githubusercontent.com/softvisio/node-prebuild/master/uws"
+    && npm config set uws_binary_host "https://raw.githubusercontent.com/softvisio/node-prebuild/master/uws" \
+    \
+    # make global node modules loadable
+    && mkdir -p ~/.npm/lib \
+    && rm -rf ~/.node_modules \
+    && ln -s ~/.npm/lib/node_modules ~/.node_modules
     # \
     # && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/setup-node.sh | /bin/bash \
     # \
