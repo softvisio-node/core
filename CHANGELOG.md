@@ -1,3 +1,7 @@
+## 0.82.1 (2020-10-23)
+
+-   deps updated
+
 ## 0.82.0 (2020-10-23)
 
 -   api session.\_getAppSettings method async
