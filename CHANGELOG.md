@@ -1,3 +1,7 @@
+## 0.82.2 (2020-10-23)
+
+-   docker node downgraded to 14
+
 ## 0.82.1 (2020-10-23)
 
 -   deps updated
