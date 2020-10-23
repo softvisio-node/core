@@ -29,8 +29,10 @@ RUN \
     # && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/env-build-node.sh | /bin/bash -s -- setup \
     \
     # install latest node
-    && n latest \
-    && n rm latest \
+    # && n latest \
+    # && n rm latest \
+    && n 14 \
+    && n rm 14 \
     && dnf clean all \
     \
     # setup node
