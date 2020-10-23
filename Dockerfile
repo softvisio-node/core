@@ -6,7 +6,8 @@ USER root
 
 ENV TZ=UTC \
     LIBC=-el8 \
-    WORKSPACE="/var/local"
+    WORKSPACE="/var/local" \
+    NODE_VERSION=14
 
 WORKDIR $WORKSPACE
 
@@ -29,10 +30,8 @@ RUN \
     # && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/env-build-node.sh | /bin/bash -s -- setup \
     \
     # install latest node
-    # && n latest \
-    # && n rm latest \
-    && n 14 \
-    && n rm 14 \
+    && n $NODE_VERSION \
+    && n rm $NODE_VERSION \
     && dnf clean all \
     \
     # setup node
