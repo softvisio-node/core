@@ -1,1184 +1,987 @@
 {
-    "WORLDWIDE": {
-        "iso2": "",
-        "country": "Worldwide",
+    "worldwide": {
+        "id": "worldwide",
         "tld": ".com",
-        "googleDomain": "google.com"
+        "domain": "google.com"
     },
     "ad": {
-        "iso2": "ad",
-        "country": "Andorra",
+        "id": "ad",
         "tld": ".ad",
-        "googleDomain": "google.ad"
+        "domain": "google.ad"
     },
     "ae": {
-        "iso2": "ae",
-        "country": "United Arab Emirates",
+        "id": "ae",
         "tld": ".ae",
-        "googleDomain": "google.ae"
+        "domain": "google.ae"
     },
     "af": {
-        "iso2": "af",
-        "country": "Afghanistan",
+        "id": "af",
         "tld": ".af",
-        "googleDomain": "google.com.af"
+        "domain": "google.com.af"
     },
     "ag": {
-        "iso2": "ag",
-        "country": "Antigua and Barbuda",
+        "id": "ag",
         "tld": ".ag",
-        "googleDomain": "google.com.ag"
+        "domain": "google.com.ag"
     },
     "ai": {
-        "iso2": "ai",
-        "country": "Anguilla",
+        "id": "ai",
         "tld": ".ai",
-        "googleDomain": "google.com.ai"
+        "domain": "google.com.ai"
     },
     "al": {
-        "iso2": "al",
-        "country": "Albania",
+        "id": "al",
         "tld": ".al",
-        "googleDomain": "google.al"
+        "domain": "google.al"
     },
     "am": {
-        "iso2": "am",
-        "country": "Armenia",
+        "id": "am",
         "tld": ".am",
-        "googleDomain": "google.am"
+        "domain": "google.am"
     },
     "ao": {
-        "iso2": "ao",
-        "country": "Angola",
+        "id": "ao",
         "tld": ".ao",
-        "googleDomain": "google.co.ao"
+        "domain": "google.co.ao"
     },
     "ar": {
-        "iso2": "ar",
-        "country": "Argentina",
+        "id": "ar",
         "tld": ".ar",
-        "googleDomain": "google.com.ar"
+        "domain": "google.com.ar"
     },
     "as": {
-        "iso2": "as",
-        "country": "American Samoa",
+        "id": "as",
         "tld": ".as",
-        "googleDomain": "google.as"
+        "domain": "google.as"
     },
     "at": {
-        "iso2": "at",
-        "country": "Austria",
+        "id": "at",
         "tld": ".at",
-        "googleDomain": "google.at"
+        "domain": "google.at"
     },
     "au": {
-        "iso2": "au",
-        "country": "Australia",
+        "id": "au",
         "tld": ".au",
-        "googleDomain": "google.com.au"
+        "domain": "google.com.au"
     },
     "az": {
-        "iso2": "az",
-        "country": "Azerbaijan",
+        "id": "az",
         "tld": ".az",
-        "googleDomain": "google.az"
+        "domain": "google.az"
     },
     "ba": {
-        "iso2": "ba",
-        "country": "Bosnia and Herzegovina",
+        "id": "ba",
         "tld": ".ba",
-        "googleDomain": "google.ba"
+        "domain": "google.ba"
     },
     "bd": {
-        "iso2": "bd",
-        "country": "Bangladesh",
+        "id": "bd",
         "tld": ".bd",
-        "googleDomain": "google.com.bd"
+        "domain": "google.com.bd"
     },
     "be": {
-        "iso2": "be",
-        "country": "Belgium",
+        "id": "be",
         "tld": ".be",
-        "googleDomain": "google.be"
+        "domain": "google.be"
     },
     "bf": {
-        "iso2": "bf",
-        "country": "Burkina Faso",
+        "id": "bf",
         "tld": ".bf",
-        "googleDomain": "google.bf"
+        "domain": "google.bf"
     },
     "bg": {
-        "iso2": "bg",
-        "country": "Bulgaria",
+        "id": "bg",
         "tld": ".bg",
-        "googleDomain": "google.bg"
+        "domain": "google.bg"
     },
     "bh": {
-        "iso2": "bh",
-        "country": "Bahrain",
+        "id": "bh",
         "tld": ".bh",
-        "googleDomain": "google.com.bh"
+        "domain": "google.com.bh"
     },
     "bi": {
-        "iso2": "bi",
-        "country": "Burundi",
+        "id": "bi",
         "tld": ".bi",
-        "googleDomain": "google.bi"
+        "domain": "google.bi"
     },
     "bj": {
-        "iso2": "bj",
-        "country": "Benin",
+        "id": "bj",
         "tld": ".bj",
-        "googleDomain": "google.bj"
+        "domain": "google.bj"
     },
     "bn": {
-        "iso2": "bn",
-        "country": "Brunei",
+        "id": "bn",
         "tld": ".bn",
-        "googleDomain": "google.com.bn"
+        "domain": "google.com.bn"
     },
     "bo": {
-        "iso2": "bo",
-        "country": "Bolivia",
+        "id": "bo",
         "tld": ".bo",
-        "googleDomain": "google.com.bo"
+        "domain": "google.com.bo"
     },
     "br": {
-        "iso2": "br",
-        "country": "Brazil",
+        "id": "br",
         "tld": ".br",
-        "googleDomain": "google.com.br"
+        "domain": "google.com.br"
     },
     "bs": {
-        "iso2": "bs",
-        "country": "The Bahamas",
+        "id": "bs",
         "tld": ".bs",
-        "googleDomain": "google.bs"
+        "domain": "google.bs"
     },
     "bt": {
-        "iso2": "bt",
-        "country": "Bhutan",
+        "id": "bt",
         "tld": ".bt",
-        "googleDomain": "google.bt"
+        "domain": "google.bt"
     },
     "bw": {
-        "iso2": "bw",
-        "country": "Botswana",
+        "id": "bw",
         "tld": ".bw",
-        "googleDomain": "google.co.bw"
+        "domain": "google.co.bw"
     },
     "by": {
-        "iso2": "by",
-        "country": "Belarus",
+        "id": "by",
         "tld": ".by",
-        "googleDomain": "google.by"
+        "domain": "google.by"
     },
     "bz": {
-        "iso2": "bz",
-        "country": "Belize",
+        "id": "bz",
         "tld": ".bz",
-        "googleDomain": "google.com.bz"
+        "domain": "google.com.bz"
     },
     "ca": {
-        "iso2": "ca",
-        "country": "Canada",
+        "id": "ca",
         "tld": ".ca",
-        "googleDomain": "google.ca"
+        "domain": "google.ca"
     },
     "kh": {
-        "iso2": "kh",
-        "country": "Cambodia",
+        "id": "kh",
         "tld": ".kh",
-        "googleDomain": "google.com.kh"
+        "domain": "google.com.kh"
     },
     "cc": {
-        "iso2": "cc",
-        "country": "Cocos (Keeling) Islands",
+        "id": "cc",
         "tld": ".cc",
-        "googleDomain": "google.cc"
+        "domain": "google.cc"
     },
     "cd": {
-        "iso2": "cd",
-        "country": "Democratic Republic of the Congo",
+        "id": "cd",
         "tld": ".cd",
-        "googleDomain": "google.cd"
+        "domain": "google.cd"
     },
     "cf": {
-        "iso2": "cf",
-        "country": "Central African Republic",
+        "id": "cf",
         "tld": ".cf",
-        "googleDomain": "google.cf"
+        "domain": "google.cf"
     },
     "cg": {
-        "iso2": "cg",
-        "country": "Republic of the Congo",
+        "id": "cg",
         "tld": ".cg",
-        "googleDomain": "google.cg"
+        "domain": "google.cg"
     },
     "ch": {
-        "iso2": "ch",
-        "country": "Switzerland",
+        "id": "ch",
         "tld": ".ch",
-        "googleDomain": "google.ch"
+        "domain": "google.ch"
     },
     "ci": {
-        "iso2": "ci",
-        "country": "Cote d'Ivoire",
+        "id": "ci",
         "tld": ".ci",
-        "googleDomain": "google.ci"
+        "domain": "google.ci"
     },
     "ck": {
-        "iso2": "ck",
-        "country": "Cook Islands",
+        "id": "ck",
         "tld": ".ck",
-        "googleDomain": "google.co.ck"
+        "domain": "google.co.ck"
     },
     "cl": {
-        "iso2": "cl",
-        "country": "Chile",
+        "id": "cl",
         "tld": ".cl",
-        "googleDomain": "google.cl"
+        "domain": "google.cl"
     },
     "cm": {
-        "iso2": "cm",
-        "country": "Cameroon",
+        "id": "cm",
         "tld": ".cm",
-        "googleDomain": "google.cm"
+        "domain": "google.cm"
     },
     "cn": {
-        "iso2": "cn",
-        "country": "China",
+        "id": "cn",
         "tld": ".cn",
-        "googleDomain": "google.cn"
+        "domain": "google.cn"
     },
     "co": {
-        "iso2": "co",
-        "country": "Colombia",
+        "id": "co",
         "tld": ".co",
-        "googleDomain": "google.com.co"
+        "domain": "google.com.co"
     },
     "cr": {
-        "iso2": "cr",
-        "country": "Costa Rica",
+        "id": "cr",
         "tld": ".cr",
-        "googleDomain": "google.co.cr"
+        "domain": "google.co.cr"
     },
     "cu": {
-        "iso2": "cu",
-        "country": "Cuba",
+        "id": "cu",
         "tld": ".cu",
-        "googleDomain": "google.com.cu"
+        "domain": "google.com.cu"
     },
     "cv": {
-        "iso2": "cv",
-        "country": "Cape Verde",
+        "id": "cv",
         "tld": ".cv",
-        "googleDomain": "google.cv"
+        "domain": "google.cv"
     },
     "cy": {
-        "iso2": "cy",
-        "country": "Cyprus",
+        "id": "cy",
         "tld": ".cy",
-        "googleDomain": "google.com.cy"
+        "domain": "google.com.cy"
     },
     "cz": {
-        "iso2": "cz",
-        "country": "Czech Republic",
+        "id": "cz",
         "tld": ".cz",
-        "googleDomain": "google.cz"
+        "domain": "google.cz"
     },
     "de": {
-        "iso2": "de",
-        "country": "Germany",
+        "id": "de",
         "tld": ".de",
-        "googleDomain": "google.de"
+        "domain": "google.de"
     },
     "dj": {
-        "iso2": "dj",
-        "country": "Djibouti",
+        "id": "dj",
         "tld": ".dj",
-        "googleDomain": "google.dj"
+        "domain": "google.dj"
     },
     "dk": {
-        "iso2": "dk",
-        "country": "Denmark",
+        "id": "dk",
         "tld": ".dk",
-        "googleDomain": "google.dk"
+        "domain": "google.dk"
     },
     "dm": {
-        "iso2": "dm",
-        "country": "Dominica",
+        "id": "dm",
         "tld": ".dm",
-        "googleDomain": "google.dm"
+        "domain": "google.dm"
     },
     "do": {
-        "iso2": "do",
-        "country": "Dominican Republic",
+        "id": "do",
         "tld": ".do",
-        "googleDomain": "google.com.do"
+        "domain": "google.com.do"
     },
     "dz": {
-        "iso2": "dz",
-        "country": "Algeria",
+        "id": "dz",
         "tld": ".dz",
-        "googleDomain": "google.dz"
+        "domain": "google.dz"
     },
     "ec": {
-        "iso2": "ec",
-        "country": "Ecuador",
+        "id": "ec",
         "tld": ".ec",
-        "googleDomain": "google.com.ec"
+        "domain": "google.com.ec"
     },
     "ee": {
-        "iso2": "ee",
-        "country": "Estonia",
+        "id": "ee",
         "tld": ".ee",
-        "googleDomain": "google.ee"
+        "domain": "google.ee"
     },
     "eg": {
-        "iso2": "eg",
-        "country": "Egypt",
+        "id": "eg",
         "tld": ".eg",
-        "googleDomain": "google.com.eg"
+        "domain": "google.com.eg"
     },
     "es": {
-        "iso2": "es",
-        "country": "Spain",
+        "id": "es",
         "tld": ".es",
-        "googleDomain": "google.es"
+        "domain": "google.es"
     },
     "et": {
-        "iso2": "et",
-        "country": "Ethiopia",
+        "id": "et",
         "tld": ".et",
-        "googleDomain": "google.com.et"
+        "domain": "google.com.et"
     },
     "fi": {
-        "iso2": "fi",
-        "country": "Finland",
+        "id": "fi",
         "tld": ".fi",
-        "googleDomain": "google.fi"
+        "domain": "google.fi"
     },
     "fj": {
-        "iso2": "fj",
-        "country": "Fiji",
+        "id": "fj",
         "tld": ".fj",
-        "googleDomain": "google.com.fj"
+        "domain": "google.com.fj"
     },
     "fm": {
-        "iso2": "fm",
-        "country": "Federated States of Micronesia",
+        "id": "fm",
         "tld": ".fm",
-        "googleDomain": "google.fm"
+        "domain": "google.fm"
     },
     "fr": {
-        "iso2": "fr",
-        "country": "France",
+        "id": "fr",
         "tld": ".fr",
-        "googleDomain": "google.fr"
+        "domain": "google.fr"
     },
     "ga": {
-        "iso2": "ga",
-        "country": "Gabon",
+        "id": "ga",
         "tld": ".ga",
-        "googleDomain": "google.ga"
+        "domain": "google.ga"
     },
     "ge": {
-        "iso2": "ge",
-        "country": "Georgia",
+        "id": "ge",
         "tld": ".ge",
-        "googleDomain": "google.ge"
+        "domain": "google.ge"
     },
     "gf": {
-        "iso2": "gf",
-        "country": "French Guiana",
+        "id": "gf",
         "tld": ".gf",
-        "googleDomain": "google.gf"
+        "domain": "google.gf"
     },
     "gg": {
-        "iso2": "gg",
-        "country": "Guernsey",
+        "id": "gg",
         "tld": ".gg",
-        "googleDomain": "google.gg"
+        "domain": "google.gg"
     },
     "gh": {
-        "iso2": "gh",
-        "country": "Ghana",
+        "id": "gh",
         "tld": ".gh",
-        "googleDomain": "google.com.gh"
+        "domain": "google.com.gh"
     },
     "gi": {
-        "iso2": "gi",
-        "country": "Gibraltar",
+        "id": "gi",
         "tld": ".gi",
-        "googleDomain": "google.com.gi"
+        "domain": "google.com.gi"
     },
     "gl": {
-        "iso2": "gl",
-        "country": "Greenland",
+        "id": "gl",
         "tld": ".gl",
-        "googleDomain": "google.gl"
+        "domain": "google.gl"
     },
     "gm": {
-        "iso2": "gm",
-        "country": "The Gambia",
+        "id": "gm",
         "tld": ".gm",
-        "googleDomain": "google.gm"
+        "domain": "google.gm"
     },
     "gp": {
-        "iso2": "gp",
-        "country": "Guadeloupe",
+        "id": "gp",
         "tld": ".gp",
-        "googleDomain": "google.gp"
+        "domain": "google.gp"
     },
     "gr": {
-        "iso2": "gr",
-        "country": "Greece",
+        "id": "gr",
         "tld": ".gr",
-        "googleDomain": "google.gr"
+        "domain": "google.gr"
     },
     "gt": {
-        "iso2": "gt",
-        "country": "Guatemala",
+        "id": "gt",
         "tld": ".gt",
-        "googleDomain": "google.com.gt"
+        "domain": "google.com.gt"
     },
     "gy": {
-        "iso2": "gy",
-        "country": "Guyana",
+        "id": "gy",
         "tld": ".gy",
-        "googleDomain": "google.gy"
+        "domain": "google.gy"
     },
     "hk": {
-        "iso2": "hk",
-        "country": "Hong Kong (China)",
+        "id": "hk",
         "tld": ".hk",
-        "googleDomain": "google.com.hk"
+        "domain": "google.com.hk"
     },
     "hn": {
-        "iso2": "hn",
-        "country": "Honduras",
+        "id": "hn",
         "tld": ".hn",
-        "googleDomain": "google.hn"
+        "domain": "google.hn"
     },
     "hr": {
-        "iso2": "hr",
-        "country": "Croatia",
+        "id": "hr",
         "tld": ".hr",
-        "googleDomain": "google.hr"
+        "domain": "google.hr"
     },
     "ht": {
-        "iso2": "ht",
-        "country": "Haiti",
+        "id": "ht",
         "tld": ".ht",
-        "googleDomain": "google.ht"
+        "domain": "google.ht"
     },
     "hu": {
-        "iso2": "hu",
-        "country": "Hungary",
+        "id": "hu",
         "tld": ".hu",
-        "googleDomain": "google.hu"
+        "domain": "google.hu"
     },
     "id": {
-        "iso2": "id",
-        "country": "Indonesia",
+        "id": "id",
         "tld": ".id",
-        "googleDomain": "google.co.id"
+        "domain": "google.co.id"
     },
     "iq": {
-        "iso2": "iq",
-        "country": "Iraq",
+        "id": "iq",
         "tld": ".iq",
-        "googleDomain": "google.iq"
+        "domain": "google.iq"
     },
     "ie": {
-        "iso2": "ie",
-        "country": "Ireland",
+        "id": "ie",
         "tld": ".ie",
-        "googleDomain": "google.ie"
+        "domain": "google.ie"
     },
     "il": {
-        "iso2": "il",
-        "country": "Israel",
+        "id": "il",
         "tld": ".il",
-        "googleDomain": "google.co.il"
+        "domain": "google.co.il"
     },
     "im": {
-        "iso2": "im",
-        "country": "Isle of Man",
+        "id": "im",
         "tld": ".im",
-        "googleDomain": "google.im"
+        "domain": "google.im"
     },
     "in": {
-        "iso2": "in",
-        "country": "India",
+        "id": "in",
         "tld": ".in",
-        "googleDomain": "google.co.in"
+        "domain": "google.co.in"
     },
     "io": {
-        "iso2": "io",
-        "country": "British Indian Ocean Territory",
+        "id": "io",
         "tld": ".io",
-        "googleDomain": "google.io"
+        "domain": "google.io"
     },
     "is": {
-        "iso2": "is",
-        "country": "Iceland",
+        "id": "is",
         "tld": ".is",
-        "googleDomain": "google.is"
+        "domain": "google.is"
     },
     "it": {
-        "iso2": "it",
-        "country": "Italy",
+        "id": "it",
         "tld": ".it",
-        "googleDomain": "google.it"
+        "domain": "google.it"
     },
     "je": {
-        "iso2": "je",
-        "country": "Jersey",
+        "id": "je",
         "tld": ".je",
-        "googleDomain": "google.je"
+        "domain": "google.je"
     },
     "jm": {
-        "iso2": "jm",
-        "country": "Jamaica",
+        "id": "jm",
         "tld": ".jm",
-        "googleDomain": "google.com.jm"
+        "domain": "google.com.jm"
     },
     "jo": {
-        "iso2": "jo",
-        "country": "Jordan",
+        "id": "jo",
         "tld": ".jo",
-        "googleDomain": "google.jo"
+        "domain": "google.jo"
     },
     "jp": {
-        "iso2": "jp",
-        "country": "Japan",
+        "id": "jp",
         "tld": ".jp",
-        "googleDomain": "google.co.jp"
+        "domain": "google.co.jp"
     },
     "ke": {
-        "iso2": "ke",
-        "country": "Kenya",
+        "id": "ke",
         "tld": ".ke",
-        "googleDomain": "google.co.ke"
+        "domain": "google.co.ke"
     },
     "ki": {
-        "iso2": "ki",
-        "country": "Kiribati",
+        "id": "ki",
         "tld": ".ki",
-        "googleDomain": "google.ki"
+        "domain": "google.ki"
     },
     "kg": {
-        "iso2": "kg",
-        "country": "Kyrgyzstan",
+        "id": "kg",
         "tld": ".kg",
-        "googleDomain": "google.kg"
+        "domain": "google.kg"
     },
     "kr": {
-        "iso2": "kr",
-        "country": "South Korea",
+        "id": "kr",
         "tld": ".kr",
-        "googleDomain": "google.co.kr"
+        "domain": "google.co.kr"
     },
     "kw": {
-        "iso2": "kw",
-        "country": "Kuwait",
+        "id": "kw",
         "tld": ".kw",
-        "googleDomain": "google.com.kw"
+        "domain": "google.com.kw"
     },
     "kz": {
-        "iso2": "kz",
-        "country": "Kazakhstan",
+        "id": "kz",
         "tld": ".kz",
-        "googleDomain": "google.kz"
+        "domain": "google.kz"
     },
     "la": {
-        "iso2": "la",
-        "country": "Laos",
+        "id": "la",
         "tld": ".la",
-        "googleDomain": "google.la"
+        "domain": "google.la"
     },
     "lb": {
-        "iso2": "lb",
-        "country": "Lebanon",
+        "id": "lb",
         "tld": ".lb",
-        "googleDomain": "google.com.lb"
+        "domain": "google.com.lb"
     },
     "lc": {
-        "iso2": "lc",
-        "country": "Saint Lucia",
+        "id": "lc",
         "tld": ".lc",
-        "googleDomain": "google.com.lc"
+        "domain": "google.com.lc"
     },
     "li": {
-        "iso2": "li",
-        "country": "Liechtenstein",
+        "id": "li",
         "tld": ".li",
-        "googleDomain": "google.li"
+        "domain": "google.li"
     },
     "lk": {
-        "iso2": "lk",
-        "country": "Sri Lanka",
+        "id": "lk",
         "tld": ".lk",
-        "googleDomain": "google.lk"
+        "domain": "google.lk"
     },
     "ls": {
-        "iso2": "ls",
-        "country": "Lesotho",
+        "id": "ls",
         "tld": ".ls",
-        "googleDomain": "google.co.ls"
+        "domain": "google.co.ls"
     },
     "lt": {
-        "iso2": "lt",
-        "country": "Lithuania",
+        "id": "lt",
         "tld": ".lt",
-        "googleDomain": "google.lt"
+        "domain": "google.lt"
     },
     "lu": {
-        "iso2": "lu",
-        "country": "Luxembourg",
+        "id": "lu",
         "tld": ".lu",
-        "googleDomain": "google.lu"
+        "domain": "google.lu"
     },
     "lv": {
-        "iso2": "lv",
-        "country": "Latvia",
+        "id": "lv",
         "tld": ".lv",
-        "googleDomain": "google.lv"
+        "domain": "google.lv"
     },
     "ly": {
-        "iso2": "ly",
-        "country": "Libya",
+        "id": "ly",
         "tld": ".ly",
-        "googleDomain": "google.com.ly"
+        "domain": "google.com.ly"
     },
     "ma": {
-        "iso2": "ma",
-        "country": "Morocco",
+        "id": "ma",
         "tld": ".ma",
-        "googleDomain": "google.co.ma"
+        "domain": "google.co.ma"
     },
     "md": {
-        "iso2": "md",
-        "country": "Moldova",
+        "id": "md",
         "tld": ".md",
-        "googleDomain": "google.md"
+        "domain": "google.md"
     },
     "me": {
-        "iso2": "me",
-        "country": "Montenegro",
+        "id": "me",
         "tld": ".me",
-        "googleDomain": "google.me"
+        "domain": "google.me"
     },
     "mg": {
-        "iso2": "mg",
-        "country": "Madagascar",
+        "id": "mg",
         "tld": ".mg",
-        "googleDomain": "google.mg"
+        "domain": "google.mg"
     },
     "mk": {
-        "iso2": "mk",
-        "country": "North Macedonia",
+        "id": "mk",
         "tld": ".mk",
-        "googleDomain": "google.mk"
+        "domain": "google.mk"
     },
     "ml": {
-        "iso2": "ml",
-        "country": "Mali",
+        "id": "ml",
         "tld": ".ml",
-        "googleDomain": "google.ml"
+        "domain": "google.ml"
     },
     "mm": {
-        "iso2": "mm",
-        "country": "Myanmar (Burma)",
+        "id": "mm",
         "tld": ".mm",
-        "googleDomain": "google.com.mm"
+        "domain": "google.com.mm"
     },
     "mn": {
-        "iso2": "mn",
-        "country": "Mongolia",
+        "id": "mn",
         "tld": ".mn",
-        "googleDomain": "google.mn"
+        "domain": "google.mn"
     },
     "ms": {
-        "iso2": "ms",
-        "country": "Montserrat",
+        "id": "ms",
         "tld": ".ms",
-        "googleDomain": "google.ms"
+        "domain": "google.ms"
     },
     "mt": {
-        "iso2": "mt",
-        "country": "Malta",
+        "id": "mt",
         "tld": ".mt",
-        "googleDomain": "google.com.mt"
+        "domain": "google.com.mt"
     },
     "mu": {
-        "iso2": "mu",
-        "country": "Mauritius",
+        "id": "mu",
         "tld": ".mu",
-        "googleDomain": "google.mu"
+        "domain": "google.mu"
     },
     "mv": {
-        "iso2": "mv",
-        "country": "Maldives",
+        "id": "mv",
         "tld": ".mv",
-        "googleDomain": "google.mv"
+        "domain": "google.mv"
     },
     "mw": {
-        "iso2": "mw",
-        "country": "Malawi",
+        "id": "mw",
         "tld": ".mw",
-        "googleDomain": "google.mw"
+        "domain": "google.mw"
     },
     "mx": {
-        "iso2": "mx",
-        "country": "Mexico",
+        "id": "mx",
         "tld": ".mx",
-        "googleDomain": "google.com.mx"
+        "domain": "google.com.mx"
     },
     "my": {
-        "iso2": "my",
-        "country": "Malaysia",
+        "id": "my",
         "tld": ".my",
-        "googleDomain": "google.com.my"
+        "domain": "google.com.my"
     },
     "mz": {
-        "iso2": "mz",
-        "country": "Mozambique",
+        "id": "mz",
         "tld": ".mz",
-        "googleDomain": "google.co.mz"
+        "domain": "google.co.mz"
     },
     "na": {
-        "iso2": "na",
-        "country": "Namibia",
+        "id": "na",
         "tld": ".na",
-        "googleDomain": "google.com.na"
+        "domain": "google.com.na"
     },
     "ne": {
-        "iso2": "ne",
-        "country": "Niger",
+        "id": "ne",
         "tld": ".ne",
-        "googleDomain": "google.ne"
+        "domain": "google.ne"
     },
     "nf": {
-        "iso2": "nf",
-        "country": "Norfolk Island",
+        "id": "nf",
         "tld": ".nf",
-        "googleDomain": "google.com.nf"
+        "domain": "google.com.nf"
     },
     "ng": {
-        "iso2": "ng",
-        "country": "Nigeria",
+        "id": "ng",
         "tld": ".ng",
-        "googleDomain": "google.com.ng"
+        "domain": "google.com.ng"
     },
     "ni": {
-        "iso2": "ni",
-        "country": "Nicaragua",
+        "id": "ni",
         "tld": ".ni",
-        "googleDomain": "google.com.ni"
+        "domain": "google.com.ni"
     },
     "nl": {
-        "iso2": "nl",
-        "country": "Netherlands",
+        "id": "nl",
         "tld": ".nl",
-        "googleDomain": "google.nl"
+        "domain": "google.nl"
     },
     "no": {
-        "iso2": "no",
-        "country": "Norway",
+        "id": "no",
         "tld": ".no",
-        "googleDomain": "google.no"
+        "domain": "google.no"
     },
     "np": {
-        "iso2": "np",
-        "country": "Nepal",
+        "id": "np",
         "tld": ".np",
-        "googleDomain": "google.com.np"
+        "domain": "google.com.np"
     },
     "nr": {
-        "iso2": "nr",
-        "country": "Nauru",
+        "id": "nr",
         "tld": ".nr",
-        "googleDomain": "google.nr"
+        "domain": "google.nr"
     },
     "nu": {
-        "iso2": "nu",
-        "country": "Niue",
+        "id": "nu",
         "tld": ".nu",
-        "googleDomain": "google.nu"
+        "domain": "google.nu"
     },
     "nz": {
-        "iso2": "nz",
-        "country": "New Zealand",
+        "id": "nz",
         "tld": ".nz",
-        "googleDomain": "google.co.nz"
+        "domain": "google.co.nz"
     },
     "om": {
-        "iso2": "om",
-        "country": "Oman",
+        "id": "om",
         "tld": ".om",
-        "googleDomain": "google.com.om"
+        "domain": "google.com.om"
     },
     "pk": {
-        "iso2": "pk",
-        "country": "Pakistan",
+        "id": "pk",
         "tld": ".pk",
-        "googleDomain": "google.com.pk"
+        "domain": "google.com.pk"
     },
     "pa": {
-        "iso2": "pa",
-        "country": "Panama",
+        "id": "pa",
         "tld": ".pa",
-        "googleDomain": "google.com.pa"
+        "domain": "google.com.pa"
     },
     "pe": {
-        "iso2": "pe",
-        "country": "Peru",
+        "id": "pe",
         "tld": ".pe",
-        "googleDomain": "google.com.pe"
+        "domain": "google.com.pe"
     },
     "ph": {
-        "iso2": "ph",
-        "country": "Philippines",
+        "id": "ph",
         "tld": ".ph",
-        "googleDomain": "google.com.ph"
+        "domain": "google.com.ph"
     },
     "pl": {
-        "iso2": "pl",
-        "country": "Poland",
+        "id": "pl",
         "tld": ".pl",
-        "googleDomain": "google.pl"
+        "domain": "google.pl"
     },
     "pg": {
-        "iso2": "pg",
-        "country": "Papua New Guinea",
+        "id": "pg",
         "tld": ".pg",
-        "googleDomain": "google.com.pg"
+        "domain": "google.com.pg"
     },
     "pn": {
-        "iso2": "pn",
-        "country": "Pitcairn Islands",
+        "id": "pn",
         "tld": ".pn",
-        "googleDomain": "google.pn"
+        "domain": "google.pn"
     },
     "pr": {
-        "iso2": "pr",
-        "country": "Puerto Rico",
+        "id": "pr",
         "tld": ".pr",
-        "googleDomain": "google.com.pr"
+        "domain": "google.com.pr"
     },
     "ps": {
-        "iso2": "ps",
-        "country": "Palestinian Territory",
+        "id": "ps",
         "tld": ".ps",
-        "googleDomain": "google.ps"
+        "domain": "google.ps"
     },
     "pt": {
-        "iso2": "pt",
-        "country": "Portugal",
+        "id": "pt",
         "tld": ".pt",
-        "googleDomain": "google.pt"
+        "domain": "google.pt"
     },
     "py": {
-        "iso2": "py",
-        "country": "Paraguay",
+        "id": "py",
         "tld": ".py",
-        "googleDomain": "google.com.py"
+        "domain": "google.com.py"
     },
     "qa": {
-        "iso2": "qa",
-        "country": "Qatar",
+        "id": "qa",
         "tld": ".qa",
-        "googleDomain": "google.com.qa"
+        "domain": "google.com.qa"
     },
     "ro": {
-        "iso2": "ro",
-        "country": "Romania",
+        "id": "ro",
         "tld": ".ro",
-        "googleDomain": "google.ro"
+        "domain": "google.ro"
     },
     "rs": {
-        "iso2": "rs",
-        "country": "Serbia",
+        "id": "rs",
         "tld": ".rs",
-        "googleDomain": "google.rs"
+        "domain": "google.rs"
     },
     "ru": {
-        "iso2": "ru",
-        "country": "Russia",
+        "id": "ru",
         "tld": ".ru",
-        "googleDomain": "google.ru"
+        "domain": "google.ru"
     },
     "rw": {
-        "iso2": "rw",
-        "country": "Rwanda",
+        "id": "rw",
         "tld": ".rw",
-        "googleDomain": "google.rw"
+        "domain": "google.rw"
     },
     "sa": {
-        "iso2": "sa",
-        "country": "Saudi Arabia",
+        "id": "sa",
         "tld": ".sa",
-        "googleDomain": "google.com.sa"
+        "domain": "google.com.sa"
     },
     "sb": {
-        "iso2": "sb",
-        "country": "Solomon Islands",
+        "id": "sb",
         "tld": ".sb",
-        "googleDomain": "google.com.sb"
+        "domain": "google.com.sb"
     },
     "sc": {
-        "iso2": "sc",
-        "country": "Seychelles",
+        "id": "sc",
         "tld": ".sc",
-        "googleDomain": "google.sc"
+        "domain": "google.sc"
     },
     "se": {
-        "iso2": "se",
-        "country": "Sweden",
+        "id": "se",
         "tld": ".se",
-        "googleDomain": "google.se"
+        "domain": "google.se"
     },
     "sg": {
-        "iso2": "sg",
-        "country": "Singapore",
+        "id": "sg",
         "tld": ".sg",
-        "googleDomain": "google.com.sg"
+        "domain": "google.com.sg"
     },
     "sh": {
-        "iso2": "sh",
-        "country": "Saint Helena",
+        "id": "sh",
         "tld": ".sh",
-        "googleDomain": "google.sh"
+        "domain": "google.sh"
     },
     "si": {
-        "iso2": "si",
-        "country": "Slovenia",
+        "id": "si",
         "tld": ".si",
-        "googleDomain": "google.si"
+        "domain": "google.si"
     },
     "sk": {
-        "iso2": "sk",
-        "country": "Slovakia",
+        "id": "sk",
         "tld": ".sk",
-        "googleDomain": "google.sk"
+        "domain": "google.sk"
     },
     "sl": {
-        "iso2": "sl",
-        "country": "Sierra Leone",
+        "id": "sl",
         "tld": ".sl",
-        "googleDomain": "google.com.sl"
+        "domain": "google.com.sl"
     },
     "sn": {
-        "iso2": "sn",
-        "country": "Senegal",
+        "id": "sn",
         "tld": ".sn",
-        "googleDomain": "google.sn"
+        "domain": "google.sn"
     },
     "sm": {
-        "iso2": "sm",
-        "country": "San Marino",
+        "id": "sm",
         "tld": ".sm",
-        "googleDomain": "google.sm"
+        "domain": "google.sm"
     },
     "so": {
-        "iso2": "so",
-        "country": "Somalia",
+        "id": "so",
         "tld": ".so",
-        "googleDomain": "google.so"
+        "domain": "google.so"
     },
     "st": {
-        "iso2": "st",
-        "country": "Sao Tome and Principe",
+        "id": "st",
         "tld": ".st",
-        "googleDomain": "google.st"
+        "domain": "google.st"
     },
     "sr": {
-        "iso2": "sr",
-        "country": "Suriname",
+        "id": "sr",
         "tld": ".sr",
-        "googleDomain": "google.sr"
+        "domain": "google.sr"
     },
     "sv": {
-        "iso2": "sv",
-        "country": "El Salvador",
+        "id": "sv",
         "tld": ".sv",
-        "googleDomain": "google.com.sv"
+        "domain": "google.com.sv"
     },
     "td": {
-        "iso2": "td",
-        "country": "Chad",
+        "id": "td",
         "tld": ".td",
-        "googleDomain": "google.td"
+        "domain": "google.td"
     },
     "tg": {
-        "iso2": "tg",
-        "country": "Togo",
+        "id": "tg",
         "tld": ".tg",
-        "googleDomain": "google.tg"
+        "domain": "google.tg"
     },
     "th": {
-        "iso2": "th",
-        "country": "Thailand",
+        "id": "th",
         "tld": ".th",
-        "googleDomain": "google.co.th"
+        "domain": "google.co.th"
     },
     "tj": {
-        "iso2": "tj",
-        "country": "Tajikistan",
+        "id": "tj",
         "tld": ".tj",
-        "googleDomain": "google.com.tj"
+        "domain": "google.com.tj"
     },
     "tk": {
-        "iso2": "tk",
-        "country": "Tokelau",
+        "id": "tk",
         "tld": ".tk",
-        "googleDomain": "google.tk"
+        "domain": "google.tk"
     },
     "tl": {
-        "iso2": "tl",
-        "country": "Timor-Leste",
+        "id": "tl",
         "tld": ".tl",
-        "googleDomain": "google.tl"
+        "domain": "google.tl"
     },
     "tm": {
-        "iso2": "tm",
-        "country": "Turkmenistan",
+        "id": "tm",
         "tld": ".tm",
-        "googleDomain": "google.tm"
+        "domain": "google.tm"
     },
     "to": {
-        "iso2": "to",
-        "country": "Tonga",
+        "id": "to",
         "tld": ".to",
-        "googleDomain": "google.to"
+        "domain": "google.to"
     },
     "tn": {
-        "iso2": "tn",
-        "country": "Tunisia",
+        "id": "tn",
         "tld": ".tn",
-        "googleDomain": "google.tn"
+        "domain": "google.tn"
     },
     "tr": {
-        "iso2": "tr",
-        "country": "Turkey",
+        "id": "tr",
         "tld": ".tr",
-        "googleDomain": "google.com.tr"
+        "domain": "google.com.tr"
     },
     "tt": {
-        "iso2": "tt",
-        "country": "Trinidad and Tobago",
+        "id": "tt",
         "tld": ".tt",
-        "googleDomain": "google.tt"
+        "domain": "google.tt"
     },
     "tw": {
-        "iso2": "tw",
-        "country": "Taiwan",
+        "id": "tw",
         "tld": ".tw",
-        "googleDomain": "google.com.tw"
+        "domain": "google.com.tw"
     },
     "tz": {
-        "iso2": "tz",
-        "country": "Tanzania",
+        "id": "tz",
         "tld": ".tz",
-        "googleDomain": "google.co.tz"
+        "domain": "google.co.tz"
     },
     "ua": {
-        "iso2": "ua",
-        "country": "Ukraine",
+        "id": "ua",
         "tld": ".ua",
-        "googleDomain": "google.com.ua"
+        "domain": "google.com.ua"
     },
     "ug": {
-        "iso2": "ug",
-        "country": "Uganda",
+        "id": "ug",
         "tld": ".ug",
-        "googleDomain": "google.co.ug"
+        "domain": "google.co.ug"
     },
     "gb": {
-        "iso2": "gb",
-        "country": "United Kingdom",
+        "id": "gb",
         "tld": ".uk",
-        "googleDomain": "google.co.uk"
+        "domain": "google.co.uk"
     },
     "us": {
-        "iso2": "us",
-        "country": "United States",
+        "id": "us",
         "tld": ".us",
-        "googleDomain": "google.com"
+        "domain": "google.com"
     },
     "uy": {
-        "iso2": "uy",
-        "country": "Uruguay",
+        "id": "uy",
         "tld": ".uy",
-        "googleDomain": "google.com.uy"
+        "domain": "google.com.uy"
     },
     "uz": {
-        "iso2": "uz",
-        "country": "Uzbekistan",
+        "id": "uz",
         "tld": ".uz",
-        "googleDomain": "google.co.uz"
+        "domain": "google.co.uz"
     },
     "vc": {
-        "iso2": "vc",
-        "country": "Saint Vincent and the Grenadines",
+        "id": "vc",
         "tld": ".vc",
-        "googleDomain": "google.com.vc"
+        "domain": "google.com.vc"
     },
     "ve": {
-        "iso2": "ve",
-        "country": "Venezuela",
+        "id": "ve",
         "tld": ".ve",
-        "googleDomain": "google.co.ve"
+        "domain": "google.co.ve"
     },
     "vg": {
-        "iso2": "vg",
-        "country": "British Virgin Islands",
+        "id": "vg",
         "tld": ".vg",
-        "googleDomain": "google.vg"
+        "domain": "google.vg"
     },
     "vi": {
-        "iso2": "vi",
-        "country": "Virgin Islands",
+        "id": "vi",
         "tld": ".vi",
-        "googleDomain": "google.co.vi"
+        "domain": "google.co.vi"
     },
     "vn": {
-        "iso2": "vn",
-        "country": "Vietnam",
+        "id": "vn",
         "tld": ".vn",
-        "googleDomain": "google.com.vn"
+        "domain": "google.com.vn"
     },
     "vu": {
-        "iso2": "vu",
-        "country": "Vanuatu",
+        "id": "vu",
         "tld": ".vu",
-        "googleDomain": "google.vu"
+        "domain": "google.vu"
     },
     "ws": {
-        "iso2": "ws",
-        "country": "Western Samoa",
+        "id": "ws",
         "tld": ".ws",
-        "googleDomain": "google.ws"
+        "domain": "google.ws"
     },
     "za": {
-        "iso2": "za",
-        "country": "South Africa",
+        "id": "za",
         "tld": ".za",
-        "googleDomain": "google.co.za"
+        "domain": "google.co.za"
     },
     "zm": {
-        "iso2": "zm",
-        "country": "Zambia",
+        "id": "zm",
         "tld": ".zm",
-        "googleDomain": "google.co.zm"
+        "domain": "google.co.zm"
     },
     "zw": {
-        "iso2": "zw",
-        "country": "Zimbabwe",
+        "id": "zw",
         "tld": ".zw",
-        "googleDomain": "google.co.zw"
+        "domain": "google.co.zw"
     }
 }
