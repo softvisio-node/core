@@ -24,6 +24,7 @@
     },
     "browser": {
         "./lib/api/client.js": "./lib/api/client/browser.js",
+        "./lib/const.js": "./lib/const/browser.js",
         "./lib/util.js": "./lib/util/browser.js"
     },
     "scripts": {
