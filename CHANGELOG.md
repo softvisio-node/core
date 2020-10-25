@@ -1,3 +1,7 @@
+## 0.83.0 (2020-10-25)
+
+-   google domains db added
+
 ## 0.82.2 (2020-10-23)
 
 -   docker node downgraded to 14
