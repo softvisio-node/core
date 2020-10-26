@@ -1,3 +1,17 @@
+## 0.84.0 (2020-10-26)
+
+-   timezones db added
+-   maxmind moved to db
+-   mime moved to db
+-   packetstream proxy country fixed
+-   proxy class names changed
+-   const refactored
+-   sql type getters added
+-   proxy type getters added
+-   sql props converted to getter
+-   proxy country to lower case
+-   countries db added
+
 ## 0.83.0 (2020-10-25)
 
 -   google domains db added
