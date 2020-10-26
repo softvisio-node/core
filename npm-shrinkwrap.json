@@ -441,6 +441,11 @@
                 "yallist": "^4.0.0"
             }
         },
+        "luxon": {
+            "version": "1.25.0",
+            "resolved": "https://registry.npmjs.org/luxon/-/luxon-1.25.0.tgz",
+            "integrity": "sha512-hEgLurSH8kQRjY6i4YLey+mcKVAWXbDNlZRmM6AgWDJ1cY3atl8Ztf5wEY7VBReFbmGnwQPz7KYJblL8B2k0jQ=="
+        },
         "maxmind": {
             "version": "4.3.0",
             "resolved": "https://registry.npmjs.org/maxmind/-/maxmind-4.3.0.tgz",
