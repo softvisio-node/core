@@ -1,2977 +1,2977 @@
 {
     "Africa/Abidjan": {
         "id": "Africa/Abidjan",
-        "name": "Africa/Abidjan",
+        "text": "Africa/Abidjan",
         "abbr": "GMT"
     },
     "Africa/Accra": {
         "id": "Africa/Accra",
-        "name": "Africa/Accra",
+        "text": "Africa/Accra",
         "abbr": "GMT"
     },
     "Africa/Addis_Ababa": {
         "id": "Africa/Addis_Ababa",
-        "name": "Africa/Addis_Ababa",
+        "text": "Africa/Addis Ababa",
         "abbr": "EAT"
     },
     "Africa/Algiers": {
         "id": "Africa/Algiers",
-        "name": "Africa/Algiers",
+        "text": "Africa/Algiers",
         "abbr": "CET"
     },
     "Africa/Asmara": {
         "id": "Africa/Asmara",
-        "name": "Africa/Asmara",
+        "text": "Africa/Asmara",
         "abbr": "EAT"
     },
     "Africa/Asmera": {
         "id": "Africa/Asmera",
-        "name": "Africa/Asmera",
+        "text": "Africa/Asmera",
         "abbr": "EAT"
     },
     "Africa/Bamako": {
         "id": "Africa/Bamako",
-        "name": "Africa/Bamako",
+        "text": "Africa/Bamako",
         "abbr": "GMT"
     },
     "Africa/Bangui": {
         "id": "Africa/Bangui",
-        "name": "Africa/Bangui",
+        "text": "Africa/Bangui",
         "abbr": "WAT"
     },
     "Africa/Banjul": {
         "id": "Africa/Banjul",
-        "name": "Africa/Banjul",
+        "text": "Africa/Banjul",
         "abbr": "GMT"
     },
     "Africa/Bissau": {
         "id": "Africa/Bissau",
-        "name": "Africa/Bissau",
+        "text": "Africa/Bissau",
         "abbr": "GMT"
     },
     "Africa/Blantyre": {
         "id": "Africa/Blantyre",
-        "name": "Africa/Blantyre",
+        "text": "Africa/Blantyre",
         "abbr": "CAT"
     },
     "Africa/Brazzaville": {
         "id": "Africa/Brazzaville",
-        "name": "Africa/Brazzaville",
+        "text": "Africa/Brazzaville",
         "abbr": "WAT"
     },
     "Africa/Bujumbura": {
         "id": "Africa/Bujumbura",
-        "name": "Africa/Bujumbura",
+        "text": "Africa/Bujumbura",
         "abbr": "CAT"
     },
     "Africa/Cairo": {
         "id": "Africa/Cairo",
-        "name": "Africa/Cairo",
+        "text": "Africa/Cairo",
         "abbr": "EET"
     },
     "Africa/Casablanca": {
         "id": "Africa/Casablanca",
-        "name": "Africa/Casablanca",
+        "text": "Africa/Casablanca",
         "abbr": "+01"
     },
     "Africa/Ceuta": {
         "id": "Africa/Ceuta",
-        "name": "Africa/Ceuta",
+        "text": "Africa/Ceuta",
         "abbr": "CET"
     },
     "Africa/Conakry": {
         "id": "Africa/Conakry",
-        "name": "Africa/Conakry",
+        "text": "Africa/Conakry",
         "abbr": "GMT"
     },
     "Africa/Dakar": {
         "id": "Africa/Dakar",
-        "name": "Africa/Dakar",
+        "text": "Africa/Dakar",
         "abbr": "GMT"
     },
     "Africa/Dar_es_Salaam": {
         "id": "Africa/Dar_es_Salaam",
-        "name": "Africa/Dar_es_Salaam",
+        "text": "Africa/Dar es Salaam",
         "abbr": "EAT"
     },
     "Africa/Djibouti": {
         "id": "Africa/Djibouti",
-        "name": "Africa/Djibouti",
+        "text": "Africa/Djibouti",
         "abbr": "EAT"
     },
     "Africa/Douala": {
         "id": "Africa/Douala",
-        "name": "Africa/Douala",
+        "text": "Africa/Douala",
         "abbr": "WAT"
     },
     "Africa/El_Aaiun": {
         "id": "Africa/El_Aaiun",
-        "name": "Africa/El_Aaiun",
+        "text": "Africa/El Aaiun",
         "abbr": "+01"
     },
     "Africa/Freetown": {
         "id": "Africa/Freetown",
-        "name": "Africa/Freetown",
+        "text": "Africa/Freetown",
         "abbr": "GMT"
     },
     "Africa/Gaborone": {
         "id": "Africa/Gaborone",
-        "name": "Africa/Gaborone",
+        "text": "Africa/Gaborone",
         "abbr": "CAT"
     },
     "Africa/Harare": {
         "id": "Africa/Harare",
-        "name": "Africa/Harare",
+        "text": "Africa/Harare",
         "abbr": "CAT"
     },
     "Africa/Johannesburg": {
         "id": "Africa/Johannesburg",
-        "name": "Africa/Johannesburg",
+        "text": "Africa/Johannesburg",
         "abbr": "SAST"
     },
     "Africa/Juba": {
         "id": "Africa/Juba",
-        "name": "Africa/Juba",
+        "text": "Africa/Juba",
         "abbr": "EAT"
     },
     "Africa/Kampala": {
         "id": "Africa/Kampala",
-        "name": "Africa/Kampala",
+        "text": "Africa/Kampala",
         "abbr": "EAT"
     },
     "Africa/Khartoum": {
         "id": "Africa/Khartoum",
-        "name": "Africa/Khartoum",
+        "text": "Africa/Khartoum",
         "abbr": "CAT"
     },
     "Africa/Kigali": {
         "id": "Africa/Kigali",
-        "name": "Africa/Kigali",
+        "text": "Africa/Kigali",
         "abbr": "CAT"
     },
     "Africa/Kinshasa": {
         "id": "Africa/Kinshasa",
-        "name": "Africa/Kinshasa",
+        "text": "Africa/Kinshasa",
         "abbr": "WAT"
     },
     "Africa/Lagos": {
         "id": "Africa/Lagos",
-        "name": "Africa/Lagos",
+        "text": "Africa/Lagos",
         "abbr": "WAT"
     },
     "Africa/Libreville": {
         "id": "Africa/Libreville",
-        "name": "Africa/Libreville",
+        "text": "Africa/Libreville",
         "abbr": "WAT"
     },
     "Africa/Lome": {
         "id": "Africa/Lome",
-        "name": "Africa/Lome",
+        "text": "Africa/Lome",
         "abbr": "GMT"
     },
     "Africa/Luanda": {
         "id": "Africa/Luanda",
-        "name": "Africa/Luanda",
+        "text": "Africa/Luanda",
         "abbr": "WAT"
     },
     "Africa/Lubumbashi": {
         "id": "Africa/Lubumbashi",
-        "name": "Africa/Lubumbashi",
+        "text": "Africa/Lubumbashi",
         "abbr": "CAT"
     },
     "Africa/Lusaka": {
         "id": "Africa/Lusaka",
-        "name": "Africa/Lusaka",
+        "text": "Africa/Lusaka",
         "abbr": "CAT"
     },
     "Africa/Malabo": {
         "id": "Africa/Malabo",
-        "name": "Africa/Malabo",
+        "text": "Africa/Malabo",
         "abbr": "WAT"
     },
     "Africa/Maputo": {
         "id": "Africa/Maputo",
-        "name": "Africa/Maputo",
+        "text": "Africa/Maputo",
         "abbr": "CAT"
     },
     "Africa/Maseru": {
         "id": "Africa/Maseru",
-        "name": "Africa/Maseru",
+        "text": "Africa/Maseru",
         "abbr": "SAST"
     },
     "Africa/Mbabane": {
         "id": "Africa/Mbabane",
-        "name": "Africa/Mbabane",
+        "text": "Africa/Mbabane",
         "abbr": "SAST"
     },
     "Africa/Mogadishu": {
         "id": "Africa/Mogadishu",
-        "name": "Africa/Mogadishu",
+        "text": "Africa/Mogadishu",
         "abbr": "EAT"
     },
     "Africa/Monrovia": {
         "id": "Africa/Monrovia",
-        "name": "Africa/Monrovia",
+        "text": "Africa/Monrovia",
         "abbr": "GMT"
     },
     "Africa/Nairobi": {
         "id": "Africa/Nairobi",
-        "name": "Africa/Nairobi",
+        "text": "Africa/Nairobi",
         "abbr": "EAT"
     },
     "Africa/Ndjamena": {
         "id": "Africa/Ndjamena",
-        "name": "Africa/Ndjamena",
+        "text": "Africa/Ndjamena",
         "abbr": "WAT"
     },
     "Africa/Niamey": {
         "id": "Africa/Niamey",
-        "name": "Africa/Niamey",
+        "text": "Africa/Niamey",
         "abbr": "WAT"
     },
     "Africa/Nouakchott": {
         "id": "Africa/Nouakchott",
-        "name": "Africa/Nouakchott",
+        "text": "Africa/Nouakchott",
         "abbr": "GMT"
     },
     "Africa/Ouagadougou": {
         "id": "Africa/Ouagadougou",
-        "name": "Africa/Ouagadougou",
+        "text": "Africa/Ouagadougou",
         "abbr": "GMT"
     },
     "Africa/Porto-Novo": {
         "id": "Africa/Porto-Novo",
-        "name": "Africa/Porto-Novo",
+        "text": "Africa/Porto-Novo",
         "abbr": "WAT"
     },
     "Africa/Sao_Tome": {
         "id": "Africa/Sao_Tome",
-        "name": "Africa/Sao_Tome",
+        "text": "Africa/Sao Tome",
         "abbr": "GMT"
     },
     "Africa/Timbuktu": {
         "id": "Africa/Timbuktu",
-        "name": "Africa/Timbuktu",
+        "text": "Africa/Timbuktu",
         "abbr": "GMT"
     },
     "Africa/Tripoli": {
         "id": "Africa/Tripoli",
-        "name": "Africa/Tripoli",
+        "text": "Africa/Tripoli",
         "abbr": "EET"
     },
     "Africa/Tunis": {
         "id": "Africa/Tunis",
-        "name": "Africa/Tunis",
+        "text": "Africa/Tunis",
         "abbr": "CET"
     },
     "Africa/Windhoek": {
         "id": "Africa/Windhoek",
-        "name": "Africa/Windhoek",
+        "text": "Africa/Windhoek",
         "abbr": "CAT"
     },
     "America/Adak": {
         "id": "America/Adak",
-        "name": "America/Adak",
+        "text": "America/Adak",
         "abbr": "HDT"
     },
     "America/Anchorage": {
         "id": "America/Anchorage",
-        "name": "America/Anchorage",
+        "text": "America/Anchorage",
         "abbr": "AKDT"
     },
     "America/Anguilla": {
         "id": "America/Anguilla",
-        "name": "America/Anguilla",
+        "text": "America/Anguilla",
         "abbr": "AST"
     },
     "America/Antigua": {
         "id": "America/Antigua",
-        "name": "America/Antigua",
+        "text": "America/Antigua",
         "abbr": "AST"
     },
     "America/Araguaina": {
         "id": "America/Araguaina",
-        "name": "America/Araguaina",
+        "text": "America/Araguaina",
         "abbr": "-03"
     },
     "America/Argentina/Buenos_Aires": {
         "id": "America/Argentina/Buenos_Aires",
-        "name": "America/Argentina/Buenos_Aires",
+        "text": "America/Argentina/Buenos Aires",
         "abbr": "-03"
     },
     "America/Argentina/Catamarca": {
         "id": "America/Argentina/Catamarca",
-        "name": "America/Argentina/Catamarca",
+        "text": "America/Argentina/Catamarca",
         "abbr": "-03"
     },
     "America/Argentina/ComodRivadavia": {
         "id": "America/Argentina/ComodRivadavia",
-        "name": "America/Argentina/ComodRivadavia",
+        "text": "America/Argentina/ComodRivadavia",
         "abbr": "-03"
     },
     "America/Argentina/Cordoba": {
         "id": "America/Argentina/Cordoba",
-        "name": "America/Argentina/Cordoba",
+        "text": "America/Argentina/Cordoba",
         "abbr": "-03"
     },
     "America/Argentina/Jujuy": {
         "id": "America/Argentina/Jujuy",
-        "name": "America/Argentina/Jujuy",
+        "text": "America/Argentina/Jujuy",
         "abbr": "-03"
     },
     "America/Argentina/La_Rioja": {
         "id": "America/Argentina/La_Rioja",
-        "name": "America/Argentina/La_Rioja",
+        "text": "America/Argentina/La Rioja",
         "abbr": "-03"
     },
     "America/Argentina/Mendoza": {
         "id": "America/Argentina/Mendoza",
-        "name": "America/Argentina/Mendoza",
+        "text": "America/Argentina/Mendoza",
         "abbr": "-03"
     },
     "America/Argentina/Rio_Gallegos": {
         "id": "America/Argentina/Rio_Gallegos",
-        "name": "America/Argentina/Rio_Gallegos",
+        "text": "America/Argentina/Rio Gallegos",
         "abbr": "-03"
     },
     "America/Argentina/Salta": {
         "id": "America/Argentina/Salta",
-        "name": "America/Argentina/Salta",
+        "text": "America/Argentina/Salta",
         "abbr": "-03"
     },
     "America/Argentina/San_Juan": {
         "id": "America/Argentina/San_Juan",
-        "name": "America/Argentina/San_Juan",
+        "text": "America/Argentina/San Juan",
         "abbr": "-03"
     },
     "America/Argentina/San_Luis": {
         "id": "America/Argentina/San_Luis",
-        "name": "America/Argentina/San_Luis",
+        "text": "America/Argentina/San Luis",
         "abbr": "-03"
     },
     "America/Argentina/Tucuman": {
         "id": "America/Argentina/Tucuman",
-        "name": "America/Argentina/Tucuman",
+        "text": "America/Argentina/Tucuman",
         "abbr": "-03"
     },
     "America/Argentina/Ushuaia": {
         "id": "America/Argentina/Ushuaia",
-        "name": "America/Argentina/Ushuaia",
+        "text": "America/Argentina/Ushuaia",
         "abbr": "-03"
     },
     "America/Aruba": {
         "id": "America/Aruba",
-        "name": "America/Aruba",
+        "text": "America/Aruba",
         "abbr": "AST"
     },
     "America/Asuncion": {
         "id": "America/Asuncion",
-        "name": "America/Asuncion",
+        "text": "America/Asuncion",
         "abbr": "-03"
     },
     "America/Atikokan": {
         "id": "America/Atikokan",
-        "name": "America/Atikokan",
+        "text": "America/Atikokan",
         "abbr": "EST"
     },
     "America/Atka": {
         "id": "America/Atka",
-        "name": "America/Atka",
+        "text": "America/Atka",
         "abbr": "HDT"
     },
     "America/Bahia": {
         "id": "America/Bahia",
-        "name": "America/Bahia",
+        "text": "America/Bahia",
         "abbr": "-03"
     },
     "America/Bahia_Banderas": {
         "id": "America/Bahia_Banderas",
-        "name": "America/Bahia_Banderas",
+        "text": "America/Bahia Banderas",
         "abbr": "CST"
     },
     "America/Barbados": {
         "id": "America/Barbados",
-        "name": "America/Barbados",
+        "text": "America/Barbados",
         "abbr": "AST"
     },
     "America/Belem": {
         "id": "America/Belem",
-        "name": "America/Belem",
+        "text": "America/Belem",
         "abbr": "-03"
     },
     "America/Belize": {
         "id": "America/Belize",
-        "name": "America/Belize",
+        "text": "America/Belize",
         "abbr": "CST"
     },
     "America/Blanc-Sablon": {
         "id": "America/Blanc-Sablon",
-        "name": "America/Blanc-Sablon",
+        "text": "America/Blanc-Sablon",
         "abbr": "AST"
     },
     "America/Boa_Vista": {
         "id": "America/Boa_Vista",
-        "name": "America/Boa_Vista",
+        "text": "America/Boa Vista",
         "abbr": "-04"
     },
     "America/Bogota": {
         "id": "America/Bogota",
-        "name": "America/Bogota",
+        "text": "America/Bogota",
         "abbr": "-05"
     },
     "America/Boise": {
         "id": "America/Boise",
-        "name": "America/Boise",
+        "text": "America/Boise",
         "abbr": "MDT"
     },
     "America/Buenos_Aires": {
         "id": "America/Buenos_Aires",
-        "name": "America/Buenos_Aires",
+        "text": "America/Buenos Aires",
         "abbr": "-03"
     },
     "America/Cambridge_Bay": {
         "id": "America/Cambridge_Bay",
-        "name": "America/Cambridge_Bay",
+        "text": "America/Cambridge Bay",
         "abbr": "MDT"
     },
     "America/Campo_Grande": {
         "id": "America/Campo_Grande",
-        "name": "America/Campo_Grande",
+        "text": "America/Campo Grande",
         "abbr": "-04"
     },
     "America/Cancun": {
         "id": "America/Cancun",
-        "name": "America/Cancun",
+        "text": "America/Cancun",
         "abbr": "EST"
     },
     "America/Caracas": {
         "id": "America/Caracas",
-        "name": "America/Caracas",
+        "text": "America/Caracas",
         "abbr": "-04"
     },
     "America/Catamarca": {
         "id": "America/Catamarca",
-        "name": "America/Catamarca",
+        "text": "America/Catamarca",
         "abbr": "-03"
     },
     "America/Cayenne": {
         "id": "America/Cayenne",
-        "name": "America/Cayenne",
+        "text": "America/Cayenne",
         "abbr": "-03"
     },
     "America/Cayman": {
         "id": "America/Cayman",
-        "name": "America/Cayman",
+        "text": "America/Cayman",
         "abbr": "EST"
     },
     "America/Chicago": {
         "id": "America/Chicago",
-        "name": "America/Chicago",
+        "text": "America/Chicago",
         "abbr": "CDT"
     },
     "America/Chihuahua": {
         "id": "America/Chihuahua",
-        "name": "America/Chihuahua",
+        "text": "America/Chihuahua",
         "abbr": "MST"
     },
     "America/Coral_Harbour": {
         "id": "America/Coral_Harbour",
-        "name": "America/Coral_Harbour",
+        "text": "America/Coral Harbour",
         "abbr": "EST"
     },
     "America/Cordoba": {
         "id": "America/Cordoba",
-        "name": "America/Cordoba",
+        "text": "America/Cordoba",
         "abbr": "-03"
     },
     "America/Costa_Rica": {
         "id": "America/Costa_Rica",
-        "name": "America/Costa_Rica",
+        "text": "America/Costa Rica",
         "abbr": "CST"
     },
     "America/Creston": {
         "id": "America/Creston",
-        "name": "America/Creston",
+        "text": "America/Creston",
         "abbr": "MST"
     },
     "America/Cuiaba": {
         "id": "America/Cuiaba",
-        "name": "America/Cuiaba",
+        "text": "America/Cuiaba",
         "abbr": "-04"
     },
     "America/Curacao": {
         "id": "America/Curacao",
-        "name": "America/Curacao",
+        "text": "America/Curacao",
         "abbr": "AST"
     },
     "America/Danmarkshavn": {
         "id": "America/Danmarkshavn",
-        "name": "America/Danmarkshavn",
+        "text": "America/Danmarkshavn",
         "abbr": "GMT"
     },
     "America/Dawson": {
         "id": "America/Dawson",
-        "name": "America/Dawson",
+        "text": "America/Dawson",
         "abbr": "MST"
     },
     "America/Dawson_Creek": {
         "id": "America/Dawson_Creek",
-        "name": "America/Dawson_Creek",
+        "text": "America/Dawson Creek",
         "abbr": "MST"
     },
     "America/Denver": {
         "id": "America/Denver",
-        "name": "America/Denver",
+        "text": "America/Denver",
         "abbr": "MDT"
     },
     "America/Detroit": {
         "id": "America/Detroit",
-        "name": "America/Detroit",
+        "text": "America/Detroit",
         "abbr": "EDT"
     },
     "America/Dominica": {
         "id": "America/Dominica",
-        "name": "America/Dominica",
+        "text": "America/Dominica",
         "abbr": "AST"
     },
     "America/Edmonton": {
         "id": "America/Edmonton",
-        "name": "America/Edmonton",
+        "text": "America/Edmonton",
         "abbr": "MDT"
     },
     "America/Eirunepe": {
         "id": "America/Eirunepe",
-        "name": "America/Eirunepe",
+        "text": "America/Eirunepe",
         "abbr": "-05"
     },
     "America/El_Salvador": {
         "id": "America/El_Salvador",
-        "name": "America/El_Salvador",
+        "text": "America/El Salvador",
         "abbr": "CST"
     },
     "America/Ensenada": {
         "id": "America/Ensenada",
-        "name": "America/Ensenada",
+        "text": "America/Ensenada",
         "abbr": "PDT"
     },
     "America/Fortaleza": {
         "id": "America/Fortaleza",
-        "name": "America/Fortaleza",
+        "text": "America/Fortaleza",
         "abbr": "-03"
     },
     "America/Fort_Nelson": {
         "id": "America/Fort_Nelson",
-        "name": "America/Fort_Nelson",
+        "text": "America/Fort Nelson",
         "abbr": "MST"
     },
     "America/Fort_Wayne": {
         "id": "America/Fort_Wayne",
-        "name": "America/Fort_Wayne",
+        "text": "America/Fort Wayne",
         "abbr": "EDT"
     },
     "America/Glace_Bay": {
         "id": "America/Glace_Bay",
-        "name": "America/Glace_Bay",
+        "text": "America/Glace Bay",
         "abbr": "ADT"
     },
     "America/Godthab": {
         "id": "America/Godthab",
-        "name": "America/Godthab",
+        "text": "America/Godthab",
         "abbr": "-03"
     },
     "America/Goose_Bay": {
         "id": "America/Goose_Bay",
-        "name": "America/Goose_Bay",
+        "text": "America/Goose Bay",
         "abbr": "ADT"
     },
     "America/Grand_Turk": {
         "id": "America/Grand_Turk",
-        "name": "America/Grand_Turk",
+        "text": "America/Grand Turk",
         "abbr": "EDT"
     },
     "America/Grenada": {
         "id": "America/Grenada",
-        "name": "America/Grenada",
+        "text": "America/Grenada",
         "abbr": "AST"
     },
     "America/Guadeloupe": {
         "id": "America/Guadeloupe",
-        "name": "America/Guadeloupe",
+        "text": "America/Guadeloupe",
         "abbr": "AST"
     },
     "America/Guatemala": {
         "id": "America/Guatemala",
-        "name": "America/Guatemala",
+        "text": "America/Guatemala",
         "abbr": "CST"
     },
     "America/Guayaquil": {
         "id": "America/Guayaquil",
-        "name": "America/Guayaquil",
+        "text": "America/Guayaquil",
         "abbr": "-05"
     },
     "America/Guyana": {
         "id": "America/Guyana",
-        "name": "America/Guyana",
+        "text": "America/Guyana",
         "abbr": "-04"
     },
     "America/Halifax": {
         "id": "America/Halifax",
-        "name": "America/Halifax",
+        "text": "America/Halifax",
         "abbr": "ADT"
     },
     "America/Havana": {
         "id": "America/Havana",
-        "name": "America/Havana",
+        "text": "America/Havana",
         "abbr": "CDT"
     },
     "America/Hermosillo": {
         "id": "America/Hermosillo",
-        "name": "America/Hermosillo",
+        "text": "America/Hermosillo",
         "abbr": "MST"
     },
     "America/Indiana/Indianapolis": {
         "id": "America/Indiana/Indianapolis",
-        "name": "America/Indiana/Indianapolis",
+        "text": "America/Indiana/Indianapolis",
         "abbr": "EDT"
     },
     "America/Indiana/Knox": {
         "id": "America/Indiana/Knox",
-        "name": "America/Indiana/Knox",
+        "text": "America/Indiana/Knox",
         "abbr": "CDT"
     },
     "America/Indiana/Marengo": {
         "id": "America/Indiana/Marengo",
-        "name": "America/Indiana/Marengo",
+        "text": "America/Indiana/Marengo",
         "abbr": "EDT"
     },
     "America/Indiana/Petersburg": {
         "id": "America/Indiana/Petersburg",
-        "name": "America/Indiana/Petersburg",
+        "text": "America/Indiana/Petersburg",
         "abbr": "EDT"
     },
     "America/Indianapolis": {
         "id": "America/Indianapolis",
-        "name": "America/Indianapolis",
+        "text": "America/Indianapolis",
         "abbr": "EDT"
     },
     "America/Indiana/Tell_City": {
         "id": "America/Indiana/Tell_City",
-        "name": "America/Indiana/Tell_City",
+        "text": "America/Indiana/Tell City",
         "abbr": "CDT"
     },
     "America/Indiana/Vevay": {
         "id": "America/Indiana/Vevay",
-        "name": "America/Indiana/Vevay",
+        "text": "America/Indiana/Vevay",
         "abbr": "EDT"
     },
     "America/Indiana/Vincennes": {
         "id": "America/Indiana/Vincennes",
-        "name": "America/Indiana/Vincennes",
+        "text": "America/Indiana/Vincennes",
         "abbr": "EDT"
     },
     "America/Indiana/Winamac": {
         "id": "America/Indiana/Winamac",
-        "name": "America/Indiana/Winamac",
+        "text": "America/Indiana/Winamac",
         "abbr": "EDT"
     },
     "America/Inuvik": {
         "id": "America/Inuvik",
-        "name": "America/Inuvik",
+        "text": "America/Inuvik",
         "abbr": "MDT"
     },
     "America/Iqaluit": {
         "id": "America/Iqaluit",
-        "name": "America/Iqaluit",
+        "text": "America/Iqaluit",
         "abbr": "EDT"
     },
     "America/Jamaica": {
         "id": "America/Jamaica",
-        "name": "America/Jamaica",
+        "text": "America/Jamaica",
         "abbr": "EST"
     },
     "America/Jujuy": {
         "id": "America/Jujuy",
-        "name": "America/Jujuy",
+        "text": "America/Jujuy",
         "abbr": "-03"
     },
     "America/Juneau": {
         "id": "America/Juneau",
-        "name": "America/Juneau",
+        "text": "America/Juneau",
         "abbr": "AKDT"
     },
     "America/Kentucky/Louisville": {
         "id": "America/Kentucky/Louisville",
-        "name": "America/Kentucky/Louisville",
+        "text": "America/Kentucky/Louisville",
         "abbr": "EDT"
     },
     "America/Kentucky/Monticello": {
         "id": "America/Kentucky/Monticello",
-        "name": "America/Kentucky/Monticello",
+        "text": "America/Kentucky/Monticello",
         "abbr": "EDT"
     },
     "America/Knox_IN": {
         "id": "America/Knox_IN",
-        "name": "America/Knox_IN",
+        "text": "America/Knox IN",
         "abbr": "CDT"
     },
     "America/Kralendijk": {
         "id": "America/Kralendijk",
-        "name": "America/Kralendijk",
+        "text": "America/Kralendijk",
         "abbr": "AST"
     },
     "America/La_Paz": {
         "id": "America/La_Paz",
-        "name": "America/La_Paz",
+        "text": "America/La Paz",
         "abbr": "-04"
     },
     "America/Lima": {
         "id": "America/Lima",
-        "name": "America/Lima",
+        "text": "America/Lima",
         "abbr": "-05"
     },
     "America/Los_Angeles": {
         "id": "America/Los_Angeles",
-        "name": "America/Los_Angeles",
+        "text": "America/Los Angeles",
         "abbr": "PDT"
     },
     "America/Louisville": {
         "id": "America/Louisville",
-        "name": "America/Louisville",
+        "text": "America/Louisville",
         "abbr": "EDT"
     },
     "America/Lower_Princes": {
         "id": "America/Lower_Princes",
-        "name": "America/Lower_Princes",
+        "text": "America/Lower Princes",
         "abbr": "AST"
     },
     "America/Maceio": {
         "id": "America/Maceio",
-        "name": "America/Maceio",
+        "text": "America/Maceio",
         "abbr": "-03"
     },
     "America/Managua": {
         "id": "America/Managua",
-        "name": "America/Managua",
+        "text": "America/Managua",
         "abbr": "CST"
     },
     "America/Manaus": {
         "id": "America/Manaus",
-        "name": "America/Manaus",
+        "text": "America/Manaus",
         "abbr": "-04"
     },
     "America/Marigot": {
         "id": "America/Marigot",
-        "name": "America/Marigot",
+        "text": "America/Marigot",
         "abbr": "AST"
     },
     "America/Martinique": {
         "id": "America/Martinique",
-        "name": "America/Martinique",
+        "text": "America/Martinique",
         "abbr": "AST"
     },
     "America/Matamoros": {
         "id": "America/Matamoros",
-        "name": "America/Matamoros",
+        "text": "America/Matamoros",
         "abbr": "CDT"
     },
     "America/Mazatlan": {
         "id": "America/Mazatlan",
-        "name": "America/Mazatlan",
+        "text": "America/Mazatlan",
         "abbr": "MST"
     },
     "America/Mendoza": {
         "id": "America/Mendoza",
-        "name": "America/Mendoza",
+        "text": "America/Mendoza",
         "abbr": "-03"
     },
     "America/Menominee": {
         "id": "America/Menominee",
-        "name": "America/Menominee",
+        "text": "America/Menominee",
         "abbr": "CDT"
     },
     "America/Merida": {
         "id": "America/Merida",
-        "name": "America/Merida",
+        "text": "America/Merida",
         "abbr": "CST"
     },
     "America/Metlakatla": {
         "id": "America/Metlakatla",
-        "name": "America/Metlakatla",
+        "text": "America/Metlakatla",
         "abbr": "AKDT"
     },
     "America/Mexico_City": {
         "id": "America/Mexico_City",
-        "name": "America/Mexico_City",
+        "text": "America/Mexico City",
         "abbr": "CST"
     },
     "America/Miquelon": {
         "id": "America/Miquelon",
-        "name": "America/Miquelon",
+        "text": "America/Miquelon",
         "abbr": "-02"
     },
     "America/Moncton": {
         "id": "America/Moncton",
-        "name": "America/Moncton",
+        "text": "America/Moncton",
         "abbr": "ADT"
     },
     "America/Monterrey": {
         "id": "America/Monterrey",
-        "name": "America/Monterrey",
+        "text": "America/Monterrey",
         "abbr": "CST"
     },
     "America/Montevideo": {
         "id": "America/Montevideo",
-        "name": "America/Montevideo",
+        "text": "America/Montevideo",
         "abbr": "-03"
     },
     "America/Montreal": {
         "id": "America/Montreal",
-        "name": "America/Montreal",
+        "text": "America/Montreal",
         "abbr": "EDT"
     },
     "America/Montserrat": {
         "id": "America/Montserrat",
-        "name": "America/Montserrat",
+        "text": "America/Montserrat",
         "abbr": "AST"
     },
     "America/Nassau": {
         "id": "America/Nassau",
-        "name": "America/Nassau",
+        "text": "America/Nassau",
         "abbr": "EDT"
     },
     "America/New_York": {
         "id": "America/New_York",
-        "name": "America/New_York",
+        "text": "America/New York",
         "abbr": "EDT"
     },
     "America/Nipigon": {
         "id": "America/Nipigon",
-        "name": "America/Nipigon",
+        "text": "America/Nipigon",
         "abbr": "EDT"
     },
     "America/Nome": {
         "id": "America/Nome",
-        "name": "America/Nome",
+        "text": "America/Nome",
         "abbr": "AKDT"
     },
     "America/Noronha": {
         "id": "America/Noronha",
-        "name": "America/Noronha",
+        "text": "America/Noronha",
         "abbr": "-02"
     },
     "America/North_Dakota/Beulah": {
         "id": "America/North_Dakota/Beulah",
-        "name": "America/North_Dakota/Beulah",
+        "text": "America/North Dakota/Beulah",
         "abbr": "CDT"
     },
     "America/North_Dakota/Center": {
         "id": "America/North_Dakota/Center",
-        "name": "America/North_Dakota/Center",
+        "text": "America/North Dakota/Center",
         "abbr": "CDT"
     },
     "America/North_Dakota/New_Salem": {
         "id": "America/North_Dakota/New_Salem",
-        "name": "America/North_Dakota/New_Salem",
+        "text": "America/North Dakota/New Salem",
         "abbr": "CDT"
     },
     "America/Nuuk": {
         "id": "America/Nuuk",
-        "name": "America/Nuuk",
+        "text": "America/Nuuk",
         "abbr": "-03"
     },
     "America/Ojinaga": {
         "id": "America/Ojinaga",
-        "name": "America/Ojinaga",
+        "text": "America/Ojinaga",
         "abbr": "MDT"
     },
     "America/Panama": {
         "id": "America/Panama",
-        "name": "America/Panama",
+        "text": "America/Panama",
         "abbr": "EST"
     },
     "America/Pangnirtung": {
         "id": "America/Pangnirtung",
-        "name": "America/Pangnirtung",
+        "text": "America/Pangnirtung",
         "abbr": "EDT"
     },
     "America/Paramaribo": {
         "id": "America/Paramaribo",
-        "name": "America/Paramaribo",
+        "text": "America/Paramaribo",
         "abbr": "-03"
     },
     "America/Phoenix": {
         "id": "America/Phoenix",
-        "name": "America/Phoenix",
+        "text": "America/Phoenix",
         "abbr": "MST"
     },
     "America/Port-au-Prince": {
         "id": "America/Port-au-Prince",
-        "name": "America/Port-au-Prince",
+        "text": "America/Port-au-Prince",
         "abbr": "EDT"
     },
     "America/Porto_Acre": {
         "id": "America/Porto_Acre",
-        "name": "America/Porto_Acre",
+        "text": "America/Porto Acre",
         "abbr": "-05"
     },
     "America/Port_of_Spain": {
         "id": "America/Port_of_Spain",
-        "name": "America/Port_of_Spain",
+        "text": "America/Port of Spain",
         "abbr": "AST"
     },
     "America/Porto_Velho": {
         "id": "America/Porto_Velho",
-        "name": "America/Porto_Velho",
+        "text": "America/Porto Velho",
         "abbr": "-04"
     },
     "America/Puerto_Rico": {
         "id": "America/Puerto_Rico",
-        "name": "America/Puerto_Rico",
+        "text": "America/Puerto Rico",
         "abbr": "AST"
     },
     "America/Punta_Arenas": {
         "id": "America/Punta_Arenas",
-        "name": "America/Punta_Arenas",
+        "text": "America/Punta Arenas",
         "abbr": "-03"
     },
     "America/Rainy_River": {
         "id": "America/Rainy_River",
-        "name": "America/Rainy_River",
+        "text": "America/Rainy River",
         "abbr": "CDT"
     },
     "America/Rankin_Inlet": {
         "id": "America/Rankin_Inlet",
-        "name": "America/Rankin_Inlet",
+        "text": "America/Rankin Inlet",
         "abbr": "CDT"
     },
     "America/Recife": {
         "id": "America/Recife",
-        "name": "America/Recife",
+        "text": "America/Recife",
         "abbr": "-03"
     },
     "America/Regina": {
         "id": "America/Regina",
-        "name": "America/Regina",
+        "text": "America/Regina",
         "abbr": "CST"
     },
     "America/Resolute": {
         "id": "America/Resolute",
-        "name": "America/Resolute",
+        "text": "America/Resolute",
         "abbr": "CDT"
     },
     "America/Rio_Branco": {
         "id": "America/Rio_Branco",
-        "name": "America/Rio_Branco",
+        "text": "America/Rio Branco",
         "abbr": "-05"
     },
     "America/Rosario": {
         "id": "America/Rosario",
-        "name": "America/Rosario",
+        "text": "America/Rosario",
         "abbr": "-03"
     },
     "America/Santa_Isabel": {
         "id": "America/Santa_Isabel",
-        "name": "America/Santa_Isabel",
+        "text": "America/Santa Isabel",
         "abbr": "PDT"
     },
     "America/Santarem": {
         "id": "America/Santarem",
-        "name": "America/Santarem",
+        "text": "America/Santarem",
         "abbr": "-03"
     },
     "America/Santiago": {
         "id": "America/Santiago",
-        "name": "America/Santiago",
+        "text": "America/Santiago",
         "abbr": "-03"
     },
     "America/Santo_Domingo": {
         "id": "America/Santo_Domingo",
-        "name": "America/Santo_Domingo",
+        "text": "America/Santo Domingo",
         "abbr": "AST"
     },
     "America/Sao_Paulo": {
         "id": "America/Sao_Paulo",
-        "name": "America/Sao_Paulo",
+        "text": "America/Sao Paulo",
         "abbr": "-03"
     },
     "America/Scoresbysund": {
         "id": "America/Scoresbysund",
-        "name": "America/Scoresbysund",
+        "text": "America/Scoresbysund",
         "abbr": "-01"
     },
     "America/Shiprock": {
         "id": "America/Shiprock",
-        "name": "America/Shiprock",
+        "text": "America/Shiprock",
         "abbr": "MDT"
     },
     "America/Sitka": {
         "id": "America/Sitka",
-        "name": "America/Sitka",
+        "text": "America/Sitka",
         "abbr": "AKDT"
     },
     "America/St_Barthelemy": {
         "id": "America/St_Barthelemy",
-        "name": "America/St_Barthelemy",
+        "text": "America/St Barthelemy",
         "abbr": "AST"
     },
     "America/St_Johns": {
         "id": "America/St_Johns",
-        "name": "America/St_Johns",
+        "text": "America/St Johns",
         "abbr": "NDT"
     },
     "America/St_Kitts": {
         "id": "America/St_Kitts",
-        "name": "America/St_Kitts",
+        "text": "America/St Kitts",
         "abbr": "AST"
     },
     "America/St_Lucia": {
         "id": "America/St_Lucia",
-        "name": "America/St_Lucia",
+        "text": "America/St Lucia",
         "abbr": "AST"
     },
     "America/St_Thomas": {
         "id": "America/St_Thomas",
-        "name": "America/St_Thomas",
+        "text": "America/St Thomas",
         "abbr": "AST"
     },
     "America/St_Vincent": {
         "id": "America/St_Vincent",
-        "name": "America/St_Vincent",
+        "text": "America/St Vincent",
         "abbr": "AST"
     },
     "America/Swift_Current": {
         "id": "America/Swift_Current",
-        "name": "America/Swift_Current",
+        "text": "America/Swift Current",
         "abbr": "CST"
     },
     "America/Tegucigalpa": {
         "id": "America/Tegucigalpa",
-        "name": "America/Tegucigalpa",
+        "text": "America/Tegucigalpa",
         "abbr": "CST"
     },
     "America/Thule": {
         "id": "America/Thule",
-        "name": "America/Thule",
+        "text": "America/Thule",
         "abbr": "ADT"
     },
     "America/Thunder_Bay": {
         "id": "America/Thunder_Bay",
-        "name": "America/Thunder_Bay",
+        "text": "America/Thunder Bay",
         "abbr": "EDT"
     },
     "America/Tijuana": {
         "id": "America/Tijuana",
-        "name": "America/Tijuana",
+        "text": "America/Tijuana",
         "abbr": "PDT"
     },
     "America/Toronto": {
         "id": "America/Toronto",
-        "name": "America/Toronto",
+        "text": "America/Toronto",
         "abbr": "EDT"
     },
     "America/Tortola": {
         "id": "America/Tortola",
-        "name": "America/Tortola",
+        "text": "America/Tortola",
         "abbr": "AST"
     },
     "America/Vancouver": {
         "id": "America/Vancouver",
-        "name": "America/Vancouver",
+        "text": "America/Vancouver",
         "abbr": "PDT"
     },
     "America/Virgin": {
         "id": "America/Virgin",
-        "name": "America/Virgin",
+        "text": "America/Virgin",
         "abbr": "AST"
     },
     "America/Whitehorse": {
         "id": "America/Whitehorse",
-        "name": "America/Whitehorse",
+        "text": "America/Whitehorse",
         "abbr": "MST"
     },
     "America/Winnipeg": {
         "id": "America/Winnipeg",
-        "name": "America/Winnipeg",
+        "text": "America/Winnipeg",
         "abbr": "CDT"
     },
     "America/Yakutat": {
         "id": "America/Yakutat",
-        "name": "America/Yakutat",
+        "text": "America/Yakutat",
         "abbr": "AKDT"
     },
     "America/Yellowknife": {
         "id": "America/Yellowknife",
-        "name": "America/Yellowknife",
+        "text": "America/Yellowknife",
         "abbr": "MDT"
     },
     "Antarctica/Casey": {
         "id": "Antarctica/Casey",
-        "name": "Antarctica/Casey",
+        "text": "Antarctica/Casey",
         "abbr": "+08"
     },
     "Antarctica/Davis": {
         "id": "Antarctica/Davis",
-        "name": "Antarctica/Davis",
+        "text": "Antarctica/Davis",
         "abbr": "+07"
     },
     "Antarctica/DumontDUrville": {
         "id": "Antarctica/DumontDUrville",
-        "name": "Antarctica/DumontDUrville",
+        "text": "Antarctica/DumontDUrville",
         "abbr": "+10"
     },
     "Antarctica/Macquarie": {
         "id": "Antarctica/Macquarie",
-        "name": "Antarctica/Macquarie",
+        "text": "Antarctica/Macquarie",
         "abbr": "+11"
     },
     "Antarctica/Mawson": {
         "id": "Antarctica/Mawson",
-        "name": "Antarctica/Mawson",
+        "text": "Antarctica/Mawson",
         "abbr": "+05"
     },
     "Antarctica/McMurdo": {
         "id": "Antarctica/McMurdo",
-        "name": "Antarctica/McMurdo",
+        "text": "Antarctica/McMurdo",
         "abbr": "NZDT"
     },
     "Antarctica/Palmer": {
         "id": "Antarctica/Palmer",
-        "name": "Antarctica/Palmer",
+        "text": "Antarctica/Palmer",
         "abbr": "-03"
     },
     "Antarctica/Rothera": {
         "id": "Antarctica/Rothera",
-        "name": "Antarctica/Rothera",
+        "text": "Antarctica/Rothera",
         "abbr": "-03"
     },
     "Antarctica/South_Pole": {
         "id": "Antarctica/South_Pole",
-        "name": "Antarctica/South_Pole",
+        "text": "Antarctica/South Pole",
         "abbr": "NZDT"
     },
     "Antarctica/Syowa": {
         "id": "Antarctica/Syowa",
-        "name": "Antarctica/Syowa",
+        "text": "Antarctica/Syowa",
         "abbr": "+03"
     },
     "Antarctica/Troll": {
         "id": "Antarctica/Troll",
-        "name": "Antarctica/Troll",
+        "text": "Antarctica/Troll",
         "abbr": "+00"
     },
     "Antarctica/Vostok": {
         "id": "Antarctica/Vostok",
-        "name": "Antarctica/Vostok",
+        "text": "Antarctica/Vostok",
         "abbr": "+06"
     },
     "Arctic/Longyearbyen": {
         "id": "Arctic/Longyearbyen",
-        "name": "Arctic/Longyearbyen",
+        "text": "Arctic/Longyearbyen",
         "abbr": "CET"
     },
     "Asia/Aden": {
         "id": "Asia/Aden",
-        "name": "Asia/Aden",
+        "text": "Asia/Aden",
         "abbr": "+03"
     },
     "Asia/Almaty": {
         "id": "Asia/Almaty",
-        "name": "Asia/Almaty",
+        "text": "Asia/Almaty",
         "abbr": "+06"
     },
     "Asia/Amman": {
         "id": "Asia/Amman",
-        "name": "Asia/Amman",
+        "text": "Asia/Amman",
         "abbr": "EEST"
     },
     "Asia/Anadyr": {
         "id": "Asia/Anadyr",
-        "name": "Asia/Anadyr",
+        "text": "Asia/Anadyr",
         "abbr": "+12"
     },
     "Asia/Aqtau": {
         "id": "Asia/Aqtau",
-        "name": "Asia/Aqtau",
+        "text": "Asia/Aqtau",
         "abbr": "+05"
     },
     "Asia/Aqtobe": {
         "id": "Asia/Aqtobe",
-        "name": "Asia/Aqtobe",
+        "text": "Asia/Aqtobe",
         "abbr": "+05"
     },
     "Asia/Ashgabat": {
         "id": "Asia/Ashgabat",
-        "name": "Asia/Ashgabat",
+        "text": "Asia/Ashgabat",
         "abbr": "+05"
     },
     "Asia/Ashkhabad": {
         "id": "Asia/Ashkhabad",
-        "name": "Asia/Ashkhabad",
+        "text": "Asia/Ashkhabad",
         "abbr": "+05"
     },
     "Asia/Atyrau": {
         "id": "Asia/Atyrau",
-        "name": "Asia/Atyrau",
+        "text": "Asia/Atyrau",
         "abbr": "+05"
     },
     "Asia/Baghdad": {
         "id": "Asia/Baghdad",
-        "name": "Asia/Baghdad",
+        "text": "Asia/Baghdad",
         "abbr": "+03"
     },
     "Asia/Bahrain": {
         "id": "Asia/Bahrain",
-        "name": "Asia/Bahrain",
+        "text": "Asia/Bahrain",
         "abbr": "+03"
     },
     "Asia/Baku": {
         "id": "Asia/Baku",
-        "name": "Asia/Baku",
+        "text": "Asia/Baku",
         "abbr": "+04"
     },
     "Asia/Bangkok": {
         "id": "Asia/Bangkok",
-        "name": "Asia/Bangkok",
+        "text": "Asia/Bangkok",
         "abbr": "+07"
     },
     "Asia/Barnaul": {
         "id": "Asia/Barnaul",
-        "name": "Asia/Barnaul",
+        "text": "Asia/Barnaul",
         "abbr": "+07"
     },
     "Asia/Beirut": {
         "id": "Asia/Beirut",
-        "name": "Asia/Beirut",
+        "text": "Asia/Beirut",
         "abbr": "EET"
     },
     "Asia/Bishkek": {
         "id": "Asia/Bishkek",
-        "name": "Asia/Bishkek",
+        "text": "Asia/Bishkek",
         "abbr": "+06"
     },
     "Asia/Brunei": {
         "id": "Asia/Brunei",
-        "name": "Asia/Brunei",
+        "text": "Asia/Brunei",
         "abbr": "+08"
     },
     "Asia/Calcutta": {
         "id": "Asia/Calcutta",
-        "name": "Asia/Calcutta",
+        "text": "Asia/Calcutta",
         "abbr": "IST"
     },
     "Asia/Chita": {
         "id": "Asia/Chita",
-        "name": "Asia/Chita",
+        "text": "Asia/Chita",
         "abbr": "+09"
     },
     "Asia/Choibalsan": {
         "id": "Asia/Choibalsan",
-        "name": "Asia/Choibalsan",
+        "text": "Asia/Choibalsan",
         "abbr": "+08"
     },
     "Asia/Chongqing": {
         "id": "Asia/Chongqing",
-        "name": "Asia/Chongqing",
+        "text": "Asia/Chongqing",
         "abbr": "CST"
     },
     "Asia/Chungking": {
         "id": "Asia/Chungking",
-        "name": "Asia/Chungking",
+        "text": "Asia/Chungking",
         "abbr": "CST"
     },
     "Asia/Colombo": {
         "id": "Asia/Colombo",
-        "name": "Asia/Colombo",
+        "text": "Asia/Colombo",
         "abbr": "+0530"
     },
     "Asia/Dacca": {
         "id": "Asia/Dacca",
-        "name": "Asia/Dacca",
+        "text": "Asia/Dacca",
         "abbr": "+06"
     },
     "Asia/Damascus": {
         "id": "Asia/Damascus",
-        "name": "Asia/Damascus",
+        "text": "Asia/Damascus",
         "abbr": "EEST"
     },
     "Asia/Dhaka": {
         "id": "Asia/Dhaka",
-        "name": "Asia/Dhaka",
+        "text": "Asia/Dhaka",
         "abbr": "+06"
     },
     "Asia/Dili": {
         "id": "Asia/Dili",
-        "name": "Asia/Dili",
+        "text": "Asia/Dili",
         "abbr": "+09"
     },
     "Asia/Dubai": {
         "id": "Asia/Dubai",
-        "name": "Asia/Dubai",
+        "text": "Asia/Dubai",
         "abbr": "+04"
     },
     "Asia/Dushanbe": {
         "id": "Asia/Dushanbe",
-        "name": "Asia/Dushanbe",
+        "text": "Asia/Dushanbe",
         "abbr": "+05"
     },
     "Asia/Famagusta": {
         "id": "Asia/Famagusta",
-        "name": "Asia/Famagusta",
+        "text": "Asia/Famagusta",
         "abbr": "EET"
     },
     "Asia/Gaza": {
         "id": "Asia/Gaza",
-        "name": "Asia/Gaza",
+        "text": "Asia/Gaza",
         "abbr": "EEST"
     },
     "Asia/Harbin": {
         "id": "Asia/Harbin",
-        "name": "Asia/Harbin",
+        "text": "Asia/Harbin",
         "abbr": "CST"
     },
     "Asia/Hebron": {
         "id": "Asia/Hebron",
-        "name": "Asia/Hebron",
+        "text": "Asia/Hebron",
         "abbr": "EEST"
     },
     "Asia/Ho_Chi_Minh": {
         "id": "Asia/Ho_Chi_Minh",
-        "name": "Asia/Ho_Chi_Minh",
+        "text": "Asia/Ho Chi Minh",
         "abbr": "+07"
     },
     "Asia/Hong_Kong": {
         "id": "Asia/Hong_Kong",
-        "name": "Asia/Hong_Kong",
+        "text": "Asia/Hong Kong",
         "abbr": "HKT"
     },
     "Asia/Hovd": {
         "id": "Asia/Hovd",
-        "name": "Asia/Hovd",
+        "text": "Asia/Hovd",
         "abbr": "+07"
     },
     "Asia/Irkutsk": {
         "id": "Asia/Irkutsk",
-        "name": "Asia/Irkutsk",
+        "text": "Asia/Irkutsk",
         "abbr": "+08"
     },
     "Asia/Istanbul": {
         "id": "Asia/Istanbul",
-        "name": "Asia/Istanbul",
+        "text": "Asia/Istanbul",
         "abbr": "+03"
     },
     "Asia/Jakarta": {
         "id": "Asia/Jakarta",
-        "name": "Asia/Jakarta",
+        "text": "Asia/Jakarta",
         "abbr": "WIB"
     },
     "Asia/Jayapura": {
         "id": "Asia/Jayapura",
-        "name": "Asia/Jayapura",
+        "text": "Asia/Jayapura",
         "abbr": "WIT"
     },
     "Asia/Jerusalem": {
         "id": "Asia/Jerusalem",
-        "name": "Asia/Jerusalem",
+        "text": "Asia/Jerusalem",
         "abbr": "IST"
     },
     "Asia/Kabul": {
         "id": "Asia/Kabul",
-        "name": "Asia/Kabul",
+        "text": "Asia/Kabul",
         "abbr": "+0430"
     },
     "Asia/Kamchatka": {
         "id": "Asia/Kamchatka",
-        "name": "Asia/Kamchatka",
+        "text": "Asia/Kamchatka",
         "abbr": "+12"
     },
     "Asia/Karachi": {
         "id": "Asia/Karachi",
-        "name": "Asia/Karachi",
+        "text": "Asia/Karachi",
         "abbr": "PKT"
     },
     "Asia/Kashgar": {
         "id": "Asia/Kashgar",
-        "name": "Asia/Kashgar",
+        "text": "Asia/Kashgar",
         "abbr": "+06"
     },
     "Asia/Kathmandu": {
         "id": "Asia/Kathmandu",
-        "name": "Asia/Kathmandu",
+        "text": "Asia/Kathmandu",
         "abbr": "+0545"
     },
     "Asia/Katmandu": {
         "id": "Asia/Katmandu",
-        "name": "Asia/Katmandu",
+        "text": "Asia/Katmandu",
         "abbr": "+0545"
     },
     "Asia/Khandyga": {
         "id": "Asia/Khandyga",
-        "name": "Asia/Khandyga",
+        "text": "Asia/Khandyga",
         "abbr": "+09"
     },
     "Asia/Kolkata": {
         "id": "Asia/Kolkata",
-        "name": "Asia/Kolkata",
+        "text": "Asia/Kolkata",
         "abbr": "IST"
     },
     "Asia/Krasnoyarsk": {
         "id": "Asia/Krasnoyarsk",
-        "name": "Asia/Krasnoyarsk",
+        "text": "Asia/Krasnoyarsk",
         "abbr": "+07"
     },
     "Asia/Kuala_Lumpur": {
         "id": "Asia/Kuala_Lumpur",
-        "name": "Asia/Kuala_Lumpur",
+        "text": "Asia/Kuala Lumpur",
         "abbr": "+08"
     },
     "Asia/Kuching": {
         "id": "Asia/Kuching",
-        "name": "Asia/Kuching",
+        "text": "Asia/Kuching",
         "abbr": "+08"
     },
     "Asia/Kuwait": {
         "id": "Asia/Kuwait",
-        "name": "Asia/Kuwait",
+        "text": "Asia/Kuwait",
         "abbr": "+03"
     },
     "Asia/Macao": {
         "id": "Asia/Macao",
-        "name": "Asia/Macao",
+        "text": "Asia/Macao",
         "abbr": "CST"
     },
     "Asia/Macau": {
         "id": "Asia/Macau",
-        "name": "Asia/Macau",
+        "text": "Asia/Macau",
         "abbr": "CST"
     },
     "Asia/Magadan": {
         "id": "Asia/Magadan",
-        "name": "Asia/Magadan",
+        "text": "Asia/Magadan",
         "abbr": "+11"
     },
     "Asia/Makassar": {
         "id": "Asia/Makassar",
-        "name": "Asia/Makassar",
+        "text": "Asia/Makassar",
         "abbr": "WITA"
     },
     "Asia/Manila": {
         "id": "Asia/Manila",
-        "name": "Asia/Manila",
+        "text": "Asia/Manila",
         "abbr": "PST"
     },
     "Asia/Muscat": {
         "id": "Asia/Muscat",
-        "name": "Asia/Muscat",
+        "text": "Asia/Muscat",
         "abbr": "+04"
     },
     "Asia/Nicosia": {
         "id": "Asia/Nicosia",
-        "name": "Asia/Nicosia",
+        "text": "Asia/Nicosia",
         "abbr": "EET"
     },
     "Asia/Novokuznetsk": {
         "id": "Asia/Novokuznetsk",
-        "name": "Asia/Novokuznetsk",
+        "text": "Asia/Novokuznetsk",
         "abbr": "+07"
     },
     "Asia/Novosibirsk": {
         "id": "Asia/Novosibirsk",
-        "name": "Asia/Novosibirsk",
+        "text": "Asia/Novosibirsk",
         "abbr": "+07"
     },
     "Asia/Omsk": {
         "id": "Asia/Omsk",
-        "name": "Asia/Omsk",
+        "text": "Asia/Omsk",
         "abbr": "+06"
     },
     "Asia/Oral": {
         "id": "Asia/Oral",
-        "name": "Asia/Oral",
+        "text": "Asia/Oral",
         "abbr": "+05"
     },
     "Asia/Phnom_Penh": {
         "id": "Asia/Phnom_Penh",
-        "name": "Asia/Phnom_Penh",
+        "text": "Asia/Phnom Penh",
         "abbr": "+07"
     },
     "Asia/Pontianak": {
         "id": "Asia/Pontianak",
-        "name": "Asia/Pontianak",
+        "text": "Asia/Pontianak",
         "abbr": "WIB"
     },
     "Asia/Pyongyang": {
         "id": "Asia/Pyongyang",
-        "name": "Asia/Pyongyang",
+        "text": "Asia/Pyongyang",
         "abbr": "KST"
     },
     "Asia/Qatar": {
         "id": "Asia/Qatar",
-        "name": "Asia/Qatar",
+        "text": "Asia/Qatar",
         "abbr": "+03"
     },
     "Asia/Qostanay": {
         "id": "Asia/Qostanay",
-        "name": "Asia/Qostanay",
+        "text": "Asia/Qostanay",
         "abbr": "+06"
     },
     "Asia/Qyzylorda": {
         "id": "Asia/Qyzylorda",
-        "name": "Asia/Qyzylorda",
+        "text": "Asia/Qyzylorda",
         "abbr": "+05"
     },
     "Asia/Rangoon": {
         "id": "Asia/Rangoon",
-        "name": "Asia/Rangoon",
+        "text": "Asia/Rangoon",
         "abbr": "+0630"
     },
     "Asia/Riyadh": {
         "id": "Asia/Riyadh",
-        "name": "Asia/Riyadh",
+        "text": "Asia/Riyadh",
         "abbr": "+03"
     },
     "Asia/Saigon": {
         "id": "Asia/Saigon",
-        "name": "Asia/Saigon",
+        "text": "Asia/Saigon",
         "abbr": "+07"
     },
     "Asia/Sakhalin": {
         "id": "Asia/Sakhalin",
-        "name": "Asia/Sakhalin",
+        "text": "Asia/Sakhalin",
         "abbr": "+11"
     },
     "Asia/Samarkand": {
         "id": "Asia/Samarkand",
-        "name": "Asia/Samarkand",
+        "text": "Asia/Samarkand",
         "abbr": "+05"
     },
     "Asia/Seoul": {
         "id": "Asia/Seoul",
-        "name": "Asia/Seoul",
+        "text": "Asia/Seoul",
         "abbr": "KST"
     },
     "Asia/Shanghai": {
         "id": "Asia/Shanghai",
-        "name": "Asia/Shanghai",
+        "text": "Asia/Shanghai",
         "abbr": "CST"
     },
     "Asia/Singapore": {
         "id": "Asia/Singapore",
-        "name": "Asia/Singapore",
+        "text": "Asia/Singapore",
         "abbr": "+08"
     },
     "Asia/Srednekolymsk": {
         "id": "Asia/Srednekolymsk",
-        "name": "Asia/Srednekolymsk",
+        "text": "Asia/Srednekolymsk",
         "abbr": "+11"
     },
     "Asia/Taipei": {
         "id": "Asia/Taipei",
-        "name": "Asia/Taipei",
+        "text": "Asia/Taipei",
         "abbr": "CST"
     },
     "Asia/Tashkent": {
         "id": "Asia/Tashkent",
-        "name": "Asia/Tashkent",
+        "text": "Asia/Tashkent",
         "abbr": "+05"
     },
     "Asia/Tbilisi": {
         "id": "Asia/Tbilisi",
-        "name": "Asia/Tbilisi",
+        "text": "Asia/Tbilisi",
         "abbr": "+04"
     },
     "Asia/Tehran": {
         "id": "Asia/Tehran",
-        "name": "Asia/Tehran",
+        "text": "Asia/Tehran",
         "abbr": "+0330"
     },
     "Asia/Tel_Aviv": {
         "id": "Asia/Tel_Aviv",
-        "name": "Asia/Tel_Aviv",
+        "text": "Asia/Tel Aviv",
         "abbr": "IST"
     },
     "Asia/Thimbu": {
         "id": "Asia/Thimbu",
-        "name": "Asia/Thimbu",
+        "text": "Asia/Thimbu",
         "abbr": "+06"
     },
     "Asia/Thimphu": {
         "id": "Asia/Thimphu",
-        "name": "Asia/Thimphu",
+        "text": "Asia/Thimphu",
         "abbr": "+06"
     },
     "Asia/Tokyo": {
         "id": "Asia/Tokyo",
-        "name": "Asia/Tokyo",
+        "text": "Asia/Tokyo",
         "abbr": "JST"
     },
     "Asia/Tomsk": {
         "id": "Asia/Tomsk",
-        "name": "Asia/Tomsk",
+        "text": "Asia/Tomsk",
         "abbr": "+07"
     },
     "Asia/Ujung_Pandang": {
         "id": "Asia/Ujung_Pandang",
-        "name": "Asia/Ujung_Pandang",
+        "text": "Asia/Ujung Pandang",
         "abbr": "WITA"
     },
     "Asia/Ulaanbaatar": {
         "id": "Asia/Ulaanbaatar",
-        "name": "Asia/Ulaanbaatar",
+        "text": "Asia/Ulaanbaatar",
         "abbr": "+08"
     },
     "Asia/Ulan_Bator": {
         "id": "Asia/Ulan_Bator",
-        "name": "Asia/Ulan_Bator",
+        "text": "Asia/Ulan Bator",
         "abbr": "+08"
     },
     "Asia/Urumqi": {
         "id": "Asia/Urumqi",
-        "name": "Asia/Urumqi",
+        "text": "Asia/Urumqi",
         "abbr": "+06"
     },
     "Asia/Ust-Nera": {
         "id": "Asia/Ust-Nera",
-        "name": "Asia/Ust-Nera",
+        "text": "Asia/Ust-Nera",
         "abbr": "+10"
     },
     "Asia/Vientiane": {
         "id": "Asia/Vientiane",
-        "name": "Asia/Vientiane",
+        "text": "Asia/Vientiane",
         "abbr": "+07"
     },
     "Asia/Vladivostok": {
         "id": "Asia/Vladivostok",
-        "name": "Asia/Vladivostok",
+        "text": "Asia/Vladivostok",
         "abbr": "+10"
     },
     "Asia/Yakutsk": {
         "id": "Asia/Yakutsk",
-        "name": "Asia/Yakutsk",
+        "text": "Asia/Yakutsk",
         "abbr": "+09"
     },
     "Asia/Yangon": {
         "id": "Asia/Yangon",
-        "name": "Asia/Yangon",
+        "text": "Asia/Yangon",
         "abbr": "+0630"
     },
     "Asia/Yekaterinburg": {
         "id": "Asia/Yekaterinburg",
-        "name": "Asia/Yekaterinburg",
+        "text": "Asia/Yekaterinburg",
         "abbr": "+05"
     },
     "Asia/Yerevan": {
         "id": "Asia/Yerevan",
-        "name": "Asia/Yerevan",
+        "text": "Asia/Yerevan",
         "abbr": "+04"
     },
     "Atlantic/Azores": {
         "id": "Atlantic/Azores",
-        "name": "Atlantic/Azores",
+        "text": "Atlantic/Azores",
         "abbr": "-01"
     },
     "Atlantic/Bermuda": {
         "id": "Atlantic/Bermuda",
-        "name": "Atlantic/Bermuda",
+        "text": "Atlantic/Bermuda",
         "abbr": "ADT"
     },
     "Atlantic/Canary": {
         "id": "Atlantic/Canary",
-        "name": "Atlantic/Canary",
+        "text": "Atlantic/Canary",
         "abbr": "WET"
     },
     "Atlantic/Cape_Verde": {
         "id": "Atlantic/Cape_Verde",
-        "name": "Atlantic/Cape_Verde",
+        "text": "Atlantic/Cape Verde",
         "abbr": "-01"
     },
     "Atlantic/Faeroe": {
         "id": "Atlantic/Faeroe",
-        "name": "Atlantic/Faeroe",
+        "text": "Atlantic/Faeroe",
         "abbr": "WET"
     },
     "Atlantic/Faroe": {
         "id": "Atlantic/Faroe",
-        "name": "Atlantic/Faroe",
+        "text": "Atlantic/Faroe",
         "abbr": "WET"
     },
     "Atlantic/Jan_Mayen": {
         "id": "Atlantic/Jan_Mayen",
-        "name": "Atlantic/Jan_Mayen",
+        "text": "Atlantic/Jan Mayen",
         "abbr": "CET"
     },
     "Atlantic/Madeira": {
         "id": "Atlantic/Madeira",
-        "name": "Atlantic/Madeira",
+        "text": "Atlantic/Madeira",
         "abbr": "WET"
     },
     "Atlantic/Reykjavik": {
         "id": "Atlantic/Reykjavik",
-        "name": "Atlantic/Reykjavik",
+        "text": "Atlantic/Reykjavik",
         "abbr": "GMT"
     },
     "Atlantic/South_Georgia": {
         "id": "Atlantic/South_Georgia",
-        "name": "Atlantic/South_Georgia",
+        "text": "Atlantic/South Georgia",
         "abbr": "-02"
     },
     "Atlantic/Stanley": {
         "id": "Atlantic/Stanley",
-        "name": "Atlantic/Stanley",
+        "text": "Atlantic/Stanley",
         "abbr": "-03"
     },
     "Atlantic/St_Helena": {
         "id": "Atlantic/St_Helena",
-        "name": "Atlantic/St_Helena",
+        "text": "Atlantic/St Helena",
         "abbr": "GMT"
     },
     "Australia/ACT": {
         "id": "Australia/ACT",
-        "name": "Australia/ACT",
+        "text": "Australia/ACT",
         "abbr": "AEDT"
     },
     "Australia/Adelaide": {
         "id": "Australia/Adelaide",
-        "name": "Australia/Adelaide",
+        "text": "Australia/Adelaide",
         "abbr": "ACDT"
     },
     "Australia/Brisbane": {
         "id": "Australia/Brisbane",
-        "name": "Australia/Brisbane",
+        "text": "Australia/Brisbane",
         "abbr": "AEST"
     },
     "Australia/Broken_Hill": {
         "id": "Australia/Broken_Hill",
-        "name": "Australia/Broken_Hill",
+        "text": "Australia/Broken Hill",
         "abbr": "ACDT"
     },
     "Australia/Canberra": {
         "id": "Australia/Canberra",
-        "name": "Australia/Canberra",
+        "text": "Australia/Canberra",
         "abbr": "AEDT"
     },
     "Australia/Currie": {
         "id": "Australia/Currie",
-        "name": "Australia/Currie",
+        "text": "Australia/Currie",
         "abbr": "AEDT"
     },
     "Australia/Darwin": {
         "id": "Australia/Darwin",
-        "name": "Australia/Darwin",
+        "text": "Australia/Darwin",
         "abbr": "ACST"
     },
     "Australia/Eucla": {
         "id": "Australia/Eucla",
-        "name": "Australia/Eucla",
+        "text": "Australia/Eucla",
         "abbr": "+0845"
     },
     "Australia/Hobart": {
         "id": "Australia/Hobart",
-        "name": "Australia/Hobart",
+        "text": "Australia/Hobart",
         "abbr": "AEDT"
     },
     "Australia/LHI": {
         "id": "Australia/LHI",
-        "name": "Australia/LHI",
+        "text": "Australia/LHI",
         "abbr": "+11"
     },
     "Australia/Lindeman": {
         "id": "Australia/Lindeman",
-        "name": "Australia/Lindeman",
+        "text": "Australia/Lindeman",
         "abbr": "AEST"
     },
     "Australia/Lord_Howe": {
         "id": "Australia/Lord_Howe",
-        "name": "Australia/Lord_Howe",
+        "text": "Australia/Lord Howe",
         "abbr": "+11"
     },
     "Australia/Melbourne": {
         "id": "Australia/Melbourne",
-        "name": "Australia/Melbourne",
+        "text": "Australia/Melbourne",
         "abbr": "AEDT"
     },
     "Australia/North": {
         "id": "Australia/North",
-        "name": "Australia/North",
+        "text": "Australia/North",
         "abbr": "ACST"
     },
     "Australia/NSW": {
         "id": "Australia/NSW",
-        "name": "Australia/NSW",
+        "text": "Australia/NSW",
         "abbr": "AEDT"
     },
     "Australia/Perth": {
         "id": "Australia/Perth",
-        "name": "Australia/Perth",
+        "text": "Australia/Perth",
         "abbr": "AWST"
     },
     "Australia/Queensland": {
         "id": "Australia/Queensland",
-        "name": "Australia/Queensland",
+        "text": "Australia/Queensland",
         "abbr": "AEST"
     },
     "Australia/South": {
         "id": "Australia/South",
-        "name": "Australia/South",
+        "text": "Australia/South",
         "abbr": "ACDT"
     },
     "Australia/Sydney": {
         "id": "Australia/Sydney",
-        "name": "Australia/Sydney",
+        "text": "Australia/Sydney",
         "abbr": "AEDT"
     },
     "Australia/Tasmania": {
         "id": "Australia/Tasmania",
-        "name": "Australia/Tasmania",
+        "text": "Australia/Tasmania",
         "abbr": "AEDT"
     },
     "Australia/Victoria": {
         "id": "Australia/Victoria",
-        "name": "Australia/Victoria",
+        "text": "Australia/Victoria",
         "abbr": "AEDT"
     },
     "Australia/West": {
         "id": "Australia/West",
-        "name": "Australia/West",
+        "text": "Australia/West",
         "abbr": "AWST"
     },
     "Australia/Yancowinna": {
         "id": "Australia/Yancowinna",
-        "name": "Australia/Yancowinna",
+        "text": "Australia/Yancowinna",
         "abbr": "ACDT"
     },
     "Brazil/Acre": {
         "id": "Brazil/Acre",
-        "name": "Brazil/Acre",
+        "text": "Brazil/Acre",
         "abbr": "-05"
     },
     "Brazil/DeNoronha": {
         "id": "Brazil/DeNoronha",
-        "name": "Brazil/DeNoronha",
+        "text": "Brazil/DeNoronha",
         "abbr": "-02"
     },
     "Brazil/East": {
         "id": "Brazil/East",
-        "name": "Brazil/East",
+        "text": "Brazil/East",
         "abbr": "-03"
     },
     "Brazil/West": {
         "id": "Brazil/West",
-        "name": "Brazil/West",
+        "text": "Brazil/West",
         "abbr": "-04"
     },
     "Canada/Atlantic": {
         "id": "Canada/Atlantic",
-        "name": "Canada/Atlantic",
+        "text": "Canada/Atlantic",
         "abbr": "ADT"
     },
     "Canada/Central": {
         "id": "Canada/Central",
-        "name": "Canada/Central",
+        "text": "Canada/Central",
         "abbr": "CDT"
     },
     "Canada/Eastern": {
         "id": "Canada/Eastern",
-        "name": "Canada/Eastern",
+        "text": "Canada/Eastern",
         "abbr": "EDT"
     },
     "Canada/Mountain": {
         "id": "Canada/Mountain",
-        "name": "Canada/Mountain",
+        "text": "Canada/Mountain",
         "abbr": "MDT"
     },
     "Canada/Newfoundland": {
         "id": "Canada/Newfoundland",
-        "name": "Canada/Newfoundland",
+        "text": "Canada/Newfoundland",
         "abbr": "NDT"
     },
     "Canada/Pacific": {
         "id": "Canada/Pacific",
-        "name": "Canada/Pacific",
+        "text": "Canada/Pacific",
         "abbr": "PDT"
     },
     "Canada/Saskatchewan": {
         "id": "Canada/Saskatchewan",
-        "name": "Canada/Saskatchewan",
+        "text": "Canada/Saskatchewan",
         "abbr": "CST"
     },
     "Canada/Yukon": {
         "id": "Canada/Yukon",
-        "name": "Canada/Yukon",
+        "text": "Canada/Yukon",
         "abbr": "MST"
     },
     "CET": {
         "id": "CET",
-        "name": "CET",
+        "text": "CET",
         "abbr": "CET"
     },
     "Chile/Continental": {
         "id": "Chile/Continental",
-        "name": "Chile/Continental",
+        "text": "Chile/Continental",
         "abbr": "-03"
     },
     "Chile/EasterIsland": {
         "id": "Chile/EasterIsland",
-        "name": "Chile/EasterIsland",
+        "text": "Chile/EasterIsland",
         "abbr": "-05"
     },
     "CST6CDT": {
         "id": "CST6CDT",
-        "name": "CST6CDT",
+        "text": "CST6CDT",
         "abbr": "CDT"
     },
     "Cuba": {
         "id": "Cuba",
-        "name": "Cuba",
+        "text": "Cuba",
         "abbr": "CDT"
     },
     "EET": {
         "id": "EET",
-        "name": "EET",
+        "text": "EET",
         "abbr": "EET"
     },
     "Egypt": {
         "id": "Egypt",
-        "name": "Egypt",
+        "text": "Egypt",
         "abbr": "EET"
     },
     "Eire": {
         "id": "Eire",
-        "name": "Eire",
+        "text": "Eire",
         "abbr": "GMT"
     },
     "EST": {
         "id": "EST",
-        "name": "EST",
+        "text": "EST",
         "abbr": "EST"
     },
     "EST5EDT": {
         "id": "EST5EDT",
-        "name": "EST5EDT",
+        "text": "EST5EDT",
         "abbr": "EDT"
     },
     "Etc/GMT": {
         "id": "Etc/GMT",
-        "name": "Etc/GMT",
+        "text": "Etc/GMT",
         "abbr": "GMT"
     },
     "Etc/GMT+0": {
         "id": "Etc/GMT+0",
-        "name": "Etc/GMT+0",
+        "text": "Etc/GMT+0",
         "abbr": "GMT"
     },
     "Etc/GMT-0": {
         "id": "Etc/GMT-0",
-        "name": "Etc/GMT-0",
+        "text": "Etc/GMT-0",
         "abbr": "GMT"
     },
     "Etc/GMT0": {
         "id": "Etc/GMT0",
-        "name": "Etc/GMT0",
+        "text": "Etc/GMT0",
         "abbr": "GMT"
     },
     "Etc/GMT+1": {
         "id": "Etc/GMT+1",
-        "name": "Etc/GMT+1",
+        "text": "Etc/GMT+1",
         "abbr": "-01"
     },
     "Etc/GMT-1": {
         "id": "Etc/GMT-1",
-        "name": "Etc/GMT-1",
+        "text": "Etc/GMT-1",
         "abbr": "+01"
     },
     "Etc/GMT+10": {
         "id": "Etc/GMT+10",
-        "name": "Etc/GMT+10",
+        "text": "Etc/GMT+10",
         "abbr": "-10"
     },
     "Etc/GMT-10": {
         "id": "Etc/GMT-10",
-        "name": "Etc/GMT-10",
+        "text": "Etc/GMT-10",
         "abbr": "+10"
     },
     "Etc/GMT+11": {
         "id": "Etc/GMT+11",
-        "name": "Etc/GMT+11",
+        "text": "Etc/GMT+11",
         "abbr": "-11"
     },
     "Etc/GMT-11": {
         "id": "Etc/GMT-11",
-        "name": "Etc/GMT-11",
+        "text": "Etc/GMT-11",
         "abbr": "+11"
     },
     "Etc/GMT+12": {
         "id": "Etc/GMT+12",
-        "name": "Etc/GMT+12",
+        "text": "Etc/GMT+12",
         "abbr": "-12"
     },
     "Etc/GMT-12": {
         "id": "Etc/GMT-12",
-        "name": "Etc/GMT-12",
+        "text": "Etc/GMT-12",
         "abbr": "+12"
     },
     "Etc/GMT-13": {
         "id": "Etc/GMT-13",
-        "name": "Etc/GMT-13",
+        "text": "Etc/GMT-13",
         "abbr": "+13"
     },
     "Etc/GMT-14": {
         "id": "Etc/GMT-14",
-        "name": "Etc/GMT-14",
+        "text": "Etc/GMT-14",
         "abbr": "+14"
     },
     "Etc/GMT+2": {
         "id": "Etc/GMT+2",
-        "name": "Etc/GMT+2",
+        "text": "Etc/GMT+2",
         "abbr": "-02"
     },
     "Etc/GMT-2": {
         "id": "Etc/GMT-2",
-        "name": "Etc/GMT-2",
+        "text": "Etc/GMT-2",
         "abbr": "+02"
     },
     "Etc/GMT+3": {
         "id": "Etc/GMT+3",
-        "name": "Etc/GMT+3",
+        "text": "Etc/GMT+3",
         "abbr": "-03"
     },
     "Etc/GMT-3": {
         "id": "Etc/GMT-3",
-        "name": "Etc/GMT-3",
+        "text": "Etc/GMT-3",
         "abbr": "+03"
     },
     "Etc/GMT+4": {
         "id": "Etc/GMT+4",
-        "name": "Etc/GMT+4",
+        "text": "Etc/GMT+4",
         "abbr": "-04"
     },
     "Etc/GMT-4": {
         "id": "Etc/GMT-4",
-        "name": "Etc/GMT-4",
+        "text": "Etc/GMT-4",
         "abbr": "+04"
     },
     "Etc/GMT+5": {
         "id": "Etc/GMT+5",
-        "name": "Etc/GMT+5",
+        "text": "Etc/GMT+5",
         "abbr": "-05"
     },
     "Etc/GMT-5": {
         "id": "Etc/GMT-5",
-        "name": "Etc/GMT-5",
+        "text": "Etc/GMT-5",
         "abbr": "+05"
     },
     "Etc/GMT+6": {
         "id": "Etc/GMT+6",
-        "name": "Etc/GMT+6",
+        "text": "Etc/GMT+6",
         "abbr": "-06"
     },
     "Etc/GMT-6": {
         "id": "Etc/GMT-6",
-        "name": "Etc/GMT-6",
+        "text": "Etc/GMT-6",
         "abbr": "+06"
     },
     "Etc/GMT+7": {
         "id": "Etc/GMT+7",
-        "name": "Etc/GMT+7",
+        "text": "Etc/GMT+7",
         "abbr": "-07"
     },
     "Etc/GMT-7": {
         "id": "Etc/GMT-7",
-        "name": "Etc/GMT-7",
+        "text": "Etc/GMT-7",
         "abbr": "+07"
     },
     "Etc/GMT+8": {
         "id": "Etc/GMT+8",
-        "name": "Etc/GMT+8",
+        "text": "Etc/GMT+8",
         "abbr": "-08"
     },
     "Etc/GMT-8": {
         "id": "Etc/GMT-8",
-        "name": "Etc/GMT-8",
+        "text": "Etc/GMT-8",
         "abbr": "+08"
     },
     "Etc/GMT+9": {
         "id": "Etc/GMT+9",
-        "name": "Etc/GMT+9",
+        "text": "Etc/GMT+9",
         "abbr": "-09"
     },
     "Etc/GMT-9": {
         "id": "Etc/GMT-9",
-        "name": "Etc/GMT-9",
+        "text": "Etc/GMT-9",
         "abbr": "+09"
     },
     "Etc/Greenwich": {
         "id": "Etc/Greenwich",
-        "name": "Etc/Greenwich",
+        "text": "Etc/Greenwich",
         "abbr": "GMT"
     },
     "Etc/UCT": {
         "id": "Etc/UCT",
-        "name": "Etc/UCT",
+        "text": "Etc/UCT",
         "abbr": "UTC"
     },
     "Etc/Universal": {
         "id": "Etc/Universal",
-        "name": "Etc/Universal",
+        "text": "Etc/Universal",
         "abbr": "UTC"
     },
     "Etc/UTC": {
         "id": "Etc/UTC",
-        "name": "Etc/UTC",
+        "text": "Etc/UTC",
         "abbr": "UTC"
     },
     "Etc/Zulu": {
         "id": "Etc/Zulu",
-        "name": "Etc/Zulu",
+        "text": "Etc/Zulu",
         "abbr": "UTC"
     },
     "Europe/Amsterdam": {
         "id": "Europe/Amsterdam",
-        "name": "Europe/Amsterdam",
+        "text": "Europe/Amsterdam",
         "abbr": "CET"
     },
     "Europe/Andorra": {
         "id": "Europe/Andorra",
-        "name": "Europe/Andorra",
+        "text": "Europe/Andorra",
         "abbr": "CET"
     },
     "Europe/Astrakhan": {
         "id": "Europe/Astrakhan",
-        "name": "Europe/Astrakhan",
+        "text": "Europe/Astrakhan",
         "abbr": "+04"
     },
     "Europe/Athens": {
         "id": "Europe/Athens",
-        "name": "Europe/Athens",
+        "text": "Europe/Athens",
         "abbr": "EET"
     },
     "Europe/Belfast": {
         "id": "Europe/Belfast",
-        "name": "Europe/Belfast",
+        "text": "Europe/Belfast",
         "abbr": "GMT"
     },
     "Europe/Belgrade": {
         "id": "Europe/Belgrade",
-        "name": "Europe/Belgrade",
+        "text": "Europe/Belgrade",
         "abbr": "CET"
     },
     "Europe/Berlin": {
         "id": "Europe/Berlin",
-        "name": "Europe/Berlin",
+        "text": "Europe/Berlin",
         "abbr": "CET"
     },
     "Europe/Bratislava": {
         "id": "Europe/Bratislava",
-        "name": "Europe/Bratislava",
+        "text": "Europe/Bratislava",
         "abbr": "CET"
     },
     "Europe/Brussels": {
         "id": "Europe/Brussels",
-        "name": "Europe/Brussels",
+        "text": "Europe/Brussels",
         "abbr": "CET"
     },
     "Europe/Bucharest": {
         "id": "Europe/Bucharest",
-        "name": "Europe/Bucharest",
+        "text": "Europe/Bucharest",
         "abbr": "EET"
     },
     "Europe/Budapest": {
         "id": "Europe/Budapest",
-        "name": "Europe/Budapest",
+        "text": "Europe/Budapest",
         "abbr": "CET"
     },
     "Europe/Busingen": {
         "id": "Europe/Busingen",
-        "name": "Europe/Busingen",
+        "text": "Europe/Busingen",
         "abbr": "CET"
     },
     "Europe/Chisinau": {
         "id": "Europe/Chisinau",
-        "name": "Europe/Chisinau",
+        "text": "Europe/Chisinau",
         "abbr": "EET"
     },
     "Europe/Copenhagen": {
         "id": "Europe/Copenhagen",
-        "name": "Europe/Copenhagen",
+        "text": "Europe/Copenhagen",
         "abbr": "CET"
     },
     "Europe/Dublin": {
         "id": "Europe/Dublin",
-        "name": "Europe/Dublin",
+        "text": "Europe/Dublin",
         "abbr": "GMT"
     },
     "Europe/Gibraltar": {
         "id": "Europe/Gibraltar",
-        "name": "Europe/Gibraltar",
+        "text": "Europe/Gibraltar",
         "abbr": "CET"
     },
     "Europe/Guernsey": {
         "id": "Europe/Guernsey",
-        "name": "Europe/Guernsey",
+        "text": "Europe/Guernsey",
         "abbr": "GMT"
     },
     "Europe/Helsinki": {
         "id": "Europe/Helsinki",
-        "name": "Europe/Helsinki",
+        "text": "Europe/Helsinki",
         "abbr": "EET"
     },
     "Europe/Isle_of_Man": {
         "id": "Europe/Isle_of_Man",
-        "name": "Europe/Isle_of_Man",
+        "text": "Europe/Isle of Man",
         "abbr": "GMT"
     },
     "Europe/Istanbul": {
         "id": "Europe/Istanbul",
-        "name": "Europe/Istanbul",
+        "text": "Europe/Istanbul",
         "abbr": "+03"
     },
     "Europe/Jersey": {
         "id": "Europe/Jersey",
-        "name": "Europe/Jersey",
+        "text": "Europe/Jersey",
         "abbr": "GMT"
     },
     "Europe/Kaliningrad": {
         "id": "Europe/Kaliningrad",
-        "name": "Europe/Kaliningrad",
+        "text": "Europe/Kaliningrad",
         "abbr": "EET"
     },
     "Europe/Kiev": {
         "id": "Europe/Kiev",
-        "name": "Europe/Kiev",
+        "text": "Europe/Kiev",
         "abbr": "EET"
     },
     "Europe/Kirov": {
         "id": "Europe/Kirov",
-        "name": "Europe/Kirov",
+        "text": "Europe/Kirov",
         "abbr": "+03"
     },
     "Europe/Lisbon": {
         "id": "Europe/Lisbon",
-        "name": "Europe/Lisbon",
+        "text": "Europe/Lisbon",
         "abbr": "WET"
     },
     "Europe/Ljubljana": {
         "id": "Europe/Ljubljana",
-        "name": "Europe/Ljubljana",
+        "text": "Europe/Ljubljana",
         "abbr": "CET"
     },
     "Europe/London": {
         "id": "Europe/London",
-        "name": "Europe/London",
+        "text": "Europe/London",
         "abbr": "GMT"
     },
     "Europe/Luxembourg": {
         "id": "Europe/Luxembourg",
-        "name": "Europe/Luxembourg",
+        "text": "Europe/Luxembourg",
         "abbr": "CET"
     },
     "Europe/Madrid": {
         "id": "Europe/Madrid",
-        "name": "Europe/Madrid",
+        "text": "Europe/Madrid",
         "abbr": "CET"
     },
     "Europe/Malta": {
         "id": "Europe/Malta",
-        "name": "Europe/Malta",
+        "text": "Europe/Malta",
         "abbr": "CET"
     },
     "Europe/Mariehamn": {
         "id": "Europe/Mariehamn",
-        "name": "Europe/Mariehamn",
+        "text": "Europe/Mariehamn",
         "abbr": "EET"
     },
     "Europe/Minsk": {
         "id": "Europe/Minsk",
-        "name": "Europe/Minsk",
+        "text": "Europe/Minsk",
         "abbr": "+03"
     },
     "Europe/Monaco": {
         "id": "Europe/Monaco",
-        "name": "Europe/Monaco",
+        "text": "Europe/Monaco",
         "abbr": "CET"
     },
     "Europe/Moscow": {
         "id": "Europe/Moscow",
-        "name": "Europe/Moscow",
+        "text": "Europe/Moscow",
         "abbr": "MSK"
     },
     "Europe/Nicosia": {
         "id": "Europe/Nicosia",
-        "name": "Europe/Nicosia",
+        "text": "Europe/Nicosia",
         "abbr": "EET"
     },
     "Europe/Oslo": {
         "id": "Europe/Oslo",
-        "name": "Europe/Oslo",
+        "text": "Europe/Oslo",
         "abbr": "CET"
     },
     "Europe/Paris": {
         "id": "Europe/Paris",
-        "name": "Europe/Paris",
+        "text": "Europe/Paris",
         "abbr": "CET"
     },
     "Europe/Podgorica": {
         "id": "Europe/Podgorica",
-        "name": "Europe/Podgorica",
+        "text": "Europe/Podgorica",
         "abbr": "CET"
     },
     "Europe/Prague": {
         "id": "Europe/Prague",
-        "name": "Europe/Prague",
+        "text": "Europe/Prague",
         "abbr": "CET"
     },
     "Europe/Riga": {
         "id": "Europe/Riga",
-        "name": "Europe/Riga",
+        "text": "Europe/Riga",
         "abbr": "EET"
     },
     "Europe/Rome": {
         "id": "Europe/Rome",
-        "name": "Europe/Rome",
+        "text": "Europe/Rome",
         "abbr": "CET"
     },
     "Europe/Samara": {
         "id": "Europe/Samara",
-        "name": "Europe/Samara",
+        "text": "Europe/Samara",
         "abbr": "+04"
     },
     "Europe/San_Marino": {
         "id": "Europe/San_Marino",
-        "name": "Europe/San_Marino",
+        "text": "Europe/San Marino",
         "abbr": "CET"
     },
     "Europe/Sarajevo": {
         "id": "Europe/Sarajevo",
-        "name": "Europe/Sarajevo",
+        "text": "Europe/Sarajevo",
         "abbr": "CET"
     },
     "Europe/Saratov": {
         "id": "Europe/Saratov",
-        "name": "Europe/Saratov",
+        "text": "Europe/Saratov",
         "abbr": "+04"
     },
     "Europe/Simferopol": {
         "id": "Europe/Simferopol",
-        "name": "Europe/Simferopol",
+        "text": "Europe/Simferopol",
         "abbr": "MSK"
     },
     "Europe/Skopje": {
         "id": "Europe/Skopje",
-        "name": "Europe/Skopje",
+        "text": "Europe/Skopje",
         "abbr": "CET"
     },
     "Europe/Sofia": {
         "id": "Europe/Sofia",
-        "name": "Europe/Sofia",
+        "text": "Europe/Sofia",
         "abbr": "EET"
     },
     "Europe/Stockholm": {
         "id": "Europe/Stockholm",
-        "name": "Europe/Stockholm",
+        "text": "Europe/Stockholm",
         "abbr": "CET"
     },
     "Europe/Tallinn": {
         "id": "Europe/Tallinn",
-        "name": "Europe/Tallinn",
+        "text": "Europe/Tallinn",
         "abbr": "EET"
     },
     "Europe/Tirane": {
         "id": "Europe/Tirane",
-        "name": "Europe/Tirane",
+        "text": "Europe/Tirane",
         "abbr": "CET"
     },
     "Europe/Tiraspol": {
         "id": "Europe/Tiraspol",
-        "name": "Europe/Tiraspol",
+        "text": "Europe/Tiraspol",
         "abbr": "EET"
     },
     "Europe/Ulyanovsk": {
         "id": "Europe/Ulyanovsk",
-        "name": "Europe/Ulyanovsk",
+        "text": "Europe/Ulyanovsk",
         "abbr": "+04"
     },
     "Europe/Uzhgorod": {
         "id": "Europe/Uzhgorod",
-        "name": "Europe/Uzhgorod",
+        "text": "Europe/Uzhgorod",
         "abbr": "EET"
     },
     "Europe/Vaduz": {
         "id": "Europe/Vaduz",
-        "name": "Europe/Vaduz",
+        "text": "Europe/Vaduz",
         "abbr": "CET"
     },
     "Europe/Vatican": {
         "id": "Europe/Vatican",
-        "name": "Europe/Vatican",
+        "text": "Europe/Vatican",
         "abbr": "CET"
     },
     "Europe/Vienna": {
         "id": "Europe/Vienna",
-        "name": "Europe/Vienna",
+        "text": "Europe/Vienna",
         "abbr": "CET"
     },
     "Europe/Vilnius": {
         "id": "Europe/Vilnius",
-        "name": "Europe/Vilnius",
+        "text": "Europe/Vilnius",
         "abbr": "EET"
     },
     "Europe/Volgograd": {
         "id": "Europe/Volgograd",
-        "name": "Europe/Volgograd",
+        "text": "Europe/Volgograd",
         "abbr": "+04"
     },
     "Europe/Warsaw": {
         "id": "Europe/Warsaw",
-        "name": "Europe/Warsaw",
+        "text": "Europe/Warsaw",
         "abbr": "CET"
     },
     "Europe/Zagreb": {
         "id": "Europe/Zagreb",
-        "name": "Europe/Zagreb",
+        "text": "Europe/Zagreb",
         "abbr": "CET"
     },
     "Europe/Zaporozhye": {
         "id": "Europe/Zaporozhye",
-        "name": "Europe/Zaporozhye",
+        "text": "Europe/Zaporozhye",
         "abbr": "EET"
     },
     "Europe/Zurich": {
         "id": "Europe/Zurich",
-        "name": "Europe/Zurich",
+        "text": "Europe/Zurich",
         "abbr": "CET"
     },
     "GB": {
         "id": "GB",
-        "name": "GB",
+        "text": "GB",
         "abbr": "GMT"
     },
     "GB-Eire": {
         "id": "GB-Eire",
-        "name": "GB-Eire",
+        "text": "GB-Eire",
         "abbr": "GMT"
     },
     "GMT": {
         "id": "GMT",
-        "name": "GMT",
+        "text": "GMT",
         "abbr": "GMT"
     },
     "GMT+0": {
         "id": "GMT+0",
-        "name": "GMT+0",
+        "text": "GMT+0",
         "abbr": "GMT"
     },
     "GMT-0": {
         "id": "GMT-0",
-        "name": "GMT-0",
+        "text": "GMT-0",
         "abbr": "GMT"
     },
     "GMT0": {
         "id": "GMT0",
-        "name": "GMT0",
+        "text": "GMT0",
         "abbr": "GMT"
     },
     "Greenwich": {
         "id": "Greenwich",
-        "name": "Greenwich",
+        "text": "Greenwich",
         "abbr": "GMT"
     },
     "Hongkong": {
         "id": "Hongkong",
-        "name": "Hongkong",
+        "text": "Hongkong",
         "abbr": "HKT"
     },
     "HST": {
         "id": "HST",
-        "name": "HST",
+        "text": "HST",
         "abbr": "HST"
     },
     "Iceland": {
         "id": "Iceland",
-        "name": "Iceland",
+        "text": "Iceland",
         "abbr": "GMT"
     },
     "Indian/Antananarivo": {
         "id": "Indian/Antananarivo",
-        "name": "Indian/Antananarivo",
+        "text": "Indian/Antananarivo",
         "abbr": "EAT"
     },
     "Indian/Chagos": {
         "id": "Indian/Chagos",
-        "name": "Indian/Chagos",
+        "text": "Indian/Chagos",
         "abbr": "+06"
     },
     "Indian/Christmas": {
         "id": "Indian/Christmas",
-        "name": "Indian/Christmas",
+        "text": "Indian/Christmas",
         "abbr": "+07"
     },
     "Indian/Cocos": {
         "id": "Indian/Cocos",
-        "name": "Indian/Cocos",
+        "text": "Indian/Cocos",
         "abbr": "+0630"
     },
     "Indian/Comoro": {
         "id": "Indian/Comoro",
-        "name": "Indian/Comoro",
+        "text": "Indian/Comoro",
         "abbr": "EAT"
     },
     "Indian/Kerguelen": {
         "id": "Indian/Kerguelen",
-        "name": "Indian/Kerguelen",
+        "text": "Indian/Kerguelen",
         "abbr": "+05"
     },
     "Indian/Mahe": {
         "id": "Indian/Mahe",
-        "name": "Indian/Mahe",
+        "text": "Indian/Mahe",
         "abbr": "+04"
     },
     "Indian/Maldives": {
         "id": "Indian/Maldives",
-        "name": "Indian/Maldives",
+        "text": "Indian/Maldives",
         "abbr": "+05"
     },
     "Indian/Mauritius": {
         "id": "Indian/Mauritius",
-        "name": "Indian/Mauritius",
+        "text": "Indian/Mauritius",
         "abbr": "+04"
     },
     "Indian/Mayotte": {
         "id": "Indian/Mayotte",
-        "name": "Indian/Mayotte",
+        "text": "Indian/Mayotte",
         "abbr": "EAT"
     },
     "Indian/Reunion": {
         "id": "Indian/Reunion",
-        "name": "Indian/Reunion",
+        "text": "Indian/Reunion",
         "abbr": "+04"
     },
     "Iran": {
         "id": "Iran",
-        "name": "Iran",
+        "text": "Iran",
         "abbr": "+0330"
     },
     "Israel": {
         "id": "Israel",
-        "name": "Israel",
+        "text": "Israel",
         "abbr": "IST"
     },
     "Jamaica": {
         "id": "Jamaica",
-        "name": "Jamaica",
+        "text": "Jamaica",
         "abbr": "EST"
     },
     "Japan": {
         "id": "Japan",
-        "name": "Japan",
+        "text": "Japan",
         "abbr": "JST"
     },
     "Kwajalein": {
         "id": "Kwajalein",
-        "name": "Kwajalein",
+        "text": "Kwajalein",
         "abbr": "+12"
     },
     "Libya": {
         "id": "Libya",
-        "name": "Libya",
+        "text": "Libya",
         "abbr": "EET"
     },
     "MET": {
         "id": "MET",
-        "name": "MET",
+        "text": "MET",
         "abbr": "MET"
     },
     "Mexico/BajaNorte": {
         "id": "Mexico/BajaNorte",
-        "name": "Mexico/BajaNorte",
+        "text": "Mexico/BajaNorte",
         "abbr": "PDT"
     },
     "Mexico/BajaSur": {
         "id": "Mexico/BajaSur",
-        "name": "Mexico/BajaSur",
+        "text": "Mexico/BajaSur",
         "abbr": "MST"
     },
     "Mexico/General": {
         "id": "Mexico/General",
-        "name": "Mexico/General",
+        "text": "Mexico/General",
         "abbr": "CST"
     },
     "MST": {
         "id": "MST",
-        "name": "MST",
+        "text": "MST",
         "abbr": "MST"
     },
     "MST7MDT": {
         "id": "MST7MDT",
-        "name": "MST7MDT",
+        "text": "MST7MDT",
         "abbr": "MDT"
     },
     "Navajo": {
         "id": "Navajo",
-        "name": "Navajo",
+        "text": "Navajo",
         "abbr": "MDT"
     },
     "NZ": {
         "id": "NZ",
-        "name": "NZ",
+        "text": "NZ",
         "abbr": "NZDT"
     },
     "NZ-CHAT": {
         "id": "NZ-CHAT",
-        "name": "NZ-CHAT",
+        "text": "NZ-CHAT",
         "abbr": "+1345"
     },
     "Pacific/Apia": {
         "id": "Pacific/Apia",
-        "name": "Pacific/Apia",
+        "text": "Pacific/Apia",
         "abbr": "+14"
     },
     "Pacific/Auckland": {
         "id": "Pacific/Auckland",
-        "name": "Pacific/Auckland",
+        "text": "Pacific/Auckland",
         "abbr": "NZDT"
     },
     "Pacific/Bougainville": {
         "id": "Pacific/Bougainville",
-        "name": "Pacific/Bougainville",
+        "text": "Pacific/Bougainville",
         "abbr": "+11"
     },
     "Pacific/Chatham": {
         "id": "Pacific/Chatham",
-        "name": "Pacific/Chatham",
+        "text": "Pacific/Chatham",
         "abbr": "+1345"
     },
     "Pacific/Chuuk": {
         "id": "Pacific/Chuuk",
-        "name": "Pacific/Chuuk",
+        "text": "Pacific/Chuuk",
         "abbr": "+10"
     },
     "Pacific/Easter": {
         "id": "Pacific/Easter",
-        "name": "Pacific/Easter",
+        "text": "Pacific/Easter",
         "abbr": "-05"
     },
     "Pacific/Efate": {
         "id": "Pacific/Efate",
-        "name": "Pacific/Efate",
+        "text": "Pacific/Efate",
         "abbr": "+11"
     },
     "Pacific/Enderbury": {
         "id": "Pacific/Enderbury",
-        "name": "Pacific/Enderbury",
+        "text": "Pacific/Enderbury",
         "abbr": "+13"
     },
     "Pacific/Fakaofo": {
         "id": "Pacific/Fakaofo",
-        "name": "Pacific/Fakaofo",
+        "text": "Pacific/Fakaofo",
         "abbr": "+13"
     },
     "Pacific/Fiji": {
         "id": "Pacific/Fiji",
-        "name": "Pacific/Fiji",
+        "text": "Pacific/Fiji",
         "abbr": "+12"
     },
     "Pacific/Funafuti": {
         "id": "Pacific/Funafuti",
-        "name": "Pacific/Funafuti",
+        "text": "Pacific/Funafuti",
         "abbr": "+12"
     },
     "Pacific/Galapagos": {
         "id": "Pacific/Galapagos",
-        "name": "Pacific/Galapagos",
+        "text": "Pacific/Galapagos",
         "abbr": "-06"
     },
     "Pacific/Gambier": {
         "id": "Pacific/Gambier",
-        "name": "Pacific/Gambier",
+        "text": "Pacific/Gambier",
         "abbr": "-09"
     },
     "Pacific/Guadalcanal": {
         "id": "Pacific/Guadalcanal",
-        "name": "Pacific/Guadalcanal",
+        "text": "Pacific/Guadalcanal",
         "abbr": "+11"
     },
     "Pacific/Guam": {
         "id": "Pacific/Guam",
-        "name": "Pacific/Guam",
+        "text": "Pacific/Guam",
         "abbr": "ChST"
     },
     "Pacific/Honolulu": {
         "id": "Pacific/Honolulu",
-        "name": "Pacific/Honolulu",
+        "text": "Pacific/Honolulu",
         "abbr": "HST"
     },
     "Pacific/Johnston": {
         "id": "Pacific/Johnston",
-        "name": "Pacific/Johnston",
+        "text": "Pacific/Johnston",
         "abbr": "HST"
     },
     "Pacific/Kiritimati": {
         "id": "Pacific/Kiritimati",
-        "name": "Pacific/Kiritimati",
+        "text": "Pacific/Kiritimati",
         "abbr": "+14"
     },
     "Pacific/Kosrae": {
         "id": "Pacific/Kosrae",
-        "name": "Pacific/Kosrae",
+        "text": "Pacific/Kosrae",
         "abbr": "+11"
     },
     "Pacific/Kwajalein": {
         "id": "Pacific/Kwajalein",
-        "name": "Pacific/Kwajalein",
+        "text": "Pacific/Kwajalein",
         "abbr": "+12"
     },
     "Pacific/Majuro": {
         "id": "Pacific/Majuro",
-        "name": "Pacific/Majuro",
+        "text": "Pacific/Majuro",
         "abbr": "+12"
     },
     "Pacific/Marquesas": {
         "id": "Pacific/Marquesas",
-        "name": "Pacific/Marquesas",
+        "text": "Pacific/Marquesas",
         "abbr": "-0930"
     },
     "Pacific/Midway": {
         "id": "Pacific/Midway",
-        "name": "Pacific/Midway",
+        "text": "Pacific/Midway",
         "abbr": "SST"
     },
     "Pacific/Nauru": {
         "id": "Pacific/Nauru",
-        "name": "Pacific/Nauru",
+        "text": "Pacific/Nauru",
         "abbr": "+12"
     },
     "Pacific/Niue": {
         "id": "Pacific/Niue",
-        "name": "Pacific/Niue",
+        "text": "Pacific/Niue",
         "abbr": "-11"
     },
     "Pacific/Norfolk": {
         "id": "Pacific/Norfolk",
-        "name": "Pacific/Norfolk",
+        "text": "Pacific/Norfolk",
         "abbr": "+12"
     },
     "Pacific/Noumea": {
         "id": "Pacific/Noumea",
-        "name": "Pacific/Noumea",
+        "text": "Pacific/Noumea",
         "abbr": "+11"
     },
     "Pacific/Pago_Pago": {
         "id": "Pacific/Pago_Pago",
-        "name": "Pacific/Pago_Pago",
+        "text": "Pacific/Pago Pago",
         "abbr": "SST"
     },
     "Pacific/Palau": {
         "id": "Pacific/Palau",
-        "name": "Pacific/Palau",
+        "text": "Pacific/Palau",
         "abbr": "+09"
     },
     "Pacific/Pitcairn": {
         "id": "Pacific/Pitcairn",
-        "name": "Pacific/Pitcairn",
+        "text": "Pacific/Pitcairn",
         "abbr": "-08"
     },
     "Pacific/Pohnpei": {
         "id": "Pacific/Pohnpei",
-        "name": "Pacific/Pohnpei",
+        "text": "Pacific/Pohnpei",
         "abbr": "+11"
     },
     "Pacific/Ponape": {
         "id": "Pacific/Ponape",
-        "name": "Pacific/Ponape",
+        "text": "Pacific/Ponape",
         "abbr": "+11"
     },
     "Pacific/Port_Moresby": {
         "id": "Pacific/Port_Moresby",
-        "name": "Pacific/Port_Moresby",
+        "text": "Pacific/Port Moresby",
         "abbr": "+10"
     },
     "Pacific/Rarotonga": {
         "id": "Pacific/Rarotonga",
-        "name": "Pacific/Rarotonga",
+        "text": "Pacific/Rarotonga",
         "abbr": "-10"
     },
     "Pacific/Saipan": {
         "id": "Pacific/Saipan",
-        "name": "Pacific/Saipan",
+        "text": "Pacific/Saipan",
         "abbr": "ChST"
     },
     "Pacific/Samoa": {
         "id": "Pacific/Samoa",
-        "name": "Pacific/Samoa",
+        "text": "Pacific/Samoa",
         "abbr": "SST"
     },
     "Pacific/Tahiti": {
         "id": "Pacific/Tahiti",
-        "name": "Pacific/Tahiti",
+        "text": "Pacific/Tahiti",
         "abbr": "-10"
     },
     "Pacific/Tarawa": {
         "id": "Pacific/Tarawa",
-        "name": "Pacific/Tarawa",
+        "text": "Pacific/Tarawa",
         "abbr": "+12"
     },
     "Pacific/Tongatapu": {
         "id": "Pacific/Tongatapu",
-        "name": "Pacific/Tongatapu",
+        "text": "Pacific/Tongatapu",
         "abbr": "+13"
     },
     "Pacific/Truk": {
         "id": "Pacific/Truk",
-        "name": "Pacific/Truk",
+        "text": "Pacific/Truk",
         "abbr": "+10"
     },
     "Pacific/Wake": {
         "id": "Pacific/Wake",
-        "name": "Pacific/Wake",
+        "text": "Pacific/Wake",
         "abbr": "+12"
     },
     "Pacific/Wallis": {
         "id": "Pacific/Wallis",
-        "name": "Pacific/Wallis",
+        "text": "Pacific/Wallis",
         "abbr": "+12"
     },
     "Pacific/Yap": {
         "id": "Pacific/Yap",
-        "name": "Pacific/Yap",
+        "text": "Pacific/Yap",
         "abbr": "+10"
     },
     "Poland": {
         "id": "Poland",
-        "name": "Poland",
+        "text": "Poland",
         "abbr": "CET"
     },
     "Portugal": {
         "id": "Portugal",
-        "name": "Portugal",
+        "text": "Portugal",
         "abbr": "WET"
     },
     "posixrules": {
         "id": "posixrules",
-        "name": "posixrules",
+        "text": "posixrules",
         "abbr": "EDT"
     },
     "PRC": {
         "id": "PRC",
-        "name": "PRC",
+        "text": "PRC",
         "abbr": "CST"
     },
     "PST8PDT": {
         "id": "PST8PDT",
-        "name": "PST8PDT",
+        "text": "PST8PDT",
         "abbr": "PDT"
     },
     "ROC": {
         "id": "ROC",
-        "name": "ROC",
+        "text": "ROC",
         "abbr": "CST"
     },
     "ROK": {
         "id": "ROK",
-        "name": "ROK",
+        "text": "ROK",
         "abbr": "KST"
     },
     "Singapore": {
         "id": "Singapore",
-        "name": "Singapore",
+        "text": "Singapore",
         "abbr": "+08"
     },
     "Turkey": {
         "id": "Turkey",
-        "name": "Turkey",
+        "text": "Turkey",
         "abbr": "+03"
     },
     "UCT": {
         "id": "UCT",
-        "name": "UCT",
+        "text": "UCT",
         "abbr": "UTC"
     },
     "Universal": {
         "id": "Universal",
-        "name": "Universal",
+        "text": "Universal",
         "abbr": "UTC"
     },
     "US/Alaska": {
         "id": "US/Alaska",
-        "name": "US/Alaska",
+        "text": "US/Alaska",
         "abbr": "AKDT"
     },
     "US/Aleutian": {
         "id": "US/Aleutian",
-        "name": "US/Aleutian",
+        "text": "US/Aleutian",
         "abbr": "HDT"
     },
     "US/Arizona": {
         "id": "US/Arizona",
-        "name": "US/Arizona",
+        "text": "US/Arizona",
         "abbr": "MST"
     },
     "US/Central": {
         "id": "US/Central",
-        "name": "US/Central",
+        "text": "US/Central",
         "abbr": "CDT"
     },
     "US/Eastern": {
         "id": "US/Eastern",
-        "name": "US/Eastern",
+        "text": "US/Eastern",
         "abbr": "EDT"
     },
     "US/East-Indiana": {
         "id": "US/East-Indiana",
-        "name": "US/East-Indiana",
+        "text": "US/East-Indiana",
         "abbr": "EDT"
     },
     "US/Hawaii": {
         "id": "US/Hawaii",
-        "name": "US/Hawaii",
+        "text": "US/Hawaii",
         "abbr": "HST"
     },
     "US/Indiana-Starke": {
         "id": "US/Indiana-Starke",
-        "name": "US/Indiana-Starke",
+        "text": "US/Indiana-Starke",
         "abbr": "CDT"
     },
     "US/Michigan": {
         "id": "US/Michigan",
-        "name": "US/Michigan",
+        "text": "US/Michigan",
         "abbr": "EDT"
     },
     "US/Mountain": {
         "id": "US/Mountain",
-        "name": "US/Mountain",
+        "text": "US/Mountain",
         "abbr": "MDT"
     },
     "US/Pacific": {
         "id": "US/Pacific",
-        "name": "US/Pacific",
+        "text": "US/Pacific",
         "abbr": "PDT"
     },
     "US/Pacific-New": {
         "id": "US/Pacific-New",
-        "name": "US/Pacific-New",
+        "text": "US/Pacific-New",
         "abbr": "PDT"
     },
     "US/Samoa": {
         "id": "US/Samoa",
-        "name": "US/Samoa",
+        "text": "US/Samoa",
         "abbr": "SST"
     },
     "UTC": {
         "id": "UTC",
-        "name": "UTC",
+        "text": "UTC",
         "abbr": "UTC"
     },
     "WET": {
         "id": "WET",
-        "name": "WET",
+        "text": "WET",
         "abbr": "WET"
     },
     "W-SU": {
         "id": "W-SU",
-        "name": "W-SU",
+        "text": "W-SU",
         "abbr": "MSK"
     },
     "Zulu": {
         "id": "Zulu",
-        "name": "Zulu",
+        "text": "Zulu",
         "abbr": "UTC"
     }
 }
