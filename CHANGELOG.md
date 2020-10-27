@@ -1,3 +1,7 @@
+## 0.85.1 (2020-10-27)
+
+-   object type validation fixed
+
 ## 0.85.0 (2020-10-27)
 
 -   docs updated
