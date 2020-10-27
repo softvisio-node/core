@@ -11,7 +11,6 @@
         "continent": "",
         "timezones": [],
         "tld": "",
-        "currencyId": "",
         "postalCodeFormat": "",
         "postalCodeRegexp": "",
         "callingCode": "",
@@ -19,7 +18,8 @@
         "languages": [],
         "region": "",
         "subRegion": "",
-        "currencies": []
+        "currencies": [],
+        "currency": ""
     },
     "AD": {
         "id": "AD",
@@ -35,7 +35,6 @@
             "Europe/Andorra"
         ],
         "tld": ".ad",
-        "currencyId": "EUR",
         "postalCodeFormat": "AD###",
         "postalCodeRegexp": "^(?:AD)*(\\d{3})$",
         "callingCode": "+376",
@@ -49,7 +48,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "AE": {
         "id": "AE",
@@ -65,7 +65,6 @@
             "Asia/Dubai"
         ],
         "tld": ".ae",
-        "currencyId": "AED",
         "callingCode": "+971",
         "locales": [
             "ar-AE",
@@ -85,7 +84,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "AED"
-        ]
+        ],
+        "currency": "AED"
     },
     "AF": {
         "id": "AF",
@@ -101,7 +101,6 @@
             "Asia/Kabul"
         ],
         "tld": ".af",
-        "currencyId": "AFN",
         "callingCode": "+93",
         "locales": [
             "fa-AF",
@@ -119,7 +118,8 @@
         "subRegion": "Southern Asia",
         "currencies": [
             "AFN"
-        ]
+        ],
+        "currency": "AFN"
     },
     "AG": {
         "id": "AG",
@@ -135,7 +135,6 @@
             "America/Antigua"
         ],
         "tld": ".ag",
-        "currencyId": "XCD",
         "callingCode": "+1-268",
         "locales": [
             "en-AG"
@@ -147,7 +146,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "XCD"
-        ]
+        ],
+        "currency": "XCD"
     },
     "AI": {
         "id": "AI",
@@ -163,7 +163,6 @@
             "America/Anguilla"
         ],
         "tld": ".ai",
-        "currencyId": "XCD",
         "callingCode": "+1-264",
         "locales": [
             "en-AI"
@@ -175,7 +174,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "XCD"
-        ]
+        ],
+        "currency": "XCD"
     },
     "AL": {
         "id": "AL",
@@ -191,7 +191,6 @@
             "Europe/Tirane"
         ],
         "tld": ".al",
-        "currencyId": "ALL",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+355",
@@ -207,7 +206,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "ALL"
-        ]
+        ],
+        "currency": "ALL"
     },
     "AM": {
         "id": "AM",
@@ -223,7 +223,6 @@
             "Asia/Yerevan"
         ],
         "tld": ".am",
-        "currencyId": "AMD",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+374",
@@ -237,7 +236,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "AMD"
-        ]
+        ],
+        "currency": "AMD"
     },
     "AO": {
         "id": "AO",
@@ -253,7 +253,6 @@
             "Africa/Luanda"
         ],
         "tld": ".ao",
-        "currencyId": "AOA",
         "callingCode": "+244",
         "locales": [
             "pt-AO"
@@ -265,7 +264,8 @@
         "subRegion": "Middle Africa",
         "currencies": [
             "AOA"
-        ]
+        ],
+        "currency": "AOA"
     },
     "AQ": {
         "id": "AQ",
@@ -327,7 +327,6 @@
             "America/Argentina/Ushuaia"
         ],
         "tld": ".ar",
-        "currencyId": "ARS",
         "postalCodeFormat": "@####@@@",
         "postalCodeRegexp": "^[A-Z]?\\d{4}[A-Z]{0,3}$",
         "callingCode": "+54",
@@ -351,7 +350,8 @@
         "subRegion": "South America",
         "currencies": [
             "ARS"
-        ]
+        ],
+        "currency": "ARS"
     },
     "AS": {
         "id": "AS",
@@ -369,7 +369,6 @@
             "Pacific/Pago_Pago"
         ],
         "tld": ".as",
-        "currencyId": "USD",
         "postalCodeFormat": "#####-####",
         "postalCodeRegexp": "^d{5}-d{4}$",
         "callingCode": "+1-684",
@@ -387,7 +386,8 @@
         "subRegion": "Polynesia",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "AT": {
         "id": "AT",
@@ -403,7 +403,6 @@
             "Europe/Vienna"
         ],
         "tld": ".at",
-        "currencyId": "EUR",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+43",
@@ -423,7 +422,8 @@
         "subRegion": "Western Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "AU": {
         "id": "AU",
@@ -462,7 +462,6 @@
             "Australia/Perth"
         ],
         "tld": ".au",
-        "currencyId": "AUD",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+61",
@@ -476,7 +475,8 @@
         "subRegion": "Australia and New Zealand",
         "currencies": [
             "AUD"
-        ]
+        ],
+        "currency": "AUD"
     },
     "AW": {
         "id": "AW",
@@ -492,7 +492,6 @@
             "America/Aruba"
         ],
         "tld": ".aw",
-        "currencyId": "AWG",
         "callingCode": "+297",
         "locales": [
             "nl-AW",
@@ -510,7 +509,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "AWG"
-        ]
+        ],
+        "currency": "AWG"
     },
     "AX": {
         "id": "AX",
@@ -526,7 +526,6 @@
             "Europe/Mariehamn"
         ],
         "tld": ".ax",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(?:FI)*(\\d{5})$",
         "callingCode": "+358-18",
@@ -540,7 +539,8 @@
         "subRegion": "Northern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "AZ": {
         "id": "AZ",
@@ -556,7 +556,6 @@
             "Asia/Baku"
         ],
         "tld": ".az",
-        "currencyId": "AZN",
         "postalCodeFormat": "AZ ####",
         "postalCodeRegexp": "^(?:AZ)*(\\d{4})$",
         "callingCode": "+994",
@@ -574,7 +573,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "AZN"
-        ]
+        ],
+        "currency": "AZN"
     },
     "BA": {
         "id": "BA",
@@ -590,7 +590,6 @@
             "Europe/Sarajevo"
         ],
         "tld": ".ba",
-        "currencyId": "BAM",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+387",
@@ -608,7 +607,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "BAM"
-        ]
+        ],
+        "currency": "BAM"
     },
     "BB": {
         "id": "BB",
@@ -624,7 +624,6 @@
             "America/Barbados"
         ],
         "tld": ".bb",
-        "currencyId": "BBD",
         "postalCodeFormat": "BB#####",
         "postalCodeRegexp": "^(?:BB)*(\\d{5})$",
         "callingCode": "+1-246",
@@ -638,7 +637,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "BBD"
-        ]
+        ],
+        "currency": "BBD"
     },
     "BD": {
         "id": "BD",
@@ -655,7 +655,6 @@
             "Asia/Dhaka"
         ],
         "tld": ".bd",
-        "currencyId": "BDT",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+880",
@@ -671,7 +670,8 @@
         "subRegion": "Southern Asia",
         "currencies": [
             "BDT"
-        ]
+        ],
+        "currency": "BDT"
     },
     "BE": {
         "id": "BE",
@@ -687,7 +687,6 @@
             "Europe/Brussels"
         ],
         "tld": ".be",
-        "currencyId": "EUR",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+32",
@@ -705,7 +704,8 @@
         "subRegion": "Western Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "BF": {
         "id": "BF",
@@ -721,7 +721,6 @@
             "Africa/Ouagadougou"
         ],
         "tld": ".bf",
-        "currencyId": "XOF",
         "callingCode": "+226",
         "locales": [
             "fr-BF",
@@ -735,7 +734,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "XOF"
-        ]
+        ],
+        "currency": "XOF"
     },
     "BG": {
         "id": "BG",
@@ -751,7 +751,6 @@
             "Europe/Sofia"
         ],
         "tld": ".bg",
-        "currencyId": "BGN",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+359",
@@ -769,7 +768,8 @@
         "subRegion": "Eastern Europe",
         "currencies": [
             "BGN"
-        ]
+        ],
+        "currency": "BGN"
     },
     "BH": {
         "id": "BH",
@@ -785,7 +785,6 @@
             "Asia/Bahrain"
         ],
         "tld": ".bh",
-        "currencyId": "BHD",
         "postalCodeFormat": "####|###",
         "postalCodeRegexp": "^(\\d{3}\\d?)$",
         "callingCode": "+973",
@@ -805,7 +804,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "BHD"
-        ]
+        ],
+        "currency": "BHD"
     },
     "BI": {
         "id": "BI",
@@ -821,7 +821,6 @@
             "Africa/Bujumbura"
         ],
         "tld": ".bi",
-        "currencyId": "BIF",
         "callingCode": "+257",
         "locales": [
             "fr-BI",
@@ -835,7 +834,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "BIF"
-        ]
+        ],
+        "currency": "BIF"
     },
     "BJ": {
         "id": "BJ",
@@ -851,7 +851,6 @@
             "Africa/Porto-Novo"
         ],
         "tld": ".bj",
-        "currencyId": "XOF",
         "callingCode": "+229",
         "locales": [
             "fr-BJ"
@@ -863,7 +862,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "XOF"
-        ]
+        ],
+        "currency": "XOF"
     },
     "BL": {
         "id": "BL",
@@ -879,7 +879,6 @@
             "America/St_Barthelemy"
         ],
         "tld": ".bl",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+590",
@@ -893,7 +892,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "BM": {
         "id": "BM",
@@ -909,7 +909,6 @@
             "Atlantic/Bermuda"
         ],
         "tld": ".bm",
-        "currencyId": "BMD",
         "postalCodeFormat": "@@ ##",
         "postalCodeRegexp": "^([A-Z]{2}\\d{2})$",
         "callingCode": "+1-441",
@@ -925,7 +924,8 @@
         "subRegion": "North America",
         "currencies": [
             "BMD"
-        ]
+        ],
+        "currency": "BMD"
     },
     "BN": {
         "id": "BN",
@@ -941,7 +941,6 @@
             "Asia/Brunei"
         ],
         "tld": ".bn",
-        "currencyId": "BND",
         "postalCodeFormat": "@@####",
         "postalCodeRegexp": "^([A-Z]{2}\\d{4})$",
         "callingCode": "+673",
@@ -958,7 +957,8 @@
         "currencies": [
             "BND",
             "SGD"
-        ]
+        ],
+        "currency": "BND"
     },
     "BO": {
         "id": "BO",
@@ -974,7 +974,6 @@
             "America/La_Paz"
         ],
         "tld": ".bo",
-        "currencyId": "BOB",
         "callingCode": "+591",
         "locales": [
             "es-BO",
@@ -990,7 +989,8 @@
         "subRegion": "South America",
         "currencies": [
             "BOB"
-        ]
+        ],
+        "currency": "BOB"
     },
     "BQ": {
         "id": "BQ",
@@ -1006,7 +1006,6 @@
             "America/Kralendijk"
         ],
         "tld": ".bq",
-        "currencyId": "USD",
         "callingCode": "+599",
         "locales": [
             "nl",
@@ -1022,7 +1021,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "BR": {
         "id": "BR",
@@ -1058,7 +1058,6 @@
             "America/Sao_Paulo"
         ],
         "tld": ".br",
-        "currencyId": "BRL",
         "postalCodeFormat": "#####-###",
         "postalCodeRegexp": "^\\d{5}-\\d{3}$",
         "callingCode": "+55",
@@ -1078,7 +1077,8 @@
         "subRegion": "South America",
         "currencies": [
             "BRL"
-        ]
+        ],
+        "currency": "BRL"
     },
     "BS": {
         "id": "BS",
@@ -1094,7 +1094,6 @@
             "America/Nassau"
         ],
         "tld": ".bs",
-        "currencyId": "BSD",
         "callingCode": "+1-242",
         "locales": [
             "en-BS"
@@ -1107,7 +1106,8 @@
         "currencies": [
             "BSD",
             "USD"
-        ]
+        ],
+        "currency": "BSD"
     },
     "BT": {
         "id": "BT",
@@ -1124,7 +1124,6 @@
             "Asia/Thimphu"
         ],
         "tld": ".bt",
-        "currencyId": "BTN",
         "callingCode": "+975",
         "locales": [
             "dz"
@@ -1137,7 +1136,8 @@
         "currencies": [
             "BTN",
             "INR"
-        ]
+        ],
+        "currency": "BTN"
     },
     "BV": {
         "id": "BV",
@@ -1149,11 +1149,11 @@
         "flag": "🇧🇻",
         "flagUnicode": "U+1F1E7 U+1F1FB",
         "continent": "AN",
-        "currencyId": "NOK",
         "languages": [],
         "region": "Antarctic",
         "subRegion": "",
-        "currencies": []
+        "currencies": [],
+        "currency": "NOK"
     },
     "BW": {
         "id": "BW",
@@ -1169,7 +1169,6 @@
             "Africa/Gaborone"
         ],
         "tld": ".bw",
-        "currencyId": "BWP",
         "callingCode": "+267",
         "locales": [
             "en-BW",
@@ -1183,7 +1182,8 @@
         "subRegion": "Southern Africa",
         "currencies": [
             "BWP"
-        ]
+        ],
+        "currency": "BWP"
     },
     "BY": {
         "id": "BY",
@@ -1199,7 +1199,6 @@
             "Europe/Minsk"
         ],
         "tld": ".by",
-        "currencyId": "BYN",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+375",
@@ -1215,7 +1214,8 @@
         "subRegion": "Eastern Europe",
         "currencies": [
             "BYN"
-        ]
+        ],
+        "currency": "BYN"
     },
     "BZ": {
         "id": "BZ",
@@ -1231,7 +1231,6 @@
             "America/Belize"
         ],
         "tld": ".bz",
-        "currencyId": "BZD",
         "callingCode": "+501",
         "locales": [
             "en-BZ",
@@ -1245,7 +1244,8 @@
         "subRegion": "Central America",
         "currencies": [
             "BZD"
-        ]
+        ],
+        "currency": "BZD"
     },
     "CA": {
         "id": "CA",
@@ -1298,7 +1298,6 @@
             "America/Yellowknife"
         ],
         "tld": ".ca",
-        "currencyId": "CAD",
         "postalCodeFormat": "@#@ #@#",
         "postalCodeRegexp": "^([ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJKLMNPRSTVWXYZ]) ?(\\d[ABCEGHJKLMNPRSTVWXYZ]\\d)$ ",
         "callingCode": "+1",
@@ -1316,7 +1315,8 @@
         "subRegion": "North America",
         "currencies": [
             "CAD"
-        ]
+        ],
+        "currency": "CAD"
     },
     "CC": {
         "id": "CC",
@@ -1332,7 +1332,6 @@
             "Indian/Cocos"
         ],
         "tld": ".cc",
-        "currencyId": "AUD",
         "callingCode": "+61",
         "locales": [
             "ms-CC",
@@ -1346,7 +1345,8 @@
         "subRegion": "Australia and New Zealand",
         "currencies": [
             "AUD"
-        ]
+        ],
+        "currency": "AUD"
     },
     "CD": {
         "id": "CD",
@@ -1363,7 +1363,6 @@
             "Africa/Lubumbashi"
         ],
         "tld": ".cd",
-        "currencyId": "CDF",
         "callingCode": "+243",
         "locales": [
             "fr-CD",
@@ -1385,7 +1384,8 @@
         "subRegion": "Middle Africa",
         "currencies": [
             "CDF"
-        ]
+        ],
+        "currency": "CDF"
     },
     "CF": {
         "id": "CF",
@@ -1401,7 +1401,6 @@
             "Africa/Bangui"
         ],
         "tld": ".cf",
-        "currencyId": "XAF",
         "callingCode": "+236",
         "locales": [
             "fr-CF",
@@ -1419,7 +1418,8 @@
         "subRegion": "Middle Africa",
         "currencies": [
             "XAF"
-        ]
+        ],
+        "currency": "XAF"
     },
     "CG": {
         "id": "CG",
@@ -1435,7 +1435,6 @@
             "Africa/Brazzaville"
         ],
         "tld": ".cg",
-        "currencyId": "XAF",
         "callingCode": "+242",
         "locales": [
             "fr-CG",
@@ -1451,7 +1450,8 @@
         "subRegion": "Middle Africa",
         "currencies": [
             "XAF"
-        ]
+        ],
+        "currency": "XAF"
     },
     "CH": {
         "id": "CH",
@@ -1467,7 +1467,6 @@
             "Europe/Zurich"
         ],
         "tld": ".ch",
-        "currencyId": "CHF",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+41",
@@ -1487,7 +1486,8 @@
         "subRegion": "Western Europe",
         "currencies": [
             "CHF"
-        ]
+        ],
+        "currency": "CHF"
     },
     "CI": {
         "id": "CI",
@@ -1504,7 +1504,6 @@
             "Africa/Abidjan"
         ],
         "tld": ".ci",
-        "currencyId": "XOF",
         "callingCode": "+225",
         "locales": [
             "fr-CI"
@@ -1516,7 +1515,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "XOF"
-        ]
+        ],
+        "currency": "XOF"
     },
     "CK": {
         "id": "CK",
@@ -1532,7 +1532,6 @@
             "Pacific/Rarotonga"
         ],
         "tld": ".ck",
-        "currencyId": "NZD",
         "callingCode": "+682",
         "locales": [
             "en-CK",
@@ -1547,7 +1546,8 @@
         "currencies": [
             "CKD",
             "NZD"
-        ]
+        ],
+        "currency": "NZD"
     },
     "CL": {
         "id": "CL",
@@ -1567,7 +1567,6 @@
             "Pacific/Easter"
         ],
         "tld": ".cl",
-        "currencyId": "CLP",
         "postalCodeFormat": "#######",
         "postalCodeRegexp": "^(\\d{7})$",
         "callingCode": "+56",
@@ -1581,7 +1580,8 @@
         "subRegion": "South America",
         "currencies": [
             "CLP"
-        ]
+        ],
+        "currency": "CLP"
     },
     "CM": {
         "id": "CM",
@@ -1597,7 +1597,6 @@
             "Africa/Douala"
         ],
         "tld": ".cm",
-        "currencyId": "XAF",
         "callingCode": "+237",
         "locales": [
             "en-CM",
@@ -1611,7 +1610,8 @@
         "subRegion": "Middle Africa",
         "currencies": [
             "XAF"
-        ]
+        ],
+        "currency": "XAF"
     },
     "CN": {
         "id": "CN",
@@ -1633,7 +1633,6 @@
             "Asia/Urumqi"
         ],
         "tld": ".cn",
-        "currencyId": "CNY",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+86",
@@ -1657,7 +1656,8 @@
         "subRegion": "Eastern Asia",
         "currencies": [
             "CNY"
-        ]
+        ],
+        "currency": "CNY"
     },
     "CO": {
         "id": "CO",
@@ -1673,7 +1673,6 @@
             "America/Bogota"
         ],
         "tld": ".co",
-        "currencyId": "COP",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+57",
@@ -1687,7 +1686,8 @@
         "subRegion": "South America",
         "currencies": [
             "COP"
-        ]
+        ],
+        "currency": "COP"
     },
     "CR": {
         "id": "CR",
@@ -1703,7 +1703,6 @@
             "America/Costa_Rica"
         ],
         "tld": ".cr",
-        "currencyId": "CRC",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+506",
@@ -1719,7 +1718,8 @@
         "subRegion": "Central America",
         "currencies": [
             "CRC"
-        ]
+        ],
+        "currency": "CRC"
     },
     "CU": {
         "id": "CU",
@@ -1736,7 +1736,6 @@
             "America/Havana"
         ],
         "tld": ".cu",
-        "currencyId": "CUP",
         "postalCodeFormat": "CP #####",
         "postalCodeRegexp": "^(?:CP)*(\\d{5})$",
         "callingCode": "+53",
@@ -1753,7 +1752,8 @@
         "currencies": [
             "CUC",
             "CUP"
-        ]
+        ],
+        "currency": "CUP"
     },
     "CV": {
         "id": "CV",
@@ -1769,7 +1769,6 @@
             "Atlantic/Cape_Verde"
         ],
         "tld": ".cv",
-        "currencyId": "CVE",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+238",
@@ -1783,7 +1782,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "CVE"
-        ]
+        ],
+        "currency": "CVE"
     },
     "CW": {
         "id": "CW",
@@ -1799,7 +1799,6 @@
             "America/Curacao"
         ],
         "tld": ".cw",
-        "currencyId": "ANG",
         "callingCode": "+599",
         "locales": [
             "nl",
@@ -1813,7 +1812,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "ANG"
-        ]
+        ],
+        "currency": "ANG"
     },
     "CX": {
         "id": "CX",
@@ -1830,7 +1830,6 @@
             "Indian/Christmas"
         ],
         "tld": ".cx",
-        "currencyId": "AUD",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+61",
@@ -1848,7 +1847,8 @@
         "subRegion": "Australia and New Zealand",
         "currencies": [
             "AUD"
-        ]
+        ],
+        "currency": "AUD"
     },
     "CY": {
         "id": "CY",
@@ -1866,7 +1866,6 @@
             "Asia/Nicosia"
         ],
         "tld": ".cy",
-        "currencyId": "EUR",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+357",
@@ -1884,7 +1883,8 @@
         "subRegion": "Eastern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "CZ": {
         "id": "CZ",
@@ -1900,7 +1900,6 @@
             "Europe/Prague"
         ],
         "tld": ".cz",
-        "currencyId": "CZK",
         "postalCodeFormat": "### ##",
         "postalCodeRegexp": "^\\d{3}\\s?\\d{2}$",
         "callingCode": "+420",
@@ -1916,7 +1915,8 @@
         "subRegion": "Eastern Europe",
         "currencies": [
             "CZK"
-        ]
+        ],
+        "currency": "CZK"
     },
     "DE": {
         "id": "DE",
@@ -1933,7 +1933,6 @@
             "Europe/Berlin"
         ],
         "tld": ".de",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+49",
@@ -1947,7 +1946,8 @@
         "subRegion": "Western Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "DJ": {
         "id": "DJ",
@@ -1963,7 +1963,6 @@
             "Africa/Djibouti"
         ],
         "tld": ".dj",
-        "currencyId": "DJF",
         "callingCode": "+253",
         "locales": [
             "fr-DJ",
@@ -1981,7 +1980,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "DJF"
-        ]
+        ],
+        "currency": "DJF"
     },
     "DK": {
         "id": "DK",
@@ -1997,7 +1997,6 @@
             "Europe/Copenhagen"
         ],
         "tld": ".dk",
-        "currencyId": "DKK",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+45",
@@ -2017,7 +2016,8 @@
         "subRegion": "Northern Europe",
         "currencies": [
             "DKK"
-        ]
+        ],
+        "currency": "DKK"
     },
     "DM": {
         "id": "DM",
@@ -2033,7 +2033,6 @@
             "America/Dominica"
         ],
         "tld": ".dm",
-        "currencyId": "XCD",
         "callingCode": "+1-767",
         "locales": [
             "en-DM"
@@ -2045,7 +2044,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "XCD"
-        ]
+        ],
+        "currency": "XCD"
     },
     "DO": {
         "id": "DO",
@@ -2061,7 +2061,6 @@
             "America/Santo_Domingo"
         ],
         "tld": ".do",
-        "currencyId": "DOP",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+809",
@@ -2075,7 +2074,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "DOP"
-        ]
+        ],
+        "currency": "DOP"
     },
     "DZ": {
         "id": "DZ",
@@ -2091,7 +2091,6 @@
             "Africa/Algiers"
         ],
         "tld": ".dz",
-        "currencyId": "DZD",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+213",
@@ -2105,7 +2104,8 @@
         "subRegion": "Northern Africa",
         "currencies": [
             "DZD"
-        ]
+        ],
+        "currency": "DZD"
     },
     "EC": {
         "id": "EC",
@@ -2122,7 +2122,6 @@
             "Pacific/Galapagos"
         ],
         "tld": ".ec",
-        "currencyId": "USD",
         "postalCodeFormat": "@####@",
         "postalCodeRegexp": "^([a-zA-Z]\\d{4}[a-zA-Z])$",
         "callingCode": "+593",
@@ -2136,7 +2135,8 @@
         "subRegion": "South America",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "EE": {
         "id": "EE",
@@ -2152,7 +2152,6 @@
             "Europe/Tallinn"
         ],
         "tld": ".ee",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+372",
@@ -2168,7 +2167,8 @@
         "subRegion": "Northern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "EG": {
         "id": "EG",
@@ -2185,7 +2185,6 @@
             "Africa/Cairo"
         ],
         "tld": ".eg",
-        "currencyId": "EGP",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+20",
@@ -2203,7 +2202,8 @@
         "subRegion": "Northern Africa",
         "currencies": [
             "EGP"
-        ]
+        ],
+        "currency": "EGP"
     },
     "EH": {
         "id": "EH",
@@ -2218,7 +2218,6 @@
         "timezones": [
             "Africa/El_Aaiun"
         ],
-        "currencyId": "MAD",
         "callingCode": "+212",
         "locales": [
             "ar"
@@ -2232,7 +2231,8 @@
             "DZD",
             "MAD",
             "MRU"
-        ]
+        ],
+        "currency": "MAD"
     },
     "ER": {
         "id": "ER",
@@ -2248,7 +2248,6 @@
             "Africa/Asmara"
         ],
         "tld": ".er",
-        "currencyId": "ERN",
         "callingCode": "+291",
         "locales": [
             "aa-ER",
@@ -2268,7 +2267,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "ERN"
-        ]
+        ],
+        "currency": "ERN"
     },
     "ES": {
         "id": "ES",
@@ -2286,7 +2286,6 @@
             "Europe/Madrid"
         ],
         "tld": ".es",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+34",
@@ -2308,7 +2307,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "ET": {
         "id": "ET",
@@ -2324,7 +2324,6 @@
             "Africa/Addis_Ababa"
         ],
         "tld": ".et",
-        "currencyId": "ETB",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+251",
@@ -2348,7 +2347,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "ETB"
-        ]
+        ],
+        "currency": "ETB"
     },
     "FI": {
         "id": "FI",
@@ -2364,7 +2364,6 @@
             "Europe/Helsinki"
         ],
         "tld": ".fi",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(?:FI)*(\\d{5})$",
         "callingCode": "+358",
@@ -2382,7 +2381,8 @@
         "subRegion": "Northern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "FJ": {
         "id": "FJ",
@@ -2398,7 +2398,6 @@
             "Pacific/Fiji"
         ],
         "tld": ".fj",
-        "currencyId": "FJD",
         "callingCode": "+679",
         "locales": [
             "en-FJ",
@@ -2412,7 +2411,8 @@
         "subRegion": "Melanesia",
         "currencies": [
             "FJD"
-        ]
+        ],
+        "currency": "FJD"
     },
     "FK": {
         "id": "FK",
@@ -2428,7 +2428,6 @@
             "Atlantic/Stanley"
         ],
         "tld": ".fk",
-        "currencyId": "FKP",
         "callingCode": "+500",
         "locales": [
             "en-FK"
@@ -2440,7 +2439,8 @@
         "subRegion": "South America",
         "currencies": [
             "FKP"
-        ]
+        ],
+        "currency": "FKP"
     },
     "FM": {
         "id": "FM",
@@ -2461,7 +2461,6 @@
             "Pacific/Pohnpei"
         ],
         "tld": ".fm",
-        "currencyId": "USD",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+691",
@@ -2489,7 +2488,8 @@
         ],
         "region": "Oceania",
         "subRegion": "Micronesia",
-        "currencies": []
+        "currencies": [],
+        "currency": "USD"
     },
     "FO": {
         "id": "FO",
@@ -2506,7 +2506,6 @@
             "Atlantic/Faroe"
         ],
         "tld": ".fo",
-        "currencyId": "DKK",
         "postalCodeFormat": "###",
         "postalCodeRegexp": "^(?:FO)*(\\d{3})$",
         "callingCode": "+298",
@@ -2523,7 +2522,8 @@
         "currencies": [
             "DKK",
             "FOK"
-        ]
+        ],
+        "currency": "DKK"
     },
     "FR": {
         "id": "FR",
@@ -2539,7 +2539,6 @@
             "Europe/Paris"
         ],
         "tld": ".fr",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+33",
@@ -2565,7 +2564,8 @@
         "subRegion": "Western Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "GA": {
         "id": "GA",
@@ -2581,7 +2581,6 @@
             "Africa/Libreville"
         ],
         "tld": ".ga",
-        "currencyId": "XAF",
         "callingCode": "+241",
         "locales": [
             "fr-GA"
@@ -2593,7 +2592,8 @@
         "subRegion": "Middle Africa",
         "currencies": [
             "XAF"
-        ]
+        ],
+        "currency": "XAF"
     },
     "GB": {
         "id": "GB",
@@ -2612,7 +2612,6 @@
             "Europe/London"
         ],
         "tld": ".gb",
-        "currencyId": "GBP",
         "postalCodeFormat": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
         "postalCodeRegexp": "^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z])))) [0-9][A-Za-z]{2})$",
         "callingCode": "+44",
@@ -2630,7 +2629,8 @@
         "subRegion": "Northern Europe",
         "currencies": [
             "GBP"
-        ]
+        ],
+        "currency": "GBP"
     },
     "GD": {
         "id": "GD",
@@ -2646,7 +2646,6 @@
             "America/Grenada"
         ],
         "tld": ".gd",
-        "currencyId": "XCD",
         "callingCode": "+1-473",
         "locales": [
             "en-GD"
@@ -2658,7 +2657,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "XCD"
-        ]
+        ],
+        "currency": "XCD"
     },
     "GE": {
         "id": "GE",
@@ -2674,7 +2674,6 @@
             "Asia/Tbilisi"
         ],
         "tld": ".ge",
-        "currencyId": "GEL",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+995",
@@ -2694,7 +2693,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "GEL"
-        ]
+        ],
+        "currency": "GEL"
     },
     "GF": {
         "id": "GF",
@@ -2710,7 +2710,6 @@
             "America/Cayenne"
         ],
         "tld": ".gf",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^((97|98)3\\d{2})$",
         "callingCode": "+594",
@@ -2724,7 +2723,8 @@
         "subRegion": "South America",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "GG": {
         "id": "GG",
@@ -2740,7 +2740,6 @@
             "Europe/Guernsey"
         ],
         "tld": ".gg",
-        "currencyId": "GBP",
         "postalCodeFormat": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
         "postalCodeRegexp": "^((?:(?:[A-PR-UWYZ][A-HK-Y]\\d[ABEHMNPRV-Y0-9]|[A-PR-UWYZ]\\d[A-HJKPS-UW0-9])\\s\\d[ABD-HJLNP-UW-Z]{2})|GIR\\s?0AA)$",
         "callingCode": "+44-1481",
@@ -2757,7 +2756,8 @@
         "currencies": [
             "GBP",
             "GGP"
-        ]
+        ],
+        "currency": "GBP"
     },
     "GH": {
         "id": "GH",
@@ -2773,7 +2773,6 @@
             "Africa/Accra"
         ],
         "tld": ".gh",
-        "currencyId": "GHS",
         "callingCode": "+233",
         "locales": [
             "en-GH",
@@ -2791,7 +2790,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "GHS"
-        ]
+        ],
+        "currency": "GHS"
     },
     "GI": {
         "id": "GI",
@@ -2807,7 +2807,6 @@
             "Europe/Gibraltar"
         ],
         "tld": ".gi",
-        "currencyId": "GIP",
         "callingCode": "+350",
         "locales": [
             "en-GI",
@@ -2825,7 +2824,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "GIP"
-        ]
+        ],
+        "currency": "GIP"
     },
     "GL": {
         "id": "GL",
@@ -2845,7 +2845,6 @@
             "America/Thule"
         ],
         "tld": ".gl",
-        "currencyId": "DKK",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+299",
@@ -2863,7 +2862,8 @@
         "subRegion": "North America",
         "currencies": [
             "DKK"
-        ]
+        ],
+        "currency": "DKK"
     },
     "GM": {
         "id": "GM",
@@ -2879,7 +2879,6 @@
             "Africa/Banjul"
         ],
         "tld": ".gm",
-        "currencyId": "GMD",
         "callingCode": "+220",
         "locales": [
             "en-GM",
@@ -2899,7 +2898,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "GMD"
-        ]
+        ],
+        "currency": "GMD"
     },
     "GN": {
         "id": "GN",
@@ -2915,7 +2915,6 @@
             "Africa/Conakry"
         ],
         "tld": ".gn",
-        "currencyId": "GNF",
         "callingCode": "+224",
         "locales": [
             "fr-GN"
@@ -2927,7 +2926,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "GNF"
-        ]
+        ],
+        "currency": "GNF"
     },
     "GP": {
         "id": "GP",
@@ -2943,7 +2943,6 @@
             "America/Guadeloupe"
         ],
         "tld": ".gp",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^((97|98)\\d{3})$",
         "callingCode": "+590",
@@ -2957,7 +2956,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "GQ": {
         "id": "GQ",
@@ -2973,7 +2973,6 @@
             "Africa/Malabo"
         ],
         "tld": ".gq",
-        "currencyId": "XAF",
         "callingCode": "+240",
         "locales": [
             "es-GQ",
@@ -2987,7 +2986,8 @@
         "subRegion": "Middle Africa",
         "currencies": [
             "XAF"
-        ]
+        ],
+        "currency": "XAF"
     },
     "GR": {
         "id": "GR",
@@ -3003,7 +3003,6 @@
             "Europe/Athens"
         ],
         "tld": ".gr",
-        "currencyId": "EUR",
         "postalCodeFormat": "### ##",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+30",
@@ -3021,7 +3020,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "GS": {
         "id": "GS",
@@ -3038,7 +3038,6 @@
             "Atlantic/South_Georgia"
         ],
         "tld": ".gs",
-        "currencyId": "GBP",
         "locales": [
             "en"
         ],
@@ -3049,7 +3048,8 @@
         "subRegion": "",
         "currencies": [
             "SHP"
-        ]
+        ],
+        "currency": "GBP"
     },
     "GT": {
         "id": "GT",
@@ -3065,7 +3065,6 @@
             "America/Guatemala"
         ],
         "tld": ".gt",
-        "currencyId": "GTQ",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+502",
@@ -3079,7 +3078,8 @@
         "subRegion": "Central America",
         "currencies": [
             "GTQ"
-        ]
+        ],
+        "currency": "GTQ"
     },
     "GU": {
         "id": "GU",
@@ -3095,7 +3095,6 @@
             "Pacific/Guam"
         ],
         "tld": ".gu",
-        "currencyId": "USD",
         "postalCodeFormat": "969##",
         "postalCodeRegexp": "^(969\\d{2})$",
         "callingCode": "+1-671",
@@ -3111,7 +3110,8 @@
         "subRegion": "Micronesia",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "GW": {
         "id": "GW",
@@ -3127,7 +3127,6 @@
             "Africa/Bissau"
         ],
         "tld": ".gw",
-        "currencyId": "XOF",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+245",
@@ -3143,7 +3142,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "XOF"
-        ]
+        ],
+        "currency": "XOF"
     },
     "GY": {
         "id": "GY",
@@ -3159,7 +3159,6 @@
             "America/Guyana"
         ],
         "tld": ".gy",
-        "currencyId": "GYD",
         "callingCode": "+592",
         "locales": [
             "en-GY"
@@ -3171,7 +3170,8 @@
         "subRegion": "South America",
         "currencies": [
             "GYD"
-        ]
+        ],
+        "currency": "GYD"
     },
     "HK": {
         "id": "HK",
@@ -3188,7 +3188,6 @@
             "Asia/Hong_Kong"
         ],
         "tld": ".hk",
-        "currencyId": "HKD",
         "callingCode": "+852",
         "locales": [
             "zh-HK",
@@ -3205,7 +3204,8 @@
         "subRegion": "Eastern Asia",
         "currencies": [
             "HKD"
-        ]
+        ],
+        "currency": "HKD"
     },
     "HM": {
         "id": "HM",
@@ -3218,12 +3218,12 @@
         "flagUnicode": "U+1F1ED U+1F1F2",
         "continent": "AN",
         "tld": ".hm",
-        "currencyId": "AUD",
         "callingCode": "+",
         "languages": [],
         "region": "Antarctic",
         "subRegion": "",
-        "currencies": []
+        "currencies": [],
+        "currency": "AUD"
     },
     "HN": {
         "id": "HN",
@@ -3239,7 +3239,6 @@
             "America/Tegucigalpa"
         ],
         "tld": ".hn",
-        "currencyId": "HNL",
         "postalCodeFormat": "@@####",
         "postalCodeRegexp": "^([A-Z]{2}\\d{4})$",
         "callingCode": "+504",
@@ -3257,7 +3256,8 @@
         "subRegion": "Central America",
         "currencies": [
             "HNL"
-        ]
+        ],
+        "currency": "HNL"
     },
     "HR": {
         "id": "HR",
@@ -3273,7 +3273,6 @@
             "Europe/Zagreb"
         ],
         "tld": ".hr",
-        "currencyId": "HRK",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(?:HR)*(\\d{5})$",
         "callingCode": "+385",
@@ -3289,7 +3288,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "HRK"
-        ]
+        ],
+        "currency": "HRK"
     },
     "HT": {
         "id": "HT",
@@ -3305,7 +3305,6 @@
             "America/Port-au-Prince"
         ],
         "tld": ".ht",
-        "currencyId": "HTG",
         "postalCodeFormat": "HT####",
         "postalCodeRegexp": "^(?:HT)*(\\d{4})$",
         "callingCode": "+509",
@@ -3321,7 +3320,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "HTG"
-        ]
+        ],
+        "currency": "HTG"
     },
     "HU": {
         "id": "HU",
@@ -3337,7 +3337,6 @@
             "Europe/Budapest"
         ],
         "tld": ".hu",
-        "currencyId": "HUF",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+36",
@@ -3351,7 +3350,8 @@
         "subRegion": "Eastern Europe",
         "currencies": [
             "HUF"
-        ]
+        ],
+        "currency": "HUF"
     },
     "ID": {
         "id": "ID",
@@ -3371,7 +3371,6 @@
             "Asia/Pontianak"
         ],
         "tld": ".id",
-        "currencyId": "IDR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+62",
@@ -3391,7 +3390,8 @@
         "subRegion": "South-Eastern Asia",
         "currencies": [
             "IDR"
-        ]
+        ],
+        "currency": "IDR"
     },
     "IE": {
         "id": "IE",
@@ -3408,7 +3408,6 @@
             "Europe/Dublin"
         ],
         "tld": ".ie",
-        "currencyId": "EUR",
         "postalCodeFormat": "@@@ @@@@",
         "postalCodeRegexp": "^[A-Z]\\d{2}$|^[A-Z]{3}[A-Z]{4}$",
         "callingCode": "+353",
@@ -3424,7 +3423,8 @@
         "subRegion": "Northern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "IL": {
         "id": "IL",
@@ -3442,7 +3442,6 @@
             "Asia/Jerusalem"
         ],
         "tld": ".il",
-        "currencyId": "ILS",
         "postalCodeFormat": "#######",
         "postalCodeRegexp": "^(\\d{7}|\\d{5})$",
         "callingCode": "+972",
@@ -3460,7 +3459,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "ILS"
-        ]
+        ],
+        "currency": "ILS"
     },
     "IM": {
         "id": "IM",
@@ -3476,7 +3476,6 @@
             "Europe/Isle_of_Man"
         ],
         "tld": ".im",
-        "currencyId": "GBP",
         "postalCodeFormat": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
         "postalCodeRegexp": "^((?:(?:[A-PR-UWYZ][A-HK-Y]\\d[ABEHMNPRV-Y0-9]|[A-PR-UWYZ]\\d[A-HJKPS-UW0-9])\\s\\d[ABD-HJLNP-UW-Z]{2})|GIR\\s?0AA)$",
         "callingCode": "+44-1624",
@@ -3493,7 +3492,8 @@
         "currencies": [
             "GBP",
             "IMP"
-        ]
+        ],
+        "currency": "GBP"
     },
     "IN": {
         "id": "IN",
@@ -3510,7 +3510,6 @@
             "Asia/Kolkata"
         ],
         "tld": ".in",
-        "currencyId": "INR",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+91",
@@ -3574,7 +3573,8 @@
         "subRegion": "Southern Asia",
         "currencies": [
             "INR"
-        ]
+        ],
+        "currency": "INR"
     },
     "IO": {
         "id": "IO",
@@ -3590,7 +3590,6 @@
             "Indian/Chagos"
         ],
         "tld": ".io",
-        "currencyId": "USD",
         "callingCode": "+246",
         "locales": [
             "en-IO"
@@ -3602,7 +3601,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "IQ": {
         "id": "IQ",
@@ -3618,7 +3618,6 @@
             "Asia/Baghdad"
         ],
         "tld": ".iq",
-        "currencyId": "IQD",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+964",
@@ -3636,7 +3635,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "IQD"
-        ]
+        ],
+        "currency": "IQD"
     },
     "IR": {
         "id": "IR",
@@ -3653,7 +3653,6 @@
             "Asia/Tehran"
         ],
         "tld": ".ir",
-        "currencyId": "IRR",
         "postalCodeFormat": "##########",
         "postalCodeRegexp": "^(\\d{10})$",
         "callingCode": "+98",
@@ -3669,7 +3668,8 @@
         "subRegion": "Southern Asia",
         "currencies": [
             "IRR"
-        ]
+        ],
+        "currency": "IRR"
     },
     "IS": {
         "id": "IS",
@@ -3686,7 +3686,6 @@
             "Atlantic/Reykjavik"
         ],
         "tld": ".is",
-        "currencyId": "ISK",
         "postalCodeFormat": "###",
         "postalCodeRegexp": "^(\\d{3})$",
         "callingCode": "+354",
@@ -3710,7 +3709,8 @@
         "subRegion": "Northern Europe",
         "currencies": [
             "ISK"
-        ]
+        ],
+        "currency": "ISK"
     },
     "IT": {
         "id": "IT",
@@ -3726,7 +3726,6 @@
             "Europe/Rome"
         ],
         "tld": ".it",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+39",
@@ -3752,7 +3751,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "JE": {
         "id": "JE",
@@ -3768,7 +3768,6 @@
             "Europe/Jersey"
         ],
         "tld": ".je",
-        "currencyId": "GBP",
         "postalCodeFormat": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
         "postalCodeRegexp": "^((?:(?:[A-PR-UWYZ][A-HK-Y]\\d[ABEHMNPRV-Y0-9]|[A-PR-UWYZ]\\d[A-HJKPS-UW0-9])\\s\\d[ABD-HJLNP-UW-Z]{2})|GIR\\s?0AA)$",
         "callingCode": "+44-1534",
@@ -3787,7 +3786,8 @@
         "currencies": [
             "GBP",
             "JEP"
-        ]
+        ],
+        "currency": "GBP"
     },
     "JM": {
         "id": "JM",
@@ -3804,7 +3804,6 @@
             "America/Jamaica"
         ],
         "tld": ".jm",
-        "currencyId": "JMD",
         "callingCode": "+1-876",
         "locales": [
             "en-JM"
@@ -3816,7 +3815,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "JMD"
-        ]
+        ],
+        "currency": "JMD"
     },
     "JO": {
         "id": "JO",
@@ -3832,7 +3832,6 @@
             "Asia/Amman"
         ],
         "tld": ".jo",
-        "currencyId": "JOD",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+962",
@@ -3848,7 +3847,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "JOD"
-        ]
+        ],
+        "currency": "JOD"
     },
     "JP": {
         "id": "JP",
@@ -3865,7 +3865,6 @@
             "Asia/Tokyo"
         ],
         "tld": ".jp",
-        "currencyId": "JPY",
         "postalCodeFormat": "###-####",
         "postalCodeRegexp": "^\\d{3}-\\d{4}$",
         "callingCode": "+81",
@@ -3879,7 +3878,8 @@
         "subRegion": "Eastern Asia",
         "currencies": [
             "JPY"
-        ]
+        ],
+        "currency": "JPY"
     },
     "KE": {
         "id": "KE",
@@ -3896,7 +3896,6 @@
             "Africa/Nairobi"
         ],
         "tld": ".ke",
-        "currencyId": "KES",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+254",
@@ -3912,7 +3911,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "KES"
-        ]
+        ],
+        "currency": "KES"
     },
     "KG": {
         "id": "KG",
@@ -3928,7 +3928,6 @@
             "Asia/Bishkek"
         ],
         "tld": ".kg",
-        "currencyId": "KGS",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+996",
@@ -3946,7 +3945,8 @@
         "subRegion": "Central Asia",
         "currencies": [
             "KGS"
-        ]
+        ],
+        "currency": "KGS"
     },
     "KH": {
         "id": "KH",
@@ -3962,7 +3962,6 @@
             "Asia/Phnom_Penh"
         ],
         "tld": ".kh",
-        "currencyId": "KHR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+855",
@@ -3981,7 +3980,8 @@
         "currencies": [
             "KHR",
             "USD"
-        ]
+        ],
+        "currency": "KHR"
     },
     "KI": {
         "id": "KI",
@@ -4000,7 +4000,6 @@
             "Pacific/Kiritimati"
         ],
         "tld": ".ki",
-        "currencyId": "AUD",
         "callingCode": "+686",
         "locales": [
             "en-KI",
@@ -4015,7 +4014,8 @@
         "currencies": [
             "AUD",
             "KID"
-        ]
+        ],
+        "currency": "AUD"
     },
     "KM": {
         "id": "KM",
@@ -4031,7 +4031,6 @@
             "Indian/Comoro"
         ],
         "tld": ".km",
-        "currencyId": "KMF",
         "callingCode": "+269",
         "locales": [
             "ar",
@@ -4045,7 +4044,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "KMF"
-        ]
+        ],
+        "currency": "KMF"
     },
     "KN": {
         "id": "KN",
@@ -4061,7 +4061,6 @@
             "America/St_Kitts"
         ],
         "tld": ".kn",
-        "currencyId": "XCD",
         "callingCode": "+1-869",
         "locales": [
             "en-KN"
@@ -4073,7 +4072,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "XCD"
-        ]
+        ],
+        "currency": "XCD"
     },
     "KP": {
         "id": "KP",
@@ -4089,7 +4089,6 @@
             "Asia/Pyongyang"
         ],
         "tld": ".kp",
-        "currencyId": "KPW",
         "postalCodeFormat": "###-###",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+850",
@@ -4103,7 +4102,8 @@
         "subRegion": "Eastern Asia",
         "currencies": [
             "KPW"
-        ]
+        ],
+        "currency": "KPW"
     },
     "KR": {
         "id": "KR",
@@ -4120,7 +4120,6 @@
             "Asia/Seoul"
         ],
         "tld": ".kr",
-        "currencyId": "KRW",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+82",
@@ -4136,7 +4135,8 @@
         "subRegion": "Eastern Asia",
         "currencies": [
             "KRW"
-        ]
+        ],
+        "currency": "KRW"
     },
     "KW": {
         "id": "KW",
@@ -4152,7 +4152,6 @@
             "Asia/Kuwait"
         ],
         "tld": ".kw",
-        "currencyId": "KWD",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+965",
@@ -4168,7 +4167,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "KWD"
-        ]
+        ],
+        "currency": "KWD"
     },
     "KY": {
         "id": "KY",
@@ -4184,7 +4184,6 @@
             "America/Cayman"
         ],
         "tld": ".ky",
-        "currencyId": "KYD",
         "callingCode": "+1-345",
         "locales": [
             "en-KY"
@@ -4196,7 +4195,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "KYD"
-        ]
+        ],
+        "currency": "KYD"
     },
     "KZ": {
         "id": "KZ",
@@ -4218,7 +4218,6 @@
             "Asia/Qyzylorda"
         ],
         "tld": ".kz",
-        "currencyId": "KZT",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+7",
@@ -4234,7 +4233,8 @@
         "subRegion": "Central Asia",
         "currencies": [
             "KZT"
-        ]
+        ],
+        "currency": "KZT"
     },
     "LA": {
         "id": "LA",
@@ -4250,7 +4250,6 @@
             "Asia/Vientiane"
         ],
         "tld": ".la",
-        "currencyId": "LAK",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+856",
@@ -4268,7 +4267,8 @@
         "subRegion": "South-Eastern Asia",
         "currencies": [
             "LAK"
-        ]
+        ],
+        "currency": "LAK"
     },
     "LB": {
         "id": "LB",
@@ -4284,7 +4284,6 @@
             "Asia/Beirut"
         ],
         "tld": ".lb",
-        "currencyId": "LBP",
         "postalCodeFormat": "#### ####|####",
         "postalCodeRegexp": "^(\\d{4}(\\d{4})?)$",
         "callingCode": "+961",
@@ -4304,7 +4303,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "LBP"
-        ]
+        ],
+        "currency": "LBP"
     },
     "LC": {
         "id": "LC",
@@ -4320,7 +4320,6 @@
             "America/St_Lucia"
         ],
         "tld": ".lc",
-        "currencyId": "XCD",
         "callingCode": "+1-758",
         "locales": [
             "en-LC"
@@ -4332,7 +4331,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "XCD"
-        ]
+        ],
+        "currency": "XCD"
     },
     "LI": {
         "id": "LI",
@@ -4348,7 +4348,6 @@
             "Europe/Vaduz"
         ],
         "tld": ".li",
-        "currencyId": "CHF",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+423",
@@ -4362,7 +4361,8 @@
         "subRegion": "Western Europe",
         "currencies": [
             "CHF"
-        ]
+        ],
+        "currency": "CHF"
     },
     "LK": {
         "id": "LK",
@@ -4378,7 +4378,6 @@
             "Asia/Colombo"
         ],
         "tld": ".lk",
-        "currencyId": "LKR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+94",
@@ -4396,7 +4395,8 @@
         "subRegion": "Southern Asia",
         "currencies": [
             "LKR"
-        ]
+        ],
+        "currency": "LKR"
     },
     "LR": {
         "id": "LR",
@@ -4412,7 +4412,6 @@
             "Africa/Monrovia"
         ],
         "tld": ".lr",
-        "currencyId": "LRD",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+231",
@@ -4426,7 +4425,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "LRD"
-        ]
+        ],
+        "currency": "LRD"
     },
     "LS": {
         "id": "LS",
@@ -4442,7 +4442,6 @@
             "Africa/Maseru"
         ],
         "tld": ".ls",
-        "currencyId": "LSL",
         "postalCodeFormat": "###",
         "postalCodeRegexp": "^(\\d{3})$",
         "callingCode": "+266",
@@ -4463,7 +4462,8 @@
         "currencies": [
             "LSL",
             "ZAR"
-        ]
+        ],
+        "currency": "LSL"
     },
     "LT": {
         "id": "LT",
@@ -4479,7 +4479,6 @@
             "Europe/Vilnius"
         ],
         "tld": ".lt",
-        "currencyId": "EUR",
         "postalCodeFormat": "LT-#####",
         "postalCodeRegexp": "^(?:LT)*(\\d{5})$",
         "callingCode": "+370",
@@ -4497,7 +4496,8 @@
         "subRegion": "Northern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "LU": {
         "id": "LU",
@@ -4513,7 +4513,6 @@
             "Europe/Luxembourg"
         ],
         "tld": ".lu",
-        "currencyId": "EUR",
         "postalCodeFormat": "L-####",
         "postalCodeRegexp": "^(?:L-)?\\d{4}$",
         "callingCode": "+352",
@@ -4531,7 +4530,8 @@
         "subRegion": "Western Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "LV": {
         "id": "LV",
@@ -4547,7 +4547,6 @@
             "Europe/Riga"
         ],
         "tld": ".lv",
-        "currencyId": "EUR",
         "postalCodeFormat": "LV-####",
         "postalCodeRegexp": "^(?:LV)*(\\d{4})$",
         "callingCode": "+371",
@@ -4565,7 +4564,8 @@
         "subRegion": "Northern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "LY": {
         "id": "LY",
@@ -4582,7 +4582,6 @@
             "Africa/Tripoli"
         ],
         "tld": ".ly",
-        "currencyId": "LYD",
         "callingCode": "+218",
         "locales": [
             "ar-LY",
@@ -4598,7 +4597,8 @@
         "subRegion": "Northern Africa",
         "currencies": [
             "LYD"
-        ]
+        ],
+        "currency": "LYD"
     },
     "MA": {
         "id": "MA",
@@ -4614,7 +4614,6 @@
             "Africa/Casablanca"
         ],
         "tld": ".ma",
-        "currencyId": "MAD",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+212",
@@ -4632,7 +4631,8 @@
         "subRegion": "Northern Africa",
         "currencies": [
             "MAD"
-        ]
+        ],
+        "currency": "MAD"
     },
     "MC": {
         "id": "MC",
@@ -4648,7 +4648,6 @@
             "Europe/Monaco"
         ],
         "tld": ".mc",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+377",
@@ -4666,7 +4665,8 @@
         "subRegion": "Western Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "MD": {
         "id": "MD",
@@ -4683,7 +4683,6 @@
             "Europe/Chisinau"
         ],
         "tld": ".md",
-        "currencyId": "MDL",
         "postalCodeFormat": "MD-####",
         "postalCodeRegexp": "^MD-\\d{4}$",
         "callingCode": "+373",
@@ -4703,7 +4702,8 @@
         "subRegion": "Eastern Europe",
         "currencies": [
             "MDL"
-        ]
+        ],
+        "currency": "MDL"
     },
     "ME": {
         "id": "ME",
@@ -4719,7 +4719,6 @@
             "Europe/Podgorica"
         ],
         "tld": ".me",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+382",
@@ -4743,7 +4742,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "MF": {
         "id": "MF",
@@ -4759,7 +4759,6 @@
             "America/Marigot"
         ],
         "tld": ".mf",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+590",
@@ -4773,7 +4772,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "MG": {
         "id": "MG",
@@ -4789,7 +4789,6 @@
             "Indian/Antananarivo"
         ],
         "tld": ".mg",
-        "currencyId": "MGA",
         "postalCodeFormat": "###",
         "postalCodeRegexp": "^(\\d{3})$",
         "callingCode": "+261",
@@ -4805,7 +4804,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "MGA"
-        ]
+        ],
+        "currency": "MGA"
     },
     "MH": {
         "id": "MH",
@@ -4823,7 +4823,6 @@
             "Pacific/Majuro"
         ],
         "tld": ".mh",
-        "currencyId": "USD",
         "postalCodeFormat": "#####-####",
         "postalCodeRegexp": "^969\\d{2}(-\\d{4})$",
         "callingCode": "+692",
@@ -4839,7 +4838,8 @@
         "subRegion": "Micronesia",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "MK": {
         "id": "MK",
@@ -4855,7 +4855,6 @@
             "Europe/Skopje"
         ],
         "tld": ".mk",
-        "currencyId": "MKD",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+389",
@@ -4877,7 +4876,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "MKD"
-        ]
+        ],
+        "currency": "MKD"
     },
     "ML": {
         "id": "ML",
@@ -4893,7 +4893,6 @@
             "Africa/Bamako"
         ],
         "tld": ".ml",
-        "currencyId": "XOF",
         "callingCode": "+223",
         "locales": [
             "fr-ML",
@@ -4907,7 +4906,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "XOF"
-        ]
+        ],
+        "currency": "XOF"
     },
     "MM": {
         "id": "MM",
@@ -4924,7 +4924,6 @@
             "Asia/Rangoon"
         ],
         "tld": ".mm",
-        "currencyId": "MMK",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+95",
@@ -4938,7 +4937,8 @@
         "subRegion": "South-Eastern Asia",
         "currencies": [
             "MMK"
-        ]
+        ],
+        "currency": "MMK"
     },
     "MN": {
         "id": "MN",
@@ -4957,7 +4957,6 @@
             "Asia/Ulaanbaatar"
         ],
         "tld": ".mn",
-        "currencyId": "MNT",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+976",
@@ -4973,7 +4972,8 @@
         "subRegion": "Eastern Asia",
         "currencies": [
             "MNT"
-        ]
+        ],
+        "currency": "MNT"
     },
     "MO": {
         "id": "MO",
@@ -4990,7 +4990,6 @@
             "Asia/Macau"
         ],
         "tld": ".mo",
-        "currencyId": "MOP",
         "callingCode": "+853",
         "locales": [
             "zh",
@@ -5005,7 +5004,8 @@
         "subRegion": "Eastern Asia",
         "currencies": [
             "MOP"
-        ]
+        ],
+        "currency": "MOP"
     },
     "MP": {
         "id": "MP",
@@ -5021,7 +5021,6 @@
             "Pacific/Saipan"
         ],
         "tld": ".mp",
-        "currencyId": "USD",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^9695\\d{1}$",
         "callingCode": "+1-670",
@@ -5043,7 +5042,8 @@
         "subRegion": "Micronesia",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "MQ": {
         "id": "MQ",
@@ -5059,7 +5059,6 @@
             "America/Martinique"
         ],
         "tld": ".mq",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+596",
@@ -5073,7 +5072,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "MR": {
         "id": "MR",
@@ -5089,7 +5089,6 @@
             "Africa/Nouakchott"
         ],
         "tld": ".mr",
-        "currencyId": "MRO",
         "callingCode": "+222",
         "locales": [
             "ar-MR",
@@ -5111,7 +5110,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "MRU"
-        ]
+        ],
+        "currency": "MRO"
     },
     "MS": {
         "id": "MS",
@@ -5127,7 +5127,6 @@
             "America/Montserrat"
         ],
         "tld": ".ms",
-        "currencyId": "XCD",
         "callingCode": "+1-664",
         "locales": [
             "en-MS"
@@ -5139,7 +5138,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "XCD"
-        ]
+        ],
+        "currency": "XCD"
     },
     "MT": {
         "id": "MT",
@@ -5155,7 +5155,6 @@
             "Europe/Malta"
         ],
         "tld": ".mt",
-        "currencyId": "EUR",
         "postalCodeFormat": "@@@ ####",
         "postalCodeRegexp": "^[A-Z]{3}\\s?\\d{4}$",
         "callingCode": "+356",
@@ -5171,7 +5170,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "MU": {
         "id": "MU",
@@ -5187,7 +5187,6 @@
             "Indian/Mauritius"
         ],
         "tld": ".mu",
-        "currencyId": "MUR",
         "callingCode": "+230",
         "locales": [
             "en-MU",
@@ -5203,7 +5202,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "MUR"
-        ]
+        ],
+        "currency": "MUR"
     },
     "MV": {
         "id": "MV",
@@ -5219,7 +5219,6 @@
             "Indian/Maldives"
         ],
         "tld": ".mv",
-        "currencyId": "MVR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+960",
@@ -5235,7 +5234,8 @@
         "subRegion": "Southern Asia",
         "currencies": [
             "MVR"
-        ]
+        ],
+        "currency": "MVR"
     },
     "MW": {
         "id": "MW",
@@ -5251,7 +5251,6 @@
             "Africa/Blantyre"
         ],
         "tld": ".mw",
-        "currencyId": "MWK",
         "callingCode": "+265",
         "locales": [
             "ny",
@@ -5269,7 +5268,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "MWK"
-        ]
+        ],
+        "currency": "MWK"
     },
     "MX": {
         "id": "MX",
@@ -5300,7 +5300,6 @@
             "America/Ojinaga"
         ],
         "tld": ".mx",
-        "currencyId": "MXN",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+52",
@@ -5314,7 +5313,8 @@
         "subRegion": "North America",
         "currencies": [
             "MXN"
-        ]
+        ],
+        "currency": "MXN"
     },
     "MY": {
         "id": "MY",
@@ -5332,7 +5332,6 @@
             "Asia/Kuching"
         ],
         "tld": ".my",
-        "currencyId": "MYR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+60",
@@ -5360,7 +5359,8 @@
         "subRegion": "South-Eastern Asia",
         "currencies": [
             "MYR"
-        ]
+        ],
+        "currency": "MYR"
     },
     "MZ": {
         "id": "MZ",
@@ -5376,7 +5376,6 @@
             "Africa/Maputo"
         ],
         "tld": ".mz",
-        "currencyId": "MZN",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+258",
@@ -5392,7 +5391,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "MZN"
-        ]
+        ],
+        "currency": "MZN"
     },
     "NA": {
         "id": "NA",
@@ -5408,7 +5408,6 @@
             "Africa/Windhoek"
         ],
         "tld": ".na",
-        "currencyId": "NAD",
         "callingCode": "+264",
         "locales": [
             "en-NA",
@@ -5429,7 +5428,8 @@
         "currencies": [
             "NAD",
             "ZAR"
-        ]
+        ],
+        "currency": "NAD"
     },
     "NC": {
         "id": "NC",
@@ -5445,7 +5445,6 @@
             "Pacific/Noumea"
         ],
         "tld": ".nc",
-        "currencyId": "XPF",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+687",
@@ -5459,7 +5458,8 @@
         "subRegion": "Melanesia",
         "currencies": [
             "XPF"
-        ]
+        ],
+        "currency": "XPF"
     },
     "NE": {
         "id": "NE",
@@ -5475,7 +5475,6 @@
             "Africa/Niamey"
         ],
         "tld": ".ne",
-        "currencyId": "XOF",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+227",
@@ -5495,7 +5494,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "XOF"
-        ]
+        ],
+        "currency": "XOF"
     },
     "NF": {
         "id": "NF",
@@ -5511,7 +5511,6 @@
             "Pacific/Norfolk"
         ],
         "tld": ".nf",
-        "currencyId": "AUD",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+672",
@@ -5525,7 +5524,8 @@
         "subRegion": "Australia and New Zealand",
         "currencies": [
             "AUD"
-        ]
+        ],
+        "currency": "AUD"
     },
     "NG": {
         "id": "NG",
@@ -5541,7 +5541,6 @@
             "Africa/Lagos"
         ],
         "tld": ".ng",
-        "currencyId": "NGN",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+234",
@@ -5563,7 +5562,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "NGN"
-        ]
+        ],
+        "currency": "NGN"
     },
     "NI": {
         "id": "NI",
@@ -5579,7 +5579,6 @@
             "America/Managua"
         ],
         "tld": ".ni",
-        "currencyId": "NIO",
         "postalCodeFormat": "###-###-#",
         "postalCodeRegexp": "^(\\d{7})$",
         "callingCode": "+505",
@@ -5595,7 +5594,8 @@
         "subRegion": "Central America",
         "currencies": [
             "NIO"
-        ]
+        ],
+        "currency": "NIO"
     },
     "NL": {
         "id": "NL",
@@ -5611,7 +5611,6 @@
             "Europe/Amsterdam"
         ],
         "tld": ".nl",
-        "currencyId": "EUR",
         "postalCodeFormat": "#### @@",
         "postalCodeRegexp": "^(\\d{4}[A-Z]{2})$",
         "callingCode": "+31",
@@ -5627,7 +5626,8 @@
         "subRegion": "Western Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "NO": {
         "id": "NO",
@@ -5644,7 +5644,6 @@
             "Europe/Oslo"
         ],
         "tld": ".no",
-        "currencyId": "NOK",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+47",
@@ -5666,7 +5665,8 @@
         "subRegion": "Northern Europe",
         "currencies": [
             "NOK"
-        ]
+        ],
+        "currency": "NOK"
     },
     "NP": {
         "id": "NP",
@@ -5683,7 +5683,6 @@
             "Asia/Kathmandu"
         ],
         "tld": ".np",
-        "currencyId": "NPR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+977",
@@ -5699,7 +5698,8 @@
         "subRegion": "Southern Asia",
         "currencies": [
             "NPR"
-        ]
+        ],
+        "currency": "NPR"
     },
     "NR": {
         "id": "NR",
@@ -5715,7 +5715,6 @@
             "Pacific/Nauru"
         ],
         "tld": ".nr",
-        "currencyId": "AUD",
         "callingCode": "+674",
         "locales": [
             "na",
@@ -5729,7 +5728,8 @@
         "subRegion": "Micronesia",
         "currencies": [
             "AUD"
-        ]
+        ],
+        "currency": "AUD"
     },
     "NU": {
         "id": "NU",
@@ -5745,7 +5745,6 @@
             "Pacific/Niue"
         ],
         "tld": ".nu",
-        "currencyId": "NZD",
         "callingCode": "+683",
         "locales": [
             "niu",
@@ -5759,7 +5758,8 @@
         "subRegion": "Polynesia",
         "currencies": [
             "NZD"
-        ]
+        ],
+        "currency": "NZD"
     },
     "NZ": {
         "id": "NZ",
@@ -5779,7 +5779,6 @@
             "Pacific/Chatham"
         ],
         "tld": ".nz",
-        "currencyId": "NZD",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+64",
@@ -5795,7 +5794,8 @@
         "subRegion": "Australia and New Zealand",
         "currencies": [
             "NZD"
-        ]
+        ],
+        "currency": "NZD"
     },
     "OM": {
         "id": "OM",
@@ -5811,7 +5811,6 @@
             "Asia/Muscat"
         ],
         "tld": ".om",
-        "currencyId": "OMR",
         "postalCodeFormat": "###",
         "postalCodeRegexp": "^(\\d{3})$",
         "callingCode": "+968",
@@ -5831,7 +5830,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "OMR"
-        ]
+        ],
+        "currency": "OMR"
     },
     "PA": {
         "id": "PA",
@@ -5847,7 +5847,6 @@
             "America/Panama"
         ],
         "tld": ".pa",
-        "currencyId": "PAB",
         "callingCode": "+507",
         "locales": [
             "es-PA",
@@ -5862,7 +5861,8 @@
         "currencies": [
             "PAB",
             "USD"
-        ]
+        ],
+        "currency": "PAB"
     },
     "PE": {
         "id": "PE",
@@ -5878,7 +5878,6 @@
             "America/Lima"
         ],
         "tld": ".pe",
-        "currencyId": "PEN",
         "callingCode": "+51",
         "locales": [
             "es-PE",
@@ -5894,7 +5893,8 @@
         "subRegion": "South America",
         "currencies": [
             "PEN"
-        ]
+        ],
+        "currency": "PEN"
     },
     "PF": {
         "id": "PF",
@@ -5912,7 +5912,6 @@
             "Pacific/Tahiti"
         ],
         "tld": ".pf",
-        "currencyId": "XPF",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^((97|98)7\\d{2})$",
         "callingCode": "+689",
@@ -5928,7 +5927,8 @@
         "subRegion": "Polynesia",
         "currencies": [
             "XPF"
-        ]
+        ],
+        "currency": "XPF"
     },
     "PG": {
         "id": "PG",
@@ -5946,7 +5946,6 @@
             "Pacific/Bougainville"
         ],
         "tld": ".pg",
-        "currencyId": "PGK",
         "postalCodeFormat": "###",
         "postalCodeRegexp": "^(\\d{3})$",
         "callingCode": "+675",
@@ -5966,7 +5965,8 @@
         "subRegion": "Melanesia",
         "currencies": [
             "PGK"
-        ]
+        ],
+        "currency": "PGK"
     },
     "PH": {
         "id": "PH",
@@ -5982,7 +5982,6 @@
             "Asia/Manila"
         ],
         "tld": ".ph",
-        "currencyId": "PHP",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+63",
@@ -6042,7 +6041,8 @@
         "subRegion": "South-Eastern Asia",
         "currencies": [
             "PHP"
-        ]
+        ],
+        "currency": "PHP"
     },
     "PK": {
         "id": "PK",
@@ -6058,7 +6058,6 @@
             "Asia/Karachi"
         ],
         "tld": ".pk",
-        "currencyId": "PKR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+92",
@@ -6082,7 +6081,8 @@
         "subRegion": "Southern Asia",
         "currencies": [
             "PKR"
-        ]
+        ],
+        "currency": "PKR"
     },
     "PL": {
         "id": "PL",
@@ -6099,7 +6099,6 @@
             "Europe/Warsaw"
         ],
         "tld": ".pl",
-        "currencyId": "PLN",
         "postalCodeFormat": "##-###",
         "postalCodeRegexp": "^\\d{2}-\\d{3}$",
         "callingCode": "+48",
@@ -6113,7 +6112,8 @@
         "subRegion": "Eastern Europe",
         "currencies": [
             "PLN"
-        ]
+        ],
+        "currency": "PLN"
     },
     "PM": {
         "id": "PM",
@@ -6129,7 +6129,6 @@
             "America/Miquelon"
         ],
         "tld": ".pm",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(97500)$",
         "callingCode": "+508",
@@ -6143,7 +6142,8 @@
         "subRegion": "North America",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "PN": {
         "id": "PN",
@@ -6159,7 +6159,6 @@
             "Pacific/Pitcairn"
         ],
         "tld": ".pn",
-        "currencyId": "NZD",
         "callingCode": "+870",
         "locales": [
             "en-PN"
@@ -6171,7 +6170,8 @@
         "subRegion": "Polynesia",
         "currencies": [
             "NZD"
-        ]
+        ],
+        "currency": "NZD"
     },
     "PR": {
         "id": "PR",
@@ -6187,7 +6187,6 @@
             "America/Puerto_Rico"
         ],
         "tld": ".pr",
-        "currencyId": "USD",
         "postalCodeFormat": "#####-####",
         "postalCodeRegexp": "^00[679]\\d{2}(?:-\\d{4})?$",
         "callingCode": "+1",
@@ -6203,7 +6202,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "PS": {
         "id": "PS",
@@ -6220,7 +6220,6 @@
             "Asia/Hebron"
         ],
         "tld": ".ps",
-        "currencyId": "ILS",
         "callingCode": "+970",
         "locales": [
             "ar-PS"
@@ -6234,7 +6233,8 @@
             "EGP",
             "ILS",
             "JOD"
-        ]
+        ],
+        "currency": "ILS"
     },
     "PT": {
         "id": "PT",
@@ -6253,7 +6253,6 @@
             "Europe/Lisbon"
         ],
         "tld": ".pt",
-        "currencyId": "EUR",
         "postalCodeFormat": "####-###",
         "postalCodeRegexp": "^\\d{4}-\\d{3}\\s?[a-zA-Z]{0,25}$",
         "callingCode": "+351",
@@ -6269,7 +6268,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "PW": {
         "id": "PW",
@@ -6286,7 +6286,6 @@
             "Pacific/Palau"
         ],
         "tld": ".pw",
-        "currencyId": "USD",
         "postalCodeFormat": "96940",
         "postalCodeRegexp": "^(96940)$",
         "callingCode": "+680",
@@ -6312,7 +6311,8 @@
         "subRegion": "Micronesia",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "PY": {
         "id": "PY",
@@ -6328,7 +6328,6 @@
             "America/Asuncion"
         ],
         "tld": ".py",
-        "currencyId": "PYG",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+595",
@@ -6344,7 +6343,8 @@
         "subRegion": "South America",
         "currencies": [
             "PYG"
-        ]
+        ],
+        "currency": "PYG"
     },
     "QA": {
         "id": "QA",
@@ -6360,7 +6360,6 @@
             "Asia/Qatar"
         ],
         "tld": ".qa",
-        "currencyId": "QAR",
         "callingCode": "+974",
         "locales": [
             "ar-QA",
@@ -6374,7 +6373,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "QAR"
-        ]
+        ],
+        "currency": "QAR"
     },
     "RE": {
         "id": "RE",
@@ -6390,7 +6390,6 @@
             "Indian/Reunion"
         ],
         "tld": ".re",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^((97|98)(4|7|8)\\d{2})$",
         "callingCode": "+262",
@@ -6404,7 +6403,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "RO": {
         "id": "RO",
@@ -6420,7 +6420,6 @@
             "Europe/Bucharest"
         ],
         "tld": ".ro",
-        "currencyId": "RON",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+40",
@@ -6438,7 +6437,8 @@
         "subRegion": "Eastern Europe",
         "currencies": [
             "RON"
-        ]
+        ],
+        "currency": "RON"
     },
     "RS": {
         "id": "RS",
@@ -6454,7 +6454,6 @@
             "Europe/Belgrade"
         ],
         "tld": ".rs",
-        "currencyId": "RSD",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+381",
@@ -6474,7 +6473,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "RSD"
-        ]
+        ],
+        "currency": "RSD"
     },
     "RU": {
         "id": "RU",
@@ -6516,7 +6516,6 @@
             "Europe/Volgograd"
         ],
         "tld": ".ru",
-        "currencyId": "RUB",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+7",
@@ -6575,7 +6574,8 @@
         "subRegion": "Eastern Europe",
         "currencies": [
             "RUB"
-        ]
+        ],
+        "currency": "RUB"
     },
     "RW": {
         "id": "RW",
@@ -6591,7 +6591,6 @@
             "Africa/Kigali"
         ],
         "tld": ".rw",
-        "currencyId": "RWF",
         "callingCode": "+250",
         "locales": [
             "rw",
@@ -6609,7 +6608,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "RWF"
-        ]
+        ],
+        "currency": "RWF"
     },
     "SA": {
         "id": "SA",
@@ -6625,7 +6625,6 @@
             "Asia/Riyadh"
         ],
         "tld": ".sa",
-        "currencyId": "SAR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+966",
@@ -6639,7 +6638,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "SAR"
-        ]
+        ],
+        "currency": "SAR"
     },
     "SB": {
         "id": "SB",
@@ -6655,7 +6655,6 @@
             "Pacific/Guadalcanal"
         ],
         "tld": ".sb",
-        "currencyId": "SBD",
         "callingCode": "+677",
         "locales": [
             "en-SB",
@@ -6669,7 +6668,8 @@
         "subRegion": "Melanesia",
         "currencies": [
             "SBD"
-        ]
+        ],
+        "currency": "SBD"
     },
     "SC": {
         "id": "SC",
@@ -6685,7 +6685,6 @@
             "Indian/Mahe"
         ],
         "tld": ".sc",
-        "currencyId": "SCR",
         "callingCode": "+248",
         "locales": [
             "en-SC",
@@ -6699,7 +6698,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "SCR"
-        ]
+        ],
+        "currency": "SCR"
     },
     "SD": {
         "id": "SD",
@@ -6715,7 +6715,6 @@
             "Africa/Khartoum"
         ],
         "tld": ".sd",
-        "currencyId": "SDG",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+249",
@@ -6733,7 +6732,8 @@
         "subRegion": "Northern Africa",
         "currencies": [
             "SDG"
-        ]
+        ],
+        "currency": "SDG"
     },
     "SE": {
         "id": "SE",
@@ -6749,7 +6749,6 @@
             "Europe/Stockholm"
         ],
         "tld": ".se",
-        "currencyId": "SEK",
         "postalCodeFormat": "### ##",
         "postalCodeRegexp": "^(?:SE)?\\d{3}\\s\\d{2}$",
         "callingCode": "+46",
@@ -6769,7 +6768,8 @@
         "subRegion": "Northern Europe",
         "currencies": [
             "SEK"
-        ]
+        ],
+        "currency": "SEK"
     },
     "SG": {
         "id": "SG",
@@ -6785,7 +6785,6 @@
             "Asia/Singapore"
         ],
         "tld": ".sg",
-        "currencyId": "SGD",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+65",
@@ -6807,7 +6806,8 @@
         "subRegion": "South-Eastern Asia",
         "currencies": [
             "SGD"
-        ]
+        ],
+        "currency": "SGD"
     },
     "SH": {
         "id": "SH",
@@ -6823,7 +6823,6 @@
             "Atlantic/St_Helena"
         ],
         "tld": ".sh",
-        "currencyId": "SHP",
         "postalCodeFormat": "STHL 1ZZ",
         "postalCodeRegexp": "^(STHL1ZZ)$",
         "callingCode": "+290",
@@ -6838,7 +6837,8 @@
         "currencies": [
             "GBP",
             "SHP"
-        ]
+        ],
+        "currency": "SHP"
     },
     "SI": {
         "id": "SI",
@@ -6854,7 +6854,6 @@
             "Europe/Ljubljana"
         ],
         "tld": ".si",
-        "currencyId": "EUR",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(?:SI)*(\\d{4})$",
         "callingCode": "+386",
@@ -6870,7 +6869,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "SJ": {
         "id": "SJ",
@@ -6885,7 +6885,6 @@
         "timezones": [
             "Arctic/Longyearbyen"
         ],
-        "currencyId": "NOK",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(d{4})$",
         "callingCode": "+47",
@@ -6901,7 +6900,8 @@
         "subRegion": "Northern Europe",
         "currencies": [
             "NOK"
-        ]
+        ],
+        "currency": "NOK"
     },
     "SK": {
         "id": "SK",
@@ -6917,7 +6917,6 @@
             "Europe/Bratislava"
         ],
         "tld": ".sk",
-        "currencyId": "EUR",
         "postalCodeFormat": "### ##",
         "postalCodeRegexp": "^\\d{3}\\s?\\d{2}$",
         "callingCode": "+421",
@@ -6933,7 +6932,8 @@
         "subRegion": "Central Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "SL": {
         "id": "SL",
@@ -6949,7 +6949,6 @@
             "Africa/Freetown"
         ],
         "tld": ".sl",
-        "currencyId": "SLL",
         "callingCode": "+232",
         "locales": [
             "en-SL",
@@ -6965,7 +6964,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "SLL"
-        ]
+        ],
+        "currency": "SLL"
     },
     "SM": {
         "id": "SM",
@@ -6981,7 +6981,6 @@
             "Europe/San_Marino"
         ],
         "tld": ".sm",
-        "currencyId": "EUR",
         "postalCodeFormat": "4789#",
         "postalCodeRegexp": "^(4789\\d)$",
         "callingCode": "+378",
@@ -6995,7 +6994,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "SN": {
         "id": "SN",
@@ -7011,7 +7011,6 @@
             "Africa/Dakar"
         ],
         "tld": ".sn",
-        "currencyId": "XOF",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+221",
@@ -7031,7 +7030,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "XOF"
-        ]
+        ],
+        "currency": "XOF"
     },
     "SO": {
         "id": "SO",
@@ -7047,7 +7047,6 @@
             "Africa/Mogadishu"
         ],
         "tld": ".so",
-        "currencyId": "SOS",
         "postalCodeFormat": "@@  #####",
         "postalCodeRegexp": "^([A-Z]{2}\\d{5})$",
         "callingCode": "+252",
@@ -7067,7 +7066,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "SOS"
-        ]
+        ],
+        "currency": "SOS"
     },
     "SR": {
         "id": "SR",
@@ -7083,7 +7083,6 @@
             "America/Paramaribo"
         ],
         "tld": ".sr",
-        "currencyId": "SRD",
         "callingCode": "+597",
         "locales": [
             "nl-SR",
@@ -7103,7 +7102,8 @@
         "subRegion": "South America",
         "currencies": [
             "SRD"
-        ]
+        ],
+        "currency": "SRD"
     },
     "SS": {
         "id": "SS",
@@ -7119,7 +7119,6 @@
             "Africa/Juba"
         ],
         "tld": ".ss",
-        "currencyId": "SSP",
         "callingCode": "+211",
         "locales": [
             "en"
@@ -7131,7 +7130,8 @@
         "subRegion": "Middle Africa",
         "currencies": [
             "SSP"
-        ]
+        ],
+        "currency": "SSP"
     },
     "ST": {
         "id": "ST",
@@ -7147,7 +7147,6 @@
             "Africa/Sao_Tome"
         ],
         "tld": ".st",
-        "currencyId": "STD",
         "callingCode": "+239",
         "locales": [
             "pt-ST"
@@ -7159,7 +7158,8 @@
         "subRegion": "Middle Africa",
         "currencies": [
             "STN"
-        ]
+        ],
+        "currency": "STD"
     },
     "SV": {
         "id": "SV",
@@ -7175,7 +7175,6 @@
             "America/El_Salvador"
         ],
         "tld": ".sv",
-        "currencyId": "USD",
         "postalCodeFormat": "CP ####",
         "postalCodeRegexp": "^(?:CP)*(\\d{4})$",
         "callingCode": "+503",
@@ -7189,7 +7188,8 @@
         "subRegion": "Central America",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "SX": {
         "id": "SX",
@@ -7205,7 +7205,6 @@
             "America/Lower_Princes"
         ],
         "tld": ".sx",
-        "currencyId": "ANG",
         "callingCode": "+599",
         "locales": [
             "nl",
@@ -7219,7 +7218,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "ANG"
-        ]
+        ],
+        "currency": "ANG"
     },
     "SY": {
         "id": "SY",
@@ -7235,7 +7235,6 @@
             "Asia/Damascus"
         ],
         "tld": ".sy",
-        "currencyId": "SYP",
         "callingCode": "+963",
         "locales": [
             "ar-SY",
@@ -7257,7 +7256,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "SYP"
-        ]
+        ],
+        "currency": "SYP"
     },
     "SZ": {
         "id": "SZ",
@@ -7273,7 +7273,6 @@
             "Africa/Mbabane"
         ],
         "tld": ".sz",
-        "currencyId": "SZL",
         "postalCodeFormat": "@###",
         "postalCodeRegexp": "^([A-Z]\\d{3})$",
         "callingCode": "+268",
@@ -7289,7 +7288,8 @@
         "subRegion": "Southern Africa",
         "currencies": [
             "SZL"
-        ]
+        ],
+        "currency": "SZL"
     },
     "TC": {
         "id": "TC",
@@ -7305,7 +7305,6 @@
             "America/Grand_Turk"
         ],
         "tld": ".tc",
-        "currencyId": "USD",
         "postalCodeFormat": "TKCA 1ZZ",
         "postalCodeRegexp": "^(TKCA 1ZZ)$",
         "callingCode": "+1-649",
@@ -7319,7 +7318,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "TD": {
         "id": "TD",
@@ -7335,7 +7335,6 @@
             "Africa/Ndjamena"
         ],
         "tld": ".td",
-        "currencyId": "XAF",
         "callingCode": "+235",
         "locales": [
             "fr-TD",
@@ -7351,7 +7350,8 @@
         "subRegion": "Middle Africa",
         "currencies": [
             "XAF"
-        ]
+        ],
+        "currency": "XAF"
     },
     "TF": {
         "id": "TF",
@@ -7367,7 +7367,6 @@
             "Indian/Kerguelen"
         ],
         "tld": ".tf",
-        "currencyId": "EUR",
         "locales": [
             "fr"
         ],
@@ -7378,7 +7377,8 @@
         "subRegion": "",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "TG": {
         "id": "TG",
@@ -7394,7 +7394,6 @@
             "Africa/Lome"
         ],
         "tld": ".tg",
-        "currencyId": "XOF",
         "callingCode": "+228",
         "locales": [
             "fr-TG",
@@ -7416,7 +7415,8 @@
         "subRegion": "Western Africa",
         "currencies": [
             "XOF"
-        ]
+        ],
+        "currency": "XOF"
     },
     "TH": {
         "id": "TH",
@@ -7432,7 +7432,6 @@
             "Asia/Bangkok"
         ],
         "tld": ".th",
-        "currencyId": "THB",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+66",
@@ -7448,7 +7447,8 @@
         "subRegion": "South-Eastern Asia",
         "currencies": [
             "THB"
-        ]
+        ],
+        "currency": "THB"
     },
     "TJ": {
         "id": "TJ",
@@ -7464,7 +7464,6 @@
             "Asia/Dushanbe"
         ],
         "tld": ".tj",
-        "currencyId": "TJS",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+992",
@@ -7480,7 +7479,8 @@
         "subRegion": "Central Asia",
         "currencies": [
             "TJS"
-        ]
+        ],
+        "currency": "TJS"
     },
     "TK": {
         "id": "TK",
@@ -7496,7 +7496,6 @@
             "Pacific/Fakaofo"
         ],
         "tld": ".tk",
-        "currencyId": "NZD",
         "callingCode": "+690",
         "locales": [
             "tkl",
@@ -7510,7 +7509,8 @@
         "subRegion": "Polynesia",
         "currencies": [
             "NZD"
-        ]
+        ],
+        "currency": "NZD"
     },
     "TL": {
         "id": "TL",
@@ -7526,7 +7526,6 @@
             "Asia/Dili"
         ],
         "tld": ".tl",
-        "currencyId": "USD",
         "callingCode": "+670",
         "locales": [
             "tet",
@@ -7544,7 +7543,8 @@
         "subRegion": "South-Eastern Asia",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "TM": {
         "id": "TM",
@@ -7561,7 +7561,6 @@
             "Asia/Ashgabat"
         ],
         "tld": ".tm",
-        "currencyId": "TMT",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+993",
@@ -7579,7 +7578,8 @@
         "subRegion": "Central Asia",
         "currencies": [
             "TMT"
-        ]
+        ],
+        "currency": "TMT"
     },
     "TN": {
         "id": "TN",
@@ -7595,7 +7595,6 @@
             "Africa/Tunis"
         ],
         "tld": ".tn",
-        "currencyId": "TND",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+216",
@@ -7611,7 +7610,8 @@
         "subRegion": "Northern Africa",
         "currencies": [
             "TND"
-        ]
+        ],
+        "currency": "TND"
     },
     "TO": {
         "id": "TO",
@@ -7627,7 +7627,6 @@
             "Pacific/Tongatapu"
         ],
         "tld": ".to",
-        "currencyId": "TOP",
         "callingCode": "+676",
         "locales": [
             "to",
@@ -7641,7 +7640,8 @@
         "subRegion": "Polynesia",
         "currencies": [
             "TOP"
-        ]
+        ],
+        "currency": "TOP"
     },
     "TR": {
         "id": "TR",
@@ -7659,7 +7659,6 @@
             "Europe/Istanbul"
         ],
         "tld": ".tr",
-        "currencyId": "TRY",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+90",
@@ -7681,7 +7680,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "TRY"
-        ]
+        ],
+        "currency": "TRY"
     },
     "TT": {
         "id": "TT",
@@ -7698,7 +7698,6 @@
             "America/Port_of_Spain"
         ],
         "tld": ".tt",
-        "currencyId": "TTD",
         "callingCode": "+1-868",
         "locales": [
             "en-TT",
@@ -7718,7 +7717,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "TTD"
-        ]
+        ],
+        "currency": "TTD"
     },
     "TV": {
         "id": "TV",
@@ -7734,7 +7734,6 @@
             "Pacific/Funafuti"
         ],
         "tld": ".tv",
-        "currencyId": "AUD",
         "callingCode": "+688",
         "locales": [
             "tvl",
@@ -7753,7 +7752,8 @@
         "currencies": [
             "AUD",
             "TVD"
-        ]
+        ],
+        "currency": "AUD"
     },
     "TW": {
         "id": "TW",
@@ -7770,7 +7770,6 @@
             "Asia/Taipei"
         ],
         "tld": ".tw",
-        "currencyId": "TWD",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+886",
@@ -7789,7 +7788,8 @@
         "subRegion": "Eastern Asia",
         "currencies": [
             "TWD"
-        ]
+        ],
+        "currency": "TWD"
     },
     "TZ": {
         "id": "TZ",
@@ -7805,7 +7805,6 @@
             "Africa/Dar_es_Salaam"
         ],
         "tld": ".tz",
-        "currencyId": "TZS",
         "callingCode": "+255",
         "locales": [
             "sw-TZ",
@@ -7821,7 +7820,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "TZS"
-        ]
+        ],
+        "currency": "TZS"
     },
     "UA": {
         "id": "UA",
@@ -7840,7 +7840,6 @@
             "Europe/Zaporozhye"
         ],
         "tld": ".ua",
-        "currencyId": "UAH",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+380",
@@ -7862,7 +7861,8 @@
         "subRegion": "Eastern Europe",
         "currencies": [
             "UAH"
-        ]
+        ],
+        "currency": "UAH"
     },
     "UG": {
         "id": "UG",
@@ -7878,7 +7878,6 @@
             "Africa/Kampala"
         ],
         "tld": ".ug",
-        "currencyId": "UGX",
         "callingCode": "+256",
         "locales": [
             "en-UG",
@@ -7896,7 +7895,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "UGX"
-        ]
+        ],
+        "currency": "UGX"
     },
     "UM": {
         "id": "UM",
@@ -7912,7 +7912,6 @@
             "Pacific/Midway",
             "Pacific/Wake"
         ],
-        "currencyId": "USD",
         "callingCode": "+1",
         "locales": [
             "en-UM"
@@ -7924,7 +7923,8 @@
         "subRegion": "North America",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "US": {
         "id": "US",
@@ -7988,7 +7988,6 @@
             "Pacific/Honolulu"
         ],
         "tld": ".us",
-        "currencyId": "USD",
         "postalCodeFormat": "#####-####",
         "postalCodeRegexp": "^\\d{5}(-\\d{4})?$",
         "callingCode": "+1",
@@ -8008,7 +8007,8 @@
         "subRegion": "North America",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "UY": {
         "id": "UY",
@@ -8024,7 +8024,6 @@
             "America/Montevideo"
         ],
         "tld": ".uy",
-        "currencyId": "UYU",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+598",
@@ -8038,7 +8037,8 @@
         "subRegion": "South America",
         "currencies": [
             "UYU"
-        ]
+        ],
+        "currency": "UYU"
     },
     "UZ": {
         "id": "UZ",
@@ -8055,7 +8055,6 @@
             "Asia/Tashkent"
         ],
         "tld": ".uz",
-        "currencyId": "UZS",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+998",
@@ -8073,7 +8072,8 @@
         "subRegion": "Central Asia",
         "currencies": [
             "UZS"
-        ]
+        ],
+        "currency": "UZS"
     },
     "VA": {
         "id": "VA",
@@ -8089,7 +8089,6 @@
             "Europe/Vatican"
         ],
         "tld": ".va",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+379",
@@ -8107,7 +8106,8 @@
         "subRegion": "Southern Europe",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "VC": {
         "id": "VC",
@@ -8123,7 +8123,6 @@
             "America/St_Vincent"
         ],
         "tld": ".vc",
-        "currencyId": "XCD",
         "callingCode": "+1-784",
         "locales": [
             "en-VC",
@@ -8137,7 +8136,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "XCD"
-        ]
+        ],
+        "currency": "XCD"
     },
     "VE": {
         "id": "VE",
@@ -8153,7 +8153,6 @@
             "America/Caracas"
         ],
         "tld": ".ve",
-        "currencyId": "VES",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+58",
@@ -8167,7 +8166,8 @@
         "subRegion": "South America",
         "currencies": [
             "VES"
-        ]
+        ],
+        "currency": "VES"
     },
     "VG": {
         "id": "VG",
@@ -8183,7 +8183,6 @@
             "America/Tortola"
         ],
         "tld": ".vg",
-        "currencyId": "USD",
         "callingCode": "+1-284",
         "locales": [
             "en-VG"
@@ -8195,7 +8194,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "VI": {
         "id": "VI",
@@ -8211,7 +8211,6 @@
             "America/St_Thomas"
         ],
         "tld": ".vi",
-        "currencyId": "USD",
         "postalCodeFormat": "#####-####",
         "postalCodeRegexp": "^008\\d{2}(?:-\\d{4})?$",
         "callingCode": "+1-340",
@@ -8225,7 +8224,8 @@
         "subRegion": "Caribbean",
         "currencies": [
             "USD"
-        ]
+        ],
+        "currency": "USD"
     },
     "VN": {
         "id": "VN",
@@ -8242,7 +8242,6 @@
             "Asia/Ho_Chi_Minh"
         ],
         "tld": ".vn",
-        "currencyId": "VND",
         "postalCodeFormat": "######",
         "postalCodeRegexp": "^(\\d{6})$",
         "callingCode": "+84",
@@ -8264,7 +8263,8 @@
         "subRegion": "South-Eastern Asia",
         "currencies": [
             "VND"
-        ]
+        ],
+        "currency": "VND"
     },
     "VU": {
         "id": "VU",
@@ -8280,7 +8280,6 @@
             "Pacific/Efate"
         ],
         "tld": ".vu",
-        "currencyId": "VUV",
         "callingCode": "+678",
         "locales": [
             "bi",
@@ -8296,7 +8295,8 @@
         "subRegion": "Melanesia",
         "currencies": [
             "VUV"
-        ]
+        ],
+        "currency": "VUV"
     },
     "WF": {
         "id": "WF",
@@ -8312,7 +8312,6 @@
             "Pacific/Wallis"
         ],
         "tld": ".wf",
-        "currencyId": "XPF",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(986\\d{2})$",
         "callingCode": "+681",
@@ -8330,7 +8329,8 @@
         "subRegion": "Polynesia",
         "currencies": [
             "XPF"
-        ]
+        ],
+        "currency": "XPF"
     },
     "WS": {
         "id": "WS",
@@ -8346,7 +8346,6 @@
             "Pacific/Apia"
         ],
         "tld": ".ws",
-        "currencyId": "WST",
         "callingCode": "+685",
         "locales": [
             "sm",
@@ -8360,7 +8359,8 @@
         "subRegion": "Polynesia",
         "currencies": [
             "WST"
-        ]
+        ],
+        "currency": "WST"
     },
     "YE": {
         "id": "YE",
@@ -8376,7 +8376,6 @@
             "Asia/Aden"
         ],
         "tld": ".ye",
-        "currencyId": "YER",
         "callingCode": "+967",
         "locales": [
             "ar-YE"
@@ -8388,7 +8387,8 @@
         "subRegion": "Western Asia",
         "currencies": [
             "YER"
-        ]
+        ],
+        "currency": "YER"
     },
     "YT": {
         "id": "YT",
@@ -8404,7 +8404,6 @@
             "Indian/Mayotte"
         ],
         "tld": ".yt",
-        "currencyId": "EUR",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+262",
@@ -8418,7 +8417,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "EUR"
-        ]
+        ],
+        "currency": "EUR"
     },
     "ZA": {
         "id": "ZA",
@@ -8434,7 +8434,6 @@
             "Africa/Johannesburg"
         ],
         "tld": ".za",
-        "currencyId": "ZAR",
         "postalCodeFormat": "####",
         "postalCodeRegexp": "^(\\d{4})$",
         "callingCode": "+27",
@@ -8468,7 +8467,8 @@
         "subRegion": "Southern Africa",
         "currencies": [
             "ZAR"
-        ]
+        ],
+        "currency": "ZAR"
     },
     "ZM": {
         "id": "ZM",
@@ -8484,7 +8484,6 @@
             "Africa/Lusaka"
         ],
         "tld": ".zm",
-        "currencyId": "ZMW",
         "postalCodeFormat": "#####",
         "postalCodeRegexp": "^(\\d{5})$",
         "callingCode": "+260",
@@ -8510,7 +8509,8 @@
         "subRegion": "Eastern Africa",
         "currencies": [
             "ZMW"
-        ]
+        ],
+        "currency": "ZMW"
     },
     "ZW": {
         "id": "ZW",
@@ -8526,7 +8526,6 @@
             "Africa/Harare"
         ],
         "tld": ".zw",
-        "currencyId": "ZWL",
         "callingCode": "+263",
         "locales": [
             "en-ZW",
@@ -8552,6 +8551,7 @@
             "USD",
             "ZAR",
             "ZWB"
-        ]
+        ],
+        "currency": "ZWL"
     }
 }
