@@ -1,6 +1,28 @@
 {
-    "ad": {
-        "id": "ad",
+    "WORLDWIDE": {
+        "id": "WORLDWIDE",
+        "iso2": "",
+        "iso3": "",
+        "ison": "",
+        "name": "Worldwide",
+        "officialName": "Worldwide",
+        "flag": "",
+        "flagUnicode": "",
+        "continent": "",
+        "timezones": [],
+        "tld": "",
+        "currencyId": "",
+        "postalCodeFormat": "",
+        "postalCodeRegexp": "",
+        "callingCode": "",
+        "locales": [],
+        "languages": [],
+        "region": "",
+        "subRegion": "",
+        "currencies": []
+    },
+    "AD": {
+        "id": "AD",
         "iso2": "AD",
         "iso3": "AND",
         "ison": "020",
@@ -29,8 +51,8 @@
             "EUR"
         ]
     },
-    "ae": {
-        "id": "ae",
+    "AE": {
+        "id": "AE",
         "iso2": "AE",
         "iso3": "ARE",
         "ison": "784",
@@ -65,8 +87,8 @@
             "AED"
         ]
     },
-    "af": {
-        "id": "af",
+    "AF": {
+        "id": "AF",
         "iso2": "AF",
         "iso3": "AFG",
         "ison": "004",
@@ -99,8 +121,8 @@
             "AFN"
         ]
     },
-    "ag": {
-        "id": "ag",
+    "AG": {
+        "id": "AG",
         "iso2": "AG",
         "iso3": "ATG",
         "ison": "028",
@@ -127,8 +149,8 @@
             "XCD"
         ]
     },
-    "ai": {
-        "id": "ai",
+    "AI": {
+        "id": "AI",
         "iso2": "AI",
         "iso3": "AIA",
         "ison": "660",
@@ -155,8 +177,8 @@
             "XCD"
         ]
     },
-    "al": {
-        "id": "al",
+    "AL": {
+        "id": "AL",
         "iso2": "AL",
         "iso3": "ALB",
         "ison": "008",
@@ -187,8 +209,8 @@
             "ALL"
         ]
     },
-    "am": {
-        "id": "am",
+    "AM": {
+        "id": "AM",
         "iso2": "AM",
         "iso3": "ARM",
         "ison": "051",
@@ -217,8 +239,8 @@
             "AMD"
         ]
     },
-    "ao": {
-        "id": "ao",
+    "AO": {
+        "id": "AO",
         "iso2": "AO",
         "iso3": "AGO",
         "ison": "024",
@@ -245,8 +267,8 @@
             "AOA"
         ]
     },
-    "aq": {
-        "id": "aq",
+    "AQ": {
+        "id": "AQ",
         "iso2": "AQ",
         "iso3": "ATA",
         "ison": "010",
@@ -273,8 +295,8 @@
         "subRegion": "",
         "currencies": []
     },
-    "ar": {
-        "id": "ar",
+    "AR": {
+        "id": "AR",
         "iso2": "AR",
         "iso3": "ARG",
         "ison": "032",
@@ -331,8 +353,8 @@
             "ARS"
         ]
     },
-    "as": {
-        "id": "as",
+    "AS": {
+        "id": "AS",
         "iso2": "AS",
         "iso3": "ASM",
         "ison": "016",
@@ -367,8 +389,8 @@
             "USD"
         ]
     },
-    "at": {
-        "id": "at",
+    "AT": {
+        "id": "AT",
         "iso2": "AT",
         "iso3": "AUT",
         "ison": "040",
@@ -403,8 +425,8 @@
             "EUR"
         ]
     },
-    "au": {
-        "id": "au",
+    "AU": {
+        "id": "AU",
         "iso2": "AU",
         "iso3": "AUS",
         "ison": "036",
@@ -456,8 +478,8 @@
             "AUD"
         ]
     },
-    "aw": {
-        "id": "aw",
+    "AW": {
+        "id": "AW",
         "iso2": "AW",
         "iso3": "ABW",
         "ison": "533",
@@ -490,8 +512,8 @@
             "AWG"
         ]
     },
-    "ax": {
-        "id": "ax",
+    "AX": {
+        "id": "AX",
         "iso2": "AX",
         "iso3": "ALA",
         "ison": "248",
@@ -520,8 +542,8 @@
             "EUR"
         ]
     },
-    "az": {
-        "id": "az",
+    "AZ": {
+        "id": "AZ",
         "iso2": "AZ",
         "iso3": "AZE",
         "ison": "031",
@@ -554,8 +576,8 @@
             "AZN"
         ]
     },
-    "ba": {
-        "id": "ba",
+    "BA": {
+        "id": "BA",
         "iso2": "BA",
         "iso3": "BIH",
         "ison": "070",
@@ -588,8 +610,8 @@
             "BAM"
         ]
     },
-    "bb": {
-        "id": "bb",
+    "BB": {
+        "id": "BB",
         "iso2": "BB",
         "iso3": "BRB",
         "ison": "052",
@@ -618,8 +640,8 @@
             "BBD"
         ]
     },
-    "bd": {
-        "id": "bd",
+    "BD": {
+        "id": "BD",
         "iso2": "BD",
         "iso3": "BGD",
         "ison": "050",
@@ -651,8 +673,8 @@
             "BDT"
         ]
     },
-    "be": {
-        "id": "be",
+    "BE": {
+        "id": "BE",
         "iso2": "BE",
         "iso3": "BEL",
         "ison": "056",
@@ -685,8 +707,8 @@
             "EUR"
         ]
     },
-    "bf": {
-        "id": "bf",
+    "BF": {
+        "id": "BF",
         "iso2": "BF",
         "iso3": "BFA",
         "ison": "854",
@@ -715,8 +737,8 @@
             "XOF"
         ]
     },
-    "bg": {
-        "id": "bg",
+    "BG": {
+        "id": "BG",
         "iso2": "BG",
         "iso3": "BGR",
         "ison": "100",
@@ -749,8 +771,8 @@
             "BGN"
         ]
     },
-    "bh": {
-        "id": "bh",
+    "BH": {
+        "id": "BH",
         "iso2": "BH",
         "iso3": "BHR",
         "ison": "048",
@@ -785,8 +807,8 @@
             "BHD"
         ]
     },
-    "bi": {
-        "id": "bi",
+    "BI": {
+        "id": "BI",
         "iso2": "BI",
         "iso3": "BDI",
         "ison": "108",
@@ -815,8 +837,8 @@
             "BIF"
         ]
     },
-    "bj": {
-        "id": "bj",
+    "BJ": {
+        "id": "BJ",
         "iso2": "BJ",
         "iso3": "BEN",
         "ison": "204",
@@ -843,8 +865,8 @@
             "XOF"
         ]
     },
-    "bl": {
-        "id": "bl",
+    "BL": {
+        "id": "BL",
         "iso2": "BL",
         "iso3": "BLM",
         "ison": "652",
@@ -873,8 +895,8 @@
             "EUR"
         ]
     },
-    "bm": {
-        "id": "bm",
+    "BM": {
+        "id": "BM",
         "iso2": "BM",
         "iso3": "BMU",
         "ison": "060",
@@ -905,8 +927,8 @@
             "BMD"
         ]
     },
-    "bn": {
-        "id": "bn",
+    "BN": {
+        "id": "BN",
         "iso2": "BN",
         "iso3": "BRN",
         "ison": "096",
@@ -938,8 +960,8 @@
             "SGD"
         ]
     },
-    "bo": {
-        "id": "bo",
+    "BO": {
+        "id": "BO",
         "iso2": "BO",
         "iso3": "BOL",
         "ison": "068",
@@ -970,8 +992,8 @@
             "BOB"
         ]
     },
-    "bq": {
-        "id": "bq",
+    "BQ": {
+        "id": "BQ",
         "iso2": "BQ",
         "iso3": "BES",
         "ison": "535",
@@ -1002,8 +1024,8 @@
             "USD"
         ]
     },
-    "br": {
-        "id": "br",
+    "BR": {
+        "id": "BR",
         "iso2": "BR",
         "iso3": "BRA",
         "ison": "076",
@@ -1058,8 +1080,8 @@
             "BRL"
         ]
     },
-    "bs": {
-        "id": "bs",
+    "BS": {
+        "id": "BS",
         "iso2": "BS",
         "iso3": "BHS",
         "ison": "044",
@@ -1087,8 +1109,8 @@
             "USD"
         ]
     },
-    "bt": {
-        "id": "bt",
+    "BT": {
+        "id": "BT",
         "iso2": "BT",
         "iso3": "BTN",
         "ison": "064",
@@ -1117,8 +1139,8 @@
             "INR"
         ]
     },
-    "bv": {
-        "id": "bv",
+    "BV": {
+        "id": "BV",
         "iso2": "BV",
         "iso3": "BVT",
         "ison": "074",
@@ -1133,8 +1155,8 @@
         "subRegion": "",
         "currencies": []
     },
-    "bw": {
-        "id": "bw",
+    "BW": {
+        "id": "BW",
         "iso2": "BW",
         "iso3": "BWA",
         "ison": "072",
@@ -1163,8 +1185,8 @@
             "BWP"
         ]
     },
-    "by": {
-        "id": "by",
+    "BY": {
+        "id": "BY",
         "iso2": "BY",
         "iso3": "BLR",
         "ison": "112",
@@ -1195,8 +1217,8 @@
             "BYN"
         ]
     },
-    "bz": {
-        "id": "bz",
+    "BZ": {
+        "id": "BZ",
         "iso2": "BZ",
         "iso3": "BLZ",
         "ison": "084",
@@ -1225,8 +1247,8 @@
             "BZD"
         ]
     },
-    "ca": {
-        "id": "ca",
+    "CA": {
+        "id": "CA",
         "iso2": "CA",
         "iso3": "CAN",
         "ison": "124",
@@ -1296,8 +1318,8 @@
             "CAD"
         ]
     },
-    "cc": {
-        "id": "cc",
+    "CC": {
+        "id": "CC",
         "iso2": "CC",
         "iso3": "CCK",
         "ison": "166",
@@ -1326,8 +1348,8 @@
             "AUD"
         ]
     },
-    "cd": {
-        "id": "cd",
+    "CD": {
+        "id": "CD",
         "iso2": "CD",
         "iso3": "COD",
         "ison": "180",
@@ -1365,8 +1387,8 @@
             "CDF"
         ]
     },
-    "cf": {
-        "id": "cf",
+    "CF": {
+        "id": "CF",
         "iso2": "CF",
         "iso3": "CAF",
         "ison": "140",
@@ -1399,8 +1421,8 @@
             "XAF"
         ]
     },
-    "cg": {
-        "id": "cg",
+    "CG": {
+        "id": "CG",
         "iso2": "CG",
         "iso3": "COG",
         "ison": "178",
@@ -1431,8 +1453,8 @@
             "XAF"
         ]
     },
-    "ch": {
-        "id": "ch",
+    "CH": {
+        "id": "CH",
         "iso2": "CH",
         "iso3": "CHE",
         "ison": "756",
@@ -1467,8 +1489,8 @@
             "CHF"
         ]
     },
-    "ci": {
-        "id": "ci",
+    "CI": {
+        "id": "CI",
         "iso2": "CI",
         "iso3": "CIV",
         "ison": "384",
@@ -1496,8 +1518,8 @@
             "XOF"
         ]
     },
-    "ck": {
-        "id": "ck",
+    "CK": {
+        "id": "CK",
         "iso2": "CK",
         "iso3": "COK",
         "ison": "184",
@@ -1527,8 +1549,8 @@
             "NZD"
         ]
     },
-    "cl": {
-        "id": "cl",
+    "CL": {
+        "id": "CL",
         "iso2": "CL",
         "iso3": "CHL",
         "ison": "152",
@@ -1561,8 +1583,8 @@
             "CLP"
         ]
     },
-    "cm": {
-        "id": "cm",
+    "CM": {
+        "id": "CM",
         "iso2": "CM",
         "iso3": "CMR",
         "ison": "120",
@@ -1591,8 +1613,8 @@
             "XAF"
         ]
     },
-    "cn": {
-        "id": "cn",
+    "CN": {
+        "id": "CN",
         "iso2": "CN",
         "iso3": "CHN",
         "ison": "156",
@@ -1637,8 +1659,8 @@
             "CNY"
         ]
     },
-    "co": {
-        "id": "co",
+    "CO": {
+        "id": "CO",
         "iso2": "CO",
         "iso3": "COL",
         "ison": "170",
@@ -1667,8 +1689,8 @@
             "COP"
         ]
     },
-    "cr": {
-        "id": "cr",
+    "CR": {
+        "id": "CR",
         "iso2": "CR",
         "iso3": "CRI",
         "ison": "188",
@@ -1699,8 +1721,8 @@
             "CRC"
         ]
     },
-    "cu": {
-        "id": "cu",
+    "CU": {
+        "id": "CU",
         "iso2": "CU",
         "iso3": "CUB",
         "ison": "192",
@@ -1733,8 +1755,8 @@
             "CUP"
         ]
     },
-    "cv": {
-        "id": "cv",
+    "CV": {
+        "id": "CV",
         "iso2": "CV",
         "iso3": "CPV",
         "ison": "132",
@@ -1763,8 +1785,8 @@
             "CVE"
         ]
     },
-    "cw": {
-        "id": "cw",
+    "CW": {
+        "id": "CW",
         "iso2": "CW",
         "iso3": "CUW",
         "ison": "531",
@@ -1793,8 +1815,8 @@
             "ANG"
         ]
     },
-    "cx": {
-        "id": "cx",
+    "CX": {
+        "id": "CX",
         "iso2": "CX",
         "iso3": "CXR",
         "ison": "162",
@@ -1828,8 +1850,8 @@
             "AUD"
         ]
     },
-    "cy": {
-        "id": "cy",
+    "CY": {
+        "id": "CY",
         "iso2": "CY",
         "iso3": "CYP",
         "ison": "196",
@@ -1864,8 +1886,8 @@
             "EUR"
         ]
     },
-    "cz": {
-        "id": "cz",
+    "CZ": {
+        "id": "CZ",
         "iso2": "CZ",
         "iso3": "CZE",
         "ison": "203",
@@ -1896,8 +1918,8 @@
             "CZK"
         ]
     },
-    "de": {
-        "id": "de",
+    "DE": {
+        "id": "DE",
         "iso2": "DE",
         "iso3": "DEU",
         "ison": "276",
@@ -1927,8 +1949,8 @@
             "EUR"
         ]
     },
-    "dj": {
-        "id": "dj",
+    "DJ": {
+        "id": "DJ",
         "iso2": "DJ",
         "iso3": "DJI",
         "ison": "262",
@@ -1961,8 +1983,8 @@
             "DJF"
         ]
     },
-    "dk": {
-        "id": "dk",
+    "DK": {
+        "id": "DK",
         "iso2": "DK",
         "iso3": "DNK",
         "ison": "208",
@@ -1997,8 +2019,8 @@
             "DKK"
         ]
     },
-    "dm": {
-        "id": "dm",
+    "DM": {
+        "id": "DM",
         "iso2": "DM",
         "iso3": "DMA",
         "ison": "212",
@@ -2025,8 +2047,8 @@
             "XCD"
         ]
     },
-    "do": {
-        "id": "do",
+    "DO": {
+        "id": "DO",
         "iso2": "DO",
         "iso3": "DOM",
         "ison": "214",
@@ -2055,8 +2077,8 @@
             "DOP"
         ]
     },
-    "dz": {
-        "id": "dz",
+    "DZ": {
+        "id": "DZ",
         "iso2": "DZ",
         "iso3": "DZA",
         "ison": "012",
@@ -2085,8 +2107,8 @@
             "DZD"
         ]
     },
-    "ec": {
-        "id": "ec",
+    "EC": {
+        "id": "EC",
         "iso2": "EC",
         "iso3": "ECU",
         "ison": "218",
@@ -2116,8 +2138,8 @@
             "USD"
         ]
     },
-    "ee": {
-        "id": "ee",
+    "EE": {
+        "id": "EE",
         "iso2": "EE",
         "iso3": "EST",
         "ison": "233",
@@ -2148,8 +2170,8 @@
             "EUR"
         ]
     },
-    "eg": {
-        "id": "eg",
+    "EG": {
+        "id": "EG",
         "iso2": "EG",
         "iso3": "EGY",
         "ison": "818",
@@ -2183,8 +2205,8 @@
             "EGP"
         ]
     },
-    "eh": {
-        "id": "eh",
+    "EH": {
+        "id": "EH",
         "iso2": "EH",
         "iso3": "ESH",
         "ison": "732",
@@ -2212,8 +2234,8 @@
             "MRU"
         ]
     },
-    "er": {
-        "id": "er",
+    "ER": {
+        "id": "ER",
         "iso2": "ER",
         "iso3": "ERI",
         "ison": "232",
@@ -2248,8 +2270,8 @@
             "ERN"
         ]
     },
-    "es": {
-        "id": "es",
+    "ES": {
+        "id": "ES",
         "iso2": "ES",
         "iso3": "ESP",
         "ison": "724",
@@ -2288,8 +2310,8 @@
             "EUR"
         ]
     },
-    "et": {
-        "id": "et",
+    "ET": {
+        "id": "ET",
         "iso2": "ET",
         "iso3": "ETH",
         "ison": "231",
@@ -2328,8 +2350,8 @@
             "ETB"
         ]
     },
-    "fi": {
-        "id": "fi",
+    "FI": {
+        "id": "FI",
         "iso2": "FI",
         "iso3": "FIN",
         "ison": "246",
@@ -2362,8 +2384,8 @@
             "EUR"
         ]
     },
-    "fj": {
-        "id": "fj",
+    "FJ": {
+        "id": "FJ",
         "iso2": "FJ",
         "iso3": "FJI",
         "ison": "242",
@@ -2392,8 +2414,8 @@
             "FJD"
         ]
     },
-    "fk": {
-        "id": "fk",
+    "FK": {
+        "id": "FK",
         "iso2": "FK",
         "iso3": "FLK",
         "ison": "238",
@@ -2420,8 +2442,8 @@
             "FKP"
         ]
     },
-    "fm": {
-        "id": "fm",
+    "FM": {
+        "id": "FM",
         "iso2": "FM",
         "iso3": "FSM",
         "ison": "583",
@@ -2469,8 +2491,8 @@
         "subRegion": "Micronesia",
         "currencies": []
     },
-    "fo": {
-        "id": "fo",
+    "FO": {
+        "id": "FO",
         "iso2": "FO",
         "iso3": "FRO",
         "ison": "234",
@@ -2503,8 +2525,8 @@
             "FOK"
         ]
     },
-    "fr": {
-        "id": "fr",
+    "FR": {
+        "id": "FR",
         "iso2": "FR",
         "iso3": "FRA",
         "ison": "250",
@@ -2545,8 +2567,8 @@
             "EUR"
         ]
     },
-    "ga": {
-        "id": "ga",
+    "GA": {
+        "id": "GA",
         "iso2": "GA",
         "iso3": "GAB",
         "ison": "266",
@@ -2573,8 +2595,8 @@
             "XAF"
         ]
     },
-    "gb": {
-        "id": "gb",
+    "GB": {
+        "id": "GB",
         "iso2": "GB",
         "iso3": "GBR",
         "ison": "826",
@@ -2610,8 +2632,8 @@
             "GBP"
         ]
     },
-    "gd": {
-        "id": "gd",
+    "GD": {
+        "id": "GD",
         "iso2": "GD",
         "iso3": "GRD",
         "ison": "308",
@@ -2638,8 +2660,8 @@
             "XCD"
         ]
     },
-    "ge": {
-        "id": "ge",
+    "GE": {
+        "id": "GE",
         "iso2": "GE",
         "iso3": "GEO",
         "ison": "268",
@@ -2674,8 +2696,8 @@
             "GEL"
         ]
     },
-    "gf": {
-        "id": "gf",
+    "GF": {
+        "id": "GF",
         "iso2": "GF",
         "iso3": "GUF",
         "ison": "254",
@@ -2704,8 +2726,8 @@
             "EUR"
         ]
     },
-    "gg": {
-        "id": "gg",
+    "GG": {
+        "id": "GG",
         "iso2": "GG",
         "iso3": "GGY",
         "ison": "831",
@@ -2737,8 +2759,8 @@
             "GGP"
         ]
     },
-    "gh": {
-        "id": "gh",
+    "GH": {
+        "id": "GH",
         "iso2": "GH",
         "iso3": "GHA",
         "ison": "288",
@@ -2771,8 +2793,8 @@
             "GHS"
         ]
     },
-    "gi": {
-        "id": "gi",
+    "GI": {
+        "id": "GI",
         "iso2": "GI",
         "iso3": "GIB",
         "ison": "292",
@@ -2805,8 +2827,8 @@
             "GIP"
         ]
     },
-    "gl": {
-        "id": "gl",
+    "GL": {
+        "id": "GL",
         "iso2": "GL",
         "iso3": "GRL",
         "ison": "304",
@@ -2843,8 +2865,8 @@
             "DKK"
         ]
     },
-    "gm": {
-        "id": "gm",
+    "GM": {
+        "id": "GM",
         "iso2": "GM",
         "iso3": "GMB",
         "ison": "270",
@@ -2879,8 +2901,8 @@
             "GMD"
         ]
     },
-    "gn": {
-        "id": "gn",
+    "GN": {
+        "id": "GN",
         "iso2": "GN",
         "iso3": "GIN",
         "ison": "324",
@@ -2907,8 +2929,8 @@
             "GNF"
         ]
     },
-    "gp": {
-        "id": "gp",
+    "GP": {
+        "id": "GP",
         "iso2": "GP",
         "iso3": "GLP",
         "ison": "312",
@@ -2937,8 +2959,8 @@
             "EUR"
         ]
     },
-    "gq": {
-        "id": "gq",
+    "GQ": {
+        "id": "GQ",
         "iso2": "GQ",
         "iso3": "GNQ",
         "ison": "226",
@@ -2967,8 +2989,8 @@
             "XAF"
         ]
     },
-    "gr": {
-        "id": "gr",
+    "GR": {
+        "id": "GR",
         "iso2": "GR",
         "iso3": "GRC",
         "ison": "300",
@@ -3001,8 +3023,8 @@
             "EUR"
         ]
     },
-    "gs": {
-        "id": "gs",
+    "GS": {
+        "id": "GS",
         "iso2": "GS",
         "iso3": "SGS",
         "ison": "239",
@@ -3029,8 +3051,8 @@
             "SHP"
         ]
     },
-    "gt": {
-        "id": "gt",
+    "GT": {
+        "id": "GT",
         "iso2": "GT",
         "iso3": "GTM",
         "ison": "320",
@@ -3059,8 +3081,8 @@
             "GTQ"
         ]
     },
-    "gu": {
-        "id": "gu",
+    "GU": {
+        "id": "GU",
         "iso2": "GU",
         "iso3": "GUM",
         "ison": "316",
@@ -3091,8 +3113,8 @@
             "USD"
         ]
     },
-    "gw": {
-        "id": "gw",
+    "GW": {
+        "id": "GW",
         "iso2": "GW",
         "iso3": "GNB",
         "ison": "624",
@@ -3123,8 +3145,8 @@
             "XOF"
         ]
     },
-    "gy": {
-        "id": "gy",
+    "GY": {
+        "id": "GY",
         "iso2": "GY",
         "iso3": "GUY",
         "ison": "328",
@@ -3151,8 +3173,8 @@
             "GYD"
         ]
     },
-    "hk": {
-        "id": "hk",
+    "HK": {
+        "id": "HK",
         "iso2": "HK",
         "iso3": "HKG",
         "ison": "344",
@@ -3185,8 +3207,8 @@
             "HKD"
         ]
     },
-    "hm": {
-        "id": "hm",
+    "HM": {
+        "id": "HM",
         "iso2": "HM",
         "iso3": "HMD",
         "ison": "334",
@@ -3203,8 +3225,8 @@
         "subRegion": "",
         "currencies": []
     },
-    "hn": {
-        "id": "hn",
+    "HN": {
+        "id": "HN",
         "iso2": "HN",
         "iso3": "HND",
         "ison": "340",
@@ -3237,8 +3259,8 @@
             "HNL"
         ]
     },
-    "hr": {
-        "id": "hr",
+    "HR": {
+        "id": "HR",
         "iso2": "HR",
         "iso3": "HRV",
         "ison": "191",
@@ -3269,8 +3291,8 @@
             "HRK"
         ]
     },
-    "ht": {
-        "id": "ht",
+    "HT": {
+        "id": "HT",
         "iso2": "HT",
         "iso3": "HTI",
         "ison": "332",
@@ -3301,8 +3323,8 @@
             "HTG"
         ]
     },
-    "hu": {
-        "id": "hu",
+    "HU": {
+        "id": "HU",
         "iso2": "HU",
         "iso3": "HUN",
         "ison": "348",
@@ -3331,8 +3353,8 @@
             "HUF"
         ]
     },
-    "id": {
-        "id": "id",
+    "ID": {
+        "id": "ID",
         "iso2": "ID",
         "iso3": "IDN",
         "ison": "360",
@@ -3371,8 +3393,8 @@
             "IDR"
         ]
     },
-    "ie": {
-        "id": "ie",
+    "IE": {
+        "id": "IE",
         "iso2": "IE",
         "iso3": "IRL",
         "ison": "372",
@@ -3404,8 +3426,8 @@
             "EUR"
         ]
     },
-    "il": {
-        "id": "il",
+    "IL": {
+        "id": "IL",
         "iso2": "IL",
         "iso3": "ISR",
         "ison": "376",
@@ -3440,8 +3462,8 @@
             "ILS"
         ]
     },
-    "im": {
-        "id": "im",
+    "IM": {
+        "id": "IM",
         "iso2": "IM",
         "iso3": "IMN",
         "ison": "833",
@@ -3473,8 +3495,8 @@
             "IMP"
         ]
     },
-    "in": {
-        "id": "in",
+    "IN": {
+        "id": "IN",
         "iso2": "IN",
         "iso3": "IND",
         "ison": "356",
@@ -3554,8 +3576,8 @@
             "INR"
         ]
     },
-    "io": {
-        "id": "io",
+    "IO": {
+        "id": "IO",
         "iso2": "IO",
         "iso3": "IOT",
         "ison": "086",
@@ -3582,8 +3604,8 @@
             "USD"
         ]
     },
-    "iq": {
-        "id": "iq",
+    "IQ": {
+        "id": "IQ",
         "iso2": "IQ",
         "iso3": "IRQ",
         "ison": "368",
@@ -3616,8 +3638,8 @@
             "IQD"
         ]
     },
-    "ir": {
-        "id": "ir",
+    "IR": {
+        "id": "IR",
         "iso2": "IR",
         "iso3": "IRN",
         "ison": "364",
@@ -3649,8 +3671,8 @@
             "IRR"
         ]
     },
-    "is": {
-        "id": "is",
+    "IS": {
+        "id": "IS",
         "iso2": "IS",
         "iso3": "ISL",
         "ison": "352",
@@ -3690,8 +3712,8 @@
             "ISK"
         ]
     },
-    "it": {
-        "id": "it",
+    "IT": {
+        "id": "IT",
         "iso2": "IT",
         "iso3": "ITA",
         "ison": "380",
@@ -3732,8 +3754,8 @@
             "EUR"
         ]
     },
-    "je": {
-        "id": "je",
+    "JE": {
+        "id": "JE",
         "iso2": "JE",
         "iso3": "JEY",
         "ison": "832",
@@ -3767,8 +3789,8 @@
             "JEP"
         ]
     },
-    "jm": {
-        "id": "jm",
+    "JM": {
+        "id": "JM",
         "iso2": "JM",
         "iso3": "JAM",
         "ison": "388",
@@ -3796,8 +3818,8 @@
             "JMD"
         ]
     },
-    "jo": {
-        "id": "jo",
+    "JO": {
+        "id": "JO",
         "iso2": "JO",
         "iso3": "JOR",
         "ison": "400",
@@ -3828,8 +3850,8 @@
             "JOD"
         ]
     },
-    "jp": {
-        "id": "jp",
+    "JP": {
+        "id": "JP",
         "iso2": "JP",
         "iso3": "JPN",
         "ison": "392",
@@ -3859,8 +3881,8 @@
             "JPY"
         ]
     },
-    "ke": {
-        "id": "ke",
+    "KE": {
+        "id": "KE",
         "iso2": "KE",
         "iso3": "KEN",
         "ison": "404",
@@ -3892,8 +3914,8 @@
             "KES"
         ]
     },
-    "kg": {
-        "id": "kg",
+    "KG": {
+        "id": "KG",
         "iso2": "KG",
         "iso3": "KGZ",
         "ison": "417",
@@ -3926,8 +3948,8 @@
             "KGS"
         ]
     },
-    "kh": {
-        "id": "kh",
+    "KH": {
+        "id": "KH",
         "iso2": "KH",
         "iso3": "KHM",
         "ison": "116",
@@ -3961,8 +3983,8 @@
             "USD"
         ]
     },
-    "ki": {
-        "id": "ki",
+    "KI": {
+        "id": "KI",
         "iso2": "KI",
         "iso3": "KIR",
         "ison": "296",
@@ -3995,8 +4017,8 @@
             "KID"
         ]
     },
-    "km": {
-        "id": "km",
+    "KM": {
+        "id": "KM",
         "iso2": "KM",
         "iso3": "COM",
         "ison": "174",
@@ -4025,8 +4047,8 @@
             "KMF"
         ]
     },
-    "kn": {
-        "id": "kn",
+    "KN": {
+        "id": "KN",
         "iso2": "KN",
         "iso3": "KNA",
         "ison": "659",
@@ -4053,8 +4075,8 @@
             "XCD"
         ]
     },
-    "kp": {
-        "id": "kp",
+    "KP": {
+        "id": "KP",
         "iso2": "KP",
         "iso3": "PRK",
         "ison": "408",
@@ -4083,8 +4105,8 @@
             "KPW"
         ]
     },
-    "kr": {
-        "id": "kr",
+    "KR": {
+        "id": "KR",
         "iso2": "KR",
         "iso3": "KOR",
         "ison": "410",
@@ -4116,8 +4138,8 @@
             "KRW"
         ]
     },
-    "kw": {
-        "id": "kw",
+    "KW": {
+        "id": "KW",
         "iso2": "KW",
         "iso3": "KWT",
         "ison": "414",
@@ -4148,8 +4170,8 @@
             "KWD"
         ]
     },
-    "ky": {
-        "id": "ky",
+    "KY": {
+        "id": "KY",
         "iso2": "KY",
         "iso3": "CYM",
         "ison": "136",
@@ -4176,8 +4198,8 @@
             "KYD"
         ]
     },
-    "kz": {
-        "id": "kz",
+    "KZ": {
+        "id": "KZ",
         "iso2": "KZ",
         "iso3": "KAZ",
         "ison": "398",
@@ -4214,8 +4236,8 @@
             "KZT"
         ]
     },
-    "la": {
-        "id": "la",
+    "LA": {
+        "id": "LA",
         "iso2": "LA",
         "iso3": "LAO",
         "ison": "418",
@@ -4248,8 +4270,8 @@
             "LAK"
         ]
     },
-    "lb": {
-        "id": "lb",
+    "LB": {
+        "id": "LB",
         "iso2": "LB",
         "iso3": "LBN",
         "ison": "422",
@@ -4284,8 +4306,8 @@
             "LBP"
         ]
     },
-    "lc": {
-        "id": "lc",
+    "LC": {
+        "id": "LC",
         "iso2": "LC",
         "iso3": "LCA",
         "ison": "662",
@@ -4312,8 +4334,8 @@
             "XCD"
         ]
     },
-    "li": {
-        "id": "li",
+    "LI": {
+        "id": "LI",
         "iso2": "LI",
         "iso3": "LIE",
         "ison": "438",
@@ -4342,8 +4364,8 @@
             "CHF"
         ]
     },
-    "lk": {
-        "id": "lk",
+    "LK": {
+        "id": "LK",
         "iso2": "LK",
         "iso3": "LKA",
         "ison": "144",
@@ -4376,8 +4398,8 @@
             "LKR"
         ]
     },
-    "lr": {
-        "id": "lr",
+    "LR": {
+        "id": "LR",
         "iso2": "LR",
         "iso3": "LBR",
         "ison": "430",
@@ -4406,8 +4428,8 @@
             "LRD"
         ]
     },
-    "ls": {
-        "id": "ls",
+    "LS": {
+        "id": "LS",
         "iso2": "LS",
         "iso3": "LSO",
         "ison": "426",
@@ -4443,8 +4465,8 @@
             "ZAR"
         ]
     },
-    "lt": {
-        "id": "lt",
+    "LT": {
+        "id": "LT",
         "iso2": "LT",
         "iso3": "LTU",
         "ison": "440",
@@ -4477,8 +4499,8 @@
             "EUR"
         ]
     },
-    "lu": {
-        "id": "lu",
+    "LU": {
+        "id": "LU",
         "iso2": "LU",
         "iso3": "LUX",
         "ison": "442",
@@ -4511,8 +4533,8 @@
             "EUR"
         ]
     },
-    "lv": {
-        "id": "lv",
+    "LV": {
+        "id": "LV",
         "iso2": "LV",
         "iso3": "LVA",
         "ison": "428",
@@ -4545,8 +4567,8 @@
             "EUR"
         ]
     },
-    "ly": {
-        "id": "ly",
+    "LY": {
+        "id": "LY",
         "iso2": "LY",
         "iso3": "LBY",
         "ison": "434",
@@ -4578,8 +4600,8 @@
             "LYD"
         ]
     },
-    "ma": {
-        "id": "ma",
+    "MA": {
+        "id": "MA",
         "iso2": "MA",
         "iso3": "MAR",
         "ison": "504",
@@ -4612,8 +4634,8 @@
             "MAD"
         ]
     },
-    "mc": {
-        "id": "mc",
+    "MC": {
+        "id": "MC",
         "iso2": "MC",
         "iso3": "MCO",
         "ison": "492",
@@ -4646,8 +4668,8 @@
             "EUR"
         ]
     },
-    "md": {
-        "id": "md",
+    "MD": {
+        "id": "MD",
         "iso2": "MD",
         "iso3": "MDA",
         "ison": "498",
@@ -4683,8 +4705,8 @@
             "MDL"
         ]
     },
-    "me": {
-        "id": "me",
+    "ME": {
+        "id": "ME",
         "iso2": "ME",
         "iso3": "MNE",
         "ison": "499",
@@ -4723,8 +4745,8 @@
             "EUR"
         ]
     },
-    "mf": {
-        "id": "mf",
+    "MF": {
+        "id": "MF",
         "iso2": "MF",
         "iso3": "MAF",
         "ison": "663",
@@ -4753,8 +4775,8 @@
             "EUR"
         ]
     },
-    "mg": {
-        "id": "mg",
+    "MG": {
+        "id": "MG",
         "iso2": "MG",
         "iso3": "MDG",
         "ison": "450",
@@ -4785,8 +4807,8 @@
             "MGA"
         ]
     },
-    "mh": {
-        "id": "mh",
+    "MH": {
+        "id": "MH",
         "iso2": "MH",
         "iso3": "MHL",
         "ison": "584",
@@ -4819,8 +4841,8 @@
             "USD"
         ]
     },
-    "mk": {
-        "id": "mk",
+    "MK": {
+        "id": "MK",
         "iso2": "MK",
         "iso3": "MKD",
         "ison": "807",
@@ -4857,8 +4879,8 @@
             "MKD"
         ]
     },
-    "ml": {
-        "id": "ml",
+    "ML": {
+        "id": "ML",
         "iso2": "ML",
         "iso3": "MLI",
         "ison": "466",
@@ -4887,8 +4909,8 @@
             "XOF"
         ]
     },
-    "mm": {
-        "id": "mm",
+    "MM": {
+        "id": "MM",
         "iso2": "MM",
         "iso3": "MMR",
         "ison": "104",
@@ -4918,8 +4940,8 @@
             "MMK"
         ]
     },
-    "mn": {
-        "id": "mn",
+    "MN": {
+        "id": "MN",
         "iso2": "MN",
         "iso3": "MNG",
         "ison": "496",
@@ -4953,8 +4975,8 @@
             "MNT"
         ]
     },
-    "mo": {
-        "id": "mo",
+    "MO": {
+        "id": "MO",
         "iso2": "MO",
         "iso3": "MAC",
         "ison": "446",
@@ -4985,8 +5007,8 @@
             "MOP"
         ]
     },
-    "mp": {
-        "id": "mp",
+    "MP": {
+        "id": "MP",
         "iso2": "MP",
         "iso3": "MNP",
         "ison": "580",
@@ -5023,8 +5045,8 @@
             "USD"
         ]
     },
-    "mq": {
-        "id": "mq",
+    "MQ": {
+        "id": "MQ",
         "iso2": "MQ",
         "iso3": "MTQ",
         "ison": "474",
@@ -5053,8 +5075,8 @@
             "EUR"
         ]
     },
-    "mr": {
-        "id": "mr",
+    "MR": {
+        "id": "MR",
         "iso2": "MR",
         "iso3": "MRT",
         "ison": "478",
@@ -5091,8 +5113,8 @@
             "MRU"
         ]
     },
-    "ms": {
-        "id": "ms",
+    "MS": {
+        "id": "MS",
         "iso2": "MS",
         "iso3": "MSR",
         "ison": "500",
@@ -5119,8 +5141,8 @@
             "XCD"
         ]
     },
-    "mt": {
-        "id": "mt",
+    "MT": {
+        "id": "MT",
         "iso2": "MT",
         "iso3": "MLT",
         "ison": "470",
@@ -5151,8 +5173,8 @@
             "EUR"
         ]
     },
-    "mu": {
-        "id": "mu",
+    "MU": {
+        "id": "MU",
         "iso2": "MU",
         "iso3": "MUS",
         "ison": "480",
@@ -5183,8 +5205,8 @@
             "MUR"
         ]
     },
-    "mv": {
-        "id": "mv",
+    "MV": {
+        "id": "MV",
         "iso2": "MV",
         "iso3": "MDV",
         "ison": "462",
@@ -5215,8 +5237,8 @@
             "MVR"
         ]
     },
-    "mw": {
-        "id": "mw",
+    "MW": {
+        "id": "MW",
         "iso2": "MW",
         "iso3": "MWI",
         "ison": "454",
@@ -5249,8 +5271,8 @@
             "MWK"
         ]
     },
-    "mx": {
-        "id": "mx",
+    "MX": {
+        "id": "MX",
         "iso2": "MX",
         "iso3": "MEX",
         "ison": "484",
@@ -5294,8 +5316,8 @@
             "MXN"
         ]
     },
-    "my": {
-        "id": "my",
+    "MY": {
+        "id": "MY",
         "iso2": "MY",
         "iso3": "MYS",
         "ison": "458",
@@ -5340,8 +5362,8 @@
             "MYR"
         ]
     },
-    "mz": {
-        "id": "mz",
+    "MZ": {
+        "id": "MZ",
         "iso2": "MZ",
         "iso3": "MOZ",
         "ison": "508",
@@ -5372,8 +5394,8 @@
             "MZN"
         ]
     },
-    "na": {
-        "id": "na",
+    "NA": {
+        "id": "NA",
         "iso2": "NA",
         "iso3": "NAM",
         "ison": "516",
@@ -5409,8 +5431,8 @@
             "ZAR"
         ]
     },
-    "nc": {
-        "id": "nc",
+    "NC": {
+        "id": "NC",
         "iso2": "NC",
         "iso3": "NCL",
         "ison": "540",
@@ -5439,8 +5461,8 @@
             "XPF"
         ]
     },
-    "ne": {
-        "id": "ne",
+    "NE": {
+        "id": "NE",
         "iso2": "NE",
         "iso3": "NER",
         "ison": "562",
@@ -5475,8 +5497,8 @@
             "XOF"
         ]
     },
-    "nf": {
-        "id": "nf",
+    "NF": {
+        "id": "NF",
         "iso2": "NF",
         "iso3": "NFK",
         "ison": "574",
@@ -5505,8 +5527,8 @@
             "AUD"
         ]
     },
-    "ng": {
-        "id": "ng",
+    "NG": {
+        "id": "NG",
         "iso2": "NG",
         "iso3": "NGA",
         "ison": "566",
@@ -5543,8 +5565,8 @@
             "NGN"
         ]
     },
-    "ni": {
-        "id": "ni",
+    "NI": {
+        "id": "NI",
         "iso2": "NI",
         "iso3": "NIC",
         "ison": "558",
@@ -5575,8 +5597,8 @@
             "NIO"
         ]
     },
-    "nl": {
-        "id": "nl",
+    "NL": {
+        "id": "NL",
         "iso2": "NL",
         "iso3": "NLD",
         "ison": "528",
@@ -5607,8 +5629,8 @@
             "EUR"
         ]
     },
-    "no": {
-        "id": "no",
+    "NO": {
+        "id": "NO",
         "iso2": "NO",
         "iso3": "NOR",
         "ison": "578",
@@ -5646,8 +5668,8 @@
             "NOK"
         ]
     },
-    "np": {
-        "id": "np",
+    "NP": {
+        "id": "NP",
         "iso2": "NP",
         "iso3": "NPL",
         "ison": "524",
@@ -5679,8 +5701,8 @@
             "NPR"
         ]
     },
-    "nr": {
-        "id": "nr",
+    "NR": {
+        "id": "NR",
         "iso2": "NR",
         "iso3": "NRU",
         "ison": "520",
@@ -5709,8 +5731,8 @@
             "AUD"
         ]
     },
-    "nu": {
-        "id": "nu",
+    "NU": {
+        "id": "NU",
         "iso2": "NU",
         "iso3": "NIU",
         "ison": "570",
@@ -5739,8 +5761,8 @@
             "NZD"
         ]
     },
-    "nz": {
-        "id": "nz",
+    "NZ": {
+        "id": "NZ",
         "iso2": "NZ",
         "iso3": "NZL",
         "ison": "554",
@@ -5775,8 +5797,8 @@
             "NZD"
         ]
     },
-    "om": {
-        "id": "om",
+    "OM": {
+        "id": "OM",
         "iso2": "OM",
         "iso3": "OMN",
         "ison": "512",
@@ -5811,8 +5833,8 @@
             "OMR"
         ]
     },
-    "pa": {
-        "id": "pa",
+    "PA": {
+        "id": "PA",
         "iso2": "PA",
         "iso3": "PAN",
         "ison": "591",
@@ -5842,8 +5864,8 @@
             "USD"
         ]
     },
-    "pe": {
-        "id": "pe",
+    "PE": {
+        "id": "PE",
         "iso2": "PE",
         "iso3": "PER",
         "ison": "604",
@@ -5874,8 +5896,8 @@
             "PEN"
         ]
     },
-    "pf": {
-        "id": "pf",
+    "PF": {
+        "id": "PF",
         "iso2": "PF",
         "iso3": "PYF",
         "ison": "258",
@@ -5908,8 +5930,8 @@
             "XPF"
         ]
     },
-    "pg": {
-        "id": "pg",
+    "PG": {
+        "id": "PG",
         "iso2": "PG",
         "iso3": "PNG",
         "ison": "598",
@@ -5946,8 +5968,8 @@
             "PGK"
         ]
     },
-    "ph": {
-        "id": "ph",
+    "PH": {
+        "id": "PH",
         "iso2": "PH",
         "iso3": "PHL",
         "ison": "608",
@@ -6022,8 +6044,8 @@
             "PHP"
         ]
     },
-    "pk": {
-        "id": "pk",
+    "PK": {
+        "id": "PK",
         "iso2": "PK",
         "iso3": "PAK",
         "ison": "586",
@@ -6062,8 +6084,8 @@
             "PKR"
         ]
     },
-    "pl": {
-        "id": "pl",
+    "PL": {
+        "id": "PL",
         "iso2": "PL",
         "iso3": "POL",
         "ison": "616",
@@ -6093,8 +6115,8 @@
             "PLN"
         ]
     },
-    "pm": {
-        "id": "pm",
+    "PM": {
+        "id": "PM",
         "iso2": "PM",
         "iso3": "SPM",
         "ison": "666",
@@ -6123,8 +6145,8 @@
             "EUR"
         ]
     },
-    "pn": {
-        "id": "pn",
+    "PN": {
+        "id": "PN",
         "iso2": "PN",
         "iso3": "PCN",
         "ison": "612",
@@ -6151,8 +6173,8 @@
             "NZD"
         ]
     },
-    "pr": {
-        "id": "pr",
+    "PR": {
+        "id": "PR",
         "iso2": "PR",
         "iso3": "PRI",
         "ison": "630",
@@ -6183,8 +6205,8 @@
             "USD"
         ]
     },
-    "ps": {
-        "id": "ps",
+    "PS": {
+        "id": "PS",
         "iso2": "PS",
         "iso3": "PSE",
         "ison": "275",
@@ -6214,8 +6236,8 @@
             "JOD"
         ]
     },
-    "pt": {
-        "id": "pt",
+    "PT": {
+        "id": "PT",
         "iso2": "PT",
         "iso3": "PRT",
         "ison": "620",
@@ -6249,8 +6271,8 @@
             "EUR"
         ]
     },
-    "pw": {
-        "id": "pw",
+    "PW": {
+        "id": "PW",
         "iso2": "PW",
         "iso3": "PLW",
         "ison": "585",
@@ -6292,8 +6314,8 @@
             "USD"
         ]
     },
-    "py": {
-        "id": "py",
+    "PY": {
+        "id": "PY",
         "iso2": "PY",
         "iso3": "PRY",
         "ison": "600",
@@ -6324,8 +6346,8 @@
             "PYG"
         ]
     },
-    "qa": {
-        "id": "qa",
+    "QA": {
+        "id": "QA",
         "iso2": "QA",
         "iso3": "QAT",
         "ison": "634",
@@ -6354,8 +6376,8 @@
             "QAR"
         ]
     },
-    "re": {
-        "id": "re",
+    "RE": {
+        "id": "RE",
         "iso2": "RE",
         "iso3": "REU",
         "ison": "638",
@@ -6384,8 +6406,8 @@
             "EUR"
         ]
     },
-    "ro": {
-        "id": "ro",
+    "RO": {
+        "id": "RO",
         "iso2": "RO",
         "iso3": "ROU",
         "ison": "642",
@@ -6418,8 +6440,8 @@
             "RON"
         ]
     },
-    "rs": {
-        "id": "rs",
+    "RS": {
+        "id": "RS",
         "iso2": "RS",
         "iso3": "SRB",
         "ison": "688",
@@ -6454,8 +6476,8 @@
             "RSD"
         ]
     },
-    "ru": {
-        "id": "ru",
+    "RU": {
+        "id": "RU",
         "iso2": "RU",
         "iso3": "RUS",
         "ison": "643",
@@ -6555,8 +6577,8 @@
             "RUB"
         ]
     },
-    "rw": {
-        "id": "rw",
+    "RW": {
+        "id": "RW",
         "iso2": "RW",
         "iso3": "RWA",
         "ison": "646",
@@ -6589,8 +6611,8 @@
             "RWF"
         ]
     },
-    "sa": {
-        "id": "sa",
+    "SA": {
+        "id": "SA",
         "iso2": "SA",
         "iso3": "SAU",
         "ison": "682",
@@ -6619,8 +6641,8 @@
             "SAR"
         ]
     },
-    "sb": {
-        "id": "sb",
+    "SB": {
+        "id": "SB",
         "iso2": "SB",
         "iso3": "SLB",
         "ison": "090",
@@ -6649,8 +6671,8 @@
             "SBD"
         ]
     },
-    "sc": {
-        "id": "sc",
+    "SC": {
+        "id": "SC",
         "iso2": "SC",
         "iso3": "SYC",
         "ison": "690",
@@ -6679,8 +6701,8 @@
             "SCR"
         ]
     },
-    "sd": {
-        "id": "sd",
+    "SD": {
+        "id": "SD",
         "iso2": "SD",
         "iso3": "SDN",
         "ison": "729",
@@ -6713,8 +6735,8 @@
             "SDG"
         ]
     },
-    "se": {
-        "id": "se",
+    "SE": {
+        "id": "SE",
         "iso2": "SE",
         "iso3": "SWE",
         "ison": "752",
@@ -6749,8 +6771,8 @@
             "SEK"
         ]
     },
-    "sg": {
-        "id": "sg",
+    "SG": {
+        "id": "SG",
         "iso2": "SG",
         "iso3": "SGP",
         "ison": "702",
@@ -6787,8 +6809,8 @@
             "SGD"
         ]
     },
-    "sh": {
-        "id": "sh",
+    "SH": {
+        "id": "SH",
         "iso2": "SH",
         "iso3": "SHN",
         "ison": "654",
@@ -6818,8 +6840,8 @@
             "SHP"
         ]
     },
-    "si": {
-        "id": "si",
+    "SI": {
+        "id": "SI",
         "iso2": "SI",
         "iso3": "SVN",
         "ison": "705",
@@ -6850,8 +6872,8 @@
             "EUR"
         ]
     },
-    "sj": {
-        "id": "sj",
+    "SJ": {
+        "id": "SJ",
         "iso2": "SJ",
         "iso3": "SJM",
         "ison": "744",
@@ -6881,8 +6903,8 @@
             "NOK"
         ]
     },
-    "sk": {
-        "id": "sk",
+    "SK": {
+        "id": "SK",
         "iso2": "SK",
         "iso3": "SVK",
         "ison": "703",
@@ -6913,8 +6935,8 @@
             "EUR"
         ]
     },
-    "sl": {
-        "id": "sl",
+    "SL": {
+        "id": "SL",
         "iso2": "SL",
         "iso3": "SLE",
         "ison": "694",
@@ -6945,8 +6967,8 @@
             "SLL"
         ]
     },
-    "sm": {
-        "id": "sm",
+    "SM": {
+        "id": "SM",
         "iso2": "SM",
         "iso3": "SMR",
         "ison": "674",
@@ -6975,8 +6997,8 @@
             "EUR"
         ]
     },
-    "sn": {
-        "id": "sn",
+    "SN": {
+        "id": "SN",
         "iso2": "SN",
         "iso3": "SEN",
         "ison": "686",
@@ -7011,8 +7033,8 @@
             "XOF"
         ]
     },
-    "so": {
-        "id": "so",
+    "SO": {
+        "id": "SO",
         "iso2": "SO",
         "iso3": "SOM",
         "ison": "706",
@@ -7047,8 +7069,8 @@
             "SOS"
         ]
     },
-    "sr": {
-        "id": "sr",
+    "SR": {
+        "id": "SR",
         "iso2": "SR",
         "iso3": "SUR",
         "ison": "740",
@@ -7083,8 +7105,8 @@
             "SRD"
         ]
     },
-    "ss": {
-        "id": "ss",
+    "SS": {
+        "id": "SS",
         "iso2": "SS",
         "iso3": "SSD",
         "ison": "728",
@@ -7111,8 +7133,8 @@
             "SSP"
         ]
     },
-    "st": {
-        "id": "st",
+    "ST": {
+        "id": "ST",
         "iso2": "ST",
         "iso3": "STP",
         "ison": "678",
@@ -7139,8 +7161,8 @@
             "STN"
         ]
     },
-    "sv": {
-        "id": "sv",
+    "SV": {
+        "id": "SV",
         "iso2": "SV",
         "iso3": "SLV",
         "ison": "222",
@@ -7169,8 +7191,8 @@
             "USD"
         ]
     },
-    "sx": {
-        "id": "sx",
+    "SX": {
+        "id": "SX",
         "iso2": "SX",
         "iso3": "SXM",
         "ison": "534",
@@ -7199,8 +7221,8 @@
             "ANG"
         ]
     },
-    "sy": {
-        "id": "sy",
+    "SY": {
+        "id": "SY",
         "iso2": "SY",
         "iso3": "SYR",
         "ison": "760",
@@ -7237,8 +7259,8 @@
             "SYP"
         ]
     },
-    "sz": {
-        "id": "sz",
+    "SZ": {
+        "id": "SZ",
         "iso2": "SZ",
         "iso3": "SWZ",
         "ison": "748",
@@ -7269,8 +7291,8 @@
             "SZL"
         ]
     },
-    "tc": {
-        "id": "tc",
+    "TC": {
+        "id": "TC",
         "iso2": "TC",
         "iso3": "TCA",
         "ison": "796",
@@ -7299,8 +7321,8 @@
             "USD"
         ]
     },
-    "td": {
-        "id": "td",
+    "TD": {
+        "id": "TD",
         "iso2": "TD",
         "iso3": "TCD",
         "ison": "148",
@@ -7331,8 +7353,8 @@
             "XAF"
         ]
     },
-    "tf": {
-        "id": "tf",
+    "TF": {
+        "id": "TF",
         "iso2": "TF",
         "iso3": "ATF",
         "ison": "260",
@@ -7358,8 +7380,8 @@
             "EUR"
         ]
     },
-    "tg": {
-        "id": "tg",
+    "TG": {
+        "id": "TG",
         "iso2": "TG",
         "iso3": "TGO",
         "ison": "768",
@@ -7396,8 +7418,8 @@
             "XOF"
         ]
     },
-    "th": {
-        "id": "th",
+    "TH": {
+        "id": "TH",
         "iso2": "TH",
         "iso3": "THA",
         "ison": "764",
@@ -7428,8 +7450,8 @@
             "THB"
         ]
     },
-    "tj": {
-        "id": "tj",
+    "TJ": {
+        "id": "TJ",
         "iso2": "TJ",
         "iso3": "TJK",
         "ison": "762",
@@ -7460,8 +7482,8 @@
             "TJS"
         ]
     },
-    "tk": {
-        "id": "tk",
+    "TK": {
+        "id": "TK",
         "iso2": "TK",
         "iso3": "TKL",
         "ison": "772",
@@ -7490,8 +7512,8 @@
             "NZD"
         ]
     },
-    "tl": {
-        "id": "tl",
+    "TL": {
+        "id": "TL",
         "iso2": "TL",
         "iso3": "TLS",
         "ison": "626",
@@ -7524,8 +7546,8 @@
             "USD"
         ]
     },
-    "tm": {
-        "id": "tm",
+    "TM": {
+        "id": "TM",
         "iso2": "TM",
         "iso3": "TKM",
         "ison": "795",
@@ -7559,8 +7581,8 @@
             "TMT"
         ]
     },
-    "tn": {
-        "id": "tn",
+    "TN": {
+        "id": "TN",
         "iso2": "TN",
         "iso3": "TUN",
         "ison": "788",
@@ -7591,8 +7613,8 @@
             "TND"
         ]
     },
-    "to": {
-        "id": "to",
+    "TO": {
+        "id": "TO",
         "iso2": "TO",
         "iso3": "TON",
         "ison": "776",
@@ -7621,8 +7643,8 @@
             "TOP"
         ]
     },
-    "tr": {
-        "id": "tr",
+    "TR": {
+        "id": "TR",
         "iso2": "TR",
         "iso3": "TUR",
         "ison": "792",
@@ -7661,8 +7683,8 @@
             "TRY"
         ]
     },
-    "tt": {
-        "id": "tt",
+    "TT": {
+        "id": "TT",
         "iso2": "TT",
         "iso3": "TTO",
         "ison": "780",
@@ -7698,8 +7720,8 @@
             "TTD"
         ]
     },
-    "tv": {
-        "id": "tv",
+    "TV": {
+        "id": "TV",
         "iso2": "TV",
         "iso3": "TUV",
         "ison": "798",
@@ -7733,8 +7755,8 @@
             "TVD"
         ]
     },
-    "tw": {
-        "id": "tw",
+    "TW": {
+        "id": "TW",
         "iso2": "TW",
         "iso3": "TWN",
         "ison": "158",
@@ -7769,8 +7791,8 @@
             "TWD"
         ]
     },
-    "tz": {
-        "id": "tz",
+    "TZ": {
+        "id": "TZ",
         "iso2": "TZ",
         "iso3": "TZA",
         "ison": "834",
@@ -7801,8 +7823,8 @@
             "TZS"
         ]
     },
-    "ua": {
-        "id": "ua",
+    "UA": {
+        "id": "UA",
         "iso2": "UA",
         "iso3": "UKR",
         "ison": "804",
@@ -7842,8 +7864,8 @@
             "UAH"
         ]
     },
-    "ug": {
-        "id": "ug",
+    "UG": {
+        "id": "UG",
         "iso2": "UG",
         "iso3": "UGA",
         "ison": "800",
@@ -7876,8 +7898,8 @@
             "UGX"
         ]
     },
-    "um": {
-        "id": "um",
+    "UM": {
+        "id": "UM",
         "iso2": "UM",
         "iso3": "UMI",
         "ison": "581",
@@ -7904,8 +7926,8 @@
             "USD"
         ]
     },
-    "us": {
-        "id": "us",
+    "US": {
+        "id": "US",
         "iso2": "US",
         "iso3": "USA",
         "ison": "840",
@@ -7988,8 +8010,8 @@
             "USD"
         ]
     },
-    "uy": {
-        "id": "uy",
+    "UY": {
+        "id": "UY",
         "iso2": "UY",
         "iso3": "URY",
         "ison": "858",
@@ -8018,8 +8040,8 @@
             "UYU"
         ]
     },
-    "uz": {
-        "id": "uz",
+    "UZ": {
+        "id": "UZ",
         "iso2": "UZ",
         "iso3": "UZB",
         "ison": "860",
@@ -8053,8 +8075,8 @@
             "UZS"
         ]
     },
-    "va": {
-        "id": "va",
+    "VA": {
+        "id": "VA",
         "iso2": "VA",
         "iso3": "VAT",
         "ison": "336",
@@ -8087,8 +8109,8 @@
             "EUR"
         ]
     },
-    "vc": {
-        "id": "vc",
+    "VC": {
+        "id": "VC",
         "iso2": "VC",
         "iso3": "VCT",
         "ison": "670",
@@ -8117,8 +8139,8 @@
             "XCD"
         ]
     },
-    "ve": {
-        "id": "ve",
+    "VE": {
+        "id": "VE",
         "iso2": "VE",
         "iso3": "VEN",
         "ison": "862",
@@ -8147,8 +8169,8 @@
             "VES"
         ]
     },
-    "vg": {
-        "id": "vg",
+    "VG": {
+        "id": "VG",
         "iso2": "VG",
         "iso3": "VGB",
         "ison": "092",
@@ -8175,8 +8197,8 @@
             "USD"
         ]
     },
-    "vi": {
-        "id": "vi",
+    "VI": {
+        "id": "VI",
         "iso2": "VI",
         "iso3": "VIR",
         "ison": "850",
@@ -8205,8 +8227,8 @@
             "USD"
         ]
     },
-    "vn": {
-        "id": "vn",
+    "VN": {
+        "id": "VN",
         "iso2": "VN",
         "iso3": "VNM",
         "ison": "704",
@@ -8244,8 +8266,8 @@
             "VND"
         ]
     },
-    "vu": {
-        "id": "vu",
+    "VU": {
+        "id": "VU",
         "iso2": "VU",
         "iso3": "VUT",
         "ison": "548",
@@ -8276,8 +8298,8 @@
             "VUV"
         ]
     },
-    "wf": {
-        "id": "wf",
+    "WF": {
+        "id": "WF",
         "iso2": "WF",
         "iso3": "WLF",
         "ison": "876",
@@ -8310,8 +8332,8 @@
             "XPF"
         ]
     },
-    "ws": {
-        "id": "ws",
+    "WS": {
+        "id": "WS",
         "iso2": "WS",
         "iso3": "WSM",
         "ison": "882",
@@ -8340,8 +8362,8 @@
             "WST"
         ]
     },
-    "ye": {
-        "id": "ye",
+    "YE": {
+        "id": "YE",
         "iso2": "YE",
         "iso3": "YEM",
         "ison": "887",
@@ -8368,8 +8390,8 @@
             "YER"
         ]
     },
-    "yt": {
-        "id": "yt",
+    "YT": {
+        "id": "YT",
         "iso2": "YT",
         "iso3": "MYT",
         "ison": "175",
@@ -8398,8 +8420,8 @@
             "EUR"
         ]
     },
-    "za": {
-        "id": "za",
+    "ZA": {
+        "id": "ZA",
         "iso2": "ZA",
         "iso3": "ZAF",
         "ison": "710",
@@ -8448,8 +8470,8 @@
             "ZAR"
         ]
     },
-    "zm": {
-        "id": "zm",
+    "ZM": {
+        "id": "ZM",
         "iso2": "ZM",
         "iso3": "ZMB",
         "ison": "894",
@@ -8490,8 +8512,8 @@
             "ZMW"
         ]
     },
-    "zw": {
-        "id": "zw",
+    "ZW": {
+        "id": "ZW",
         "iso2": "ZW",
         "iso3": "ZWE",
         "ison": "716",
