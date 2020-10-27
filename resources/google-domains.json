@@ -1,986 +1,986 @@
 {
-    "worldwide": {
-        "id": "worldwide",
+    "WORLDWIDE": {
+        "id": "WORLDWIDE",
         "tld": ".com",
         "domain": "google.com"
     },
-    "ad": {
-        "id": "ad",
+    "AD": {
+        "id": "AD",
         "tld": ".ad",
         "domain": "google.ad"
     },
-    "ae": {
-        "id": "ae",
+    "AE": {
+        "id": "AE",
         "tld": ".ae",
         "domain": "google.ae"
     },
-    "af": {
-        "id": "af",
+    "AF": {
+        "id": "AF",
         "tld": ".af",
         "domain": "google.com.af"
     },
-    "ag": {
-        "id": "ag",
+    "AG": {
+        "id": "AG",
         "tld": ".ag",
         "domain": "google.com.ag"
     },
-    "ai": {
-        "id": "ai",
+    "AI": {
+        "id": "AI",
         "tld": ".ai",
         "domain": "google.com.ai"
     },
-    "al": {
-        "id": "al",
+    "AL": {
+        "id": "AL",
         "tld": ".al",
         "domain": "google.al"
     },
-    "am": {
-        "id": "am",
+    "AM": {
+        "id": "AM",
         "tld": ".am",
         "domain": "google.am"
     },
-    "ao": {
-        "id": "ao",
+    "AO": {
+        "id": "AO",
         "tld": ".ao",
         "domain": "google.co.ao"
     },
-    "ar": {
-        "id": "ar",
+    "AR": {
+        "id": "AR",
         "tld": ".ar",
         "domain": "google.com.ar"
     },
-    "as": {
-        "id": "as",
+    "AS": {
+        "id": "AS",
         "tld": ".as",
         "domain": "google.as"
     },
-    "at": {
-        "id": "at",
+    "AT": {
+        "id": "AT",
         "tld": ".at",
         "domain": "google.at"
     },
-    "au": {
-        "id": "au",
+    "AU": {
+        "id": "AU",
         "tld": ".au",
         "domain": "google.com.au"
     },
-    "az": {
-        "id": "az",
+    "AZ": {
+        "id": "AZ",
         "tld": ".az",
         "domain": "google.az"
     },
-    "ba": {
-        "id": "ba",
+    "BA": {
+        "id": "BA",
         "tld": ".ba",
         "domain": "google.ba"
     },
-    "bd": {
-        "id": "bd",
+    "BD": {
+        "id": "BD",
         "tld": ".bd",
         "domain": "google.com.bd"
     },
-    "be": {
-        "id": "be",
+    "BE": {
+        "id": "BE",
         "tld": ".be",
         "domain": "google.be"
     },
-    "bf": {
-        "id": "bf",
+    "BF": {
+        "id": "BF",
         "tld": ".bf",
         "domain": "google.bf"
     },
-    "bg": {
-        "id": "bg",
+    "BG": {
+        "id": "BG",
         "tld": ".bg",
         "domain": "google.bg"
     },
-    "bh": {
-        "id": "bh",
+    "BH": {
+        "id": "BH",
         "tld": ".bh",
         "domain": "google.com.bh"
     },
-    "bi": {
-        "id": "bi",
+    "BI": {
+        "id": "BI",
         "tld": ".bi",
         "domain": "google.bi"
     },
-    "bj": {
-        "id": "bj",
+    "BJ": {
+        "id": "BJ",
         "tld": ".bj",
         "domain": "google.bj"
     },
-    "bn": {
-        "id": "bn",
+    "BN": {
+        "id": "BN",
         "tld": ".bn",
         "domain": "google.com.bn"
     },
-    "bo": {
-        "id": "bo",
+    "BO": {
+        "id": "BO",
         "tld": ".bo",
         "domain": "google.com.bo"
     },
-    "br": {
-        "id": "br",
+    "BR": {
+        "id": "BR",
         "tld": ".br",
         "domain": "google.com.br"
     },
-    "bs": {
-        "id": "bs",
+    "BS": {
+        "id": "BS",
         "tld": ".bs",
         "domain": "google.bs"
     },
-    "bt": {
-        "id": "bt",
+    "BT": {
+        "id": "BT",
         "tld": ".bt",
         "domain": "google.bt"
     },
-    "bw": {
-        "id": "bw",
+    "BW": {
+        "id": "BW",
         "tld": ".bw",
         "domain": "google.co.bw"
     },
-    "by": {
-        "id": "by",
+    "BY": {
+        "id": "BY",
         "tld": ".by",
         "domain": "google.by"
     },
-    "bz": {
-        "id": "bz",
+    "BZ": {
+        "id": "BZ",
         "tld": ".bz",
         "domain": "google.com.bz"
     },
-    "ca": {
-        "id": "ca",
+    "CA": {
+        "id": "CA",
         "tld": ".ca",
         "domain": "google.ca"
     },
-    "kh": {
-        "id": "kh",
+    "KH": {
+        "id": "KH",
         "tld": ".kh",
         "domain": "google.com.kh"
     },
-    "cc": {
-        "id": "cc",
+    "CC": {
+        "id": "CC",
         "tld": ".cc",
         "domain": "google.cc"
     },
-    "cd": {
-        "id": "cd",
+    "CD": {
+        "id": "CD",
         "tld": ".cd",
         "domain": "google.cd"
     },
-    "cf": {
-        "id": "cf",
+    "CF": {
+        "id": "CF",
         "tld": ".cf",
         "domain": "google.cf"
     },
-    "cg": {
-        "id": "cg",
+    "CG": {
+        "id": "CG",
         "tld": ".cg",
         "domain": "google.cg"
     },
-    "ch": {
-        "id": "ch",
+    "CH": {
+        "id": "CH",
         "tld": ".ch",
         "domain": "google.ch"
     },
-    "ci": {
-        "id": "ci",
+    "CI": {
+        "id": "CI",
         "tld": ".ci",
         "domain": "google.ci"
     },
-    "ck": {
-        "id": "ck",
+    "CK": {
+        "id": "CK",
         "tld": ".ck",
         "domain": "google.co.ck"
     },
-    "cl": {
-        "id": "cl",
+    "CL": {
+        "id": "CL",
         "tld": ".cl",
         "domain": "google.cl"
     },
-    "cm": {
-        "id": "cm",
+    "CM": {
+        "id": "CM",
         "tld": ".cm",
         "domain": "google.cm"
     },
-    "cn": {
-        "id": "cn",
+    "CN": {
+        "id": "CN",
         "tld": ".cn",
         "domain": "google.cn"
     },
-    "co": {
-        "id": "co",
+    "CO": {
+        "id": "CO",
         "tld": ".co",
         "domain": "google.com.co"
     },
-    "cr": {
-        "id": "cr",
+    "CR": {
+        "id": "CR",
         "tld": ".cr",
         "domain": "google.co.cr"
     },
-    "cu": {
-        "id": "cu",
+    "CU": {
+        "id": "CU",
         "tld": ".cu",
         "domain": "google.com.cu"
     },
-    "cv": {
-        "id": "cv",
+    "CV": {
+        "id": "CV",
         "tld": ".cv",
         "domain": "google.cv"
     },
-    "cy": {
-        "id": "cy",
+    "CY": {
+        "id": "CY",
         "tld": ".cy",
         "domain": "google.com.cy"
     },
-    "cz": {
-        "id": "cz",
+    "CZ": {
+        "id": "CZ",
         "tld": ".cz",
         "domain": "google.cz"
     },
-    "de": {
-        "id": "de",
+    "DE": {
+        "id": "DE",
         "tld": ".de",
         "domain": "google.de"
     },
-    "dj": {
-        "id": "dj",
+    "DJ": {
+        "id": "DJ",
         "tld": ".dj",
         "domain": "google.dj"
     },
-    "dk": {
-        "id": "dk",
+    "DK": {
+        "id": "DK",
         "tld": ".dk",
         "domain": "google.dk"
     },
-    "dm": {
-        "id": "dm",
+    "DM": {
+        "id": "DM",
         "tld": ".dm",
         "domain": "google.dm"
     },
-    "do": {
-        "id": "do",
+    "DO": {
+        "id": "DO",
         "tld": ".do",
         "domain": "google.com.do"
     },
-    "dz": {
-        "id": "dz",
+    "DZ": {
+        "id": "DZ",
         "tld": ".dz",
         "domain": "google.dz"
     },
-    "ec": {
-        "id": "ec",
+    "EC": {
+        "id": "EC",
         "tld": ".ec",
         "domain": "google.com.ec"
     },
-    "ee": {
-        "id": "ee",
+    "EE": {
+        "id": "EE",
         "tld": ".ee",
         "domain": "google.ee"
     },
-    "eg": {
-        "id": "eg",
+    "EG": {
+        "id": "EG",
         "tld": ".eg",
         "domain": "google.com.eg"
     },
-    "es": {
-        "id": "es",
+    "ES": {
+        "id": "ES",
         "tld": ".es",
         "domain": "google.es"
     },
-    "et": {
-        "id": "et",
+    "ET": {
+        "id": "ET",
         "tld": ".et",
         "domain": "google.com.et"
     },
-    "fi": {
-        "id": "fi",
+    "FI": {
+        "id": "FI",
         "tld": ".fi",
         "domain": "google.fi"
     },
-    "fj": {
-        "id": "fj",
+    "FJ": {
+        "id": "FJ",
         "tld": ".fj",
         "domain": "google.com.fj"
     },
-    "fm": {
-        "id": "fm",
+    "FM": {
+        "id": "FM",
         "tld": ".fm",
         "domain": "google.fm"
     },
-    "fr": {
-        "id": "fr",
+    "FR": {
+        "id": "FR",
         "tld": ".fr",
         "domain": "google.fr"
     },
-    "ga": {
-        "id": "ga",
+    "GA": {
+        "id": "GA",
         "tld": ".ga",
         "domain": "google.ga"
     },
-    "ge": {
-        "id": "ge",
+    "GE": {
+        "id": "GE",
         "tld": ".ge",
         "domain": "google.ge"
     },
-    "gf": {
-        "id": "gf",
+    "GF": {
+        "id": "GF",
         "tld": ".gf",
         "domain": "google.gf"
     },
-    "gg": {
-        "id": "gg",
+    "GG": {
+        "id": "GG",
         "tld": ".gg",
         "domain": "google.gg"
     },
-    "gh": {
-        "id": "gh",
+    "GH": {
+        "id": "GH",
         "tld": ".gh",
         "domain": "google.com.gh"
     },
-    "gi": {
-        "id": "gi",
+    "GI": {
+        "id": "GI",
         "tld": ".gi",
         "domain": "google.com.gi"
     },
-    "gl": {
-        "id": "gl",
+    "GL": {
+        "id": "GL",
         "tld": ".gl",
         "domain": "google.gl"
     },
-    "gm": {
-        "id": "gm",
+    "GM": {
+        "id": "GM",
         "tld": ".gm",
         "domain": "google.gm"
     },
-    "gp": {
-        "id": "gp",
+    "GP": {
+        "id": "GP",
         "tld": ".gp",
         "domain": "google.gp"
     },
-    "gr": {
-        "id": "gr",
+    "GR": {
+        "id": "GR",
         "tld": ".gr",
         "domain": "google.gr"
     },
-    "gt": {
-        "id": "gt",
+    "GT": {
+        "id": "GT",
         "tld": ".gt",
         "domain": "google.com.gt"
     },
-    "gy": {
-        "id": "gy",
+    "GY": {
+        "id": "GY",
         "tld": ".gy",
         "domain": "google.gy"
     },
-    "hk": {
-        "id": "hk",
+    "HK": {
+        "id": "HK",
         "tld": ".hk",
         "domain": "google.com.hk"
     },
-    "hn": {
-        "id": "hn",
+    "HN": {
+        "id": "HN",
         "tld": ".hn",
         "domain": "google.hn"
     },
-    "hr": {
-        "id": "hr",
+    "HR": {
+        "id": "HR",
         "tld": ".hr",
         "domain": "google.hr"
     },
-    "ht": {
-        "id": "ht",
+    "HT": {
+        "id": "HT",
         "tld": ".ht",
         "domain": "google.ht"
     },
-    "hu": {
-        "id": "hu",
+    "HU": {
+        "id": "HU",
         "tld": ".hu",
         "domain": "google.hu"
     },
-    "id": {
-        "id": "id",
+    "ID": {
+        "id": "ID",
         "tld": ".id",
         "domain": "google.co.id"
     },
-    "iq": {
-        "id": "iq",
+    "IQ": {
+        "id": "IQ",
         "tld": ".iq",
         "domain": "google.iq"
     },
-    "ie": {
-        "id": "ie",
+    "IE": {
+        "id": "IE",
         "tld": ".ie",
         "domain": "google.ie"
     },
-    "il": {
-        "id": "il",
+    "IL": {
+        "id": "IL",
         "tld": ".il",
         "domain": "google.co.il"
     },
-    "im": {
-        "id": "im",
+    "IM": {
+        "id": "IM",
         "tld": ".im",
         "domain": "google.im"
     },
-    "in": {
-        "id": "in",
+    "IN": {
+        "id": "IN",
         "tld": ".in",
         "domain": "google.co.in"
     },
-    "io": {
-        "id": "io",
+    "IO": {
+        "id": "IO",
         "tld": ".io",
         "domain": "google.io"
     },
-    "is": {
-        "id": "is",
+    "IS": {
+        "id": "IS",
         "tld": ".is",
         "domain": "google.is"
     },
-    "it": {
-        "id": "it",
+    "IT": {
+        "id": "IT",
         "tld": ".it",
         "domain": "google.it"
     },
-    "je": {
-        "id": "je",
+    "JE": {
+        "id": "JE",
         "tld": ".je",
         "domain": "google.je"
     },
-    "jm": {
-        "id": "jm",
+    "JM": {
+        "id": "JM",
         "tld": ".jm",
         "domain": "google.com.jm"
     },
-    "jo": {
-        "id": "jo",
+    "JO": {
+        "id": "JO",
         "tld": ".jo",
         "domain": "google.jo"
     },
-    "jp": {
-        "id": "jp",
+    "JP": {
+        "id": "JP",
         "tld": ".jp",
         "domain": "google.co.jp"
     },
-    "ke": {
-        "id": "ke",
+    "KE": {
+        "id": "KE",
         "tld": ".ke",
         "domain": "google.co.ke"
     },
-    "ki": {
-        "id": "ki",
+    "KI": {
+        "id": "KI",
         "tld": ".ki",
         "domain": "google.ki"
     },
-    "kg": {
-        "id": "kg",
+    "KG": {
+        "id": "KG",
         "tld": ".kg",
         "domain": "google.kg"
     },
-    "kr": {
-        "id": "kr",
+    "KR": {
+        "id": "KR",
         "tld": ".kr",
         "domain": "google.co.kr"
     },
-    "kw": {
-        "id": "kw",
+    "KW": {
+        "id": "KW",
         "tld": ".kw",
         "domain": "google.com.kw"
     },
-    "kz": {
-        "id": "kz",
+    "KZ": {
+        "id": "KZ",
         "tld": ".kz",
         "domain": "google.kz"
     },
-    "la": {
-        "id": "la",
+    "LA": {
+        "id": "LA",
         "tld": ".la",
         "domain": "google.la"
     },
-    "lb": {
-        "id": "lb",
+    "LB": {
+        "id": "LB",
         "tld": ".lb",
         "domain": "google.com.lb"
     },
-    "lc": {
-        "id": "lc",
+    "LC": {
+        "id": "LC",
         "tld": ".lc",
         "domain": "google.com.lc"
     },
-    "li": {
-        "id": "li",
+    "LI": {
+        "id": "LI",
         "tld": ".li",
         "domain": "google.li"
     },
-    "lk": {
-        "id": "lk",
+    "LK": {
+        "id": "LK",
         "tld": ".lk",
         "domain": "google.lk"
     },
-    "ls": {
-        "id": "ls",
+    "LS": {
+        "id": "LS",
         "tld": ".ls",
         "domain": "google.co.ls"
     },
-    "lt": {
-        "id": "lt",
+    "LT": {
+        "id": "LT",
         "tld": ".lt",
         "domain": "google.lt"
     },
-    "lu": {
-        "id": "lu",
+    "LU": {
+        "id": "LU",
         "tld": ".lu",
         "domain": "google.lu"
     },
-    "lv": {
-        "id": "lv",
+    "LV": {
+        "id": "LV",
         "tld": ".lv",
         "domain": "google.lv"
     },
-    "ly": {
-        "id": "ly",
+    "LY": {
+        "id": "LY",
         "tld": ".ly",
         "domain": "google.com.ly"
     },
-    "ma": {
-        "id": "ma",
+    "MA": {
+        "id": "MA",
         "tld": ".ma",
         "domain": "google.co.ma"
     },
-    "md": {
-        "id": "md",
+    "MD": {
+        "id": "MD",
         "tld": ".md",
         "domain": "google.md"
     },
-    "me": {
-        "id": "me",
+    "ME": {
+        "id": "ME",
         "tld": ".me",
         "domain": "google.me"
     },
-    "mg": {
-        "id": "mg",
+    "MG": {
+        "id": "MG",
         "tld": ".mg",
         "domain": "google.mg"
     },
-    "mk": {
-        "id": "mk",
+    "MK": {
+        "id": "MK",
         "tld": ".mk",
         "domain": "google.mk"
     },
-    "ml": {
-        "id": "ml",
+    "ML": {
+        "id": "ML",
         "tld": ".ml",
         "domain": "google.ml"
     },
-    "mm": {
-        "id": "mm",
+    "MM": {
+        "id": "MM",
         "tld": ".mm",
         "domain": "google.com.mm"
     },
-    "mn": {
-        "id": "mn",
+    "MN": {
+        "id": "MN",
         "tld": ".mn",
         "domain": "google.mn"
     },
-    "ms": {
-        "id": "ms",
+    "MS": {
+        "id": "MS",
         "tld": ".ms",
         "domain": "google.ms"
     },
-    "mt": {
-        "id": "mt",
+    "MT": {
+        "id": "MT",
         "tld": ".mt",
         "domain": "google.com.mt"
     },
-    "mu": {
-        "id": "mu",
+    "MU": {
+        "id": "MU",
         "tld": ".mu",
         "domain": "google.mu"
     },
-    "mv": {
-        "id": "mv",
+    "MV": {
+        "id": "MV",
         "tld": ".mv",
         "domain": "google.mv"
     },
-    "mw": {
-        "id": "mw",
+    "MW": {
+        "id": "MW",
         "tld": ".mw",
         "domain": "google.mw"
     },
-    "mx": {
-        "id": "mx",
+    "MX": {
+        "id": "MX",
         "tld": ".mx",
         "domain": "google.com.mx"
     },
-    "my": {
-        "id": "my",
+    "MY": {
+        "id": "MY",
         "tld": ".my",
         "domain": "google.com.my"
     },
-    "mz": {
-        "id": "mz",
+    "MZ": {
+        "id": "MZ",
         "tld": ".mz",
         "domain": "google.co.mz"
     },
-    "na": {
-        "id": "na",
+    "NA": {
+        "id": "NA",
         "tld": ".na",
         "domain": "google.com.na"
     },
-    "ne": {
-        "id": "ne",
+    "NE": {
+        "id": "NE",
         "tld": ".ne",
         "domain": "google.ne"
     },
-    "nf": {
-        "id": "nf",
+    "NF": {
+        "id": "NF",
         "tld": ".nf",
         "domain": "google.com.nf"
     },
-    "ng": {
-        "id": "ng",
+    "NG": {
+        "id": "NG",
         "tld": ".ng",
         "domain": "google.com.ng"
     },
-    "ni": {
-        "id": "ni",
+    "NI": {
+        "id": "NI",
         "tld": ".ni",
         "domain": "google.com.ni"
     },
-    "nl": {
-        "id": "nl",
+    "NL": {
+        "id": "NL",
         "tld": ".nl",
         "domain": "google.nl"
     },
-    "no": {
-        "id": "no",
+    "NO": {
+        "id": "NO",
         "tld": ".no",
         "domain": "google.no"
     },
-    "np": {
-        "id": "np",
+    "NP": {
+        "id": "NP",
         "tld": ".np",
         "domain": "google.com.np"
     },
-    "nr": {
-        "id": "nr",
+    "NR": {
+        "id": "NR",
         "tld": ".nr",
         "domain": "google.nr"
     },
-    "nu": {
-        "id": "nu",
+    "NU": {
+        "id": "NU",
         "tld": ".nu",
         "domain": "google.nu"
     },
-    "nz": {
-        "id": "nz",
+    "NZ": {
+        "id": "NZ",
         "tld": ".nz",
         "domain": "google.co.nz"
     },
-    "om": {
-        "id": "om",
+    "OM": {
+        "id": "OM",
         "tld": ".om",
         "domain": "google.com.om"
     },
-    "pk": {
-        "id": "pk",
+    "PK": {
+        "id": "PK",
         "tld": ".pk",
         "domain": "google.com.pk"
     },
-    "pa": {
-        "id": "pa",
+    "PA": {
+        "id": "PA",
         "tld": ".pa",
         "domain": "google.com.pa"
     },
-    "pe": {
-        "id": "pe",
+    "PE": {
+        "id": "PE",
         "tld": ".pe",
         "domain": "google.com.pe"
     },
-    "ph": {
-        "id": "ph",
+    "PH": {
+        "id": "PH",
         "tld": ".ph",
         "domain": "google.com.ph"
     },
-    "pl": {
-        "id": "pl",
+    "PL": {
+        "id": "PL",
         "tld": ".pl",
         "domain": "google.pl"
     },
-    "pg": {
-        "id": "pg",
+    "PG": {
+        "id": "PG",
         "tld": ".pg",
         "domain": "google.com.pg"
     },
-    "pn": {
-        "id": "pn",
+    "PN": {
+        "id": "PN",
         "tld": ".pn",
         "domain": "google.pn"
     },
-    "pr": {
-        "id": "pr",
+    "PR": {
+        "id": "PR",
         "tld": ".pr",
         "domain": "google.com.pr"
     },
-    "ps": {
-        "id": "ps",
+    "PS": {
+        "id": "PS",
         "tld": ".ps",
         "domain": "google.ps"
     },
-    "pt": {
-        "id": "pt",
+    "PT": {
+        "id": "PT",
         "tld": ".pt",
         "domain": "google.pt"
     },
-    "py": {
-        "id": "py",
+    "PY": {
+        "id": "PY",
         "tld": ".py",
         "domain": "google.com.py"
     },
-    "qa": {
-        "id": "qa",
+    "QA": {
+        "id": "QA",
         "tld": ".qa",
         "domain": "google.com.qa"
     },
-    "ro": {
-        "id": "ro",
+    "RO": {
+        "id": "RO",
         "tld": ".ro",
         "domain": "google.ro"
     },
-    "rs": {
-        "id": "rs",
+    "RS": {
+        "id": "RS",
         "tld": ".rs",
         "domain": "google.rs"
     },
-    "ru": {
-        "id": "ru",
+    "RU": {
+        "id": "RU",
         "tld": ".ru",
         "domain": "google.ru"
     },
-    "rw": {
-        "id": "rw",
+    "RW": {
+        "id": "RW",
         "tld": ".rw",
         "domain": "google.rw"
     },
-    "sa": {
-        "id": "sa",
+    "SA": {
+        "id": "SA",
         "tld": ".sa",
         "domain": "google.com.sa"
     },
-    "sb": {
-        "id": "sb",
+    "SB": {
+        "id": "SB",
         "tld": ".sb",
         "domain": "google.com.sb"
     },
-    "sc": {
-        "id": "sc",
+    "SC": {
+        "id": "SC",
         "tld": ".sc",
         "domain": "google.sc"
     },
-    "se": {
-        "id": "se",
+    "SE": {
+        "id": "SE",
         "tld": ".se",
         "domain": "google.se"
     },
-    "sg": {
-        "id": "sg",
+    "SG": {
+        "id": "SG",
         "tld": ".sg",
         "domain": "google.com.sg"
     },
-    "sh": {
-        "id": "sh",
+    "SH": {
+        "id": "SH",
         "tld": ".sh",
         "domain": "google.sh"
     },
-    "si": {
-        "id": "si",
+    "SI": {
+        "id": "SI",
         "tld": ".si",
         "domain": "google.si"
     },
-    "sk": {
-        "id": "sk",
+    "SK": {
+        "id": "SK",
         "tld": ".sk",
         "domain": "google.sk"
     },
-    "sl": {
-        "id": "sl",
+    "SL": {
+        "id": "SL",
         "tld": ".sl",
         "domain": "google.com.sl"
     },
-    "sn": {
-        "id": "sn",
+    "SN": {
+        "id": "SN",
         "tld": ".sn",
         "domain": "google.sn"
     },
-    "sm": {
-        "id": "sm",
+    "SM": {
+        "id": "SM",
         "tld": ".sm",
         "domain": "google.sm"
     },
-    "so": {
-        "id": "so",
+    "SO": {
+        "id": "SO",
         "tld": ".so",
         "domain": "google.so"
     },
-    "st": {
-        "id": "st",
+    "ST": {
+        "id": "ST",
         "tld": ".st",
         "domain": "google.st"
     },
-    "sr": {
-        "id": "sr",
+    "SR": {
+        "id": "SR",
         "tld": ".sr",
         "domain": "google.sr"
     },
-    "sv": {
-        "id": "sv",
+    "SV": {
+        "id": "SV",
         "tld": ".sv",
         "domain": "google.com.sv"
     },
-    "td": {
-        "id": "td",
+    "TD": {
+        "id": "TD",
         "tld": ".td",
         "domain": "google.td"
     },
-    "tg": {
-        "id": "tg",
+    "TG": {
+        "id": "TG",
         "tld": ".tg",
         "domain": "google.tg"
     },
-    "th": {
-        "id": "th",
+    "TH": {
+        "id": "TH",
         "tld": ".th",
         "domain": "google.co.th"
     },
-    "tj": {
-        "id": "tj",
+    "TJ": {
+        "id": "TJ",
         "tld": ".tj",
         "domain": "google.com.tj"
     },
-    "tk": {
-        "id": "tk",
+    "TK": {
+        "id": "TK",
         "tld": ".tk",
         "domain": "google.tk"
     },
-    "tl": {
-        "id": "tl",
+    "TL": {
+        "id": "TL",
         "tld": ".tl",
         "domain": "google.tl"
     },
-    "tm": {
-        "id": "tm",
+    "TM": {
+        "id": "TM",
         "tld": ".tm",
         "domain": "google.tm"
     },
-    "to": {
-        "id": "to",
+    "TO": {
+        "id": "TO",
         "tld": ".to",
         "domain": "google.to"
     },
-    "tn": {
-        "id": "tn",
+    "TN": {
+        "id": "TN",
         "tld": ".tn",
         "domain": "google.tn"
     },
-    "tr": {
-        "id": "tr",
+    "TR": {
+        "id": "TR",
         "tld": ".tr",
         "domain": "google.com.tr"
     },
-    "tt": {
-        "id": "tt",
+    "TT": {
+        "id": "TT",
         "tld": ".tt",
         "domain": "google.tt"
     },
-    "tw": {
-        "id": "tw",
+    "TW": {
+        "id": "TW",
         "tld": ".tw",
         "domain": "google.com.tw"
     },
-    "tz": {
-        "id": "tz",
+    "TZ": {
+        "id": "TZ",
         "tld": ".tz",
         "domain": "google.co.tz"
     },
-    "ua": {
-        "id": "ua",
+    "UA": {
+        "id": "UA",
         "tld": ".ua",
         "domain": "google.com.ua"
     },
-    "ug": {
-        "id": "ug",
+    "UG": {
+        "id": "UG",
         "tld": ".ug",
         "domain": "google.co.ug"
     },
-    "gb": {
-        "id": "gb",
+    "GB": {
+        "id": "GB",
         "tld": ".uk",
         "domain": "google.co.uk"
     },
-    "us": {
-        "id": "us",
+    "US": {
+        "id": "US",
         "tld": ".us",
         "domain": "google.com"
     },
-    "uy": {
-        "id": "uy",
+    "UY": {
+        "id": "UY",
         "tld": ".uy",
         "domain": "google.com.uy"
     },
-    "uz": {
-        "id": "uz",
+    "UZ": {
+        "id": "UZ",
         "tld": ".uz",
         "domain": "google.co.uz"
     },
-    "vc": {
-        "id": "vc",
+    "VC": {
+        "id": "VC",
         "tld": ".vc",
         "domain": "google.com.vc"
     },
-    "ve": {
-        "id": "ve",
+    "VE": {
+        "id": "VE",
         "tld": ".ve",
         "domain": "google.co.ve"
     },
-    "vg": {
-        "id": "vg",
+    "VG": {
+        "id": "VG",
         "tld": ".vg",
         "domain": "google.vg"
     },
-    "vi": {
-        "id": "vi",
+    "VI": {
+        "id": "VI",
         "tld": ".vi",
         "domain": "google.co.vi"
     },
-    "vn": {
-        "id": "vn",
+    "VN": {
+        "id": "VN",
         "tld": ".vn",
         "domain": "google.com.vn"
     },
-    "vu": {
-        "id": "vu",
+    "VU": {
+        "id": "VU",
         "tld": ".vu",
         "domain": "google.vu"
     },
-    "ws": {
-        "id": "ws",
+    "WS": {
+        "id": "WS",
         "tld": ".ws",
         "domain": "google.ws"
     },
-    "za": {
-        "id": "za",
+    "ZA": {
+        "id": "ZA",
         "tld": ".za",
         "domain": "google.co.za"
     },
-    "zm": {
-        "id": "zm",
+    "ZM": {
+        "id": "ZM",
         "tld": ".zm",
         "domain": "google.co.zm"
     },
-    "zw": {
-        "id": "zw",
+    "ZW": {
+        "id": "ZW",
         "tld": ".zw",
         "domain": "google.co.zw"
     }
