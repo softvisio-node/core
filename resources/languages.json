@@ -1,5 +1,6 @@
 {
     "aa": {
+        "id": "aa",
         "639-1": "aa",
         "639-2": "aar",
         "family": "Afro-Asiatic",
@@ -7,6 +8,7 @@
         "nativeName": "Afaraf"
     },
     "ab": {
+        "id": "ab",
         "639-1": "ab",
         "639-2": "abk",
         "family": "Northwest Caucasian",
@@ -14,6 +16,7 @@
         "nativeName": "аҧсуа бызшәа, аҧсшәа"
     },
     "ae": {
+        "id": "ae",
         "639-1": "ae",
         "639-2": "ave",
         "family": "Indo-European",
@@ -21,6 +24,7 @@
         "nativeName": "avesta"
     },
     "af": {
+        "id": "af",
         "639-1": "af",
         "639-2": "afr",
         "family": "Indo-European",
@@ -28,6 +32,7 @@
         "nativeName": "Afrikaans"
     },
     "ak": {
+        "id": "ak",
         "639-1": "ak",
         "639-2": "aka",
         "family": "Niger–Congo",
@@ -35,6 +40,7 @@
         "nativeName": "Akan"
     },
     "am": {
+        "id": "am",
         "639-1": "am",
         "639-2": "amh",
         "family": "Afro-Asiatic",
@@ -42,6 +48,7 @@
         "nativeName": "አማርኛ"
     },
     "an": {
+        "id": "an",
         "639-1": "an",
         "639-2": "arg",
         "family": "Indo-European",
@@ -49,6 +56,7 @@
         "nativeName": "aragonés"
     },
     "ar": {
+        "id": "ar",
         "639-1": "ar",
         "639-2": "ara",
         "family": "Afro-Asiatic",
@@ -56,6 +64,7 @@
         "nativeName": "العربية"
     },
     "as": {
+        "id": "as",
         "639-1": "as",
         "639-2": "asm",
         "family": "Indo-European",
@@ -63,6 +72,7 @@
         "nativeName": "অসমীয়া"
     },
     "av": {
+        "id": "av",
         "639-1": "av",
         "639-2": "ava",
         "family": "Northeast Caucasian",
@@ -70,6 +80,7 @@
         "nativeName": "авар мацӀ, магӀарул мацӀ"
     },
     "ay": {
+        "id": "ay",
         "639-1": "ay",
         "639-2": "aym",
         "family": "Aymaran",
@@ -77,6 +88,7 @@
         "nativeName": "aymar aru"
     },
     "az": {
+        "id": "az",
         "639-1": "az",
         "639-2": "aze",
         "family": "Turkic",
@@ -84,6 +96,7 @@
         "nativeName": "azərbaycan dili"
     },
     "ba": {
+        "id": "ba",
         "639-1": "ba",
         "639-2": "bak",
         "family": "Turkic",
@@ -91,6 +104,7 @@
         "nativeName": "башҡорт теле"
     },
     "be": {
+        "id": "be",
         "639-1": "be",
         "639-2": "bel",
         "family": "Indo-European",
@@ -98,6 +112,7 @@
         "nativeName": "беларуская мова"
     },
     "bg": {
+        "id": "bg",
         "639-1": "bg",
         "639-2": "bul",
         "family": "Indo-European",
@@ -105,6 +120,7 @@
         "nativeName": "български език"
     },
     "bh": {
+        "id": "bh",
         "639-1": "bh",
         "639-2": "bih",
         "family": "Indo-European",
@@ -112,6 +128,7 @@
         "nativeName": "भोजपुरी"
     },
     "bi": {
+        "id": "bi",
         "639-1": "bi",
         "639-2": "bis",
         "family": "Creole",
@@ -119,6 +136,7 @@
         "nativeName": "Bislama"
     },
     "bm": {
+        "id": "bm",
         "639-1": "bm",
         "639-2": "bam",
         "family": "Niger–Congo",
@@ -126,6 +144,7 @@
         "nativeName": "bamanankan"
     },
     "bn": {
+        "id": "bn",
         "639-1": "bn",
         "639-2": "ben",
         "family": "Indo-European",
@@ -133,6 +152,7 @@
         "nativeName": "বাংলা"
     },
     "bo": {
+        "id": "bo",
         "639-1": "bo",
         "639-2": "bod",
         "639-2/B": "tib",
@@ -141,6 +161,7 @@
         "nativeName": "བོད་ཡིག"
     },
     "br": {
+        "id": "br",
         "639-1": "br",
         "639-2": "bre",
         "family": "Indo-European",
@@ -148,6 +169,7 @@
         "nativeName": "brezhoneg"
     },
     "bs": {
+        "id": "bs",
         "639-1": "bs",
         "639-2": "bos",
         "family": "Indo-European",
@@ -155,6 +177,7 @@
         "nativeName": "bosanski jezik"
     },
     "ca": {
+        "id": "ca",
         "639-1": "ca",
         "639-2": "cat",
         "family": "Indo-European",
@@ -162,6 +185,7 @@
         "nativeName": "català"
     },
     "ce": {
+        "id": "ce",
         "639-1": "ce",
         "639-2": "che",
         "family": "Northeast Caucasian",
@@ -169,6 +193,7 @@
         "nativeName": "нохчийн мотт"
     },
     "ch": {
+        "id": "ch",
         "639-1": "ch",
         "639-2": "cha",
         "family": "Austronesian",
@@ -176,6 +201,7 @@
         "nativeName": "Chamoru"
     },
     "co": {
+        "id": "co",
         "639-1": "co",
         "639-2": "cos",
         "family": "Indo-European",
@@ -183,6 +209,7 @@
         "nativeName": "corsu, lingua corsa"
     },
     "cr": {
+        "id": "cr",
         "639-1": "cr",
         "639-2": "cre",
         "family": "Algonquian",
@@ -190,6 +217,7 @@
         "nativeName": "ᓀᐦᐃᔭᐍᐏᐣ"
     },
     "cs": {
+        "id": "cs",
         "639-1": "cs",
         "639-2": "ces",
         "639-2/B": "cze",
@@ -198,6 +226,7 @@
         "nativeName": "čeština, český jazyk"
     },
     "cu": {
+        "id": "cu",
         "639-1": "cu",
         "639-2": "chu",
         "family": "Indo-European",
@@ -205,6 +234,7 @@
         "nativeName": "ѩзыкъ словѣньскъ"
     },
     "cv": {
+        "id": "cv",
         "639-1": "cv",
         "639-2": "chv",
         "family": "Turkic",
@@ -212,6 +242,7 @@
         "nativeName": "чӑваш чӗлхи"
     },
     "cy": {
+        "id": "cy",
         "639-1": "cy",
         "639-2": "cym",
         "639-2/B": "wel",
@@ -220,6 +251,7 @@
         "nativeName": "Cymraeg"
     },
     "da": {
+        "id": "da",
         "639-1": "da",
         "639-2": "dan",
         "family": "Indo-European",
@@ -227,6 +259,7 @@
         "nativeName": "dansk"
     },
     "de": {
+        "id": "de",
         "639-1": "de",
         "639-2": "deu",
         "639-2/B": "ger",
@@ -235,6 +268,7 @@
         "nativeName": "Deutsch"
     },
     "dv": {
+        "id": "dv",
         "639-1": "dv",
         "639-2": "div",
         "family": "Indo-European",
@@ -242,6 +276,7 @@
         "nativeName": "ދިވެހި"
     },
     "dz": {
+        "id": "dz",
         "639-1": "dz",
         "639-2": "dzo",
         "family": "Sino-Tibetan",
@@ -249,6 +284,7 @@
         "nativeName": "རྫོང་ཁ"
     },
     "ee": {
+        "id": "ee",
         "639-1": "ee",
         "639-2": "ewe",
         "family": "Niger–Congo",
@@ -256,6 +292,7 @@
         "nativeName": "Eʋegbe"
     },
     "el": {
+        "id": "el",
         "639-1": "el",
         "639-2": "ell",
         "639-2/B": "gre",
@@ -264,6 +301,7 @@
         "nativeName": "ελληνικά"
     },
     "en": {
+        "id": "en",
         "639-1": "en",
         "639-2": "eng",
         "family": "Indo-European",
@@ -271,6 +309,7 @@
         "nativeName": "English"
     },
     "eo": {
+        "id": "eo",
         "639-1": "eo",
         "639-2": "epo",
         "family": "Constructed",
@@ -278,6 +317,7 @@
         "nativeName": "Esperanto"
     },
     "es": {
+        "id": "es",
         "639-1": "es",
         "639-2": "spa",
         "family": "Indo-European",
@@ -285,6 +325,7 @@
         "nativeName": "Español"
     },
     "et": {
+        "id": "et",
         "639-1": "et",
         "639-2": "est",
         "family": "Uralic",
@@ -292,6 +333,7 @@
         "nativeName": "eesti, eesti keel"
     },
     "eu": {
+        "id": "eu",
         "639-1": "eu",
         "639-2": "eus",
         "639-2/B": "baq",
@@ -300,6 +342,7 @@
         "nativeName": "euskara, euskera"
     },
     "fa": {
+        "id": "fa",
         "639-1": "fa",
         "639-2": "fas",
         "639-2/B": "per",
@@ -308,6 +351,7 @@
         "nativeName": "فارسی"
     },
     "ff": {
+        "id": "ff",
         "639-1": "ff",
         "639-2": "ful",
         "family": "Niger–Congo",
@@ -315,6 +359,7 @@
         "nativeName": "Fulfulde, Pulaar, Pular"
     },
     "fi": {
+        "id": "fi",
         "639-1": "fi",
         "639-2": "fin",
         "family": "Uralic",
@@ -322,6 +367,7 @@
         "nativeName": "suomi, suomen kieli"
     },
     "fj": {
+        "id": "fj",
         "639-1": "fj",
         "639-2": "fij",
         "family": "Austronesian",
@@ -329,6 +375,7 @@
         "nativeName": "vosa Vakaviti"
     },
     "fo": {
+        "id": "fo",
         "639-1": "fo",
         "639-2": "fao",
         "family": "Indo-European",
@@ -336,6 +383,7 @@
         "nativeName": "føroyskt"
     },
     "fr": {
+        "id": "fr",
         "639-1": "fr",
         "639-2": "fra",
         "639-2/B": "fre",
@@ -344,6 +392,7 @@
         "nativeName": "français, langue française"
     },
     "fy": {
+        "id": "fy",
         "639-1": "fy",
         "639-2": "fry",
         "family": "Indo-European",
@@ -351,6 +400,7 @@
         "nativeName": "Frysk"
     },
     "ga": {
+        "id": "ga",
         "639-1": "ga",
         "639-2": "gle",
         "family": "Indo-European",
@@ -358,6 +408,7 @@
         "nativeName": "Gaeilge"
     },
     "gd": {
+        "id": "gd",
         "639-1": "gd",
         "639-2": "gla",
         "family": "Indo-European",
@@ -365,6 +416,7 @@
         "nativeName": "Gàidhlig"
     },
     "gl": {
+        "id": "gl",
         "639-1": "gl",
         "639-2": "glg",
         "family": "Indo-European",
@@ -372,6 +424,7 @@
         "nativeName": "galego"
     },
     "gn": {
+        "id": "gn",
         "639-1": "gn",
         "639-2": "grn",
         "family": "Tupian",
@@ -379,6 +432,7 @@
         "nativeName": "Avañe'ẽ"
     },
     "gu": {
+        "id": "gu",
         "639-1": "gu",
         "639-2": "guj",
         "family": "Indo-European",
@@ -386,6 +440,7 @@
         "nativeName": "ગુજરાતી"
     },
     "gv": {
+        "id": "gv",
         "639-1": "gv",
         "639-2": "glv",
         "family": "Indo-European",
@@ -393,6 +448,7 @@
         "nativeName": "Gaelg, Gailck"
     },
     "ha": {
+        "id": "ha",
         "639-1": "ha",
         "639-2": "hau",
         "family": "Afro-Asiatic",
@@ -400,6 +456,7 @@
         "nativeName": "(Hausa) هَوُسَ"
     },
     "he": {
+        "id": "he",
         "639-1": "he",
         "639-2": "heb",
         "family": "Afro-Asiatic",
@@ -407,6 +464,7 @@
         "nativeName": "עברית"
     },
     "hi": {
+        "id": "hi",
         "639-1": "hi",
         "639-2": "hin",
         "family": "Indo-European",
@@ -414,6 +472,7 @@
         "nativeName": "हिन्दी, हिंदी"
     },
     "ho": {
+        "id": "ho",
         "639-1": "ho",
         "639-2": "hmo",
         "family": "Austronesian",
@@ -421,6 +480,7 @@
         "nativeName": "Hiri Motu"
     },
     "hr": {
+        "id": "hr",
         "639-1": "hr",
         "639-2": "hrv",
         "family": "Indo-European",
@@ -428,6 +488,7 @@
         "nativeName": "hrvatski jezik"
     },
     "ht": {
+        "id": "ht",
         "639-1": "ht",
         "639-2": "hat",
         "family": "Creole",
@@ -435,6 +496,7 @@
         "nativeName": "Kreyòl ayisyen"
     },
     "hu": {
+        "id": "hu",
         "639-1": "hu",
         "639-2": "hun",
         "family": "Uralic",
@@ -442,6 +504,7 @@
         "nativeName": "magyar"
     },
     "hy": {
+        "id": "hy",
         "639-1": "hy",
         "639-2": "hye",
         "639-2/B": "arm",
@@ -450,6 +513,7 @@
         "nativeName": "Հայերեն"
     },
     "hz": {
+        "id": "hz",
         "639-1": "hz",
         "639-2": "her",
         "family": "Niger–Congo",
@@ -457,6 +521,7 @@
         "nativeName": "Otjiherero"
     },
     "ia": {
+        "id": "ia",
         "639-1": "ia",
         "639-2": "ina",
         "family": "Constructed",
@@ -464,6 +529,7 @@
         "nativeName": "Interlingua"
     },
     "id": {
+        "id": "id",
         "639-1": "id",
         "639-2": "ind",
         "family": "Austronesian",
@@ -471,6 +537,7 @@
         "nativeName": "Bahasa Indonesia"
     },
     "ie": {
+        "id": "ie",
         "639-1": "ie",
         "639-2": "ile",
         "family": "Constructed",
@@ -478,6 +545,7 @@
         "nativeName": "Originally called Occidental; then Interlingue after WWII"
     },
     "ig": {
+        "id": "ig",
         "639-1": "ig",
         "639-2": "ibo",
         "family": "Niger–Congo",
@@ -485,6 +553,7 @@
         "nativeName": "Asụsụ Igbo"
     },
     "ii": {
+        "id": "ii",
         "639-1": "ii",
         "639-2": "iii",
         "family": "Sino-Tibetan",
@@ -492,6 +561,7 @@
         "nativeName": "ꆈꌠ꒿ Nuosuhxop"
     },
     "ik": {
+        "id": "ik",
         "639-1": "ik",
         "639-2": "ipk",
         "family": "Eskimo–Aleut",
@@ -499,6 +569,7 @@
         "nativeName": "Iñupiaq, Iñupiatun"
     },
     "io": {
+        "id": "io",
         "639-1": "io",
         "639-2": "ido",
         "family": "Constructed",
@@ -506,6 +577,7 @@
         "nativeName": "Ido"
     },
     "is": {
+        "id": "is",
         "639-1": "is",
         "639-2": "isl",
         "639-2/B": "ice",
@@ -514,6 +586,7 @@
         "nativeName": "Íslenska"
     },
     "it": {
+        "id": "it",
         "639-1": "it",
         "639-2": "ita",
         "family": "Indo-European",
@@ -521,6 +594,7 @@
         "nativeName": "Italiano"
     },
     "iu": {
+        "id": "iu",
         "639-1": "iu",
         "639-2": "iku",
         "family": "Eskimo–Aleut",
@@ -528,6 +602,7 @@
         "nativeName": "ᐃᓄᒃᑎᑐᑦ"
     },
     "ja": {
+        "id": "ja",
         "639-1": "ja",
         "639-2": "jpn",
         "family": "Japonic",
@@ -535,6 +610,7 @@
         "nativeName": "日本語 (にほんご)"
     },
     "jv": {
+        "id": "jv",
         "639-1": "jv",
         "639-2": "jav",
         "family": "Austronesian",
@@ -542,6 +618,7 @@
         "nativeName": "ꦧꦱꦗꦮ, Basa Jawa"
     },
     "ka": {
+        "id": "ka",
         "639-1": "ka",
         "639-2": "kat",
         "639-2/B": "geo",
@@ -550,6 +627,7 @@
         "nativeName": "ქართული"
     },
     "kg": {
+        "id": "kg",
         "639-1": "kg",
         "639-2": "kon",
         "family": "Niger–Congo",
@@ -557,6 +635,7 @@
         "nativeName": "Kikongo"
     },
     "ki": {
+        "id": "ki",
         "639-1": "ki",
         "639-2": "kik",
         "family": "Niger–Congo",
@@ -564,6 +643,7 @@
         "nativeName": "Gĩkũyũ"
     },
     "kj": {
+        "id": "kj",
         "639-1": "kj",
         "639-2": "kua",
         "family": "Niger–Congo",
@@ -571,6 +651,7 @@
         "nativeName": "Kuanyama"
     },
     "kk": {
+        "id": "kk",
         "639-1": "kk",
         "639-2": "kaz",
         "family": "Turkic",
@@ -578,6 +659,7 @@
         "nativeName": "қазақ тілі"
     },
     "kl": {
+        "id": "kl",
         "639-1": "kl",
         "639-2": "kal",
         "family": "Eskimo–Aleut",
@@ -585,6 +667,7 @@
         "nativeName": "kalaallisut, kalaallit oqaasii"
     },
     "km": {
+        "id": "km",
         "639-1": "km",
         "639-2": "khm",
         "family": "Austroasiatic",
@@ -592,6 +675,7 @@
         "nativeName": "ខ្មែរ, ខេមរភាសា, ភាសាខ្មែរ"
     },
     "kn": {
+        "id": "kn",
         "639-1": "kn",
         "639-2": "kan",
         "family": "Dravidian",
@@ -599,6 +683,7 @@
         "nativeName": "ಕನ್ನಡ"
     },
     "ko": {
+        "id": "ko",
         "639-1": "ko",
         "639-2": "kor",
         "family": "Koreanic",
@@ -606,6 +691,7 @@
         "nativeName": "한국어"
     },
     "kr": {
+        "id": "kr",
         "639-1": "kr",
         "639-2": "kau",
         "family": "Nilo-Saharan",
@@ -613,6 +699,7 @@
         "nativeName": "Kanuri"
     },
     "ks": {
+        "id": "ks",
         "639-1": "ks",
         "639-2": "kas",
         "family": "Indo-European",
@@ -620,6 +707,7 @@
         "nativeName": "कश्मीरी, كشميري‎"
     },
     "ku": {
+        "id": "ku",
         "639-1": "ku",
         "639-2": "kur",
         "family": "Indo-European",
@@ -627,6 +715,7 @@
         "nativeName": "Kurdî, كوردی‎"
     },
     "kv": {
+        "id": "kv",
         "639-1": "kv",
         "639-2": "kom",
         "family": "Uralic",
@@ -634,6 +723,7 @@
         "nativeName": "коми кыв"
     },
     "kw": {
+        "id": "kw",
         "639-1": "kw",
         "639-2": "cor",
         "family": "Indo-European",
@@ -641,6 +731,7 @@
         "nativeName": "Kernewek"
     },
     "ky": {
+        "id": "ky",
         "639-1": "ky",
         "639-2": "kir",
         "family": "Turkic",
@@ -648,6 +739,7 @@
         "nativeName": "Кыргызча, Кыргыз тили"
     },
     "la": {
+        "id": "la",
         "639-1": "la",
         "639-2": "lat",
         "family": "Indo-European",
@@ -655,6 +747,7 @@
         "nativeName": "latine, lingua latina"
     },
     "lb": {
+        "id": "lb",
         "639-1": "lb",
         "639-2": "ltz",
         "family": "Indo-European",
@@ -662,6 +755,7 @@
         "nativeName": "Lëtzebuergesch"
     },
     "lg": {
+        "id": "lg",
         "639-1": "lg",
         "639-2": "lug",
         "family": "Niger–Congo",
@@ -669,6 +763,7 @@
         "nativeName": "Luganda"
     },
     "li": {
+        "id": "li",
         "639-1": "li",
         "639-2": "lim",
         "family": "Indo-European",
@@ -676,6 +771,7 @@
         "nativeName": "Limburgs"
     },
     "ln": {
+        "id": "ln",
         "639-1": "ln",
         "639-2": "lin",
         "family": "Niger–Congo",
@@ -683,6 +779,7 @@
         "nativeName": "Lingála"
     },
     "lo": {
+        "id": "lo",
         "639-1": "lo",
         "639-2": "lao",
         "family": "Tai–Kadai",
@@ -690,6 +787,7 @@
         "nativeName": "ພາສາລາວ"
     },
     "lt": {
+        "id": "lt",
         "639-1": "lt",
         "639-2": "lit",
         "family": "Indo-European",
@@ -697,6 +795,7 @@
         "nativeName": "lietuvių kalba"
     },
     "lu": {
+        "id": "lu",
         "639-1": "lu",
         "639-2": "lub",
         "family": "Niger–Congo",
@@ -704,6 +803,7 @@
         "nativeName": "Tshiluba"
     },
     "lv": {
+        "id": "lv",
         "639-1": "lv",
         "639-2": "lav",
         "family": "Indo-European",
@@ -711,6 +811,7 @@
         "nativeName": "latviešu valoda"
     },
     "mg": {
+        "id": "mg",
         "639-1": "mg",
         "639-2": "mlg",
         "family": "Austronesian",
@@ -718,6 +819,7 @@
         "nativeName": "fiteny malagasy"
     },
     "mh": {
+        "id": "mh",
         "639-1": "mh",
         "639-2": "mah",
         "family": "Austronesian",
@@ -725,6 +827,7 @@
         "nativeName": "Kajin M̧ajeļ"
     },
     "mi": {
+        "id": "mi",
         "639-1": "mi",
         "639-2": "mri",
         "639-2/B": "mao",
@@ -733,6 +836,7 @@
         "nativeName": "te reo Māori"
     },
     "mk": {
+        "id": "mk",
         "639-1": "mk",
         "639-2": "mkd",
         "639-2/B": "mac",
@@ -741,6 +845,7 @@
         "nativeName": "македонски јазик"
     },
     "ml": {
+        "id": "ml",
         "639-1": "ml",
         "639-2": "mal",
         "family": "Dravidian",
@@ -748,6 +853,7 @@
         "nativeName": "മലയാളം"
     },
     "mn": {
+        "id": "mn",
         "639-1": "mn",
         "639-2": "mon",
         "family": "Mongolic",
@@ -755,6 +861,7 @@
         "nativeName": "Монгол хэл"
     },
     "mr": {
+        "id": "mr",
         "639-1": "mr",
         "639-2": "mar",
         "family": "Indo-European",
@@ -762,6 +869,7 @@
         "nativeName": "मराठी"
     },
     "ms": {
+        "id": "ms",
         "639-1": "ms",
         "639-2": "msa",
         "639-2/B": "may",
@@ -770,6 +878,7 @@
         "nativeName": "bahasa Melayu, بهاس ملايو‎"
     },
     "mt": {
+        "id": "mt",
         "639-1": "mt",
         "639-2": "mlt",
         "family": "Afro-Asiatic",
@@ -777,6 +886,7 @@
         "nativeName": "Malti"
     },
     "my": {
+        "id": "my",
         "639-1": "my",
         "639-2": "mya",
         "639-2/B": "bur",
@@ -785,6 +895,7 @@
         "nativeName": "ဗမာစာ"
     },
     "na": {
+        "id": "na",
         "639-1": "na",
         "639-2": "nau",
         "family": "Austronesian",
@@ -792,6 +903,7 @@
         "nativeName": "Dorerin Naoero"
     },
     "nb": {
+        "id": "nb",
         "639-1": "nb",
         "639-2": "nob",
         "family": "Indo-European",
@@ -799,6 +911,7 @@
         "nativeName": "Norsk bokmål"
     },
     "nd": {
+        "id": "nd",
         "639-1": "nd",
         "639-2": "nde",
         "family": "Niger–Congo",
@@ -806,6 +919,7 @@
         "nativeName": "isiNdebele"
     },
     "ne": {
+        "id": "ne",
         "639-1": "ne",
         "639-2": "nep",
         "family": "Indo-European",
@@ -813,6 +927,7 @@
         "nativeName": "नेपाली"
     },
     "ng": {
+        "id": "ng",
         "639-1": "ng",
         "639-2": "ndo",
         "family": "Niger–Congo",
@@ -820,6 +935,7 @@
         "nativeName": "Owambo"
     },
     "nl": {
+        "id": "nl",
         "639-1": "nl",
         "639-2": "nld",
         "639-2/B": "dut",
@@ -828,6 +944,7 @@
         "nativeName": "Nederlands, Vlaams"
     },
     "nn": {
+        "id": "nn",
         "639-1": "nn",
         "639-2": "nno",
         "family": "Indo-European",
@@ -835,6 +952,7 @@
         "nativeName": "Norsk nynorsk"
     },
     "no": {
+        "id": "no",
         "639-1": "no",
         "639-2": "nor",
         "family": "Indo-European",
@@ -842,6 +960,7 @@
         "nativeName": "Norsk"
     },
     "nr": {
+        "id": "nr",
         "639-1": "nr",
         "639-2": "nbl",
         "family": "Niger–Congo",
@@ -849,6 +968,7 @@
         "nativeName": "isiNdebele"
     },
     "nv": {
+        "id": "nv",
         "639-1": "nv",
         "639-2": "nav",
         "family": "Dené–Yeniseian",
@@ -856,6 +976,7 @@
         "nativeName": "Diné bizaad"
     },
     "ny": {
+        "id": "ny",
         "639-1": "ny",
         "639-2": "nya",
         "family": "Niger–Congo",
@@ -863,6 +984,7 @@
         "nativeName": "chiCheŵa, chinyanja"
     },
     "oc": {
+        "id": "oc",
         "639-1": "oc",
         "639-2": "oci",
         "family": "Indo-European",
@@ -870,6 +992,7 @@
         "nativeName": "occitan, lenga d'òc"
     },
     "oj": {
+        "id": "oj",
         "639-1": "oj",
         "639-2": "oji",
         "family": "Algonquian",
@@ -877,6 +1000,7 @@
         "nativeName": "ᐊᓂᔑᓈᐯᒧᐎᓐ"
     },
     "om": {
+        "id": "om",
         "639-1": "om",
         "639-2": "orm",
         "family": "Afro-Asiatic",
@@ -884,6 +1008,7 @@
         "nativeName": "Afaan Oromoo"
     },
     "or": {
+        "id": "or",
         "639-1": "or",
         "639-2": "ori",
         "family": "Indo-European",
@@ -891,6 +1016,7 @@
         "nativeName": "ଓଡ଼ିଆ"
     },
     "os": {
+        "id": "os",
         "639-1": "os",
         "639-2": "oss",
         "family": "Indo-European",
@@ -898,6 +1024,7 @@
         "nativeName": "ирон æвзаг"
     },
     "pa": {
+        "id": "pa",
         "639-1": "pa",
         "639-2": "pan",
         "family": "Indo-European",
@@ -905,6 +1032,7 @@
         "nativeName": "ਪੰਜਾਬੀ"
     },
     "pi": {
+        "id": "pi",
         "639-1": "pi",
         "639-2": "pli",
         "family": "Indo-European",
@@ -912,6 +1040,7 @@
         "nativeName": "पाऴि"
     },
     "pl": {
+        "id": "pl",
         "639-1": "pl",
         "639-2": "pol",
         "family": "Indo-European",
@@ -919,6 +1048,7 @@
         "nativeName": "język polski, polszczyzna"
     },
     "ps": {
+        "id": "ps",
         "639-1": "ps",
         "639-2": "pus",
         "family": "Indo-European",
@@ -926,6 +1056,7 @@
         "nativeName": "پښتو"
     },
     "pt": {
+        "id": "pt",
         "639-1": "pt",
         "639-2": "por",
         "family": "Indo-European",
@@ -933,6 +1064,7 @@
         "nativeName": "Português"
     },
     "qu": {
+        "id": "qu",
         "639-1": "qu",
         "639-2": "que",
         "family": "Quechuan",
@@ -940,6 +1072,7 @@
         "nativeName": "Runa Simi, Kichwa"
     },
     "rm": {
+        "id": "rm",
         "639-1": "rm",
         "639-2": "roh",
         "family": "Indo-European",
@@ -947,6 +1080,7 @@
         "nativeName": "rumantsch grischun"
     },
     "rn": {
+        "id": "rn",
         "639-1": "rn",
         "639-2": "run",
         "family": "Niger–Congo",
@@ -954,6 +1088,7 @@
         "nativeName": "Ikirundi"
     },
     "ro": {
+        "id": "ro",
         "639-1": "ro",
         "639-2": "ron",
         "639-2/B": "rum",
@@ -962,6 +1097,7 @@
         "nativeName": "Română"
     },
     "ru": {
+        "id": "ru",
         "639-1": "ru",
         "639-2": "rus",
         "family": "Indo-European",
@@ -969,6 +1105,7 @@
         "nativeName": "Русский"
     },
     "rw": {
+        "id": "rw",
         "639-1": "rw",
         "639-2": "kin",
         "family": "Niger–Congo",
@@ -976,6 +1113,7 @@
         "nativeName": "Ikinyarwanda"
     },
     "sa": {
+        "id": "sa",
         "639-1": "sa",
         "639-2": "san",
         "family": "Indo-European",
@@ -983,6 +1121,7 @@
         "nativeName": "संस्कृतम्"
     },
     "sc": {
+        "id": "sc",
         "639-1": "sc",
         "639-2": "srd",
         "family": "Indo-European",
@@ -990,6 +1129,7 @@
         "nativeName": "sardu"
     },
     "sd": {
+        "id": "sd",
         "639-1": "sd",
         "639-2": "snd",
         "family": "Indo-European",
@@ -997,6 +1137,7 @@
         "nativeName": "सिन्धी, سنڌي، سندھی‎"
     },
     "se": {
+        "id": "se",
         "639-1": "se",
         "639-2": "sme",
         "family": "Uralic",
@@ -1004,6 +1145,7 @@
         "nativeName": "Davvisámegiella"
     },
     "sg": {
+        "id": "sg",
         "639-1": "sg",
         "639-2": "sag",
         "family": "Creole",
@@ -1011,6 +1153,7 @@
         "nativeName": "yângâ tî sängö"
     },
     "si": {
+        "id": "si",
         "639-1": "si",
         "639-2": "sin",
         "family": "Indo-European",
@@ -1018,6 +1161,7 @@
         "nativeName": "සිංහල"
     },
     "sk": {
+        "id": "sk",
         "639-1": "sk",
         "639-2": "slk",
         "639-2/B": "slo",
@@ -1026,6 +1170,7 @@
         "nativeName": "slovenčina, slovenský jazyk"
     },
     "sl": {
+        "id": "sl",
         "639-1": "sl",
         "639-2": "slv",
         "family": "Indo-European",
@@ -1033,6 +1178,7 @@
         "nativeName": "slovenski jezik, slovenščina"
     },
     "sm": {
+        "id": "sm",
         "639-1": "sm",
         "639-2": "smo",
         "family": "Austronesian",
@@ -1040,6 +1186,7 @@
         "nativeName": "gagana fa'a Samoa"
     },
     "sn": {
+        "id": "sn",
         "639-1": "sn",
         "639-2": "sna",
         "family": "Niger–Congo",
@@ -1047,6 +1194,7 @@
         "nativeName": "chiShona"
     },
     "so": {
+        "id": "so",
         "639-1": "so",
         "639-2": "som",
         "family": "Afro-Asiatic",
@@ -1054,6 +1202,7 @@
         "nativeName": "Soomaaliga, af Soomaali"
     },
     "sq": {
+        "id": "sq",
         "639-1": "sq",
         "639-2": "sqi",
         "639-2/B": "alb",
@@ -1062,6 +1211,7 @@
         "nativeName": "Shqip"
     },
     "sr": {
+        "id": "sr",
         "639-1": "sr",
         "639-2": "srp",
         "family": "Indo-European",
@@ -1069,6 +1219,7 @@
         "nativeName": "српски језик"
     },
     "ss": {
+        "id": "ss",
         "639-1": "ss",
         "639-2": "ssw",
         "family": "Niger–Congo",
@@ -1076,6 +1227,7 @@
         "nativeName": "SiSwati"
     },
     "st": {
+        "id": "st",
         "639-1": "st",
         "639-2": "sot",
         "family": "Niger–Congo",
@@ -1083,6 +1235,7 @@
         "nativeName": "Sesotho"
     },
     "su": {
+        "id": "su",
         "639-1": "su",
         "639-2": "sun",
         "family": "Austronesian",
@@ -1090,6 +1243,7 @@
         "nativeName": "Basa Sunda"
     },
     "sv": {
+        "id": "sv",
         "639-1": "sv",
         "639-2": "swe",
         "family": "Indo-European",
@@ -1097,6 +1251,7 @@
         "nativeName": "svenska"
     },
     "sw": {
+        "id": "sw",
         "639-1": "sw",
         "639-2": "swa",
         "family": "Niger–Congo",
@@ -1104,6 +1259,7 @@
         "nativeName": "Kiswahili"
     },
     "ta": {
+        "id": "ta",
         "639-1": "ta",
         "639-2": "tam",
         "family": "Dravidian",
@@ -1111,6 +1267,7 @@
         "nativeName": "தமிழ்"
     },
     "te": {
+        "id": "te",
         "639-1": "te",
         "639-2": "tel",
         "family": "Dravidian",
@@ -1118,6 +1275,7 @@
         "nativeName": "తెలుగు"
     },
     "tg": {
+        "id": "tg",
         "639-1": "tg",
         "639-2": "tgk",
         "family": "Indo-European",
@@ -1125,6 +1283,7 @@
         "nativeName": "тоҷикӣ, toçikī, تاجیکی‎"
     },
     "th": {
+        "id": "th",
         "639-1": "th",
         "639-2": "tha",
         "family": "Tai–Kadai",
@@ -1132,6 +1291,7 @@
         "nativeName": "ไทย"
     },
     "ti": {
+        "id": "ti",
         "639-1": "ti",
         "639-2": "tir",
         "family": "Afro-Asiatic",
@@ -1139,6 +1299,7 @@
         "nativeName": "ትግርኛ"
     },
     "tk": {
+        "id": "tk",
         "639-1": "tk",
         "639-2": "tuk",
         "family": "Turkic",
@@ -1146,6 +1307,7 @@
         "nativeName": "Türkmen, Түркмен"
     },
     "tl": {
+        "id": "tl",
         "639-1": "tl",
         "639-2": "tgl",
         "family": "Austronesian",
@@ -1153,6 +1315,7 @@
         "nativeName": "Wikang Tagalog"
     },
     "tn": {
+        "id": "tn",
         "639-1": "tn",
         "639-2": "tsn",
         "family": "Niger–Congo",
@@ -1160,6 +1323,7 @@
         "nativeName": "Setswana"
     },
     "to": {
+        "id": "to",
         "639-1": "to",
         "639-2": "ton",
         "family": "Austronesian",
@@ -1167,6 +1331,7 @@
         "nativeName": "faka Tonga"
     },
     "tr": {
+        "id": "tr",
         "639-1": "tr",
         "639-2": "tur",
         "family": "Turkic",
@@ -1174,6 +1339,7 @@
         "nativeName": "Türkçe"
     },
     "ts": {
+        "id": "ts",
         "639-1": "ts",
         "639-2": "tso",
         "family": "Niger–Congo",
@@ -1181,6 +1347,7 @@
         "nativeName": "Xitsonga"
     },
     "tt": {
+        "id": "tt",
         "639-1": "tt",
         "639-2": "tat",
         "family": "Turkic",
@@ -1188,6 +1355,7 @@
         "nativeName": "татар теле, tatar tele"
     },
     "tw": {
+        "id": "tw",
         "639-1": "tw",
         "639-2": "twi",
         "family": "Niger–Congo",
@@ -1195,6 +1363,7 @@
         "nativeName": "Twi"
     },
     "ty": {
+        "id": "ty",
         "639-1": "ty",
         "639-2": "tah",
         "family": "Austronesian",
@@ -1202,6 +1371,7 @@
         "nativeName": "Reo Tahiti"
     },
     "ug": {
+        "id": "ug",
         "639-1": "ug",
         "639-2": "uig",
         "family": "Turkic",
@@ -1209,6 +1379,7 @@
         "nativeName": "ئۇيغۇرچە‎, Uyghurche"
     },
     "uk": {
+        "id": "uk",
         "639-1": "uk",
         "639-2": "ukr",
         "family": "Indo-European",
@@ -1216,6 +1387,7 @@
         "nativeName": "Українська"
     },
     "ur": {
+        "id": "ur",
         "639-1": "ur",
         "639-2": "urd",
         "family": "Indo-European",
@@ -1223,6 +1395,7 @@
         "nativeName": "اردو"
     },
     "uz": {
+        "id": "uz",
         "639-1": "uz",
         "639-2": "uzb",
         "family": "Turkic",
@@ -1230,6 +1403,7 @@
         "nativeName": "Oʻzbek, Ўзбек, أۇزبېك‎"
     },
     "ve": {
+        "id": "ve",
         "639-1": "ve",
         "639-2": "ven",
         "family": "Niger–Congo",
@@ -1237,6 +1411,7 @@
         "nativeName": "Tshivenḓa"
     },
     "vi": {
+        "id": "vi",
         "639-1": "vi",
         "639-2": "vie",
         "family": "Austroasiatic",
@@ -1244,6 +1419,7 @@
         "nativeName": "Tiếng Việt"
     },
     "vo": {
+        "id": "vo",
         "639-1": "vo",
         "639-2": "vol",
         "family": "Constructed",
@@ -1251,6 +1427,7 @@
         "nativeName": "Volapük"
     },
     "wa": {
+        "id": "wa",
         "639-1": "wa",
         "639-2": "wln",
         "family": "Indo-European",
@@ -1258,6 +1435,7 @@
         "nativeName": "walon"
     },
     "wo": {
+        "id": "wo",
         "639-1": "wo",
         "639-2": "wol",
         "family": "Niger–Congo",
@@ -1265,6 +1443,7 @@
         "nativeName": "Wollof"
     },
     "xh": {
+        "id": "xh",
         "639-1": "xh",
         "639-2": "xho",
         "family": "Niger–Congo",
@@ -1272,6 +1451,7 @@
         "nativeName": "isiXhosa"
     },
     "yi": {
+        "id": "yi",
         "639-1": "yi",
         "639-2": "yid",
         "family": "Indo-European",
@@ -1279,6 +1459,7 @@
         "nativeName": "ייִדיש"
     },
     "yo": {
+        "id": "yo",
         "639-1": "yo",
         "639-2": "yor",
         "family": "Niger–Congo",
@@ -1286,6 +1467,7 @@
         "nativeName": "Yorùbá"
     },
     "za": {
+        "id": "za",
         "639-1": "za",
         "639-2": "zha",
         "family": "Tai–Kadai",
@@ -1293,6 +1475,7 @@
         "nativeName": "Saɯ cueŋƅ, Saw cuengh"
     },
     "zh": {
+        "id": "zh",
         "639-1": "zh",
         "639-2": "zho",
         "639-2/B": "chi",
@@ -1301,6 +1484,7 @@
         "nativeName": "中文 (Zhōngwén), 汉语, 漢語"
     },
     "zu": {
+        "id": "zu",
         "639-1": "zu",
         "639-2": "zul",
         "family": "Niger–Congo",
