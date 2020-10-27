@@ -1,3 +1,14 @@
+## 0.85.0 (2020-10-27)
+
+-   docs updated
+-   countries db refactored for browser
+-   subnets refactored
+-   deps updated
+-   mime updated
+-   databases updated
+-   languages db added
+-   currencies db added
+
 ## 0.84.0 (2020-10-26)
 
 -   timezones db added
