@@ -1,0 +1,30 @@
+{
+    "AF": {
+        "id": "AF",
+        "name": "Africa"
+    },
+    "AN": {
+        "id": "AN",
+        "name": "Antarctica"
+    },
+    "AS": {
+        "id": "AS",
+        "name": "Asia"
+    },
+    "EU": {
+        "id": "EU",
+        "name": "Europe"
+    },
+    "NA": {
+        "id": "NA",
+        "name": "North america"
+    },
+    "OC": {
+        "id": "OC",
+        "name": "Oceania"
+    },
+    "SA": {
+        "id": "SA",
+        "name": "South america"
+    }
+}
