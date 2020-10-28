@@ -1,3 +1,9 @@
+## 0.85.2 (2020-10-28)
+
+-   packetstream country code refactored
+-   continents db added
+-   subnets db updated
+
 ## 0.85.1 (2020-10-27)
 
 -   object type validation fixed
