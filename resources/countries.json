@@ -49,7 +49,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 42.5,
+            "longitude": 1.5
+        }
     },
     "AE": {
         "id": "AE",
@@ -85,7 +89,11 @@
         "currencies": [
             "AED"
         ],
-        "currency": "AED"
+        "currency": "AED",
+        "coordinates": {
+            "latitude": 24,
+            "longitude": 54
+        }
     },
     "AF": {
         "id": "AF",
@@ -119,7 +127,11 @@
         "currencies": [
             "AFN"
         ],
-        "currency": "AFN"
+        "currency": "AFN",
+        "coordinates": {
+            "latitude": 33,
+            "longitude": 65
+        }
     },
     "AG": {
         "id": "AG",
@@ -147,7 +159,11 @@
         "currencies": [
             "XCD"
         ],
-        "currency": "XCD"
+        "currency": "XCD",
+        "coordinates": {
+            "latitude": 17.05,
+            "longitude": -61.8
+        }
     },
     "AI": {
         "id": "AI",
@@ -175,7 +191,11 @@
         "currencies": [
             "XCD"
         ],
-        "currency": "XCD"
+        "currency": "XCD",
+        "coordinates": {
+            "latitude": 18.25,
+            "longitude": -63.16666666
+        }
     },
     "AL": {
         "id": "AL",
@@ -207,7 +227,11 @@
         "currencies": [
             "ALL"
         ],
-        "currency": "ALL"
+        "currency": "ALL",
+        "coordinates": {
+            "latitude": 41,
+            "longitude": 20
+        }
     },
     "AM": {
         "id": "AM",
@@ -237,7 +261,11 @@
         "currencies": [
             "AMD"
         ],
-        "currency": "AMD"
+        "currency": "AMD",
+        "coordinates": {
+            "latitude": 40,
+            "longitude": 45
+        }
     },
     "AO": {
         "id": "AO",
@@ -265,7 +293,11 @@
         "currencies": [
             "AOA"
         ],
-        "currency": "AOA"
+        "currency": "AOA",
+        "coordinates": {
+            "latitude": -12.5,
+            "longitude": 18.5
+        }
     },
     "AQ": {
         "id": "AQ",
@@ -293,7 +325,11 @@
         "languages": [],
         "region": "Antarctic",
         "subRegion": "",
-        "currencies": []
+        "currencies": [],
+        "coordinates": {
+            "latitude": -90,
+            "longitude": 0
+        }
     },
     "AR": {
         "id": "AR",
@@ -351,7 +387,11 @@
         "currencies": [
             "ARS"
         ],
-        "currency": "ARS"
+        "currency": "ARS",
+        "coordinates": {
+            "latitude": -34,
+            "longitude": -64
+        }
     },
     "AS": {
         "id": "AS",
@@ -387,7 +427,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": -14.33333333,
+            "longitude": -170
+        }
     },
     "AT": {
         "id": "AT",
@@ -423,7 +467,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 47.33333333,
+            "longitude": 13.33333333
+        }
     },
     "AU": {
         "id": "AU",
@@ -476,7 +524,11 @@
         "currencies": [
             "AUD"
         ],
-        "currency": "AUD"
+        "currency": "AUD",
+        "coordinates": {
+            "latitude": -27,
+            "longitude": 133
+        }
     },
     "AW": {
         "id": "AW",
@@ -510,7 +562,11 @@
         "currencies": [
             "AWG"
         ],
-        "currency": "AWG"
+        "currency": "AWG",
+        "coordinates": {
+            "latitude": 12.5,
+            "longitude": -69.96666666
+        }
     },
     "AX": {
         "id": "AX",
@@ -540,7 +596,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 60.116667,
+            "longitude": 19.9
+        }
     },
     "AZ": {
         "id": "AZ",
@@ -574,7 +634,11 @@
         "currencies": [
             "AZN"
         ],
-        "currency": "AZN"
+        "currency": "AZN",
+        "coordinates": {
+            "latitude": 40.5,
+            "longitude": 47.5
+        }
     },
     "BA": {
         "id": "BA",
@@ -608,7 +672,11 @@
         "currencies": [
             "BAM"
         ],
-        "currency": "BAM"
+        "currency": "BAM",
+        "coordinates": {
+            "latitude": 44,
+            "longitude": 18
+        }
     },
     "BB": {
         "id": "BB",
@@ -638,7 +706,11 @@
         "currencies": [
             "BBD"
         ],
-        "currency": "BBD"
+        "currency": "BBD",
+        "coordinates": {
+            "latitude": 13.16666666,
+            "longitude": -59.53333333
+        }
     },
     "BD": {
         "id": "BD",
@@ -671,7 +743,11 @@
         "currencies": [
             "BDT"
         ],
-        "currency": "BDT"
+        "currency": "BDT",
+        "coordinates": {
+            "latitude": 24,
+            "longitude": 90
+        }
     },
     "BE": {
         "id": "BE",
@@ -705,7 +781,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 50.83333333,
+            "longitude": 4
+        }
     },
     "BF": {
         "id": "BF",
@@ -735,7 +815,11 @@
         "currencies": [
             "XOF"
         ],
-        "currency": "XOF"
+        "currency": "XOF",
+        "coordinates": {
+            "latitude": 13,
+            "longitude": -2
+        }
     },
     "BG": {
         "id": "BG",
@@ -769,7 +853,11 @@
         "currencies": [
             "BGN"
         ],
-        "currency": "BGN"
+        "currency": "BGN",
+        "coordinates": {
+            "latitude": 43,
+            "longitude": 25
+        }
     },
     "BH": {
         "id": "BH",
@@ -805,7 +893,11 @@
         "currencies": [
             "BHD"
         ],
-        "currency": "BHD"
+        "currency": "BHD",
+        "coordinates": {
+            "latitude": 26,
+            "longitude": 50.55
+        }
     },
     "BI": {
         "id": "BI",
@@ -835,7 +927,11 @@
         "currencies": [
             "BIF"
         ],
-        "currency": "BIF"
+        "currency": "BIF",
+        "coordinates": {
+            "latitude": -3.5,
+            "longitude": 30
+        }
     },
     "BJ": {
         "id": "BJ",
@@ -863,7 +959,11 @@
         "currencies": [
             "XOF"
         ],
-        "currency": "XOF"
+        "currency": "XOF",
+        "coordinates": {
+            "latitude": 9.5,
+            "longitude": 2.25
+        }
     },
     "BL": {
         "id": "BL",
@@ -893,7 +993,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 18.5,
+            "longitude": -63.41666666
+        }
     },
     "BM": {
         "id": "BM",
@@ -925,7 +1029,11 @@
         "currencies": [
             "BMD"
         ],
-        "currency": "BMD"
+        "currency": "BMD",
+        "coordinates": {
+            "latitude": 32.33333333,
+            "longitude": -64.75
+        }
     },
     "BN": {
         "id": "BN",
@@ -958,7 +1066,11 @@
             "BND",
             "SGD"
         ],
-        "currency": "BND"
+        "currency": "BND",
+        "coordinates": {
+            "latitude": 4.5,
+            "longitude": 114.66666666
+        }
     },
     "BO": {
         "id": "BO",
@@ -990,7 +1102,11 @@
         "currencies": [
             "BOB"
         ],
-        "currency": "BOB"
+        "currency": "BOB",
+        "coordinates": {
+            "latitude": -17,
+            "longitude": -65
+        }
     },
     "BQ": {
         "id": "BQ",
@@ -1078,7 +1194,11 @@
         "currencies": [
             "BRL"
         ],
-        "currency": "BRL"
+        "currency": "BRL",
+        "coordinates": {
+            "latitude": -10,
+            "longitude": -55
+        }
     },
     "BS": {
         "id": "BS",
@@ -1107,7 +1227,11 @@
             "BSD",
             "USD"
         ],
-        "currency": "BSD"
+        "currency": "BSD",
+        "coordinates": {
+            "latitude": 24.25,
+            "longitude": -76
+        }
     },
     "BT": {
         "id": "BT",
@@ -1137,7 +1261,11 @@
             "BTN",
             "INR"
         ],
-        "currency": "BTN"
+        "currency": "BTN",
+        "coordinates": {
+            "latitude": 27.5,
+            "longitude": 90.5
+        }
     },
     "BV": {
         "id": "BV",
@@ -1153,7 +1281,11 @@
         "region": "Antarctic",
         "subRegion": "",
         "currencies": [],
-        "currency": "NOK"
+        "currency": "NOK",
+        "coordinates": {
+            "latitude": -54.43333333,
+            "longitude": 3.4
+        }
     },
     "BW": {
         "id": "BW",
@@ -1183,7 +1315,11 @@
         "currencies": [
             "BWP"
         ],
-        "currency": "BWP"
+        "currency": "BWP",
+        "coordinates": {
+            "latitude": -22,
+            "longitude": 24
+        }
     },
     "BY": {
         "id": "BY",
@@ -1215,7 +1351,11 @@
         "currencies": [
             "BYN"
         ],
-        "currency": "BYN"
+        "currency": "BYN",
+        "coordinates": {
+            "latitude": 53,
+            "longitude": 28
+        }
     },
     "BZ": {
         "id": "BZ",
@@ -1245,7 +1385,11 @@
         "currencies": [
             "BZD"
         ],
-        "currency": "BZD"
+        "currency": "BZD",
+        "coordinates": {
+            "latitude": 17.25,
+            "longitude": -88.75
+        }
     },
     "CA": {
         "id": "CA",
@@ -1316,7 +1460,11 @@
         "currencies": [
             "CAD"
         ],
-        "currency": "CAD"
+        "currency": "CAD",
+        "coordinates": {
+            "latitude": 60,
+            "longitude": -95
+        }
     },
     "CC": {
         "id": "CC",
@@ -1346,7 +1494,11 @@
         "currencies": [
             "AUD"
         ],
-        "currency": "AUD"
+        "currency": "AUD",
+        "coordinates": {
+            "latitude": -12.5,
+            "longitude": 96.83333333
+        }
     },
     "CD": {
         "id": "CD",
@@ -1385,7 +1537,11 @@
         "currencies": [
             "CDF"
         ],
-        "currency": "CDF"
+        "currency": "CDF",
+        "coordinates": {
+            "latitude": 0,
+            "longitude": 25
+        }
     },
     "CF": {
         "id": "CF",
@@ -1419,7 +1575,11 @@
         "currencies": [
             "XAF"
         ],
-        "currency": "XAF"
+        "currency": "XAF",
+        "coordinates": {
+            "latitude": 7,
+            "longitude": 21
+        }
     },
     "CG": {
         "id": "CG",
@@ -1451,7 +1611,11 @@
         "currencies": [
             "XAF"
         ],
-        "currency": "XAF"
+        "currency": "XAF",
+        "coordinates": {
+            "latitude": -1,
+            "longitude": 15
+        }
     },
     "CH": {
         "id": "CH",
@@ -1487,7 +1651,11 @@
         "currencies": [
             "CHF"
         ],
-        "currency": "CHF"
+        "currency": "CHF",
+        "coordinates": {
+            "latitude": 47,
+            "longitude": 8
+        }
     },
     "CI": {
         "id": "CI",
@@ -1516,7 +1684,11 @@
         "currencies": [
             "XOF"
         ],
-        "currency": "XOF"
+        "currency": "XOF",
+        "coordinates": {
+            "latitude": 8,
+            "longitude": -5
+        }
     },
     "CK": {
         "id": "CK",
@@ -1547,7 +1719,11 @@
             "CKD",
             "NZD"
         ],
-        "currency": "NZD"
+        "currency": "NZD",
+        "coordinates": {
+            "latitude": -21.23333333,
+            "longitude": -159.76666666
+        }
     },
     "CL": {
         "id": "CL",
@@ -1581,7 +1757,11 @@
         "currencies": [
             "CLP"
         ],
-        "currency": "CLP"
+        "currency": "CLP",
+        "coordinates": {
+            "latitude": -30,
+            "longitude": -71
+        }
     },
     "CM": {
         "id": "CM",
@@ -1611,7 +1791,11 @@
         "currencies": [
             "XAF"
         ],
-        "currency": "XAF"
+        "currency": "XAF",
+        "coordinates": {
+            "latitude": 6,
+            "longitude": 12
+        }
     },
     "CN": {
         "id": "CN",
@@ -1657,7 +1841,11 @@
         "currencies": [
             "CNY"
         ],
-        "currency": "CNY"
+        "currency": "CNY",
+        "coordinates": {
+            "latitude": 35,
+            "longitude": 105
+        }
     },
     "CO": {
         "id": "CO",
@@ -1687,7 +1875,11 @@
         "currencies": [
             "COP"
         ],
-        "currency": "COP"
+        "currency": "COP",
+        "coordinates": {
+            "latitude": 4,
+            "longitude": -72
+        }
     },
     "CR": {
         "id": "CR",
@@ -1719,7 +1911,11 @@
         "currencies": [
             "CRC"
         ],
-        "currency": "CRC"
+        "currency": "CRC",
+        "coordinates": {
+            "latitude": 10,
+            "longitude": -84
+        }
     },
     "CU": {
         "id": "CU",
@@ -1753,7 +1949,11 @@
             "CUC",
             "CUP"
         ],
-        "currency": "CUP"
+        "currency": "CUP",
+        "coordinates": {
+            "latitude": 21.5,
+            "longitude": -80
+        }
     },
     "CV": {
         "id": "CV",
@@ -1783,7 +1983,11 @@
         "currencies": [
             "CVE"
         ],
-        "currency": "CVE"
+        "currency": "CVE",
+        "coordinates": {
+            "latitude": 16,
+            "longitude": -24
+        }
     },
     "CW": {
         "id": "CW",
@@ -1813,7 +2017,11 @@
         "currencies": [
             "ANG"
         ],
-        "currency": "ANG"
+        "currency": "ANG",
+        "coordinates": {
+            "latitude": 12.116667,
+            "longitude": -68.933333
+        }
     },
     "CX": {
         "id": "CX",
@@ -1848,7 +2056,11 @@
         "currencies": [
             "AUD"
         ],
-        "currency": "AUD"
+        "currency": "AUD",
+        "coordinates": {
+            "latitude": -10.5,
+            "longitude": 105.66666666
+        }
     },
     "CY": {
         "id": "CY",
@@ -1884,7 +2096,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 35,
+            "longitude": 33
+        }
     },
     "CZ": {
         "id": "CZ",
@@ -1916,7 +2132,11 @@
         "currencies": [
             "CZK"
         ],
-        "currency": "CZK"
+        "currency": "CZK",
+        "coordinates": {
+            "latitude": 49.75,
+            "longitude": 15.5
+        }
     },
     "DE": {
         "id": "DE",
@@ -1947,7 +2167,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 51,
+            "longitude": 9
+        }
     },
     "DJ": {
         "id": "DJ",
@@ -1981,7 +2205,11 @@
         "currencies": [
             "DJF"
         ],
-        "currency": "DJF"
+        "currency": "DJF",
+        "coordinates": {
+            "latitude": 11.5,
+            "longitude": 43
+        }
     },
     "DK": {
         "id": "DK",
@@ -2017,7 +2245,11 @@
         "currencies": [
             "DKK"
         ],
-        "currency": "DKK"
+        "currency": "DKK",
+        "coordinates": {
+            "latitude": 56,
+            "longitude": 10
+        }
     },
     "DM": {
         "id": "DM",
@@ -2045,7 +2277,11 @@
         "currencies": [
             "XCD"
         ],
-        "currency": "XCD"
+        "currency": "XCD",
+        "coordinates": {
+            "latitude": 15.41666666,
+            "longitude": -61.33333333
+        }
     },
     "DO": {
         "id": "DO",
@@ -2075,7 +2311,11 @@
         "currencies": [
             "DOP"
         ],
-        "currency": "DOP"
+        "currency": "DOP",
+        "coordinates": {
+            "latitude": 19,
+            "longitude": -70.66666666
+        }
     },
     "DZ": {
         "id": "DZ",
@@ -2105,7 +2345,11 @@
         "currencies": [
             "DZD"
         ],
-        "currency": "DZD"
+        "currency": "DZD",
+        "coordinates": {
+            "latitude": 28,
+            "longitude": 3
+        }
     },
     "EC": {
         "id": "EC",
@@ -2136,7 +2380,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": -2,
+            "longitude": -77.5
+        }
     },
     "EE": {
         "id": "EE",
@@ -2168,7 +2416,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 59,
+            "longitude": 26
+        }
     },
     "EG": {
         "id": "EG",
@@ -2203,7 +2455,11 @@
         "currencies": [
             "EGP"
         ],
-        "currency": "EGP"
+        "currency": "EGP",
+        "coordinates": {
+            "latitude": 27,
+            "longitude": 30
+        }
     },
     "EH": {
         "id": "EH",
@@ -2232,7 +2488,11 @@
             "MAD",
             "MRU"
         ],
-        "currency": "MAD"
+        "currency": "MAD",
+        "coordinates": {
+            "latitude": 24.5,
+            "longitude": -13
+        }
     },
     "ER": {
         "id": "ER",
@@ -2268,7 +2528,11 @@
         "currencies": [
             "ERN"
         ],
-        "currency": "ERN"
+        "currency": "ERN",
+        "coordinates": {
+            "latitude": 15,
+            "longitude": 39
+        }
     },
     "ES": {
         "id": "ES",
@@ -2308,7 +2572,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 40,
+            "longitude": -4
+        }
     },
     "ET": {
         "id": "ET",
@@ -2348,7 +2616,11 @@
         "currencies": [
             "ETB"
         ],
-        "currency": "ETB"
+        "currency": "ETB",
+        "coordinates": {
+            "latitude": 8,
+            "longitude": 38
+        }
     },
     "FI": {
         "id": "FI",
@@ -2382,7 +2654,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 64,
+            "longitude": 26
+        }
     },
     "FJ": {
         "id": "FJ",
@@ -2412,7 +2688,11 @@
         "currencies": [
             "FJD"
         ],
-        "currency": "FJD"
+        "currency": "FJD",
+        "coordinates": {
+            "latitude": -18,
+            "longitude": 175
+        }
     },
     "FK": {
         "id": "FK",
@@ -2440,7 +2720,11 @@
         "currencies": [
             "FKP"
         ],
-        "currency": "FKP"
+        "currency": "FKP",
+        "coordinates": {
+            "latitude": -51.75,
+            "longitude": -59
+        }
     },
     "FM": {
         "id": "FM",
@@ -2489,7 +2773,11 @@
         "region": "Oceania",
         "subRegion": "Micronesia",
         "currencies": [],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": 6.91666666,
+            "longitude": 158.25
+        }
     },
     "FO": {
         "id": "FO",
@@ -2523,7 +2811,11 @@
             "DKK",
             "FOK"
         ],
-        "currency": "DKK"
+        "currency": "DKK",
+        "coordinates": {
+            "latitude": 62,
+            "longitude": -7
+        }
     },
     "FR": {
         "id": "FR",
@@ -2565,7 +2857,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 46,
+            "longitude": 2
+        }
     },
     "GA": {
         "id": "GA",
@@ -2593,7 +2889,11 @@
         "currencies": [
             "XAF"
         ],
-        "currency": "XAF"
+        "currency": "XAF",
+        "coordinates": {
+            "latitude": -1,
+            "longitude": 11.75
+        }
     },
     "GB": {
         "id": "GB",
@@ -2630,7 +2930,11 @@
         "currencies": [
             "GBP"
         ],
-        "currency": "GBP"
+        "currency": "GBP",
+        "coordinates": {
+            "latitude": 54,
+            "longitude": -2
+        }
     },
     "GD": {
         "id": "GD",
@@ -2658,7 +2962,11 @@
         "currencies": [
             "XCD"
         ],
-        "currency": "XCD"
+        "currency": "XCD",
+        "coordinates": {
+            "latitude": 12.11666666,
+            "longitude": -61.66666666
+        }
     },
     "GE": {
         "id": "GE",
@@ -2694,7 +3002,11 @@
         "currencies": [
             "GEL"
         ],
-        "currency": "GEL"
+        "currency": "GEL",
+        "coordinates": {
+            "latitude": 42,
+            "longitude": 43.5
+        }
     },
     "GF": {
         "id": "GF",
@@ -2724,7 +3036,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 4,
+            "longitude": -53
+        }
     },
     "GG": {
         "id": "GG",
@@ -2757,7 +3073,11 @@
             "GBP",
             "GGP"
         ],
-        "currency": "GBP"
+        "currency": "GBP",
+        "coordinates": {
+            "latitude": 49.46666666,
+            "longitude": -2.58333333
+        }
     },
     "GH": {
         "id": "GH",
@@ -2791,7 +3111,11 @@
         "currencies": [
             "GHS"
         ],
-        "currency": "GHS"
+        "currency": "GHS",
+        "coordinates": {
+            "latitude": 8,
+            "longitude": -2
+        }
     },
     "GI": {
         "id": "GI",
@@ -2825,7 +3149,11 @@
         "currencies": [
             "GIP"
         ],
-        "currency": "GIP"
+        "currency": "GIP",
+        "coordinates": {
+            "latitude": 36.13333333,
+            "longitude": -5.35
+        }
     },
     "GL": {
         "id": "GL",
@@ -2863,7 +3191,11 @@
         "currencies": [
             "DKK"
         ],
-        "currency": "DKK"
+        "currency": "DKK",
+        "coordinates": {
+            "latitude": 72,
+            "longitude": -40
+        }
     },
     "GM": {
         "id": "GM",
@@ -2899,7 +3231,11 @@
         "currencies": [
             "GMD"
         ],
-        "currency": "GMD"
+        "currency": "GMD",
+        "coordinates": {
+            "latitude": 13.46666666,
+            "longitude": -16.56666666
+        }
     },
     "GN": {
         "id": "GN",
@@ -2927,7 +3263,11 @@
         "currencies": [
             "GNF"
         ],
-        "currency": "GNF"
+        "currency": "GNF",
+        "coordinates": {
+            "latitude": 11,
+            "longitude": -10
+        }
     },
     "GP": {
         "id": "GP",
@@ -2957,7 +3297,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 16.25,
+            "longitude": -61.583333
+        }
     },
     "GQ": {
         "id": "GQ",
@@ -2987,7 +3331,11 @@
         "currencies": [
             "XAF"
         ],
-        "currency": "XAF"
+        "currency": "XAF",
+        "coordinates": {
+            "latitude": 2,
+            "longitude": 10
+        }
     },
     "GR": {
         "id": "GR",
@@ -3021,7 +3369,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 39,
+            "longitude": 22
+        }
     },
     "GS": {
         "id": "GS",
@@ -3049,7 +3401,11 @@
         "currencies": [
             "SHP"
         ],
-        "currency": "GBP"
+        "currency": "GBP",
+        "coordinates": {
+            "latitude": -54.5,
+            "longitude": -37
+        }
     },
     "GT": {
         "id": "GT",
@@ -3079,7 +3435,11 @@
         "currencies": [
             "GTQ"
         ],
-        "currency": "GTQ"
+        "currency": "GTQ",
+        "coordinates": {
+            "latitude": 15.5,
+            "longitude": -90.25
+        }
     },
     "GU": {
         "id": "GU",
@@ -3111,7 +3471,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": 13.46666666,
+            "longitude": 144.78333333
+        }
     },
     "GW": {
         "id": "GW",
@@ -3143,7 +3507,11 @@
         "currencies": [
             "XOF"
         ],
-        "currency": "XOF"
+        "currency": "XOF",
+        "coordinates": {
+            "latitude": 12,
+            "longitude": -15
+        }
     },
     "GY": {
         "id": "GY",
@@ -3171,7 +3539,11 @@
         "currencies": [
             "GYD"
         ],
-        "currency": "GYD"
+        "currency": "GYD",
+        "coordinates": {
+            "latitude": 5,
+            "longitude": -59
+        }
     },
     "HK": {
         "id": "HK",
@@ -3205,7 +3577,11 @@
         "currencies": [
             "HKD"
         ],
-        "currency": "HKD"
+        "currency": "HKD",
+        "coordinates": {
+            "latitude": 22.267,
+            "longitude": 114.188
+        }
     },
     "HM": {
         "id": "HM",
@@ -3257,7 +3633,11 @@
         "currencies": [
             "HNL"
         ],
-        "currency": "HNL"
+        "currency": "HNL",
+        "coordinates": {
+            "latitude": 15,
+            "longitude": -86.5
+        }
     },
     "HR": {
         "id": "HR",
@@ -3289,7 +3669,11 @@
         "currencies": [
             "HRK"
         ],
-        "currency": "HRK"
+        "currency": "HRK",
+        "coordinates": {
+            "latitude": 45.16666666,
+            "longitude": 15.5
+        }
     },
     "HT": {
         "id": "HT",
@@ -3321,7 +3705,11 @@
         "currencies": [
             "HTG"
         ],
-        "currency": "HTG"
+        "currency": "HTG",
+        "coordinates": {
+            "latitude": 19,
+            "longitude": -72.41666666
+        }
     },
     "HU": {
         "id": "HU",
@@ -3351,7 +3739,11 @@
         "currencies": [
             "HUF"
         ],
-        "currency": "HUF"
+        "currency": "HUF",
+        "coordinates": {
+            "latitude": 47,
+            "longitude": 20
+        }
     },
     "ID": {
         "id": "ID",
@@ -3391,7 +3783,11 @@
         "currencies": [
             "IDR"
         ],
-        "currency": "IDR"
+        "currency": "IDR",
+        "coordinates": {
+            "latitude": -5,
+            "longitude": 120
+        }
     },
     "IE": {
         "id": "IE",
@@ -3424,7 +3820,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 53,
+            "longitude": -8
+        }
     },
     "IL": {
         "id": "IL",
@@ -3460,7 +3860,11 @@
         "currencies": [
             "ILS"
         ],
-        "currency": "ILS"
+        "currency": "ILS",
+        "coordinates": {
+            "latitude": 31.47,
+            "longitude": 35.13
+        }
     },
     "IM": {
         "id": "IM",
@@ -3493,7 +3897,11 @@
             "GBP",
             "IMP"
         ],
-        "currency": "GBP"
+        "currency": "GBP",
+        "coordinates": {
+            "latitude": 54.25,
+            "longitude": -4.5
+        }
     },
     "IN": {
         "id": "IN",
@@ -3574,7 +3982,11 @@
         "currencies": [
             "INR"
         ],
-        "currency": "INR"
+        "currency": "INR",
+        "coordinates": {
+            "latitude": 20,
+            "longitude": 77
+        }
     },
     "IO": {
         "id": "IO",
@@ -3602,7 +4014,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": -6,
+            "longitude": 71.5
+        }
     },
     "IQ": {
         "id": "IQ",
@@ -3636,7 +4052,11 @@
         "currencies": [
             "IQD"
         ],
-        "currency": "IQD"
+        "currency": "IQD",
+        "coordinates": {
+            "latitude": 33,
+            "longitude": 44
+        }
     },
     "IR": {
         "id": "IR",
@@ -3669,7 +4089,11 @@
         "currencies": [
             "IRR"
         ],
-        "currency": "IRR"
+        "currency": "IRR",
+        "coordinates": {
+            "latitude": 32,
+            "longitude": 53
+        }
     },
     "IS": {
         "id": "IS",
@@ -3710,7 +4134,11 @@
         "currencies": [
             "ISK"
         ],
-        "currency": "ISK"
+        "currency": "ISK",
+        "coordinates": {
+            "latitude": 65,
+            "longitude": -18
+        }
     },
     "IT": {
         "id": "IT",
@@ -3752,7 +4180,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 42.83333333,
+            "longitude": 12.83333333
+        }
     },
     "JE": {
         "id": "JE",
@@ -3787,7 +4219,11 @@
             "GBP",
             "JEP"
         ],
-        "currency": "GBP"
+        "currency": "GBP",
+        "coordinates": {
+            "latitude": 49.25,
+            "longitude": -2.16666666
+        }
     },
     "JM": {
         "id": "JM",
@@ -3816,7 +4252,11 @@
         "currencies": [
             "JMD"
         ],
-        "currency": "JMD"
+        "currency": "JMD",
+        "coordinates": {
+            "latitude": 18.25,
+            "longitude": -77.5
+        }
     },
     "JO": {
         "id": "JO",
@@ -3848,7 +4288,11 @@
         "currencies": [
             "JOD"
         ],
-        "currency": "JOD"
+        "currency": "JOD",
+        "coordinates": {
+            "latitude": 31,
+            "longitude": 36
+        }
     },
     "JP": {
         "id": "JP",
@@ -3879,7 +4323,11 @@
         "currencies": [
             "JPY"
         ],
-        "currency": "JPY"
+        "currency": "JPY",
+        "coordinates": {
+            "latitude": 36,
+            "longitude": 138
+        }
     },
     "KE": {
         "id": "KE",
@@ -3912,7 +4360,11 @@
         "currencies": [
             "KES"
         ],
-        "currency": "KES"
+        "currency": "KES",
+        "coordinates": {
+            "latitude": 1,
+            "longitude": 38
+        }
     },
     "KG": {
         "id": "KG",
@@ -3946,7 +4398,11 @@
         "currencies": [
             "KGS"
         ],
-        "currency": "KGS"
+        "currency": "KGS",
+        "coordinates": {
+            "latitude": 41,
+            "longitude": 75
+        }
     },
     "KH": {
         "id": "KH",
@@ -3981,7 +4437,11 @@
             "KHR",
             "USD"
         ],
-        "currency": "KHR"
+        "currency": "KHR",
+        "coordinates": {
+            "latitude": 13,
+            "longitude": 105
+        }
     },
     "KI": {
         "id": "KI",
@@ -4015,7 +4475,11 @@
             "AUD",
             "KID"
         ],
-        "currency": "AUD"
+        "currency": "AUD",
+        "coordinates": {
+            "latitude": 1.41666666,
+            "longitude": 173
+        }
     },
     "KM": {
         "id": "KM",
@@ -4045,7 +4509,11 @@
         "currencies": [
             "KMF"
         ],
-        "currency": "KMF"
+        "currency": "KMF",
+        "coordinates": {
+            "latitude": -12.16666666,
+            "longitude": 44.25
+        }
     },
     "KN": {
         "id": "KN",
@@ -4073,7 +4541,11 @@
         "currencies": [
             "XCD"
         ],
-        "currency": "XCD"
+        "currency": "XCD",
+        "coordinates": {
+            "latitude": 17.33333333,
+            "longitude": -62.75
+        }
     },
     "KP": {
         "id": "KP",
@@ -4103,7 +4575,11 @@
         "currencies": [
             "KPW"
         ],
-        "currency": "KPW"
+        "currency": "KPW",
+        "coordinates": {
+            "latitude": 40,
+            "longitude": 127
+        }
     },
     "KR": {
         "id": "KR",
@@ -4136,7 +4612,11 @@
         "currencies": [
             "KRW"
         ],
-        "currency": "KRW"
+        "currency": "KRW",
+        "coordinates": {
+            "latitude": 37,
+            "longitude": 127.5
+        }
     },
     "KW": {
         "id": "KW",
@@ -4168,7 +4648,11 @@
         "currencies": [
             "KWD"
         ],
-        "currency": "KWD"
+        "currency": "KWD",
+        "coordinates": {
+            "latitude": 29.5,
+            "longitude": 45.75
+        }
     },
     "KY": {
         "id": "KY",
@@ -4196,7 +4680,11 @@
         "currencies": [
             "KYD"
         ],
-        "currency": "KYD"
+        "currency": "KYD",
+        "coordinates": {
+            "latitude": 19.5,
+            "longitude": -80.5
+        }
     },
     "KZ": {
         "id": "KZ",
@@ -4234,7 +4722,11 @@
         "currencies": [
             "KZT"
         ],
-        "currency": "KZT"
+        "currency": "KZT",
+        "coordinates": {
+            "latitude": 48,
+            "longitude": 68
+        }
     },
     "LA": {
         "id": "LA",
@@ -4268,7 +4760,11 @@
         "currencies": [
             "LAK"
         ],
-        "currency": "LAK"
+        "currency": "LAK",
+        "coordinates": {
+            "latitude": 18,
+            "longitude": 105
+        }
     },
     "LB": {
         "id": "LB",
@@ -4304,7 +4800,11 @@
         "currencies": [
             "LBP"
         ],
-        "currency": "LBP"
+        "currency": "LBP",
+        "coordinates": {
+            "latitude": 33.83333333,
+            "longitude": 35.83333333
+        }
     },
     "LC": {
         "id": "LC",
@@ -4332,7 +4832,11 @@
         "currencies": [
             "XCD"
         ],
-        "currency": "XCD"
+        "currency": "XCD",
+        "coordinates": {
+            "latitude": 13.88333333,
+            "longitude": -60.96666666
+        }
     },
     "LI": {
         "id": "LI",
@@ -4362,7 +4866,11 @@
         "currencies": [
             "CHF"
         ],
-        "currency": "CHF"
+        "currency": "CHF",
+        "coordinates": {
+            "latitude": 47.26666666,
+            "longitude": 9.53333333
+        }
     },
     "LK": {
         "id": "LK",
@@ -4396,7 +4904,11 @@
         "currencies": [
             "LKR"
         ],
-        "currency": "LKR"
+        "currency": "LKR",
+        "coordinates": {
+            "latitude": 7,
+            "longitude": 81
+        }
     },
     "LR": {
         "id": "LR",
@@ -4426,7 +4938,11 @@
         "currencies": [
             "LRD"
         ],
-        "currency": "LRD"
+        "currency": "LRD",
+        "coordinates": {
+            "latitude": 6.5,
+            "longitude": -9.5
+        }
     },
     "LS": {
         "id": "LS",
@@ -4463,7 +4979,11 @@
             "LSL",
             "ZAR"
         ],
-        "currency": "LSL"
+        "currency": "LSL",
+        "coordinates": {
+            "latitude": -29.5,
+            "longitude": 28.5
+        }
     },
     "LT": {
         "id": "LT",
@@ -4497,7 +5017,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 56,
+            "longitude": 24
+        }
     },
     "LU": {
         "id": "LU",
@@ -4531,7 +5055,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 49.75,
+            "longitude": 6.16666666
+        }
     },
     "LV": {
         "id": "LV",
@@ -4565,7 +5093,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 57,
+            "longitude": 25
+        }
     },
     "LY": {
         "id": "LY",
@@ -4598,7 +5130,11 @@
         "currencies": [
             "LYD"
         ],
-        "currency": "LYD"
+        "currency": "LYD",
+        "coordinates": {
+            "latitude": 25,
+            "longitude": 17
+        }
     },
     "MA": {
         "id": "MA",
@@ -4632,7 +5168,11 @@
         "currencies": [
             "MAD"
         ],
-        "currency": "MAD"
+        "currency": "MAD",
+        "coordinates": {
+            "latitude": 32,
+            "longitude": -5
+        }
     },
     "MC": {
         "id": "MC",
@@ -4666,7 +5206,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 43.73333333,
+            "longitude": 7.4
+        }
     },
     "MD": {
         "id": "MD",
@@ -4703,7 +5247,11 @@
         "currencies": [
             "MDL"
         ],
-        "currency": "MDL"
+        "currency": "MDL",
+        "coordinates": {
+            "latitude": 47,
+            "longitude": 29
+        }
     },
     "ME": {
         "id": "ME",
@@ -4743,7 +5291,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 42.5,
+            "longitude": 19.3
+        }
     },
     "MF": {
         "id": "MF",
@@ -4773,7 +5325,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 18.08333333,
+            "longitude": -63.95
+        }
     },
     "MG": {
         "id": "MG",
@@ -4805,7 +5361,11 @@
         "currencies": [
             "MGA"
         ],
-        "currency": "MGA"
+        "currency": "MGA",
+        "coordinates": {
+            "latitude": -20,
+            "longitude": 47
+        }
     },
     "MH": {
         "id": "MH",
@@ -4839,7 +5399,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": 9,
+            "longitude": 168
+        }
     },
     "MK": {
         "id": "MK",
@@ -4877,7 +5441,11 @@
         "currencies": [
             "MKD"
         ],
-        "currency": "MKD"
+        "currency": "MKD",
+        "coordinates": {
+            "latitude": 41.83333333,
+            "longitude": 22
+        }
     },
     "ML": {
         "id": "ML",
@@ -4907,7 +5475,11 @@
         "currencies": [
             "XOF"
         ],
-        "currency": "XOF"
+        "currency": "XOF",
+        "coordinates": {
+            "latitude": 17,
+            "longitude": -4
+        }
     },
     "MM": {
         "id": "MM",
@@ -4938,7 +5510,11 @@
         "currencies": [
             "MMK"
         ],
-        "currency": "MMK"
+        "currency": "MMK",
+        "coordinates": {
+            "latitude": 22,
+            "longitude": 98
+        }
     },
     "MN": {
         "id": "MN",
@@ -4973,7 +5549,11 @@
         "currencies": [
             "MNT"
         ],
-        "currency": "MNT"
+        "currency": "MNT",
+        "coordinates": {
+            "latitude": 46,
+            "longitude": 105
+        }
     },
     "MO": {
         "id": "MO",
@@ -5005,7 +5585,11 @@
         "currencies": [
             "MOP"
         ],
-        "currency": "MOP"
+        "currency": "MOP",
+        "coordinates": {
+            "latitude": 22.16666666,
+            "longitude": 113.55
+        }
     },
     "MP": {
         "id": "MP",
@@ -5043,7 +5627,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": 15.2,
+            "longitude": 145.75
+        }
     },
     "MQ": {
         "id": "MQ",
@@ -5073,7 +5661,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 14.666667,
+            "longitude": -61
+        }
     },
     "MR": {
         "id": "MR",
@@ -5111,7 +5703,11 @@
         "currencies": [
             "MRU"
         ],
-        "currency": "MRO"
+        "currency": "MRO",
+        "coordinates": {
+            "latitude": 20,
+            "longitude": -12
+        }
     },
     "MS": {
         "id": "MS",
@@ -5139,7 +5735,11 @@
         "currencies": [
             "XCD"
         ],
-        "currency": "XCD"
+        "currency": "XCD",
+        "coordinates": {
+            "latitude": 16.75,
+            "longitude": -62.2
+        }
     },
     "MT": {
         "id": "MT",
@@ -5171,7 +5771,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 35.83333333,
+            "longitude": 14.58333333
+        }
     },
     "MU": {
         "id": "MU",
@@ -5203,7 +5807,11 @@
         "currencies": [
             "MUR"
         ],
-        "currency": "MUR"
+        "currency": "MUR",
+        "coordinates": {
+            "latitude": -20.28333333,
+            "longitude": 57.55
+        }
     },
     "MV": {
         "id": "MV",
@@ -5235,7 +5843,11 @@
         "currencies": [
             "MVR"
         ],
-        "currency": "MVR"
+        "currency": "MVR",
+        "coordinates": {
+            "latitude": 3.25,
+            "longitude": 73
+        }
     },
     "MW": {
         "id": "MW",
@@ -5269,7 +5881,11 @@
         "currencies": [
             "MWK"
         ],
-        "currency": "MWK"
+        "currency": "MWK",
+        "coordinates": {
+            "latitude": -13.5,
+            "longitude": 34
+        }
     },
     "MX": {
         "id": "MX",
@@ -5314,7 +5930,11 @@
         "currencies": [
             "MXN"
         ],
-        "currency": "MXN"
+        "currency": "MXN",
+        "coordinates": {
+            "latitude": 23,
+            "longitude": -102
+        }
     },
     "MY": {
         "id": "MY",
@@ -5360,7 +5980,11 @@
         "currencies": [
             "MYR"
         ],
-        "currency": "MYR"
+        "currency": "MYR",
+        "coordinates": {
+            "latitude": 2.5,
+            "longitude": 112.5
+        }
     },
     "MZ": {
         "id": "MZ",
@@ -5392,7 +6016,11 @@
         "currencies": [
             "MZN"
         ],
-        "currency": "MZN"
+        "currency": "MZN",
+        "coordinates": {
+            "latitude": -18.25,
+            "longitude": 35
+        }
     },
     "NA": {
         "id": "NA",
@@ -5429,7 +6057,11 @@
             "NAD",
             "ZAR"
         ],
-        "currency": "NAD"
+        "currency": "NAD",
+        "coordinates": {
+            "latitude": -22,
+            "longitude": 17
+        }
     },
     "NC": {
         "id": "NC",
@@ -5459,7 +6091,11 @@
         "currencies": [
             "XPF"
         ],
-        "currency": "XPF"
+        "currency": "XPF",
+        "coordinates": {
+            "latitude": -21.5,
+            "longitude": 165.5
+        }
     },
     "NE": {
         "id": "NE",
@@ -5495,7 +6131,11 @@
         "currencies": [
             "XOF"
         ],
-        "currency": "XOF"
+        "currency": "XOF",
+        "coordinates": {
+            "latitude": 16,
+            "longitude": 8
+        }
     },
     "NF": {
         "id": "NF",
@@ -5525,7 +6165,11 @@
         "currencies": [
             "AUD"
         ],
-        "currency": "AUD"
+        "currency": "AUD",
+        "coordinates": {
+            "latitude": -29.03333333,
+            "longitude": 167.95
+        }
     },
     "NG": {
         "id": "NG",
@@ -5563,7 +6207,11 @@
         "currencies": [
             "NGN"
         ],
-        "currency": "NGN"
+        "currency": "NGN",
+        "coordinates": {
+            "latitude": 10,
+            "longitude": 8
+        }
     },
     "NI": {
         "id": "NI",
@@ -5595,7 +6243,11 @@
         "currencies": [
             "NIO"
         ],
-        "currency": "NIO"
+        "currency": "NIO",
+        "coordinates": {
+            "latitude": 13,
+            "longitude": -85
+        }
     },
     "NL": {
         "id": "NL",
@@ -5627,7 +6279,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 52.5,
+            "longitude": 5.75
+        }
     },
     "NO": {
         "id": "NO",
@@ -5666,7 +6322,11 @@
         "currencies": [
             "NOK"
         ],
-        "currency": "NOK"
+        "currency": "NOK",
+        "coordinates": {
+            "latitude": 62,
+            "longitude": 10
+        }
     },
     "NP": {
         "id": "NP",
@@ -5699,7 +6359,11 @@
         "currencies": [
             "NPR"
         ],
-        "currency": "NPR"
+        "currency": "NPR",
+        "coordinates": {
+            "latitude": 28,
+            "longitude": 84
+        }
     },
     "NR": {
         "id": "NR",
@@ -5729,7 +6393,11 @@
         "currencies": [
             "AUD"
         ],
-        "currency": "AUD"
+        "currency": "AUD",
+        "coordinates": {
+            "latitude": -0.53333333,
+            "longitude": 166.91666666
+        }
     },
     "NU": {
         "id": "NU",
@@ -5759,7 +6427,11 @@
         "currencies": [
             "NZD"
         ],
-        "currency": "NZD"
+        "currency": "NZD",
+        "coordinates": {
+            "latitude": -19.03333333,
+            "longitude": -169.86666666
+        }
     },
     "NZ": {
         "id": "NZ",
@@ -5795,7 +6467,11 @@
         "currencies": [
             "NZD"
         ],
-        "currency": "NZD"
+        "currency": "NZD",
+        "coordinates": {
+            "latitude": -41,
+            "longitude": 174
+        }
     },
     "OM": {
         "id": "OM",
@@ -5831,7 +6507,11 @@
         "currencies": [
             "OMR"
         ],
-        "currency": "OMR"
+        "currency": "OMR",
+        "coordinates": {
+            "latitude": 21,
+            "longitude": 57
+        }
     },
     "PA": {
         "id": "PA",
@@ -5862,7 +6542,11 @@
             "PAB",
             "USD"
         ],
-        "currency": "PAB"
+        "currency": "PAB",
+        "coordinates": {
+            "latitude": 9,
+            "longitude": -80
+        }
     },
     "PE": {
         "id": "PE",
@@ -5894,7 +6578,11 @@
         "currencies": [
             "PEN"
         ],
-        "currency": "PEN"
+        "currency": "PEN",
+        "coordinates": {
+            "latitude": -10,
+            "longitude": -76
+        }
     },
     "PF": {
         "id": "PF",
@@ -5928,7 +6616,11 @@
         "currencies": [
             "XPF"
         ],
-        "currency": "XPF"
+        "currency": "XPF",
+        "coordinates": {
+            "latitude": -15,
+            "longitude": -140
+        }
     },
     "PG": {
         "id": "PG",
@@ -5966,7 +6658,11 @@
         "currencies": [
             "PGK"
         ],
-        "currency": "PGK"
+        "currency": "PGK",
+        "coordinates": {
+            "latitude": -6,
+            "longitude": 147
+        }
     },
     "PH": {
         "id": "PH",
@@ -6042,7 +6738,11 @@
         "currencies": [
             "PHP"
         ],
-        "currency": "PHP"
+        "currency": "PHP",
+        "coordinates": {
+            "latitude": 13,
+            "longitude": 122
+        }
     },
     "PK": {
         "id": "PK",
@@ -6082,7 +6782,11 @@
         "currencies": [
             "PKR"
         ],
-        "currency": "PKR"
+        "currency": "PKR",
+        "coordinates": {
+            "latitude": 30,
+            "longitude": 70
+        }
     },
     "PL": {
         "id": "PL",
@@ -6113,7 +6817,11 @@
         "currencies": [
             "PLN"
         ],
-        "currency": "PLN"
+        "currency": "PLN",
+        "coordinates": {
+            "latitude": 52,
+            "longitude": 20
+        }
     },
     "PM": {
         "id": "PM",
@@ -6143,7 +6851,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 46.83333333,
+            "longitude": -56.33333333
+        }
     },
     "PN": {
         "id": "PN",
@@ -6171,7 +6883,11 @@
         "currencies": [
             "NZD"
         ],
-        "currency": "NZD"
+        "currency": "NZD",
+        "coordinates": {
+            "latitude": -25.06666666,
+            "longitude": -130.1
+        }
     },
     "PR": {
         "id": "PR",
@@ -6203,7 +6919,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": 18.25,
+            "longitude": -66.5
+        }
     },
     "PS": {
         "id": "PS",
@@ -6234,7 +6954,11 @@
             "ILS",
             "JOD"
         ],
-        "currency": "ILS"
+        "currency": "ILS",
+        "coordinates": {
+            "latitude": 31.9,
+            "longitude": 35.2
+        }
     },
     "PT": {
         "id": "PT",
@@ -6269,7 +6993,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 39.5,
+            "longitude": -8
+        }
     },
     "PW": {
         "id": "PW",
@@ -6312,7 +7040,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": 7.5,
+            "longitude": 134.5
+        }
     },
     "PY": {
         "id": "PY",
@@ -6344,7 +7076,11 @@
         "currencies": [
             "PYG"
         ],
-        "currency": "PYG"
+        "currency": "PYG",
+        "coordinates": {
+            "latitude": -23,
+            "longitude": -58
+        }
     },
     "QA": {
         "id": "QA",
@@ -6374,7 +7110,11 @@
         "currencies": [
             "QAR"
         ],
-        "currency": "QAR"
+        "currency": "QAR",
+        "coordinates": {
+            "latitude": 25.5,
+            "longitude": 51.25
+        }
     },
     "RE": {
         "id": "RE",
@@ -6404,7 +7144,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": -21.15,
+            "longitude": 55.5
+        }
     },
     "RO": {
         "id": "RO",
@@ -6438,7 +7182,11 @@
         "currencies": [
             "RON"
         ],
-        "currency": "RON"
+        "currency": "RON",
+        "coordinates": {
+            "latitude": 46,
+            "longitude": 25
+        }
     },
     "RS": {
         "id": "RS",
@@ -6474,7 +7222,11 @@
         "currencies": [
             "RSD"
         ],
-        "currency": "RSD"
+        "currency": "RSD",
+        "coordinates": {
+            "latitude": 44,
+            "longitude": 21
+        }
     },
     "RU": {
         "id": "RU",
@@ -6575,7 +7327,11 @@
         "currencies": [
             "RUB"
         ],
-        "currency": "RUB"
+        "currency": "RUB",
+        "coordinates": {
+            "latitude": 60,
+            "longitude": 100
+        }
     },
     "RW": {
         "id": "RW",
@@ -6609,7 +7365,11 @@
         "currencies": [
             "RWF"
         ],
-        "currency": "RWF"
+        "currency": "RWF",
+        "coordinates": {
+            "latitude": -2,
+            "longitude": 30
+        }
     },
     "SA": {
         "id": "SA",
@@ -6639,7 +7399,11 @@
         "currencies": [
             "SAR"
         ],
-        "currency": "SAR"
+        "currency": "SAR",
+        "coordinates": {
+            "latitude": 25,
+            "longitude": 45
+        }
     },
     "SB": {
         "id": "SB",
@@ -6669,7 +7433,11 @@
         "currencies": [
             "SBD"
         ],
-        "currency": "SBD"
+        "currency": "SBD",
+        "coordinates": {
+            "latitude": -8,
+            "longitude": 159
+        }
     },
     "SC": {
         "id": "SC",
@@ -6699,7 +7467,11 @@
         "currencies": [
             "SCR"
         ],
-        "currency": "SCR"
+        "currency": "SCR",
+        "coordinates": {
+            "latitude": -4.58333333,
+            "longitude": 55.66666666
+        }
     },
     "SD": {
         "id": "SD",
@@ -6733,7 +7505,11 @@
         "currencies": [
             "SDG"
         ],
-        "currency": "SDG"
+        "currency": "SDG",
+        "coordinates": {
+            "latitude": 15,
+            "longitude": 30
+        }
     },
     "SE": {
         "id": "SE",
@@ -6769,7 +7545,11 @@
         "currencies": [
             "SEK"
         ],
-        "currency": "SEK"
+        "currency": "SEK",
+        "coordinates": {
+            "latitude": 62,
+            "longitude": 15
+        }
     },
     "SG": {
         "id": "SG",
@@ -6807,7 +7587,11 @@
         "currencies": [
             "SGD"
         ],
-        "currency": "SGD"
+        "currency": "SGD",
+        "coordinates": {
+            "latitude": 1.36666666,
+            "longitude": 103.8
+        }
     },
     "SH": {
         "id": "SH",
@@ -6870,7 +7654,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 46.11666666,
+            "longitude": 14.81666666
+        }
     },
     "SJ": {
         "id": "SJ",
@@ -6901,7 +7689,11 @@
         "currencies": [
             "NOK"
         ],
-        "currency": "NOK"
+        "currency": "NOK",
+        "coordinates": {
+            "latitude": 78,
+            "longitude": 20
+        }
     },
     "SK": {
         "id": "SK",
@@ -6933,7 +7725,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 48.66666666,
+            "longitude": 19.5
+        }
     },
     "SL": {
         "id": "SL",
@@ -6965,7 +7761,11 @@
         "currencies": [
             "SLL"
         ],
-        "currency": "SLL"
+        "currency": "SLL",
+        "coordinates": {
+            "latitude": 8.5,
+            "longitude": -11.5
+        }
     },
     "SM": {
         "id": "SM",
@@ -6995,7 +7795,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 43.76666666,
+            "longitude": 12.41666666
+        }
     },
     "SN": {
         "id": "SN",
@@ -7031,7 +7835,11 @@
         "currencies": [
             "XOF"
         ],
-        "currency": "XOF"
+        "currency": "XOF",
+        "coordinates": {
+            "latitude": 14,
+            "longitude": -14
+        }
     },
     "SO": {
         "id": "SO",
@@ -7067,7 +7875,11 @@
         "currencies": [
             "SOS"
         ],
-        "currency": "SOS"
+        "currency": "SOS",
+        "coordinates": {
+            "latitude": 10,
+            "longitude": 49
+        }
     },
     "SR": {
         "id": "SR",
@@ -7103,7 +7915,11 @@
         "currencies": [
             "SRD"
         ],
-        "currency": "SRD"
+        "currency": "SRD",
+        "coordinates": {
+            "latitude": 4,
+            "longitude": -56
+        }
     },
     "SS": {
         "id": "SS",
@@ -7131,7 +7947,11 @@
         "currencies": [
             "SSP"
         ],
-        "currency": "SSP"
+        "currency": "SSP",
+        "coordinates": {
+            "latitude": 7,
+            "longitude": 30
+        }
     },
     "ST": {
         "id": "ST",
@@ -7159,7 +7979,11 @@
         "currencies": [
             "STN"
         ],
-        "currency": "STD"
+        "currency": "STD",
+        "coordinates": {
+            "latitude": 1,
+            "longitude": 7
+        }
     },
     "SV": {
         "id": "SV",
@@ -7189,7 +8013,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": 13.83333333,
+            "longitude": -88.91666666
+        }
     },
     "SX": {
         "id": "SX",
@@ -7219,7 +8047,11 @@
         "currencies": [
             "ANG"
         ],
-        "currency": "ANG"
+        "currency": "ANG",
+        "coordinates": {
+            "latitude": 18.033333,
+            "longitude": -63.05
+        }
     },
     "SY": {
         "id": "SY",
@@ -7257,7 +8089,11 @@
         "currencies": [
             "SYP"
         ],
-        "currency": "SYP"
+        "currency": "SYP",
+        "coordinates": {
+            "latitude": 35,
+            "longitude": 38
+        }
     },
     "SZ": {
         "id": "SZ",
@@ -7289,7 +8125,11 @@
         "currencies": [
             "SZL"
         ],
-        "currency": "SZL"
+        "currency": "SZL",
+        "coordinates": {
+            "latitude": -26.5,
+            "longitude": 31.5
+        }
     },
     "TC": {
         "id": "TC",
@@ -7319,7 +8159,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": 21.75,
+            "longitude": -71.58333333
+        }
     },
     "TD": {
         "id": "TD",
@@ -7351,7 +8195,11 @@
         "currencies": [
             "XAF"
         ],
-        "currency": "XAF"
+        "currency": "XAF",
+        "coordinates": {
+            "latitude": 15,
+            "longitude": 19
+        }
     },
     "TF": {
         "id": "TF",
@@ -7378,7 +8226,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": -49.25,
+            "longitude": 69.167
+        }
     },
     "TG": {
         "id": "TG",
@@ -7416,7 +8268,11 @@
         "currencies": [
             "XOF"
         ],
-        "currency": "XOF"
+        "currency": "XOF",
+        "coordinates": {
+            "latitude": 8,
+            "longitude": 1.16666666
+        }
     },
     "TH": {
         "id": "TH",
@@ -7448,7 +8304,11 @@
         "currencies": [
             "THB"
         ],
-        "currency": "THB"
+        "currency": "THB",
+        "coordinates": {
+            "latitude": 15,
+            "longitude": 100
+        }
     },
     "TJ": {
         "id": "TJ",
@@ -7480,7 +8340,11 @@
         "currencies": [
             "TJS"
         ],
-        "currency": "TJS"
+        "currency": "TJS",
+        "coordinates": {
+            "latitude": 39,
+            "longitude": 71
+        }
     },
     "TK": {
         "id": "TK",
@@ -7510,7 +8374,11 @@
         "currencies": [
             "NZD"
         ],
-        "currency": "NZD"
+        "currency": "NZD",
+        "coordinates": {
+            "latitude": -9,
+            "longitude": -172
+        }
     },
     "TL": {
         "id": "TL",
@@ -7544,7 +8412,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": -8.83333333,
+            "longitude": 125.91666666
+        }
     },
     "TM": {
         "id": "TM",
@@ -7579,7 +8451,11 @@
         "currencies": [
             "TMT"
         ],
-        "currency": "TMT"
+        "currency": "TMT",
+        "coordinates": {
+            "latitude": 40,
+            "longitude": 60
+        }
     },
     "TN": {
         "id": "TN",
@@ -7611,7 +8487,11 @@
         "currencies": [
             "TND"
         ],
-        "currency": "TND"
+        "currency": "TND",
+        "coordinates": {
+            "latitude": 34,
+            "longitude": 9
+        }
     },
     "TO": {
         "id": "TO",
@@ -7641,7 +8521,11 @@
         "currencies": [
             "TOP"
         ],
-        "currency": "TOP"
+        "currency": "TOP",
+        "coordinates": {
+            "latitude": -20,
+            "longitude": -175
+        }
     },
     "TR": {
         "id": "TR",
@@ -7681,7 +8565,11 @@
         "currencies": [
             "TRY"
         ],
-        "currency": "TRY"
+        "currency": "TRY",
+        "coordinates": {
+            "latitude": 39,
+            "longitude": 35
+        }
     },
     "TT": {
         "id": "TT",
@@ -7718,7 +8606,11 @@
         "currencies": [
             "TTD"
         ],
-        "currency": "TTD"
+        "currency": "TTD",
+        "coordinates": {
+            "latitude": 11,
+            "longitude": -61
+        }
     },
     "TV": {
         "id": "TV",
@@ -7753,7 +8645,11 @@
             "AUD",
             "TVD"
         ],
-        "currency": "AUD"
+        "currency": "AUD",
+        "coordinates": {
+            "latitude": -8,
+            "longitude": 178
+        }
     },
     "TW": {
         "id": "TW",
@@ -7789,7 +8685,11 @@
         "currencies": [
             "TWD"
         ],
-        "currency": "TWD"
+        "currency": "TWD",
+        "coordinates": {
+            "latitude": 23.5,
+            "longitude": 121
+        }
     },
     "TZ": {
         "id": "TZ",
@@ -7821,7 +8721,11 @@
         "currencies": [
             "TZS"
         ],
-        "currency": "TZS"
+        "currency": "TZS",
+        "coordinates": {
+            "latitude": -6,
+            "longitude": 35
+        }
     },
     "UA": {
         "id": "UA",
@@ -7862,7 +8766,11 @@
         "currencies": [
             "UAH"
         ],
-        "currency": "UAH"
+        "currency": "UAH",
+        "coordinates": {
+            "latitude": 49,
+            "longitude": 32
+        }
     },
     "UG": {
         "id": "UG",
@@ -7896,7 +8804,11 @@
         "currencies": [
             "UGX"
         ],
-        "currency": "UGX"
+        "currency": "UGX",
+        "coordinates": {
+            "latitude": 1,
+            "longitude": 32
+        }
     },
     "UM": {
         "id": "UM",
@@ -7924,7 +8836,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": 19.2911437,
+            "longitude": 166.618332
+        }
     },
     "US": {
         "id": "US",
@@ -8008,7 +8924,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": 38,
+            "longitude": -97
+        }
     },
     "UY": {
         "id": "UY",
@@ -8038,7 +8958,11 @@
         "currencies": [
             "UYU"
         ],
-        "currency": "UYU"
+        "currency": "UYU",
+        "coordinates": {
+            "latitude": -33,
+            "longitude": -56
+        }
     },
     "UZ": {
         "id": "UZ",
@@ -8073,7 +8997,11 @@
         "currencies": [
             "UZS"
         ],
-        "currency": "UZS"
+        "currency": "UZS",
+        "coordinates": {
+            "latitude": 41,
+            "longitude": 64
+        }
     },
     "VA": {
         "id": "VA",
@@ -8107,7 +9035,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": 41.9,
+            "longitude": 12.45
+        }
     },
     "VC": {
         "id": "VC",
@@ -8137,7 +9069,11 @@
         "currencies": [
             "XCD"
         ],
-        "currency": "XCD"
+        "currency": "XCD",
+        "coordinates": {
+            "latitude": 13.25,
+            "longitude": -61.2
+        }
     },
     "VE": {
         "id": "VE",
@@ -8167,7 +9103,11 @@
         "currencies": [
             "VES"
         ],
-        "currency": "VES"
+        "currency": "VES",
+        "coordinates": {
+            "latitude": 8,
+            "longitude": -66
+        }
     },
     "VG": {
         "id": "VG",
@@ -8195,7 +9135,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": 18.431383,
+            "longitude": -64.62305
+        }
     },
     "VI": {
         "id": "VI",
@@ -8225,7 +9169,11 @@
         "currencies": [
             "USD"
         ],
-        "currency": "USD"
+        "currency": "USD",
+        "coordinates": {
+            "latitude": 18.35,
+            "longitude": -64.933333
+        }
     },
     "VN": {
         "id": "VN",
@@ -8264,7 +9212,11 @@
         "currencies": [
             "VND"
         ],
-        "currency": "VND"
+        "currency": "VND",
+        "coordinates": {
+            "latitude": 16.16666666,
+            "longitude": 107.83333333
+        }
     },
     "VU": {
         "id": "VU",
@@ -8296,7 +9248,11 @@
         "currencies": [
             "VUV"
         ],
-        "currency": "VUV"
+        "currency": "VUV",
+        "coordinates": {
+            "latitude": -16,
+            "longitude": 167
+        }
     },
     "WF": {
         "id": "WF",
@@ -8330,7 +9286,11 @@
         "currencies": [
             "XPF"
         ],
-        "currency": "XPF"
+        "currency": "XPF",
+        "coordinates": {
+            "latitude": -13.3,
+            "longitude": -176.2
+        }
     },
     "WS": {
         "id": "WS",
@@ -8360,7 +9320,11 @@
         "currencies": [
             "WST"
         ],
-        "currency": "WST"
+        "currency": "WST",
+        "coordinates": {
+            "latitude": -13.58333333,
+            "longitude": -172.33333333
+        }
     },
     "YE": {
         "id": "YE",
@@ -8388,7 +9352,11 @@
         "currencies": [
             "YER"
         ],
-        "currency": "YER"
+        "currency": "YER",
+        "coordinates": {
+            "latitude": 15,
+            "longitude": 48
+        }
     },
     "YT": {
         "id": "YT",
@@ -8418,7 +9386,11 @@
         "currencies": [
             "EUR"
         ],
-        "currency": "EUR"
+        "currency": "EUR",
+        "coordinates": {
+            "latitude": -12.83333333,
+            "longitude": 45.16666666
+        }
     },
     "ZA": {
         "id": "ZA",
@@ -8468,7 +9440,11 @@
         "currencies": [
             "ZAR"
         ],
-        "currency": "ZAR"
+        "currency": "ZAR",
+        "coordinates": {
+            "latitude": -29,
+            "longitude": 24
+        }
     },
     "ZM": {
         "id": "ZM",
@@ -8510,7 +9486,11 @@
         "currencies": [
             "ZMW"
         ],
-        "currency": "ZMW"
+        "currency": "ZMW",
+        "coordinates": {
+            "latitude": -15,
+            "longitude": 30
+        }
     },
     "ZW": {
         "id": "ZW",
@@ -8552,6 +9532,10 @@
             "ZAR",
             "ZWB"
         ],
-        "currency": "ZWL"
+        "currency": "ZWL",
+        "coordinates": {
+            "latitude": -20,
+            "longitude": 30
+        }
     }
 }
