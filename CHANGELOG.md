@@ -1,3 +1,8 @@
+## 0.86.1 (2020-11-02)
+
+-   serp count traffic, only for non-persistent browsers
+-   serp device added
+
 ## 0.86.0 (2020-11-02)
 
 -   deps updated
