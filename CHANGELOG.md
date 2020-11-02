@@ -1,3 +1,10 @@
+## 0.86.0 (2020-11-02)
+
+-   deps updated
+-   countries coordinates added
+-   api google serp refactored
+-   max threads mixin refactored
+
 ## 0.85.3 (2020-10-28)
 
 -   google serp domains fixed
