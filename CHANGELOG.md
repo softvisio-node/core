@@ -1,3 +1,9 @@
+## 0.86.3 (2020-11-02)
+
+-   google serpimezone only for non-persistent browsers
+-   serp disable geolocation in no coordinates provided
+-   google serp use max when search for position
+
 ## 0.86.2 (2020-11-02)
 
 -   proxy server sessions
