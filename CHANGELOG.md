@@ -1,3 +1,7 @@
+## 0.86.2 (2020-11-02)
+
+-   proxy server sessions
+
 ## 0.86.1 (2020-11-02)
 
 -   serp count traffic, only for non-persistent browsers
