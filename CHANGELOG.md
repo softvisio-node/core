@@ -1,3 +1,8 @@
+## 0.86.4 (2020-11-04)
+
+-   google serp refactored
+-   deps updated
+
 ## 0.86.3 (2020-11-02)
 
 -   google serpimezone only for non-persistent browsers
