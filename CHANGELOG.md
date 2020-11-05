@@ -1,3 +1,9 @@
+## 0.86.5 (2020-11-05)
+
+-   websocket control if connection is alive
+-   getRandomFreePort refactored
+-   server listen rndom port refactored
+
 ## 0.86.4 (2020-11-04)
 
 -   google serp refactored
