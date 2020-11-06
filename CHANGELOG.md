@@ -1,3 +1,10 @@
+## 0.86.7 (2020-11-06)
+
+-   google serp traffic counters removed
+-   google serp use incognito
+-   puppeteer disable --single-process to make incognito works
+-   countries get by coords
+
 ## 0.86.6 (2020-11-06)
 
 -   http api handle request aborted
