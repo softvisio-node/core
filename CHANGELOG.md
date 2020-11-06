@@ -1,3 +1,7 @@
+## 0.86.6 (2020-11-06)
+
+-   http api handle request aborted
+
 ## 0.86.5 (2020-11-05)
 
 -   websocket control if connection is alive
