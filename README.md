@@ -1,16 +1,17 @@
 # INSTALL AND USE
 
 ```
-npm i --save-dev @softvisio/core
+npm i @softvisio/core
 ```
 
 # OPTIONAL DEPENDENCIES
 
-You may need to install following optional dependencies, depending on your project type:
+You may need to install following optional dependencies, depending on your project requirements:
 
 ```
-npm i argon2 --save-prod
-npm i better-sqlite3 --save-prod
-npm i geolite2-redist --save-prod
-npm i uws@bitbucket:softvisio/uws#latest --save-prod
+npm i argon2
+npm i better-sqlite3
+npm i geolite2-redist
+npm i geo-tz
+npm i uws@bitbucket:softvisio/uws#latest
 ```
