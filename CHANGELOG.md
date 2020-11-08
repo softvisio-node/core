@@ -1,3 +1,7 @@
+## 0.86.8 (2020-11-08)
+
+-   proxy refactored
+
 ## 0.86.7 (2020-11-06)
 
 -   google serp traffic counters removed
