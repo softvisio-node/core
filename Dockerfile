@@ -38,7 +38,6 @@ RUN \
     && npm config set prefix ~/.npm \
     && npm config set cache ~/.npm-cache \
     && npm config set better-sqlite3_binary_host "https://raw.githubusercontent.com/softvisio/node-prebuild/master/better-sqlite3" \
-    && npm config set uws_binary_host "https://raw.githubusercontent.com/softvisio/node-prebuild/master/uws" \
     \
     # make global node modules loadable
     && mkdir -p ~/.npm/lib \
