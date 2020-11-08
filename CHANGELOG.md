@@ -1,3 +1,10 @@
+## 0.86.9 (2020-11-08)
+
+-   google serp els length fixed
+-   readme updated
+-   uws binary host removed
+-   deps updated
+
 ## 0.86.8 (2020-11-08)
 
 -   proxy refactored
