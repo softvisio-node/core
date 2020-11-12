@@ -1,3 +1,7 @@
+## 0.86.11 (2020-11-12)
+
+-   google serp configurable timeout
+
 ## 0.86.10 (2020-11-12)
 
 -   google serp configurable max retries
