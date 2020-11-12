@@ -1,3 +1,7 @@
+## 0.86.10 (2020-11-12)
+
+-   google serp configurable max retries
+
 ## 0.86.9 (2020-11-08)
 
 -   google serp els length fixed
