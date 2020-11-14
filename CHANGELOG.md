@@ -1,3 +1,8 @@
+## 0.87.0 (2020-11-14)
+
+-   server websockets idle timeout 3 minutes
+-   server websockets backpressure disabled
+
 ## 0.86.11 (2020-11-12)
 
 -   google serp configurable timeout
