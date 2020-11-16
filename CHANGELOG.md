@@ -1,3 +1,7 @@
+## 0.88.0 (2020-11-16)
+
+-   mime getByFilename shebang options added
+
 ## 0.87.0 (2020-11-14)
 
 -   server websockets idle timeout 3 minutes
