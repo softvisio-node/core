@@ -1,3 +1,8 @@
+## 0.90.0 (2020-11-16)
+
+-   2captcha api constructor params updated
+-   deps updated
+
 ## 0.89.0 (2020-11-16)
 
 -   app init refactored
