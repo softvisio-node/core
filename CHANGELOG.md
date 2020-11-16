@@ -1,3 +1,7 @@
+## 0.89.0 (2020-11-16)
+
+-   app init refactored
+
 ## 0.88.0 (2020-11-16)
 
 -   mime getByFilename shebang options added
