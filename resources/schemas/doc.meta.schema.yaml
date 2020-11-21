@@ -89,8 +89,8 @@
     throws: { $ref: 'components#/throws' }
     params: { $ref: 'components#/params' }
     logApiCalls: { type: boolean }
-    maxRunningRequests: { type: integer, minimum: 0 }
-    maxRunningRequestsUser: { type: integer, minimum: 0 }
+    activeRequestsLimit: { type: integer, minimum: 0 }
+    activeRequestsUserLimit: { type: integer, minimum: 0 }
 
     module: { $ref: 'components#/module' }
     id: { type: string }
