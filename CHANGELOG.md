@@ -1,3 +1,7 @@
+## 0.91.2 (2020-11-23)
+
+-   typo
+
 ## 0.91.1 (2020-11-23)
 
 -   docker tags mapping renamed
