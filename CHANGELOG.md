@@ -1,3 +1,13 @@
+## 0.91.0 (2020-11-23)
+
+-   api call log
+-   deps updated
+-   global result
+-   result refactored
+-   dbh error returns result exception
+-   bench docs fixed
+-   api extends event emitter
+
 ## 0.90.0 (2020-11-16)
 
 -   2captcha api constructor params updated
