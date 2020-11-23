@@ -42,7 +42,7 @@
         "eventemitter3": ">=4.0.7",
         "fast-xml-parser": ">=3.17.4",
         "glob": ">=7.1.6",
-        "hash-wasm": ">=4.4.0",
+        "hash-wasm": ">=4.4.1",
         "js-yaml": ">=3.14.0",
         "lru-cache": ">=6.0.0",
         "luxon": ">=1.25.0",
