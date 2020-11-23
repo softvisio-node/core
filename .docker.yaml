@@ -1,4 +1,4 @@
 registry: softvisio/core
 
-tags:
+tags_mapping:
   master: latest
