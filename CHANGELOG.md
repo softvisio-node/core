@@ -1,3 +1,7 @@
+## 0.91.1 (2020-11-23)
+
+-   docker tags mapping renamed
+
 ## 0.91.0 (2020-11-23)
 
 -   api call log
