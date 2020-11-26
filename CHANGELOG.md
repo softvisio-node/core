@@ -1,3 +1,8 @@
+## 0.93.0 (2020-11-26)
+
+-   added browser events emitter
+-   seorank api
+
 ## 0.92.0 (2020-11-26)
 
 -   hola proxy
