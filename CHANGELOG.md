@@ -1,3 +1,7 @@
+## 0.94.0 (2020-11-26)
+
+-   pgsql extensions added
+
 ## 0.93.0 (2020-11-26)
 
 -   added browser events emitter
