@@ -1,3 +1,8 @@
+## 0.95.0 (2020-11-28)
+
+-   hola country option
+-   linted
+
 ## 0.94.0 (2020-11-26)
 
 -   pgsql extensions added
