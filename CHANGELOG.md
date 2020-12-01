@@ -1,3 +1,8 @@
+## 0.96.0 (2020-12-01)
+
+-   google serp api pos -> position
+-   api class moved
+
 ## 0.95.0 (2020-11-28)
 
 -   hola country option
