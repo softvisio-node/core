@@ -23,7 +23,7 @@
         "./resources/": "./resources/"
     },
     "browser": {
-        "./lib/api/client.js": "./lib/api/client/browser.js",
+        "./lib/api.js": "./lib/api/client/browser.js",
         "./lib/const.js": "./lib/const/browser.js",
         "./lib/db/countries/country.js": "./lib/db/countries/browser/country.js",
         "./lib/db/timezones.js": "./lib/db/timezones/browser.js",
