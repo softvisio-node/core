@@ -1,3 +1,7 @@
+## 0.98.0 (2020-12-04)
+
+-   google serp onItem hook
+
 ## 0.97.0 (2020-12-04)
 
 -   deps updated
