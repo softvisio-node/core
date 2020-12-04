@@ -1,3 +1,7 @@
+## 0.98.1 (2020-12-04)
+
+-   google serp api onItem params changed
+
 ## 0.98.0 (2020-12-04)
 
 -   google serp onItem hook
