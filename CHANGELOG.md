@@ -1,3 +1,8 @@
+## 0.97.0 (2020-12-04)
+
+-   deps updated
+-   max-threads mixin accept function as thread param
+
 ## 0.96.0 (2020-12-01)
 
 -   google serp api pos -> position
