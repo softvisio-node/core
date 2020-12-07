@@ -44,7 +44,7 @@
         "fast-xml-parser": ">=3.17.5",
         "glob": ">=7.1.6",
         "hash-wasm": ">=4.4.1",
-        "js-yaml": ">=3.14.0",
+        "js-yaml": ">=3.14.1",
         "lru-cache": ">=6.0.0",
         "luxon": ">=1.25.0",
         "maxmind": ">=4.3.1",
