@@ -1,3 +1,9 @@
+## 0.99.0 (2020-12-07)
+
+-   maxmind geolite2 updated
+-   max-threads events added
+-   deps updated
+
 ## 0.98.1 (2020-12-04)
 
 -   google serp api onItem params changed
