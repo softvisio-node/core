@@ -10,7 +10,7 @@
             "integrity": "sha512-m7X9U6BG2+J+R1lSOdCiITLLrxm+cWlNI3HUFA92oLO77ObGNzaKdh8pMLqdZcshtkKuV84olNNXDfMc4FezBQ=="
         },
         "@softvisio/argon2": {
-            "version": "bitbucket:softvisio/softvisio-argon2#c2ea7fd0a0d0efe30c4697c070353b1d73ed2317",
+            "version": "bitbucket:softvisio/softvisio-argon2#16071d0bdfeef0b91657b442e50c6d5ce38047ae",
             "from": "bitbucket:softvisio/softvisio-argon2#latest",
             "requires": {
                 "@phc/format": ">=1.0.0",
