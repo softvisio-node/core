@@ -18,6 +18,10 @@
                 "node-pre-gyp": ">=0.17.0"
             }
         },
+        "@softvisio/uws": {
+            "version": "bitbucket:softvisio/softvisio-uws#919b438e485254196ce99e8ea3ec2fb8871d938b",
+            "from": "bitbucket:softvisio/softvisio-uws#latest"
+        },
         "@types/debug": {
             "version": "4.1.5",
             "resolved": "https://registry.npmjs.org/@types/debug/-/debug-4.1.5.tgz",

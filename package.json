@@ -36,6 +36,7 @@
     },
     "dependencies": {
         "@softvisio/argon2": "bitbucket:softvisio/softvisio-argon2#latest",
+        "@softvisio/uws": "bitbucket:softvisio/softvisio-uws#latest",
         "ajv": ">=6.12.6",
         "ansi-colors": ">=4.1.1",
         "base-x": ">=3.0.8",
