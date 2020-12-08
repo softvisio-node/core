@@ -1,3 +1,13 @@
+## 0.100.0 (2020-12-08)
+
+-   res isError -> error
+-   res isException -> exception
+-   maxmind db refactored
+-   http api params fixed
+-   result inheritable
+-   deps updated
+-   google serp api desc -> description
+
 ## 0.99.0 (2020-12-07)
 
 -   maxmind geolite2 updated
