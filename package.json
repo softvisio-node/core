@@ -55,7 +55,7 @@
         "puppeteer-extra-plugin": ">=3.1.7",
         "puppeteer-extra-plugin-stealth": ">=2.6.5",
         "utf-8-validate": ">=5.0.3",
-        "uuid": ">=8.3.1",
+        "uuid": ">=8.3.2",
         "which-country": ">=1.0.0",
         "ws": ">=7.4.1"
     },
