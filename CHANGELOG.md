@@ -1,3 +1,9 @@
+## 0.101.0 (2020-12-08)
+
+-   deps updated
+-   uws deps updated
+-   argon2 updated
+
 ## 0.100.0 (2020-12-08)
 
 -   res isError -> error
