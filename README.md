@@ -9,9 +9,7 @@ npm i @softvisio/core
 You may need to install following optional dependencies, depending on your project requirements:
 
 ```
-npm i argon2
 npm i better-sqlite3
 npm i geo-tz
 npm i bitbucket:softvisio/softvisio-maxmind#latest
-npm i bitbucket:softvisio/uws#latest
 ```
