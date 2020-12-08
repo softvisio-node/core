@@ -12,6 +12,6 @@ You may need to install following optional dependencies, depending on your proje
 npm i argon2
 npm i better-sqlite3
 npm i geo-tz
-npm i bitbucket:softvisio/softvisio-geolite2#latest
+npm i bitbucket:softvisio/softvisio-maxmind#latest
 npm i bitbucket:softvisio/uws#latest
 ```
