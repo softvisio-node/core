@@ -1,3 +1,7 @@
+## 0.102.0 (2020-12-09)
+
+-   node better-sqlite3 updated
+
 ## 0.101.0 (2020-12-08)
 
 -   deps updated
