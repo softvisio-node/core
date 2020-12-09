@@ -1,3 +1,8 @@
+## 0.103.0 (2020-12-09)
+
+-   api findMethod
+-   result export updated
+
 ## 0.102.0 (2020-12-09)
 
 -   node better-sqlite3 updated
