@@ -1,3 +1,9 @@
+## 0.104.0 (2020-12-11)
+
+-   local proxy type added
+-   ip addr refactored
+-   ip-addr v6 support
+
 ## 0.103.0 (2020-12-09)
 
 -   api findMethod
