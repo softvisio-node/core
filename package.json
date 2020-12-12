@@ -35,8 +35,8 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "@softvisio/argon2": "bitbucket:softvisio/softvisio-argon2#latest",
-        "@softvisio/uws": "bitbucket:softvisio/softvisio-uws#latest",
+        "@softvisio/argon2": ">=0.2.1",
+        "@softvisio/uws": ">=0.2.0",
         "ajv": ">=6.12.6",
         "ansi-colors": ">=4.1.1",
         "base-x": ">=3.0.8",

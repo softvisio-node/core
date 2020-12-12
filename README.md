@@ -9,7 +9,7 @@ npm i @softvisio/core
 You may need to install following optional dependencies, depending on your project requirements:
 
 ```
+npm i @softvisio/better-sqlite3
+npm i @softvisio/maxmind
 npm i geo-tz
-npm I bitbucket:softvisio/softvisio-better-sqlite3#latest
-npm i bitbucket:softvisio/softvisio-maxmind#latest
 ```
