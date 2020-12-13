@@ -1,3 +1,8 @@
+## 0.106.0 (2020-12-13)
+
+-   proxy server http auth fixed
+-   typo
+
 ## 0.105.0 (2020-12-13)
 
 -   hola proxy refactored
