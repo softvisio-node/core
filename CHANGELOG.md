@@ -1,3 +1,10 @@
+## 0.105.0 (2020-12-13)
+
+-   hola proxy refactored
+-   subnet.contains fixed
+-   http fetch reason fixed
+-   deps updated
+
 ## 0.104.0 (2020-12-11)
 
 -   local proxy type added
