@@ -1,3 +1,7 @@
+## 0.107.1 (2020-12-15)
+
+-   ajv strict mode disabled
+
 ## 0.107.0 (2020-12-15)
 
 -   deps updated
