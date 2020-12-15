@@ -1,3 +1,9 @@
+## 0.107.0 (2020-12-15)
+
+-   deps updated
+-   bitbucket api added
+-   ip addr to number removed
+
 ## 0.106.0 (2020-12-13)
 
 -   proxy server http auth fixed
