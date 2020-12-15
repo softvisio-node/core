@@ -37,7 +37,7 @@
     "dependencies": {
         "@softvisio/argon2": ">=0.2.1",
         "@softvisio/uws": ">=0.2.0",
-        "ajv": ">=6.12.6",
+        "ajv": ">=7.0.0",
         "ansi-colors": ">=4.1.1",
         "base-x": ">=3.0.8",
         "big-integer": ">=1.6.48",
