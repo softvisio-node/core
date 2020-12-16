@@ -1,3 +1,7 @@
+## 0.107.2 (2020-12-16)
+
+-   ajv formats added
+
 ## 0.107.1 (2020-12-15)
 
 -   ajv strict mode disabled
