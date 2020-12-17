@@ -1,3 +1,9 @@
+## 0.107.3 (2020-12-17)
+
+-   catchResult fixed
+-   root user fields fixed
+-   deps updated
+
 ## 0.107.2 (2020-12-16)
 
 -   ajv formats added
