@@ -1,3 +1,7 @@
+## 0.108.0 (2020-12-19)
+
+-   http fetch agent refactored
+
 ## 0.107.3 (2020-12-17)
 
 -   catchResult fixed
