@@ -1,3 +1,8 @@
+## 0.108.1 (2020-12-19)
+
+-   gyp libc removed
+-   deps updated
+
 ## 0.108.0 (2020-12-19)
 
 -   http fetch agent refactored
