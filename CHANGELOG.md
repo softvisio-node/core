@@ -1,3 +1,9 @@
+## 0.109.0 (2020-12-21)
+
+-   postgres schema updated
+-   sqlite url parser fixed
+-   postgres connect to default db
+
 ## 0.108.1 (2020-12-19)
 
 -   gyp libc removed
