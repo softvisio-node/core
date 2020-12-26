@@ -1,3 +1,9 @@
+## 0.110.0 (2020-12-26)
+
+-   constants recursive for plain objects
+-   app permissions
+-   permission name rules changed
+
 ## 0.109.0 (2020-12-21)
 
 -   postgres schema updated
