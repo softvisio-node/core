@@ -834,9 +834,9 @@
             "integrity": "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q=="
         },
         "fast-xml-parser": {
-            "version": "3.17.5",
-            "resolved": "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-3.17.5.tgz",
-            "integrity": "sha512-lEvThd1Xq+CCylf1n+05bUZCDZjTufaaaqpxM3JZ+4iDqtlG+d/oKgtMmg9GEMOuzBgUoalIzFOaClht9YiGJQ=="
+            "version": "3.17.6",
+            "resolved": "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-3.17.6.tgz",
+            "integrity": "sha512-40WHI/5d2MOzf1sD2bSaTXlPn1lueJLAX6j1xH5dSAr6tNeut8B9ktEL6sjAK9yVON4uNj9//axOdBJUuruCzw=="
         },
         "fd-slicer": {
             "version": "1.1.0",
