@@ -5,12 +5,12 @@
     "requires": true,
     "dependencies": {
         "@softvisio/argon2": {
-            "version": "0.2.1",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-0.2.1.tgz",
-            "integrity": "sha512-xu0EB+S+gegC15Dfu1iM4lyw0OAEYs8YJBR8gRw0k3Te01nbp80EkvRF2IoC85E4x5YR/9EnqbdAYeJcxcU+rA==",
+            "version": "0.2.2",
+            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-0.2.2.tgz",
+            "integrity": "sha512-F5OKrRygh61e0gg9je4Wa4qQfXelcWEmJfh8mmuRjmlF7QJcBjHbTMDq1ZU7SI+TRzr88hbmhzc8K2jGudxwlA==",
             "requires": {
                 "@phc/format": ">=1.0.0",
-                "node-addon-api": ">=3.0.2",
+                "node-addon-api": ">=3.1.0",
                 "node-pre-gyp": ">=0.17.0"
             },
             "dependencies": {
@@ -264,9 +264,9 @@
                     }
                 },
                 "node-addon-api": {
-                    "version": "3.0.2",
-                    "resolved": "https://registry.npmjs.org/node-addon-api/-/node-addon-api-3.0.2.tgz",
-                    "integrity": "sha512-+D4s2HCnxPd5PjjI0STKwncjXTUKKqm74MDMz9OPXavjsGmjkvwgLtA5yoxJUdmpj52+2u+RrXgPipahKczMKg=="
+                    "version": "3.1.0",
+                    "resolved": "https://registry.npmjs.org/node-addon-api/-/node-addon-api-3.1.0.tgz",
+                    "integrity": "sha512-flmrDNB06LIl5lywUz7YlNGZH/5p0M7W28k8hzd9Lshtdh1wshD2Y+U4h9LD6KObOy1f+fEVdgprPrEymjM5uw=="
                 },
                 "node-pre-gyp": {
                     "version": "0.17.0",
