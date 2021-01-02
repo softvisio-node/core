@@ -1,3 +1,14 @@
+## 0.111.0 (2021-01-02)
+
+-   object permissions
+-   sqlite bigint support
+-   pgsql BigInt support
+-   deps updated
+-   constants get protection removed
+-   app api builder
+-   token permissions
+-   app permissions
+
 ## 0.110.0 (2020-12-26)
 
 -   constants recursive for plain objects
