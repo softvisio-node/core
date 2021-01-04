@@ -29,7 +29,8 @@
         "./lib/db/timezones.js": "./lib/db/timezones/browser.js",
         "./lib/events.js": "./lib/events/browser.js",
         "./lib/result.js": "./lib/result/browser.js",
-        "./lib/util.js": "./lib/util/browser.js"
+        "./lib/util.js": "./lib/util/browser.js",
+        "./lib/util/message-pack/encode.js": "./lib/util/message-pack/encode-browser.js"
     },
     "scripts": {
         "lint": "softvisio-cli lint"
