@@ -1,3 +1,7 @@
+## 0.113.0 (2021-01-05)
+
+-   api objects config structure updated
+
 ## 0.112.0 (2021-01-05)
 
 -   sqlite api refactored
