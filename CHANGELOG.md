@@ -1,3 +1,7 @@
+## 0.113.1 (2021-01-05)
+
+-   api db schema updated
+
 ## 0.113.0 (2021-01-05)
 
 -   api objects config structure updated
