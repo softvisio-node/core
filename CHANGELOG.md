@@ -1,3 +1,15 @@
+## 0.112.0 (2021-01-05)
+
+-   sqlite api refactored
+-   sql types updated
+-   sqlite schema functions support
+-   message pack transparently encode BigInt to string
+-   migrate to js-yaml 4
+-   linted
+-   user tokens api refactored
+-   object permissions
+-   api db splitted to files
+
 ## 0.111.0 (2021-01-02)
 
 -   object permissions
