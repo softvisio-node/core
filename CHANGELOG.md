@@ -1,3 +1,9 @@
+## 0.114.0 (2021-01-06)
+
+-   api token class
+-   threads api updated
+-   api mixins renamed
+
 ## 0.113.1 (2021-01-05)
 
 -   api db schema updated
