@@ -1,3 +1,11 @@
+## 0.115.0 (2021-01-06)
+
+-   api bench added
+-   db migration updated
+-   api db updated
+-   buildApi result
+-   api token class
+
 ## 0.114.0 (2021-01-06)
 
 -   api token class
