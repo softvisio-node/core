@@ -514,13 +514,13 @@
             }
         },
         "@softvisio/uws": {
-            "version": "0.3.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-0.3.0.tgz",
-            "integrity": "sha512-ZcyGR8OdnWJSSEn3/+crThXPH6JUi1x76PrEqGW+R9F3MFuefpF2a34vP2Hl6aiTKf3+k9JFoni9aVmiGYxB4g==",
+            "version": "0.4.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-0.4.0.tgz",
+            "integrity": "sha512-qrKwaGpi9IHs9g0qbfx1x2xLGmMmBRkaVgODrbje/eNwrZScUYLvbpjL2amg9JyY9LnBjcmyVdn5Bgw4pnoM9g==",
             "dependencies": {
                 "uWebSockets.js": {
-                    "version": "github:uNetworking/uWebSockets.js#bd720c90ff8b90f478d918c1cbe3f1dcbc3a765b",
-                    "from": "github:uNetworking/uWebSockets.js#v18.11.0"
+                    "version": "github:uNetworking/uWebSockets.js#de4a275e5d2ca352367114b905b4cbddc4a272a9",
+                    "from": "github:uNetworking/uWebSockets.js#v18.13.0"
                 }
             }
         },
