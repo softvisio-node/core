@@ -1,3 +1,8 @@
+## 0.116.0 (2021-01-10)
+
+-   sqlite safe bigint decode
+-   sql syntax rules applied
+
 ## 0.115.1 (2021-01-09)
 
 -   deps updated
