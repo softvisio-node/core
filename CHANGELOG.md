@@ -1,3 +1,8 @@
+## 0.116.2 (2021-01-12)
+
+-   deps updated
+-   sql syntax rules applied
+
 ## 0.116.1 (2021-01-10)
 
 -   typo
