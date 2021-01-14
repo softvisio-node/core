@@ -513,10 +513,10 @@
                 }
             }
         },
-        "@softvisio/messagepack": {
-            "version": "0.1.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/messagepack/-/messagepack-0.1.0.tgz",
-            "integrity": "sha512-hDjP0BXwLHk0NuXhkVouNXzZR/998C+JhRa8A3AtGOnY8zUhmhnsQI0vpfaf1reMQId1fuqSFWE+rV6ImuqQfw==",
+        "@softvisio/msgpack": {
+            "version": "0.2.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-0.2.0.tgz",
+            "integrity": "sha512-x1fONeMwiJjMlJqmH1E9InFFNM3U6bm9f0bUNdIpqkAX0eUSMMLzK1+PMRn+s+Oo5yC4BW2R12zJyl51pMyjbw==",
             "dependencies": {
                 "notepack.io": {
                     "version": "2.3.0",
