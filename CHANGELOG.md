@@ -1,3 +1,10 @@
+## 0.117.0 (2021-01-14)
+
+-   user session refactored
+-   base58 removed
+-   auth token refactored
+-   deps updated
+
 ## 0.116.3 (2021-01-12)
 
 -   user_hash -> auth_hash
