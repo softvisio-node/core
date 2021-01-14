@@ -42,7 +42,6 @@
         "ajv-formats": ">=1.5.1",
         "ajv-formats-draft2019": ">=1.4.3",
         "ansi-colors": ">=4.1.1",
-        "base-x": ">=3.0.8",
         "big-integer": ">=1.6.48",
         "bufferutil": ">=4.0.3",
         "ejs": ">=3.1.5",
