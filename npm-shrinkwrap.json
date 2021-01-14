@@ -513,6 +513,18 @@
                 }
             }
         },
+        "@softvisio/messagepack": {
+            "version": "0.1.0",
+            "resolved": "https://registry.npmjs.org/@softvisio/messagepack/-/messagepack-0.1.0.tgz",
+            "integrity": "sha512-hDjP0BXwLHk0NuXhkVouNXzZR/998C+JhRa8A3AtGOnY8zUhmhnsQI0vpfaf1reMQId1fuqSFWE+rV6ImuqQfw==",
+            "dependencies": {
+                "notepack.io": {
+                    "version": "2.3.0",
+                    "resolved": "https://registry.npmjs.org/notepack.io/-/notepack.io-2.3.0.tgz",
+                    "integrity": "sha512-9RiFDxeydHsWOqdthRUck2Kd4UW2NzVd2xxOulZiQ9mvge6ElsHXLpwD3HEJyql6sFEnEn/eMO7HSdS0M5mWkA=="
+                }
+            }
+        },
         "@softvisio/uws": {
             "version": "0.5.0",
             "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-0.5.0.tgz",
@@ -1139,11 +1151,6 @@
             "version": "4.2.3",
             "resolved": "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.2.3.tgz",
             "integrity": "sha512-MN6ZpzmfNCRM+3t57PTJHgHyw/h4OWnZ6mR8P5j/uZtqQr46RRuDE/P+g3n0YR/AiYXeWixZZzaip77gdICfRg=="
-        },
-        "notepack.io": {
-            "version": "2.3.0",
-            "resolved": "https://registry.npmjs.org/notepack.io/-/notepack.io-2.3.0.tgz",
-            "integrity": "sha512-9RiFDxeydHsWOqdthRUck2Kd4UW2NzVd2xxOulZiQ9mvge6ElsHXLpwD3HEJyql6sFEnEn/eMO7HSdS0M5mWkA=="
         },
         "once": {
             "version": "1.4.0",

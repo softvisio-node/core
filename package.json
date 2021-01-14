@@ -29,14 +29,14 @@
         "./lib/db/timezones.js": "./lib/db/timezones/browser.js",
         "./lib/events.js": "./lib/events/browser.js",
         "./lib/result.js": "./lib/result/browser.js",
-        "./lib/util.js": "./lib/util/browser.js",
-        "./lib/util/message-pack/encode.js": "./lib/util/message-pack/encode-browser.js"
+        "./lib/util.js": "./lib/util/browser.js"
     },
     "scripts": {
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
         "@softvisio/argon2": ">=0.2.2",
+        "@softvisio/messagepack": ">=0.1.0",
         "@softvisio/uws": ">=0.5.0",
         "ajv": ">=7.0.3",
         "ajv-formats": ">=1.5.1",
@@ -56,7 +56,6 @@
         "luxon": ">=1.25.0",
         "mime-db": ">=1.45.0",
         "node-fetch": ">=2.6.1",
-        "notepack.io": ">=2.3.0",
         "puppeteer-core": ">=5.5.0",
         "puppeteer-extra": ">=3.1.16",
         "puppeteer-extra-plugin": ">=3.1.8",
