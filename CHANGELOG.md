@@ -1,3 +1,7 @@
+## 0.117.1 (2021-01-14)
+
+-   token encoder updated
+
 ## 0.117.0 (2021-01-14)
 
 -   user session refactored
