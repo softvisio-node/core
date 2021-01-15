@@ -1,3 +1,7 @@
+## 0.118.1 (2021-01-15)
+
+-   username should not look like uuid
+
 ## 0.118.0 (2021-01-15)
 
 -   deps updated
