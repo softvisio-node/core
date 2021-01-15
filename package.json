@@ -36,7 +36,7 @@
     },
     "dependencies": {
         "@softvisio/argon2": ">=0.2.2",
-        "@softvisio/msgpack": ">=0.3.0",
+        "@softvisio/msgpack": ">=0.3.1",
         "@softvisio/uws": ">=0.5.0",
         "ajv": ">=7.0.3",
         "ajv-formats": ">=1.5.1",

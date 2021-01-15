@@ -514,9 +514,9 @@
             }
         },
         "@softvisio/msgpack": {
-            "version": "0.3.0",
-            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-0.3.0.tgz",
-            "integrity": "sha512-8S6vn3rfF79BoYfSp8rxCPpOglhBRzRYLd2/ApzD68pBu+dRdk86nkSyb1tCyeVrFc5sxYITQNIDT3k8J4DpPw==",
+            "version": "0.3.1",
+            "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-0.3.1.tgz",
+            "integrity": "sha512-aDDii0SQ/q4h2KkAD/NuMvPmuada7y8im88XM/YHDqMk/CERmcQFkNdo595RtHvg/T9eE2YO7WVomNdfPK9tOg==",
             "dependencies": {
                 "notepack.io": {
                     "version": "2.3.0",
