@@ -1,3 +1,9 @@
+## 0.118.0 (2021-01-15)
+
+-   deps updated
+-   ajv plugins added
+-   switched to softvisio/msgpack
+
 ## 0.117.1 (2021-01-14)
 
 -   token encoder updated
