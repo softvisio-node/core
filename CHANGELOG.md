@@ -1,3 +1,9 @@
+## 0.118.2 (2021-01-16)
+
+-   google search api fixed
+-   deps updated
+-   session token length 16 bytes
+
 ## 0.118.1 (2021-01-15)
 
 -   username should not look like uuid
