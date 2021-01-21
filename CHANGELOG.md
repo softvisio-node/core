@@ -1,3 +1,7 @@
+## 0.119.2 (2021-01-21)
+
+-   postgres decode to utf8 string by default
+
 ## 0.119.1 (2021-01-21)
 
 -   sql encoders updated
