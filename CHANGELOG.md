@@ -1,3 +1,17 @@
+## 0.119.0 (2021-01-21)
+
+-   sql refactored
+-   objectIsGoogleDomain removed
+-   objectIsCountry removed
+-   objectIsSqlQuery removed
+-   objectIsSubnet removed
+-   objectIsProxy removed
+-   instanceof IPAddr
+-   objectIsApp removed
+-   objectIsResult removed
+-   sql custom types
+-   sql encode object to json automatically
+
 ## 0.118.2 (2021-01-16)
 
 -   google search api fixed
