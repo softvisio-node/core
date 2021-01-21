@@ -1,3 +1,11 @@
+## 0.119.1 (2021-01-21)
+
+-   sql encoders updated
+-   postgres buffer decoder fixed
+-   postgres buffer encoder fixed
+-   sql types updated
+-   decimal -> numeric
+
 ## 0.119.0 (2021-01-21)
 
 -   sql refactored
