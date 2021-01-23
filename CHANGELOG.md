@@ -1,3 +1,8 @@
+## 0.120.0 (2021-01-23)
+
+-   nginx config updated
+-   nginx location set to /var/lib
+
 ## 0.119.2 (2021-01-21)
 
 -   postgres decode to utf8 string by default
