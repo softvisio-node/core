@@ -1,3 +1,7 @@
+## 0.121.0 (2021-01-24)
+
+-   ajv errors
+
 ## 0.120.0 (2021-01-23)
 
 -   nginx config updated
