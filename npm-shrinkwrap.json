@@ -941,6 +941,11 @@
             "resolved": "https://registry.npmjs.org/hash-wasm/-/hash-wasm-4.4.1.tgz",
             "integrity": "sha512-6hbcJY74kQQOAoDQZgm0rku51jlf0f3+g+q+1CI3vNvabF27SQuVJm86FnMNMaw8WEjBeW4U5GWX1KsKd8qZCw=="
         },
+        "html-entities": {
+            "version": "2.0.4",
+            "resolved": "https://registry.npmjs.org/html-entities/-/html-entities-2.0.4.tgz",
+            "integrity": "sha512-0KXw8Jx9PuopSrUKiANKS4I8ovQvpIjcO14tvb5eco3qAgXIrf85roz48v0m+UPkoffmG/dgnWjCr9kU1vDlBA=="
+        },
         "https-proxy-agent": {
             "version": "4.0.0",
             "resolved": "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-4.0.0.tgz",
