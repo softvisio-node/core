@@ -1,3 +1,7 @@
+## 0.122.1 (2021-01-26)
+
+-   email regexp updated
+
 ## 0.122.0 (2021-01-26)
 
 -   fetch chrome option added
