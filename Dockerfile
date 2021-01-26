@@ -6,7 +6,7 @@ USER root
 
 ENV TZ=UTC \
     WORKSPACE="/var/local" \
-    NODE_VERSION=14
+    NODE_VERSION=latest
 
 WORKDIR $WORKSPACE
 
