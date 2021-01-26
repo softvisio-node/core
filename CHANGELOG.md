@@ -1,3 +1,8 @@
+## 0.122.0 (2021-01-26)
+
+-   fetch chrome option added
+-   deps updated
+
 ## 0.121.1 (2021-01-25)
 
 -   ajv errors
