@@ -19,8 +19,36 @@
     "author": "zdm <zdm@softvisio.net>",
     "exports": {
         ".": "./lib/index.js",
-        "./": "./lib/",
-        "./resources/": "./resources/"
+        "./*": "./lib/*.js",
+        "./resources/*": "./resources/*",
+        "./api": {
+            "node": "./lib/api.js",
+            "brower": "./lib/api/client/browser.js"
+        },
+        "./const": {
+            "node": "./lib/const.js",
+            "brower": "./lib/const/browser.js"
+        },
+        "./db/countries/country": {
+            "node": "./lib/db/countries/country.js",
+            "brower": "./lib/db/countries/browser/country.js"
+        },
+        "./db/timezones": {
+            "node": "./lib/db/timezones.js",
+            "brower": "./lib/db/timezones/browser.js"
+        },
+        "./events": {
+            "node": "./lib/events.js",
+            "brower": "./lib/events/browser.js"
+        },
+        "./result": {
+            "node": "./lib/result.js",
+            "brower": "./lib/result/browser.js"
+        },
+        "./util": {
+            "node": "./lib/util.js",
+            "browser": "./lib/util/browser.js"
+        }
     },
     "browser": {
         "./lib/api.js": "./lib/api/client/browser.js",
