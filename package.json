@@ -64,7 +64,7 @@
     },
     "dependencies": {
         "@softvisio/argon2": ">=0.3.5",
-        "@softvisio/msgpack": ">=0.4.1",
+        "@softvisio/msgpack": "0.4.3",
         "@softvisio/uws": ">=0.6.3",
         "ajv": ">=7.0.3",
         "ajv-errors": ">=2.0.0",
@@ -94,6 +94,10 @@
         "uuid": ">=8.3.2",
         "which-country": ">=1.0.0",
         "ws": ">=7.4.2"
+    },
+    "engines": {
+        "node": ">=15.7.0",
+        "npm": ">=7.4.3"
     },
     "lint": [
         "*.*",
