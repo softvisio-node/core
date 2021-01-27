@@ -1,3 +1,7 @@
+## 0.123.7 (2021-01-27)
+
+-   deps updated
+
 ## 0.123.6 (2021-01-27)
 
 -   use buffer base65url encoding
