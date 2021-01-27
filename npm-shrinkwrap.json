@@ -9,9 +9,7 @@
             "version": "0.123.8",
             "license": "ISC",
             "dependencies": {
-                "@softvisio/argon2": ">=0.2.2",
                 "@softvisio/msgpack": ">=0.3.3",
-                "@softvisio/uws": ">=0.5.0",
                 "ajv": ">=7.0.3",
                 "ajv-errors": ">=2.0.0",
                 "ajv-formats": ">=1.5.1",
@@ -46,36 +44,11 @@
                 "npm": ">=7"
             }
         },
-        "node_modules/@softvisio/argon2": {
-            "version": "0.3.5",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-0.3.5.tgz",
-            "integrity": "sha512-Tmgb72be2PHzJev1rFdkG0B7i4Xo/YqdASHIfeCBSREYs5MDZ1iBIqGBvFcTilVhprFZJguX4FqV3pMjLJjFBg==",
-            "hasShrinkwrap": true,
-            "dependencies": {
-                "@phc/format": ">=1.0.0",
-                "node-addon-api": ">=3.1.0",
-                "node-pre-gyp": ">=0.17.0"
-            },
-            "engines": {
-                "node": ">=15.7.0",
-                "npm": ">=7"
-            }
-        },
         "node_modules/@softvisio/msgpack": {
             "version": "0.4.1",
             "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-0.4.1.tgz",
             "integrity": "sha512-1IMC9zOdrPPm5USDZkAMp5qE83vsHyl+5GG6Lgb76e7TXS2pzjwkLQlRWGBnk6284RD4xbzw3C2vnamHlkiofQ==",
             "hasShrinkwrap": true
-        },
-        "node_modules/@softvisio/uws": {
-            "version": "0.6.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-0.6.3.tgz",
-            "integrity": "sha512-C99i2P0foGahOsefylKhQJ3s8Me3l4a3eiHgAdQ2cLc8z1/QH3aDRg4Ld6yV7Da8byQRp0Jby4mr+WnPgVM8Jw==",
-            "hasShrinkwrap": true,
-            "engines": {
-                "node": ">=15.7.0",
-                "npm": ">=7"
-            }
         },
         "node_modules/@types/debug": {
             "version": "4.1.5",
@@ -1300,25 +1273,10 @@
         }
     },
     "dependencies": {
-        "@softvisio/argon2": {
-            "version": "0.3.5",
-            "resolved": "https://registry.npmjs.org/@softvisio/argon2/-/argon2-0.3.5.tgz",
-            "integrity": "sha512-Tmgb72be2PHzJev1rFdkG0B7i4Xo/YqdASHIfeCBSREYs5MDZ1iBIqGBvFcTilVhprFZJguX4FqV3pMjLJjFBg==",
-            "requires": {
-                "@phc/format": ">=1.0.0",
-                "node-addon-api": ">=3.1.0",
-                "node-pre-gyp": ">=0.17.0"
-            }
-        },
         "@softvisio/msgpack": {
             "version": "0.4.1",
             "resolved": "https://registry.npmjs.org/@softvisio/msgpack/-/msgpack-0.4.1.tgz",
             "integrity": "sha512-1IMC9zOdrPPm5USDZkAMp5qE83vsHyl+5GG6Lgb76e7TXS2pzjwkLQlRWGBnk6284RD4xbzw3C2vnamHlkiofQ=="
-        },
-        "@softvisio/uws": {
-            "version": "0.6.3",
-            "resolved": "https://registry.npmjs.org/@softvisio/uws/-/uws-0.6.3.tgz",
-            "integrity": "sha512-C99i2P0foGahOsefylKhQJ3s8Me3l4a3eiHgAdQ2cLc8z1/QH3aDRg4Ld6yV7Da8byQRp0Jby4mr+WnPgVM8Jw=="
         },
         "@types/debug": {
             "version": "4.1.5",
