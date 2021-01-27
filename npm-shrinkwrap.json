@@ -1,12 +1,12 @@
 {
     "name": "@softvisio/core",
-    "version": "0.123.8",
+    "version": "0.123.9",
     "lockfileVersion": 2,
     "requires": true,
     "packages": {
         "": {
             "name": "@softvisio/core",
-            "version": "0.123.8",
+            "version": "0.123.9",
             "license": "ISC",
             "dependencies": {
                 "@softvisio/msgpack": ">=0.3.3",
