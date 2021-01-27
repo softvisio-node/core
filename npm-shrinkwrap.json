@@ -1,12 +1,12 @@
 {
     "name": "@softvisio/core",
-    "version": "0.123.11",
+    "version": "0.123.12",
     "lockfileVersion": 2,
     "requires": true,
     "packages": {
         "": {
             "name": "@softvisio/core",
-            "version": "0.123.11",
+            "version": "0.123.12",
             "license": "ISC",
             "dependencies": {
                 "@softvisio/argon2": ">=0.3.5",
