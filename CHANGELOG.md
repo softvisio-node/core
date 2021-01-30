@@ -1,3 +1,7 @@
+## 0.124.0 (2021-01-30)
+
+-   puppeteer removed
+
 ## 0.123.16 (2021-01-27)
 
 -   doc fixed for npm 7
