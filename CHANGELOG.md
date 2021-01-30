@@ -1,3 +1,7 @@
+## 0.125.0 (2021-01-30)
+
+-   google serp api removed
+
 ## 0.124.0 (2021-01-30)
 
 -   puppeteer removed
