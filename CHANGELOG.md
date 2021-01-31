@@ -1,3 +1,7 @@
+## 0.125.1 (2021-01-31)
+
+-   deps updated
+
 ## 0.125.0 (2021-01-30)
 
 -   google serp api removed
