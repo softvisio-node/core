@@ -63,9 +63,9 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "@softvisio/argon2": "^0.3.5",
-        "@softvisio/msgpack": "^0.4.3",
-        "@softvisio/uws": "^0.6.3",
+        "@softvisio/argon2": "^1.0.0",
+        "@softvisio/msgpack": "^1.0.0",
+        "@softvisio/uws": "^1.0.0",
         "ajv": "^7.0.3",
         "ajv-errors": "^2.0.0",
         "ajv-formats": "^1.5.1",
