@@ -1,3 +1,13 @@
+## 2.0.0-alpha.0 (2021-02-07)
+
+### Raw commits log
+
+-   proxy refactored;
+-   index updated;
+-   mixins refactored;
+-   proxy timezone removed;
+-   tor api added;
+
 ## 1.1.0 (2021-02-01)
 
 -   threads/max-threads class added
