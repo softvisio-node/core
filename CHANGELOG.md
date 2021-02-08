@@ -1,3 +1,10 @@
+## 2.0.0-alpha.1 (2021-02-08)
+
+### Raw commits log
+
+-   playwright helper added;
+-   proxy refactored;
+
 ## 2.0.0-alpha.0 (2021-02-07)
 
 ### Raw commits log
