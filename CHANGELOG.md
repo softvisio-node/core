@@ -1,3 +1,10 @@
+## 2.0.0-beta.4 (2021-02-09)
+
+### Raw commits log
+
+-   playwright patch refactored;
+-   util getEnvBool function;
+
 ## 2.0.0-beta.3 (2021-02-09)
 
 ### Raw commits log
