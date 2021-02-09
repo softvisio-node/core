@@ -1,3 +1,9 @@
+## 2.0.0-beta.6 (2021-02-09)
+
+### Raw commits log
+
+-   playwright use google-chrome-stable by default on linux;
+
 ## 2.0.0-beta.5 (2021-02-09)
 
 ### Raw commits log
