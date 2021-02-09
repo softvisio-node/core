@@ -1,3 +1,10 @@
+## 2.0.0-beta.5 (2021-02-09)
+
+### Raw commits log
+
+-   proxy base rotation methods added;
+-   proxy server await proxy hook;
+
 ## 2.0.0-beta.4 (2021-02-09)
 
 ### Raw commits log
