@@ -41,10 +41,6 @@
             "node": "./lib/events.js",
             "brower": "./lib/events/browser.js"
         },
-        "./result": {
-            "node": "./lib/result.js",
-            "brower": "./lib/result/browser.js"
-        },
         "./util": {
             "node": "./lib/util.js",
             "browser": "./lib/util/browser.js"
@@ -56,7 +52,6 @@
         "./lib/db/countries/country.js": "./lib/db/countries/browser/country.js",
         "./lib/db/timezones.js": "./lib/db/timezones/browser.js",
         "./lib/events.js": "./lib/events/browser.js",
-        "./lib/result.js": "./lib/result/browser.js",
         "./lib/util.js": "./lib/util/browser.js"
     },
     "scripts": {
