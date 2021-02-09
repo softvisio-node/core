@@ -1,3 +1,16 @@
+## 2.0.0-beta.0 (2021-02-09)
+
+### Raw commits log
+
+-   app api init refactored;
+-   util functions moved to the global objects;
+-   constants moved to separate file;
+-   net patch added;
+-   stream patch added;
+-   ajv msgpack moved to separate file;
+-   ajv helper moved to separate file;
+-   mixin detection fixed;
+
 ## 2.0.0-alpha.1 (2021-02-08)
 
 ### Raw commits log
