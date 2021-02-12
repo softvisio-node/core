@@ -41,9 +41,9 @@
             "node": "./lib/events.js",
             "brower": "./lib/events/browser.js"
         },
-        "./util": {
-            "node": "./lib/util.js",
-            "browser": "./lib/util/browser.js"
+        "./utils": {
+            "node": "./lib/utils.js",
+            "browser": "./lib/utils/browser.js"
         }
     },
     "browser": {
@@ -52,7 +52,7 @@
         "./lib/db/countries/country.js": "./lib/db/countries/browser/country.js",
         "./lib/db/timezones.js": "./lib/db/timezones/browser.js",
         "./lib/events.js": "./lib/events/browser.js",
-        "./lib/util.js": "./lib/util/browser.js"
+        "./lib/utils.js": "./lib/utils/browser.js"
     },
     "scripts": {
         "lint": "softvisio-cli lint"
