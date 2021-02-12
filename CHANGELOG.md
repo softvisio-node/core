@@ -1,3 +1,11 @@
+## 2.0.0-beta.7 (2021-02-12)
+
+### Raw commits log
+
+-   max-threads mixin removed;
+-   threads/pool moved to ./threads;
+-   callable class prototype added;
+
 ## 2.0.0-beta.6 (2021-02-09)
 
 ### Raw commits log
