@@ -1,3 +1,10 @@
+## 2.0.0-beta.10 (2021-02-12)
+
+### Raw commits log
+
+-   threads refactored;
+-   threads class name fixed;
+
 ## 2.0.0-beta.9 (2021-02-12)
 
 ### Raw commits log
