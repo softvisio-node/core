@@ -1,3 +1,10 @@
+## 2.0.0-beta.11 (2021-02-14)
+
+### Raw commits log
+
+-   sql migration refactored;
+-   bench fixed;
+
 ## 2.0.0-beta.10 (2021-02-12)
 
 ### Raw commits log
