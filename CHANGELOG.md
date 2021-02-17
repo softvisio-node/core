@@ -1,3 +1,10 @@
+## 2.0.0-beta.12 (2021-02-17)
+
+### Raw commits log
+
+-   packetstream proxies fixed;
+-   form-data v4;
+
 ## 2.0.0-beta.11 (2021-02-14)
 
 ### Raw commits log
