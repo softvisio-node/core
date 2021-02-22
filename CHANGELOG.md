@@ -1,3 +1,9 @@
+## 2.0.0-beta.14 (2021-02-22)
+
+### Raw commits log
+
+-   smtp ehlo fixed;
+
 ## 2.0.0-beta.13 (2021-02-22)
 
 ### Raw commits log
