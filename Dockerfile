@@ -36,6 +36,7 @@ RUN \
     # setup node
     && npm config set prefix ~/.npm \
     && npm config set cache ~/.npm-cache \
+    && npm config set engine-strict true \
     \
     # make global node modules loadable
     && mkdir -p ~/.npm/lib \
