@@ -1,3 +1,11 @@
+## 2.0.0-beta.13 (2021-02-22)
+
+### Raw commits log
+
+-   smtp refactored;
+-   docker node engines-strict;
+-   engines updated;
+
 ## 2.0.0-beta.12 (2021-02-17)
 
 ### Raw commits log
