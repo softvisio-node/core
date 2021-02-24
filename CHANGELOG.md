@@ -1,3 +1,9 @@
+## 2.0.0-rc.1 (2021-02-24)
+
+### Raw commits log
+
+-   Object.pick(), Object.omit() methods fixed;
+
 ## 2.0.0-rc.0 (2021-02-24)
 
 ### Raw commits log
