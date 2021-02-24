@@ -1,3 +1,10 @@
+## 2.0.0-rc.2 (2021-02-24)
+
+### Raw commits log
+
+-   browser index added;
+-   condvar recv callback fixed;
+
 ## 2.0.0-rc.1 (2021-02-24)
 
 ### Raw commits log
