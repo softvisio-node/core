@@ -1,3 +1,13 @@
+## 2.0.0-rc.0 (2021-02-24)
+
+### Raw commits log
+
+-   sql SET() signature changed;
+-   Object.pick(), Object.omit() methods added;
+-   constants use Object.freeze() instead of Proxy;
+-   sql code cleanup;
+-   sql VALUES() signature changed;
+
 ## 2.0.0-beta.14 (2021-02-22)
 
 ### Raw commits log
