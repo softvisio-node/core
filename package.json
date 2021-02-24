@@ -50,6 +50,7 @@
         }
     },
     "browser": {
+        "./lib/index.js": "./lib/index/browser.js",
         "./lib/api.js": "./lib/api/client/browser.js",
         "./lib/const.js": "./lib/const/browser.js",
         "./lib/db/countries/country.js": "./lib/db/countries/browser/country.js",
