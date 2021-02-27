@@ -14,8 +14,16 @@
       - type: string
         const: in
       - type: array
-        items:
-          type: string
+        items: { type: string }
+
+  range-not-in:
+    $id: "#range-not-in"
+    type: array
+    items:
+      - type: string
+        const: not in
+      - type: array
+        items: { type: string }
 
 - $id: order-by-item
   anyOf:
