@@ -25,6 +25,12 @@
       - type: array
         items: { type: string }
 
+  range1:
+    $id: "#range"
+    anyOf:
+      - type: string
+      - type: boolean
+
 - $id: order-by-item
   anyOf:
     - type: string
