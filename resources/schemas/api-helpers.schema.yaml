@@ -7,6 +7,16 @@
         const: like
       - type: string
 
+  range-in:
+    $id: "#range-in"
+    type: array
+    items:
+      - type: string
+        const: in
+      - type: array
+        items:
+          type: string
+
 - $id: order-by-item
   anyOf:
     - type: string
