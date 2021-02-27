@@ -1,0 +1,32 @@
+- $id: condition
+  like:
+    $id: "#like"
+    type: array
+    items:
+      - type: string
+        const: like
+      - type: string
+
+- $id: order-by-item
+  anyOf:
+    - type: string
+    - type: array
+      items:
+        - type: string
+        - type: string
+          enum: [asc, desc]
+
+- $id: order-by
+  anyOf:
+    - $ref: order-by-item
+    - type: array
+      items:
+        $ref: order-by-item
+
+- $id: limit
+  type: integer
+  minimum: 0
+
+- $id: offset
+  type: integer
+  minimum: 0
