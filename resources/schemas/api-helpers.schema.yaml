@@ -25,11 +25,12 @@
       - type: array
         items: { type: string }
 
+  # XXX range here is conflicts with the ajv-keywords
   range1:
     $id: "#range"
     anyOf:
-      - type: string
-      - type: boolean
+      - $ref: "#range-in"
+      - $ref: "#range-not-in"
 
 - $id: order-by-item
   anyOf:
