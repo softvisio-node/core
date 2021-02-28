@@ -1,3 +1,9 @@
+## 2.0.0-rc.4 (2021-02-28)
+
+### Raw commits log
+
+-   api browser missing result deps;
+
 ## 2.0.0-rc.3 (2021-02-28)
 
 ### Raw commits log
