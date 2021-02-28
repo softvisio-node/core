@@ -1,3 +1,17 @@
+## 2.0.0-rc.3 (2021-02-28)
+
+### Raw commits log
+
+-   proxy rotation refactored;
+-   api token refactored;
+-   luminati session;
+-   sql where condition [!=, null] converted to IS NOT NULL;
+-   ajv api keywords;
+-   require global index;
+-   max threads replaced with semaphore;
+-   threads signal added;
+-   threads mutex added;
+
 ## 2.0.0-rc.2 (2021-02-24)
 
 ### Raw commits log
