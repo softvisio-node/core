@@ -1,3 +1,11 @@
+## 2.0.0-rc.5 (2021-03-02)
+
+### Raw commits log
+
+-   ajv apiUpload keyword;
+-   api upload refactored;
+-   apiReader ajv keyword renamed to apiRead;
+
 ## 2.0.0-rc.4 (2021-02-28)
 
 ### Raw commits log
