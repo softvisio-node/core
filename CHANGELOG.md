@@ -1,3 +1,9 @@
+## 2.0.0 (2021-03-03)
+
+### Raw commits log
+
+-   @softvisio/nginx added;
+
 ## 2.0.0-rc.5 (2021-03-02)
 
 ### Raw commits log
