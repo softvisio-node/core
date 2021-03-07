@@ -64,7 +64,6 @@
     "dependencies": {
         "@softvisio/argon2": "^1.0.0",
         "@softvisio/msgpack": "^1.0.0",
-        "@softvisio/nginx": "^1.1.0",
         "@softvisio/uws": "^1.0.0",
         "ajv": "^7.0.3",
         "ajv-errors": "^2.0.0",
