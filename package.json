@@ -73,6 +73,7 @@
         "ajv-keywords": "^4.0.0",
         "ansi-colors": "^4.1.1",
         "big-integer": "^1.6.48",
+        "bufferutil": "^4.0.3",
         "ejs": "^3.1.5",
         "eventemitter3": "^4.0.7",
         "fast-xml-parser": "^3.17.6",
@@ -85,6 +86,7 @@
         "luxon": "^1.25.0",
         "mime-db": "^1.45.0",
         "node-fetch": "^2.6.1",
+        "utf-8-validate": "^5.0.4",
         "uuid": "^8.3.2",
         "which-country": "^1.0.0",
         "ws": "^7.4.2"
