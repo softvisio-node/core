@@ -1,3 +1,14 @@
+## 2.1.0 (2021-03-08)
+
+### Raw commits log
+
+-   getRealRemoteAddress updated;
+-   loadbalancer config removed;
+-   api ping / pong handlers added;
+-   deps updated;
+-   http api ping / pong support;
+-   api client small code improvements;
+
 ## 2.0.1 (2021-03-04)
 
 ### Raw commits log
