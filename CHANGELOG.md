@@ -1,3 +1,9 @@
+## 2.2.2 (2021-03-09)
+
+### Raw commits log
+
+-   moved to compose file;
+
 ## 2.2.1 (2021-03-09)
 
 ### Raw commits log
