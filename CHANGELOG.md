@@ -1,3 +1,13 @@
+## 2.2.0 (2021-03-09)
+
+### Raw commits log
+
+-   getEnvBool() supports true only;
+-   maxmind module added;
+-   tmp files refactored;
+-   tmp files unlinkSync() replaced with remove();
+-   getRealRemoteAddress fixed;
+
 ## 2.1.0 (2021-03-08)
 
 ### Raw commits log
