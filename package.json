@@ -58,6 +58,9 @@
         "./lib/events.js": "./lib/events/browser.js",
         "./lib/utils.js": "./lib/utils/browser.js"
     },
+    "bin": {
+        "update-maxmind": "bin/update-maxmind.js"
+    },
     "scripts": {
         "lint": "softvisio-cli lint"
     },
@@ -84,7 +87,9 @@
         "lru-cache": "^6.0.0",
         "luxon": "^1.25.0",
         "mime-db": "^1.45.0",
+        "mmdb-lib": "^1.2.0",
         "node-fetch": "^2.6.1",
+        "tar": "^6.1.0",
         "utf-8-validate": "^5.0.4",
         "uuid": "^8.3.2",
         "which-country": "^1.0.0",
