@@ -1,3 +1,9 @@
+## 2.2.1 (2021-03-09)
+
+### Raw commits log
+
+-   maxmind repo path updated;
+
 ## 2.2.0 (2021-03-09)
 
 ### Raw commits log
