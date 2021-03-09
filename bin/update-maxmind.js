@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const maxmind = require( "../maxmind" );
+const maxmind = require( "../lib/maxmind" );
 
 ( async () => {
     const ok = await maxmind.update( true );
