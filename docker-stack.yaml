@@ -9,4 +9,5 @@ services:
   core:
     image: softvisio/core
 
-    build: "true"
+    build:
+      context: .
