@@ -20,6 +20,12 @@ ONBUILD ENV DIST_DIR="$WORKSPACE/dist"
 ONBUILD WORKDIR $DIST_DIR/data
 ONBUILD ADD . $DIST_DIR
 ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "node ../bin/main.js \"$@\"", "bash" ]
+ONBUILD HEALTHCHECK \
+    --start-period=30s \
+    --interval=30s \
+    --retries=3 \
+    --timeout=10s \
+    CMD curl -f http://127.0.0.1/api/ping || exit 1
 
 RUN \
     # setup host
