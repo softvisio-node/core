@@ -1,3 +1,11 @@
+## 2.2.3 (2021-03-10)
+
+### Raw commits log
+
+-   debug log removed;
+-   docker-compose.yaml renamed to docker-stack.yaml;
+-   api heartbeat timeout set to 40 seconds;
+
 ## 2.2.2 (2021-03-09)
 
 ### Raw commits log
