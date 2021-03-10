@@ -1,9 +1,9 @@
 version: "3.9"
 
 x-build:
-  default_tag: latest
-  # auto_tags: [master, devel, latest]
-  # tags_mapping: { main: latest }
+  default_tag: main
+  # auto_tags: [main, devel, latest]
+  tags_mapping: { main: latest }
 
 services:
   core:
