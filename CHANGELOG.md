@@ -1,3 +1,10 @@
+## 2.2.4 (2021-03-11)
+
+### Raw commits log
+
+-   maxmind env.MAXMIND_LICENSE_KEY;
+-   image healthcheck added;
+
 ## 2.2.3 (2021-03-10)
 
 ### Raw commits log
