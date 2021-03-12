@@ -1,3 +1,14 @@
+## 2.2.5 (2021-03-12)
+
+### Raw commits log
+
+-   proxy http requests fixed;
+-   mime force option added to override types;
+-   proxy code cleanup;
+-   proxy https headers fixed;
+-   port for http proxy fixed;
+-   proxy connect fixed;
+
 ## 2.2.4 (2021-03-11)
 
 ### Raw commits log
