@@ -1,13 +1,13 @@
 version: "3.9"
 
-x-build:
-  default_tag: main
-  # auto_tags: [main, devel, latest]
-  tags_mapping: { main: latest }
-
 services:
   core:
     image: softvisio/core
 
     build:
       context: .
+
+x-build:
+  default_tag: main
+  # auto_tags: [main, devel, latest]
+  tags_mapping: { main: latest }
