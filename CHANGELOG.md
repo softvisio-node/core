@@ -1,3 +1,13 @@
+## 2.3.0 (2021-03-14)
+
+### Raw commits log
+
+-   sql pg advisory lock during migration;
+-   app env local files added;
+-   docker entry point changed to package root;
+-   docker env cleared;
+-   docker-stack updated;
+
 ## 2.2.5 (2021-03-12)
 
 ### Raw commits log
