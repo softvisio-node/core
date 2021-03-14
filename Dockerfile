@@ -14,9 +14,9 @@ SHELL [ "/bin/bash", "-l", "-c" ]
 
 ONBUILD USER root
 ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
-ONBUILD WORKDIR /var/local/package/data
+ONBUILD WORKDIR /var/local/package
 ONBUILD ADD . /var/local/package
-ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "node ../bin/main.js \"$@\"", "bash" ]
+ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "node bin/main.js \"$@\"", "bash" ]
 ONBUILD HEALTHCHECK \
     --start-period=30s \
     --interval=30s \
