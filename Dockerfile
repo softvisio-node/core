@@ -1,14 +1,10 @@
 FROM centos:latest
 
-LABEL maintainer="zdm <zdm@softvisio.net>"
-
 USER root
 
 ENV TZ=UTC
 
 WORKDIR /var/local
-
-# ADD . $WORSPACE/softvisio-core
 
 SHELL [ "/bin/bash", "-l", "-c" ]
 
