@@ -1,3 +1,9 @@
+## 2.4.0 (2021-03-14)
+
+### Raw commits log
+
+-   utils/env module added;
+
 ## 2.3.0 (2021-03-14)
 
 ### Raw commits log
