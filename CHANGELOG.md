@@ -1,3 +1,9 @@
+## 2.5.1 (2021-03-14)
+
+### Raw commits log
+
+-   nginx removed;
+
 ## 2.5.0 (2021-03-14)
 
 ### Raw commits log
