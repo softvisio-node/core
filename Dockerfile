@@ -4,11 +4,9 @@ LABEL maintainer="zdm <zdm@softvisio.net>"
 
 USER root
 
-ENV TZ=UTC \
-    WORKSPACE="/var/local" \
-    NODE_VERSION=latest
+ENV TZ=UTC
 
-WORKDIR $WORKSPACE
+WORKDIR /var/local
 
 # ADD . $WORSPACE/softvisio-core
 
@@ -16,9 +14,8 @@ SHELL [ "/bin/bash", "-l", "-c" ]
 
 ONBUILD USER root
 ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
-ONBUILD ENV DIST_DIR="$WORKSPACE/dist"
-ONBUILD WORKDIR $DIST_DIR/data
-ONBUILD ADD . $DIST_DIR
+ONBUILD WORKDIR /var/local/package/data
+ONBUILD ADD . /var/local/package
 ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "node ../bin/main.js \"$@\"", "bash" ]
 ONBUILD HEALTHCHECK \
     --start-period=30s \
@@ -35,8 +32,8 @@ RUN \
     # && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/env-build-node.sh | /bin/bash -s -- setup \
     \
     # install latest node
-    && n $NODE_VERSION \
-    && n rm $NODE_VERSION \
+    && n latest \
+    && n rm latest \
     && dnf clean all \
     \
     # setup node
