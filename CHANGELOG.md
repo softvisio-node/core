@@ -1,3 +1,12 @@
+## 2.5.0 (2021-03-14)
+
+### Raw commits log
+
+-   fs.config all option added for read yaml multidocuments;
+-   redis wrapper added;
+-   sql locks index added;
+-   redis driver added;
+
 ## 2.4.0 (2021-03-14)
 
 ### Raw commits log
