@@ -1,3 +1,9 @@
+## 2.6.1 (2021-03-15)
+
+### Raw commits log
+
+-   config merge updated;
+
 ## 2.6.0 (2021-03-15)
 
 ### Raw commits log
