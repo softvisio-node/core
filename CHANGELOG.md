@@ -1,3 +1,10 @@
+## 2.6.0 (2021-03-15)
+
+### Raw commits log
+
+-   config files renamed;
+-   docker file cleaned;
+
 ## 2.5.1 (2021-03-14)
 
 ### Raw commits log
