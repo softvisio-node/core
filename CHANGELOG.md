@@ -1,3 +1,9 @@
+## 2.6.2 (2021-03-15)
+
+### Raw commits log
+
+-   docker tags updated;
+
 ## 2.6.1 (2021-03-15)
 
 ### Raw commits log
