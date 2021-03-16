@@ -1,3 +1,9 @@
+## 2.6.4 (2021-03-16)
+
+### Raw commits log
+
+-   pgsql socket set keepalive;
+
 ## 2.6.3 (2021-03-15)
 
 ### Raw commits log
