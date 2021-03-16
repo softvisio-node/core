@@ -31,6 +31,7 @@ RUN \
     && n latest \
     && n rm latest \
     && dnf clean all \
+    && rm -rf /var/cache/dnf \
     \
     # setup node
     && npm config set prefix ~/.npm \
