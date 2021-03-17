@@ -18,7 +18,7 @@ ONBUILD HEALTHCHECK \
     --interval=30s \
     --retries=3 \
     --timeout=10s \
-    CMD curl -f http://127.0.0.1/api/ping || exit 1
+    CMD curl -f http://127.0.0.1/api/healthcheck || exit 1
 
 RUN \
     # setup host
