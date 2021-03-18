@@ -1,3 +1,16 @@
+## 2.7.0 (2021-03-18)
+
+### Raw commits log
+
+-   app events docs;
+-   app/settings/update -> app/settings/update;
+-   do not send app/settings/update event on init;
+-   app cluster integration;
+-   api auth cache refactored;
+-   semaphore combined with signal;
+-   api healthcheck method added;
+-   docker remove dnf cache;
+
 ## 2.6.4 (2021-03-16)
 
 ### Raw commits log
