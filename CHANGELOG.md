@@ -1,3 +1,10 @@
+## 2.8.1 (2021-03-19)
+
+### Raw commits log
+
+-   uws proxy;
+-   cluster.js moved;
+
 ## 2.8.0 (2021-03-19)
 
 ### Raw commits log
