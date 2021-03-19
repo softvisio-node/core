@@ -1,3 +1,13 @@
+## 2.8.0 (2021-03-19)
+
+### Raw commits log
+
+-   object permissions cache integrated with cluster;
+-   use auth cache if cluster is active;
+-   make auth cache private;
+-   healthcheck always retirn json;
+-   cluster service connect event renamed to cluster/service/connect;
+
 ## 2.7.0 (2021-03-18)
 
 ### Raw commits log
