@@ -1,3 +1,13 @@
+## 2.9.0 (2021-03-22)
+
+### Raw commits log
+
+-   sqlite notifications;
+-   pgsql notifications;
+-   ArrayBuffer toJSON global hook added;
+-   buffer toJSON global hook added;
+-   app events renamed;
+
 ## 2.8.2 (2021-03-19)
 
 ### Raw commits log
