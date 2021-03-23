@@ -1,3 +1,10 @@
+## 2.9.1 (2021-03-23)
+
+### Raw commits log
+
+-   app events scope fixed;
+-   string padEnd();
+
 ## 2.9.0 (2021-03-22)
 
 ### Raw commits log
