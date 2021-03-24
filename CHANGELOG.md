@@ -1,3 +1,9 @@
+## 2.10.0 (2021-03-24)
+
+### Raw commits log
+
+-   text table added;
+
 ## 2.9.1 (2021-03-23)
 
 ### Raw commits log
