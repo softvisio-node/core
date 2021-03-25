@@ -1,3 +1,10 @@
+## 2.10.2 (2021-03-25)
+
+### Raw commits log
+
+-   table options updated;
+-   linted;
+
 ## 2.10.1 (2021-03-24)
 
 ### Raw commits log
