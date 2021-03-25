@@ -1,3 +1,9 @@
+## 2.10.3 (2021-03-25)
+
+### Raw commits log
+
+-   table stringify cell value;
+
 ## 2.10.2 (2021-03-25)
 
 ### Raw commits log
