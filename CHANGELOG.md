@@ -1,3 +1,12 @@
+## 2.11.0 (2021-03-27)
+
+### Raw commits log
+
+-   app events refactored;
+-   app emit renamed to publish;
+-   cli refactored;
+-   cli help use table format;
+
 ## 2.10.3 (2021-03-25)
 
 ### Raw commits log
