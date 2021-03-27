@@ -134,7 +134,7 @@
     type: array
     items:
       type: string
-      pattern: "^(?:[!@*]|[a-z-]+)$"
+      pattern: "^(?:[*]|[a-z-]+)$"
     minItems: 1
 
   # TODO

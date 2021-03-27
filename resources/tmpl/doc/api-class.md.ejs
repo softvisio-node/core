@@ -44,11 +44,13 @@ const res = await api.call( "<%- method.apiFullName %>"<%- method.templateParams
 
 <% for ( let permission of method.permissions ) { -%>
 <% if ( permission === "*" ) { -%>
--   "\*" - any user;
-<% } else if ( permission === "!" ) { -%>
--   "!" - any not-authenticated user;
-<% } else if ( permission === "@" ) { -%>
--   "@" - any authenticated user;
+-   "\*" - any connected user;
+<% } else if ( permission === "guest" ) { -%>
+-   "guest" - any guest (not-authenticated) user;
+<% } else if ( permission === "user" ) { -%>
+-   "user" - any authenticated user;
+<% } else if ( permission === "root" ) { -%>
+-   "root" - root user;
 <% } else { -%>
 -   "<%- permission %>";
 <% } -%>
