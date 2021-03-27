@@ -1,3 +1,12 @@
+## 2.12.1 (2021-03-27)
+
+### Raw commits log
+
+-   sqlite defer notifications;
+-   sqlite fixes;
+-   sqlite db int8 -> integer;
+-   sqlite triggers updated;
+
 ## 2.12.0 (2021-03-27)
 
 ### Raw commits log
