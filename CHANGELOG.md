@@ -1,3 +1,12 @@
+## 2.12.0 (2021-03-27)
+
+### Raw commits log
+
+-   api events moved to database;
+-   app predefined user permissions renamed;
+-   app event publish status fixed;
+-   predefined cluster groups names added;
+
 ## 2.11.0 (2021-03-27)
 
 ### Raw commits log
