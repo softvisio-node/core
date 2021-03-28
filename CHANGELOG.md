@@ -1,3 +1,9 @@
+## 2.12.2 (2021-03-28)
+
+### Raw commits log
+
+-   deps updated;
+
 ## 2.12.1 (2021-03-27)
 
 ### Raw commits log
