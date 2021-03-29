@@ -1,3 +1,14 @@
+## 2.13.0 (2021-03-29)
+
+### Raw commits log
+
+-   sql refactored;
+-   signal.send remember signal value;
+-   SemaphoreSet class added;
+-   api cache refactored;
+-   dim ansi style added;
+-   sqlite defer notifications updated;
+
 ## 2.12.2 (2021-03-28)
 
 ### Raw commits log
