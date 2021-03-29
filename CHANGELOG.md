@@ -1,3 +1,9 @@
+## 2.13.1 (2021-03-29)
+
+### Raw commits log
+
+-   threads event name parser fixed;
+
 ## 2.13.0 (2021-03-29)
 
 ### Raw commits log
