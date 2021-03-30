@@ -1,3 +1,10 @@
+## 2.14.0 (2021-03-30)
+
+### Raw commits log
+
+-   playwright devices added;
+-   table ansi autodetect;
+
 ## 2.13.3 (2021-03-29)
 
 ### Raw commits log
