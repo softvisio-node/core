@@ -64,7 +64,7 @@
         "./lib/utils/env.js": "./lib/utils/browser/env.js"
     },
     "bin": {
-        "update-maxmind": "bin/update-maxmind.js"
+        "update-databases": "bin/update-databases.js"
     },
     "scripts": {
         "lint": "softvisio-cli lint"
