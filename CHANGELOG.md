@@ -1,3 +1,9 @@
+## 2.14.2 (2021-04-01)
+
+### Raw commits log
+
+-   maxmind path changed;
+
 ## 2.14.1 (2021-04-01)
 
 ### Raw commits log
