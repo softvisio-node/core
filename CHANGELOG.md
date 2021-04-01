@@ -1,3 +1,9 @@
+## 2.14.1 (2021-04-01)
+
+### Raw commits log
+
+-   playwright useragent patch;
+
 ## 2.14.0 (2021-03-30)
 
 ### Raw commits log
