@@ -1,3 +1,10 @@
+## 2.15.0 (2021-04-04)
+
+### Raw commits log
+
+-   playwright refactored;
+-   update-databases;
+
 ## 2.14.2 (2021-04-01)
 
 ### Raw commits log
