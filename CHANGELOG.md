@@ -1,3 +1,9 @@
+## 2.15.2 (2021-04-04)
+
+### Raw commits log
+
+-   plsywright-core support added;
+
 ## 2.15.1 (2021-04-04)
 
 ### Raw commits log
