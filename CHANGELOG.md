@@ -1,3 +1,11 @@
+## 2.15.1 (2021-04-04)
+
+### Raw commits log
+
+-   sqlite patches merged;
+-   pgsql patches merged;
+-   app settings trigger updated;
+
 ## 2.15.0 (2021-04-04)
 
 ### Raw commits log
