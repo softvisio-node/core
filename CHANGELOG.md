@@ -1,3 +1,10 @@
+## 2.15.4 (2021-04-06)
+
+### Raw commits log
+
+-   @softvisio/globals added;
+-   playwright moved to own package;
+
 ## 2.15.3 (2021-04-05)
 
 ### Raw commits log
