@@ -19,38 +19,38 @@
     "author": "zdm <zdm@softvisio.net>",
     "exports": {
         ".": {
-            "node": "./lib/index.js",
-            "brower": "./lib/index/browser.js"
+            "brower": "./lib/index/browser.js",
+            "node": "./lib/index.js"
         },
         "./*": "./lib/*.js",
         "./resources/*": "./resources/*",
         "./api": {
-            "node": "./lib/api.js",
-            "brower": "./lib/api/client/browser.js"
+            "brower": "./lib/api/client/browser.js",
+            "node": "./lib/api.js"
         },
         "./const": {
-            "node": "./lib/const.js",
-            "brower": "./lib/const/browser.js"
+            "brower": "./lib/const/browser.js",
+            "node": "./lib/const.js"
         },
         "./db/countries/country": {
-            "node": "./lib/db/countries/country.js",
-            "brower": "./lib/db/countries/browser/country.js"
+            "brower": "./lib/db/countries/browser/country.js",
+            "node": "./lib/db/countries/country.js"
         },
         "./db/timezones": {
-            "node": "./lib/db/timezones.js",
-            "brower": "./lib/db/timezones/browser.js"
+            "brower": "./lib/db/timezones/browser.js",
+            "node": "./lib/db/timezones.js"
         },
         "./events": {
-            "node": "./lib/events.js",
-            "brower": "./lib/events/browser.js"
+            "brower": "./lib/events/browser.js",
+            "node": "./lib/events.js"
         },
         "./utils": {
-            "node": "./lib/utils.js",
-            "browser": "./lib/utils/browser.js"
+            "browser": "./lib/utils/browser.js",
+            "node": "./lib/utils.js"
         },
         "./utils/env": {
-            "node": "./lib/utils/env.js",
-            "browser": "./lib/utils/browser/env.js"
+            "browser": "./lib/utils/browser/env.js",
+            "node": "./lib/utils/env.js"
         }
     },
     "browser": {
