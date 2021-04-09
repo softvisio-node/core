@@ -1,3 +1,9 @@
+## 2.16.0 (2021-04-09)
+
+### Raw commits log
+
+-   proxy server refactored;
+
 ## 2.15.5 (2021-04-09)
 
 ### Raw commits log
