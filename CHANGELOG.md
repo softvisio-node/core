@@ -1,3 +1,10 @@
+## 2.15.5 (2021-04-09)
+
+### Raw commits log
+
+-   proxy server allows to redefine hostname, port;
+-   package exports fix for browser;
+
 ## 2.15.4 (2021-04-06)
 
 ### Raw commits log
