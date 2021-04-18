@@ -44,7 +44,6 @@
             "brower": "./lib/events/browser.js",
             "node": "./lib/events.js"
         },
-        "./threads": "./lib/threads.mjs",
         "./utils": {
             "browser": "./lib/utils/browser.js",
             "node": "./lib/utils.js"
