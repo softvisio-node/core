@@ -1,3 +1,28 @@
+## 2.17.0 (2021-04-21)
+
+### Raw commits log
+
+-   proxy refactored;
+-   engines updated;
+-   bench refactored;
+-   maxmind destroy method added;
+-   mem bench added;
+-   api load refactored;
+-   sql load schema refactored;
+-   table use ansi imports;
+-   table string.removeANSI();
+-   threads worker esm support;
+-   imports #resources;
+-   fs config reader refactored;
+-   threads reverted to cjs;
+-   threads ported to es;
+-   threads constructor option renamed to arguments;
+-   sqlite integer decode to string;
+-   maxmind force options added;
+-   root path detection updated;
+-   proxy server username parser updated;
+-   upgraded to uws 19;
+
 ## 2.16.0 (2021-04-09)
 
 ### Raw commits log
