@@ -18,35 +18,35 @@
     "license": "ISC",
     "author": "zdm <zdm@softvisio.net>",
     "imports": {
-        "#index": "./lib/index.js",
+        "#index": "@softvisio/core",
         "#lib/*": "./lib/*.js",
         "#resources/*": "./resources/*"
     },
     "exports": {
         ".": {
-            "brower": "./lib/index/browser.js",
+            "browser": "./lib/index/browser.js",
             "node": "./lib/index.js"
         },
         "./*": "./lib/*.js",
         "./resources/*": "./resources/*",
         "./api": {
-            "brower": "./lib/api/client/browser.js",
+            "browser": "./lib/api/client/browser.js",
             "node": "./lib/api.js"
         },
         "./const": {
-            "brower": "./lib/const/browser.js",
+            "browser": "./lib/const/browser.js",
             "node": "./lib/const.js"
         },
         "./db/countries/country": {
-            "brower": "./lib/db/countries/browser/country.js",
+            "browser": "./lib/db/countries/browser/country.js",
             "node": "./lib/db/countries/country.js"
         },
         "./db/timezones": {
-            "brower": "./lib/db/timezones/browser.js",
+            "browser": "./lib/db/timezones/browser.js",
             "node": "./lib/db/timezones.js"
         },
         "./events": {
-            "brower": "./lib/events/browser.js",
+            "browser": "./lib/events/browser.js",
             "node": "./lib/events.js"
         },
         "./utils": {
