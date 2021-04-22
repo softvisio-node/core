@@ -1,3 +1,12 @@
+## 2.17.3 (2021-04-22)
+
+### Raw commits log
+
+-   proxy server close on auth error;
+-   proxy server integration updated;
+-   proxy server connection options fixed;
+-   proxy server playwright integrated;
+
 ## 2.17.2 (2021-04-22)
 
 ### Raw commits log
