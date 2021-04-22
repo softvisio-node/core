@@ -1,3 +1,10 @@
+## 2.17.1 (2021-04-22)
+
+### Raw commits log
+
+-   result moved to own package;
+-   #index imports added;
+
 ## 2.17.0 (2021-04-21)
 
 ### Raw commits log
