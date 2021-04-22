@@ -1,3 +1,9 @@
+## 2.17.2 (2021-04-22)
+
+### Raw commits log
+
+-   proxy playwright integrated;
+
 ## 2.17.1 (2021-04-22)
 
 ### Raw commits log
