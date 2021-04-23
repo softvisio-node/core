@@ -34,16 +34,8 @@
             "node": "./lib/api.js"
         },
         "./const": {
-            "browser": "./lib/const/browser.js",
+            "browser": "./lib/const/browser.mjs",
             "node": "./lib/const.js"
-        },
-        "./db/countries/country": {
-            "browser": "./lib/db/countries/browser/country.js",
-            "node": "./lib/db/countries/country.js"
-        },
-        "./db/timezones": {
-            "browser": "./lib/db/timezones/browser.js",
-            "node": "./lib/db/timezones.js"
         },
         "./events": {
             "browser": "./lib/events/browser.mjs",
@@ -61,9 +53,7 @@
     "browser": {
         "./lib/index.js": "./lib/index/browser.mjs",
         "./lib/api.js": "./lib/api/client/browser.mjs",
-        "./lib/const.js": "./lib/const/browser.js",
-        "./lib/db/countries/country.js": "./lib/db/countries/browser/country.js",
-        "./lib/db/timezones.js": "./lib/db/timezones/browser.js",
+        "./lib/const.js": "./lib/const/browser.mjs",
         "./lib/events.js": "./lib/events/browser.mjs",
         "./lib/utils.js": "./lib/utils/browser.mjs",
         "./lib/utils/env.js": "./lib/utils/env/browser.mjs"
