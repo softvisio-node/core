@@ -1,3 +1,14 @@
+## 2.17.5 (2021-04-23)
+
+### Raw commits log
+
+-   global methods updated;
+-   devaultPort -> getDefaultPort();
+-   proxy session rotation fixed;
+-   proxy upstream options fixed;
+-   hola api refactored;
+-   proxy http auth fixed;
+
 ## 2.17.4 (2021-04-23)
 
 ### Raw commits log
