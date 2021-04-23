@@ -1,3 +1,14 @@
+## 2.17.4 (2021-04-23)
+
+### Raw commits log
+
+-   minor proxy update;
+-   countries browser removed;
+-   timezones browser removed;
+-   browser exports updated;
+-   browser events exports fixed;
+-   uws write status;
+
 ## 2.17.3 (2021-04-22)
 
 ### Raw commits log
