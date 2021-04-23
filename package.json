@@ -24,13 +24,13 @@
     },
     "exports": {
         ".": {
-            "browser": "./lib/index/browser.js",
+            "browser": "./lib/index/browser.mjs",
             "node": "./lib/index.js"
         },
         "./*": "./lib/*.js",
         "./resources/*": "./resources/*",
         "./api": {
-            "browser": "./lib/api/client/browser.js",
+            "browser": "./lib/api/client/browser.mjs",
             "node": "./lib/api.js"
         },
         "./const": {
@@ -46,27 +46,27 @@
             "node": "./lib/db/timezones.js"
         },
         "./events": {
-            "browser": "./lib/events/browser.js",
+            "browser": "./lib/events/browser.mjs",
             "node": "./lib/events.js"
         },
         "./utils": {
-            "browser": "./lib/utils/browser.js",
+            "browser": "./lib/utils/browser.mjs",
             "node": "./lib/utils.js"
         },
         "./utils/env": {
-            "browser": "./lib/utils/browser/env.js",
+            "browser": "./lib/utils/env/browser.mjs",
             "node": "./lib/utils/env.js"
         }
     },
     "browser": {
-        "./lib/index.js": "./lib/index/browser.js",
-        "./lib/api.js": "./lib/api/client/browser.js",
+        "./lib/index.js": "./lib/index/browser.mjs",
+        "./lib/api.js": "./lib/api/client/browser.mjs",
         "./lib/const.js": "./lib/const/browser.js",
         "./lib/db/countries/country.js": "./lib/db/countries/browser/country.js",
         "./lib/db/timezones.js": "./lib/db/timezones/browser.js",
-        "./lib/events.js": "./lib/events/browser.js",
-        "./lib/utils.js": "./lib/utils/browser.js",
-        "./lib/utils/env.js": "./lib/utils/browser/env.js"
+        "./lib/events.js": "./lib/events/browser.mjs",
+        "./lib/utils.js": "./lib/utils/browser.mjs",
+        "./lib/utils/env.js": "./lib/utils/env/browser.mjs"
     },
     "bin": {
         "update-databases": "bin/update-databases.js"
