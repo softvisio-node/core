@@ -50,8 +50,8 @@
             "node": "./lib/utils/env.js"
         }
     },
+    "main": "./lib/index/browser.mjs",
     "browser": {
-        "./lib/index.js": "./lib/index/browser.mjs",
         "./lib/api.js": "./lib/api/client/browser.mjs",
         "./lib/const.js": "./lib/const/browser.mjs",
         "./lib/events.js": "./lib/events/browser.mjs",
