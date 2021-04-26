@@ -1,3 +1,16 @@
+## 2.18.0 (2021-04-26)
+
+### Raw commits log
+
+-   api client refactored;
+-   msgpack decode buffer fixed;
+-   browser exports updated;
+-   deps updated;
+-   fs resolve method added;
+-   add trailing "\n" for readable .json;
+-   proxy refactored;
+-   proxy resolve property fixed;
+
 ## 2.17.6 (2021-04-23)
 
 ### Raw commits log
