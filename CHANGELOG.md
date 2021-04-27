@@ -1,3 +1,9 @@
+## 2.18.2 (2021-04-27)
+
+### Raw commits log
+
+-   proxy api refactored;
+
 ## 2.18.1 (2021-04-26)
 
 ### Raw commits log
