@@ -58,8 +58,8 @@
     },
     "dependencies": {
         "@softvisio/argon2": "^1.0.0",
-        "@softvisio/globals": "^3.0.0-alpha.0",
-        "@softvisio/msgpack": "^3.0.0-alpha.0",
+        "@softvisio/globals": "^3.0.0",
+        "@softvisio/msgpack": "^3.0.0",
         "@softvisio/result": "^2.0.0-alpha.0",
         "@softvisio/uws": "^1.0.0",
         "ajv": "^8.0.1",
