@@ -1,3 +1,10 @@
+## 3.0.0-alpha.0 (2021-04-28)
+
+### Raw commits log
+
+-   ported to webpack 5;
+-   api browser hash-wasm import fixed;
+
 ## 2.18.2 (2021-04-27)
 
 ### Raw commits log
