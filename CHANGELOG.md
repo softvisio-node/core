@@ -1,3 +1,10 @@
+## 3.0.0-alpha.1 (2021-04-28)
+
+### Raw commits log
+
+-   imports reverted;
+-   api client websocket close event fixed;
+
 ## 3.0.0-alpha.0 (2021-04-28)
 
 ### Raw commits log
