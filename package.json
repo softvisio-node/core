@@ -50,15 +50,6 @@
             "node": "./lib/utils/env.js"
         }
     },
-    "main": "./lib/index/browser.mjs",
-    "browser": {
-        "./lib/index.js": "./lib/index/browser.mjs",
-        "./lib/api.js": "./lib/api/client/browser.mjs",
-        "./lib/const.js": "./lib/const/browser.mjs",
-        "./lib/events.js": "./lib/events/browser.js",
-        "./lib/utils.js": "./lib/utils/browser.mjs",
-        "./lib/utils/env.js": "./lib/utils/env/browser.mjs"
-    },
     "bin": {
         "update-databases": "bin/update-databases.js"
     },
