@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
-const maxmind = require( "../lib/maxmind" );
+import "#index";
 
-( async () => {
-    const ok = await maxmind.update( { "force": true } );
+import maxmind from "#lib/maxmind";
 
-    if ( !ok ) {
-        console.log( `Maxmind update error.` );
+const ok = await maxmind.update( { "force": true } );
 
-        process.exit( 3 );
-    }
-} )();
+if ( !ok ) {
+    console.log( `Maxmind update error.` );
+
+    process.exit( 3 );
+}
