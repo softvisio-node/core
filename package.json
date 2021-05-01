@@ -90,7 +90,7 @@
         "utf-8-validate": "^5.0.4",
         "uuid": "^8.3.2",
         "which-country": "^1.0.0",
-        "wrap-ansi": "^7.0.0",
+        "wrap-ansi": "^8.0.0",
         "ws": "^7.4.2"
     },
     "engines": {
