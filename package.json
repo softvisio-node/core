@@ -25,17 +25,17 @@
     },
     "exports": {
         ".": {
-            "browser": "./lib/index/browser.mjs",
+            "browser": "./lib/index/browser.js",
             "node": "./lib/index.js"
         },
         "./*": "./lib/*.js",
         "./resources/*": "./resources/*",
         "./api": {
-            "browser": "./lib/api/client/browser.mjs",
+            "browser": "./lib/api/client/browser.js",
             "node": "./lib/api.js"
         },
         "./const": {
-            "browser": "./lib/const/browser.mjs",
+            "browser": "./lib/const/browser.js",
             "node": "./lib/const.js"
         },
         "./events": {
@@ -43,11 +43,11 @@
             "node": "./lib/events.js"
         },
         "./utils": {
-            "browser": "./lib/utils/browser.mjs",
+            "browser": "./lib/utils/browser.js",
             "node": "./lib/utils.js"
         },
         "./utils/env": {
-            "browser": "./lib/utils/env/browser.mjs",
+            "browser": "./lib/utils/env/browser.js",
             "node": "./lib/utils/env.js"
         }
     },
