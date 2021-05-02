@@ -1,3 +1,9 @@
+## 3.0.0-alpha.5 (2021-05-02)
+
+### Raw commits log
+
+-   minor code improvements;
+
 ## 3.0.0-alpha.4 (2021-05-02)
 
 ### Raw commits log
