@@ -1,3 +1,9 @@
+## 3.0.0 (2021-05-02)
+
+### Raw commits log
+
+-   fs config read cache option renamed to require;
+
 ## 3.0.0-alpha.5 (2021-05-02)
 
 ### Raw commits log
