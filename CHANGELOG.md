@@ -1,3 +1,9 @@
+## 3.0.0-alpha.3 (2021-05-02)
+
+### Raw commits log
+
+-   ported to ESM;
+
 ## 3.0.0-alpha.2 (2021-04-28)
 
 ### Raw commits log
