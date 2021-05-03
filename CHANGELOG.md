@@ -1,3 +1,12 @@
+## 3.0.1 (2021-05-03)
+
+### Raw commits log
+
+-   deps updated;
+-   imports browser-safe;
+-   browser events import fixed;
+-   maxmind mmdb import fixed;
+
 ## 3.0.0 (2021-05-02)
 
 ### Raw commits log
