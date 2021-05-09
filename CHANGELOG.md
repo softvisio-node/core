@@ -1,3 +1,10 @@
+## 3.2.0 (2021-05-09)
+
+### Raw commits log
+
+-   const default export;
+-   google uule module added;
+
 ## 3.1.0 (2021-05-09)
 
 ### Raw commits log
