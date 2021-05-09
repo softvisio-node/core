@@ -1,3 +1,9 @@
+## 3.2.2 (2021-05-09)
+
+### Raw commits log
+
+-   api http transport status fixed;
+
 ## 3.2.1 (2021-05-09)
 
 ### Raw commits log
