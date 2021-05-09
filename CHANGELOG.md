@@ -1,3 +1,19 @@
+## 3.1.0 (2021-05-09)
+
+### Raw commits log
+
+-   code improvements;
+-   threads api updated;
+-   api json upload;
+-   api http void calls;
+-   dev server cors enabled;
+-   ip/range module added;
+-   proxy subnet renamed to range;
+-   app cli --mode option added;
+-   sql .rows fixed;
+-   pgsql use maxRows;
+-   sqlite driver updated;
+
 ## 3.0.1 (2021-05-03)
 
 ### Raw commits log
