@@ -1,3 +1,9 @@
+## 3.2.1 (2021-05-09)
+
+### Raw commits log
+
+-   const default export fixed;
+
 ## 3.2.0 (2021-05-09)
 
 ### Raw commits log
