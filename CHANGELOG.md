@@ -1,3 +1,14 @@
+## 3.4.0 (2021-05-11)
+
+### Raw commits log
+
+-   http server req writeStatus -> writeHead;
+-   typo;
+-   imports updated;
+-   http server request writeeaders fixed;
+-   http server req body methods added;
+-   http server req stream added;
+
 ## 3.3.1 (2021-05-09)
 
 ### Raw commits log
