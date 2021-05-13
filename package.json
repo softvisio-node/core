@@ -32,7 +32,7 @@
         "./*": "./lib/*.js",
         "./resources/*": "./resources/*",
         "./api": {
-            "browser": "./lib/_intenals/api.js",
+            "browser": "./lib/_browser/api.js",
             "node": "./lib/api.js"
         },
         "./blob": {
