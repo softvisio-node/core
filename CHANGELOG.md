@@ -1,3 +1,9 @@
+## 3.5.2 (2021-05-13)
+
+### Raw commits log
+
+-   browser env set mode fixed;
+
 ## 3.5.1 (2021-05-13)
 
 ### Raw commits log
