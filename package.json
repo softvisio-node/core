@@ -32,15 +32,15 @@
         "./*": "./lib/*.js",
         "./resources/*": "./resources/*",
         "./api": {
-            "browser": "./lib/_intenals/api/browser.js",
+            "browser": "./lib/_intenals/api.js",
             "node": "./lib/api.js"
         },
         "./const": {
-            "browser": "./lib/_internals/const/browser.js",
+            "browser": "./lib/_internals/const.js",
             "node": "./lib/const.js"
         },
         "./env": {
-            "browser": "./lib/_internals/env/browser.js",
+            "browser": "./lib/_internals/env.js",
             "node": "./lib/env.js"
         },
         "./events": {
@@ -52,7 +52,7 @@
             "node": "./lib/fetch.js"
         },
         "./utils": {
-            "browser": "./lib/_internals/utils/browser.js",
+            "browser": "./lib/_internals/utils.js",
             "node": "./lib/utils.js"
         },
         "./websocket": {
