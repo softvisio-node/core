@@ -91,6 +91,8 @@
     logApiCalls: { type: boolean }
     activeRequestsLimit: { type: integer, minimum: 0 }
     activeRequestsUserLimit: { type: integer, minimum: 0 }
+    upload: { type: boolean }
+    uploadMaxSize: { type: integer, minimum: 1 }
 
     module: { $ref: "components#/module" }
     id: { type: string }
