@@ -1,3 +1,28 @@
+## 3.5.0 (2021-05-13)
+
+### Raw commits log
+
+-   api http statusText;
+-   file api refactored;
+-   env mode accessors added;
+-   more browser objects added;
+-   fetch reason getter added;
+-   classes moved to #browser;
+-   classes moved to #internals;
+-   upload mixin removed;
+-   fetch response patched;
+-   utls/env moved to env;
+-   env read -> readConfig;
+-   env read -> readConfigs;
+-   env getBool -> readBoolValue;
+-   file tree use file object;
+-   api uploads refactored;
+-   api client refactored;
+-   blob added;
+-   filetree isempty property;
+-   use node-fetch.mjs;
+-   server request body methods added;
+
 ## 3.4.0 (2021-05-11)
 
 ### Raw commits log
