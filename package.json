@@ -20,13 +20,13 @@
     "type": "module",
     "imports": {
         "#index": "@softvisio/core",
-        "#internals/*": "./lib/_internals/*.js",
+        "#browser/*": "./lib/_browser/*.js",
         "#lib/*": "@softvisio/core/*",
         "#resources/*": "./resources/*"
     },
     "exports": {
         ".": {
-            "browser": "./lib/_internals/index.js",
+            "browser": "./lib/_browser/index.js",
             "node": "./lib/index.js"
         },
         "./*": "./lib/*.js",
@@ -36,27 +36,27 @@
             "node": "./lib/api.js"
         },
         "./const": {
-            "browser": "./lib/_internals/const.js",
+            "browser": "./lib/_browser/const.js",
             "node": "./lib/const.js"
         },
         "./env": {
-            "browser": "./lib/_internals/env.js",
+            "browser": "./lib/_browser/env.js",
             "node": "./lib/env.js"
         },
         "./events": {
-            "browser": "./lib/_internals/events.js",
+            "browser": "./lib/_browser/events.js",
             "node": "./lib/events.js"
         },
         "./fetch": {
-            "browser": "./lib/_internals/fetch.js",
+            "browser": "./lib/_browser/fetch.js",
             "node": "./lib/fetch.js"
         },
         "./utils": {
-            "browser": "./lib/_internals/utils.js",
+            "browser": "./lib/_browser/utils.js",
             "node": "./lib/utils.js"
         },
         "./websocket": {
-            "browser": "./lib/_internals/websocket.js",
+            "browser": "./lib/_browser/websocket.js",
             "node": "./lib/websocket.js"
         }
     },
