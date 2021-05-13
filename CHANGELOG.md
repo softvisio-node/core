@@ -1,3 +1,9 @@
+## 3.5.1 (2021-05-13)
+
+### Raw commits log
+
+-   exports fixed;
+
 ## 3.5.0 (2021-05-13)
 
 ### Raw commits log
