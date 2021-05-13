@@ -26,7 +26,7 @@
     },
     "exports": {
         ".": {
-            "browser": "./lib/index/browser.js",
+            "browser": "./lib/_internals/index.js",
             "node": "./lib/index.js"
         },
         "./*": "./lib/*.js",
@@ -36,7 +36,7 @@
             "node": "./lib/api.js"
         },
         "./const": {
-            "browser": "./lib/const/browser.js",
+            "browser": "./lib/_internals/const/browser.js",
             "node": "./lib/const.js"
         },
         "./env": {
@@ -44,7 +44,7 @@
             "node": "./lib/env.js"
         },
         "./events": {
-            "browser": "./lib/events/browser.js",
+            "browser": "./lib/_internals/events.js",
             "node": "./lib/events.js"
         },
         "./fetch": {
