@@ -38,6 +38,10 @@
             "browser": "./lib/const/browser.js",
             "node": "./lib/const.js"
         },
+        "./env": {
+            "browser": "./lib/env/browser.js",
+            "node": "./lib/env.js"
+        },
         "./events": {
             "browser": "./lib/events/browser.js",
             "node": "./lib/events.js"
@@ -45,10 +49,6 @@
         "./utils": {
             "browser": "./lib/utils/browser.js",
             "node": "./lib/utils.js"
-        },
-        "./utils/env": {
-            "browser": "./lib/utils/env/browser.js",
-            "node": "./lib/utils/env.js"
         }
     },
     "bin": {
