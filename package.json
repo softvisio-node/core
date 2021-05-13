@@ -20,6 +20,7 @@
     "type": "module",
     "imports": {
         "#index": "@softvisio/core",
+        "#internals/*": "./lib/_internals/*.js",
         "#lib/*": "@softvisio/core/*",
         "#resources/*": "./resources/*"
     },
@@ -31,7 +32,7 @@
         "./*": "./lib/*.js",
         "./resources/*": "./resources/*",
         "./api": {
-            "browser": "./lib/api/client/browser.js",
+            "browser": "./lib/_intenals/api/browser.js",
             "node": "./lib/api.js"
         },
         "./const": {
@@ -46,9 +47,17 @@
             "browser": "./lib/events/browser.js",
             "node": "./lib/events.js"
         },
+        "./fetch": {
+            "browser": "./lib/_internals/fetch.js",
+            "node": "./lib/fetch.js"
+        },
         "./utils": {
             "browser": "./lib/utils/browser.js",
             "node": "./lib/utils.js"
+        },
+        "./websocket": {
+            "browser": "./lib/_internals/websocket.js",
+            "node": "./lib/websocket.js"
         }
     },
     "bin": {
