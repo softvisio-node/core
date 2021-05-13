@@ -40,7 +40,7 @@
             "node": "./lib/const.js"
         },
         "./env": {
-            "browser": "./lib/env/browser.js",
+            "browser": "./lib/_internals/env/browser.js",
             "node": "./lib/env.js"
         },
         "./events": {
