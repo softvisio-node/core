@@ -35,6 +35,10 @@
             "browser": "./lib/_intenals/api.js",
             "node": "./lib/api.js"
         },
+        "./blob": {
+            "browser": "./lib/_browser/blob.js",
+            "node": "./lib/blob.js"
+        },
         "./const": {
             "browser": "./lib/_browser/const.js",
             "node": "./lib/const.js"
@@ -50,6 +54,14 @@
         "./fetch": {
             "browser": "./lib/_browser/fetch.js",
             "node": "./lib/fetch.js"
+        },
+        "./file": {
+            "browser": "./lib/_browser/file.js",
+            "node": "./lib/file.js"
+        },
+        "./form-data": {
+            "browser": "./lib/_browser/form-data.js",
+            "node": "./lib/form-data.js"
         },
         "./utils": {
             "browser": "./lib/_browser/utils.js",
