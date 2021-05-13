@@ -52,7 +52,7 @@
             "node": "./lib/fetch.js"
         },
         "./utils": {
-            "browser": "./lib/utils/browser.js",
+            "browser": "./lib/_internals/utils/browser.js",
             "node": "./lib/utils.js"
         },
         "./websocket": {
