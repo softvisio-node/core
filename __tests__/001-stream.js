@@ -5,11 +5,21 @@ jest.setTimeout( 2000 );
 import Stream from "../lib/stream";
 
 const buffer = "12-34--56--78-90";
+const encoding = "utf8";
 
 const TESTS = [
-    { buffer, "eol": "--", "encoding": "utf8", "maxSize": null, "chunkSize": 1, "line": "12-34", "rest": "5" },
-    { buffer, "eol": "--", "encoding": "utf8", "maxSize": null, "chunkSize": null, "line": "12-34", "rest": "56--78-90" },
-    { buffer, "eol": "---", "encoding": "utf8", "maxSize": null, "chunkSize": 1, "line": null, "rest": buffer },
+
+    // match
+    { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": 1, "line": "12-34", "rest": "5" },
+    { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": null, "line": "12-34", "rest": "56--78-90" },
+    { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": 2, "line": "12-34", "rest": "5" },
+    { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": 3, "line": "12-34", "rest": "56" },
+    { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": 7, "line": "12-34", "rest": null },
+
+    // not match
+    { buffer, encoding, "eol": "---", "maxSize": null, "chunkSize": 1, "line": null, "rest": buffer },
+    { buffer, encoding, "eol": "---", "maxSize": null, "chunkSize": null, "line": null, "rest": buffer },
+    { buffer, encoding, "eol": "---", "maxSize": 5, "chunkSize": 1, "line": null, "rest": "12-34-" },
 ];
 
 const sleep = () => new Promise( resolve => setTimeout( resolve, 1 ) );
@@ -33,7 +43,7 @@ async function run ( data ) {
         stream.readLine( { "eol": data.eol, "encoding": data.encoding, "maxSize": data.maxSize } ).then( line => {
             const rest = stream.read();
 
-            resolve( [line, rest + ""] );
+            resolve( [line, rest == null ? rest : rest + ""] );
         } );
 
         push( stream, data );
