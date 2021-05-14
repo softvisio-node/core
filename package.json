@@ -76,7 +76,8 @@
         "update-databases": "bin/update-databases.js"
     },
     "scripts": {
-        "lint": "softvisio-cli lint"
+        "lint": "softvisio-cli lint",
+        "test": "jest"
     },
     "dependencies": {
         "@softvisio/argon2": "^1.0.0",
