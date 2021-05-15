@@ -19,7 +19,7 @@ const TESTS = [
     // not match
     { buffer, encoding, "eol": "---", "maxSize": null, "chunkSize": 1, "line": null, "rest": buffer },
     { buffer, encoding, "eol": "---", "maxSize": null, "chunkSize": null, "line": null, "rest": buffer },
-    { buffer, encoding, "eol": "---", "maxSize": 5, "chunkSize": 1, "line": null, "rest": "12-34-" },
+    { buffer, encoding, "eol": "---", "maxSize": 5, "chunkSize": 1, "line": null, "rest": "12-34" },
 ];
 
 const sleep = () => new Promise( resolve => setTimeout( resolve, 1 ) );
