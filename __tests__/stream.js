@@ -16,6 +16,13 @@ const TESTS = [
     { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": 3, "line": "12-34", "rest": "56" },
     { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": 7, "line": "12-34", "rest": null },
 
+    // streaming, match, eol: "-"
+    { buffer, encoding, "eol": "-", "maxSize": null, "chunkSize": null, "line": "12", "rest": "34--56--78-90" },
+    { buffer, encoding, "eol": "-", "maxSize": null, "chunkSize": 1, "line": "12", "rest": null },
+    { buffer, encoding, "eol": "-", "maxSize": null, "chunkSize": 2, "line": "12", "rest": "3" },
+    { buffer, encoding, "eol": "-", "maxSize": null, "chunkSize": 3, "line": "12", "rest": null },
+    { buffer, encoding, "eol": "-", "maxSize": null, "chunkSize": 7, "line": "12", "rest": "34--" },
+
     // streaming, not match
     { buffer, encoding, "eol": "---", "maxSize": null, "chunkSize": null, "line": null, "rest": null },
     { buffer, encoding, "eol": "---", "maxSize": null, "chunkSize": 1, "line": null, "rest": null },
