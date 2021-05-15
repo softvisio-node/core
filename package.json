@@ -77,7 +77,7 @@
     },
     "scripts": {
         "lint": "softvisio-cli lint",
-        "test": "env NODE_OPTIONS=--experimental-vm-modules jest --testPathPattern __tests__"
+        "test": "env NODE_OPTIONS=--experimental-vm-modules jest --rootDir __tests__"
     },
     "dependencies": {
         "@softvisio/argon2": "^1.0.0",
