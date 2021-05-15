@@ -21,8 +21,14 @@ const TESTS = [
     { buffer, encoding, "eol": "---", "maxSize": null, "chunkSize": 1, "line": null, "rest": null },
     { buffer, encoding, "eol": "---", "maxSize": 5, "chunkSize": 1, "line": null, "rest": null },
 
+    // pre-buffered, match
+    { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": null, "preinit": true, "line": "12-34", "rest": "56--78-90" },
+    { buffer, encoding, "eol": "--", "maxSize": 7, "chunkSize": null, "preinit": true, "line": "12-34", "rest": "56--78-90" },
+
     // pre-buffered, not match
     { buffer, encoding, "eol": "---", "maxSize": null, "chunkSize": null, "preinit": true, "line": null, "rest": null },
+    { buffer, encoding, "eol": "---", "maxSize": 4, "chunkSize": null, "preinit": true, "line": null, "rest": "4--56--78-90" },
+    { buffer, encoding, "eol": "---", "maxSize": 6, "chunkSize": null, "preinit": true, "line": null, "rest": "-56--78-90" },
 ];
 
 const sleep = () => new Promise( resolve => setTimeout( resolve, 1 ) );
