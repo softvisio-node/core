@@ -76,8 +76,7 @@
         "update-databases": "bin/update-databases.js"
     },
     "scripts": {
-        "lint": "softvisio-cli lint",
-        "test": "env NODE_OPTIONS=--experimental-vm-modules jest --rootDir __tests__"
+        "lint": "softvisio-cli lint"
     },
     "dependencies": {
         "@softvisio/argon2": "^1.0.0",
