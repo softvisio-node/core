@@ -12,7 +12,7 @@ const TESTS = [
     // streaming, match
     { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": null, "line": "12-34", "rest": "56--78-90" },
     { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": 1, "line": "12-34", "rest": "5" },
-    { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": 2, "line": "12-34", "rest": "5" },
+    { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": 2, "line": "12-34", "rest": null },
     { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": 3, "line": "12-34", "rest": "56" },
     { buffer, encoding, "eol": "--", "maxSize": null, "chunkSize": 7, "line": "12-34", "rest": null },
 
