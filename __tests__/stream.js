@@ -83,11 +83,13 @@ async function readLine ( data ) {
 
     var rest = [];
 
-    await new Promise( resolve => {
-        stream.on( "end", resolve );
+    if ( !stream.readableEnded ) {
+        await new Promise( resolve => {
+            stream.on( "end", resolve );
 
-        stream.on( "data", data => rest.push( data ) );
-    } );
+            stream.on( "data", data => rest.push( data ) );
+        } );
+    }
 
     return [line, rest.length ? Buffer.concat( rest ) + "" : null];
 }
@@ -102,11 +104,13 @@ async function readChunk ( data ) {
 
     var rest = [];
 
-    await new Promise( resolve => {
-        stream.on( "end", resolve );
+    if ( !stream.readableEnded ) {
+        await new Promise( resolve => {
+            stream.on( "end", resolve );
 
-        stream.on( "data", data => rest.push( data ) );
-    } );
+            stream.on( "data", data => rest.push( data ) );
+        } );
+    }
 
     return [line, rest.length ? Buffer.concat( rest ) + "" : null];
 }
