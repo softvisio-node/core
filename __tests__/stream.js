@@ -71,10 +71,10 @@ async function readLine ( data ) {
 async function push ( stream, data ) {
     for ( const buf of data.buffer.split( new RegExp( `(.{1,${data.chunkSize}})` ) ).filter( buf => buf !== "" ) ) {
         stream.push( buf );
-
         await sleep( 1 );
     }
 
     // eof
     stream.push( null );
+    await sleep( 1 );
 }
