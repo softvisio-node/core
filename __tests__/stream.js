@@ -11,22 +11,22 @@ const TESTS = [
 
     // streaming, match
     { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": null, "line": "12-34", "rest": "56--78-90" },
-    { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": 1, "line": "12-34", "rest": "5" },
-    { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": 2, "line": "12-34", "rest": null },
-    { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": 3, "line": "12-34", "rest": "56" },
-    { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": 7, "line": "12-34", "rest": null },
+    { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": 1, "line": "12-34", "rest": "56--78-90" },
+    { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": 2, "line": "12-34", "rest": "56--78-90" },
+    { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": 3, "line": "12-34", "rest": "56--78-90" },
+    { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": 7, "line": "12-34", "rest": "56--78-90" },
 
     // streaming, match, eol: "-"
     { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": null, "line": "12", "rest": "34--56--78-90" },
-    { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": 1, "line": "12", "rest": null },
-    { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": 2, "line": "12", "rest": "3" },
-    { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": 3, "line": "12", "rest": null },
-    { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": 7, "line": "12", "rest": "34--" },
+    { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": 1, "line": "12", "rest": "34--56--78-90" },
+    { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": 2, "line": "12", "rest": "34--56--78-90" },
+    { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": 3, "line": "12", "rest": "34--56--78-90" },
+    { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": 7, "line": "12", "rest": "34--56--78-90" },
 
     // streaming, not match
     { buffer, encoding, "eol": "---", "maxLength": null, "chunkSize": null, "line": null, "rest": null },
     { buffer, encoding, "eol": "---", "maxLength": null, "chunkSize": 1, "line": null, "rest": null },
-    { buffer, encoding, "eol": "---", "maxLength": 5, "chunkSize": 1, "line": null, "rest": null },
+    { buffer, encoding, "eol": "---", "maxLength": 5, "chunkSize": 1, "line": null, "rest": "--56--78-90" },
 
     // pre-buffered, match
     { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": null, "preinit": true, "line": "12-34", "rest": "56--78-90" },
@@ -56,19 +56,24 @@ async function readLine ( data ) {
     const stream = new Stream.Readable( { read () {} } );
 
     if ( data.preinit ) await push( stream, data );
+    else push( stream, data );
 
-    return new Promise( resolve => {
-        stream.readLine( { "eol": data.eol, "encoding": data.encoding, "maxLength": data.maxLength } ).then( line => {
-            const rest = stream.read();
+    const line = await stream.readLine( { "eol": data.eol, "encoding": data.encoding, "maxLength": data.maxLength } );
 
-            resolve( [line, rest == null ? rest : rest + ""] );
-        } );
+    var rest = [];
 
-        if ( !data.preinit ) push( stream, data );
+    await new Promise( resolve => {
+        stream.on( "end", resolve );
+
+        stream.on( "data", data => rest.push( data ) );
     } );
+
+    return [line, rest.length ? Buffer.concat( rest ) + "" : null];
 }
 
 async function push ( stream, data ) {
+    await sleep( 1 );
+
     for ( const buf of data.buffer.split( new RegExp( `(.{1,${data.chunkSize}})` ) ).filter( buf => buf !== "" ) ) {
         stream.push( buf );
         await sleep( 1 );
