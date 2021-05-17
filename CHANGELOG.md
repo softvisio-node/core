@@ -1,3 +1,9 @@
+## 3.6.1 (2021-05-17)
+
+### Raw commits log
+
+-   stream read http headers fixed;
+
 ## 3.6.0 (2021-05-17)
 
 ### Raw commits log
