@@ -1,3 +1,22 @@
+## 3.6.0 (2021-05-17)
+
+### Raw commits log
+
+-   stream readLine fixed;
+-   cli refactored;
+-   rpc methods permissions not required;
+-   threads RPC* prefix changed to API*;
+-   api rpc added;
+-   app rpc default port 8080;
+-   cli special argument --;
+-   minor code improvements;
+-   stream readChunk updated;
+-   cluster api service;
+-   stream readLine refactored;
+-   jest tests added;
+-   jest integrated;
+-   test environment added;
+
 ## 3.5.2 (2021-05-13)
 
 ### Raw commits log
