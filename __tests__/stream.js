@@ -1,13 +1,13 @@
 import { jest } from "@jest/globals";
 
-jest.setTimeout( 2000 );
+jest.setTimeout( 5000 );
 
 import Stream from "../lib/stream";
 
 const buffer = "12-34--56--78-90";
 const encoding = "utf8";
 
-const READLINE = [
+const READ_LINE = [
 
     // streaming, match
     { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": null, "line": "12-34", "rest": "56--78-90" },
@@ -38,7 +38,7 @@ const READLINE = [
     { buffer, encoding, "eol": "---", "maxLength": 6, "chunkSize": null, "preinit": true, "line": null, "rest": "-56--78-90" },
 ];
 
-const READCHUNK = [
+const READ_CHUNK = [
     { buffer, encoding, "length": 1, "line": "1", "rest": "2-34--56--78-90" },
     { buffer, encoding, "length": 5, "line": "12-34", "rest": "--56--78-90" },
     { buffer, encoding, "length": 16, "line": "12-34--56--78-90", "rest": null },
@@ -48,9 +48,9 @@ const READCHUNK = [
 const sleep = () => new Promise( resolve => setTimeout( resolve, 1 ) );
 
 // read line
-for ( let n = 0; n < READLINE.length; n++ ) {
+for ( let n = 0; n < READ_LINE.length; n++ ) {
     test( "read_line_" + n, async () => {
-        const data = READLINE[n];
+        const data = READ_LINE[n];
 
         const [line, rest] = await readLine( data );
 
@@ -61,9 +61,9 @@ for ( let n = 0; n < READLINE.length; n++ ) {
 }
 
 // read chunk
-for ( let n = 0; n < READCHUNK.length; n++ ) {
+for ( let n = 0; n < READ_CHUNK.length; n++ ) {
     test( "read_chunk_" + n, async () => {
-        const data = READCHUNK[n];
+        const data = READ_CHUNK[n];
 
         const [line, rest] = await readChunk( data );
 
