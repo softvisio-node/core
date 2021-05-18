@@ -1,3 +1,13 @@
+## 3.7.0 (2021-05-18)
+
+### Raw commits log
+
+-   api multihost;
+-   api protocol auth message removed;
+-   cli \_findSpec method added;
+-   app rpc public methods removed;
+-   pgsql max option -> maxConnections;
+
 ## 3.6.1 (2021-05-17)
 
 ### Raw commits log
