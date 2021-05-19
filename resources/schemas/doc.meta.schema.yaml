@@ -84,7 +84,7 @@
     deprecated: { $ref: "components#/deprecated" }
     static: { type: boolean }
     async: { type: "boolean" }
-    noParamsValidation: { type: "boolean" }
+    validateParams: { type: "boolean" }
     permissions: { $ref: "components#/permissions" }
     throws: { $ref: "components#/throws" }
     params: { $ref: "components#/params" }
