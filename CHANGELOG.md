@@ -1,3 +1,26 @@
+## 3.8.0 (2021-05-19)
+
+### Raw commits log
+
+-   databases moved to own package;
+-   api bench removed;
+-   noParamsValidation -> validateParams;
+-   api schema class added;
+-   api stat prop moved;
+-   api callCached method added;
+-   fs config write support for file urls added;
+-   lint script removed;
+-   sync tests fixed;
+-   api rpc params validation;
+-   sqlite support for file urls added;
+-   google uule api changed;
+-   sqlite fix;
+-   typo;
+-   bench merged with tests;
+-   ansi import updated;
+-   api websocket isConnected -> isOpen;
+-   api getConnection persistent check;
+
 ## 3.7.0 (2021-05-18)
 
 ### Raw commits log
