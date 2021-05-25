@@ -1,8 +1,4 @@
-import { jest } from "@jest/globals";
-
-jest.setTimeout( 5000 );
-
-import Stream from "../lib/stream";
+import Stream from "#lib/stream";
 
 const buffer = "12-34--56--78-90";
 const encoding = "utf8";
