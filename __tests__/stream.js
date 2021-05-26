@@ -44,30 +44,34 @@ const READ_CHUNK = [
 const sleep = () => new Promise( resolve => setTimeout( resolve, 1 ) );
 
 // read line
-for ( let n = 0; n < READ_LINE.length; n++ ) {
-    test( "read_line_" + n, async () => {
-        const data = READ_LINE[n];
+describe( "readline", () => {
+    for ( let n = 0; n < READ_LINE.length; n++ ) {
+        test( "read_line_" + n, async () => {
+            const data = READ_LINE[n];
 
-        const [line, rest] = await readLine( data );
+            const [line, rest] = await readLine( data );
 
-        expect( line ).toBe( data.line );
+            expect( line ).toBe( data.line );
 
-        expect( rest ).toBe( data.rest );
-    } );
-}
+            expect( rest ).toBe( data.rest );
+        } );
+    }
+} );
 
 // read chunk
-for ( let n = 0; n < READ_CHUNK.length; n++ ) {
-    test( "read_chunk_" + n, async () => {
-        const data = READ_CHUNK[n];
+describe( "readchunk", () => {
+    for ( let n = 0; n < READ_CHUNK.length; n++ ) {
+        test( "read_chunk_" + n, async () => {
+            const data = READ_CHUNK[n];
 
-        const [line, rest] = await readChunk( data );
+            const [line, rest] = await readChunk( data );
 
-        expect( line ).toBe( data.line );
+            expect( line ).toBe( data.line );
 
-        expect( rest ).toBe( data.rest );
-    } );
-}
+            expect( rest ).toBe( data.rest );
+        } );
+    }
+} );
 
 async function readLine ( data ) {
     const stream = new Stream.Readable( { read () {} } );
