@@ -1,3 +1,30 @@
+## 3.10.0 (2021-05-29)
+
+### Raw commits log
+
+-   app authentication fixed;
+-   test refactored;
+-   cli arguments parser improved;
+-   perl 5.34;
+-   tests updated;
+-   ansi refactored;
+-   tests watch added;
+-   tests refactored;
+-   ansi 24bit colors;
+-   tests disabled benchmarks;
+-   app api context;
+-   api client signout event added;
+-   auth avatar added;
+-   rpc permissions must be specified;
+-   tests number format added;
+-   app api check method version on call;
+-   app rpc pass auth as first param on call;
+-   big-integer deps removed;
+-   read mime-db.json instead of import;
+-   api client emits close after all clients disconnected;
+-   subnets updated;
+-   app mixing updated;
+
 ## 3.9.0 (2021-05-19)
 
 ### Raw commits log
