@@ -11,7 +11,7 @@
 <% if (method.deprecated) { -%>
     -   [**~~<%- method.name %>~~** `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- `${method.markdownId}` %>)
 <% } else { -%>
-    -   [**<%- method.apiName %>**<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- method.markdownId %>)
+    -   [**<%- method.name %>**<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- method.markdownId %>)
 <% } -%>
 <% } -%>
 
