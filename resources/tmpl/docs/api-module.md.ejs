@@ -1,15 +1,15 @@
-# <%- spec.apiNamespace %>
+# <%- module.namespace %>
 
-<%- spec.summary %>
-<% if (spec.description) { -%>
+<%- module.summary %>
+<% if (module.description) { -%>
 
-<%- spec.description %>
+<%- module.description %>
 <% } -%>
 
 -   [Methods](#methods)
-<% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].isApiMethod).map(id => spec.members[id]) ) { -%>
+<% for ( let method of Object.keys(module.methods).sort().map(id => module.methods[id]) ) { -%>
 <% if (method.deprecated) { -%>
-    -   [**~~<%- method.apiName %>~~** `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- `${method.markdownId}` %>)
+    -   [**~~<%- method.name %>~~** `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- `${method.markdownId}` %>)
 <% } else { -%>
     -   [**<%- method.apiName %>**<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- method.markdownId %>)
 <% } -%>
@@ -18,14 +18,14 @@
 <a id="methods"></a>
 
 # Methods
-<% for ( let method of Object.keys(spec.members).sort().filter(id => spec.members[id].isApiMethod).map(id => spec.members[id]) ) { -%>
+<% for ( let method of Object.keys(module.methods).sort().map(id => module.methods[id]) ) { -%>
 
 <a id="<%- method.markdownId %>"></a>
 
 <% if (method.deprecated) { -%>
-## ~~<%- method.apiName %>~~ `[deprecated]`
+## ~~<%- method.name %>~~ `[deprecated]`
 <% } else { -%>
-## <%- method.apiName %>
+## <%- method.name %>
 <% } -%>
 <% if (method.summary) { -%>
 
@@ -33,7 +33,7 @@
 <% } -%>
 
 ```
-const res = await api.call( "<%- method.apiFullName %>"<%- method.templateParams %> );
+const res = await api.call( "<%- method.id %>"<%- method.templateParams %> );
 ```
 <% if (method.description) { -%>
 
