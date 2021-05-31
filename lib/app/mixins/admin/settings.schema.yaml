@@ -1,0 +1,30 @@
+summary: App settings.
+permissions: [admin]
+
+methods:
+  read:
+    summary: Read application settings.
+
+  update:
+    summary: Update application settings.
+    params:
+      - name: settings
+        summary: application settings object
+        required: true
+        schema:
+          type: object
+
+  test-smtp:
+    summary: Test SMTP server settings.
+    params:
+      - name: settings
+        required: true
+        schema:
+          type: object
+          properties:
+            smtp_hostname: { type: string }
+            smtp_port: { type: integer, minimum: 0, maximum: 65535 }
+            smtp_username: { type: string }
+            smtp_password: { type: string }
+          required: []
+          additionalProperties: false
