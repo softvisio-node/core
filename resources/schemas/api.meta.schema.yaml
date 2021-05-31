@@ -14,7 +14,6 @@
         properties:
           summary: { $ref: "components#/summary" }
           description: { $ref: "components#/desc" }
-          validateParams: { type: "boolean" }
           permissions: { $ref: "components#/permissions" }
           params:
             params:
@@ -30,6 +29,7 @@
                 schema: { type: object }
               required: [name, schema]
               additionalProperties: false
+          validateParams: { type: "boolean" }
           logApiCalls: { type: boolean }
           activeRequestsLimit: { type: integer, minimum: 0 }
           activeRequestsUserLimit: { type: integer, minimum: 0 }
