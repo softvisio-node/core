@@ -1,11 +1,9 @@
 # Documentation
-<% if ( hasApi ) { -%>
 
 -   API documentation
-<% for ( let ver of Object.keys(apiClasses).sort() ) { -%>
-    -   <%- ver %>
-<% for ( let spec of apiClasses[ver].sort( (a, b) => { return a.apiNamespace.localeCompare(b.apiNamespace) } ) ) { -%>
-        -   [**<%- spec.apiNamespace %>** - <%- spec.summary %>](./<%- spec.module.namespacePath %>)
-<% } -%>
+<% for ( let version of Object.keys(modules).sort() ) { -%>
+    -   v<%- version %>
+<% for ( let namespace of Object.keys(modules[version]).sort() ) { -%>
+        -   [**<%- namespace %>** - <%- modules[version][namespace].summary %>](.<%- namespace %>.md)
 <% } -%>
 <% } -%>
