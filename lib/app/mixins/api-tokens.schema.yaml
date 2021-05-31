@@ -37,7 +37,7 @@ methods:
         schema:
           type: boolean
 
-  get_permissions:
+  get-permissions:
     summary: Get user permissions.
     params:
       - name: tokenId
