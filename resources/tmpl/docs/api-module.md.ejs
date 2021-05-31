@@ -33,7 +33,7 @@
 <% } -%>
 
 ```
-const res = await api.call( "<%- method.id %>"<%- method.templateParams %> );
+const res = await api.call( "<%- method.id %>"<%- method.markdownParams %> );
 ```
 <% if (method.description) { -%>
 
@@ -70,7 +70,7 @@ Method require no parameters.
 <% } -%>
 
     ```
-<%- param.templateSchema %>
+<%- param.markdownSchema %>
     ```
 <% } -%>
 <% } -%>
