@@ -14,6 +14,7 @@
         properties:
           summary: { $ref: "components#/summary" }
           description: { $ref: "components#/desc" }
+          deprecated: { type: boolean }
           permissions: { $ref: "components#/permissions" }
           params:
             params:

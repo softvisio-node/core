@@ -57,11 +57,11 @@ const res = await api.call( "<%- method.id %>"<%- method.templateParams %> );
 <% } -%>
 
 #### Parameters
-<% if (!method.params) { -%>
+<% if (!method.spec.params) { -%>
 
 Method require no parameters.
 <% } else { -%>
-<% for ( let param of method.params ) { -%>
+<% for ( let param of method.spec.params ) { -%>
 
 -   **<%- param.name %>** `[<%- !param.required ? "not " : "" %>required]`<%- param.summary ? ` - ${param.summary}` : "" %>
 <% if (param.description) { -%>
