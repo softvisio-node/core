@@ -1,3 +1,21 @@
+## 3.11.0 (2021-06-01)
+
+### Raw commits log
+
+-   api proto refactored;
+-   api schema moved to the external files;
+-   doc module removed;
+-   api schema moved to the exteranl files;
+-   ansi.wrap added;
+-   ansi styles updated;
+-   typo fixed;
+-   ansi methods renamed;
+-   cli arrays support added;
+-   app authentication fixed;
+-   do not sort tests;
+-   tests report updated;
+-   cli short option parser improved;
+
 ## 3.10.0 (2021-05-29)
 
 ### Raw commits log
