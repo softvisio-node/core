@@ -32,7 +32,7 @@
 <%- method.summary %>
 <% } -%>
 
-```
+```js
 const res = await api.call( "<%- method.id %>"<%- method.markdownParams %> );
 ```
 <% if (method.description) { -%>
@@ -69,7 +69,7 @@ Method require no parameters.
 <%- param.description %>
 <% } -%>
 
-    ```
+    ```yaml
 <%- param.markdownSchema %>
     ```
 <% } -%>
