@@ -1,4 +1,4 @@
-# API **v<%- version %>** endpoints:
+# <%- options.type %> **v<%- version %>** endpoints:
 
 <% for ( let namespace of Object.keys(modules).sort() ) { -%>
 -   [<%- modules[namespace].name %>](<%- modules[namespace].name.replaceAll( "/", "-" ) %>.md) - <%- modules[namespace].summary %>
