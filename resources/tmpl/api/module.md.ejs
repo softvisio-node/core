@@ -32,6 +32,7 @@
 <%- method.summary %>
 <% } -%>
 
+<!-- prettier-ignore -->
 ```js
 const res = await api.call( "<%- method.id %>"<%- method.markdownParams %> );
 ```
@@ -69,6 +70,7 @@ Method require no parameters.
 <%- param.description %>
 <% } -%>
 
+    <!-- prettier-ignore -->
     ```yaml
 <%- param.markdownSchema %>
     ```
