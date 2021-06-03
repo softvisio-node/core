@@ -1,3 +1,14 @@
+## 3.12.0 (2021-06-03)
+
+### Raw commits log
+
+-   docs config;
+-   api shema geenrator options added;
+-   api templates updated;
+-   moved to github;
+-   docs updated;
+-   docs code block tags added;
+
 ## 3.11.0 (2021-06-01)
 
 ### Raw commits log
