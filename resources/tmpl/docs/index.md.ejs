@@ -1,9 +1,0 @@
-# Documentation
-
--   API documentation
-<% for ( let version of Object.keys(modules).sort() ) { -%>
-    -   v<%- version %>
-<% for ( let namespace of Object.keys(modules[version]).sort() ) { -%>
-        -   [**<%- namespace %>** - <%- modules[version][namespace].summary %>](.<%- namespace %>.md)
-<% } -%>
-<% } -%>

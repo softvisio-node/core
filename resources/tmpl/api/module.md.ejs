@@ -9,9 +9,9 @@
 -   [Methods](#methods)
 <% for ( let method of Object.keys(module.methods).sort().map(id => module.methods[id]) ) { -%>
 <% if (method.deprecated) { -%>
-    -   [**~~<%- method.name %>~~** `[deprecated]`<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- `${method.markdownId}` %>)
+    -   [~~<%- method.name %>~~ `[deprecated]`](#<%- `${method.markdownId}` %>)<%- method.summary ? ` - ${method.summary}` : "" %>
 <% } else { -%>
-    -   [**<%- method.name %>**<%- method.summary ? ` - ${method.summary}` : "" %>](#<%- method.markdownId %>)
+    -   [<%- method.name %>](#<%- method.markdownId %>)<%- method.summary ? ` - ${method.summary}` : "" %>
 <% } -%>
 <% } -%>
 
