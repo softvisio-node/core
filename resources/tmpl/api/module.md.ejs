@@ -32,10 +32,23 @@
 <%- method.summary %>
 <% } -%>
 
+<!-- tabs:start -->
+
+#### **JavaScript**
+
 <!-- prettier-ignore -->
 ```js
 const res = await api.call( "<%- method.id %>"<%- method.markdownParams %> );
 ```
+
+#### **curl**
+
+<!-- prettier-ignore -->
+```sh
+curl -X POST ...
+```
+
+<!-- tabs:end -->
 <% if (method.description) { -%>
 
 <%- method.description %>
