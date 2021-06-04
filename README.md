@@ -1,1 +1,9 @@
-Please, refer to the documentation: [https://softvisio.github.io/core/](https://softvisio.github.io/core/#/).
+**Please, see full project documentation here:** [https://softvisio.github.io/core/](https://softvisio.github.io/core/)
+
+# Getting started
+
+## Install
+
+```
+npm i @softvisio/core
+```

@@ -12,14 +12,13 @@ topLinks:
   - "@source"
   - "@npm"
   - "@themes"
+# api:
+#   lib/api:
+#     target: api
+#     options:
+#       type: "API"
 
-api:
-  lib/api:
-    target: api
-    options:
-      type: "API"
-
-  lib/rpc:
-    target: rpc
-    options:
-      type: "RPC"
+#   lib/rpc:
+#     target: rpc
+#     options:
+#       type: "RPC"
