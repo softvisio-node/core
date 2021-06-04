@@ -1,4 +1,4 @@
--   [Getting started](README.md)
+-   [Getting started](/)
 -   [ChangeLog](changelog)
 
 **Links**

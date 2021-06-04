@@ -1,0 +1,25 @@
+name: core
+repo: softvisio/core # XXX can take from git
+npm: "@softvisio/core" # XXX can take from package.json
+updateReadme: true
+logo: # XXX boolean, if true - favicon -> logo.png
+alias:
+  changelog: //raw.githubusercontent.com/${repo}/main/CHANGELOG.md # XXX add automatically
+topLinks:
+  - "#changelog"
+  - "@issues"
+  - "@discussions"
+  - "@source"
+  - "@npm"
+  - "@themes"
+
+api:
+  lib/api:
+    target: api
+    options:
+      type: "API"
+
+  lib/rpc:
+    target: rpc
+    options:
+      type: "RPC"
