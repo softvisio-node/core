@@ -3,5 +3,5 @@
 -   [Changelog](changelog)
 
 -   **Links**
-    -   [Github](https://github.com/softvisio/core)
+    -   [GitHub](https://github.com/softvisio/core)
     -   [NPM](https://www.npmjs.com/package/@softvisio/core)
