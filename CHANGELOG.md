@@ -1,6 +1,6 @@
 ## 3.12.0 (2021-06-03)
 
-### Raw commits log
+**Raw commits log**
 
 -   docs config;
 -   api shema geenrator options added;
@@ -11,7 +11,7 @@
 
 ## 3.11.0 (2021-06-01)
 
-### Raw commits log
+**Raw commits log**
 
 -   api proto refactored;
 -   api schema moved to the external files;
@@ -29,7 +29,7 @@
 
 ## 3.10.0 (2021-05-29)
 
-### Raw commits log
+**Raw commits log**
 
 -   app authentication fixed;
 -   test refactored;
@@ -56,14 +56,14 @@
 
 ## 3.9.0 (2021-05-19)
 
-### Raw commits log
+**Raw commits log**
 
 -   mime moved to /;
 -   subnets moved to ip/;
 
 ## 3.8.0 (2021-05-19)
 
-### Raw commits log
+**Raw commits log**
 
 -   databases moved to own package;
 -   api bench removed;
@@ -86,7 +86,7 @@
 
 ## 3.7.0 (2021-05-18)
 
-### Raw commits log
+**Raw commits log**
 
 -   api multihost;
 -   api protocol auth message removed;
@@ -96,13 +96,13 @@
 
 ## 3.6.1 (2021-05-17)
 
-### Raw commits log
+**Raw commits log**
 
 -   stream read http headers fixed;
 
 ## 3.6.0 (2021-05-17)
 
-### Raw commits log
+**Raw commits log**
 
 -   stream readLine fixed;
 -   cli refactored;
@@ -121,19 +121,19 @@
 
 ## 3.5.2 (2021-05-13)
 
-### Raw commits log
+**Raw commits log**
 
 -   browser env set mode fixed;
 
 ## 3.5.1 (2021-05-13)
 
-### Raw commits log
+**Raw commits log**
 
 -   exports fixed;
 
 ## 3.5.0 (2021-05-13)
 
-### Raw commits log
+**Raw commits log**
 
 -   api http statusText;
 -   file api refactored;
@@ -158,7 +158,7 @@
 
 ## 3.4.0 (2021-05-11)
 
-### Raw commits log
+**Raw commits log**
 
 -   http server req writeStatus -> writeHead;
 -   typo;
@@ -169,38 +169,38 @@
 
 ## 3.3.1 (2021-05-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   http server request fixed;
 
 ## 3.3.0 (2021-05-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   http server request refactored;
 
 ## 3.2.2 (2021-05-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   api http transport status fixed;
 
 ## 3.2.1 (2021-05-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   const default export fixed;
 
 ## 3.2.0 (2021-05-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   const default export;
 -   google uule module added;
 
 ## 3.1.0 (2021-05-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   code improvements;
 -   threads api updated;
@@ -216,7 +216,7 @@
 
 ## 3.0.1 (2021-05-03)
 
-### Raw commits log
+**Raw commits log**
 
 -   deps updated;
 -   imports browser-safe;
@@ -225,64 +225,64 @@
 
 ## 3.0.0 (2021-05-02)
 
-### Raw commits log
+**Raw commits log**
 
 -   fs config read cache option renamed to require;
 
 ## 3.0.0-alpha.5 (2021-05-02)
 
-### Raw commits log
+**Raw commits log**
 
 -   minor code improvements;
 
 ## 3.0.0-alpha.4 (2021-05-02)
 
-### Raw commits log
+**Raw commits log**
 
 -   ported to ESM;
 
 ## 3.0.0-alpha.3 (2021-05-02)
 
-### Raw commits log
+**Raw commits log**
 
 -   ported to ESM;
 
 ## 3.0.0-alpha.2 (2021-04-28)
 
-### Raw commits log
+**Raw commits log**
 
 -   deps updated;
 
 ## 3.0.0-alpha.1 (2021-04-28)
 
-### Raw commits log
+**Raw commits log**
 
 -   imports reverted;
 -   api client websocket close event fixed;
 
 ## 3.0.0-alpha.0 (2021-04-28)
 
-### Raw commits log
+**Raw commits log**
 
 -   ported to webpack 5;
 -   api browser hash-wasm import fixed;
 
 ## 2.18.2 (2021-04-27)
 
-### Raw commits log
+**Raw commits log**
 
 -   proxy api refactored;
 
 ## 2.18.1 (2021-04-26)
 
-### Raw commits log
+**Raw commits log**
 
 -   msgpack exports renamed;
 -   typo;
 
 ## 2.18.0 (2021-04-26)
 
-### Raw commits log
+**Raw commits log**
 
 -   api client refactored;
 -   msgpack decode buffer fixed;
@@ -295,13 +295,13 @@
 
 ## 2.17.6 (2021-04-23)
 
-### Raw commits log
+**Raw commits log**
 
 -   mjs export fixed;
 
 ## 2.17.5 (2021-04-23)
 
-### Raw commits log
+**Raw commits log**
 
 -   global methods updated;
 -   devaultPort -> getDefaultPort();
@@ -312,7 +312,7 @@
 
 ## 2.17.4 (2021-04-23)
 
-### Raw commits log
+**Raw commits log**
 
 -   minor proxy update;
 -   countries browser removed;
@@ -323,7 +323,7 @@
 
 ## 2.17.3 (2021-04-22)
 
-### Raw commits log
+**Raw commits log**
 
 -   proxy server close on auth error;
 -   proxy server integration updated;
@@ -332,20 +332,20 @@
 
 ## 2.17.2 (2021-04-22)
 
-### Raw commits log
+**Raw commits log**
 
 -   proxy playwright integrated;
 
 ## 2.17.1 (2021-04-22)
 
-### Raw commits log
+**Raw commits log**
 
 -   result moved to own package;
 -   #index imports added;
 
 ## 2.17.0 (2021-04-21)
 
-### Raw commits log
+**Raw commits log**
 
 -   proxy refactored;
 -   engines updated;
@@ -370,40 +370,40 @@
 
 ## 2.16.0 (2021-04-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   proxy server refactored;
 
 ## 2.15.5 (2021-04-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   proxy server allows to redefine hostname, port;
 -   package exports fix for browser;
 
 ## 2.15.4 (2021-04-06)
 
-### Raw commits log
+**Raw commits log**
 
 -   @softvisio/globals added;
 -   playwright moved to own package;
 
 ## 2.15.3 (2021-04-05)
 
-### Raw commits log
+**Raw commits log**
 
 -   playwright navigator.platform override;
 -   npmrc fund false;
 
 ## 2.15.2 (2021-04-04)
 
-### Raw commits log
+**Raw commits log**
 
 -   plsywright-core support added;
 
 ## 2.15.1 (2021-04-04)
 
-### Raw commits log
+**Raw commits log**
 
 -   sqlite patches merged;
 -   pgsql patches merged;
@@ -411,51 +411,51 @@
 
 ## 2.15.0 (2021-04-04)
 
-### Raw commits log
+**Raw commits log**
 
 -   playwright refactored;
 -   update-databases;
 
 ## 2.14.2 (2021-04-01)
 
-### Raw commits log
+**Raw commits log**
 
 -   maxmind path changed;
 
 ## 2.14.1 (2021-04-01)
 
-### Raw commits log
+**Raw commits log**
 
 -   playwright useragent patch;
 
 ## 2.14.0 (2021-03-30)
 
-### Raw commits log
+**Raw commits log**
 
 -   playwright devices added;
 -   table ansi autodetect;
 
 ## 2.13.3 (2021-03-29)
 
-### Raw commits log
+**Raw commits log**
 
 -   maxmind update fixed;
 
 ## 2.13.2 (2021-03-29)
 
-### Raw commits log
+**Raw commits log**
 
 -   static event name prefix;
 
 ## 2.13.1 (2021-03-29)
 
-### Raw commits log
+**Raw commits log**
 
 -   threads event name parser fixed;
 
 ## 2.13.0 (2021-03-29)
 
-### Raw commits log
+**Raw commits log**
 
 -   sql refactored;
 -   signal.send remember signal value;
@@ -466,13 +466,13 @@
 
 ## 2.12.2 (2021-03-28)
 
-### Raw commits log
+**Raw commits log**
 
 -   deps updated;
 
 ## 2.12.1 (2021-03-27)
 
-### Raw commits log
+**Raw commits log**
 
 -   sqlite defer notifications;
 -   sqlite fixes;
@@ -481,7 +481,7 @@
 
 ## 2.12.0 (2021-03-27)
 
-### Raw commits log
+**Raw commits log**
 
 -   api events moved to database;
 -   app predefined user permissions renamed;
@@ -490,7 +490,7 @@
 
 ## 2.11.0 (2021-03-27)
 
-### Raw commits log
+**Raw commits log**
 
 -   app events refactored;
 -   app emit renamed to publish;
@@ -499,39 +499,39 @@
 
 ## 2.10.3 (2021-03-25)
 
-### Raw commits log
+**Raw commits log**
 
 -   table stringify cell value;
 
 ## 2.10.2 (2021-03-25)
 
-### Raw commits log
+**Raw commits log**
 
 -   table options updated;
 -   linted;
 
 ## 2.10.1 (2021-03-24)
 
-### Raw commits log
+**Raw commits log**
 
 -   text table fixed;
 
 ## 2.10.0 (2021-03-24)
 
-### Raw commits log
+**Raw commits log**
 
 -   text table added;
 
 ## 2.9.1 (2021-03-23)
 
-### Raw commits log
+**Raw commits log**
 
 -   app events scope fixed;
 -   string padEnd();
 
 ## 2.9.0 (2021-03-22)
 
-### Raw commits log
+**Raw commits log**
 
 -   sqlite notifications;
 -   pgsql notifications;
@@ -541,20 +541,20 @@
 
 ## 2.8.2 (2021-03-19)
 
-### Raw commits log
+**Raw commits log**
 
 -   dbh transaction result parser fixed;
 
 ## 2.8.1 (2021-03-19)
 
-### Raw commits log
+**Raw commits log**
 
 -   uws proxy;
 -   cluster.js moved;
 
 ## 2.8.0 (2021-03-19)
 
-### Raw commits log
+**Raw commits log**
 
 -   object permissions cache integrated with cluster;
 -   use auth cache if cluster is active;
@@ -564,7 +564,7 @@
 
 ## 2.7.0 (2021-03-18)
 
-### Raw commits log
+**Raw commits log**
 
 -   app events docs;
 -   app/settings/update -> app/settings/update;
@@ -577,44 +577,44 @@
 
 ## 2.6.4 (2021-03-16)
 
-### Raw commits log
+**Raw commits log**
 
 -   pgsql socket set keepalive;
 
 ## 2.6.3 (2021-03-15)
 
-### Raw commits log
+**Raw commits log**
 
 -   master -> main;
 
 ## 2.6.2 (2021-03-15)
 
-### Raw commits log
+**Raw commits log**
 
 -   docker tags updated;
 
 ## 2.6.1 (2021-03-15)
 
-### Raw commits log
+**Raw commits log**
 
 -   config merge updated;
 
 ## 2.6.0 (2021-03-15)
 
-### Raw commits log
+**Raw commits log**
 
 -   config files renamed;
 -   docker file cleaned;
 
 ## 2.5.1 (2021-03-14)
 
-### Raw commits log
+**Raw commits log**
 
 -   nginx removed;
 
 ## 2.5.0 (2021-03-14)
 
-### Raw commits log
+**Raw commits log**
 
 -   fs.config all option added for read yaml multidocuments;
 -   redis wrapper added;
@@ -623,13 +623,13 @@
 
 ## 2.4.0 (2021-03-14)
 
-### Raw commits log
+**Raw commits log**
 
 -   utils/env module added;
 
 ## 2.3.0 (2021-03-14)
 
-### Raw commits log
+**Raw commits log**
 
 -   sql pg advisory lock during migration;
 -   app env local files added;
@@ -639,7 +639,7 @@
 
 ## 2.2.5 (2021-03-12)
 
-### Raw commits log
+**Raw commits log**
 
 -   proxy http requests fixed;
 -   mime force option added to override types;
@@ -650,14 +650,14 @@
 
 ## 2.2.4 (2021-03-11)
 
-### Raw commits log
+**Raw commits log**
 
 -   maxmind env.MAXMIND_LICENSE_KEY;
 -   image healthcheck added;
 
 ## 2.2.3 (2021-03-10)
 
-### Raw commits log
+**Raw commits log**
 
 -   debug log removed;
 -   docker-compose.yaml renamed to docker-stack.yaml;
@@ -665,19 +665,19 @@
 
 ## 2.2.2 (2021-03-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   moved to compose file;
 
 ## 2.2.1 (2021-03-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   maxmind repo path updated;
 
 ## 2.2.0 (2021-03-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   getEnvBool() supports true only;
 -   maxmind module added;
@@ -687,7 +687,7 @@
 
 ## 2.1.0 (2021-03-08)
 
-### Raw commits log
+**Raw commits log**
 
 -   getRealRemoteAddress updated;
 -   loadbalancer config removed;
@@ -698,20 +698,20 @@
 
 ## 2.0.1 (2021-03-04)
 
-### Raw commits log
+**Raw commits log**
 
 -   sqlite object json encoding fixed;
 -   sqlite db fixed;
 
 ## 2.0.0 (2021-03-03)
 
-### Raw commits log
+**Raw commits log**
 
 -   @softvisio/nginx added;
 
 ## 2.0.0-rc.5 (2021-03-02)
 
-### Raw commits log
+**Raw commits log**
 
 -   ajv apiUpload keyword;
 -   api upload refactored;
@@ -719,13 +719,13 @@
 
 ## 2.0.0-rc.4 (2021-02-28)
 
-### Raw commits log
+**Raw commits log**
 
 -   api browser missing result deps;
 
 ## 2.0.0-rc.3 (2021-02-28)
 
-### Raw commits log
+**Raw commits log**
 
 -   proxy rotation refactored;
 -   api token refactored;
@@ -739,20 +739,20 @@
 
 ## 2.0.0-rc.2 (2021-02-24)
 
-### Raw commits log
+**Raw commits log**
 
 -   browser index added;
 -   condvar recv callback fixed;
 
 ## 2.0.0-rc.1 (2021-02-24)
 
-### Raw commits log
+**Raw commits log**
 
 -   Object.pick(), Object.omit() methods fixed;
 
 ## 2.0.0-rc.0 (2021-02-24)
 
-### Raw commits log
+**Raw commits log**
 
 -   sql SET() signature changed;
 -   Object.pick(), Object.omit() methods added;
@@ -762,13 +762,13 @@
 
 ## 2.0.0-beta.14 (2021-02-22)
 
-### Raw commits log
+**Raw commits log**
 
 -   smtp ehlo fixed;
 
 ## 2.0.0-beta.13 (2021-02-22)
 
-### Raw commits log
+**Raw commits log**
 
 -   smtp refactored;
 -   docker node engines-strict;
@@ -776,40 +776,40 @@
 
 ## 2.0.0-beta.12 (2021-02-17)
 
-### Raw commits log
+**Raw commits log**
 
 -   packetstream proxies fixed;
 -   form-data v4;
 
 ## 2.0.0-beta.11 (2021-02-14)
 
-### Raw commits log
+**Raw commits log**
 
 -   sql migration refactored;
 -   bench fixed;
 
 ## 2.0.0-beta.10 (2021-02-12)
 
-### Raw commits log
+**Raw commits log**
 
 -   threads refactored;
 -   threads class name fixed;
 
 ## 2.0.0-beta.9 (2021-02-12)
 
-### Raw commits log
+**Raw commits log**
 
 -   utils resolution updated;
 
 ## 2.0.0-beta.8 (2021-02-12)
 
-### Raw commits log
+**Raw commits log**
 
 -   util renamed to utils;
 
 ## 2.0.0-beta.7 (2021-02-12)
 
-### Raw commits log
+**Raw commits log**
 
 -   max-threads mixin removed;
 -   threads/pool moved to ./threads;
@@ -817,45 +817,45 @@
 
 ## 2.0.0-beta.6 (2021-02-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   playwright use google-chrome-stable by default on linux;
 
 ## 2.0.0-beta.5 (2021-02-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   proxy base rotation methods added;
 -   proxy server await proxy hook;
 
 ## 2.0.0-beta.4 (2021-02-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   playwright patch refactored;
 -   util getEnvBool function;
 
 ## 2.0.0-beta.3 (2021-02-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   resource path fixed;
 
 ## 2.0.0-beta.2 (2021-02-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   resource path fixed;
 
 ## 2.0.0-beta.1 (2021-02-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   result global init code moved to index;
 
 ## 2.0.0-beta.0 (2021-02-09)
 
-### Raw commits log
+**Raw commits log**
 
 -   app api init refactored;
 -   util functions moved to the global objects;
@@ -868,14 +868,14 @@
 
 ## 2.0.0-alpha.1 (2021-02-08)
 
-### Raw commits log
+**Raw commits log**
 
 -   playwright helper added;
 -   proxy refactored;
 
 ## 2.0.0-alpha.0 (2021-02-07)
 
-### Raw commits log
+**Raw commits log**
 
 -   proxy refactored;
 -   index updated;
