@@ -1,11 +1,5 @@
-name: core
-siteURL:
-generateReadme: true
-changelog: true
+logo: false
 aliases:
-
-logo: # XXX boolean, if true - favicon -> logo.png
-
 # api:
 #   lib/api:
 #     target: api
