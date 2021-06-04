@@ -7,30 +7,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-        <link rel="icon" href="assets/favicon.ico" />
+        <link rel="icon" href="assets/logo.png" />
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@softvisio/cli/docs/assets/theme/theme.css" />
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
-
-        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet" />
     </head>
     <body>
         <nav>
-            <a href="#changelog">CHANGELOG</a>
-            •
-            <a href="https://github.com/softvisio/core/discussions"><i class="far fa-comments"></i></a>
-            •
-            <a href="https://github.com/softvisio/core/issues"><i class="fas fa-bug"></i></a>
-            •
-            <a href="https://www.npmjs.com/package/@softvisio/core"><i class="fab fa-npm"></i></a>
-            •
-            <a href="https://github.com/softvisio/core"><i class="fab fa-github"></i></a>
-            •
-            <a href="javascript:" data-link-theme><i class="fas fa-adjust"></i> THEME</a>
+            <a href="#changelog">CHANGE LOG</a> • <a href="https://github.com/softvisio/core/discussions" title="Discussions"><i class="far fa-comments"></i></a> • <a href="https://github.com/softvisio/core/issues" title="Issues"><i class="fas fa-bug"></i></a> • <a href="https://www.npmjs.com/package/@softvisio/core" title="NPM package"><i class="fab fa-npm"></i></a> • <a href="javascript:"><i class="fas fa-adjust"></i> THEME</a>
         </nav>
         <div id="app"></div>
+
         <script>
-            window.$docsify = { name: "@softvisio/core", repo: "https://github.com/softvisio/core", loadSidebar: true, auto2top: true, relativePath: true, maxLevel: 3, externalLinkTarget: "_self", subMaxLevel: 3, search: { depth: 3 }, tabs: {}, alias: {}, logo: null };
+            window.$docsify = { name: "@softvisio/core", repo: "https://github.com/softvisio/core", loadSidebar: true, auto2top: true, relativePath: true, maxLevel: 3, externalLinkTarget: "_self", subMaxLevel: 3, search: { depth: 3 }, tabs: {}, alias: { ".*?/changelog": "https://raw.githubusercontent.com/softvisio/core/main/CHANGELOG.md" }, logo: 'assets/logo.png height="80"' };
         </script>
+
         <script src="//cdn.jsdelivr.net/npm/@softvisio/cli/docs/assets/theme/theme.js"></script>
         <script src="//cdn.jsdelivr.net/npm/docsify"></script>
         <script src="//cdn.jsdelivr.net/npm/prismjs"></script>
