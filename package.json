@@ -22,7 +22,7 @@
         "#index": "@softvisio/core",
         "#browser/*": "./lib/_browser/*.js",
         "#lib/*": "@softvisio/core/*",
-        "#resources/*": "./resources/*"
+        "#assets/*": "./assets/*"
     },
     "exports": {
         ".": {
@@ -30,7 +30,7 @@
             "node": "./lib/index.js"
         },
         "./*": "./lib/*.js",
-        "./resources/*": "./resources/*",
+        "./assets/*": "./assets/*",
         "./api": {
             "browser": "./lib/_browser/api.js",
             "node": "./lib/api.js"
