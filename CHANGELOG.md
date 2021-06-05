@@ -1,3 +1,17 @@
+## 3.13.0 (2021-06-05)
+
+**Raw commits log**
+
+-   assets -> resources;
+-   resources -> assets;
+-   api curl template updated;
+-   app loadAPI method added;
+-   File text() method added;
+-   docs generator updated;
+-   result try/catch/parse methods renamed;
+-   docs updated;
+-   tmpl -> templates;
+
 ## 3.12.0 (2021-06-03)
 
 **Raw commits log**
