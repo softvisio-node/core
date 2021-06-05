@@ -41,11 +41,16 @@
 const res = await api.call( "<%- method.id %>"<%- method.markdownParams %> );
 ```
 
-#### **curl**
+#### **cURL**
 
 <!-- prettier-ignore -->
 ```sh
-curl -X POST ...
+curl \
+    -X POST \
+    -H "Authorization: Basic <YOUR-API-TOKEN>" \
+    -H "Content-Type: application/json" \
+    -d '[...PARAMETERS]' \
+    "https://api.domain.com<%- method.id %>"
 ```
 
 <!-- tabs:end -->
