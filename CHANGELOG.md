@@ -1,4 +1,4 @@
-# Change log
+# Changelog
 
 ### 3.13.1 (2021-06-05)
 
