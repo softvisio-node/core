@@ -1,5 +1,4 @@
 # <%- options.type.toUpperCase() %> v<%- version %>
-
 <% for ( const module of modules ) { -%>
 
 ## <%- module.summary %>
@@ -9,6 +8,7 @@
 <% } -%>
 
 Methods:
+
 <% for ( let method of Object.keys(module.methods).sort().map(id => module.methods[id]) ) { -%>
 <% if (method.deprecated) { -%>
 -   [~~<%- method.summary %>~~ `[deprecated]`](#<%- `${method.markdownId}` %>)
