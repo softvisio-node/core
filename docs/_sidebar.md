@@ -1,5 +1,5 @@
--   [Getting started](/)
+-   [Introduction](/)
 
-**Links**
+**LINKS**
 
--   [CHANGE LOG](changelog)
+-   [ChangelOG](changelog)
