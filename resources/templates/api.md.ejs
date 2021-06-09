@@ -9,14 +9,14 @@
 
 Methods:
 
-<% for ( let method of Object.keys(module.methods).sort().map(id => module.methods[id]) ) { -%>
+<% for ( let method of Object.values( module.methods ) ) { -%>
 <% if (method.deprecated) { -%>
 -   [~~<%- method.summary %>~~ `[deprecated]`](#<%- method.markdownId %>)
 <% } else { -%>
 -   [<%- method.summary %>](#<%- method.markdownId %>)
 <% } -%>
 <% } -%>
-<% for ( let method of Object.keys(module.methods).sort().map(id => module.methods[id]) ) { -%>
+<% for ( let method of Object.values( module.methods ) ) { -%>
 
 <a id="<%- method.markdownId %>"></a>
 
