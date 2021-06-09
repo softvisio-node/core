@@ -3,14 +3,14 @@ permissions: [user]
 
 methods:
   read:
-    summary: Read API tokens
+    summary: Read tokens
     params:
       - name: options
         schema:
           type: object
 
   create:
-    summary: Generate new API token
+    summary: Generate new token
     params:
       - name: name
         required: true
@@ -18,7 +18,7 @@ methods:
           type: string
 
   delete:
-    summary: Remove API token
+    summary: Remove token
     params:
       - name: tokenId
         required: true
@@ -26,7 +26,7 @@ methods:
           type: string
 
   set-enabled:
-    summary: Set API token enabled
+    summary: Set token enabled
     params:
       - name: tokenId
         required: true
