@@ -11,12 +11,13 @@ anyOf:
     required: [summary, commands]
     additionalProperties: false
 
-  # options
+  # command
   - type: object
     properties:
       summary: { type: string }
       description: { type: string }
 
+      # options
       options:
         type: object
         additionalProperties:
@@ -37,6 +38,7 @@ anyOf:
           required: [summary, schema]
           additionalProperties: false
 
+      # arguments
       arguments:
         type: object
         additionalProperties:
