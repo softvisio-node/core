@@ -11,7 +11,7 @@ Methods:
 
 <% for ( let method of Object.keys(module.methods).sort().map(id => module.methods[id]) ) { -%>
 <% if (method.deprecated) { -%>
--   [~~<%- method.summary %>~~ `[deprecated]`](#<%- `${method.markdownId}` %>)
+-   [~~<%- method.summary %>~~ `[deprecated]`](#<%- method.markdownId %>)
 <% } else { -%>
 -   [<%- method.summary %>](#<%- method.markdownId %>)
 <% } -%>
