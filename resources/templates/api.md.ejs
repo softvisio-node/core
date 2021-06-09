@@ -1,31 +1,29 @@
-# <%- module.namespace %>
+# <%- options.type.toUpperCase() %> v<%- version %>
 
-<%- module.summary %>
+<% for ( const module of modules ) { -%>
+
+## <%- module.summary %>
 <% if (module.description) { -%>
 
 <%- module.description %>
 <% } -%>
 
--   [Methods](#methods)
+Methods:
 <% for ( let method of Object.keys(module.methods).sort().map(id => module.methods[id]) ) { -%>
 <% if (method.deprecated) { -%>
-    -   [~~<%- method.name %>~~ `[deprecated]`](#<%- `${method.markdownId}` %>)<%- method.summary ? ` - ${method.summary}` : "" %>
+-   [~~<%- method.name %>~~ `[deprecated]`](#<%- `${method.markdownId}` %>)<%- method.summary ? ` - ${method.summary}` : "" %>
 <% } else { -%>
-    -   [<%- method.name %>](#<%- method.markdownId %>)<%- method.summary ? ` - ${method.summary}` : "" %>
+-   [<%- method.name %>](#<%- method.markdownId %>)<%- method.summary ? ` - ${method.summary}` : "" %>
 <% } -%>
 <% } -%>
-
-<a id="methods"></a>
-
-# Methods
 <% for ( let method of Object.keys(module.methods).sort().map(id => module.methods[id]) ) { -%>
 
 <a id="<%- method.markdownId %>"></a>
 
 <% if (method.deprecated) { -%>
-## ~~<%- method.name %>~~ `[deprecated]`
+### ~~<%- method.name %>~~ `[deprecated]`
 <% } else { -%>
-## <%- method.name %>
+### <%- method.name %>
 <% } -%>
 <% if (method.summary) { -%>
 
@@ -92,6 +90,7 @@ Method require no parameters.
     ```yaml
 <%- param.markdownSchema %>
     ```
+<% } -%>
 <% } -%>
 <% } -%>
 <% } -%>
