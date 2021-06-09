@@ -11,9 +11,9 @@
 Methods:
 <% for ( let method of Object.keys(module.methods).sort().map(id => module.methods[id]) ) { -%>
 <% if (method.deprecated) { -%>
--   [~~<%- method.name %>~~ `[deprecated]`](#<%- `${method.markdownId}` %>)<%- method.summary ? ` - ${method.summary}` : "" %>
+-   [~~<%- method.summary %>~~ `[deprecated]`](#<%- `${method.markdownId}` %>)
 <% } else { -%>
--   [<%- method.name %>](#<%- method.markdownId %>)<%- method.summary ? ` - ${method.summary}` : "" %>
+-   [<%- method.summary %>](#<%- method.markdownId %>)
 <% } -%>
 <% } -%>
 <% for ( let method of Object.keys(module.methods).sort().map(id => module.methods[id]) ) { -%>
@@ -21,13 +21,9 @@ Methods:
 <a id="<%- method.markdownId %>"></a>
 
 <% if (method.deprecated) { -%>
-### ~~<%- method.name %>~~ `[deprecated]`
+### ~~<%- method.summary %>~~ `[deprecated]`
 <% } else { -%>
-### <%- method.name %>
-<% } -%>
-<% if (method.summary) { -%>
-
-<%- method.summary %>
+### <%- method.summary %>
 <% } -%>
 
 <!-- tabs:start -->
