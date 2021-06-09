@@ -1,12 +1,12 @@
-summary: App settings.
+summary: Application settings
 permissions: [admin]
 
 methods:
   read:
-    summary: Read application settings.
+    summary: Read application settings
 
   update:
-    summary: Update application settings.
+    summary: Update application settings
     params:
       - name: settings
         summary: application settings object
@@ -15,7 +15,7 @@ methods:
           type: object
 
   test-smtp:
-    summary: Test SMTP server settings.
+    summary: Test SMTP server settings
     params:
       - name: settings
         required: true

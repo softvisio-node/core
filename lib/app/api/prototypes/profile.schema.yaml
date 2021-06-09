@@ -1,12 +1,12 @@
-summary: Profile.
+summary: User profile
 permissions: [user]
 
 methods:
   read:
-    summary: Read authenticated used profile.
+    summary: Read user profile
 
   set-email:
-    summary: Set user email.
+    summary: Set user email
     params:
       - name: email
         required: false
@@ -14,7 +14,7 @@ methods:
           type: string
 
   set-telegram-username:
-    summary: Set user telegram name.
+    summary: Set user telegram name
     params:
       - name: username
         required: false
