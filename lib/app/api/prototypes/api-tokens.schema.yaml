@@ -59,7 +59,7 @@ methods:
           additionalProperties: { type: boolean }
 
   update-permissions:
-    summary: Set token permissions
+    summary: Update token permissions
     params:
       - name: tokenId
         required: true
