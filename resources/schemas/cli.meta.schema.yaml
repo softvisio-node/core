@@ -2,19 +2,19 @@ anyOf:
   # commands
   - type: object
     properties:
-      summary: { type: string }
+      title: { type: string }
       description: { type: string }
       commands:
         type: object
         additionalProperties: true
         minProperties: 1
-    required: [summary, commands]
+    required: [title, commands]
     additionalProperties: false
 
   # command
   - type: object
     properties:
-      summary: { type: string }
+      title: { type: string }
       description: { type: string }
 
       # options
@@ -27,7 +27,7 @@ anyOf:
               anyOf:
                 - { type: boolean, const: false }
                 - { type: string, minLength: 1, maxLength: 1 }
-            summary: { type: string }
+            description: { type: string }
             default: { type: [string, integer, boolean] }
             minItems: { type: integer, minimum: 0 }
             maxItems:
@@ -35,7 +35,7 @@ anyOf:
                 - { type: boolean, const: false }
                 - { type: integer, minimum: 1 }
             schema: { type: object }
-          required: [summary, schema]
+          required: [description, schema]
           additionalProperties: false
 
       # arguments
@@ -44,7 +44,7 @@ anyOf:
         additionalProperties:
           type: object
           properties:
-            summary: { type: string }
+            description: { type: string }
             default: { type: [string, integer] }
             minItems: { type: integer, minimum: 0 }
             maxItems:
@@ -52,6 +52,6 @@ anyOf:
                 - { type: boolean, const: false }
                 - { type: integer, minimum: 1 }
             schema: { type: object }
-          required: [summary, schema]
+          required: [description, schema]
           additionalProperties: false
     additionalProperties: false
