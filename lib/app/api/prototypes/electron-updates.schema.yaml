@@ -1,9 +1,9 @@
-summary: Electrron updates management
+title: Electrron updates management
 permissions: [admin]
 
 methods:
   read:
-    summary: Read list of updates
+    title: Read list of updates
     params:
       - name: options
         schema:
@@ -12,7 +12,7 @@ methods:
             search: { type: string, conditions: ["like"] }
 
   create:
-    summary: Create user
+    title: Create user
     upload: true
     params:
       - name: file
@@ -36,7 +36,7 @@ methods:
             - username
 
   delete:
-    summary: Remove update
+    title: Remove update
     params:
       - name: updateId
         required: true
@@ -44,7 +44,7 @@ methods:
           type: integer
 
   set-published:
-    summary: Set update enabled
+    title: Set update enabled
     params:
       - name: updateId
         required: true
@@ -56,7 +56,7 @@ methods:
           type: boolean
 
   check:
-    summary: Check for updates
+    title: Check for updates
     permissions: ["*"]
     params:
       - name: options

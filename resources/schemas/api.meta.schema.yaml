@@ -2,7 +2,7 @@
 - $id: module
   type: object
   properties:
-    summary: { $ref: "components#/summary" }
+    title: { $ref: "components#/titleString" }
     description: { $ref: "components#/desc" }
     extends: { type: string }
     permissions: { $ref: "components#/permissions" }
@@ -12,7 +12,7 @@
       additionalProperties:
         type: object
         properties:
-          summary: { $ref: "components#/summary" }
+          title: { $ref: "components#/titleString" }
           description: { $ref: "components#/desc" }
           deprecated: { type: boolean }
           permissions: { $ref: "components#/permissions" }
@@ -36,14 +36,17 @@
           activeRequestsUserLimit: { type: integer, minimum: 0 }
           upload: { type: boolean }
           uploadMaxSize: { type: integer, minimum: 1 }
-        required: [summary]
+        required: [title]
         additionalProperties: false
 
-  required: [summary]
+  required: [title]
   additionalProperties: false
 
 # shared components
 - $id: components
+  titleString:
+    type: string
+
   summary:
     type: string
 
@@ -56,17 +59,3 @@
       type: string
       pattern: "^(?:[*]|[a-z-]+)$"
     minItems: 1
-
-  params:
-    type: array
-    minItems: 1
-    items:
-      type: object
-      properties:
-        name: { type: string }
-        summary: { $ref: "components#/summary" }
-        description: { $ref: "components#/desc" }
-        required: { type: boolean }
-        schema: { type: object }
-      required: [name, schema]
-      additionalProperties: false

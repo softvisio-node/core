@@ -1,7 +1,7 @@
 # <%- options.type.toUpperCase() %> v<%- version %>
 <% for ( const module of modules ) { -%>
 
-## <%- module.summary %>
+## <%- module.title %>
 <% if (module.description) { -%>
 
 <%- module.description %>
@@ -11,9 +11,9 @@ Methods:
 
 <% for ( let method of Object.values( module.methods ) ) { -%>
 <% if (method.deprecated) { -%>
--   [~~<%- method.summary %>~~ `[deprecated]`](#<%- method.markdownId %>)
+-   [~~<%- method.title %>~~ `[deprecated]`](#<%- method.markdownId %>)
 <% } else { -%>
--   [<%- method.summary %>](#<%- method.markdownId %>)
+-   [<%- method.title %>](#<%- method.markdownId %>)
 <% } -%>
 <% } -%>
 <% for ( let method of Object.values( module.methods ) ) { -%>
@@ -21,9 +21,9 @@ Methods:
 <a id="<%- method.markdownId %>"></a>
 
 <% if (method.deprecated) { -%>
-### ~~<%- method.summary %>~~ `[deprecated]`
+### ~~<%- method.title %>~~ `[deprecated]`
 <% } else { -%>
-### <%- method.summary %>
+### <%- method.title %>
 <% } -%>
 
 <!-- tabs:start -->

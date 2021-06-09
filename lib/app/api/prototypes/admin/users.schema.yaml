@@ -1,9 +1,9 @@
-summary: Application users management
+title: Application users management
 permissions: [admin]
 
 methods:
   read:
-    summary: Read users
+    title: Read users
     params:
       - name: options
         schema:
@@ -15,7 +15,7 @@ methods:
             enabled: { sortable: true }
 
   create:
-    summary: Create user
+    title: Create user
     params:
       - name: fields
         required: true
@@ -34,7 +34,7 @@ methods:
             - username
 
   delete:
-    summary: Remove user
+    title: Remove user
     params:
       - name: userId
         required: true
@@ -42,7 +42,7 @@ methods:
           type: string
 
   set-enabled:
-    summary: Set user enabled
+    title: Set user enabled
     params:
       - name: userId
         summary: User id or name.
@@ -55,7 +55,7 @@ methods:
           type: boolean
 
   set-password:
-    summary: Set user password
+    title: Set user password
     params:
       - name: userId
         summary: User id or name.
@@ -67,7 +67,7 @@ methods:
           type: string
 
   get-permissions:
-    summary: Get user permissions
+    title: Get user permissions
     params:
       - name: userId
         required: true
@@ -75,7 +75,7 @@ methods:
           type: string
 
   set-permissions:
-    summary: Set user permissions
+    title: Set user permissions
     params:
       - name: userId
         required: true
@@ -88,7 +88,7 @@ methods:
           additionalProperties: { type: boolean }
 
   update-permissions:
-    summary: Update user permissions
+    title: Update user permissions
     params:
       - name: userId
         required: true
@@ -101,7 +101,7 @@ methods:
           additionalProperties: { type: boolean }
 
   suggest:
-    summary: Suggest user name
+    title: Suggest user name
     params:
       - name: options
         schema:
@@ -121,7 +121,7 @@ methods:
                         type: string
 
   set-username:
-    summary: Change user name
+    title: Change user name
     params:
       - name: user_id
         required: true

@@ -1,16 +1,16 @@
-summary: API access tokens
+title: API access tokens
 permissions: [user]
 
 methods:
   read:
-    summary: Read tokens
+    title: Read tokens
     params:
       - name: options
         schema:
           type: object
 
   create:
-    summary: Generate new token
+    title: Generate new token
     params:
       - name: name
         required: true
@@ -18,7 +18,7 @@ methods:
           type: string
 
   delete:
-    summary: Remove token
+    title: Remove token
     params:
       - name: tokenId
         required: true
@@ -26,7 +26,7 @@ methods:
           type: string
 
   set-enabled:
-    summary: Set token enabled
+    title: Set token enabled
     params:
       - name: tokenId
         required: true
@@ -38,7 +38,7 @@ methods:
           type: boolean
 
   get-permissions:
-    summary: Get token permissions
+    title: Get token permissions
     params:
       - name: tokenId
         required: true
@@ -46,7 +46,7 @@ methods:
           type: string
 
   set-permissions:
-    summary: Set token permissions
+    title: Set token permissions
     params:
       - name: tokenId
         required: true
@@ -59,7 +59,7 @@ methods:
           additionalProperties: { type: boolean }
 
   update-permissions:
-    summary: Update token permissions
+    title: Update token permissions
     params:
       - name: tokenId
         required: true
