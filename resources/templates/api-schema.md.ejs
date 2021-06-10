@@ -50,8 +50,10 @@ curl \
 
 <%- method.description %>
 <% } -%>
+<% if ( options.type === "api" ) { -%>
 
 **Permissions:** <%- method.permissions.map( item => `\`${item}\``).join(", ") %>
+<% } -%>
 
 **Parameters:**
 <% if (!method.spec.params) { -%>
