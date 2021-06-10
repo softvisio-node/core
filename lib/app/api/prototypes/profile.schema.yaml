@@ -9,6 +9,7 @@ methods:
     title: Set user email
     params:
       - name: email
+        description: Email address to set, if not specified, current email address will be removed.
         required: false
         schema:
           type: string
@@ -16,7 +17,8 @@ methods:
   set-telegram-username:
     title: Set user telegram name
     params:
-      - name: username
+      - name: telegram_username
+        description: Telegram username to set, if not specified current telegram user name will be removed.
         required: false
         schema:
           type: string
