@@ -54,12 +54,9 @@ curl \
 
 **Permissions:** <%- method.permissions.map( item => `\`${item}\``).join(", ") %>
 <% } -%>
+<% if ( method.spec.params ) { -%>
 
 **Parameters:**
-<% if (!method.spec.params) { -%>
-
-Method require no parameters.
-<% } else { -%>
 <% for ( let param of method.spec.params ) { -%>
 
 -   **`<%- param.name %><%- param.required ? "" : "?" %>`** \<<%- param.schema.type %>\><%- param.description ? " " + param.description.replaceAll( /^/gm, " ".repeat( 4 ) ).replaceAll(/^ +$/gm, "").trim() : "" %>
