@@ -62,11 +62,7 @@ Method require no parameters.
 <% } else { -%>
 <% for ( let param of method.spec.params ) { -%>
 
--   **`<%- param.name %>`** <sup>[<%- !param.required ? "not " : "" %>required]</sup>
-<% if (param.description) { -%>
-
-<%- " ".repeat(4) + param.description.replaceAll( /^/gm, " ".repeat( 4 ) ).trim() %>
-<% } -%>
+-   **`<%- param.name %>`** <sup>[<%- !param.required ? "not " : "" %>required]</sup><%- param.description ? "  " + param.description.replaceAll( /^/gm, " ".repeat( 4 ) ).trim() : "" %>
 
     <!-- prettier-ignore -->
     ```yaml
