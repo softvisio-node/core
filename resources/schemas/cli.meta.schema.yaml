@@ -6,7 +6,13 @@ anyOf:
       description: { type: string }
       commands:
         type: object
-        additionalProperties: true
+        additionalProperties:
+          anyOf:
+            - {}
+            - type: array
+              items:
+                - { type: string, minLength: 1, maxLength: 1 }
+                - {}
         minProperties: 1
     required: [title, commands]
     additionalProperties: false
