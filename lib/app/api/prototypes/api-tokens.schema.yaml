@@ -20,7 +20,7 @@ methods:
   delete:
     title: Remove token
     params:
-      - name: tokenId
+      - name: token_id
         required: true
         schema:
           type: string
@@ -28,7 +28,7 @@ methods:
   set-enabled:
     title: Set token enabled
     params:
-      - name: tokenId
+      - name: token_id
         required: true
         schema:
           type: string
@@ -40,7 +40,7 @@ methods:
   get-permissions:
     title: Get token permissions
     params:
-      - name: tokenId
+      - name: token_id
         required: true
         schema:
           type: string
@@ -48,7 +48,7 @@ methods:
   set-permissions:
     title: Set token permissions
     params:
-      - name: tokenId
+      - name: token_id
         required: true
         schema:
           type: string
@@ -61,7 +61,7 @@ methods:
   update-permissions:
     title: Update token permissions
     params:
-      - name: tokenId
+      - name: token_id
         required: true
         schema:
           type: string

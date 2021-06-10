@@ -36,7 +36,7 @@ methods:
   delete:
     title: Remove user
     params:
-      - name: userId
+      - name: user_id
         required: true
         schema:
           type: string
@@ -44,7 +44,7 @@ methods:
   set-enabled:
     title: Set user enabled
     params:
-      - name: userId
+      - name: user_id
         description: User id or name.
         required: true
         schema:
@@ -57,7 +57,7 @@ methods:
   set-password:
     title: Set user password
     params:
-      - name: userId
+      - name: user_id
         description: User id or name.
         required: true
         schema:
@@ -69,7 +69,7 @@ methods:
   get-permissions:
     title: Get user permissions
     params:
-      - name: userId
+      - name: user_id
         required: true
         schema:
           type: string
@@ -77,7 +77,7 @@ methods:
   set-permissions:
     title: Set user permissions
     params:
-      - name: userId
+      - name: user_id
         required: true
         schema:
           type: string
@@ -90,7 +90,7 @@ methods:
   update-permissions:
     title: Update user permissions
     params:
-      - name: userId
+      - name: user_id
         required: true
         schema:
           type: string
