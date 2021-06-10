@@ -79,7 +79,7 @@ Method require no parameters.
 -   **<%- param.name %>** `[<%- !param.required ? "not " : "" %>required]`<%- param.summary ? ` - ${param.summary}` : "" %>
 <% if (param.description) { -%>
 
-<%- param.description %>
+<%- " ".repeat(4) + param.description.replaceAll( /^/gm, " ".repeat( 4 ) ).trim() %>
 <% } -%>
 
     <!-- prettier-ignore -->
