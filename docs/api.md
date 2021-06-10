@@ -1,23 +1,19 @@
-# INSTALL
+# Introduction
 
-```
-yarn add @softvisio/core
-
-# or
-
+```shell
 npm i @softvisio/core
 ```
 
-# USE
+## Usage
 
-```
+```js
 import Api from "@softvisio/core/api";
 
-const api = new Api( {
-    "url": "/api/",
-    "token": null,
-    "version": "v1",
-} );
+const api = new Api({
+    url: "/api/",
+    token: null,
+    version: "v1",
+});
 
 Vue.prototype.$api = api;
 ```
