@@ -18,8 +18,6 @@ Methods:
 <% } -%>
 <% for ( let method of Object.values( module.methods ) ) { -%>
 
-<a id="<%- method.markdownId %>"></a>
-
 <% if (method.deprecated) { -%>
 ### ~~<%- method.title %>~~ `[deprecated]`
 <% } else { -%>
