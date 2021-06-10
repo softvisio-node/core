@@ -41,7 +41,7 @@ const res = await api.call( "<%- method.id %>"<%- method.markdownParams %> );
 ```shell
 curl \
     -X POST \
-    -H "Authorization: Basic <YOUR-API-TOKEN>" \
+    -H "Authorization: Bearer <YOUR-API-TOKEN>" \
     -H "Content-Type: application/json" \
     -d '[...PARAMETERS]' \
     "https://api.domain.com<%- method.id %>"
@@ -53,30 +53,16 @@ curl \
 <%- method.description %>
 <% } -%>
 
-**Permissions**
+**Permissions:** <%- method.permissions.map( item => `\`${item}\``).join(", ") %>
 
-<% for ( let permission of method.permissions ) { -%>
-<% if ( permission === "*" ) { -%>
--   "\*" - any connected user;
-<% } else if ( permission === "guest" ) { -%>
--   "guest" - any guest (not-authenticated) user;
-<% } else if ( permission === "user" ) { -%>
--   "user" - any authenticated user;
-<% } else if ( permission === "root" ) { -%>
--   "root" - root user;
-<% } else { -%>
--   "<%- permission %>";
-<% } -%>
-<% } -%>
-
-**Parameters**
+**Parameters:**
 <% if (!method.spec.params) { -%>
 
 Method require no parameters.
 <% } else { -%>
 <% for ( let param of method.spec.params ) { -%>
 
--   **<%- param.name %>** `[<%- !param.required ? "not " : "" %>required]`<%- param.summary ? ` - ${param.summary}` : "" %>
+-   <%- param.name %> `[<%- !param.required ? "not " : "" %>required]`
 <% if (param.description) { -%>
 
 <%- " ".repeat(4) + param.description.replaceAll( /^/gm, " ".repeat( 4 ) ).trim() %>

@@ -45,7 +45,7 @@ methods:
     title: Set user enabled
     params:
       - name: userId
-        summary: User id or name.
+        description: User id or name.
         required: true
         schema:
           type: string
@@ -58,7 +58,7 @@ methods:
     title: Set user password
     params:
       - name: userId
-        summary: User id or name.
+        description: User id or name.
         required: true
         schema:
           type: string

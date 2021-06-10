@@ -9,7 +9,7 @@ methods:
     title: Update application settings
     params:
       - name: settings
-        summary: application settings object
+        description: Application settings object.
         required: true
         schema:
           type: object

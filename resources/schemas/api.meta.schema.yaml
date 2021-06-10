@@ -24,7 +24,6 @@
               type: object
               properties:
                 name: { type: string }
-                summary: { $ref: "components#/summary" }
                 description: { $ref: "components#/desc" }
                 required: { type: boolean }
                 schema: { type: object }
@@ -45,9 +44,6 @@
 # shared components
 - $id: components
   titleString:
-    type: string
-
-  summary:
     type: string
 
   desc:
