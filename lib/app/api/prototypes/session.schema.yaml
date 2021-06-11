@@ -15,7 +15,7 @@ methods:
 
       -   `403`: Not authorized.
 
-      -   Any other status means bad request, internal or connection error. Refer to the response `reason` property for more information.
+      -   Any other status means bad request, internal or connection error. Refer to the response `statusText` property for more information.
     params:
       - name: credentials
         required: false
