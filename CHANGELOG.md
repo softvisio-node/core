@@ -1,5 +1,30 @@
 # Changelog
 
+### 4.0.0-alpha.0 (2021-06-13)
+
+Changed:
+
+-   result updated to v4;
+-   external api protocol changed to JSON-RPC 2.0;
+-   eventNamePrefix option removed;
+-   sql selectAll() method renamed to select();
+-   api schema updated;
+
+Added:
+
+-   fetch body Blob support added;
+-   cli short commands name support added;
+-   api schema params names snake_case check added;
+-   github api added;
+
+Removed:
+
+-   api schema `summary` property removed;
+
+Fixed:
+
+-   cli commands refactored;
+
 ### 3.13.1 (2021-06-05)
 
 Changed:
