@@ -2,4 +2,4 @@
 
 **LINKS**
 
--   [ChangelOG](changelog)
+-   [Changelog](changelog)
