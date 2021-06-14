@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.0.0-alpha.1 (2021-06-14)
+
+Changed:
+
+-   cli schema changed, arrays support added;
+
 ### 4.0.0-alpha.0 (2021-06-13)
 
 Changed:
