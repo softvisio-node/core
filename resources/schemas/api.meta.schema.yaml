@@ -15,6 +15,7 @@
           title: { $ref: "components#/titleString" }
           description: { $ref: "components#/desc" }
           deprecated: { type: boolean }
+          private: { type: boolean }
           permissions: { $ref: "components#/permissions" }
           params:
             params:
