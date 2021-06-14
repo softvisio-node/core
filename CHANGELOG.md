@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.0.0-beta.0 (2021-06-14)
+
+Added:
+
+-   api call context more options added;
+
 ### 4.0.0-alpha.1 (2021-06-14)
 
 Changed:
