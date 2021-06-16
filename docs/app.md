@@ -5,17 +5,38 @@
 Send application event:
 
 ```
-app.emit( name, ...params );
+app.emit( "event-name", ...args );
 ```
 
 Send local event (will be delivered to the app and threads listeners):
 
 ```
-app.publish( name, ...params );
+app.publish( "event-name", ...args );
 ```
 
 Send global event (will be delivered to all listeners in cluster):
 
 ```
-app.publish( @name, ...params );
+app.publish( "/event-name", ...args );
 ```
+
+### Events, emitted byt the core modules
+
+#### "user/<event-name\>"
+
+Event from the external API connection.
+
+-   `auth` <Auth\> Connections authentication descriptor.
+-   `...args` <any\> Event arguments.
+
+#### "rpc/<event-name\>"
+
+Event from the external RPC connection.
+
+-   `...args` <any\> Event arguments.
+
+#### "app/settings-update"
+
+Published globally on application settings updated.
+
+-   `settings` <Object\> Application settings.
