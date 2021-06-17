@@ -20,16 +20,28 @@ Send global event (will be delivered to all listeners in cluster):
 app.publish( "/event-name", ...args );
 ```
 
+To API users:
+
+```
+app.publish( "/api", event-name, users, ...args );
+```
+
+To RPC users:
+
+```
+app.publish( "/rpc", event-name, ...args );
+```
+
 ### Events, emitted byt the core modules
 
-#### "api/<event-name\>"
+#### "api/event/<event-name\>"
 
 Event from the external API connection.
 
 -   `auth` <Auth\> Connections authentication descriptor.
 -   `...args` <any\> Event arguments.
 
-#### "rpc/<event-name\>"
+#### "rpc/event/<event-name\>"
 
 Event from the external RPC connection.
 
