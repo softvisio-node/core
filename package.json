@@ -47,10 +47,6 @@
             "browser": "./lib/_browser/env.js",
             "node": "./lib/env.js"
         },
-        "./events": {
-            "browser": "./lib/_browser/events.js",
-            "node": "./lib/events.js"
-        },
         "./fetch": {
             "browser": "./lib/_browser/fetch.js",
             "node": "./lib/fetch.js"
@@ -86,7 +82,6 @@
         "bufferutil": "^4.0.3",
         "busboy": "^0.3.1",
         "ejs": "^3.1.5",
-        "eventemitter3": "^4.0.7",
         "fast-xml-parser": "^3.17.6",
         "form-data": "^4.0.0",
         "glob": "^7.1.6",
