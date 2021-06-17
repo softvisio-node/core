@@ -22,7 +22,7 @@ app.publish( "/event-name", ...args );
 
 ### Events, emitted byt the core modules
 
-#### "user/<event-name\>"
+#### "api/<event-name\>"
 
 Event from the external API connection.
 
