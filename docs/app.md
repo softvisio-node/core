@@ -47,8 +47,16 @@ Event from the external RPC connection.
 
 -   `...args` <any\> Event arguments.
 
-#### "app/settings-update"
+#### "/app/settings-update"
 
 Published globally on application settings updated.
 
 -   `settings` <Object\> Application settings.
+
+#### "cluster/connect"
+
+Published on connect to the cluster.
+
+#### "cluster/disconnect"
+
+Published on disconnect from the cluster.
