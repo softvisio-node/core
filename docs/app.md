@@ -51,12 +51,18 @@ Event from the external RPC connection.
 
 Published globally on application settings updated.
 
--   `settings` <Object\> Application settings.
+-   `settings` <Object\> Updated application settings.
 
-#### "cluster/connect"
+#### "cluster/ready"
 
 Published on connect to the cluster.
 
 #### "cluster/disconnect"
 
 Published on disconnect from the cluster.
+
+#### "cluster/error"
+
+Published on cluster error.
+
+-   `error` <string\> Error message.
