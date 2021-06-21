@@ -65,7 +65,7 @@ app.on("/api/settings-update", callback);
 
 Emitted, when application settings were updated.
 
-#### Event: api/event/<event-name\>
+#### Event: 'api/event/<event-name\>"
 
 -   `auth` <Auth\> Sender authentication descriptor.
 -   `...args` <any\> Event arguments.
@@ -96,7 +96,7 @@ app.publish("api", users, name, ...args);
 
 RPC events - events, emitted by connected RPC clients. You also can send events to the connected RPC clients.
 
-#### Event: rpc/event/<event-name\>
+#### Event: "rpc/event/<event-name\>"
 
 -   `...args` <any\> Event arguments.
 
@@ -146,7 +146,7 @@ Emitted on cluster error.
 
 Services events - events, emitted by the services to which your application is connected. You also can send events to the services.
 
-#### Event: service/connect/<service-name\>
+#### Event: "service/connect/<service-name\>"
 
 ```javascript
 app.on("service/connect/<service-name>", callback);
@@ -154,7 +154,7 @@ app.on("service/connect/<service-name>", callback);
 
 Emitted on service with the specified name become connected.
 
-#### Event: service/disconnect/<service-name\>
+#### Event: "service/disconnect/<service-name\>"
 
 ```javascript
 app.on("service/disconnect/<service-name>", callback);
@@ -162,7 +162,7 @@ app.on("service/disconnect/<service-name>", callback);
 
 Emitted on service with the specified name become disconnected.
 
-#### Event: service/event/<service-name\>/<event-name\>
+#### Event: "service/event/<service-name\>/<event-name\>"
 
 ```javascript
 app.on("service/event/<service-name>/<event-name>", callback);
