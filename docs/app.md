@@ -65,7 +65,7 @@ app.on("/api/settings-update", callback);
 
 Emitted, when application settings were updated.
 
-#### Event: 'api/event/<event-name\>"
+#### Event: "api/event/<event-name\>"
 
 -   `auth` <Auth\> Sender authentication descriptor.
 -   `...args` <any\> Event arguments.
