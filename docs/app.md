@@ -6,7 +6,7 @@ Application has three events type:
 
 -   **global** - Events delivered to the local application listeners, local threads and annd applicaiotn instances and threads in the cluster. Cluster must be initialized, otherwise events will not be delivered to the cluster listeners. **Global events are prefixed with `"/"`**.
 
-    ```js
+    ```javascript
     // listen
     app.on("/global-event-name", callback);
 
@@ -16,7 +16,7 @@ Application has three events type:
 
 -   **local** - Local events are delivered to the local application and local threads.
 
-    ```js
+    ```javascript
     // listen
     app.on("local-event-name", callback);
 
@@ -26,7 +26,7 @@ Application has three events type:
 
 -   **application** - Application events are delivered to the local application only.
 
-    ```js
+    ```javascript
     // listen
     app.on("app-event-name", callback);
 
@@ -40,7 +40,7 @@ API events - events, emitted by the API and connected API users. You also can se
 
 #### Event: "api/connect"
 
-```js
+```javascript
 app.on("api/connect", callback);
 ```
 
@@ -48,7 +48,7 @@ Emitted on API backend connected. Means that API backend is fully worked and can
 
 #### Event: "api/disconnect"
 
-```js
+```javascript
 app.on("api/disconnect", callback);
 ```
 
@@ -56,7 +56,7 @@ Emitted on API backend disconnected. Means, that API unable to use backend until
 
 #### Event: "/api/settings-update"
 
-```js
+```javascript
 app.on("/api/settings-update", callback);
 ```
 
@@ -76,7 +76,7 @@ Events from the externally connected API users. All such events names are prefix
 
 To send events to the connected API users you need to publish them to the `api` endpoint.
 
-```js
+```javascript
 app.publish("api", users, name, ...args);
 ```
 
@@ -106,7 +106,7 @@ Events from the externally connected RPC clients. All such events names are pref
 
 To send events to the connected RPC users you need to publish them to the `rpc` endpoint.
 
-```js
+```javascript
 app.publish("rpc", name, ...args);
 ```
 
@@ -117,7 +117,7 @@ app.publish("rpc", name, ...args);
 
 #### Event: "cluster/connect"
 
-```js
+```javascript
 app.on("cluster/connect", callback);
 ```
 
@@ -125,7 +125,7 @@ Emitted on cluster connected.
 
 #### Event: "cluster/disconnect"
 
-```js
+```javascript
 app.on("cluster/disconnect", callback);
 ```
 
@@ -133,7 +133,7 @@ Emitted on cluster disconnected.
 
 #### Event: "cluster/error"
 
-```js
+```javascript
 app.on("cluster/error", callback);
 ```
 
@@ -148,7 +148,7 @@ Services events - events, emitted by the services to which your application is c
 
 #### Event: service/connect/<service-name\>
 
-```js
+```javascript
 app.on("service/connect/<service-name>", callback);
 ```
 
@@ -156,7 +156,7 @@ Emitted on service with the specified name become connected.
 
 #### Event: service/disconnect/<service-name\>
 
-```js
+```javascript
 app.on("service/disconnect/<service-name>", callback);
 ```
 
@@ -164,7 +164,7 @@ Emitted on service with the specified name become disconnected.
 
 #### Event: service/event/<service-name\>/<event-name\>
 
-```js
+```javascript
 app.on("service/event/<service-name>/<event-name>", callback);
 ```
 
@@ -177,7 +177,7 @@ Events from the connected serivce.
 
 To send events to the connected service you need to publish them to the `service` endpoint.
 
-```js
+```javascript
 app.publish("service", services, name, ...args);
 ```
 
