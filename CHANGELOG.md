@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.0.0-beta.2 (2021-06-22)
+
+Changed:
+
+-   api events publishing refactored;
+
 ### 4.0.0-beta.1 (2021-06-22)
 
 Changed:
