@@ -1,5 +1,38 @@
 # Changelog
 
+### 4.0.0-beta.1 (2021-06-22)
+
+Changed:
+
+-   sql.connect -> sql.new;
+-   app .settings -> await app.getSettings();
+-   dbh.isConnected -> dbh.isReady;
+-   api backend events renamed;
+-   app cluster refactored;
+-   sql events refactored;
+-   app refactored;
+-   threads refactored;
+-   app api / rpc init code changed;
+-   http server class refactored;
+-   api protocol updated;
+-   rpc response code updated;
+
+Added:
+
+-   private api methods added;
+-   http server emits listening events;
+-   threads subscribe / unsubsribe feature added;
+
+Removed:
+
+-   eventsemitter3 removed;
+
+Fixed:
+
+-   bench displays relative speed in percent;
+-   table don't convert null values to empty string;
+-   cli help updated;
+
 ### 4.0.0-beta.0 (2021-06-14)
 
 Added:
