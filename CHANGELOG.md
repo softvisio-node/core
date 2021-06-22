@@ -1,5 +1,9 @@
 # Changelog
 
+### 4.0.0-beta.4 (2021-06-22)
+
+Empty release
+
 ### 4.0.0-beta.3 (2021-06-22)
 
 Fixed:
