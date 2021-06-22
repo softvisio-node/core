@@ -54,6 +54,17 @@ app.on("api/disconnect", callback);
 
 Emitted on API backend disconnected. Means, that API unable to use backend until it will be re-connected. You need to drop caches or do some other cleanup.
 
+#### Event: "api/settings-update"
+
+```javascript
+app.on("api/settings-update", callback);
+```
+
+-   `callback` <Function\> Event listener:
+    -   `settings` <Object\> Updated application settings.
+
+Emitted, when application settings were updated.
+
 #### Event: "/api/settings-update"
 
 ```javascript
