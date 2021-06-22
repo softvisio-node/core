@@ -38,13 +38,13 @@ Application has three events type:
 
 API events - events, emitted by the API and connected API users. You also can send events to the connected API users.
 
-#### Event: "api/connect"
+#### Event: "api/ready"
 
 ```javascript
-app.on("api/connect", callback);
+app.on("api/ready", callback);
 ```
 
-Emitted on API backend connected. Means that API backend is fully worked and can be used.
+Emitted on API backend connected and subscribed. Means that API backend is fully worked and ready to use.
 
 #### Event: "api/disconnect"
 
