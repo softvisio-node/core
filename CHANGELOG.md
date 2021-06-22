@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.0.0-beta.3 (2021-06-22)
+
+Fixed:
+
+-   cli arguments help updated;
+-   typo fixed;
+
 ### 4.0.0-beta.2 (2021-06-22)
 
 Changed:
