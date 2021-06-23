@@ -78,15 +78,11 @@ Table.defineStyle("ascii", {
 
 ### table.hasContent
 
--   <boolean\>
-
-`true` if table has some content.
+-   <boolean\> `true` if table has some content.
 
 ### table.text
 
--   <string\>
-
-Table content.
+-   <string\> Table content.
 
 ### table.begin()
 
