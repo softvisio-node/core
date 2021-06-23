@@ -19,7 +19,7 @@ table.end();
 ### new Table([options])
 
 -   `options` <Object\> Table options:
-    -   `style` <"ascii" | "unicode" | "markdown" | "compact" | "borderless"> Table style. **Default**: `"ascii"`.
+    -   `style` <"ascii" | "unicode" | "markdown" | "compact" | "borderless"> Table style. **Default:** `"ascii"`.
     -   `console` <boolean\> Output table content to the console.
     -   `ansi` <boolean\> Allow ANSI escape codes in the output.
     -   `width` <integer\> Table width. If `console` set to `true` terminal width is used as default value. **Default:** `80`.
