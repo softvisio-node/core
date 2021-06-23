@@ -47,7 +47,7 @@ Table.defineStyle("ascii", {
 
 -   `options` <Object\> Table options:
 
-    -   `style` <"ascii" | "unicode" | "markdown" | "compact" | "borderless"> Table style. **Default:** `"ascii"`.
+    -   `style` <"ascii" | "unicode" | "markdown" | "compact" | "borderless"\> Table style. **Default:** `"ascii"`.
     -   `console` <boolean\> Output table content to the console.
     -   `ansi` <boolean\> Allow ANSI escape codes in the output. **Default:** if `console` is set to `true` - `process.stdout.isTTY` value is used.
     -   `width` <integer\> Table width. If `console` set to `true` terminal width is used as default value. **Default:** `80`.
@@ -57,10 +57,10 @@ Table.defineStyle("ascii", {
     -   `margin` <integer[]\> Default column margin. Should be specified as [leftMargin, rightMargin]. **Default:** `[0, 0]`.
     -   `trim` <boolean\> Trim cell content.
     -   `wordWrap` <boolean\> Split words at spaces.
-    -   `align` <"left" | "right"> Default column cell content horizontal align for all columns.
-    -   `headerAlign` <"left" | "right"> Default column header cell content horizontal align for all columns.
-    -   `valign` <"left" | "right"> Default cell content vertical align for all columns.
-    -   `headerValign` <"left" | "right"> Default column header cell content vertical align for all columns.
+    -   `align` <"left" | "center" | "right"\> Default column cell content horizontal align for all columns.
+    -   `headerAlign` <"left" | "center" | "right"\> Default column header cell content horizontal align for all columns.
+    -   `valign` <"top" | "center" | "bottom"\> Default cell content vertical align for all columns.
+    -   `headerValign` <"top" | "center" | "bottom"\> Default column header cell content vertical align for all columns.
     -   `columns` <Object\> Table columns:
         -   `width?` <integer\> Column width.
         -   `minWidth?` <integer\> Minimal column width.
@@ -69,10 +69,10 @@ Table.defineStyle("ascii", {
         -   `margin` <Array\> Column margin. Should be specified as [leftMargin, rightMargin]. **Default:** `[0, 0]`.
         -   `trim` <boolean\> Trim cell content. **Default:** `false`.
         -   `wordWrap` <boolean\> Split words at spaces. **Default:** `true`.
-        -   `align` <"left" | "right"> Cell content horizontal align.
-        -   `headerAlign` <"left" | "right"> Column header cell content horizontal align.
-        -   `valign` <"left" | "right"> Cell content vertical align.
-        -   `headerValign` <"left" | "right"> Column header cell content vertical align.
+        -   `align` <"left" | "center" | "right"\> Cell content horizontal align.
+        -   `headerAlign` <"left" | "center" | "right"\> Column header cell content horizontal align.
+        -   `valign` <"top" | "center" | "bottom"\> Cell content vertical align.
+        -   `headerValign` <"top" | "center" | "bottom"\> Column header cell content vertical align.
 
 -   Returns: <Table\>
 
