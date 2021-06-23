@@ -16,6 +16,31 @@ table.add(row1, row2);
 table.end();
 ```
 
+### Table.defineStyle(name, style)
+
+-   `name` <string\> New style name.
+-   `style` <Object\> Style definition:
+    -   `topLine` <string\> Top line style.
+    -   `headerRow` <string\> Header row style.
+    -   `headerLine` <string\> Header line style.
+    -   `dataRow` <string\> Data row style.
+    -   `dataLine` <string\> Data line style.
+    -   `bottomLine` <string\> Bottom line style.
+
+Define table style. Example of `ascii` style definition:
+
+<!-- prettier-ignore -->
+```js
+Table.defineStyle("ascii", {
+    topLine:    "+-++",
+    headerRow:  "| ||",
+    headerLine: "|=+|",
+    dataRow:    "| ||",
+    dataLine:   "|-+|",
+    bottomLine: "+-++",
+});
+```
+
 ### new Table([options])
 
 -   `options` <Object\> Table options:
