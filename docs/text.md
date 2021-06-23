@@ -11,6 +11,8 @@ import Table from "@softvisio/core/text/table";
 
 const table = new Table({});
 
+table.begin();
+
 table.add(row1, row2);
 
 table.end();
@@ -79,6 +81,12 @@ Table.defineStyle("ascii", {
 -   <string\>
 
 Table content.
+
+### table.begin()
+
+-   Returns: <string\> Rendered table heade.
+
+Render table header.
 
 ### table.add(...rows)
 
