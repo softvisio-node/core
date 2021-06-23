@@ -30,7 +30,7 @@ table.end();
 Define table style. Example of `ascii` style definition:
 
 <!-- prettier-ignore -->
-```js
+```javascript
 Table.defineStyle("ascii", {
     topLine:    "+-++",
     headerRow:  "| ||",
@@ -83,10 +83,12 @@ Table content.
 ### table.add(...rows)
 
 -   `...rows` <Array\> | <Object\> Rows to add.
--   Returns: <Table\>
+-   Returns: <string\> Rendered rows.
 
 Add rows to the table.
 
 ### table.end()
 
--   Returns: <string\> | <null\> Generated table text.
+-   Returns: <string\> Rendered table bottom line.
+
+Render bottom line.
