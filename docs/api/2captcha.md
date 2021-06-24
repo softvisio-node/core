@@ -4,7 +4,7 @@
 import Captcha from "@softvisio/core/api/2captcha";
 ```
 
-### new Catcha(url, options)
+### new Catcha( url, options )
 
 -   `url` <string\> | <URL\> 2captcha service HTTP URL. Must include `username` and `password` for authentication.
 -   `options` <Object\>:
@@ -16,13 +16,13 @@ import Captcha from "@softvisio/core/api/2captcha";
 
 HTTP proxy.
 
-### captcha.resolveNormalCaptcha (image, options)
+### captcha.resolveNormalCaptcha( image, options )
 
 -   `image` <Buffer\> Captcha image.
 -   `options` <Object\> To see full list of options refer to the [official documentation](https://2captcha.com/2captcha-api#solving_normal_captcha).
 -   Returns: <Promise\>.
 
-### captcha.resolveReCaptchaV2(siteKey, pageURL)
+### captcha.resolveReCaptchaV2( siteKey, pageURL )
 
 -   `siteKey` <string\> Site key.
 -   `pageURL` <string\> Page URL.
@@ -30,7 +30,7 @@ HTTP proxy.
 
 Resolve google recaptcha v2. [Official documentation](https://2captcha.com/2captcha-api#solving_recaptchav2_new).
 
-### captcha.resolveInvisibleReCaptchaV2(siteKey, pageURL, options)
+### captcha.resolveInvisibleReCaptchaV2( siteKey, pageURL, options )
 
 -   `siteKey` <string\> Site key.
 -   `pageURL` <string\> Page URL.

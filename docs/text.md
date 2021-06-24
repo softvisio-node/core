@@ -1,12 +1,85 @@
 # Text
 
-## Class: ANSI
+## ANSI
+
+```javascript
+import { ansi } from "@softvisio/core/text";
+
+// or
+import ansi from "@softvisio/core/text/ansi";
+
+console.log(ansi.cold.while.onRed("test"));
+```
+
+### ansi.RESET
+
+-   <string\> ANSI reset code.
+
+### ansi.regExp
+
+-   <RegExp\> ANSI codes regular expression.
+
+### ansi.isEnabled
+
+-   <boolean\> ANSI enabled or disabled. Writable property.
+
+### ansi.enable()
+
+Enables ANSI codes.
+
+### ansi.disable()
+
+Disables ANSI codes.
+
+### ansi.defineStyle( name, style )
+
+### ansi.defineStyles( styles )
+
+### ansi.defineColor( name, color )
+
+-   `name` <string\> New color name.
+-   `color` <string\> | <integer\> | <integer[]\>
+
+Defines named `RGB` color.
+
+### ansi.defineColors( colors )
+
+-   `colors` <Object\> Object, where `key` is color name and `value` is `RGB` color definition.
+
+Defines named `RGB` colors.
+
+### ansi.color( color )
+
+-   `color` <string\> | <integer\> | <integer[]\>
+
+### ansi.onColor( color )
+
+-   `color` <string\> | <integer\> | <integer[]\>
+
+### ansi.reset( string )
+
+-   `string` <string\>
+-   Returns: <string\>
+
+Add ANSI reset code to the end of the string. Same as `string += ansi.RESET`.
+
+### ansi.remove( string )
+
+-   `string` <string\>
+-   Returns: <string\>
+
+Removes ANSI reset code from the string.
+
+### ansi.wrap( string, maxLength, options )
 
 ## Class: Table
 
 Draw text table.
 
 ```javascript
+import { Table } from "@softvisio/core/text";
+
+// or
 import Table from "@softvisio/core/text/table";
 
 const table = new Table({});
@@ -18,7 +91,7 @@ table.add(row1, row2);
 table.end();
 ```
 
-### Table.defineStyle(name, style)
+### Table.defineStyle( name, style )
 
 -   `name` <string\> New style name.
 -   `style` <Object\> Style definition:
@@ -43,7 +116,7 @@ Table.defineStyle("ascii", {
 });
 ```
 
-### new Table([options])
+### new Table( options )
 
 -   `options` <Object\> Table options:
 
@@ -90,7 +163,7 @@ Table.defineStyle("ascii", {
 
 Render table header.
 
-### table.add(...rows)
+### table.add( ...rows )
 
 -   `...rows` <Array\> | <Object\> Rows to add.
 -   Returns: <string\> Rendered rows.
