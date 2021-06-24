@@ -38,7 +38,14 @@ Disables ANSI codes.
 ### ansi.defineColor( name, color )
 
 -   `name` <string\> New color name.
--   `color` <string\> | <integer\> | <integer[]\>
+-   `color` <string\> | <integer\> | <integer[]\> Color definitions. Examples of the correct `RGB` colors definitions:
+    ```javascript
+    ansi.defineColor("teal", "008080");
+    ansi.defineColor("teal", "#008080");
+    ansi.defineColor("teal", 0x8080);
+    ansi.defineColor("teal", 32896);
+    ansi.defineColor("teal", [0, 128, 128]);
+    ```
 
 Defines named `RGB` color.
 
