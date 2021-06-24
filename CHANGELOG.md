@@ -1,5 +1,17 @@
 # Changelog
 
+### 4.0.0 (2021-06-24)
+
+Changed:
+
+-   cli commands refactored;
+-   docs updated;
+-   table refactored;
+
+Added:
+
+-   table defineStyle added;
+
 ### 4.0.0-beta.4 (2021-06-22)
 
 Empty release
