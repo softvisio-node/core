@@ -1,6 +1,6 @@
 -   [Introduction](/)
 
-**CLASSES**
+**Modules**
 
 -   API
     -   [2Captcha](/api/2captcha.md)
@@ -8,6 +8,6 @@
 -   [Stream](/stream.md)
 -   [Text](/text.md)
 
-**LINKS**
+**Links**
 
 -   [Changelog](changelog)

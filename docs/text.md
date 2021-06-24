@@ -131,7 +131,7 @@ Table.defineStyle("ascii", {
     -   `console` <boolean\> Output table content to the console.
     -   `ansi` <boolean\> Allow ANSI escape codes in the output. **Default:** if `console` is set to `true` - `process.stdout.isTTY` value is used.
     -   `width` <integer\> Table width. If `console` set to `true` terminal width is used as default value. **Default:** `80`.
-    -   `lazy` <boolean\> Render table header on first row added.
+    -   `lazy` <boolean\> Render table header on first row added. **Default:** `false`.
     -   `header` <boolean\> Render table header. **Default:** `true`.
     -   `columnWidth?` <integer\> Default column width.
     -   `margin` <integer[]\> Default column margin. Should be specified as [leftMargin, rightMargin]. **Default:** `[0, 0]`.
@@ -144,7 +144,7 @@ Table.defineStyle("ascii", {
     -   `columns` <Object\> Table columns:
         -   `width?` <integer\> Column width.
         -   `minWidth?` <integer\> Minimal column width.
-        -   `flex` <integer\> Column flex.
+        -   `flex` <integer\> Column flex. **Default:** `1`.
         -   `title` <string\> Column title.
         -   `margin` <Array\> Column margin. Should be specified as [leftMargin, rightMargin]. **Default:** `[0, 0]`.
         -   `trim` <boolean\> Trim cell content. **Default:** `false`.
