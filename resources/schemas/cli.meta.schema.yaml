@@ -52,4 +52,6 @@ anyOf:
             schema: { type: object }
           required: [description, schema]
           additionalProperties: false
+
+    required: [title]
     additionalProperties: false
