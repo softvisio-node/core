@@ -59,7 +59,7 @@ curl \
 **Parameters:**
 <% for ( let param of method.spec.params ) { -%>
 
--   **`<%- param.name %><%- param.required ? "" : "?" %>`** \<<%- param.schema.type %>\><%- param.description ? " " + param.description.replaceAll( /^/gm, " ".repeat( 4 ) ).replaceAll(/^ +$/gm, "").trim() : "" %>
+-   **`<%- param.name %><%- param.required ? "" : "?" %>`** <<%- resolveParamType(param.schema.type) %>\><%- param.description ? " " + param.description.replaceAll( /^/gm, " ".repeat( 4 ) ).replaceAll(/^ +$/gm, "").trim() : "" %>
 
     <!-- prettier-ignore -->
     ```yaml
