@@ -1,1 +1,6 @@
 logo: true
+
+types:
+  Table: "/text.md#Class: Table"
+  Auth:
+  Proxy:
