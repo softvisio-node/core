@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.0.2 (2021-06-25)
+
+Fixed:
+
+-   schema generator types fixed;
+
 ### 4.0.1 (2021-06-25)
 
 Fixed:
