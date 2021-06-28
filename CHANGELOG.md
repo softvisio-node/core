@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.0.4 (2021-06-28)
+
+Fixed:
+
+-   schema docs toc removed
+
 ### 4.0.3 (2021-06-26)
 
 Fixed:
