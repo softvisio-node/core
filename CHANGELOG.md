@@ -1,5 +1,16 @@
 # Changelog
 
+### 4.1.0 (2021-06-28)
+
+Added:
+
+-   api client static new() added
+-   api client url cache options added
+
+Fixed:
+
+-   docs updated
+
 ### 4.0.4 (2021-06-28)
 
 Fixed:
