@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.1.1 (2021-06-28)
+
+Fixed:
+
+-   FileTree.write() fixed
+-   docs updated
+
 ### 4.1.0 (2021-06-28)
 
 Added:
