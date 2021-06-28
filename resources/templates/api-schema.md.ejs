@@ -6,16 +6,6 @@
 
 <%- module.description %>
 <% } -%>
-
-Methods:
-
-<% for ( let method of Object.values( module.methods ).filter( method => !method.private ) ) { -%>
-<% if (method.deprecated) { -%>
--   [~~<%- method.title %>~~ `[deprecated]`](#<%- method.markdownId %>)
-<% } else { -%>
--   [<%- method.title %>](#<%- method.markdownId %>)
-<% } -%>
-<% } -%>
 <% for ( let method of Object.values( module.methods ).filter( method => !method.private ) ) { -%>
 
 <% if (method.deprecated) { -%>
