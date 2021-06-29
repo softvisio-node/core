@@ -1,6 +1,6 @@
 # Text
 
-## ANSI
+## ansi
 
 ```javascript
 import { ansi } from "@softvisio/core/text";
