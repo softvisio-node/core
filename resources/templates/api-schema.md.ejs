@@ -51,10 +51,15 @@ curl \
 
 -   **`<%- param.name %><%- param.required ? "" : "?" %>`** <%- resolveParamType(param.schema.type) %><%- param.description ? " " + param.description.replaceAll( /^/gm, " ".repeat( 4 ) ).replaceAll(/^ +$/gm, "").trim() : "" %>
 
+    <details>
+        <summary>JSON schema</summary>
+
     <!-- prettier-ignore -->
     ```yaml
 <%- param.markdownSchema %>
     ```
+
+    </details>
 <% } -%>
 <% } -%>
 <% } -%>
