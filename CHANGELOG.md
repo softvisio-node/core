@@ -1,5 +1,14 @@
 # Changelog
 
+### 4.1.2 (2021-06-29)
+
+Fixed:
+
+-   api hub callCached method added
+-   api schema generator make JSON schema collapsible
+-   deps updated
+-   docs updated
+
 ### 4.1.1 (2021-06-28)
 
 Fixed:
