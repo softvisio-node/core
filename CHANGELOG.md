@@ -1,5 +1,13 @@
 # Changelog
 
+### 4.1.3 (2021-06-30)
+
+Fixed:
+
+-   api client wss connection fixed for multiple connections
+-   api ws protocol changed to jsonrpc 2.0
+-   error message fixed
+
 ### 4.1.2 (2021-06-29)
 
 Fixed:
