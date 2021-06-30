@@ -21,7 +21,10 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
     -   `cacheMax` <integer\>
     -   `cacheMaxAge` <integer\>
     -   `cacheDrop` <string\> | <string[]\>
-    -   `onRPC` <Function\>
+    -   `onRPC` <Function\> Called on remote RPC call.
+        -   `method` <string\> Called RPC method name.
+        -   `args` <Array\> RPC method arguments.
+        -   Returns: <Result\> Must return instance of the <Result\>.
 
 ### url
 
