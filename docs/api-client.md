@@ -43,12 +43,11 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
 
 ### publish( name, ...args )
 
-### upload()
+### upload( methos, file, ...args )
 
 -   `method` <string\> API method.
--   `file` <File\> | <Object\> File to upload. If <Object\> is passed it will be used as `options` for <File\> constructor.
--   `args?` <Object\> Additional arguments, that will be sent to the server together with the uploading file.
--   `onProgress?` <Function\> Set `"progress"` event callback.
+-   `file` <File\> | <Object\> | <string\> File to upload. If <Object\> is passed it will be used as `options` for <File\> constructor. <string\> - file path.
+-   `...args` <any\> Additional arguments, that will be sent to the server together with the uploading file.
 -   Returns: <APIClientUpload\>
 
 ### getConnection()
@@ -60,9 +59,7 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
 ## Class: APIClientUpload
 
 ```javascript
-const upload = api.upload("/v1/test/upload", File);
-
-upload.on("progress", upload => console.log(upload.progressText));
+const upload = api.upload("/v1/test/upload", File).on("progress", upload => console.log(upload.progressText));
 
 const res = await upload.start();
 ```
