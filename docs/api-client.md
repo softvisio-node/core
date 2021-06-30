@@ -103,15 +103,15 @@ Emitted when upload status changed.
 
 ### isAborted
 
--   <boolean\> `true` if uplad was aborted.
+-   <boolean\> | <null\> `true` if uplad was aborted. `null` if upload is not finished.
 
-### isDone
+### isOk
 
--   <boolean\> `true` if uplad was finished without errors.
+-   <boolean\> | <null\> `true` if uplad was finished without errors. `null` if upload is not finished.
 
 ### isError
 
--   <boolean\> `true` if uplad was finished with the error.
+-   <boolean\> | <null\> `true` if uplad was finished with the error. `null` if upload is not finished.
 
 ### isFinished
 
