@@ -2,8 +2,8 @@
 
 **Modules**
 
--   API
-    -   [2Captcha](/api/2captcha.md)
+-   [External APIs 🡢](/api/)
+-   [API Client](/api-client.md)
 -   [Application](/app.md)
 -   [Stream](/stream.md)
 -   [Text](/text.md)
