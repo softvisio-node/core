@@ -8,11 +8,11 @@ import Captcha from "@softvisio/core/api/2captcha";
 
 -   `url` <string\> | <URL\> 2captcha service HTTP URL. Must include `username` and `password` for authentication.
 -   `options` <Object\>:
-    -   `proxy` <string\> | <Proxy\> HTTP proxy server to use.
+    -   `proxy` <string\> | <ProxyClient\> HTTP proxy to use.
 
 ### captcha.proxy
 
--   <Proxy\>
+-   <ProxyClient\>
 
 HTTP proxy.
 

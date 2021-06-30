@@ -3,7 +3,7 @@ logo: true
 types:
   Table: "/text.md#Class: Table"
   Auth:
-  Proxy:
+  ProxyClient:
   File: /file.md
   APIClientUpload: /api-client.md#class-apiclientupload
   APIClientConnection: /api-client.md#class-apiclientconnection
