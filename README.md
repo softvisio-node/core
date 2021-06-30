@@ -1,6 +1,6 @@
-> :information_source: Please, see the full project documentation here: [https://softvisio.github.io/core/](https://softvisio.github.io/core/).
-
 <!-- !!! DO NOT EDIT, THIS FILE IS GENERATED AUTOMATICALLY !!!  -->
+
+> :information_source: Please, see the full project documentation here: [https://softvisio.github.io/core/](https://softvisio.github.io/core/).
 
 # Introduction
 
