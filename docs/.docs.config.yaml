@@ -4,4 +4,6 @@ types:
   Table: "/text.md#Class: Table"
   Auth:
   Proxy:
-  APIClientConnection: /api-client#class-apiclientconnection
+  File: /file.md
+  APIClientUpload: /api-client.md#class-apiclientupload
+  APIClientConnection: /api-client.md#class-apiclientconnection

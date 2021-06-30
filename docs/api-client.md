@@ -43,15 +43,97 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
 
 ### publish( name, ...args )
 
+### upload()
+
+-   `method` <string\>
+-   `file` <File\>
+-   `args?` <Object\>
+-   `onProgress?` <Function\> Set `"progress"` event callback.
+-   Returns: <APIClientUpload\>
+
 ### getConnection()
 
 -   Returns: <Promise\> Fullfils with <APIClientConnection\>.
 
 ### waitConnect()
 
+## Class: APIClientUpload
+
+### Event: "progress"
+
+-   <APIClientUpload\> `this` instance.
+
+Emitted when upload status changed.
+
+### filename
+
+-   <string\> Uplading file name.
+
+### size
+
+-   <integer\> Uplading file size.
+
+### type
+
+-   <string\> Uplading file MIME type.
+
+### statusText
+
+-   <string\> Current status text.
+
+### result
+
+-   <Result\> Upload result.
+
+### isNew
+
+-   <boolean\> `true` if uplad created but not started.
+
+### isStarted
+
+-   <boolean\> `true` if uplad started.
+
+### isAborted
+
+-   <boolean\> `true` if uplad was aborted.
+
+### isDone
+
+-   <boolean\> `true` if uplad was finished without errors.
+
+### isError
+
+-   <boolean\> `true` if uplad was finished with the error.
+
+### isFinished
+
+-   <boolean\> `true` if uplad was finished.
+
+### loaded
+
+-   <integer\> Number of bytes upladed.
+
+### progress
+
+-   <number\> Upload progress.
+
+### progressText
+
+-   <string\> Upload progress message for display in progress bar. Combines status text and progress.
+
+### start()
+
+-   Returns: <Promise\> Fullfils with the `this` instance when upload will be finished.
+
+### abort()
+
+-   Returns: <boolean\> `true` if upload was aborted successfuly.
+
+Aborts upload if it was not finished.
+
 ## Class: APIClientConnection
 
-Implements persistent websocket connection to the api server. You can not construct this object directly, it returned as result of [`api.getConnection()`](#getconnection) call.
+Implements the persistent websocket connection to the api server. You can not construct this object directly, it returned as result of [`api.getConnection()`](#getconnection) call.
 
 ### Event: "connect"
 
