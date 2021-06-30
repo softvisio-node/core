@@ -45,9 +45,9 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
 
 ### upload()
 
--   `method` <string\>
--   `file` <File\>
--   `args?` <Object\>
+-   `method` <string\> API method.
+-   `file` <File\> | <Object\> File to upload. If <Object\> is passed it will be used as `options` for <File\> constructor.
+-   `args?` <Object\> Additional arguments, that will be sent to the server together with the uploading file.
 -   `onProgress?` <Function\> Set `"progress"` event callback.
 -   Returns: <APIClientUpload\>
 
