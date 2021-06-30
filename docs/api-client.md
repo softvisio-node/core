@@ -59,6 +59,14 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
 
 ## Class: APIClientUpload
 
+```javascript
+const upload = api.upload("/v1/test/upload", File);
+
+upload.on("progress", upload => console.log(upload.progressText));
+
+const res = await upload.start();
+```
+
 ### Event: "progress"
 
 -   <APIClientUpload\> `this` instance.
@@ -123,7 +131,7 @@ Emitted when upload status changed.
 
 ### start()
 
--   Returns: <Promise\> Fullfils with the `this` instance when upload will be finished.
+-   Returns: <Promise\> Fullfils with the upload <Result\> when upload will be finished.
 
 ### abort()
 
