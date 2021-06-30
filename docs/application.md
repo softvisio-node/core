@@ -40,39 +40,21 @@ API events - events, emitted by the API and connected API users. You also can se
 
 #### Event: "api/ready"
 
-```javascript
-app.on("api/ready", callback);
-```
-
 Emitted on API backend connected and subscribed. Means that API backend is fully worked and ready to use.
 
 #### Event: "api/disconnect"
-
-```javascript
-app.on("api/disconnect", callback);
-```
 
 Emitted on API backend disconnected. Means, that API unable to use backend until it will be re-connected. You need to drop caches or do some other cleanup.
 
 #### Event: "api/settings-update"
 
-```javascript
-app.on("api/settings-update", callback);
-```
-
--   `callback` <Function\> Event listener:
-    -   `settings` <Object\> Updated application settings.
+-   `settings` <Object\> Updated application settings.
 
 Emitted, when application settings were updated.
 
 #### Event: "/api/settings-update"
 
-```javascript
-app.on("/api/settings-update", callback);
-```
-
--   `callback` <Function\> Event listener:
-    -   `settings` <Object\> Updated application settings.
+-   `settings` <Object\> Updated application settings.
 
 Emitted, when application settings were updated.
 
@@ -128,28 +110,15 @@ app.publish("rpc", name, ...args);
 
 #### Event: "cluster/connect"
 
-```javascript
-app.on("cluster/connect", callback);
-```
-
 Emitted on cluster connected.
 
 #### Event: "cluster/disconnect"
-
-```javascript
-app.on("cluster/disconnect", callback);
-```
 
 Emitted on cluster disconnected.
 
 #### Event: "cluster/error"
 
-```javascript
-app.on("cluster/error", callback);
-```
-
--   `callback` <Function\> Event listener:
-    -   `error` <string\> Error message.
+-   `error` <string\> Error message.
 
 Emitted on cluster error.
 
@@ -159,28 +128,15 @@ Services events - events, emitted by the services to which your application is c
 
 #### Event: "service/connect/<service-name\>"
 
-```javascript
-app.on("service/connect/<service-name>", callback);
-```
-
 Emitted on service with the specified name become connected.
 
 #### Event: "service/disconnect/<service-name\>"
-
-```javascript
-app.on("service/disconnect/<service-name>", callback);
-```
 
 Emitted on service with the specified name become disconnected.
 
 #### Event: "service/event/<service-name\>/<event-name\>"
 
-```javascript
-app.on("service/event/<service-name>/<event-name>", callback);
-```
-
--   `callback` <Function\> Event listener:
-    -   `...args` <any\> Event arguments.
+-   `...args` <any\> Event arguments.
 
 Events from the connected serivce.
 

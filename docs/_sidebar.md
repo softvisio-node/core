@@ -4,7 +4,7 @@
 
 -   [External APIs 🡢](/api/)
 -   [API Client](/api-client.md)
--   [Application](/app.md)
+-   [Application](/application.md)
 -   [Stream](/stream.md)
 -   [Text](/text.md)
 
