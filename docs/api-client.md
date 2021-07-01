@@ -195,6 +195,16 @@ Emitted on event from the server received.
 
 ## Class: APIClientHub
 
+```javascript
+import APIClientHub from "@softvisio/core/api/hub";
+
+const hub = new APIClientHub({
+    test: "wss://test.com/8080/rpc",
+});
+
+const res = await APIClientHub.call("test", "/v1/method");
+```
+
 ### new APIClientHub( services )
 
 -   `services?` <Object\>
