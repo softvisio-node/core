@@ -25,6 +25,7 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
         -   `method` <string\> Called RPC method name.
         -   `args` <Array\> RPC method arguments.
         -   Returns: <Result\> Must return instance of the <Result\>.
+-   Returns: <APIClient\>
 
 ### url
 
@@ -191,3 +192,54 @@ Emitted on event from the server received.
 ### disconnect()
 
 ### startPong()
+
+## Class: APIClientHub
+
+### new APIClientHub( services )
+
+-   `services?` <Object\>
+
+### Event: "connect"
+
+-   `service` <string\> Connected service name.
+
+### Event: "disconnect"
+
+-   `service` <string\> Disconnected service name.
+
+### Event: "event"
+
+-   `service` <string\> Source service name.
+-   `event` <string\> Remote event name.
+-   `...args` <any\> Remote event arguments.
+
+### num
+
+-   Returns: <integer\> Number of services.
+
+### addService( name, url, options )
+
+### addServices( services )
+
+### addServicesFromEnv( options )
+
+-   `options?` <Object\>
+    -   `prefix` <string\> **Default:** `APP_SERVICE_`.
+    -   `names` <string[]\>
+
+### getService( service )
+
+-   `service` <string\> Service name.
+-   Returns: <APIClient\> API client associated withe the given service name.
+
+### publish( services, name, ...args )
+
+### ping( service )
+
+### heathcheck( service )
+
+### call( service, method, ...args )
+
+### callVoid( service, method, ...args )
+
+### callCached( service, key, method, ...args )
