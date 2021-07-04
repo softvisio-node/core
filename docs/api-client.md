@@ -29,71 +29,86 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
 
 Creates new <APIClient\> instance.
 
-### url
+### api.url
 
 -   Returns: <string\> API server url.
 
-### httpURL
+### api.httpURL
 
 -   Returns: <string\> API server HTTP url.
 
-### websocketsURL
+### api.websocketsURL
 
 -   Returns: <string\> API server websockets url.
 
-### activeConnections
+### api.activeConnections
 
 -   Returns: <integer\> Number of active websockets connections.
 
-### isConnected
+### api.isConnected
 
 -   Returns: <boolean\> `true` is has at least `1` active websockets connection.
 
-### call( method, ...args )
+### api.call( method, ...args )
 
 -   `method` <string\> Remote method name.
 -   `...args` <any\> Method arguments.
 -   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
 
-### callVoid( method, ...args )
+### api.callVoid( method, ...args )
 
 -   `method` <string\> Remote method name.
 -   `...args` <any\> Method arguments.
 -   Returns: <undefined\>.
 
-### callCached( key, method, ...args )
+### api.callCached( key, method, ...args )
 
--   `key` <string\> | <Array\>
+-   `key` <string\> | <Array\> Cache key. If <Array\> should have [`key`, `maxAge`].
 -   `method` <string\> Remote method name.
 -   `...args` <any\> Method arguments.
 -   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
 
-### ping()
+### api.ping()
 
-### healthcheck()
+-   Returns: <Promise\> Fullfils with the call <Result\>.
 
-### publish( name, ...args )
+### api.healthcheck()
 
-### upload( methos, file, ...args )
+-   Returns: <Promise\> Fullfils with the call <Result\>.
 
--   `method` <string\> API method.
+### api.publish( name, ...args )
+
+-   `name` <string\> Event name.
+-   `...args` <any\> Event arguments.
+
+Publish event to the remote server.
+
+### api.upload( methos, file, ...args )
+
+-   `method` <string\> API method name.
 -   `file` <File\> | <Object\> | <string\> File to upload. If <Object\> is passed it will be used as `options` for <File\> constructor. <string\> - file path.
 -   `...args` <any\> Additional arguments, that will be sent to the server together with the uploading file.
 -   Returns: <APIClientUpload\>
 
-### getConnection()
+Creates file upload object instance.
+
+### api.getConnection()
 
 -   Returns: <Promise\> Fullfils with <APIClientConnection\>.
 
-### waitConnect()
+### api.waitConnect()
 
-### ref()
+-   Returns: <Promise\>.
+
+Wait for at least one sebsockets connection will be established.
+
+### api.ref()
 
 -   Returns: <APIClient\> `this`.
 
 Ref websockets connectiona.
 
-### unref()
+### api.unref()
 
 -   Returns: <APIClient\> `this`.
 
