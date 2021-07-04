@@ -128,67 +128,67 @@ const res = await upload.start();
 
 Emitted when upload status changed.
 
-### filename
+### upload.filename
 
 -   <string\> Uplading file name.
 
-### size
+### upload.size
 
 -   <integer\> Uplading file size.
 
-### type
+### upload.type
 
 -   <string\> Uplading file MIME type.
 
-### statusText
+### upload.statusText
 
 -   <string\> Current status text.
 
-### result
+### upload.result
 
 -   <Result\> Upload result.
 
-### isNew
+### upload.isNew
 
--   <boolean\> `true` if uplad created but not started.
+-   <boolean\> `true` if uplad created but not yet started.
 
-### isStarted
+### upload.isStarted
 
 -   <boolean\> `true` if uplad started.
 
-### isAborted
+### upload.isAborted
 
 -   <boolean\> | <null\> `true` if uplad was aborted. `null` if upload is not finished.
 
-### isOk
+### upload.isOk
 
 -   <boolean\> | <null\> `true` if uplad was finished without errors. `null` if upload is not finished.
 
-### isError
+### upload.isError
 
 -   <boolean\> | <null\> `true` if uplad was finished with the error. `null` if upload is not finished.
 
-### isFinished
+### upload.isFinished
 
 -   <boolean\> `true` if uplad was finished.
 
-### loaded
+### upload.loaded
 
 -   <integer\> Number of bytes upladed.
 
-### progress
+### upload.progress
 
--   <number\> Upload progress.
+-   <number\> Upload progress in the percents.
 
-### progressText
+### upload.progressText
 
 -   <string\> Upload progress message for display in progress bar. Combines status text and progress.
 
-### start()
+### upload.start()
 
 -   Returns: <Promise\> Fullfils with the upload <Result\> when upload will be finished.
 
-### abort()
+### upload.abort()
 
 -   Returns: <boolean\> `true` if upload was aborted successfuly.
 
