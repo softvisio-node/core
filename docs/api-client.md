@@ -29,6 +29,10 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
 
 Creates new <APIClient\> instance.
 
+### api.isBrowser
+
+-   Returns: <boolean\> `true` if running undef crowser.
+
 ### api.url
 
 -   Returns: <string\> API server url.
@@ -225,6 +229,10 @@ Emitted on event from the server received.
 
 -   Returns: <APIClient\> Parent API client instance.
 
+### connection.isBrowser
+
+-   Returns: <boolean\> `true` if running undef crowser.
+
 ### connection.hostname
 
 -   Returns: <string\> This connection server host name.
@@ -321,11 +329,11 @@ const res = await APIClientHub.call("test", "/v1/method");
 -   `event` <string\> Remote event name.
 -   `...args` <any\> Remote event arguments.
 
-### num
+### hub.num
 
 -   Returns: <integer\> Number of services.
 
-### addService( name, url, options )
+### hub.addService( name, url, options )
 
 ### addServices( services )
 
