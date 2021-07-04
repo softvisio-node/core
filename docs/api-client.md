@@ -19,7 +19,7 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
     -   `pongInterval` <integer\> If defined persistent connections will automatically send `pong` requests with the given interval to keep connection alive. Usualy this is not required, because API server already do this for all opened connections. **Default:** `0`.
     -   `maxConnections` <integer\> Max number of the websockets connections. Use `0` or `Infinity` for unlimited connections. For browser this option is always `1`. **Default:** `1`.
     -   `cacheMax` <integer\> Max cache size. **Default:** `10000`.
-    -   `cacheMaxAge` <integer\> Default cached item max age. **Default:** `null`.
+    -   `cacheMaxAge` <integer\> Default cached item max age. **Default:** `0`.
     -   `cacheReset` <string[]\> Array of the events names to automatically reset cache. For example `cacheReset: ["disconnect"]` means that cache will be dropped automatically on `"disconnect"` event received.
     -   `onRPC` <Function\> Called on remote RPC call.
         -   `method` <string\> Called RPC method name.
