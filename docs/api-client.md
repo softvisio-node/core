@@ -10,26 +10,30 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
 
 ### API.new( url, options )
 
--   `url` <string\> | <URL\> API server url.
--   `options` <Object\> API options:
-    -   `token` <string\>
-    -   `persistent` <boolean\>
-    -   `json` <boolean\>
-    -   `version` <string\>
-    -   `pongInterval` <integer\>
-    -   `maxConnections` <integer\>
-    -   `cacheMax` <integer\>
-    -   `cacheMaxAge` <integer\>
-    -   `cacheDrop` <string\> | <string[]\>
+-   `url` <string\> | <URL\> API server url. Under browser `url` can be relative and will be resolved relative to the `window.location`.
+-   `options?` <Object\> API options:
+    -   `token` <string\> Authentication token. If not specified `url.username` will be used.
+    -   `persistent` <boolean\> Persistent connections. If not defined `url` parameter `persistent` will be used. If not defined in `url` parameter persistent mode will be detected by the `url` protocol.
+    -   `json` <boolean\> Use `JSON` to serialize API messages. If not set `MessagePack` will be used by default. `MessagePack` is preferred because it is faster and generates less bytes. You should use `JSON` only for debug purposes or for compatibility reasons. **Default:** `false`.
+    -   `version` <string\> Default API version. Will be added to the relative method names. Must start with the `"v"` prefix. For example method name `"test/method"` will be converted to the `"/v1/test/method"`. **Default:** `"v1"`.
+    -   `pongInterval` <integer\> If defined persistent connections will automatically send `pong` requests with the given interval to keep connection alive. Usualy this is not required, because API server already do this for all opened connections. **Default:** `0`.
+    -   `maxConnections` <integer\> Max number of the websockets connections. Use `0` or `Infinity` for unlimited connections. For browser this option is always `1`. **Default:** `1`.
+    -   `cacheMax` <integer\> Max cache size. **Default:** `10000`.
+    -   `cacheMaxAge` <integer\> Default cached item max age. **Default:** `null`.
+    -   `cacheDrop` <string\> | <string[]\> Array of the events names to automatically reset cache. For example `cacheDrop: ["disconnect"]` means that cache will be dropped automatically on `"disconnect"` event received.
     -   `onRPC` <Function\> Called on remote RPC call.
         -   `method` <string\> Called RPC method name.
         -   `args` <Array\> RPC method arguments.
         -   Returns: <Result\> Must return instance of the <Result\>.
 -   Returns: <APIClient\>
 
+Creates new <APIClient\> instance.
+
 ### url
 
-### websocketUrl
+### httpURL
+
+### websocketsURL
 
 ### activeConnections
 
