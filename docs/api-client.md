@@ -20,7 +20,7 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
     -   `maxConnections` <integer\> Max number of the websockets connections. Use `0` or `Infinity` for unlimited connections. For browser this option is always `1`. **Default:** `1`.
     -   `cacheMax` <integer\> Max cache size. **Default:** `10000`.
     -   `cacheMaxAge` <integer\> Default cached item max age. **Default:** `null`.
-    -   `cacheDrop` <string\> | <string[]\> Array of the events names to automatically reset cache. For example `cacheDrop: ["disconnect"]` means that cache will be dropped automatically on `"disconnect"` event received.
+    -   `cacheReset` <string[]\> Array of the events names to automatically reset cache. For example `cacheReset: ["disconnect"]` means that cache will be dropped automatically on `"disconnect"` event received.
     -   `onRPC` <Function\> Called on remote RPC call.
         -   `method` <string\> Called RPC method name.
         -   `args` <Array\> RPC method arguments.
@@ -31,19 +31,42 @@ Creates new <APIClient\> instance.
 
 ### url
 
+-   Returns: <string\> API server url.
+
 ### httpURL
+
+-   Returns: <string\> API server HTTP url.
 
 ### websocketsURL
 
+-   Returns: <string\> API server websockets url.
+
 ### activeConnections
+
+-   Returns: <integer\> Number of active websockets connections.
 
 ### isConnected
 
+-   Returns: <boolean\> `true` is has at least `1` active websockets connection.
+
 ### call( method, ...args )
+
+-   `method` <string\> Remote method name.
+-   `...args` <any\> Method arguments.
+-   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
 
 ### callVoid( method, ...args )
 
-### callCached( method, ...args )
+-   `method` <string\> Remote method name.
+-   `...args` <any\> Method arguments.
+-   Returns: <undefined\>.
+
+### callCached( key, method, ...args )
+
+-   `key` <string\> | <Array\>
+-   `method` <string\> Remote method name.
+-   `...args` <any\> Method arguments.
+-   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
 
 ### ping()
 
