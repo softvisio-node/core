@@ -221,39 +221,71 @@ Emitted on event from the server received.
 
 Emitted on event from the server received.
 
-### api
+### connection.api
 
-### hostname
+-   Returns: <APIClient\> Parent API client instance.
 
-### isConnected
+### connection.hostname
 
-### isPending
+-   Returns: <string\> This connection server host name.
 
-### isDestroyed
+### connection.isConnected
 
-### ping()
+-   Returns: <boolean\> `true` if connection is ready to use.
 
-### healthcheck()
+### connection.isPending
 
-### publish( name, ...args )
+-   Returns: <boolean\> `true` if connection is in the `connecting` state.
 
-### call( method, ...args )
+### connection.isDestroyed
 
-### callVoid( method, ...args )
+-   Returns: <boolean\> `true` if connection is destroyed. Destroyed connection can't be reused.
 
-### callCached( key, method, ...args )
+### connection.ping()
 
-### disconnect()
+-   Returns: <Promise\> Fullfils with the call <Result\>.
 
-### startPong()
+### connection.healthcheck()
 
-### ref()
+-   Returns: <Promise\> Fullfils with the call <Result\>.
+
+### connection.publish( name, ...args )
+
+-   `name` <string\> Event name.
+-   `...args` <any\> Event arguments.
+
+Publish event to the remote server.
+
+### connection.call( method, ...args )
+
+-   `method` <string\> Remote method name.
+-   `...args` <any\> Method arguments.
+-   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
+
+### connection.callVoid( method, ...args )
+
+-   `method` <string\> Remote method name.
+-   `...args` <any\> Method arguments.
+-   Returns: <undefined\>.
+
+### connection.callCached( key, method, ...args )
+
+-   `key` <string\> | <Array\> Cache key. If <Array\> should have [`key`, `maxAge`].
+-   `method` <string\> Remote method name.
+-   `...args` <any\> Method arguments.
+-   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
+
+### connection.disconnect()
+
+Close this connection.
+
+### connection.ref()
 
 -   Returns: <APIClientConnection\> `this`.
 
 Ref this connection socket.
 
-### unref()
+### connection.unref()
 
 -   Returns: <APIClientConnection\> `this`.
 
