@@ -335,38 +335,46 @@ const res = await APIClientHub.call("test", "/v1/method");
 
 ### hub.addService( name, url, options )
 
-### addServices( services )
+-   `name` <string\> Service name.
+-   `url` <string\> | <URL\> Service URL.
+-   `options?` <Object\> Service options.
 
-### addServicesFromEnv( options )
+### hub.addServices( services )
+
+-   `services` <Object\>:
+    -   Key: service name.
+    -   Value: service url or <Array\> [`url`, `options`].
+
+### hub.addServicesFromEnv( options )
 
 -   `options?` <Object\>
     -   `prefix` <string\> **Default:** `APP_SERVICE_`.
-    -   `names` <string[]\>
+    -   `names` <string[]\> If defined, add only services, which names are enumerated.
 
-### getService( service )
+### hub.getService( service )
 
 -   `service` <string\> Service name.
 -   Returns: <APIClient\> API client associated withe the given service name.
 
-### publish( services, name, ...args )
+### hub.publish( services, name, ...args )
 
-### ping( service )
+### hub.ping( service )
 
-### heathcheck( service )
+### hub.heathcheck( service )
 
-### call( service, method, ...args )
+### hub.call( service, method, ...args )
 
-### callVoid( service, method, ...args )
+### hub.callVoid( service, method, ...args )
 
-### callCached( service, key, method, ...args )
+### hub.callCached( service, key, method, ...args )
 
-### ref()
+### hub.ref()
 
 -   Returns: <APIClientHub\> `this`.
 
 Calls `ref()` on the added services.
 
-### unref()
+### hub.unref()
 
 -   Returns: <APIClientHub\> `this`.
 
