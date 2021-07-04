@@ -60,6 +60,18 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
 
 ### waitConnect()
 
+### ref()
+
+-   Returns: <APIClient\> `this`.
+
+Ref websockets connectiona.
+
+### unref()
+
+-   Returns: <APIClient\> `this`.
+
+Unref websockets connectiona.
+
 ## Class: APIClientUpload
 
 ```javascript
@@ -193,6 +205,18 @@ Emitted on event from the server received.
 
 ### startPong()
 
+### ref()
+
+-   Returns: <APIClientConnection\> `this`.
+
+Ref this connection socket.
+
+### unref()
+
+-   Returns: <APIClientConnection\> `this`.
+
+Unref this connection socket.
+
 ## Class: APIClientHub
 
 ```javascript
@@ -253,3 +277,15 @@ const res = await APIClientHub.call("test", "/v1/method");
 ### callVoid( service, method, ...args )
 
 ### callCached( service, key, method, ...args )
+
+### ref()
+
+-   Returns: <APIClientHub\> `this`.
+
+Calls `ref()` on the added services.
+
+### unref()
+
+-   Returns: <APIClientHub\> `this`.
+
+Calls `unref()` on the added services.
