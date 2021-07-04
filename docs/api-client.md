@@ -358,15 +358,43 @@ const res = await APIClientHub.call("test", "/v1/method");
 
 ### hub.publish( services, name, ...args )
 
+-   `services` <string\> | <string[]> Target services names.
+-   `name` <string\> Event name.
+-   `...args` <any\> Event arguments.
+
+Publish event to the remote services.
+
 ### hub.ping( service )
+
+-   `service` <string\> Target service name.
+-   Returns: <Promise\> Fullfils with the call <Result\>.
 
 ### hub.heathcheck( service )
 
+-   `service` <string\> Target service name.
+-   Returns: <Promise\> Fullfils with the call <Result\>.
+
 ### hub.call( service, method, ...args )
+
+-   `service` <string\> Target service name.
+-   `method` <string\> Remote method name.
+-   `...args` <any\> Method arguments.
+-   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
 
 ### hub.callVoid( service, method, ...args )
 
+-   `service` <string\> Target service name.
+-   `method` <string\> Remote method name.
+-   `...args` <any\> Method arguments.
+-   Returns: <undefined\>.
+
 ### hub.callCached( service, key, method, ...args )
+
+-   `service` <string\> Target service name.
+-   `key` <string\> | <Array\> Cache key. If <Array\> should have [`key`, `maxAge`].
+-   `method` <string\> Remote method name.
+-   `...args` <any\> Method arguments.
+-   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
 
 ### hub.ref()
 
