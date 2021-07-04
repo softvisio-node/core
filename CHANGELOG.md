@@ -1,5 +1,18 @@
 # Changelog
 
+### 4.1.4 (2021-07-04)
+
+Fixed:
+
+-   docs updated
+-   proxy pool build url fixed
+-   proxy sort url params
+-   api client refactored
+-   api client toString, toJSON methods added
+-   api /jsonrpc endpoint removed
+-   api websockets auth invalidate listener cleanup
+-   proxy classes renamed
+
 ### 4.1.3 (2021-06-30)
 
 Fixed:
