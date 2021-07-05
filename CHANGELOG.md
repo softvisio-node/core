@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.1.5 (2021-07-05)
+
+Fixed:
+
+-   sql options refactored
+
 ### 4.1.4 (2021-07-04)
 
 Fixed:
