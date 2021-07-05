@@ -6,14 +6,16 @@ Adds some missed methods to the `node` streams.
 import "@softvisio/core/stream";
 ```
 
-### Stream.Readable.prototype.readChunk( chunkLength, options )
+## Class: stream.Readable
+
+### readable.readChunk( chunkLength, options? )
 
 -   `chunkLength` <integer\> Chunk length in bytes.
--   `options` <Object\>:
-    -   `encoding?` <string\> Buffer encoding. If specified returned buffer will be encoded to string.
+-   `options?` <Object\>:
+    -   `encoding` <string\> Buffer encoding. If specified returned buffer will be encoded to string.
 -   Returns: <Promise\> Fullfils with the <Buffer\>, <string\> or <null\> in case of error.
 
-Reads chunk of data woth the deifned length. Example:
+Reads chunk of data with the deifned length. Example:
 
 ```javascript
 const buffer = await stream.readChunk(100); // reads 100 bytes, returns Buffer
@@ -21,12 +23,12 @@ const buffer = await stream.readChunk(100); // reads 100 bytes, returns Buffer
 const string = await stream.readChunk(100, { encoding: "utf8" }); // reads 100 bytes, returns utf8 string
 ```
 
-### Stream.Readable.prototype.readLine( options )
+### readable.readLine( options? )
 
--   `options` <Object\>:
+-   `options?` <Object\>:
     -   `eol` <string\> | <Buffer\> End of line. **Default:** `"\n"`.
     -   `maxLength` <integer\> Max line length. **Default:** `Infinity`.
-    -   `encoding?` <string\> Buffer encoding. If specified returned buffer will be encoded to string.
+    -   `encoding` <string\> Buffer encoding. If specified returned buffer will be encoded to string.
 -   Returns: <Promise\> Fullfils with the <Buffer\>, <string\> or <null\> in case of error.
 
 Reads line ended with the specified EOL separator and with the defined maximum length. This method is optimized for speed and can be used to read lines from large buffers, for example to parse `multipart/form-data` streams. Example:
@@ -35,9 +37,9 @@ Reads line ended with the specified EOL separator and with the defined maximum l
 const string = await stream.readLine({ eol: "\r\n", maxLength: 100, encoding: "utf8" });
 ```
 
-### Stream.Readable.prototype.readHttpHeaders( options )
+### readable.readHttpHeaders( options? )
 
--   `options` <Object\>
+-   `options?` <Object\>
     -   `maxLength` <integer\> Max buffer length. **Default:** `64k`.
 -   Returns: <Promise\> Fullfils with the <Buffer\> or <null\> in case of error.
 
