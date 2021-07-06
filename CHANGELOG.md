@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.2.0 (2021-07-06)
+
+Added:
+
+-   env xdg support added
+-   github pages api added
+
 ### 4.1.6 (2021-07-05)
 
 Fixed:
