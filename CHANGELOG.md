@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.3.0 (2021-07-07)
+
+Removed:
+
+-   app settings feature removed
+
 ### 4.2.0 (2021-07-06)
 
 Added:
