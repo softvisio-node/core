@@ -65,10 +65,12 @@ Creates new <APIClient\> instance.
 -   `...args` <any\> Method arguments.
 -   Returns: <undefined\>.
 
-### api.callCached( key, method, ...args )
+### api.callCached( method, cache, ...args )
 
--   `key` <string\> | <Array\> Cache key. If <Array\> should have [`key`, `maxAge`].
 -   `method` <string\> Remote method name.
+-   `cache` <Object\> Cache options:
+    -   `key` <any\> Cache key.
+    -   `maxAge?` <integer\> Cache max age.
 -   `...args` <any\> Method arguments.
 -   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
 
@@ -276,10 +278,12 @@ Publish event to the remote server.
 -   `...args` <any\> Method arguments.
 -   Returns: <undefined\>.
 
-### connection.callCached( key, method, ...args )
+### connection.callCached( method, cache, ...args )
 
--   `key` <string\> | <Array\> Cache key. If <Array\> should have [`key`, `maxAge`].
 -   `method` <string\> Remote method name.
+-   `cache` <Object\> Cache options:
+    -   `key` <any\> Cache key.
+    -   `maxAge?` <integer\> Cache max age.
 -   `...args` <any\> Method arguments.
 -   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
 
@@ -388,11 +392,13 @@ Publish event to the remote services.
 -   `...args` <any\> Method arguments.
 -   Returns: <undefined\>.
 
-### hub.callCached( service, key, method, ...args )
+### hub.callCached( service, method, cache, ...args )
 
 -   `service` <string\> Target service name.
--   `key` <string\> | <Array\> Cache key. If <Array\> should have [`key`, `maxAge`].
 -   `method` <string\> Remote method name.
+-   `cache` <Object\> Cache options:
+    -   `key` <any\> Cache key.
+    -   `maxAge?` <integer\> Cache max age.
 -   `...args` <any\> Method arguments.
 -   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
 
