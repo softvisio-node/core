@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.4.0 (2021-07-07)
+
+Added:
+
+-   api protocl cache-contron options added
+-   api hub addServicesfromEnv() include/exclude options added
+
 ### 4.3.0 (2021-07-07)
 
 Removed:
