@@ -46,18 +46,6 @@ Emitted on API backend connected and subscribed. Means that API backend is fully
 
 Emitted on API backend disconnected. Means, that API unable to use backend until it will be re-connected. You need to drop caches or do some other cleanup.
 
-#### Event: "api/settings-update"
-
--   `settings` <Object\> Updated application settings.
-
-Emitted, when application settings were updated.
-
-#### Event: "/api/settings-update"
-
--   `settings` <Object\> Updated application settings.
-
-Emitted, when application settings were updated.
-
 #### Event: "api/event/<event-name\>"
 
 -   `auth` <Auth\> Sender authentication descriptor.
