@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.5.0 (2021-07-08)
+
+Added:
+
+-   sqlite attach support for file: urls added
+
 ### 4.4.0 (2021-07-07)
 
 Added:
