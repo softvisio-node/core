@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.5.1 (2021-07-09)
+
+Fixed:
+
+-   env xdg locations for windows updated
+
 ### 4.5.0 (2021-07-08)
 
 Added:
