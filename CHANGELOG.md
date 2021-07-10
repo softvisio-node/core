@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.5.2 (2021-07-10)
+
+Fixed:
+
+-   app config settings moved to env
+-   env convert variables to string when applying from the config
+
 ### 4.5.1 (2021-07-09)
 
 Fixed:
