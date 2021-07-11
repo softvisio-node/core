@@ -1,5 +1,13 @@
 # Changelog
 
+### 4.5.4 (2021-07-11)
+
+Fixed:
+
+-   api http get params from searchParams removed
+-   api http url compose fixed
+-   api schema generator options updated
+
 ### 4.5.3 (2021-07-11)
 
 Fixed:
