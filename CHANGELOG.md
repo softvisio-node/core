@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.5.5 (2021-07-11)
+
+Fixed:
+
+-   docs generator api url fixed
+
 ### 4.5.4 (2021-07-11)
 
 Fixed:
