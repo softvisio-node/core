@@ -43,7 +43,7 @@ curl \
 -   `<%- param.name %><%- param.required ? "" : "?" %>` <%- resolveParamType( param ) %><%- param.description ? " " + param.description.replaceAll( /^/gm, " ".repeat( 4 ) ).replaceAll( /^ +$/gm, "" ).trim() : "" %>
 <% } -%>
 <% if ( options.type === "api" ) { -%>
--    **Method access permissions:** <%- method.permissions.map( item => `\`${item}\``).join(", ") %>
+-    **Method access permissions:** <%- method.permissions.map( item => `\`${item}\``).join(", ") %>.
 <% } -%>
 <% } -%>
 <% if ( method.description ) { -%>

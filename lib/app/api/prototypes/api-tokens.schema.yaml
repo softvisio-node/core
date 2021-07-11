@@ -47,12 +47,19 @@ methods:
 
   set-permissions:
     title: Set token permissions
+    description: |-
+      Set API token permissions. Old permissions will be replaced with the new.
     params:
       - name: token_id
+        description: Token ID.
         required: true
         schema:
           type: string
       - name: permissions
+        description: |-
+          Object contains permissions to set:
+          -   Key <string\> Permission name.
+          -   Value  <boolean\> `true` to enable permission.
         required: true
         schema:
           type: object
@@ -60,12 +67,18 @@ methods:
 
   update-permissions:
     title: Update token permissions
+    description: Update token permissions. Permissions will be added or replaced.
     params:
       - name: token_id
+        description: Token ID.
         required: true
         schema:
           type: string
       - name: permissions
+        description: |-
+          Object contains permissions to update:
+          -   Key <string\> Permission name.
+          -   Value  <boolean\> `true` to enable permission.
         required: true
         schema:
           type: object
