@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.5.3 (2021-07-11)
+
+Fixed:
+
+-   api schema generator updated
+
 ### 4.5.2 (2021-07-10)
 
 Fixed:
