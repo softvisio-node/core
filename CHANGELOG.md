@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.5.7 (2021-07-11)
+
+Fixed:
+
+-   api schema template fixed
+
 ### 4.5.6 (2021-07-11)
 
 Fixed:
