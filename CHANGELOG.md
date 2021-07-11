@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.5.8 (2021-07-11)
+
+Fixed:
+
+-   api client normalize url
+
 ### 4.5.7 (2021-07-11)
 
 Fixed:
