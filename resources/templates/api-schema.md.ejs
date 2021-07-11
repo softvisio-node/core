@@ -2,7 +2,7 @@
 <% for ( const module of modules ) { -%>
 
 ## <%- module.title %>
-<% if (module.description) { -%>
+<% if ( module.description ) { -%>
 
 <%- module.description %>
 <% } -%>
@@ -36,31 +36,19 @@ curl \
 ```
 
 <!-- tabs:end -->
-<% if (method.description) { -%>
-
-<%- method.description %>
-<% } -%>
-<% if ( options.type === "api" ) { -%>
-
-**Permissions:** <%- method.permissions.map( item => `\`${item}\``).join(", ") %>
-<% } -%>
 <% if ( method.spec.params ) { -%>
 
-**Parameters:**
 <% for ( let param of method.spec.params ) { -%>
 
--   **`<%- param.name %><%- param.required ? "" : "?" %>`** <%- resolveParamType(param.schema.type) %><%- param.description ? " " + param.description.replaceAll( /^/gm, " ".repeat( 4 ) ).replaceAll(/^ +$/gm, "").trim() : "" %>
-
-    <details>
-        <summary>JSON schema</summary>
-
-    <!-- prettier-ignore -->
-    ```yaml
-<%- param.markdownSchema %>
-    ```
-
-    </details>
+-   `<%- param.name %><%- param.required ? "" : "?" %>` <%- resolveParamType( param ) %><%- param.description ? " " + param.description.replaceAll( /^/gm, " ".repeat( 4 ) ).replaceAll( /^ +$/gm, "" ).trim() : "" %>
 <% } -%>
+<% if ( options.type === "api" ) { -%>
+-    **Method access permissions:** <%- method.permissions.map( item => `\`${item}\``).join(", ") %>
+<% } -%>
+<% } -%>
+<% if ( method.description ) { -%>
+
+<%- method.description %>
 <% } -%>
 <% } -%>
 <% } -%>
