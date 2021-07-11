@@ -59,7 +59,7 @@ methods:
         description: |-
           Object contains permissions to set:
           -   Key <string\> Permission name.
-          -   Value  <boolean\> `true` to enable permission.
+          -   Value <boolean\> `true` to enable permission.
         required: true
         schema:
           type: object
@@ -78,7 +78,7 @@ methods:
         description: |-
           Object contains permissions to update:
           -   Key <string\> Permission name.
-          -   Value  <boolean\> `true` to enable permission.
+          -   Value <boolean\> `true` to enable permission.
         required: true
         schema:
           type: object
