@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.5.9 (2021-07-11)
+
+Fixed:
+
+-   typo fixed
+
 ### 4.5.8 (2021-07-11)
 
 Fixed:
