@@ -1,5 +1,13 @@
 # Changelog
 
+### 4.6.0 (2021-07-14)
+
+Added:
+
+-   docs externalTypes option added
+-   api schema docs method signature updated
+-   api params valitation error messages added
+
 ### 4.5.9 (2021-07-11)
 
 Fixed:
