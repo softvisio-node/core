@@ -31,7 +31,7 @@ const api = API.new( "<%- httpURL %>" )
 <% } -%>
 <% for ( let method of Object.values( module.methods ).filter( method => !method.private ) ) { -%>
 
-<% if (method.deprecated) { -%>
+<% if ( method.deprecated ) { -%>
 ### ~~<%- method.title %>~~ `[deprecated]`
 <% } else { -%>
 ### <%- method.title %>
@@ -43,19 +43,25 @@ const api = API.new( "<%- httpURL %>" )
 
 <!-- prettier-ignore -->
 ```javascript
-const res = await api.call( "<%- method.id %>"<%- method.markdownParams %> );
+const res = await api.call( "<%- method.id %>"<%- method.markdownSignature ? ", " + method.markdownSignature : "" %> );
 ```
 
 #### **Shell**
 
 <!-- prettier-ignore -->
 ```shell
+<% if ( method.markdownSignature ) { -%>
 curl \
     -X POST \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
     -H "Content-Type: application/json" \
-    -d '[...PARAMETERS]' \
+    -d '[<%- method.markdownSignature %>]' \
     "<%- httpURL %><%- method.id.substr( 1 ) %>"
+<% } else { -%>
+curl \
+    -H "Authorization: Bearer <YOUR-API-TOKEN>" \
+    "<%- httpURL %><%- method.id.substr( 1 ) %>"
+<% } -%>
 ```
 
 <!-- tabs:end -->
