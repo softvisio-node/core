@@ -68,7 +68,7 @@ curl \
 <% if ( method.spec.params ) { -%>
 <% for ( let param of method.spec.params ) { -%>
 
--   `<%- param.name %><%- param.required ? "" : "?" %>` <%- resolveParamType( param ) %><%- param.description ? " " + param.description.replaceAll( /^/gm, " ".repeat( 4 ) ).replaceAll( /^ +$/gm, "" ).trim() : "" %>
+-   `<%- param.name %><%- param.required ? "" : "?" %>`<%- getParamDescription( param ) %>
 <% } -%>
 <% if ( options.type === "api" ) { -%>
 -   **Method access permissions:** <%- method.permissions.map( item => `\`${item}\``).join(", ") %>.
