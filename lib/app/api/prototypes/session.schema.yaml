@@ -29,7 +29,7 @@ methods:
             - password
           additionalProperties: false
       - name: signin_permissions
-        description: "Array of permissions. Only user, who has this permissions can sign in. If `null` permissions will not check."
+        description: "<null\\> | <Array\\> Array of permissions. Only user, who has this permissions can sign in. If `null` permissions will not check."
         schema:
           anyOf:
             - type: "null"
