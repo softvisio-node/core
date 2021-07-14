@@ -1,5 +1,8 @@
 logo: true
 
+externalTypes:
+  - https://softvisio.github.io/result/
+
 types:
   Table: "/text.md#Class: Table"
   Auth:
