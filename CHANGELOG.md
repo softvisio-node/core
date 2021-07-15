@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.7.0 (2021-07-15)
+
+Added:
+
+-   api schema params description builder improved
+-   ajv constructor refactored
+
 ### 4.6.1 (2021-07-15)
 
 Fixed:
