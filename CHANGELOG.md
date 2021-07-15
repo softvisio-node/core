@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.6.1 (2021-07-15)
+
+Fixed:
+
+-   api schema param description refactored
+-   docs updated
+
 ### 4.6.0 (2021-07-14)
 
 Added:
