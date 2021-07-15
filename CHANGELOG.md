@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.8.1 (2021-07-15)
+
+Removed:
+
+-   api context version option removed
+
 ### 4.8.0 (2021-07-15)
 
 Changed:
