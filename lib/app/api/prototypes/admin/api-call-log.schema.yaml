@@ -4,6 +4,10 @@ permissions: [admin]
 methods:
   read-log:
     title: Read API method access log
+    meta:
+      type: read
+      readMaxLimit: 100
+      readDefaultOrderBy: [["started", "desc"]]
     params:
       - name: options
         schema:

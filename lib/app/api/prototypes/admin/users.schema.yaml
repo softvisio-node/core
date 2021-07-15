@@ -4,6 +4,10 @@ permissions: [admin]
 methods:
   read:
     title: Read users
+    meta:
+      type: read
+      readMaxLimit: 100
+      readDefaultOrderBy: [["name", "desc"]]
     params:
       - name: options
         schema:
