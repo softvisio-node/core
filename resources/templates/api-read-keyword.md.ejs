@@ -1,0 +1,16 @@
+<Object\>
+<% if ( where.length ) { -%>
+-   `where` <Object\> Set of fields filters:
+<% for ( let field of where ) { -%>
+    -   `<%- field %>` <Array\><%- schema[field].required ? " **Required**." : "" %> Filter by the `<%- field %>` field value:
+        -   `operator` <string\> Filter operator, one of the: <%- schema[field].conditions.map( operator => `\`"${operator}"\`` ).join( ", " ) %>.
+        -   `value` <<%- schema[field].type %>\> Field value.
+<% } -%>
+<% } -%>
+<% if ( order_by.length ) { -%>
+-   `order_by` <Array\> Array of the sort conditions:
+    -   `field` <string\> Field to sort by, possible fields: <%- order_by.map( field => `\`"${field}"\`` ).join( ", " ) %>.
+    -   `direction` <string\> Sort direction, can be one of the: `"asc"`, `"desc"`. **Default:** `"asc"`.
+<% } -%>
+-   `offset` <integer\> Return result, starting from the specified row. `0` - from the first row. **Default:** `0`.
+-   `limit` <integer\> Max rows to return.
