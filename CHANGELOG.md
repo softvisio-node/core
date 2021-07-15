@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.8.0 (2021-07-15)
+
+Changed:
+
+-   api schema refactored
+
 ### 4.7.0 (2021-07-15)
 
 Added:
