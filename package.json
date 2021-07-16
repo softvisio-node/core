@@ -19,16 +19,11 @@
     "author": "zdm <zdm@softvisio.net>",
     "type": "module",
     "imports": {
-        "#index": "@softvisio/core",
         "#browser/*": "./lib/_browser/*.js",
         "#lib/*": "@softvisio/core/*",
         "#resources/*": "./resources/*"
     },
     "exports": {
-        ".": {
-            "browser": "./lib/_browser/index.js",
-            "node": "./lib/index.js"
-        },
         "./*": "./lib/*.js",
         "./resources/*": "./resources/*",
         "./api": {
