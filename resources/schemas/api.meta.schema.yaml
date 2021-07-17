@@ -40,7 +40,13 @@
                 properties:
                   type: { const: upload }
                   uploadMaxSize: { type: integer, minimum: 1 }
-                required: [type]
+                  uploadContentType:
+                    anyOf:
+                      - type: string
+                      - type: array
+                        minItems: 1
+                        items: { type: string }
+                required: [type, uploadMaxSize]
                 additionalProperties: false
               - type: object
                 properties:
