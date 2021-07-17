@@ -70,8 +70,8 @@ curl \
 
 <!-- tabs:end -->
 <% if ( method.spec.params ) { -%>
-<% for ( let param of method.spec.params ) { -%>
 
+<% for ( let param of method.spec.params ) { -%>
 -   `<%- param.name %><%- param.required ? "" : "?" %>`<%- await getParamDescription( method, param ) %>
 <% } -%>
 <% } -%>
