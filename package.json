@@ -71,7 +71,6 @@
         "ajv-formats-draft2019": "^1.4.3",
         "ajv-keywords": "^5.0.0",
         "bufferutil": "^4.0.3",
-        "busboy": "^0.3.1",
         "ejs": "^3.1.5",
         "fast-xml-parser": "^3.17.6",
         "form-data": "^4.0.0",
