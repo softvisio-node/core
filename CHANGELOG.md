@@ -1,5 +1,21 @@
 # Changelog
 
+### 4.10.0 (2021-07-20)
+
+Changed:
+
+-   form-data refactored
+-   stream comined added
+-   mime refactored
+-   stream.writeToTmpFile() method added
+-   stream.slurp() renamed to stream.writeToBuffer()
+-   fs.tmp refactored
+-   http request stream fixed
+-   stream.readLine fixed
+-   api upload methos make uploadMaxSize parameter mandatory
+-   api schema param desc generator support typeof, instanceof keywords added
+-   Ajv.registerInstance() method added
+
 ### 4.9.0 (2021-07-16)
 
 Changed:
