@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.12.1 (2021-07-21)
+
+Fixed:
+
+-   mime config import fixed
+
 ### 4.12.0 (2021-07-21)
 
 Added:
