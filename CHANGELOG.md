@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.12.2 (2021-07-21)
+
+Fixed:
+
+-   deps cleaned
+
 ### 4.12.1 (2021-07-21)
 
 Fixed:
