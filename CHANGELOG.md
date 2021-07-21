@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.10.1 (2021-07-21)
+
+Fixed:
+
+-   api user tokens reader fixed
+
 ### 4.10.0 (2021-07-20)
 
 Changed:
