@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.12.0 (2021-07-21)
+
+Added:
+
+-   read configs using @softvisio/config
+
 ### 4.11.0 (2021-07-21)
 
 Changed:
