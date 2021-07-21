@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.11.0 (2021-07-21)
+
+Changed:
+
+-   env moved to own @softvisio/env package
+
 ### 4.10.1 (2021-07-21)
 
 Fixed:
