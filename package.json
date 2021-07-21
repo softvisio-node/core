@@ -57,6 +57,7 @@
     },
     "dependencies": {
         "@softvisio/argon2": "^1.0.0",
+        "@softvisio/config": "^1.0.0",
         "@softvisio/env": "^1.0.0",
         "@softvisio/msgpack": "^3.0.0",
         "@softvisio/result": "^4.0.0",
