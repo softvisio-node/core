@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.12.3 (2021-07-22)
+
+Fixed:
+
+-   docs generator fixed
+-   env export fixed
+
 ### 4.12.2 (2021-07-21)
 
 Fixed:
