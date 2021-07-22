@@ -3,14 +3,14 @@
 -   `where` <Object\> Set of fields filters:
 <% for ( let field of where ) { -%>
     -   `<%- field %>` <Array\><%- schema[field].required ? " **Required**." : "" %> Filter by the `<%- field %>` field value:
-        -   `operator` <string\> Filter operator, one of the: <%- schema[field].conditions.map( operator => `\`"${operator}"\`` ).join( ", " ) %>.
-        -   `value` <<%- schema[field].type %>\> Field value.
+        -   <string\> Filter operator, one of the: <%- schema[field].conditions.map( operator => `\`"${operator}"\`` ).join( ", " ) %>.
+        -   <<%- schema[field].type %>\> Field value.
 <% } -%>
 <% } -%>
 <% if ( order_by.length ) { -%>
 -   `order_by` <Array\> Array of the sort conditions.<%- meta.readDefaultOrderBy ? ` **Default:** \`${JSON.stringify( meta.readDefaultOrderBy )}\`.` : "" %> Each sort condition must be represented with the two-elements <Array\> with the following structure:
-    -   `field` <string\> Field to sort by, possible fields: <%- order_by.map( field => `\`"${field}"\`` ).join( ", " ) %>.
-    -   `direction` <string\> Sort direction, can be `"asc"` or `"desc"`. **Default:** `"asc"`.
+    -   <string\> Field name to sort by, possible fields: <%- order_by.map( field => `\`"${field}"\`` ).join( ", " ) %>.
+    -   <string\> Sort direction, can be `"asc"` or `"desc"`. **Default:** `"asc"`.
 <% } -%>
 -   `offset` <integer\> Return result, starting from the specified row. `0` - from the first row. **Default:** `0`.
 -   `limit` <integer\> Max rows to return.<%- meta.readMaxLimit ? ` Maximum allowed value: \`${meta.readMaxLimit}\`.` : "" %><%- meta.readDefaultLimit || meta.readMaxLimit ? ` **Default:** \`${meta.readDefaultLimit || meta.readMaxLimit}\`.` : "" %>
