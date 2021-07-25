@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.13.1 (2021-07-25)
+
+Fixed:
+
+-   cache option event added
+-   cache max -> maxSize
+
 ### 4.13.0 (2021-07-25)
 
 Changed:
