@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.13.0 (2021-07-25)
+
+Changed:
+
+-   cache-lru changed to own implementation
+
 ### 4.12.3 (2021-07-22)
 
 Fixed:
