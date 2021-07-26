@@ -1,5 +1,14 @@
 # Changelog
 
+### 4.14.0 (2021-07-26)
+
+Changed:
+
+Added:
+
+-   form data decoder refactored
+-   split stream completed feature added
+
 ### 4.13.2 (2021-07-25)
 
 Fixed:
