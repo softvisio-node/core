@@ -14,5 +14,5 @@ types:
   APIClientUpload: "/api-client.md#class-apiclientupload"
   APIClientConnection: "/api-client.md#class-apiclientconnection"
   APIClientHub: "/api-client.md#class-apiclienthub"
-  TmpFile: "/tmp/#Class: TmpFile"
-  TmpDir: "/tmp/#Class: TmpDir"
+  TmpFile: "/tmp.md#Class: TmpFile"
+  TmpDir: "/tmp.md#Class: TmpDir"
