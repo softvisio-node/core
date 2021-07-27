@@ -37,7 +37,7 @@ const READ_LINE = [
 const READ_CHUNK = [
     { buffer, encoding, "length": 1, "line": "1", "rest": "2-34--56--78-90" },
     { buffer, encoding, "length": 5, "line": "12-34", "rest": "--56--78-90" },
-    { buffer, encoding, "length": 16, "line": "12-34--56--78-90", "rest": null },
+    { buffer, encoding, "length": 16, "line": "12-34--56--78-90", "rest": undefined },
     { buffer, encoding, "length": 100, "line": undefined, "rest": "12-34--56--78-90" },
 ];
 
