@@ -6,6 +6,12 @@ import File from "@softvisio/core/file";
 
 ### File.new( options? )
 
+-   `options?` <File\> | <Object\> See the `new File()` constructor options.
+
+If `options` is the instance of <File\> returns it as is. Otherwise calls `new File( options )` constructor (see below).
+
+### new File( options? )
+
 -   `options?` <Object\>:
     -   `path?` <string\> Absolute file path.
     -   `name?` <string\> File name. If not specified `path` basename will be used.
