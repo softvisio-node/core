@@ -10,7 +10,7 @@ import * as tmp from "@softvisio/core/fs/tmp";
 const file = new TmpFile();
 ```
 
-Temporary file is removed automatically on precess exit or on `JavaScript` garbage collection.
+Temporary file is removed automatically on process exit or on garbage collection if goes out of the scope.
 
 ### new tmp.TmpFile( options? )
 
@@ -18,6 +18,8 @@ Temporary file is removed automatically on precess exit or on `JavaScript` garba
     -   `dirname?` <string\> Directory, where temp file will be created. **Default:** `os.tmpdir()`.
     -   `extname?` <string\> Tmp file extension. Must be started with the `"."`, for example `".txt"`.
     -   Other options, supported by the <File\> constructor.
+
+Temporary file is **not** created on file system when object is instantiated. Just unique file system path is generating.
 
 ### file.isDestroyed
 
@@ -37,12 +39,14 @@ Manually destroy tmp file.
 const dir = new TmpDir();
 ```
 
-Temporary directory is removed automatically on precess exit or on `JavaScript` garbage collection.
+Temporary directory is removed automatically on process exit or on garbage collection if goes out of the scope.
 
 ### new tmp.TmpDir( options? )
 
 -   `options` <Object\>:
     -   `dirname?` <string\> Directory, where temp directory will be created. **Default:** `os.tmpdir()`.
+
+Creates temporary directory in the file system.
 
 ### dir.isDestroyed
 
