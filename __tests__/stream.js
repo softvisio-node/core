@@ -1,4 +1,4 @@
-import Stream from "#lib/stream";
+import _stream from "#lib/stream";
 
 const buffer = "12-34--56--78-90";
 const encoding = "utf8";
@@ -38,7 +38,7 @@ const READ_CHUNK = [
     { buffer, encoding, "length": 1, "line": "1", "rest": "2-34--56--78-90" },
     { buffer, encoding, "length": 5, "line": "12-34", "rest": "--56--78-90" },
     { buffer, encoding, "length": 16, "line": "12-34--56--78-90", "rest": null },
-    { buffer, encoding, "length": 100, "line": null, "rest": null },
+    { buffer, encoding, "length": 100, "line": undefined, "rest": "12-34--56--78-90" },
 ];
 
 const sleep = () => new Promise( resolve => setTimeout( resolve, 1 ) );
@@ -68,13 +68,13 @@ describe( "readchunk", () => {
 
             expect( line ).toBe( data.line );
 
-            expect( rest ).toBe( data.rest );
+            expect( rest ? rest.toString() : rest ).toBe( data.rest );
         } );
     }
 } );
 
 async function readLine ( data ) {
-    const stream = new Stream.Readable( { read () {} } );
+    const stream = new _stream.Readable( { read () {} } );
 
     if ( data.preinit ) await push( stream, data );
     else push( stream, data );
@@ -95,24 +95,16 @@ async function readLine ( data ) {
 }
 
 async function readChunk ( data ) {
-    const stream = new Stream.Readable( { read () {} } );
+    const stream = new _stream.Readable( { read () {} } );
 
     if ( data.preinit ) await push( stream, data );
     else push( stream, data );
 
     const line = await stream.readChunk( data.length, { "encoding": data.encoding } );
 
-    var rest = [];
+    const rest = await stream.buffer();
 
-    if ( !stream.readableEnded ) {
-        await new Promise( resolve => {
-            stream.on( "end", resolve );
-
-            stream.on( "data", data => rest.push( data ) );
-        } );
-    }
-
-    return [line, rest.length ? Buffer.concat( rest ) + "" : null];
+    return [line, rest];
 }
 
 async function push ( stream, data ) {
