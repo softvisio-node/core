@@ -8,6 +8,63 @@ import "@softvisio/core/stream";
 
 ## Class: stream.Readable
 
+### readable.blackhole()
+
+-   Returns: <Promise\> Resolves, when operation finished.
+
+Reads stream until end and sends data to the black hole.
+
+### readable.buffer( options? )
+
+-   `options?` <Object\>:
+    -   `maxLength` <integer\> Maximum buffer length.
+-   Returns: <Promise\> Fulfils with the <Buffer\> or <undefined\> in the case of error.
+
+Reads stream to the <Buffer\>.
+
+### readable.arrayBuffer( options? )
+
+-   `options?` <Object\>:
+    -   `maxLength` <integer\> Maximum buffer length.
+-   Returns: <Promise\> Fulfils with the <ArrayBuffer\> or <undefined\> in the case of error.
+
+Reads stream to the <ArrayBuffer\>.
+
+### readable.tmpFile( options? )
+
+-   `options?` <Object\>:
+    -   `maxLength` <integer\> Maximum buffer length.
+    -   Other options, supported by the <TmpFile\> constructor.
+-   Returns: <Promise\> Fulfils with the <TmpFile\> or <undefined\> in the case of error.
+
+Reads stream to the temporary file.
+
+### readable.blob( options? )
+
+-   `options?` <Object\>:
+    -   `maxLength` <integer\> Maximum buffer length.
+    -   Other options, supported by the <Blob\> constructor.
+-   Returns: <Promise\> Fulfils with the <Blob\> or <undefined\> in the case of error.
+
+Reads stream to the <Blob\>.
+
+### readable.text( options? )
+
+-   `options?` <Object\>:
+    -   `maxLength` <integer\> Maximum buffer length.
+    -   `encoding` <string\> Text encoding.
+-   Returns: <Promise\> Fulfils with the <string\> or <undefined\> in the case of error.
+
+Reads stream to the string.
+
+### readable.json( options? )
+
+-   `options?` <Object\>:
+    -   `maxLength` <integer\> Maximum buffer length.
+-   Returns: <Promise\> Fulfils with the <any\> or <undefined\> in the case of error.
+
+Reads stream and decode as JSON.
+
 ### readable.readChunk( chunkLength, options? )
 
 -   `chunkLength` <integer\> Chunk length in bytes.
@@ -27,7 +84,7 @@ const string = await stream.readChunk(100, { encoding: "utf8" }); // reads 100 b
 
 -   `options?` <Object\>:
     -   `eol` <string\> | <Buffer\> End of line. **Default:** `"\n"`.
-    -   `maxLength` <integer\> Max line length. **Default:** `Infinity`.
+    -   `maxLength` <integer\> Max line length without EOL. **Default:** `Infinity`.
     -   `encoding` <string\> Buffer encoding. If specified returned buffer will be encoded to string.
 -   Returns: <Promise\> Fullfils with the <Buffer\>, <string\> or <null\> in case of error.
 

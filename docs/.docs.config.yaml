@@ -8,8 +8,11 @@ types:
   Table: "/text.md#Class: Table"
   Auth:
   ProxyClient:
+  Blob:
   File: /file.md
   APIClient: /api-client.md#class-apiclient
   APIClientUpload: /api-client.md#class-apiclientupload
   APIClientConnection: /api-client.md#class-apiclientconnection
   APIClientHub: /api-client.md#class-apiclienthub
+  TmpFile:
+  TmpDir:
