@@ -1,7 +1,7 @@
 # Tmp
 
 ```javascript
-import * as tmp from "@softvisio/core/fs/tmp";
+import * as tmp from "@softvisio/core/tmp";
 ```
 
 ## Class: TmpFile
