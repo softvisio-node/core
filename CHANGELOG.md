@@ -1,5 +1,33 @@
 # Changelog
 
+### 4.15.0 (2021-07-28)
+
+Changed:
+
+Added:
+
+-   stream readers updated
+-   docs updated
+-   filetree resolve path on write
+-   blob refactored
+-   stream.Readable.blackhole() added
+-   api upload abort signal fixed
+-   file drop type on name set
+-   TmpFile constructor options changed
+-   stream.Readable.buffer() added
+-   stream.Readable.tmpFile() added
+-   file setters added
+-   TmpFile extends File interface
+
+Removed:
+
+-   http request bodyUsed removed
+
+Fixed:
+
+-   file get type fixed
+-   stream exports fixed
+
 ### 4.14.0 (2021-07-26)
 
 Changed:
