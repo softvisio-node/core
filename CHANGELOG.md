@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.16.1 (2021-07-28)
+
+Fixed:
+
+-   utils.resolve() moved to utils package
+
 ### 4.16.0 (2021-07-28)
 
 Changed:
