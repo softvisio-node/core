@@ -8,7 +8,7 @@ types:
   Table: "/text.md#Class: Table"
   Auth:
   ProxyClient:
-    Blob: "/blob.md#Class: Blob"
+  Blob: "/blob.md#Class: Blob"
   File: "/file.md#Class: File"
   APIClient: "/api-client.md#Class: APIClient"
   APIClientUpload: "/api-client.md#Class: APIClientUpload"
