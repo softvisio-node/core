@@ -31,7 +31,7 @@ Temporary file is **not** created on file system when object is instantiated. Ju
 
 ### file.destroy()
 
-Manually destroy tmp file.
+Manually destroy temporary file.
 
 ## Class: TmpDir
 
@@ -54,8 +54,8 @@ Creates temporary directory in the file system.
 
 ### dir.path
 
--   Returns: <string\> Absolute file path.
+-   Returns: <string\> Absolute directory path.
 
 ### dir.destroy()
 
-Manually destroy tmp dir.
+Manually destroy temporary directory.
