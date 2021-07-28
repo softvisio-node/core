@@ -1,5 +1,17 @@
 # Changelog
 
+### 4.16.0 (2021-07-28)
+
+Changed:
+
+-   fs.config moved to the config
+-   fs.resolve moved to the utils.resolve
+-   fs.FileTree moved to the file-tree
+-   fs.getHash() removed
+-   fs.tmp moveed to tmp
+-   stream code improved
+-   mime code improved
+
 ### 4.15.0 (2021-07-28)
 
 Changed:
