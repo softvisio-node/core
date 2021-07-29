@@ -29,6 +29,33 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
 
 Creates new <APIClient\> instance.
 
+### Event: "connect"
+
+Emitted, when at least one connection established.
+
+### Event: "disconnect"
+
+-   <Result\>
+
+Fired, when all connections closed.
+
+### Event: "signout"
+
+Emitted, when authentication descriptor was signed out.
+
+### Event: "event"
+
+-   `name` <string\> Remote event name.
+-   `args` <Array\> Event arguments.
+
+Emitted on event from the server received.
+
+### Event: "event/<event-name\>"
+
+-   `...args` <any\> Event arguments.
+
+Emitted on event from the server received.
+
 ### api.isBrowser
 
 -   Returns: <boolean\> `true` if running undef crowser.
