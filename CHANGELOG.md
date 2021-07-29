@@ -1,5 +1,15 @@
 # Changelog
 
+### 4.16.2 (2021-07-29)
+
+Changed:
+
+Fixed:
+
+-   docs updated
+-   docs types updated
+-   config export updated
+
 ### 4.16.1 (2021-07-28)
 
 Fixed:
