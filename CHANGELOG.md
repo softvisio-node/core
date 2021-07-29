@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.16.3 (2021-07-29)
+
+Fixed:
+
+-   api websockets fast disconnect
+-   ws v8.0.0
+
 ### 4.16.2 (2021-07-29)
 
 Changed:
