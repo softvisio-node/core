@@ -5,6 +5,15 @@ methods:
   read:
     title: Read user profile
 
+  set-password:
+    title: Set user email
+    params:
+      - name: password
+        description: New password.
+        required: true
+        schema:
+          type: string
+
   set-email:
     title: Set user email
     params:
