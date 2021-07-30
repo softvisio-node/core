@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.16.6 (2021-07-30)
+
+Fixed:
+
+-   api profile set-password spec added
+
 ### 4.16.5 (2021-07-29)
 
 Fixed:
