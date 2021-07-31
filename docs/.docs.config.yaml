@@ -6,7 +6,6 @@ externalTypes:
 
 types:
   Table: "/text.md#Class: Table"
-  Auth:
   ProxyClient:
   Blob: "/blob.md#Class: Blob"
   File: "/file.md#Class: File"
