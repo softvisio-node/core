@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.17.1 (2021-07-31)
+
+Fixed:
+
+-   app ajv keywords moved to the app packages
+
 ### 4.17.0 (2021-07-31)
 
 Changed:
