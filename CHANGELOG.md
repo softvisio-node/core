@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.18.1 (2021-07-31)
+
+Fixed:
+
+-   merged with config and env
+
 ### 4.18.0 (2021-07-31)
 
 Added:
