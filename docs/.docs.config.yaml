@@ -2,7 +2,6 @@ logo: true
 
 externalTypes:
   - https://softvisio.github.io/result/
-  - https://softvisio.github.io/utils/
 
 types:
   Table: "/text.md#Class: Table"
