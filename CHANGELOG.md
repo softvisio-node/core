@@ -1,5 +1,13 @@
 # Changelog
 
+### 4.19.0 (2021-07-31)
+
+Changed:
+
+-   http/utils -> utils/http
+-   browser const removed
+-   google uule moved to core
+
 ### 4.18.5 (2021-07-31)
 
 Fixed:
