@@ -50,6 +50,10 @@
             "browser": "./lib/_browser/form-data.js",
             "node": "./lib/form-data.js"
         },
+        "./utils": {
+            "browser": "./lib/_browser/utils.js",
+            "node": "./lib/utils.js"
+        },
         "./websocket": {
             "browser": "./lib/_browser/websocket.js",
             "node": "./lib/websocket.js"
@@ -60,7 +64,6 @@
         "@softvisio/env": "^1.0.0",
         "@softvisio/msgpack": "^3.0.0",
         "@softvisio/result": "^4.0.0",
-        "@softvisio/utils": "^1.1.0",
         "@softvisio/uws": "^1.0.0",
         "ajv": "^8.0.1",
         "ajv-errors": "^3.0.0",
