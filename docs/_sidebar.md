@@ -9,6 +9,10 @@
 -   [Stream](/stream.md)
 -   [Text](/text.md)
 -   [Tmp](/tmp.md)
+-   [Utils](/utils.md)
+-   [Doubly linked list](/doubly-linked-list.md)
+-   [Cache LRU](/cache-lru.md)
+-   [Net](/net.md)
 
 **Links**
 

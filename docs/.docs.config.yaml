@@ -15,3 +15,6 @@ types:
   APIClientHub: "/api-client.md#Class: APIClientHub"
   TmpFile: "/tmp.md#Class: TmpFile"
   TmpDir: "/tmp.md#Class: TmpDir"
+  DoublyLinkedList: "/doubly-linked-list.md"
+  DoublyLinkedListNode: "/doubly-linked-list.md#Class: DoublyLinkedListNode"
+  CacheLRU: "/cache-lru.md"
