@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.17.0 (2021-07-31)
+
+Changed:
+
+-   docs updated
+-   app moved to the own package
+
 ### 4.16.6 (2021-07-30)
 
 Fixed:
