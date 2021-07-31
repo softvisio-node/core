@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.18.0 (2021-07-31)
+
+Added:
+
+-   merged with utils
+
 ### 4.17.1 (2021-07-31)
 
 Fixed:
