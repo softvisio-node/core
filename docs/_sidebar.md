@@ -13,6 +13,8 @@
 -   [Doubly linked list](/doubly-linked-list.md)
 -   [Cache LRU](/cache-lru.md)
 -   [Net](/net.md)
+-   [Config](/config.md)
+-   [Env](/env.md)
 
 **Links**
 

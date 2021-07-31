@@ -38,6 +38,10 @@
             "browser": "./lib/_browser/const.js",
             "node": "./lib/const.js"
         },
+        "./env": {
+            "browser": "./lib/_browser/env.js",
+            "node": "./lib/env.js"
+        },
         "./fetch": {
             "browser": "./lib/_browser/fetch.js",
             "node": "./lib/fetch.js"
@@ -60,8 +64,6 @@
         }
     },
     "dependencies": {
-        "@softvisio/config": "^1.0.0",
-        "@softvisio/env": "^1.0.0",
         "@softvisio/msgpack": "^3.0.0",
         "@softvisio/result": "^4.0.0",
         "@softvisio/uws": "^1.0.0",
