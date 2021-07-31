@@ -2,7 +2,6 @@
 
 **Modules**
 
--   [External APIs 🡢](/apis/)
 -   [API Client](/api-client.md)
 -   [Blob](/blob.md)
 -   [File](/file.md)
