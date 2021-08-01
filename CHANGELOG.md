@@ -1,5 +1,13 @@
 # Changelog
 
+### 4.19.1 (2021-08-01)
+
+Fixed:
+
+-   export deps
+-   docs updated
+-   http request stream import updated
+
 ### 4.19.0 (2021-07-31)
 
 Changed:
