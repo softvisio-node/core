@@ -17,7 +17,7 @@ config.write("cfg.json", data, { readable: true });
 -   `options?` <Object\>:
     -   `resolve` <string\> | <URL\> File URL to resolve config path. Usually `import.meta.url` is used.
     -   `json5` <boolean\> Parse `JSON` configs using `json5` parser.
-    -   `all` <boolean\> For `YAML` configs returns all documants as <Array\>.
+    -   `all` <boolean\> For `YAML` configs returns all documents as <Array\>.
 -   Returns: <any\> Config data.
 
 ### config.write( path, data, options? )
