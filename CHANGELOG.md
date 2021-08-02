@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.19.2 (2021-08-02)
+
+Fixed:
+
+-   table coerce null values to empty strings
+
 ### 4.19.1 (2021-08-01)
 
 Fixed:
