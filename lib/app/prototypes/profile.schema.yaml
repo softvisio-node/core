@@ -1,0 +1,33 @@
+title: User profile
+permissions: [user]
+
+methods:
+  read:
+    title: Read user profile
+
+  set-password:
+    title: Set user email
+    params:
+      - name: password
+        description: New password.
+        required: true
+        schema:
+          type: string
+
+  set-email:
+    title: Set user email
+    params:
+      - name: email
+        description: Email address to set, if not specified, current email address will be removed.
+        required: false
+        schema:
+          type: string
+
+  set-telegram-username:
+    title: Set user telegram name
+    params:
+      - name: telegram_username
+        description: Telegram username to set, if not specified current telegram user name will be removed.
+        required: false
+        schema:
+          type: string

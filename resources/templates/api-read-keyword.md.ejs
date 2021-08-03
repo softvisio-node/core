@@ -1,0 +1,32 @@
+<Object\>
+<% if ( where.length ) { -%>
+-   `where` <Object\> Set of fields filters:
+<% for ( let field of where ) { -%>
+    -   `<%- field %>` <Array\><%- schema[field].required ? " **Required**." : "" %> Filter by the `<%- field %>` field value:
+        -   <string\> Filter operator, one of the: <%- schema[field].conditions.map( operator => `\`"${operator}"\`` ).join( ", " ) %>.
+        -   <<%- schema[field].type %>\> Field value.
+<% } -%>
+<% } -%>
+<% if ( order_by.length ) { -%>
+-   `order_by` <Array\> Array of the sort conditions.<%- meta.readDefaultOrderBy ? ` **Default:** \`${JSON.stringify( meta.readDefaultOrderBy )}\`.` : "" %> Each sort condition must be represented with the two-elements <Array\> with the following structure:
+    -   <string\> Field name to sort by, possible fields: <%- order_by.map( field => `\`"${field}"\`` ).join( ", " ) %>.
+    -   <string\> Sort direction, can be `"asc"` or `"desc"`. **Default:** `"asc"`.
+<% } -%>
+-   `offset` <integer\> Return result, starting from the specified row. `0` - from the first row. **Default:** `0`.
+-   `limit` <integer\> Max rows to return.<%- meta.readMaxLimit ? ` Maximum allowed value: \`${meta.readMaxLimit}\`.` : "" %><%- meta.readDefaultLimit || meta.readMaxLimit ? ` **Default:** \`${meta.readDefaultLimit || meta.readMaxLimit}\`.` : "" %>
+-   Example (this is the abstract data structure example, not related to the current method):
+    ```json
+    {
+        "where": {
+            "field_a": [">=", 100],
+            "field_b": ["!=", null],
+            "field_c": ["=", "string"]
+        },
+        "order_by": [
+            ["field_a", "asc"],
+            ["field_b", "desc"]
+        ],
+        "offset": 100,
+        "limit": 50
+    }
+    ```

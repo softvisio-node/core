@@ -1,0 +1,98 @@
+title: Session
+permissions: ["*"]
+
+methods:
+  signin:
+    title: Signin
+    description: |-
+      If `credentials` parameter is specified - will try to sign in user using username and password, otherwise will try to sign in user, using currently used api token.
+
+      **Returns**:
+
+      -   `200`: Sign in successfully.
+
+      -   `401`: Bad credentials.
+
+      -   `403`: Not authorized.
+
+      -   Any other status means bad request, internal or connection error. Refer to the response `statusText` property for more information.
+    params:
+      - name: credentials
+        required: false
+        schema:
+          type: object
+          properties:
+            username: { type: string }
+            password: { type: string }
+          required:
+            - username
+            - password
+          additionalProperties: false
+      - name: signin_permissions
+        description: "<null\\> | <Array\\> Array of permissions. Only user, who has this permissions can sign in. If `null` permissions will not check."
+        schema:
+          anyOf:
+            - type: "null"
+            - type: array
+              items:
+                type: string
+
+  signout:
+    title: Signout
+    permissions: [user]
+
+  signup:
+    title: Signup
+    permissions: [guest]
+    params:
+      - name: fields
+        required: true
+        schema:
+          type: object
+          properties:
+            username: { type: string }
+            password: { type: string }
+            email: { type: string }
+            telegram_name: { type: string }
+          required:
+            - username
+
+  send-confirmation-email:
+    title: Send confirmation email
+    params:
+      - name: user_id
+        description: User name or email.
+        required: true
+        schema:
+          type: string
+
+  confirm-email-by-token:
+    title: Confirm user email using email confirmation token
+    permissions: ["*"]
+    params:
+      - name: token
+        description: Email confirmation token.
+        required: true
+        schema:
+          type: string
+
+  send-password-reset-email:
+    title: Send password reset email
+    params:
+      - name: user_id
+        description: User name or email.
+        required: true
+        schema:
+          type: string
+
+  set-password-by-token:
+    title: Set user password using password recovery token
+    params:
+      - name: token
+        required: true
+        schema:
+          type: string
+      - name: password
+        required: true
+        schema:
+          type: string

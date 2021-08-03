@@ -2,6 +2,7 @@
 
 **Modules**
 
+-   [Application 🡢](/app/)
 -   [API Client](/api-client.md)
 -   [Blob](/blob.md)
 -   [Cache LRU](/cache-lru.md)
