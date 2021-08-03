@@ -1,8 +1,11 @@
 -   [Introduction](/)
 
-**Modules**
+**Application**
 
 -   [Application 🡢](/app/)
+
+**Modules**
+
 -   [API Client](/api-client.md)
 -   [Blob](/blob.md)
 -   [Cache LRU](/cache-lru.md)
