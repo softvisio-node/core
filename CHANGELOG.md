@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.20.2 (2021-08-03)
+
+Fixed:
+
+-   app db schema migration fixed
+
 ### 4.20.1 (2021-08-03)
 
 Fixed:
