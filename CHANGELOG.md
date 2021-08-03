@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.20.0 (2021-08-03)
+
+Added:
+
+-   merged with app
+
 ### 4.19.2 (2021-08-02)
 
 Fixed:
