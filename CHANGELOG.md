@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.20.1 (2021-08-03)
+
+Fixed:
+
+-   app class renamed
+
 ### 4.20.0 (2021-08-03)
 
 Added:
