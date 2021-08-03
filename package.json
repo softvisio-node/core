@@ -34,6 +34,10 @@
             "browser": "./lib/_browser/blob.js",
             "node": "./lib/blob.js"
         },
+        "./const": {
+            "browser": "./lib/_browser/const.js",
+            "node": "./lib/const.js"
+        },
         "./env": {
             "browser": "./lib/_browser/env.js",
             "node": "./lib/env.js"
@@ -60,6 +64,7 @@
         }
     },
     "dependencies": {
+        "@softvisio/argon2": "^1.2.5",
         "@softvisio/msgpack": "^3.0.0",
         "@softvisio/result": "^4.0.0",
         "@softvisio/uws": "^1.0.0",
