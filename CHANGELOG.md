@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.21.2 (2021-08-04)
+
+Fixed:
+
+-   ip v6 to string fixed
+-   ip cidr mask fixed
+
 ### 4.21.1 (2021-08-04)
 
 Fixed:
