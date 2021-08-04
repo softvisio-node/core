@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.21.3 (2021-08-04)
+
+Fixed:
+
+-   ip prev / next addr cache added
+
 ### 4.21.2 (2021-08-04)
 
 Fixed:
