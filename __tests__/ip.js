@@ -1,4 +1,5 @@
 import IPAddr from "#lib/ip/addr";
+import IPRange from "#lib/ip/range";
 
 describe( "addr", () => {
     const tests = [
@@ -17,13 +18,40 @@ describe( "addr", () => {
     ];
 
     for ( const _test of tests ) {
-        const addr = new IPAddr( _test.addr );
+        let addr;
 
         for ( const property in _test ) {
             if ( property === "addr" ) continue;
 
             test( `addr-${_test.addr}-${property}`, () => {
+                addr ??= new IPAddr( _test.addr );
+
                 expect( typeof addr[property] === "function" ? addr[property]() : addr[property] ).toBe( _test[property] );
+            } );
+        }
+    }
+} );
+
+describe( "range", () => {
+    const tests = [
+
+        // v4
+        { "range": "127.0.0.1", "toString": "127.0.0.1/32" },
+
+        // v6
+        { "range": "::", "toString": "::/128" },
+    ];
+
+    for ( const _test of tests ) {
+        let range;
+
+        for ( const property in _test ) {
+            if ( property === "range" ) continue;
+
+            test( `range-${_test.range}-${property}`, () => {
+                range ??= new IPRange( _test.range );
+
+                expect( typeof range[property] === "function" ? range[property]() : range[property] ).toBe( _test[property] );
             } );
         }
     }
