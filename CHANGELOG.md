@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.21.5 (2021-08-05)
+
+Fixed:
+
+-   ip range prefix option added to the constructor
+-   ip tests added
+
 ### 4.21.4 (2021-08-04)
 
 Fixed:
