@@ -36,10 +36,15 @@ describe( "range", () => {
     const tests = [
 
         // v4
-        { "range": "127.0.0.1", "toString": "127.0.0.1/32" },
+        { "range": ["127.0.0.1"], "toString": "127.0.0.1/32" },
+        { "range": ["127.0.0.1-1.1.1.1"], "toString": "1.1.1.1-127.0.0.1" },
+        { "range": ["127.0.0.1/24"], "toString": "127.0.0.0/24" },
+        { "range": ["127.0.0.1", 24], "toString": "127.0.0.0/24" },
+        { "range": [new IPAddr( "127.0.0.1" )], "toString": "127.0.0.1/32" },
+        { "range": [new IPAddr( "127.0.0.1" ), 24], "toString": "127.0.0.0/24" },
 
         // v6
-        { "range": "::", "toString": "::/128" },
+        { "range": ["::"], "toString": "::/128" },
     ];
 
     for ( const _test of tests ) {
@@ -49,7 +54,7 @@ describe( "range", () => {
             if ( property === "range" ) continue;
 
             test( `range-${_test.range}-${property}`, () => {
-                range ??= new IPRange( _test.range );
+                range ??= new IPRange( ..._test.range );
 
                 expect( typeof range[property] === "function" ? range[property]() : range[property] ).toBe( _test[property] );
             } );
