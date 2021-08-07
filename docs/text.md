@@ -1,5 +1,18 @@
 # Text
 
+```javascript
+import * as text from "@softvisio/core/text";
+```
+
+### text.wrap( string, maxLength, options )
+
+-   `string` <string\> String to wrap.
+-   `maxLength` <integer\> Maximum allowed line length.
+-   `options` <Object\>:
+    -   `trim` <boolean\> Trim lines.
+    -   `wordWrap` <boolean\> Try to do not split words if possible.
+-   Returns: <string\> Wrapped string.
+
 ## ansi
 
 ```javascript
@@ -76,8 +89,6 @@ Add ANSI reset code to the end of the string. Same as `string += ansi.RESET`.
 -   Returns: <string\>
 
 Removes ANSI reset code from the string.
-
-### ansi.wrap( string, maxLength, options )
 
 ## Class: Table
 
