@@ -83,7 +83,6 @@
         "redis": "^3.0.2",
         "utf-8-validate": "^5.0.4",
         "uuid": "^8.3.2",
-        "wrap-ansi": "^8.0.0",
         "ws": "^8.0.0"
     },
     "engines": {
