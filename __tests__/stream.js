@@ -12,23 +12,23 @@ const READ_LINE = [
     { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": 3, "line": "12-34", "rest": "56--78-90" },
     { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": 7, "line": "12-34", "rest": "56--78-90" },
 
-    // // streaming, match, eol: "-"
+    // streaming, match, eol: "-"
     { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": null, "line": "12", "rest": "34--56--78-90" },
     { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": 1, "line": "12", "rest": "34--56--78-90" },
     { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": 2, "line": "12", "rest": "34--56--78-90" },
     { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": 3, "line": "12", "rest": "34--56--78-90" },
     { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": 7, "line": "12", "rest": "34--56--78-90" },
 
-    // // streaming, not match
+    // streaming, not match
     { buffer, encoding, "eol": "---", "maxLength": null, "chunkSize": null, "line": undefined, "rest": "12-34--56--78-90" },
     { buffer, encoding, "eol": "---", "maxLength": null, "chunkSize": 1, "line": undefined, "rest": "12-34--56--78-90" },
     { buffer, encoding, "eol": "---", "maxLength": 5, "chunkSize": 1, "line": undefined, "rest": "12-34--56--78-90" },
 
-    // // pre-buffered, match
+    // pre-buffered, match
     { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": null, "preinit": true, "line": "12-34", "rest": "56--78-90" },
     { buffer, encoding, "eol": "--", "maxLength": 7, "chunkSize": null, "preinit": true, "line": "12-34", "rest": "56--78-90" },
 
-    // // pre-buffered, not match
+    // pre-buffered, not match
     { buffer, encoding, "eol": "---", "maxLength": null, "chunkSize": null, "preinit": true, "line": undefined, "rest": undefined },
     { buffer, encoding, "eol": "---", "maxLength": 4, "chunkSize": null, "preinit": true, "line": undefined, "rest": "12-34--56--78-90" },
     { buffer, encoding, "eol": "---", "maxLength": 6, "chunkSize": null, "preinit": true, "line": undefined, "rest": "12-34--56--78-90" },
@@ -37,7 +37,7 @@ const READ_LINE = [
 const READ_CHUNK = [
     { buffer, encoding, "length": 1, "line": "1", "rest": "2-34--56--78-90" },
     { buffer, encoding, "length": 5, "line": "12-34", "rest": "--56--78-90" },
-    { buffer, encoding, "length": 16, "line": "12-34--56--78-90", "rest": undefined },
+    { buffer, encoding, "length": 16, "line": "12-34--56--78-90", "rest": "" },
     { buffer, encoding, "length": 100, "line": undefined, "rest": "12-34--56--78-90" },
 ];
 
