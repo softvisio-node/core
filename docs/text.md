@@ -83,9 +83,11 @@ Defines named `RGB` colors.
 
 Add ANSI reset code to the end of the string. Same as `string += ansi.RESET`.
 
-### ansi.remove( string )
+### ansi.remove( string, options? )
 
 -   `string` <string\>
+-   `options?` <Object\>:
+    -   `keepStyles` <boolean\> Remove ANSI codes, except styles. **Defaults:** `false`.
 -   Returns: <string\>
 
 Removes ANSI reset code from the string.
