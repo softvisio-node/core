@@ -1,5 +1,23 @@
 # Changelog
 
+### 4.22.0 (2021-08-08)
+
+Added:
+
+-   docs updated
+-   text wrap refactored
+
+Removed:
+
+-   ansi getCodes() method removed
+
+Fixed:
+
+-   api http body read fixed
+-   stream.buffer() returns emptry buffer
+-   ansi codes regexp updated to match the specification
+-   get random item by weight refactored
+
 ### 4.21.5 (2021-08-05)
 
 Fixed:
