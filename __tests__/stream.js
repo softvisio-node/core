@@ -29,7 +29,7 @@ const READ_LINE = [
     { buffer, encoding, "eol": "--", "maxLength": 7, "chunkSize": null, "preinit": true, "line": "12-34", "rest": "56--78-90" },
 
     // pre-buffered, not match
-    { buffer, encoding, "eol": "---", "maxLength": null, "chunkSize": null, "preinit": true, "line": undefined, "rest": undefined },
+    { buffer, encoding, "eol": "---", "maxLength": null, "chunkSize": null, "preinit": true, "line": undefined, "rest": "" },
     { buffer, encoding, "eol": "---", "maxLength": 4, "chunkSize": null, "preinit": true, "line": undefined, "rest": "12-34--56--78-90" },
     { buffer, encoding, "eol": "---", "maxLength": 6, "chunkSize": null, "preinit": true, "line": undefined, "rest": "12-34--56--78-90" },
 ];
