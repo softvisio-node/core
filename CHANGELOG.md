@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.22.2 (2021-08-11)
+
+Fixed:
+
+-   fileurl parser fixed
+
 ### 4.22.1 (2021-08-11)
 
 Fixed:
