@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.22.1 (2021-08-11)
+
+Fixed:
+
+-   threads path parser fixed
+
 ### 4.22.0 (2021-08-08)
 
 Added:
