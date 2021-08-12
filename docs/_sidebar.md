@@ -14,6 +14,7 @@
 -   [Env](/env.md)
 -   [File](/file.md)
 -   [Stream](/stream.md)
+-   [SQL](/sql.md)
 -   [Text](/text.md)
 -   [Tmp](/tmp.md)
 -   [Utils](/utils.md)
