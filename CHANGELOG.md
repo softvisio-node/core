@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.22.5 (2021-08-14)
+
+Fixed:
+
+-   sql return error on invalid decode type
+
 ### 4.22.4 (2021-08-14)
 
 Fixed:
