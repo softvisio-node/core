@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.22.4 (2021-08-14)
+
+Fixed:
+
+-   sql types refactored
+
 ### 4.22.3 (2021-08-14)
 
 Fixed:
