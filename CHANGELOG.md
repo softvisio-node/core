@@ -1,5 +1,13 @@
 # Changelog
 
+### 4.22.3 (2021-08-14)
+
+Fixed:
+
+-   docs updated
+-   sql refactored
+-   sqlite boolean type fixed
+
 ### 4.22.2 (2021-08-11)
 
 Fixed:
