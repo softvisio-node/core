@@ -64,3 +64,45 @@ Schema directory contains `index.json` file with the schema meta data. Schema fi
 Schema or patch file name must have folloving structure: `<index>-<name>.js`, where `<index>` is numeric file index, `<name>` - arbitrary file name. Files applied in order of their indexes (starting from the minimal).
 
 When you merged patch with the main schema, you need to update `version` field in the `index.json`.
+
+## Types
+
+### Add custom type
+
+```javascript
+const res = await dbh.addType(name, { encode, decode });
+```
+
+### Default types encoders
+
+| Type       | Encoded         |
+| ---------- | --------------- |
+| <null\>    | null            |
+| <number\>  | integer         |
+| <BigInt\>  | int8            |
+| <boolean\> | bool            |
+| <string\>  | text            |
+| <Buffer\>  | bytea           |
+| <Object\>  | json string     |
+| <Date\>    | date ISO string |
+
+### Default types decoders
+
+| Name    |  OID | Decoded    |
+| ------- | ---: | ---------- |
+| int2    |   21 | <number\>  |
+| int4    |   23 | <number\>  |
+| float4  |  700 | <number\>  |
+| float8  |  701 | <number\>  |
+| oid     |   26 | <number\>  |
+| numeric | 1700 | <string\>  |
+| int8    |   20 | <string\>  |
+| integer |      | <string\>  |
+| money   |  790 | <string\>  |
+| bool    |   16 | <boolean\> |
+| json    |  114 | <Object\>  |
+| jsonb   | 3802 | <Object\>  |
+| bytea   |   17 | <Buffer\>  |
+| bigint  |      | <BigInt\>  |
+
+All other types are encoded to the `UTF-8` <string\> by default.
