@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.22.6 (2021-08-15)
+
+Fixed:
+
+-   sql sqlite.db property renamed to .sqlite
+
 ### 4.22.5 (2021-08-14)
 
 Fixed:
