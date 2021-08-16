@@ -1,5 +1,14 @@
 # Changelog
 
+### 4.22.7 (2021-08-16)
+
+Fixed:
+
+-   sql migration refactored
+-   sql tagged param fixed
+-   sql query refactored
+-   make sqlite methods synchronous
+
 ### 4.22.6 (2021-08-15)
 
 Fixed:
