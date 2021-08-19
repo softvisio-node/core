@@ -1,5 +1,14 @@
 # Changelog
 
+### 4.22.8 (2021-08-19)
+
+Fixed:
+
+-   sql transactions fixed
+-   sql migrate apply patches in own transactions
+-   sql dbh lock added
+-   pgsql notice fixed
+
 ### 4.22.7 (2021-08-16)
 
 Fixed:
