@@ -4,6 +4,7 @@ externalTypes:
   - https://softvisio.github.io/result/
 
 types:
+  Auth:
   Table: "/text.md#Class: Table"
   ProxyClient:
   Blob: "/blob.md#Class: Blob"
