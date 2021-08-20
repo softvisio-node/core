@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.22.9 (2021-08-20)
+
+Fixed:
+
+-   sql patch version parser fixed
+-   docs updated
+
 ### 4.22.8 (2021-08-19)
 
 Fixed:
