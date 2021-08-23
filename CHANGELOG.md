@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.22.10 (2021-08-23)
+
+Fixed:
+
+-   api object user id type fixed
+-   db patches renamed
+
 ### 4.22.9 (2021-08-20)
 
 Fixed:
