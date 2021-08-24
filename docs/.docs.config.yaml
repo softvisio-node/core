@@ -18,3 +18,8 @@ types:
   DoublyLinkedList: "/doubly-linked-list.md"
   DoublyLinkedListNode: "/doubly-linked-list.md#Class: DoublyLinkedListNode"
   CacheLRU: "/cache-lru.md"
+  Threads: "/threads.md#Class: Threads"
+  CondVar: "/threads.md#Class: CondVar"
+  Semaphore: "/threads.md#Class: Semaphore"
+  Mutex: "/threads.md#Class: Mutex"
+  Signal: "/threads.md#Class: Signal"

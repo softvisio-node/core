@@ -34,6 +34,8 @@ import Mutex from "@softvisio/core/threads/mutex";
 const mutex = new Mutex();
 ```
 
+`Mutex` exports the same interface as <Semaphore\>, except `MaxThreads` is limited to `1`.
+
 ## Class: Signal
 
 ```javascript
