@@ -16,6 +16,7 @@
 -   [Stream](/stream.md)
 -   [SQL](/sql.md)
 -   [Text](/text.md)
+-   [Threads](/threads.md)
 -   [Tmp](/tmp.md)
 -   [Utils](/utils.md)
 
