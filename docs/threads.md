@@ -147,3 +147,29 @@ import Signal from "@softvisio/core/threads/signal";
 
 const signal = new Signal();
 ```
+
+### signal.waitingThreads
+
+-   Returns: <integer\> Number of the threads, waiting for the signal.
+
+### signal.wait()
+
+-   Returns: <Promise\> Resolves to <any\>. Returns immediately if signal already sent.
+
+### signal.send( value )
+
+-   `value` <any\> Signal value.
+
+If has waiting threads, value will be sent to the first waiting thread, otherwise `value` will be stored internally and passed to the first thread, which will call `signal.wait()` method.
+
+### signal.try( value )
+
+-   `value` <any\> Signal value.
+
+Try to send signal to the first waiting thread. If no waiting threads `value` will be lost.
+
+### signal.broadcast( value )
+
+-   `value` <any\> Signal value.
+
+Wake up all waiting threads and pass the `value`. If no waiting threads `value` will be lost.
