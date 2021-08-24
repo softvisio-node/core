@@ -10,7 +10,16 @@ const threads = new Threads();
 
 ### Event: "event"
 
-### Event: "event/<event-name>"
+-   `name` <string\> Remote event name.
+-   `args` <Array\> Remote event arguments.
+
+Emitted, when remote thread publish event.
+
+### Event: "event/<event-name\>"
+
+-   `...args` <any\> Remote event arguments.
+
+Emitted, when remote thread publish event.
 
 ### Event: "subscribe"
 
