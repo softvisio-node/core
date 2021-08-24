@@ -18,6 +18,22 @@ const cv = new CondVar().begin();
 await cv.end().recv();
 ```
 
+### cv.begin()
+
+-   Returns: <CondVar\> Instance of `this`.
+
+### cv.end()
+
+-   Returns: <CondVar\> Instance of `this`.
+
+### cv.send( res )
+
+-   `res` <any\> Any result, passed to the `cv.recv()` callback.
+
+### cv.recv()
+
+-   Returns: <Promise\> Resolves to the <any\>.
+
 ## Class: Semaphore
 
 ```javascript
