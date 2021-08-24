@@ -8,6 +8,34 @@ import Threads from "@softvisio/core/threads";
 const threads = new Threads();
 ```
 
+### Event: "event"
+
+### Event: "event/<event-name>"
+
+### Event: "subscribe"
+
+-   `eventName` <string\> Subscribed event name.
+
+Emitted, when one of the remote threads subscribed to event.
+
+### Event: "unsubscribe"
+
+-   `eventName` <string\> Unsubscribed event name.
+
+Emitted, when no more remote threads listening for `eventName`.
+
+### Threads.isMainThread
+
+-   Returns: <boolean\> `true` if threads is main process thread.
+
+### threads.run( options )
+
+### threads.publish( name, ...args )
+
+### threads.call( name, ...args )
+
+### threads.callVoid( name, ...args )
+
 ## Class: CondVar
 
 ```javascript
