@@ -22,13 +22,19 @@ await cv.end().recv();
 
 -   Returns: <CondVar\> Instance of `this`.
 
+Increases internal counter. If counter will equal `0` condvar will be resolved.
+
 ### cv.end()
 
 -   Returns: <CondVar\> Instance of `this`.
 
+Decreases internal counter. If counter will equal `0` condvar will be resolved.
+
 ### cv.send( res? )
 
 -   `res?` <any\> Any result, will be passed to the `cv.recv()` callback.
+
+Resolves condvar, if it wasn't resolved previously.
 
 ### cv.recv()
 
