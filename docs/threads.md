@@ -6,6 +6,23 @@
 import Threads from "@softvisio/core/threads";
 
 const threads = new Threads();
+
+var res = await threads.run({
+    worker1: {
+        num: 1
+        path: new URL("./worker1.js", import.meta.url),
+        arguments: []
+    },
+    worker2: {
+        num: -2
+        path: new URL("./worker2.js", import.meta.url),
+        arguments: []
+    },
+});
+
+if (!res.ok) throw res;
+
+res = await threads.call("worker1", "method", arg1, arg2);
 ```
 
 ### Event: "event"
@@ -39,11 +56,39 @@ Emitted, when no more remote threads listening for `eventName`.
 
 ### threads.run( options )
 
+-   `options` <Object\> Threads to run. Property name is a thread name. Property value <Object\>:
+
+    -   `num` <integer\> Number of threads to run. **Default:** number of CPUs.
+    -   `path` <URL\> | <string\> File URL or path to the worker module.
+    -   `arguments?` <Array\> Arguments for worker constructor.
+
+-   Returns: <Promise\> Resolves to the <Result\>.
+
+Start remote threads.
+
 ### threads.publish( name, ...args )
+
+-   `name` <string\> Event name.
+-   `...args` <any\> Event arguments.
+
+Publish event. Event will be delivered only to the threads, which are subscribed to this event.
 
 ### threads.call( name, ...args )
 
-### threads.callVoid( name, ...args )
+-   `name` <string\> Thread name.
+-   `method` <string\> Method name.
+-   `...args` <any\> Remote method arguments.
+-   Returns: <Promise> Resolved to the <Result\>.
+
+Select remote thread (round robin) and calls remote method with the given arguments.
+
+### threads.callVoid( thread, method, ...args )
+
+-   `name` <string\> Thread name.
+-   `method` <string\> Method name.
+-   `...args` <any\> Remote method arguments.
+
+Select remote thread (round robin) and calls remote method with the given arguments.
 
 ## Class: CondVar
 
