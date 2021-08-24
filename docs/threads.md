@@ -26,9 +26,9 @@ await cv.end().recv();
 
 -   Returns: <CondVar\> Instance of `this`.
 
-### cv.send( res )
+### cv.send( res? )
 
--   `res` <any\> Any result, passed to the `cv.recv()` callback.
+-   `res?` <any\> Any result, will be passed to the `cv.recv()` callback.
 
 ### cv.recv()
 
