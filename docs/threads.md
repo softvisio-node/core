@@ -130,6 +130,90 @@ import Semaphre from "@softvisio/core/threads/semaphore";
 const semaphore = new Semaphore();
 ```
 
+### Event: "pause"
+
+Emitted on semaphore paused.
+
+### Event: "resume"
+
+Emitted on semaphore resumed.
+
+### Event: "drain"
+
+Emitted aftere thread is finished and no more waiting threads are in the queue.
+
+### Event: "free-threads"
+
+Emitted after thread is finished and semaphore has free threads to run
+
+### new Semaphore( options? )
+
+-   `options` <Object\>:
+    -   `maxThreads` <integer\> Max number of the parallel running threads.
+    -   `maxWaitingThreads` <integer\> Max number of the waiting threads.
+
+### semaphore.maxThreads
+
+-   Returns: <integer\> Max number of parallel running threads.
+
+### semaphore.maxWaitingThreads
+
+-   Returns: <integer\> Max number of waiting threads (max. queue length).
+
+### semaphore.runningThreads
+
+-   Returns: <integer\> Number of the running threads.
+
+### semaphore.freeThreads
+
+-   Returns: <integer\> Number of the threads, that can be started until limit will be reached.
+
+### semaphore.waitingThreads
+
+-   Returns: <integer\> Number of the threads in the queue.
+
+### semaphore.freeWaitingThreads
+
+-   Returns: <integer\> Number of the threads, that can be pushed to the queue until limit will be reached.
+
+### semaphore.isLocked
+
+-   Returns: <boolean\> `true` if limit of the parallel running threads is reached.
+
+### semaphore.isPaused
+
+-   Returns: <boolean\> `true` if .semaphore is paused.
+
+### semaphore.pause()
+
+Pause semaphore.
+
+### semaphore.resume()
+
+Resume semaphore.
+
+### semaphore.runThread( method, ...args )
+
+-   `method` <string\> | <Function\> Method to call.
+-   `...args` <any\> Method arguments.
+-   Returns: <Promise\> resolves to <Result\>.
+
+### semaphore.tryStartThread()
+
+### semaphore.startThread()
+
+### semaphore.endThread()
+
+### semaphore.tryStartThread()
+
+### semaphore.tryDown()
+
+### semaphore.down()
+
+### semaphore.up()
+
+### semaphore.signal
+
 ## Class: Mutex
 
 ```javascript
