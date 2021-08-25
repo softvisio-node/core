@@ -146,6 +146,10 @@ Emitted aftere thread is finished and no more waiting threads are in the queue.
 
 Emitted after thread is finished and semaphore has free threads to run
 
+### Semaphore.newSet()
+
+-   Returns: <SemaphoreSet\>.
+
 ### new Semaphore( options? )
 
 -   `options` <Object\>:
@@ -183,6 +187,10 @@ Emitted after thread is finished and semaphore has free threads to run
 ### semaphore.isPaused
 
 -   Returns: <boolean\> `true` if .semaphore is paused.
+
+### semaphore.destroy()
+
+Removes semaphore from the <SemaphoreSet\>.
 
 ### semaphore.pause()
 
@@ -227,6 +235,12 @@ Up semaphore.
 ### semaphore.signal
 
 -   Returns: <Signal\>.
+
+## Class: SemaphoreSet
+
+### semaphoreSet.get( id )
+
+-   Returns: <Semaphore\>.
 
 ## Class: Mutex
 

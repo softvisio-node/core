@@ -21,5 +21,6 @@ types:
   Threads: "/threads.md#Class: Threads"
   CondVar: "/threads.md#Class: CondVar"
   Semaphore: "/threads.md#Class: Semaphore"
+  SemaphoreSet: "/threads.md#Class: SemaphoreSet"
   Mutex: "/threads.md#Class: Mutex"
   Signal: "/threads.md#Class: Signal"
