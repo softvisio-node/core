@@ -146,7 +146,7 @@ Emitted aftere thread is finished and no more waiting threads are in the queue.
 
 Emitted after thread is finished and semaphore has free threads to run
 
-### Semaphore.newSet()
+### Semaphore.Set
 
 -   Returns: <SemaphoreSet\>.
 
