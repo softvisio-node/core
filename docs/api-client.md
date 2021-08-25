@@ -334,19 +334,19 @@ Ref this connection socket.
 
 Unref this connection socket.
 
-## Class: APIClientHub
+## Class: APIServices
 
 ```javascript
-import APIClientHub from "@softvisio/core/api/hub";
+import APIServices from "@softvisio/core/api/services";
 
-const hub = new APIClientHub({
+const services = new APIServices({
     test: "wss://test.com/8080/rpc",
 });
 
-const res = await APIClientHub.call("test", "/v1/method");
+const res = await APIServices.call("test", "/v1/method");
 ```
 
-### new APIClientHub( services )
+### new APIServices( services )
 
 -   `services?` <Object\>
 
@@ -364,34 +364,34 @@ const res = await APIClientHub.call("test", "/v1/method");
 -   `event` <string\> Remote event name.
 -   `...args` <any\> Remote event arguments.
 
-### hub.num
+### services.num
 
 -   Returns: <integer\> Number of services.
 
-### hub.addService( name, url, options )
+### services.addService( name, url, options )
 
 -   `name` <string\> Service name.
 -   `url` <string\> | <URL\> Service URL.
 -   `options?` <Object\> Service options.
 
-### hub.addServices( services )
+### services.addServices( services )
 
 -   `services` <Object\>:
     -   Key: service name.
     -   Value: service url or <Array\> [`url`, `options`].
 
-### hub.addServicesFromEnv( options )
+### services.addServicesFromEnv( options )
 
 -   `options?` <Object\>
     -   `prefix` <string\> **Default:** `APP_SERVICE_`.
     -   `names` <string[]\> If defined, add only services, which names are enumerated.
 
-### hub.getService( service )
+### services.getService( service )
 
 -   `service` <string\> Service name.
 -   Returns: <APIClient\> API client associated withe the given service name.
 
-### hub.publish( services, name, ...args )
+### services.publish( services, name, ...args )
 
 -   `services` <string\> | <string[]> Target services names.
 -   `name` <string\> Event name.
@@ -399,31 +399,31 @@ const res = await APIClientHub.call("test", "/v1/method");
 
 Publish event to the remote services.
 
-### hub.ping( service )
+### services.ping( service )
 
 -   `service` <string\> Target service name.
 -   Returns: <Promise\> Fullfils with the call <Result\>.
 
-### hub.heathcheck( service )
+### services.heathcheck( service )
 
 -   `service` <string\> Target service name.
 -   Returns: <Promise\> Fullfils with the call <Result\>.
 
-### hub.call( service, method, ...args )
+### services.call( service, method, ...args )
 
 -   `service` <string\> Target service name.
 -   `method` <string\> Remote method name.
 -   `...args` <any\> Method arguments.
 -   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
 
-### hub.callVoid( service, method, ...args )
+### services.callVoid( service, method, ...args )
 
 -   `service` <string\> Target service name.
 -   `method` <string\> Remote method name.
 -   `...args` <any\> Method arguments.
 -   Returns: <undefined\>.
 
-### hub.callCached( service, method, cache, ...args )
+### services.callCached( service, method, cache, ...args )
 
 -   `service` <string\> Target service name.
 -   `method` <string\> Remote method name.
@@ -433,14 +433,14 @@ Publish event to the remote services.
 -   `...args` <any\> Method arguments.
 -   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
 
-### hub.ref()
+### services.ref()
 
--   Returns: <APIClientHub\> `this`.
+-   Returns: <APIServices\> `this`.
 
 Calls `ref()` on the added services.
 
-### hub.unref()
+### services.unref()
 
--   Returns: <APIClientHub\> `this`.
+-   Returns: <APIServices\> `this`.
 
 Calls `unref()` on the added services.

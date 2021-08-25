@@ -12,7 +12,7 @@ types:
   APIClient: "/api-client.md#Class: APIClient"
   APIClientUpload: "/api-client.md#Class: APIClientUpload"
   APIClientConnection: "/api-client.md#Class: APIClientConnection"
-  APIClientHub: "/api-client.md#Class: APIClientHub"
+  APIServices: "/api-client.md#Class: APIServices"
   TmpFile: "/tmp.md#Class: TmpFile"
   TmpDir: "/tmp.md#Class: TmpDir"
   DoublyLinkedList: "/doubly-linked-list.md"
