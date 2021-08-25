@@ -1,5 +1,13 @@
 # Changelog
 
+### 4.23.0 (2021-08-25)
+
+Added:
+
+-   api/hub renamed to api/services
+-   semaphore set refactored
+-   docs updated
+
 ### 4.22.10 (2021-08-23)
 
 Fixed:
