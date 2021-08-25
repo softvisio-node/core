@@ -200,19 +200,33 @@ Resume semaphore.
 
 ### semaphore.tryStartThread()
 
+-   Returns: <boolean\> `true` if thread was started.
+
 ### semaphore.startThread()
+
+-   Returns: <Promise\> Resolves, when thread will be started.
 
 ### semaphore.endThread()
 
-### semaphore.tryStartThread()
+End current thread.
 
 ### semaphore.tryDown()
 
+-   Returns: <boolean\> `true` if semaphore was down.
+
+Try do down semaphore.
+
 ### semaphore.down()
+
+-   Returns: <Promise\> Resolves, when semaphore will be down.
 
 ### semaphore.up()
 
+Up semaphore.
+
 ### semaphore.signal
+
+-   Returns: <Signal\>.
 
 ## Class: Mutex
 
