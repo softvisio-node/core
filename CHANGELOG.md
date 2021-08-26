@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.24.0 (2021-08-26)
+
+Added:
+
+-   github api added
+
 ### 4.23.0 (2021-08-25)
 
 Added:
