@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.25.0 (2021-08-29)
+
+Added:
+
+-   resources updater
+-   export tar
+
 ### 4.24.1 (2021-08-26)
 
 Fixed:
