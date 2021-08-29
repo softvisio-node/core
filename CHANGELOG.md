@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.25.1 (2021-08-29)
+
+Fixed:
+
+-   resources updater
+
 ### 4.25.0 (2021-08-29)
 
 Added:
