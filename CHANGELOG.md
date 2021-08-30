@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.25.3 (2021-08-30)
+
+Fixed:
+
+-   resources updater refactored
+
 ### 4.25.2 (2021-08-30)
 
 Fixed:
