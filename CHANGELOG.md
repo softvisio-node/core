@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.27.2 (2021-08-30)
+
+Fixed:
+
+-   default hostname resources update interval fixed
+
 ### 4.27.1 (2021-08-30)
 
 Fixed:
