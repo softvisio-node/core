@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.25.2 (2021-08-30)
+
+Fixed:
+
+-   benchmarks relative speed format updated
+
 ### 4.25.1 (2021-08-29)
 
 Fixed:
