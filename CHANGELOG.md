@@ -1,5 +1,16 @@
 # Changelog
 
+### 4.26.0 (2021-08-30)
+
+Added:
+
+-   docs updated
+-   hostname module added
+
+Fixed:
+
+-   method signature fixed
+
 ### 4.25.4 (2021-08-30)
 
 Fixed:
