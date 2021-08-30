@@ -24,3 +24,4 @@ types:
   SemaphoreSet: "/threads.md#Class: SemaphoreSet"
   Mutex: "/threads.md#Class: Mutex"
   Signal: "/threads.md#Class: Signal"
+  Hostname: "/hostname.md"

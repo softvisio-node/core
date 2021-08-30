@@ -13,6 +13,7 @@
 -   [Doubly linked list](/doubly-linked-list.md)
 -   [Env](/env.md)
 -   [File](/file.md)
+-   [Hostname](/hostname.md)
 -   [Stream](/stream.md)
 -   [SQL](/sql.md)
 -   [Text](/text.md)
