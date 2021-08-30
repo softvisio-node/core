@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.25.4 (2021-08-30)
+
+Fixed:
+
+-   unref resources update timeout
+
 ### 4.25.3 (2021-08-30)
 
 Fixed:
