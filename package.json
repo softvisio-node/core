@@ -63,6 +63,12 @@
             "node": "./lib/websocket.js"
         }
     },
+    "bin": {
+        "update-core": "bin/update.js"
+    },
+    "scripts": {
+        "install": "node bin/update.js"
+    },
     "dependencies": {
         "@softvisio/argon2": "^1.2.5",
         "@softvisio/msgpack": "^3.0.0",
