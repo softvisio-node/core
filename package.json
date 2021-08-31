@@ -85,7 +85,7 @@
         "js-yaml": "^4.1.0",
         "json5": "^2.2.0",
         "mime-db": "^1.45.0",
-        "node-fetch": "^2.6.1",
+        "node-fetch": "^3.0.0",
         "redis": "^3.0.2",
         "tar": "^6.1.11",
         "utf-8-validate": "^5.0.4",
