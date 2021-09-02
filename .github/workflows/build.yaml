@@ -1,0 +1,19 @@
+name: Build datasets
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * *" # every day at 12:00
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: softvisio/core
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - run: |
+          . /etc/profile.d/n.sh
+          npm i --no-fund --no-audit
+          bin/update.js --build
+        shell: bash
+        working-directory: /var/local/package
