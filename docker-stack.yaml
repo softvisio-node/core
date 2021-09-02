@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  core:
+    image: softvisio/core
+
+    build:
+      context: .
+
+x-build:
+  default_tag: latest
+  # autobuild_tags: [main, devel, latest]
