@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.28.0 (2021-09-02)
+
+Features:
+
+-   feat: core resources datasets
+-   feat: node-fetch v3
+
 ### 4.27.2 (2021-08-30)
 
 Fixed:
