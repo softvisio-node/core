@@ -13,7 +13,7 @@ jobs:
     steps:
       - run: |
           whoami
-          ls -la ~
+          ls -la /root/
           /etc/bashrc
           # . /etc/profile.d/n.sh
           # npm i --no-fund --no-audit
