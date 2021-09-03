@@ -12,9 +12,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - run: |
-          whoami
-          ls -la /root/
-          /etc/bashrc
+          /root/.bash_profile
           # . /etc/profile.d/n.sh
           # npm i --no-fund --no-audit
           bin/update.js --build
