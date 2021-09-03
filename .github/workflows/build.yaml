@@ -12,7 +12,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - run: |
-          ~/.bash_profile
+          ~/.bashrc
           # . /etc/profile.d/n.sh
           # npm i --no-fund --no-audit
           bin/update.js --build
