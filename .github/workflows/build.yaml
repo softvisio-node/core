@@ -8,11 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: softvisio/core
+      options: --user root
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - run: |
-          sudo /etc/bashrc
+          /etc/bashrc
           # . /etc/profile.d/n.sh
           # npm i --no-fund --no-audit
           bin/update.js --build
