@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.28.1 (2021-09-03)
+
+Fixes:
+
+-   fix: dockerfile cleanup
+
 ### 4.28.0 (2021-09-02)
 
 Features:
