@@ -12,6 +12,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - run: |
-          bin/update.js --build
+          node bin/update.js --build
         shell: bash
         working-directory: /var/local/package
