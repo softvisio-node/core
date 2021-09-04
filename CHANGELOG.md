@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.28.2 (2021-09-04)
+
+Fixes:
+
+-   fix: build datasets github action
+
 ### 4.28.1 (2021-09-03)
 
 Fixes:
