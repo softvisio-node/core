@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.28.3 (2021-09-06)
+
+Fixes:
+
+-   fix(hostname): resources etag
+
 ### 4.28.2 (2021-09-04)
 
 Fixes:
