@@ -1,5 +1,11 @@
 # Changelog
 
+### 4.28.6 (2021-09-08)
+
+Fixes:
+
+-   fix(proxy): boolean params serialization
+
 ### 4.28.5 (2021-09-08)
 
 Fixes:
