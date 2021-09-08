@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.28.5 (2021-09-08)
+
+Fixes:
+
+-   fix(proxy): resolve option
+-   fix(proxy): softvisio params separator
+
 ### 4.28.4 (2021-09-07)
 
 Fixes:
