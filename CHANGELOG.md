@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.28.7 (2021-09-12)
+
+Fixes:
+
+-   fix: browser env
+-   fix: docker autobuild_tags renamed to auto_tags
+
 ### 4.28.6 (2021-09-08)
 
 Fixes:
