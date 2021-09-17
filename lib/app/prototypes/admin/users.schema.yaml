@@ -138,3 +138,11 @@ methods:
       - name: new_password
         schema:
           type: string
+
+  delete-sessions:
+    title: Delete user sessions
+    params:
+      - name: user_id
+        required: true
+        schema:
+          type: string
