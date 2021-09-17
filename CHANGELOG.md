@@ -1,5 +1,17 @@
 # Changelog
 
+### 4.29.0 (2021-09-17)
+
+Features:
+
+-   feat: api drop user sessions
+-   feat: drop user sessions on user disabled
+-   feat: uws end() closeConnection parameter added
+
+Fixes:
+
+-   fix: docker devel tag removed
+
 ### 4.28.7 (2021-09-12)
 
 Fixes:
