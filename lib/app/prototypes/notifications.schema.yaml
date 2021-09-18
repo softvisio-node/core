@@ -17,3 +17,13 @@ methods:
             name: { sortable: true }
             created: { sortable: true }
             enabled: { sortable: true }
+
+  mark-read:
+    title: Mark UI notifications as read
+    params:
+      - name: notifications
+        schema:
+          type: array
+          items:
+            type: string
+          minItems: 1
