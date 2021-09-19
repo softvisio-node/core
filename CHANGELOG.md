@@ -1,5 +1,13 @@
 # Changelog
 
+### 4.30.0 (2021-09-19)
+
+Features:
+
+-   feat: api profile delete sessions
+-   feat: notifications api
+-   feat: utils relativeTime function
+
 ### 4.29.0 (2021-09-17)
 
 Features:
