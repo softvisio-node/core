@@ -31,6 +31,9 @@ methods:
   delete:
     title: Delete UI notification
     params:
-      - name: notification
+      - name: notifications
         schema:
-          type: string
+          type: array
+          items:
+            type: string
+          minItems: 1
