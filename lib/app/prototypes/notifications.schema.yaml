@@ -27,3 +27,10 @@ methods:
           items:
             type: string
           minItems: 1
+
+  delete:
+    title: Delete UI notification
+    params:
+      - name: notification
+        schema:
+          type: string
