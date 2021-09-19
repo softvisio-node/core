@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.30.1 (2021-09-19)
+
+Fixes:
+
+-   fix: app cluster pub/sub
+-   fix: uuid repalced with crypto randomUUID
+
 ### 4.30.0 (2021-09-19)
 
 Features:
