@@ -28,6 +28,16 @@ methods:
             type: string
           minItems: 1
 
+  mark-unread:
+    title: Mark UI notifications as unread
+    params:
+      - name: notifications
+        schema:
+          type: array
+          items:
+            type: string
+          minItems: 1
+
   delete:
     title: Delete UI notification
     params:
