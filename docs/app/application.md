@@ -4,7 +4,7 @@
 
 Application has three events type:
 
--   **global** - Events delivered to the local application listeners, local threads and annd applicaiotn instances and threads in the cluster. Cluster must be initialized, otherwise events will not be delivered to the cluster listeners. **Global events are prefixed with `"/"`**.
+-   **global** - Events delivered to the local application listeners, local threads and and applicaiotn instances and threads in the cluster. Cluster must be initialized, otherwise events will not be delivered to the cluster listeners. **Global events are prefixed with the `"/"`**.
 
     ```javascript
     // listen
@@ -12,6 +12,16 @@ Application has three events type:
 
     // publish
     app.publish("/global-event-name");
+    ```
+
+    To send events to the other cluster namespace you need to use `"//"` prefix. You are unable to listen for events from the other namespace. For example:
+
+    ```javascript
+    // ERROR
+    app.on("//namespace/global-event-name", callback);
+
+    // OK
+    app.publish("//namespace/global-event-name");
     ```
 
 -   **local** - Local events are delivered to the local application and local threads.
