@@ -1,5 +1,19 @@
 # Changelog
 
+### 4.32.0 (2021-09-22)
+
+Features:
+
+-   feat: notifications mark unread
+-   feat: publish notifications from the app thread
+-   feat: publish to the other cluster namespace
+
+Fixes:
+
+-   fix: app sendMail method moved to notifications.sendEmail
+-   fix: app thread services moved to the app property (minor breaking change)
+-   fix: sqlite lastInsertRowId removed
+
 ### 4.31.0 (2021-09-19)
 
 Features:
