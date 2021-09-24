@@ -1,5 +1,27 @@
 # Changelog
 
+### 5.0.0-alpha.0 (2021-09-24)
+
+Breaking changes:
+
+-   feat!: meta property
+
+Features:
+
+-   feat: nenv script
+
+Fixes:
+
+-   fix: isSqlite, isPgsql props renamed
+-   fix: make sqlite calls async
+-   fix: sql release lockec dbh
+-   fix: sql release locked dbh
+-   fix: sqlite busy timout 30 sec
+
+Migration:
+
+-   Result meta property.
+
 ### 4.32.0 (2021-09-22)
 
 Features:
