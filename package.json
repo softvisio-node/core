@@ -64,6 +64,7 @@
         }
     },
     "bin": {
+        "nenv": "bin/nenv.js",
         "update-core": "bin/update.js"
     },
     "scripts": {
