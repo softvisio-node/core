@@ -19,9 +19,6 @@ while ( process.argv.length ) {
 
 if ( !process.argv.length ) process.exit( 2 );
 
-try {
-    child_process.execFileSync( process.argv.shift(), process.argv, { "stdio": "inherit", "shell": true } );
-}
-catch ( e ) {
-    process.exit( 2 );
-}
+const res = child_process.spawnSync( process.argv.shift(), process.argv, { "stdio": "inherit", "shell": true } );
+
+process.exit( res.status );
