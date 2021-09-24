@@ -6,11 +6,13 @@ process.argv.shift();
 while ( process.argv.length ) {
     const arg = process.argv.shift();
 
-    if ( arg == null || arg === "-" ) break;
-
     const idx = arg.indexOf( "=" );
 
-    if ( idx < 1 ) process.exit( 2 );
+    if ( idx < 1 ) {
+        process.argv.unshift( arg );
+
+        break;
+    }
 
     process.env[arg.substr( 0, idx )] = arg.substring( idx + 1 );
 }
