@@ -1,5 +1,11 @@
 # Changelog
 
+### 5.0.1 (2021-09-25)
+
+Fixes:
+
+-   fix: fetch lazy load http agent
+
 ### 5.0.0 (2021-09-24)
 
 Fixes:
