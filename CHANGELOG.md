@@ -1,5 +1,15 @@
 # Changelog
 
+### 5.1.0 (2021-09-26)
+
+Features:
+
+-   feat: db schema type
+
+Fixes:
+
+-   fix: make sqlite fully sync
+
 ### 5.0.1 (2021-09-25)
 
 Fixes:
