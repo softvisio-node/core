@@ -1,5 +1,15 @@
 # Changelog
 
+### 5.2.0 (2021-09-27)
+
+Features:
+
+-   feat: sql meta module
+
+Fixes:
+
+-   fix: sqlite migrate throw error if patch function is async
+
 ### 5.1.0 (2021-09-26)
 
 Features:
