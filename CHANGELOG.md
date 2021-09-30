@@ -1,5 +1,11 @@
 # Changelog
 
+### 5.2.1 (2021-09-30)
+
+Fixes:
+
+-   fix: env readConfig options update
+
 ### 5.2.0 (2021-09-27)
 
 Features:
