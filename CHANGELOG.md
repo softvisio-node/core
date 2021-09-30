@@ -1,5 +1,11 @@
 # Changelog
 
+### 5.2.2 (2021-09-30)
+
+Fixes:
+
+-   fix: serialize non-string env values to json
+
 ### 5.2.1 (2021-09-30)
 
 Fixes:
