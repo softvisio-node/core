@@ -108,13 +108,17 @@ app.publish("rpc", name, ...args);
 
 #### Event: "client/connect"
 
--   `connectionId` <string\> Client connection id;
+-   `options` <Object\> Options:
+    -   `connectionId` <string\> Client connection id (`uuid`);
+    -   `type` <string\> Connection type: `"api"`, `"rpc"`.
 
 Emitted on new client connected using persistent connection.
 
 #### Event: "client/disconnect"
 
--   `connectionId` <string\> Client connection id;
+-   `options` <Object\> Options:
+    -   `connectionId` <string\> Client connection id (`uuid`);
+    -   `type` <string\> Connection type: `"api"`, `"rpc"`.
 
 Emitted on persistent client disconnected.
 
