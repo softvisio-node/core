@@ -3,8 +3,8 @@ import Hostname from "#lib/hostname";
 const TESTS = [
 
     // ip
-    { "hostname": "1.2.3.4", "isDomain": false, "isIP": true, "isIPv4": true, "isValid": true },
-    { "hostname": "1.2.3.4.5", "isDomain": true, "isIP": false, "isIPv4": false, "isValid": true },
+    { "hostname": "1.2.3.4", "isDomain": false, "isIp": true, "isIpV4": true, "isValid": true },
+    { "hostname": "1.2.3.4.5", "isDomain": true, "isIp": false, "isIpV4": false, "isValid": true },
 
     // domain name validation
     { "hostname": "-a.1.2.3.4", "isDomain": true, "isValid": false },
@@ -22,9 +22,9 @@ const TESTS = [
     { "hostname": "zzz.ua", "publicSuffix": "ua", "rootDomain": "zzz.ua", "rootLabel": "zzz" },
 
     // tld
-    { "hostname": "zzz.ua", "tld": "ua", "isTLD": false, "tldIsValid": true },
-    { "hostname": "ua", "tld": "ua", "isTLD": true, "tldIsValid": true },
-    { "hostname": "zzz.fuck", "tld": "fuck", "isTLD": false, "tldIsValid": false },
+    { "hostname": "zzz.ua", "tld": "ua", "isTld": false, "tldIsValid": true },
+    { "hostname": "ua", "tld": "ua", "isTld": true, "tldIsValid": true },
+    { "hostname": "zzz.fuck", "tld": "fuck", "isTld": false, "tldIsValid": false },
 ];
 
 for ( const spec of TESTS ) _test( spec );
