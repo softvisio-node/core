@@ -17,6 +17,11 @@
           deprecated: { type: boolean }
           private: { type: boolean }
           permissions: { $ref: "components#/permissions" }
+          persistentConnectionRequired: { type: "boolean" }
+          validateParams: { type: "boolean" }
+          logApiCalls: { type: boolean }
+          activeRequestsLimit: { type: integer, minimum: 0 }
+          activeRequestsUserLimit: { type: integer, minimum: 0 }
           params:
             params:
             type: array
@@ -30,10 +35,6 @@
                 schema: { type: object }
               required: [name, schema]
               additionalProperties: false
-          validateParams: { type: "boolean" }
-          logApiCalls: { type: boolean }
-          activeRequestsLimit: { type: integer, minimum: 0 }
-          activeRequestsUserLimit: { type: integer, minimum: 0 }
           meta:
             anyOf:
               - type: object
