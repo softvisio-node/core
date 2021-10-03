@@ -104,6 +104,20 @@ app.publish("rpc", name, ...args);
 -   `name` <string\> Event name.
 -   `...args` <any\> Event arguments.
 
+### Client events
+
+#### Event: "client/connect"
+
+-   `connectionId` <string\> Client connection id;
+
+Emitted on new client connected using persistent connection.
+
+#### Event: "client/disconnect"
+
+-   `connectionId` <string\> Client connection id;
+
+Emitted on persistent client disconnected.
+
 ### Cluster events
 
 #### Event: "cluster/connect"
