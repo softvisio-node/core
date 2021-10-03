@@ -238,9 +238,13 @@ Up semaphore.
 
 ## Class: SemaphoreSet
 
+### semaphoreSet.has( id )
+
+-   Returns: <Boolean\> `true` if semaphore with specified `id` is exists.
+
 ### semaphoreSet.get( id )
 
--   Returns: <Semaphore\>.
+-   Returns: <Semaphore\> Semaphore with the specified `id`. If such semaphore is not exists it will be created.
 
 ## Class: Mutex
 
