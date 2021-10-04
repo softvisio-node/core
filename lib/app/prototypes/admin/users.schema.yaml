@@ -40,7 +40,7 @@ methods:
   delete:
     title: Remove user
     params:
-      - name: user_id
+      - name: userId
         required: true
         schema:
           type: string
@@ -131,11 +131,11 @@ methods:
         required: true
         schema:
           type: string
-      - name: new_username
+      - name: newUsername
         required: true
         schema:
           type: string
-      - name: new_password
+      - name: newPassword
         schema:
           type: string
 
