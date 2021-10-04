@@ -2,8 +2,8 @@
 
 ### API connect URLs
 
--   API HTTP URL: `<%- httpURL %>`
--   API WebSockets URL: `<%- wsURL %>`
+-   API HTTP URL: `<%- httpUrl %>`
+-   API WebSockets URL: `<%- webSocketsUrl %>`
 
 <!-- tabs:start -->
 
@@ -11,14 +11,14 @@
 
 <!-- prettier-ignore -->
 ```javascript
-const api = API.new( "<%- wsURL %>" )
+const api = API.new( "<%- webSocketsUrl %>" )
 ```
 
 #### **HTTP**
 
 <!-- prettier-ignore -->
 ```javascript
-const api = API.new( "<%- httpURL %>" )
+const api = API.new( "<%- httpUrl %>" )
 ```
 
 <!-- tabs:end -->
@@ -60,11 +60,11 @@ curl \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
     -H "Content-Type: application/json" \
     -d '[<%- method.markdownSignature %>]' \
-    "<%- httpURL %><%- method.id.substr( 1 ) %>"
+    "<%- httpUrl %><%- method.id.substr( 1 ) %>"
 <% } else { -%>
 curl \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
-    "<%- httpURL %><%- method.id.substr( 1 ) %>"
+    "<%- httpUrl %><%- method.id.substr( 1 ) %>"
 <% } -%>
 ```
 
