@@ -45,10 +45,10 @@ methods:
         schema:
           type: string
 
-  set-enabled:
+  setEnabled:
     title: Set user enabled
     params:
-      - name: user_id
+      - name: userId
         description: User id or name.
         required: true
         schema:
@@ -58,10 +58,10 @@ methods:
         schema:
           type: boolean
 
-  set-password:
+  setPassword:
     title: Set user password
     params:
-      - name: user_id
+      - name: userId
         description: User id or name.
         required: true
         schema:
@@ -70,18 +70,18 @@ methods:
         schema:
           type: string
 
-  get-permissions:
+  getPermissions:
     title: Get user permissions
     params:
-      - name: user_id
+      - name: userId
         required: true
         schema:
           type: string
 
-  set-permissions:
+  setPermissions:
     title: Set user permissions
     params:
-      - name: user_id
+      - name: userId
         required: true
         schema:
           type: string
@@ -91,10 +91,10 @@ methods:
           type: object
           additionalProperties: { type: boolean }
 
-  update-permissions:
+  updatePermissions:
     title: Update user permissions
     params:
-      - name: user_id
+      - name: userId
         required: true
         schema:
           type: string
@@ -124,10 +124,10 @@ methods:
                     - name:
                         type: string
 
-  set-username:
+  setUsername:
     title: Change user name
     params:
-      - name: user_id
+      - name: userId
         required: true
         schema:
           type: string
@@ -139,10 +139,10 @@ methods:
         schema:
           type: string
 
-  delete-sessions:
+  deleteSessions:
     title: Delete user sessions
     params:
-      - name: user_id
+      - name: userId
         required: true
         schema:
           type: string
