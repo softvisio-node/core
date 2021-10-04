@@ -47,27 +47,27 @@ This property is writable under the `nodejs` only.
 
 -   Returns: <Promise\> Fullfils with the `softvisio/config.js` export.
 
-### env.getXDGConfigDir( name )
+### env.getXdgConfigDir( name )
 
 -   `name` <string\> Project name.
 -   Returns: <string\> Path to the project XDG config directory.
 
-### env.getXDGDataDir( name )
+### env.getXdgDataDir( name )
 
 -   `name` <string\> Project name.
 -   Returns: <string\> Path to the project XDG data directory.
 
-### env.getXDGCacheDir( name )
+### env.getXdgCacheDir( name )
 
 -   `name` <string\> Project name.
 -   Returns: <string\> Path to the project XDG cache directory.
 
-### env.getXDGRuntimeDir( name )
+### env.getXdgRuntimeDir( name )
 
 -   `name` <string\> Project name.
 -   Returns: <string\> Path to the project XDG runtime directory.
 
-### env.findXDGConfig( name )
+### env.findXdgConfig( name )
 
 -   `name` <string\> Config name in the format `project-name/config-name`.
 -   Returns: <string\> | <null\> Absolute path to the found config or <null\>.
