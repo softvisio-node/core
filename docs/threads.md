@@ -153,8 +153,13 @@ Emitted after thread is finished and semaphore has free threads to run
 ### new Semaphore( options? )
 
 -   `options` <Object\>:
-    -   `maxThreads` <integer\> Max number of the parallel running threads.
-    -   `maxWaitingThreads` <integer\> Max number of the waiting threads.
+    -   `id?` <string\> Semaphore id. If not defined `uuid` will be used.
+    -   `maxThreads?` <integer\> Max number of the parallel running threads.
+    -   `maxWaitingThreads?` <integer\> Max number of the waiting threads.
+
+### semaphore.id
+
+-   Returns: <string\> Semaphore id.
 
 ### semaphore.maxThreads
 
