@@ -57,7 +57,7 @@ methods:
           required:
             - username
 
-  send-confirmation-email:
+  sendConfirmationEmail:
     title: Send confirmation email
     params:
       - name: user_id
@@ -66,7 +66,7 @@ methods:
         schema:
           type: string
 
-  confirm-email-by-token:
+  confirmEmailByToken:
     title: Confirm user email using email confirmation token
     permissions: ["*"]
     params:
@@ -85,7 +85,7 @@ methods:
         schema:
           type: string
 
-  set-password-by-token:
+  setPassword-by-token:
     title: Set user password using password recovery token
     params:
       - name: token

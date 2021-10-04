@@ -18,7 +18,7 @@ methods:
             created: { sortable: true }
             enabled: { sortable: true }
 
-  mark-read:
+  markRead:
     title: Mark UI notifications as read
     params:
       - name: notifications
@@ -28,7 +28,7 @@ methods:
             type: string
           minItems: 1
 
-  mark-unread:
+  markUnread:
     title: Mark UI notifications as unread
     params:
       - name: notifications

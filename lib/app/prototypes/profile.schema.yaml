@@ -5,7 +5,7 @@ methods:
   read:
     title: Read user profile
 
-  set-password:
+  setPassword:
     title: Set user email
     params:
       - name: password
@@ -14,7 +14,7 @@ methods:
         schema:
           type: string
 
-  set-email:
+  setEmail:
     title: Set user email
     params:
       - name: email
@@ -23,14 +23,14 @@ methods:
         schema:
           type: string
 
-  set-telegram-username:
+  setTelegramUsername:
     title: Set user telegram name
     params:
-      - name: telegram_username
+      - name: telegramUsername
         description: Telegram username to set, if not specified current telegram user name will be removed.
         required: false
         schema:
           type: string
 
-  delete-sessions:
+  deleteSessions:
     title: Delete sessions

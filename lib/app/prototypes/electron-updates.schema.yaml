@@ -47,7 +47,7 @@ methods:
         schema:
           type: integer
 
-  set-published:
+  setPublished:
     title: Set update enabled
     params:
       - name: updateId
