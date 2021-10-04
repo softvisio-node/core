@@ -1,5 +1,17 @@
 # Changelog
 
+### 6.0.0-alpha.1 (2021-10-04)
+
+Breaking changes:
+
+-   feat!: api methods and params names are in strict camelCase
+-   feat!: strict camel case
+-   feat!: threads rpc methods must be in camelCase
+
+Migration:
+
+-   API methods and params names must be in the camelCase.
+
 ### 6.0.0-alpha.0 (2021-10-04)
 
 Breaking changes:
