@@ -28,7 +28,7 @@ methods:
             - username
             - password
           additionalProperties: false
-      - name: signin_permissions
+      - name: signinPermissions
         description: "<null\\> | <Array\\> Array of permissions. Only user, who has this permissions can sign in. If `null` permissions will not check."
         schema:
           anyOf:
@@ -60,7 +60,7 @@ methods:
   sendConfirmationEmail:
     title: Send confirmation email
     params:
-      - name: user_id
+      - name: userId
         description: User name or email.
         required: true
         schema:
@@ -76,16 +76,16 @@ methods:
         schema:
           type: string
 
-  send-password-reset-email:
+  sendPasswordResetEmail:
     title: Send password reset email
     params:
-      - name: user_id
+      - name: userId
         description: User name or email.
         required: true
         schema:
           type: string
 
-  setPassword-by-token:
+  setPasswordByToken:
     title: Set user password using password recovery token
     params:
       - name: token
