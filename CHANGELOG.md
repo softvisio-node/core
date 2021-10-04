@@ -1,5 +1,30 @@
 # Changelog
 
+### 6.0.0-alpha.0 (2021-10-04)
+
+Breaking changes:
+
+-   feat!: strict camel case
+
+Features:
+
+-   feat: api context isWebSocket replaced with connectionId
+-   feat: api persistent connection id
+-   feat: API presistent connection check for method
+-   feat: app api client connect/disconnect events
+-   feat: app isClientConnected() method
+-   feat: mutex set has() method added
+-   feat: semaphore id
+
+Fixes:
+
+-   fix: mutex set id
+-   fix: semaphore signal lazy creation
+
+Migration:
+
+-   All identifiers renamed to the strict camelCase, without consecutive capital letters.
+
 ### 5.2.2 (2021-09-30)
 
 Fixes:
