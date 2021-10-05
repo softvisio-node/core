@@ -40,15 +40,15 @@ methods:
   delete:
     title: Remove user
     params:
-      - name: userId
+      - name: user_id
         required: true
         schema:
           type: string
 
-  setEnabled:
+  set-enabled:
     title: Set user enabled
     params:
-      - name: userId
+      - name: user_id
         description: User id or name.
         required: true
         schema:
@@ -58,10 +58,10 @@ methods:
         schema:
           type: boolean
 
-  setPassword:
+  set-password:
     title: Set user password
     params:
-      - name: userId
+      - name: user_id
         description: User id or name.
         required: true
         schema:
@@ -70,18 +70,18 @@ methods:
         schema:
           type: string
 
-  getPermissions:
+  get-permissions:
     title: Get user permissions
     params:
-      - name: userId
+      - name: user_id
         required: true
         schema:
           type: string
 
-  setPermissions:
+  set-permissions:
     title: Set user permissions
     params:
-      - name: userId
+      - name: user_id
         required: true
         schema:
           type: string
@@ -91,10 +91,10 @@ methods:
           type: object
           additionalProperties: { type: boolean }
 
-  updatePermissions:
+  update-permissions:
     title: Update user permissions
     params:
-      - name: userId
+      - name: user_id
         required: true
         schema:
           type: string
@@ -117,32 +117,28 @@ methods:
                 name:
                   type: array
                   items:
-                    - operator:
-                        type: string
-                        enum:
-                          - like
-                    - name:
-                        type: string
+                    - operator: { type: string, enum: [like] }
+                    - name: { type: string }
 
-  setUsername:
+  set-username:
     title: Change user name
     params:
-      - name: userId
+      - name: user_id
         required: true
         schema:
           type: string
-      - name: newUsername
+      - name: new_username
         required: true
         schema:
           type: string
-      - name: newPassword
+      - name: new_password
         schema:
           type: string
 
-  deleteSessions:
+  delete-sessions:
     title: Delete user sessions
     params:
-      - name: userId
+      - name: user_id
         required: true
         schema:
           type: string
