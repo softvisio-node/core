@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.0.0-alpha.4 (2021-10-05)
+
+Breaking changes:
+
+-   feat!: strict camel case
+
+Migration:
+
 ### 6.0.0-alpha.3 (2021-10-04)
 
 Breaking changes:
