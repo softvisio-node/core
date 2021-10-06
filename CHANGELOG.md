@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.0.0-alpha.6 (2021-10-06)
+
+Fixes:
+
+-   fix: invalidate user token
+-   fix: validate api read params
+
+Migration:
+
 ### 6.0.0-alpha.5 (2021-10-06)
 
 Features:
