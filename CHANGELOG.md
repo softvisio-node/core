@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.0.0 (2021-10-06)
+
+No notable changes since the previous release.
+
+Migration:
+
+-   All identifiers renamed to the strict camelCase, without consecutive capital letters.
+
 ### 6.0.0-alpha.6 (2021-10-06)
 
 Fixes:
