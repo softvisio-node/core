@@ -1,5 +1,21 @@
 # Changelog
 
+### 6.0.0-alpha.5 (2021-10-06)
+
+Features:
+
+-   feat: sql query toString()
+
+Fixes:
+
+-   fix: api schema casel case reverted
+-   fix: auth user id serialization
+-   fix: db camel case reverted
+-   fix: orderBy reverted
+-   fix: snake_case validation
+
+Migration:
+
 ### 6.0.0-alpha.4 (2021-10-05)
 
 Breaking changes:
