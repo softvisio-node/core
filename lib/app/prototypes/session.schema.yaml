@@ -28,7 +28,7 @@ methods:
             - username
             - password
           additionalProperties: false
-      - name: signinPermissions
+      - name: signin_permissions
         description: "<null\\> | <Array\\> Array of permissions. Only user, who has this permissions can sign in. If `null` permissions will not check."
         schema:
           anyOf:
@@ -53,20 +53,20 @@ methods:
             username: { type: string }
             password: { type: string }
             email: { type: string }
-            telegram_name: { type: string }
+            telegram_username: { type: string }
           required:
             - username
 
-  sendConfirmationEmail:
+  send-confirmation-email:
     title: Send confirmation email
     params:
-      - name: userId
+      - name: user_id
         description: User name or email.
         required: true
         schema:
           type: string
 
-  confirmEmailByToken:
+  confirm-email-by-token:
     title: Confirm user email using email confirmation token
     permissions: ["*"]
     params:
@@ -76,16 +76,16 @@ methods:
         schema:
           type: string
 
-  sendPasswordResetEmail:
+  send-password-reset-email:
     title: Send password reset email
     params:
-      - name: userId
+      - name: user_id
         description: User name or email.
         required: true
         schema:
           type: string
 
-  setPasswordByToken:
+  set-password-by-token:
     title: Set user password using password recovery token
     params:
       - name: token

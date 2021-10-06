@@ -20,15 +20,15 @@ methods:
   delete:
     title: Remove token
     params:
-      - name: tokenId
+      - name: token_id
         required: true
         schema:
           type: string
 
-  setEnabled:
+  set-enabled:
     title: Set token enabled
     params:
-      - name: tokenId
+      - name: token_id
         required: true
         schema:
           type: string
@@ -37,20 +37,20 @@ methods:
         schema:
           type: boolean
 
-  getPermissions:
+  get-permissions:
     title: Get token permissions
     params:
-      - name: tokenId
+      - name: token_id
         required: true
         schema:
           type: string
 
-  setPermissions:
+  set-permissions:
     title: Set token permissions
     description: |-
       Set API token permissions. Old permissions will be replaced with the new.
     params:
-      - name: tokenId
+      - name: token_id
         description: Token ID.
         required: true
         schema:
@@ -65,11 +65,11 @@ methods:
           type: object
           additionalProperties: { type: boolean }
 
-  updatePermissions:
+  update-permissions:
     title: Update token permissions
     description: Update token permissions. Permissions will be added or replaced.
     params:
-      - name: tokenId
+      - name: token_id
         description: Token ID.
         required: true
         schema:
