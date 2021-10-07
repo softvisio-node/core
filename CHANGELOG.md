@@ -7,6 +7,8 @@ No notable changes since the previous release.
 Migration:
 
 -   All identifiers renamed to the strict camelCase, without consecutive capital letters.
+-   API methods renamed to camelCase, `API_methodName`.
+-   Threads call must use camelCase notation for method, `threads.call( threadName, "methodName" )`.
 
 ### 6.0.0-alpha.6 (2021-10-06)
 
