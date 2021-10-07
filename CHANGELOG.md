@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.1.0 (2021-10-07)
+
+Features:
+
+-   feat: utils.resolve() option url
+
+Fixes:
+
+-   fix: sql trigger name
+
 ### 6.0.0 (2021-10-06)
 
 No notable changes since the previous release.
