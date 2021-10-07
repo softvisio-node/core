@@ -242,7 +242,7 @@ Up semaphore.
 ### semaphoreSet.has( id )
 
 -   `id` <string\> Semaphore id.
--   Returns: <Boolean\> `true` if semaphore with specified `id` is exists.
+-   Returns: <boolean\> `true` if semaphore with specified `id` is exists.
 
 ### semaphoreSet.get( id? )
 
