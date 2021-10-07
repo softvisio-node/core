@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.2.0 (2021-10-07)
+
+Features:
+
+-   feat: semaphore set delete method added
+
 ### 6.1.0 (2021-10-07)
 
 Features:
