@@ -193,10 +193,6 @@ Emitted after thread is finished and semaphore has free threads to run
 
 -   Returns: <boolean\> `true` if .semaphore is paused.
 
-### semaphore.destroy()
-
-Removes semaphore from the <SemaphoreSet\>.
-
 ### semaphore.pause()
 
 Pause semaphore.
@@ -245,11 +241,19 @@ Up semaphore.
 
 ### semaphoreSet.has( id )
 
+-   `id` <string\> Semaphore id.
 -   Returns: <Boolean\> `true` if semaphore with specified `id` is exists.
 
-### semaphoreSet.get( id )
+### semaphoreSet.get( id? )
 
+-   `id?` <string\> Semaphore id.
 -   Returns: <Semaphore\> Semaphore with the specified `id`. If such semaphore is not exists it will be created.
+
+### semaphoreSet.delete( semaphore )
+
+-   `semaphore` <Semaphore> | <string\> Semaphore or semaphore id to delete.
+
+Delete semaphore from the set.
 
 ## Class: Mutex
 
