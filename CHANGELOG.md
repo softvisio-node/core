@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.3.0 (2021-10-08)
+
+Features:
+
+-   feat: app connection object
+-   feat: core cluster
+
 ### 6.2.0 (2021-10-07)
 
 Features:
