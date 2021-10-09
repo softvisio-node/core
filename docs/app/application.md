@@ -77,7 +77,7 @@ app.publish("api", users, name, ...args);
     -   `users group name` <string\> Application specific users group name.
     -   `"*"` All connected users.
     -   `"root"` Root user.
-    -   `"user"` All authenticated user.
+    -   `"user"` All authenticated users.
     -   `"guest"` All not authenticated users.
 
 -   `name` <string\> Event name.
@@ -93,13 +93,19 @@ RPC events - events, emitted by connected RPC clients. You also can send events 
 
 Events from the externally connected RPC clients. All such events names are prefixed with the `rpc/event/` prefix. For example, if you want to handle event named `test` from the external RPC user you need to listen for `rpc/event/test`.
 
-#### Sending events to the RPC users
+#### Sending events to the RPC clients
 
 To send events to the connected RPC users you need to publish them to the `rpc` endpoint.
 
 ```javascript
-app.publish("rpc", name, ...args);
+app.publish("rpc", clients, name, ...args);
 ```
+
+-   `clients` <string\> | <Array\> RPC client identificators. Each identificator can be the one of:
+
+    -   `"*"` All connected RPC clients.
+    -   `"guest"` All connected RPC clients.
+    -   `event name` - Arbitrary event name, to which particular RPC clients are subscribed.
 
 -   `name` <string\> Event name.
 -   `...args` <any\> Event arguments.
