@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.4.0 (2021-10-09)
+
+Features:
+
+-   feat: api isApi, isRpc properties
+-   feat: app client api property
+-   feat: app client isBinary property
+-   feat: arbitrary RPC events
+-   feat: utils naming conventions module
+
 ### 6.3.0 (2021-10-08)
 
 Features:
