@@ -1,5 +1,19 @@
 # Changelog
 
+### 6.5.0 (2021-10-11)
+
+Features:
+
+-   feat: kebabToCamelCase function
+
+Fixes:
+
+-   fix: app perms kebab case
+-   fix: handle for invalid patterns in tests
+-   fix: send notifications methods renamed
+-   fix: snake case re
+-   fix: uule lib moved
+
 ### 6.4.0 (2021-10-09)
 
 Features:
