@@ -18,6 +18,7 @@
           private: { type: boolean }
           permissions: { $ref: "components#/permissions" }
           persistentConnectionRequired: { type: "boolean" }
+          binaryProtocolRequired: { type: "boolean" }
           validateParams: { type: "boolean" }
           logApiCalls: { type: boolean }
           activeRequestsLimit: { type: integer, minimum: 0 }
