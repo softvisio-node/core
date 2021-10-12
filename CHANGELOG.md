@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.6.0 (2021-10-12)
+
+Features:
+
+-   feat: api method binaryProtocolRequired property
+-   feat: cloudflare api
+
 ### 6.5.0 (2021-10-11)
 
 Features:
