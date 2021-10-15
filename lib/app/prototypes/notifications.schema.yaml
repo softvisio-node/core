@@ -14,24 +14,6 @@ methods:
           apiRead:
             done: { type: boolean, conditions: ["="] }
 
-  set-done:
-    title: Set notifications as done
-    params:
-      - name: notifications
-        schema:
-          type: array
-          items: { type: string }
-          minItems: 1
-
-  set-undone:
-    title: Set notifications as undone
-    params:
-      - name: notifications
-        schema:
-          type: array
-          items: { type: string }
-          minItems: 1
-
   set-read:
     title: Set notifications as read
     params:
@@ -43,6 +25,24 @@ methods:
 
   set-unread:
     title: Set notifications as unread
+    params:
+      - name: notifications
+        schema:
+          type: array
+          items: { type: string }
+          minItems: 1
+
+  set-done:
+    title: Set notifications as done
+    params:
+      - name: notifications
+        schema:
+          type: array
+          items: { type: string }
+          minItems: 1
+
+  set-undone:
+    title: Set notifications as undone
     params:
       - name: notifications
         schema:
