@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.7.0 (2021-10-15)
+
+Features:
+
+-   feat: notifications done property
+-   feat: notifications refactored
+
+Fixes:
+
+-   fix: fetch Agent
+
 ### 6.6.0 (2021-10-12)
 
 Features:
