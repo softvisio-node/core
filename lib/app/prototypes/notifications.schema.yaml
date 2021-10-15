@@ -1,5 +1,5 @@
 title: Notifications
-permissions: ["*"]
+permissions: [user]
 
 methods:
   read:
@@ -23,6 +23,9 @@ methods:
           items: { type: string }
           minItems: 1
 
+  set-read-all:
+    title: Set all notifications as read
+
   set-unread:
     title: Set notifications as unread
     params:
@@ -31,6 +34,9 @@ methods:
           type: array
           items: { type: string }
           minItems: 1
+
+  set-unread-all:
+    title: Set all notifications as unread
 
   set-done:
     title: Set notifications as done
@@ -41,6 +47,9 @@ methods:
           items: { type: string }
           minItems: 1
 
+  set-done-all:
+    title: Set all notifications as done
+
   set-undone:
     title: Set notifications as undone
     params:
@@ -50,6 +59,9 @@ methods:
           items: { type: string }
           minItems: 1
 
+  set-undone-all:
+    title: Set all notifications as undone
+
   delete:
     title: Delete notification
     params:
@@ -58,3 +70,6 @@ methods:
           type: array
           items: { type: string }
           minItems: 1
+
+  delete-all:
+    title: Delete all notifications
