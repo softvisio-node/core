@@ -6,44 +6,55 @@ methods:
     title: Read notifications
     meta:
       type: read
-      readMaxLimit: 100
-      readDefaultOrderBy: [["date", "desc"]]
+      readMaxLimit: 25
+      readDefaultOrderBy: [["created", "desc"]]
     params:
       - name: options
         schema:
           apiRead:
-            id: { type: string, conditions: ["="], sortable: true }
-            search: { type: string, conditions: ["like"] }
-            name: { sortable: true }
-            created: { sortable: true }
-            enabled: { sortable: true }
+            done: { type: boolean, conditions: ["="] }
 
-  mark-read:
-    title: Mark UI notifications as read
+  set-done:
+    title: Set notifications as done
     params:
       - name: notifications
         schema:
           type: array
-          items:
-            type: string
+          items: { type: string }
           minItems: 1
 
-  mark-unread:
-    title: Mark UI notifications as unread
+  set-undone:
+    title: Set notifications as undone
     params:
       - name: notifications
         schema:
           type: array
-          items:
-            type: string
+          items: { type: string }
+          minItems: 1
+
+  set-read:
+    title: Set notifications as read
+    params:
+      - name: notifications
+        schema:
+          type: array
+          items: { type: string }
+          minItems: 1
+
+  set-unread:
+    title: Set notifications as unread
+    params:
+      - name: notifications
+        schema:
+          type: array
+          items: { type: string }
           minItems: 1
 
   delete:
-    title: Delete UI notification
+    title: Delete notification
     params:
       - name: notifications
         schema:
           type: array
-          items:
-            type: string
+          items: { type: string }
           minItems: 1
