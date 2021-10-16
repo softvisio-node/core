@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.8.0 (2021-10-16)
+
+Features:
+
+-   feat: lru cache delete returns deletet entry
+
+Fixes:
+
+-   fix: invalidate on password change
+-   fix: token generator
+
 ### 6.7.0 (2021-10-15)
 
 Features:
