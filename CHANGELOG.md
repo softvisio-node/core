@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.9.0 (2021-10-17)
+
+Features:
+
+-   feat: read / unread notifications
+
 ### 6.8.0 (2021-10-16)
 
 Features:
