@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.9.1 (2021-10-22)
+
+Fixes:
+
+-   fix: app read mixin total
+-   fix: result.try allowUndefined false by default
+-   fix: sql query to string
+-   fix: sqlite lock() removed
+
 ### 6.9.0 (2021-10-17)
 
 Features:
