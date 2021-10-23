@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.9.3 (2021-10-23)
+
+Fixes:
+
+-   fix: pgsql types
+
 ### 6.9.2 (2021-10-23)
 
 Fixes:
