@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.9.2 (2021-10-23)
+
+Fixes:
+
+-   fix: auth cache prune
+-   fix: smtp body
+-   fix: smtp from
+-   fix: smtp threads limit
+
 ### 6.9.1 (2021-10-22)
 
 Fixes:
