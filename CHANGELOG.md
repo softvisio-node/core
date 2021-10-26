@@ -1,5 +1,9 @@
 # Changelog
 
+### 6.9.4 (2021-10-26)
+
+No notable changes since the previous release.
+
 ### 6.9.3 (2021-10-23)
 
 Fixes:
