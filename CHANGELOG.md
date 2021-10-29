@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.10.1 (2021-10-29)
+
+Fixes:
+
+-   fix: api db patch updated
+
 ### 6.10.0 (2021-10-29)
 
 Features:
