@@ -1,5 +1,5 @@
 {
     "module": "api",
     "type": "pgsql",
-    "patch": 23
+    "patch": 24
 }
