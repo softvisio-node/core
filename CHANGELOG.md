@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.10.0 (2021-10-29)
+
+Features:
+
+-   feat: timescaledb removed
+
 ### 6.9.4 (2021-10-26)
 
 No notable changes since the previous release.
