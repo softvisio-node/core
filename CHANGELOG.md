@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.11.0 (2021-10-29)
+
+Features:
+
+-   feat: postgres sasl
+
 ### 6.10.1 (2021-10-29)
 
 Fixes:
