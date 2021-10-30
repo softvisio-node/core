@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.12.1 (2021-10-30)
+
+Fixes:
+
+-   fix: api int53
+-   fix: PgSql renamed to Pgsql
+
 ### 6.12.0 (2021-10-30)
 
 Features:
