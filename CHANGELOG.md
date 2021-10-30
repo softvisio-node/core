@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.12.0 (2021-10-30)
+
+Features:
+
+-   feat: sql int53 type
+
+Fixes:
+
+-   fix: sasl
+
 ### 6.11.1 (2021-10-29)
 
 No notable changes since the previous release.
