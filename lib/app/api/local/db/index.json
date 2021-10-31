@@ -5,6 +5,8 @@
     "emits": [
         "api/invalidate-user",
         "api/invalidate-user-token",
-        "api/invalidate-object-permissions"
+        "api/invalidate-object-permissions",
+        "api/user/enable",
+        "api/user/disable"
     ]
 }

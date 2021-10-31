@@ -33,7 +33,7 @@ methods:
               type: object
               additionalProperties: { type: boolean }
             email: { type: string }
-            telegram_name: { type: string }
+            telegram_username: { type: string }
           required:
             - username
 
