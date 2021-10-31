@@ -1,12 +1,11 @@
 {
     "module": "api",
     "type": "pgsql",
-    "patch": 25,
+    "patch": 26,
     "emits": [
         "api/invalidate-user",
         "api/invalidate-user-token",
         "api/invalidate-object-permissions",
-        "api/user/enable",
-        "api/user/disable"
+        "api/user-telegram/update"
     ]
 }
