@@ -6,6 +6,6 @@
         "api/invalidate-user",
         "api/invalidate-user-token",
         "api/invalidate-object-permissions",
-        "api/user-telegram-chat-id/update"
+        "api/user-telegram-chat/update"
     ]
 }
