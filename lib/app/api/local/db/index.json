@@ -1,5 +1,10 @@
 {
     "module": "api",
     "type": "pgsql",
-    "patch": 25
+    "patch": 25,
+    "emits": [
+        "api/invalidate-user",
+        "api/invalidate-user-token",
+        "api/invalidate-object-permissions"
+    ]
 }
