@@ -1,7 +1,7 @@
 {
     "module": "api",
     "type": "pgsql",
-    "patch": 29,
+    "patch": 30,
     "emits": [
         "api/invalidate-user",
         "api/invalidate-user-token",
