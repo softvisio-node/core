@@ -1,5 +1,26 @@
 # Changelog
 
+### 6.13.0 (2021-11-01)
+
+Features:
+
+-   feat: app settings
+-   feat: notifications api
+-   feat: notifications settings
+-   feat: notifications types
+-   feat: postgres json notifications
+-   feat: root telegram username
+-   feat: sql emits property
+-   feat: telegram bot api
+-   feat: telegram_name renamed to telegram_username
+
+Fixes:
+
+-   fix: api db events
+-   fix: db notification -> internal_notification
+-   fix: notifications config
+-   fix: sendNotification -> sendInternalNotification
+
 ### 6.12.1 (2021-10-30)
 
 Fixes:
