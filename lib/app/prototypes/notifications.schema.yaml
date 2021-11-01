@@ -2,6 +2,26 @@ title: Notifications
 permissions: [user]
 
 methods:
+  get-notifications-settings:
+    title: Get user notifications settings
+
+  set-user-notification-channel:
+    title: Set user notification channel status
+    params:
+      - name: type
+        required: true
+        schema:
+          type: string
+      - name: channel
+        required: true
+        schema:
+          type: string
+          enum: [internal, email, telegram, push]
+      - name: enabled
+        required: true
+        schema:
+          type: boolean
+
   read:
     title: Read notifications
     meta:

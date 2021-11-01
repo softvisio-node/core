@@ -12,6 +12,7 @@
         "api/user-permissions/update",
         "api/user-name/update",
         "api/user-email/update",
-        "api/user-telegram-username/update"
+        "api/user-telegram-username/update",
+        "api/user-notification-type/update"
     ]
 }
