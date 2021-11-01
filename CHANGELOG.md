@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.13.2 (2021-11-01)
+
+Fixes:
+
+-   fix: browser uuid v4
+-   fix: security notifications
+-   fix: telegram message
+
 ### 6.13.1 (2021-11-01)
 
 Fixes:
