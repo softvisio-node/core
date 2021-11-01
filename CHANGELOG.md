@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.13.1 (2021-11-01)
+
+Fixes:
+
+-   fix: browser uuid v4
+
 ### 6.13.0 (2021-11-01)
 
 Features:
