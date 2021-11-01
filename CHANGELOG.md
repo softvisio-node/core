@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.13.3 (2021-11-01)
+
+Fixes:
+
+-   fix: security notifications
+
 ### 6.13.2 (2021-11-01)
 
 Fixes:
