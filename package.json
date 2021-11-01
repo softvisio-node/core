@@ -58,6 +58,10 @@
             "browser": "./lib/_browser/utils.js",
             "node": "./lib/utils.js"
         },
+        "./uuid": {
+            "browser": "./lib/_browser/uuid.js",
+            "node": "./lib/uuid.js"
+        },
         "./websocket": {
             "browser": "./lib/_browser/websocket.js",
             "node": "./lib/websocket.js"
