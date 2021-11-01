@@ -9,6 +9,8 @@
         "api/user-telegram-chat/update",
         "api/user-enabled/update",
         "api/user-password/update",
-        "api/user/delete"
+        "api/user/delete",
+        "api/user-permissions/update",
+        "api/user-name/update"
     ]
 }
