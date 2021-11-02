@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.13.4 (2021-11-02)
+
+Fixes:
+
+-   fix: primary key
+
 ### 6.13.3 (2021-11-01)
 
 Fixes:
