@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.13.5 (2021-11-02)
+
+Fixes:
+
+-   fix: telegram username cache
+
 ### 6.13.4 (2021-11-02)
 
 Fixes:
