@@ -1,5 +1,18 @@
 # Changelog
 
+### 6.14.0 (2021-11-05)
+
+Features:
+
+-   feat: docker engine api
+-   feat: docker registry api
+-   feat: http headers parser refactored
+
+Fixes:
+
+-   fix: app api,rpc singletones
+-   fix: notification profile conditions
+
 ### 6.13.5 (2021-11-02)
 
 Fixes:
