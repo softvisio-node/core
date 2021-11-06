@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.15.0 (2021-11-06)
+
+Features:
+
+-   feat: json stream
+
+Fixes:
+
+-   fix: docker registry auth cache
+
 ### 6.14.0 (2021-11-05)
 
 Features:
