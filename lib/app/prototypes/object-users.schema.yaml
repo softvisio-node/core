@@ -33,7 +33,13 @@ methods:
         schema: { type: string }
 
   suggest-users:
-    title: Suggest user
+    title: Suggest users
+    meta:
+      type: read
+      readMaxLimit: 20
+      readDefaultOrderBy: [["name", "desc"]]
     params:
       - name: options
-        schema: { type: ["null", object] }
+        schema:
+          apiRead:
+            name: { type: string, conditions: ["="] }
