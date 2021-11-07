@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.16.0 (2021-11-07)
+
+Features:
+
+-   feat: docker registry image delete method
+-   feat: dockerhub api
+-   feat: object roles
+
 ### 6.15.0 (2021-11-06)
 
 Features:
