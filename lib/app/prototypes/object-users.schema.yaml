@@ -31,3 +31,9 @@ methods:
       - name: user_id
         required: true
         schema: { type: string }
+
+  suggest-users:
+    title: Suggest user
+    params:
+      - name: options
+        schema: { type: ["null", object] }
