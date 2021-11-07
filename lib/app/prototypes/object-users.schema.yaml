@@ -1,0 +1,33 @@
+title: Object users
+permissions: [user]
+
+methods:
+  get-object-users:
+    title: Get object users
+    params:
+      - name: object_id
+        required: true
+        schema: { type: string }
+
+  set-object-user-role:
+    title: Set object user role
+    params:
+      - name: object_id
+        required: true
+        schema: { type: string }
+      - name: user_id
+        required: true
+        schema: { type: string }
+      - name: role
+        required: true
+        schema: { type: string }
+
+  delete-object-user:
+    title: Delete object user
+    params:
+      - name: object_id
+        required: true
+        schema: { type: string }
+      - name: user_id
+        required: true
+        schema: { type: string }
