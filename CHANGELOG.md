@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.17.0 (2021-11-08)
+
+Features:
+
+-   feat: db schema index.yaml
+
+Fixes:
+
+-   fix: api schema files renamed
+
 ### 6.16.0 (2021-11-07)
 
 Features:
