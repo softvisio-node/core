@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.18.0 (2021-11-08)
+
+Features:
+
+-   feat: signup + signin if new user enabled
+
 ### 6.17.0 (2021-11-08)
 
 Features:
