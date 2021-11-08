@@ -2,8 +2,8 @@ title: Application API call log
 permissions: [admin]
 
 methods:
-  read-log:
-    title: Read API method access log
+  read-api-method-access-log:
+    title: Get API method access log
     meta:
       type: read
       readMaxLimit: 100
@@ -14,7 +14,7 @@ methods:
           apiRead:
             method_id: { type: string, conditions: ["="], required: true }
 
-  read-latest-stat:
+  get-latest-stats:
     title: Read statistics for the last 60 minutes
     description: Statistics updated every 10 seconds. Data resolution is 1 minute.
     params:
@@ -22,7 +22,7 @@ methods:
         schema:
           type: string
 
-  read-history-stat:
+  get-history-stats:
     title: Read statistics for the given API method for the last 30 days
     description: Statistics updated every 1 minute. Data resolution is 10 minutes.
     params:
