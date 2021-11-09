@@ -42,4 +42,4 @@ methods:
       - name: options
         schema:
           apiRead:
-            name: { type: string, conditions: ["="] }
+            name: { type: string, conditions: ["like"] }
