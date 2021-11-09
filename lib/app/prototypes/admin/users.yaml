@@ -104,22 +104,6 @@ methods:
           type: object
           additionalProperties: { type: boolean }
 
-  suggest:
-    title: Suggest user name
-    params:
-      - name: options
-        schema:
-          type: object
-          properties:
-            where:
-              type: object
-              properties:
-                name:
-                  type: array
-                  items:
-                    - operator: { type: string, enum: [like] }
-                    - name: { type: string }
-
   set-username:
     title: Change user name
     params:
