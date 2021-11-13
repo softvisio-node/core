@@ -1,5 +1,24 @@
 # Changelog
 
+### 6.19.0 (2021-11-13)
+
+Features:
+
+-   feat: api read keyword refactored
+-   feat: api read maxResults
+-   feat: api schema file keyword
+-   feat: api users/suggest removed
+-   feat: app settings
+-   feat: sql OFFSET_LIMIT
+
+Fixes:
+
+-   fix: api methods renamed
+-   fix: fetch compat
+-   fix: fetch crome user agent string updated
+-   fix: read total from summary only
+-   fix: sql undefined where condition
+
 ### 6.18.0 (2021-11-08)
 
 Features:
