@@ -12,7 +12,7 @@ methods:
               id: { type: integer, conditions: ["="], sortable: true }
               search: { type: string, conditions: ["like"] }
             order_by: [["name", "desc"]]
-            limit: { max: 100 }
+            limit: { max_limit: 100 }
 
   create:
     title: Create user

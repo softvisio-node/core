@@ -41,4 +41,5 @@ methods:
             fields:
               name: { type: string, conditions: ["like"] }
             order_by: [["name", "desc"]]
-            limit: { max: 20 }
+            offset: false
+            limit: { max_limit: 20 }
