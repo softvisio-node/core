@@ -34,12 +34,11 @@ methods:
 
   suggest-users:
     title: Suggest users
-    meta:
-      type: read
-      readMaxLimit: 20
-      readDefaultOrderBy: [["name", "desc"]]
     params:
       - name: options
         schema:
-          apiRead:
-            name: { type: string, conditions: ["like"] }
+          read:
+            fields:
+              name: { type: string, conditions: ["like"] }
+            order_by: [["name", "desc"]]
+            limit: { max: 20 }

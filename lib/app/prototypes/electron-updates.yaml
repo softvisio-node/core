@@ -4,16 +4,15 @@ permissions: [admin]
 methods:
   read:
     title: Read list of updates
-    meta:
-      type: read
-      readMaxLimit: 100
-      readDefaultOrderBy: [["name", "desc"]]
     params:
       - name: options
         schema:
-          apiRead:
-            id: { type: integer, conditions: ["="], sortable: true }
-            search: { type: string, conditions: ["like"] }
+          read:
+            fields:
+              id: { type: integer, conditions: ["="], sortable: true }
+              search: { type: string, conditions: ["like"] }
+            order_by: [["name", "desc"]]
+            limit: { max: 100 }
 
   create:
     title: Create user

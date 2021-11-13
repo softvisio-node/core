@@ -4,15 +4,14 @@ permissions: [admin]
 methods:
   read-api-method-access-log:
     title: Get API method access log
-    meta:
-      type: read
-      readMaxLimit: 100
-      readDefaultOrderBy: [["started", "desc"]]
     params:
       - name: options
         schema:
-          apiRead:
-            method_id: { type: string, conditions: ["="], required: true }
+          read:
+            fields:
+              method_id: { type: string, conditions: ["="], required: true }
+            order_by: [["started", "desc"]]
+            limit: { max: 100 }
 
   get-latest-stats:
     title: Read statistics for the last 60 minutes

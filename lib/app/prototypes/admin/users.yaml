@@ -4,19 +4,18 @@ permissions: [admin]
 methods:
   read:
     title: Read users
-    meta:
-      type: read
-      readMaxLimit: 100
-      readDefaultOrderBy: [["name", "desc"]]
     params:
       - name: options
         schema:
-          apiRead:
-            id: { type: string, conditions: ["="], sortable: true }
-            search: { type: string, conditions: ["like"] }
-            name: { sortable: true }
-            created: { sortable: true }
-            enabled: { sortable: true }
+          read:
+            fields:
+              id: { type: string, conditions: ["="], sortable: true }
+              search: { type: string, conditions: ["like"] }
+              name: { sortable: true }
+              created: { sortable: true }
+              enabled: { sortable: true }
+            order_by: [["name", "desc"]]
+            limit: { max: 100 }
 
   create:
     title: Create user

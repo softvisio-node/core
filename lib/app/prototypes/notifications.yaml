@@ -24,15 +24,14 @@ methods:
 
   read:
     title: Read notifications
-    meta:
-      type: read
-      readMaxLimit: 25
-      readDefaultOrderBy: [["created", "desc"]]
     params:
       - name: options
         schema:
-          apiRead:
-            done: { type: boolean, conditions: ["="] }
+          read:
+            fields:
+              done: { type: boolean, conditions: ["="] }
+            order_by: [["created", "desc"]]
+            limit: { max: 25 }
 
   set-read:
     title: Set notifications as read
