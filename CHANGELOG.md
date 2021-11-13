@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.19.1 (2021-11-13)
+
+Fixes:
+
+-   fix: avj read macro
+
 ### 6.19.0 (2021-11-13)
 
 Features:
