@@ -2,12 +2,8 @@ title: API access tokens
 permissions: [user]
 
 methods:
-  read:
-    title: Read tokens
-    params:
-      - name: options
-        schema:
-          type: object
+  get-api-tokens:
+    title: Get tokens
 
   create:
     title: Generate new token
