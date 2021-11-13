@@ -13,7 +13,7 @@
     -   <string\> Sort direction, can be `"asc"` or `"desc"`. **Default:** `"asc"`.
 <% } -%>
 <% if ( offset !== false ) { -%>
--   `offset` <integer\> Return result, starting from the specified row. `0` - from the first row. **Default:** `0`.
+-   `offset` <integer\> Return results, starting from the specified row. `0` - from the first row. **Default:** `0`.
 <% } -%>
 <% if ( limit !== false ) { -%>
 -   `limit` <integer\> Max rows to return.<%- limit?.max_limit ? ` Maximum allowed value: \`${limit.max_limit}\`.` : "" %><%- limit?.default_limit || limit?.max_limit ? ` **Default:** \`${limit?.default_limit || limit?.max_limit}\`.` : "" %><%- limit?.max_results ? ` This method returns \`${limit?.max_results}\` rows maximum.` : "" %>
