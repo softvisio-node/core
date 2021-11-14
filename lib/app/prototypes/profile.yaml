@@ -2,9 +2,6 @@ title: User profile
 permissions: [user]
 
 methods:
-  read:
-    title: Read user profile
-
   set-password:
     title: Set user email
     params:
