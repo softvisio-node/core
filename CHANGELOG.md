@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.19.2 (2021-11-14)
+
+Fixes:
+
+-   fix: api profile/read removed
+-   fix: api read conditions
+-   fix: api token refactored
+
 ### 6.19.1 (2021-11-13)
 
 Fixes:
