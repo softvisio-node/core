@@ -2,8 +2,19 @@ title: API access tokens
 permissions: [user]
 
 methods:
-  get-api-tokens:
-    title: Get tokens
+  read-api-tokens:
+    title: Read API tokens
+    params:
+      - name: options
+        schema:
+          read:
+            fields:
+              id: { type: string }
+              name: { type: string, operator: like, sortable: true }
+              created: { type: string, sortable: true }
+              enabled: { type: boolean, operator: "=", sortable: true }
+            order_by: [[name, asc]]
+            limit: { max_limit: 100 }
 
   create:
     title: Generate new token
