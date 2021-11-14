@@ -2,8 +2,9 @@
 <% if ( where.length ) { -%>
 -   `where` <Object\> Set of the filters by field values:
 <% for ( let field of where ) { -%>
+<% const operators = Array.isArray( fields[field].operator ) ? fields[field].operator : [fields[field].operator] -%>
     -   `<%- field %>` <Array\><%- fields[field].required ? " **Required**." : "" %> Filter by the `<%- field %>` field value:
-        -   <string\> Filter operator, one of the: <%- fields[field].conditions.map( operator => `\`"${operator}"\`` ).join( ", " ) %>.
+        -   <string\> Filter operator, one of the: <%- operators.map( operator => `\`"${operator}"\`` ).join( ", " ) %>.
         -   <<%- fields[field].type %>\> Field value.
 <% } -%>
 <% } -%>

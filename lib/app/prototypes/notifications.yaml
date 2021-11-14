@@ -29,7 +29,7 @@ methods:
         schema:
           read:
             fields:
-              done: { type: boolean, conditions: ["="] }
+              done: { type: boolean, operator: "=" }
             order_by: [["created", "desc"]]
             limit: { max_limit: 100 }
 

@@ -39,7 +39,7 @@ methods:
         schema:
           read:
             fields:
-              name: { type: string, conditions: ["like"] }
+              name: { type: string, operator: "like" }
             order_by: [["name", "desc"]]
             offset: false
             limit: { max_limit: 20 }

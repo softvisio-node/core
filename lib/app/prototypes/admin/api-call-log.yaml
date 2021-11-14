@@ -9,7 +9,7 @@ methods:
         schema:
           read:
             fields:
-              method_id: { type: string, conditions: ["="], required: true }
+              method_id: { type: string, operator: "=", required: true }
             order_by: [["started", "desc"]]
             limit: { max_limit: 100 }
 
