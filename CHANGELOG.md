@@ -1,5 +1,17 @@
 # Changelog
 
+### 6.20.0 (2021-11-18)
+
+Features:
+
+-   feat: app init refactored
+-   feat: app settings renamed to const
+-   feat: read next_page property
+
+Fixes:
+
+-   fix: file type
+
 ### 6.19.2 (2021-11-14)
 
 Fixes:
