@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.21.0 (2021-11-19)
+
+Features:
+
+-   feat: api object after delete trigger
+
+Fixes:
+
+-   fix: docker engine api prune methods added
+
 ### 6.20.0 (2021-11-18)
 
 Features:
