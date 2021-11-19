@@ -1,5 +1,17 @@
 # Changelog
 
+### 6.22.0 (2021-11-19)
+
+Features:
+
+-   feat: api read keyword enum
+-   feat: app terminate hook
+
+Fixes:
+
+-   fix: api read
+-   fix: mime type check
+
 ### 6.21.0 (2021-11-19)
 
 Features:
