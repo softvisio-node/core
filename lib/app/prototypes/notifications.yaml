@@ -31,7 +31,7 @@ methods:
             fields:
               done: { type: boolean, operator: "=" }
             order_by: [["created", "desc"]]
-            limit: { max_limit: 100 }
+            limit: { maxLimit: 100 }
 
   set-read:
     title: Set notifications as read

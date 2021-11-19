@@ -14,7 +14,7 @@ methods:
               created: { type: string, sortable: true }
               enabled: { type: boolean, operator: "=", sortable: true }
             order_by: [[name, asc]]
-            limit: { max_limit: 100 }
+            limit: { maxLimit: 100 }
 
   create:
     title: Generate new token

@@ -42,4 +42,4 @@ methods:
               name: { type: string, operator: "like" }
             order_by: [["name", "desc"]]
             offset: false
-            limit: { max_limit: 20 }
+            limit: { maxLimit: 20 }

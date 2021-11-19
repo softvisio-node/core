@@ -17,7 +17,7 @@
 -   `offset` <integer\> Return results, starting from the specified row. `0` - from the first row. **Default:** `0`.
 <% } -%>
 <% if ( limit !== false ) { -%>
--   `limit` <integer\> Max rows to return.<%- limit?.max_limit ? ` Maximum allowed value: \`${limit.max_limit}\`.` : "" %><%- limit?.default_limit || limit?.max_limit ? ` **Default:** \`${limit?.default_limit || limit?.max_limit}\`.` : "" %><%- limit?.max_results ? ` This method returns \`${limit?.max_results}\` rows maximum.` : "" %>
+-   `limit` <integer\> Max rows to return.<%- limit?.maxLimit ? ` Maximum allowed value: \`${limit.maxLimit}\`.` : "" %><%- limit?.defaultLimit || limit?.maxLimit ? ` **Default:** \`${limit?.defaultLimit || limit?.maxLimit}\`.` : "" %><%- limit?.maxResults ? ` This method returns \`${limit?.maxResults}\` rows maximum.` : "" %>
 <% } -%>
 -   Example (this is the abstract data structure example, not related to the current method):
     ```json
