@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.23.1 (2021-11-20)
+
+Fixes:
+
+-   fix: api read next page
+
 ### 6.23.0 (2021-11-20)
 
 Features:
