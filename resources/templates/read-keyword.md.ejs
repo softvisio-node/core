@@ -5,7 +5,7 @@
 <% const operators = Array.isArray( fields[field].operator ) ? fields[field].operator : [fields[field].operator] -%>
     -   `<%- field %>` <Array\><%- fields[field].required ? " **Required**." : "" %> Filter by the `<%- field %>` field value:
         -   <string\> Filter operator, one of the: <%- operators.map( operator => `\`"${operator}"\`` ).join( ", " ) %>.
-        -   <<%- fields[field].type %>\> Field value.<% if ( fields[field].enum ) { -%> Allowed values: <%- fields[field].enum.map( value => `\`"${value}"\`` ).join( ", " ) %>.<% } %>
+        -   <<%- fields[field].type %>\> Field value.<% if ( fields[field].enum ) { -%> Allowed values: <%- fields[field].enum.map( value => `\`${fields[field].type === "string" ? '"' : ""}${value}${fields[field].type === "string" ? '"' : ""}\`` ).join( ", " ) %>.<% } %>
 <% } -%>
 <% } -%>
 <% if ( order_by.length ) { -%>
