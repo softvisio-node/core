@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.23.0 (2021-11-20)
+
+Features:
+
+-   feat: api read field description
+-   feat: api read optional dbh
+
+Fixes:
+
+-   fix: sql offset limit
+
 ### 6.22.0 (2021-11-19)
 
 Features:
