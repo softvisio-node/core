@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.23.3 (2021-11-21)
+
+Fixes:
+
+-   fix: api params validation log
+-   fix: npm scripts
+
 ### 6.23.2 (2021-11-21)
 
 Fixes:
