@@ -3,7 +3,7 @@ import sql from "#lib/sql";
 const TESTS = [
 
     //
-    { "params": [null, null, { "maxResults": 0, "defaultLimit": 0, "maxLimit": 0 }], "result": { "offset": null, "limit": null } },
+    { "params": [null, null, { "maxResults": 0, "defaultLimit": 0, "maxLimit": 0 }], "result": { "offset": 0, "limit": null } },
     { "params": [0, null, { "maxResults": 0, "defaultLimit": 0, "maxLimit": 0 }], "result": { "offset": 0, "limit": null } },
     { "params": [0, 0, { "maxResults": 0, "defaultLimit": 0, "maxLimit": 0 }], "result": { "offset": 0, "limit": 0 } },
     { "params": [0, 0, { "maxResults": 100, "defaultLimit": 10, "maxLimit": 50 }], "result": { "offset": 0, "limit": 0 } },
