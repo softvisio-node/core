@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.23.2 (2021-11-21)
+
+Fixes:
+
+-   fix: sql limit
+-   fix: total property renamed to total_rows
+
 ### 6.23.1 (2021-11-20)
 
 Fixes:
