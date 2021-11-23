@@ -10,6 +10,16 @@ Fixes:
 
 -   fix: app events
 
+### 6.24.0 (2021-11-23)
+
+Features:
+
+-   feat: cron
+
+Fixes:
+
+-   fix: app events
+
 ### 6.23.3 (2021-11-21)
 
 Fixes:
