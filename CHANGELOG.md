@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.24.1 (2021-11-23)
+
+Fixes:
+
+-   fix: cron api
+
 ### 6.24.0 (2021-11-23)
 
 Features:
