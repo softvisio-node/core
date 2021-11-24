@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.25.0 (2021-11-24)
+
+Features:
+
+-   feat: dbh event/ prefix removed
+-   feat: sql migrate refactored
+
+Fixes:
+
+-   fix: app console messages
+
 ### 6.24.1 (2021-11-23)
 
 Fixes:
