@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.26.1 (2021-11-25)
+
+Fixes:
+
+-   fix: cron
+
 ### 6.26.0 (2021-11-25)
 
 Features:
