@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.26.0 (2021-11-25)
+
+Features:
+
+-   feat: cron
+-   feat: luxon
+
+Fixes:
+
+-   fix: sql schema migration
+
 ### 6.25.0 (2021-11-24)
 
 Features:
