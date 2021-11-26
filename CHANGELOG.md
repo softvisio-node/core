@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.26.2 (2021-11-26)
+
+Fixes:
+
+-   fix: sql migration
+
 ### 6.26.1 (2021-11-25)
 
 Fixes:
