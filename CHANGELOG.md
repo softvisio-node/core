@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.27.0 (2021-11-27)
+
+Features:
+
+-   feat: app init refactored
+
+Fixes:
+
+-   fix: app read mixin
+-   fix: sql trigger execute function
+
 ### 6.26.2 (2021-11-26)
 
 Fixes:
