@@ -2,15 +2,15 @@ module: api
 type: pgsql
 patch: 35
 emits:
-  - /api/invalidate-user-token # token_type, token_id
-  - /api/user-telegram-chat/update # user_id, chat_id, chat_id can be null, when chat was deleted
-  - /api/user-enabled/update # user_id, enabled
-  - /api/user-password/update # user_id, username
-  - /api/user/delete # user_id
-  - /api/user-permissions/update # user_id
-  - /api/user-name/update # user_id
-  - /api/user-email/update # user_id, email
-  - /api/user-telegram-username/update # user_id, telegram_username
-  - /api/user-notification-type/update # user_id, type
-  - /api/object-user/delete # user_id, object_id, role
-  - /api/object-user/update # user_id, object_id, role
+  - api/invalidate-user-token # token_type, token_id
+  - api/user-telegram-chat/update # user_id, chat_id, chat_id can be null, when chat was deleted
+  - api/user-enabled/update # user_id, enabled
+  - api/user-password/update # user_id, username
+  - api/user/delete # user_id
+  - api/user-permissions/update # user_id
+  - api/user-name/update # user_id
+  - api/user-email/update # user_id, email
+  - api/user-telegram-username/update # user_id, telegram_username
+  - api/user-notification-type/update # user_id, type
+  - api/object-user/delete # user_id, object_id, role
+  - api/object-user/update # user_id, object_id, role
