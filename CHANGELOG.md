@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.28.0 (2021-12-03)
+
+Features:
+
+-   feat: events refactored
+
+Fixes:
+
+-   fix: sql do not decode payload if has no event listeners
+-   fix: uuid browser use crypto.randomUUID() if available
+
 ### 6.27.0 (2021-11-27)
 
 Features:
