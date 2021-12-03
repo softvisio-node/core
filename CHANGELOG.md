@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.29.1 (2021-12-03)
+
+Fixes:
+
+-   fix: api reconnect interval
+
 ### 6.29.0 (2021-12-03)
 
 Features:
