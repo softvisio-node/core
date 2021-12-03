@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.29.0 (2021-12-03)
+
+Features:
+
+-   feat: api ready event renamed to connect
+
+Fixes:
+
+-   fix: api reconnect interval
+
 ### 6.28.0 (2021-12-03)
 
 Features:
