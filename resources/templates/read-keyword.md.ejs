@@ -6,7 +6,7 @@
 <% const allowedValues = fields[field].const !== undefined ? [fields[field].const] : fields[field].enum -%>
     -   `<%- field %>` <Array\><%- fields[field].description ? " " + fields[field].description : "" %><%- fields[field].required ? " **Required**." : "" %> Filter by the `<%- field %>` field value:
         -   <string\> Filter operator, one of the: <%- operators.map( operator => `\`"${operator}"\`` ).join( ", " ) %>.
-        -   <<%- fields[field].type %>\> Field value.<% if ( allowedValues ) { -%> Allowed values: <%- allowedValues.map( value => `\`${fields[field].type === "string" ? '"' : ""}${value}${fields[field].type === "string" ? '"' : ""}\`` ).join( ", " ) %>.<% } %>
+        -   <<%- fields[field].type %>\> Field value.<% if ( allowedValues ) { -%> Allowed values: <%- allowedValues.map( value => `\`${typeof value === "string" ? `"${value}"` : value}\`` ).join( ", " ) %>.<% } %>
 <% } -%>
 <% } -%>
 <% if ( order_by.length ) { -%>
