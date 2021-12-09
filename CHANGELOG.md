@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.31.0 (2021-12-09)
+
+Features:
+
+-   feat: pgsql stats interface added
+
+Fixes:
+
+-   fix: destroy pgsql socket
+-   fix: sql pool debug
+
 ### 6.30.1-alpha.0 (2021-12-09)
 
 Fixes:
