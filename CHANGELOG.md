@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.30.1-alpha.0 (2021-12-09)
+
+Fixes:
+
+-   fix: sql pool debug
+
 ### 6.30.0 (2021-12-09)
 
 Features:
