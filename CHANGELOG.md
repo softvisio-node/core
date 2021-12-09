@@ -1,5 +1,22 @@
 # Changelog
 
+### 6.30.0 (2021-12-09)
+
+Features:
+
+-   feat: api read const keyword
+-   feat: pgsql dbh.pid property
+-   feat: sql dbh idle timeout
+-   feat: sql hl wuery error marker
+-   feat: sql where toString()
+
+Fixes:
+
+-   fix: api error message
+-   fix: api reconnet timeout
+-   fix: sql error log
+-   fix: sql pool dbh lifo
+
 ### 6.29.1 (2021-12-03)
 
 Fixes:
