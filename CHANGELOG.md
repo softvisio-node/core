@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.32.0 (2021-12-10)
+
+Features:
+
+-   feat: pgsql slave
+-   feat: sql cron
+
 ### 6.31.0 (2021-12-09)
 
 Features:
