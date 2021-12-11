@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.33.2 (2021-12-11)
+
+Fixes:
+
+-   fix: api client refactored
+-   fix: dbh slave property
+
 ### 6.33.1 (2021-12-11)
 
 Fixes:
