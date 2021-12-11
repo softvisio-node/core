@@ -1,5 +1,17 @@
 # Changelog
 
+### 6.33.0 (2021-12-11)
+
+Features:
+
+-   feat: dbh schema
+
+Fixes:
+
+-   fix: cron next date cache
+-   fix: dbh schema refactored
+-   fix: sql cron api
+
 ### 6.32.0 (2021-12-10)
 
 Features:
