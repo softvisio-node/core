@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.33.1 (2021-12-11)
+
+Fixes:
+
+-   fix: cron options
+
 ### 6.33.0 (2021-12-11)
 
 Features:
