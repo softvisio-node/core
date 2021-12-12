@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.33.4 (2021-12-12)
+
+Fixes:
+
+-   fix: app run log
+
 ### 6.33.3 (2021-12-12)
 
 Fixes:
