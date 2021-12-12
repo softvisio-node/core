@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.33.3 (2021-12-12)
+
+Fixes:
+
+-   fix: sql cron
+
 ### 6.33.2 (2021-12-11)
 
 Fixes:
