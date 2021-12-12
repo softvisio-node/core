@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.33.5 (2021-12-12)
+
+Fixes:
+
+-   fix: api client websockets
+-   fix: mount rpc to /api
+
 ### 6.33.4 (2021-12-12)
 
 Fixes:
