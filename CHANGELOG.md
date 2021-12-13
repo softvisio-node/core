@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.33.7 (2021-12-13)
+
+Fixes:
+
+-   fix: api client websocket reconnect
+-   fix: cors headers
+
 ### 6.33.6 (2021-12-13)
 
 Fixes:
