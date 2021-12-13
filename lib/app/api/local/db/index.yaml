@@ -1,6 +1,7 @@
 module: api
 type: pgsql
 patch: 35
+
 emits:
   - api/invalidate-user-token # token_type, token_id
   - api/user-telegram-chat/update # user_id, chat_id, chat_id can be null, when chat was deleted
@@ -14,3 +15,11 @@ emits:
   - api/user-notification-type/update # user_id, type
   - api/object-user/delete # user_id, object_id, role
   - api/object-user/update # user_id, object_id, role
+
+cron:
+  api-call-log-cleanup:
+    cron: "0 1 * * *" # 01:00 everyday
+    timezone: ~
+    query: |-
+      DELETE FROM api_call_load WHERE started < CURRENT_TIMESTAMP - INTERVAL '30 DAYS';
+      DELETE FROM api_call_log WHERE finished < CURRENT_TIMESTAMP - INTERVAL '30 DAYS';
