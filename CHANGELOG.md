@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.33.6 (2021-12-13)
+
+Fixes:
+
+-   fix: api call log cleanup on cron
+
 ### 6.33.5 (2021-12-12)
 
 Fixes:
