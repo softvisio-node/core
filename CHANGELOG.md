@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.34.0 (2021-12-16)
+
+Features:
+
+-   feat: google uule cookie parser
+
 ### 6.33.7 (2021-12-13)
 
 Fixes:
