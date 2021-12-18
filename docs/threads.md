@@ -132,15 +132,21 @@ const semaphore = new Semaphore();
 
 ### Event: "pause"
 
+-   `semapthore` <Semaphore\> This semaphore.
+
 Emitted on semaphore paused.
 
 ### Event: "resume"
 
+-   `semapthore` <Semaphore\> This semaphore.
+
 Emitted on semaphore resumed.
 
-### Event: "drain"
+### Event: "free"
 
-Emitted aftere thread is finished and no more waiting threads are in the queue.
+-   `semapthore` <Semaphore\> This semaphore.
+
+Emitted when semaphore has free threads slots. Not emitted, if semaphore is paused.
 
 ### Event: "free-threads"
 
@@ -154,6 +160,8 @@ Emitted after thread is finished and semaphore has free threads to run
 
 -   `options` <Object\>:
     -   `id?` <string\> Semaphore id. If not defined `uuid` will be used.
+    -   `defaultMaxThreads?` <integer\> Default max number of the parallel running threads.
+    -   `defaultMaxWaitingThreads?` <integer\> Default max number of the waiting threads.
     -   `maxThreads?` <integer\> Max number of the parallel running threads.
     -   `maxWaitingThreads?` <integer\> Max number of the waiting threads.
 
@@ -163,11 +171,11 @@ Emitted after thread is finished and semaphore has free threads to run
 
 ### semaphore.maxThreads
 
--   Returns: <integer\> Max number of parallel running threads.
+-   Returns: <integer\> | <Infinity\> Max number of parallel running threads.
 
 ### semaphore.maxWaitingThreads
 
--   Returns: <integer\> Max number of waiting threads (max. queue length).
+-   Returns: <integer\> | <Infinity\> Max number of waiting threads (max. queue length).
 
 ### semaphore.runningThreads
 
@@ -175,15 +183,23 @@ Emitted after thread is finished and semaphore has free threads to run
 
 ### semaphore.freeThreads
 
--   Returns: <integer\> Number of the threads, that can be started until limit will be reached.
+-   Returns: <integer\> | <Infinity\> Number of the threads, that can be started until limit will be reached.
 
 ### semaphore.waitingThreads
 
--   Returns: <integer\> Number of the threads in the queue.
+-   Returns: <integer\> | <Infinity\> Number of the threads in the queue.
 
 ### semaphore.freeWaitingThreads
 
--   Returns: <integer\> Number of the threads, that can be pushed to the queue until limit will be reached.
+-   Returns: <integer\> | <Infinity\> Number of the threads, that can be pushed to the queue until limit will be reached.
+
+### semaphore.totalThreads
+
+-   Returns: <integer\> | <Infinity\> Total number of the threads, that can be pushed to the semaphore.
+
+### semaphore.totalFreeThreads
+
+-   Returns: <integer\> | <Infinity\> Number of the threads, that can be pushed to the semaphore currently.
 
 ### semaphore.isLocked
 
@@ -207,12 +223,21 @@ Resume semaphore.
 -   `...args` <any\> Method arguments.
 -   Returns: <Promise\> resolves to <Result\>.
 
+### semaphore.unshiftThread( method, ...args )
+
+-   `method` <string\> | <Function\> Method to call.
+-   `...args` <any\> Method arguments.
+-   Returns: <Promise\> resolves to <Result\>.
+
+Run thread before other queued threads.
+
 ### semaphore.tryStartThread()
 
 -   Returns: <boolean\> `true` if thread was started.
 
-### semaphore.startThread()
+### semaphore.startThread ( unshift )
 
+-   `unshift` <Boolean\> If `true` - push threads to the start of the queue.
 -   Returns: <Promise\> Resolves, when thread will be started.
 
 ### semaphore.endThread()
