@@ -160,10 +160,8 @@ Emitted after thread is finished and semaphore has free threads to run
 
 -   `options` <Object\>:
     -   `id?` <string\> Semaphore id. If not defined `uuid` will be used.
-    -   `defaultMaxThreads?` <integer\> Default max number of the parallel running threads.
-    -   `defaultMaxWaitingThreads?` <integer\> Default max number of the waiting threads.
-    -   `maxThreads?` <integer\> Max number of the parallel running threads.
-    -   `maxWaitingThreads?` <integer\> Max number of the waiting threads.
+    -   `maxThreads?` <integer\> | <Infinity\> Max number of the parallel running threads.
+    -   `maxWaitingThreads?` <integer\> | <Infinity\> Max number of the waiting threads.
 
 ### semaphore.id
 
