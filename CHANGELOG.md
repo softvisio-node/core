@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.35.0 (2021-12-18)
+
+Features:
+
+-   feat: semaphore unshift thread api
+
+Fixes:
+
+-   fix: sql cron prepare query removed
+
 ### 6.34.0 (2021-12-16)
 
 Features:
