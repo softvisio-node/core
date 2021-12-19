@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.35.1 (2021-12-19)
+
+Fixes:
+
+-   fix: dbh last connection lock
+-   fix: sql stats to string
+
 ### 6.35.0 (2021-12-18)
 
 Features:
