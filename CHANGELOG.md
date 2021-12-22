@@ -1,5 +1,20 @@
 # Changelog
 
+### 6.36.0 (2021-12-22)
+
+Features:
+
+-   feat: dns watcher
+-   feat: pgsql abort signal
+-   feat: pgsql application name
+
+Fixes:
+
+-   fix: pgsql default max connections 10
+-   fix: pgsql slave connections selector
+-   fix: sql locked connections
+-   fix: sql select 1
+
 ### 6.35.1 (2021-12-19)
 
 Fixes:
