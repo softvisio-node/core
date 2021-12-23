@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.36.1 (2021-12-23)
+
+Fixes:
+
+-   fix: pgsql locks refactored
+
 ### 6.36.0 (2021-12-22)
 
 Features:
