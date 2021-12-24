@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.36.2 (2021-12-24)
+
+Fixes:
+
+-   fix: api websocket connections pool
+-   fix: api websocket rotation
+
 ### 6.36.1 (2021-12-23)
 
 Fixes:
