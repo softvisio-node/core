@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.36.3 (2021-12-24)
+
+Fixes:
+
+-   fix: api client properties immutable
+-   fix: delete user trigger
+
 ### 6.36.2 (2021-12-24)
 
 Fixes:
