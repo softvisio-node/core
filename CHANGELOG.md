@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.36.4 (2021-12-25)
+
+Fixes:
+
+-   fix: api client constructor options
+-   fix: api client init
+
 ### 6.36.3 (2021-12-24)
 
 Fixes:
