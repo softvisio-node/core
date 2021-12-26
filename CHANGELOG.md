@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.36.5 (2021-12-26)
+
+Fixes:
+
+-   fix: pgsql mainPid -> pid
+-   fix: sql error log
+
 ### 6.36.4 (2021-12-25)
 
 Fixes:
