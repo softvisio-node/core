@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.37.0 (2022-01-02)
+
+Features:
+
+-   feat: git api
+
 ### 6.36.5 (2021-12-26)
 
 Fixes:
