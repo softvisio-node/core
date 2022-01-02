@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.38.0 (2022-01-02)
+
+Features:
+
+-   feat: tar.addFile()
+
 ### 6.37.0 (2022-01-02)
 
 Features:
