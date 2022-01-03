@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.39.0 (2022-01-03)
+
+Features:
+
+-   feat: uws 2.0.0
+
 ### 6.38.0 (2022-01-02)
 
 Features:
