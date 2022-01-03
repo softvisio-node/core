@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.40.0 (2022-01-03)
+
+Features:
+
+-   feat: database event name kebab vase validation
+-   feat: naming convention validator sep
+
 ### 6.39.0 (2022-01-03)
 
 Features:
