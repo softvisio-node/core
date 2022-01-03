@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.40.1 (2022-01-03)
+
+Fixes:
+
+-   fix: sql crontab sync
+
 ### 6.40.0 (2022-01-03)
 
 Features:
