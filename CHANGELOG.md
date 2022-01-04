@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.40.2 (2022-01-04)
+
+Fixes:
+
+-   fix: tar Pack.add()
+
 ### 6.40.1 (2022-01-03)
 
 Fixes:
