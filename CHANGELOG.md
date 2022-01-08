@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.41.0 (2022-01-08)
+
+Features:
+
+-   feat: sql cron refactor
+
 ### 6.40.2 (2022-01-04)
 
 Fixes:
