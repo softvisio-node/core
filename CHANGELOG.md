@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.41.2 (2022-01-09)
+
+Fixes:
+
+-   fix: sql cron
+
 ### 6.41.1 (2022-01-08)
 
 Fixes:
