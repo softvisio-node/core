@@ -17,9 +17,6 @@ const CLI = {
     },
 };
 
-console.log( fetch.resources );
-process.exit();
-
 await Cli.parse( CLI );
 
 var res;
