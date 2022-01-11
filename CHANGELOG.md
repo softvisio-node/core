@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.42.0 (2022-01-11)
+
+Features:
+
+-   feat: fetch
+
+Fixes:
+
+-   fix: hola mutex
+
 ### 6.41.2 (2022-01-09)
 
 Fixes:
