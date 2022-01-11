@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.42.1 (2022-01-11)
+
+Fixes:
+
+-   fix: fetch response
+-   fix: fetch url credentials
+-   fix: http fetch headers
+-   fix: http fetch trailers
+
 ### 6.42.0 (2022-01-11)
 
 Features:
