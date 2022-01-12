@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.42.2 (2022-01-12)
+
+Fixes:
+
+-   fix: blob stream
+-   fix: http fetch body
+-   fix: http fetch destroy method added
+-   fix: http fetch maxLength
+
 ### 6.42.1 (2022-01-11)
 
 Fixes:
