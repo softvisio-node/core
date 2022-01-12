@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.42.3 (2022-01-12)
+
+Fixes:
+
+-   fix: http fetch maxLength
+
 ### 6.42.2 (2022-01-12)
 
 Fixes:
