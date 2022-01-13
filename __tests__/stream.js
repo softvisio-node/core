@@ -38,7 +38,7 @@ const READ_CHUNK = [
     { buffer, encoding, "length": 1, "line": "1", "rest": "2-34--56--78-90" },
     { buffer, encoding, "length": 5, "line": "12-34", "rest": "--56--78-90" },
     { buffer, encoding, "length": 16, "line": "12-34--56--78-90", "rest": "" },
-    { buffer, encoding, "length": 100, "line": undefined, "rest": "12-34--56--78-90" },
+    { buffer, encoding, "length": 100, "line": "", "rest": "" },
 ];
 
 const sleep = () => new Promise( resolve => setTimeout( resolve, 1 ) );
@@ -66,7 +66,7 @@ describe( "readchunk", () => {
 
             const [line, rest] = await readChunk( data );
 
-            expect( line ).toBe( data.line );
+            expect( line.toString() ).toBe( data.line );
 
             expect( rest ).toBe( data.rest );
         } );
