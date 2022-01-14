@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.42.4 (2022-01-14)
+
+Fixes:
+
+-   fix: stream refactored
+
 ### 6.42.3 (2022-01-12)
 
 Fixes:
