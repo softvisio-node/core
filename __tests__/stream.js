@@ -20,9 +20,9 @@ const READ_LINE = [
     { buffer, encoding, "eol": "-", "maxLength": null, "chunkSize": 7, "line": "12", "rest": "34--56--78-90" },
 
     // streaming, not match
-    { buffer, encoding, "eol": "---", "maxLength": null, "chunkSize": null, "line": undefined, "rest": "12-34--56--78-90" },
-    { buffer, encoding, "eol": "---", "maxLength": null, "chunkSize": 1, "line": undefined, "rest": "12-34--56--78-90" },
-    { buffer, encoding, "eol": "---", "maxLength": 5, "chunkSize": 1, "line": undefined, "rest": "12-34--56--78-90" },
+    { buffer, encoding, "eol": "---", "maxLength": null, "chunkSize": null, "line": undefined, "rest": "" },
+    { buffer, encoding, "eol": "---", "maxLength": null, "chunkSize": 1, "line": undefined, "rest": "" },
+    { buffer, encoding, "eol": "---", "maxLength": 5, "chunkSize": 1, "line": undefined, "rest": undefined, "exception": true },
 
     // pre-buffered, match
     { buffer, encoding, "eol": "--", "maxLength": null, "chunkSize": null, "preinit": true, "line": "12-34", "rest": "56--78-90" },
@@ -30,8 +30,8 @@ const READ_LINE = [
 
     // pre-buffered, not match
     { buffer, encoding, "eol": "---", "maxLength": null, "chunkSize": null, "preinit": true, "line": undefined, "rest": undefined },
-    { buffer, encoding, "eol": "---", "maxLength": 4, "chunkSize": null, "preinit": true, "line": undefined, "rest": "12-34--56--78-90" },
-    { buffer, encoding, "eol": "---", "maxLength": 6, "chunkSize": null, "preinit": true, "line": undefined, "rest": "12-34--56--78-90" },
+    { buffer, encoding, "eol": "---", "maxLength": 4, "chunkSize": null, "preinit": true, "line": undefined, "rest": undefined, "exception": true },
+    { buffer, encoding, "eol": "---", "maxLength": 6, "chunkSize": null, "preinit": true, "line": undefined, "rest": undefined, "exception": true },
 ];
 
 const READ_CHUNK = [
@@ -49,11 +49,13 @@ describe( "readline", () => {
         test( "read_line_" + n, async () => {
             const data = READ_LINE[n];
 
-            const [line, rest] = await readLine( data );
+            const [line, rest, exception] = await readLine( data );
 
             expect( line ).toBe( data.line );
 
             expect( rest ).toBe( data.rest );
+
+            expect( !!exception ).toBe( !!data.exception );
         } );
     }
 } );
@@ -79,11 +81,15 @@ async function readLine ( data ) {
     if ( data.preinit ) await push( stream, data );
     else push( stream, data );
 
-    const line = await stream.readLine( { "eol": data.eol, "encoding": data.encoding, "maxLength": data.maxLength } );
+    var exception;
+
+    const line = await stream.readLine( { "eol": data.eol, "encoding": data.encoding, "maxLength": data.maxLength } ).catch( e => {
+        exception = true;
+    } );
 
     const rest = await stream.buffer();
 
-    return [line, rest ? rest.toString() : rest];
+    return [line, rest ? rest.toString() : rest, exception];
 }
 
 async function readChunk ( data ) {
