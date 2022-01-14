@@ -38,7 +38,7 @@ const READ_CHUNK = [
     { buffer, encoding, "length": 1, "line": "1", "rest": "2-34--56--78-90" },
     { buffer, encoding, "length": 5, "line": "12-34", "rest": "--56--78-90" },
     { buffer, encoding, "length": 16, "line": "12-34--56--78-90", "rest": "" },
-    { buffer, encoding, "length": 100, "line": undefined, "rest": "12-34--56--78-90" },
+    { buffer, encoding, "length": 100, "line": undefined, "rest": "" },
 ];
 
 const sleep = () => new Promise( resolve => setTimeout( resolve, 1 ) );
@@ -94,9 +94,7 @@ async function readChunk ( data ) {
 
     const line = await stream.readChunk( data.length, { "encoding": data.encoding } );
 
-    const rest = await stream.buffer();
-
-    return [line, rest ? rest.toString() : rest];
+    return [line, await stream.text()];
 }
 
 async function push ( stream, data ) {
