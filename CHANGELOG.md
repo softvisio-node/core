@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.42.7 (2022-01-16)
+
+Fixes:
+
+-   fix: http agent hostname
+
 ### 6.42.6 (2022-01-16)
 
 Fixes:
