@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.42.5 (2022-01-16)
+
+Fixes:
+
+-   fix: stream read line optimized
+
 ### 6.42.4 (2022-01-14)
 
 Fixes:
