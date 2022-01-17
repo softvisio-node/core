@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.42.9 (2022-01-17)
+
+Fixes:
+
+-   fix: http referer
+
 ### 6.42.8 (2022-01-17)
 
 Fixes:
