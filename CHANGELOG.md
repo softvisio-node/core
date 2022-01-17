@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.42.8 (2022-01-17)
+
+Fixes:
+
+-   fix: http agent hostname
+-   fix: http fetch referrer policy
+-   fix: http server headers
+
 ### 6.42.7 (2022-01-16)
 
 Fixes:
