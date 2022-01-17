@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.42.11 (2022-01-17)
+
+Fixes:
+
+-   fix: http fetch origin
+
 ### 6.42.10 (2022-01-17)
 
 Fixes:
