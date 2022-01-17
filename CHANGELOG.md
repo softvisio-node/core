@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.42.12 (2022-01-17)
+
+Fixes:
+
+-   fix: http agent
+-   fix: http fetch data url support
+-   fix: substr replaced with substring
+
 ### 6.42.11 (2022-01-17)
 
 Fixes:
