@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.42.14 (2022-01-18)
+
+Fixes:
+
+-   fix: http headers cookie parser
+
 ### 6.42.13 (2022-01-18)
 
 Fixes:
