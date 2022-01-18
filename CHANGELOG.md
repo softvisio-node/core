@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.42.13 (2022-01-18)
+
+Fixes:
+
+-   fix: http headers parser
+
 ### 6.42.12 (2022-01-17)
 
 Fixes:
