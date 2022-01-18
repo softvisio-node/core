@@ -52,6 +52,19 @@ const TESTS = [
             "opaque": "FQhe/qaU925kfnzjCev0ciny7QMkPqMAFRtzCUYo5tdS",
         },
     },
+
+    // content-disposition
+    {
+        "headers": {
+            "content-disposition": `   form-data  ;    name = file  ; filename = "${Buffer.from( "тест" ).toString( "binary" )}-%22-;-.txt"   `,
+        },
+        "method": "contentDisposition",
+        "result": {
+            "type": "form-data",
+            "name": "file",
+            "filename": `${Buffer.from( "тест" ).toString( "binary" )}-%22-;-.txt`,
+        },
+    },
 ];
 
 for ( let n = 0; n < TESTS.length; n++ ) {
@@ -62,6 +75,9 @@ for ( let n = 0; n < TESTS.length; n++ ) {
         const headers = new Headers( _test.headers );
 
         const res = typeof headers[_test.method] === "function" ? headers[_test.method]() : headers[_test.method];
+
+        console.log( "expected:", JSON.stringify( _test.result, null, 4 ) );
+        console.log( "result:", JSON.stringify( res, null, 4 ) );
 
         expect( res ).toStrictEqual( _test.result );
     } );
