@@ -19,7 +19,7 @@ const TESTS = [
     // set-cookkie
     {
         "headers": {
-            "set-cookie": `name=val; expires=Tue, 19-Jul-2022 12:53:28 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none`,
+            "set-cookie": `name=val; expires=Tue, 19-Jul-2022 12:53:28 GMT; path=/  ; domain = .google.com  ;Secure; HttpOnly; SameSite=none`,
         },
         "method": "setCookie",
         "result": [
@@ -39,7 +39,7 @@ const TESTS = [
     // www-authenticate
     {
         "headers": {
-            "www-authenticate": `Digest realm="Test realm, with comma",   uri    =  "/"   , qop="auth, auth-int", algorithm=SHA-256, nonce="7ypf/xlj9XXwfDPEoM4URrv/xwf94BcCAzFZH4GiTo0v", opaque = "FQhe/qaU925kfnzjCev0ciny7QMkPqMAFRtzCUYo5tdS"    `,
+            "www-authenticate": `Digest realm="Test realm, with comma",   uri    =  "/"   , qop="auth, auth-int", algorithm=SHA-256   , nonce="7ypf/xlj9XXwfDPEoM4URrv/xwf94BcCAzFZH4GiTo0v", opaque = "FQhe/qaU925kfnzjCev0ciny7QMkPqMAFRtzCUYo5tdS"    `,
         },
         "method": "wwwAuthenticate",
         "result": {
