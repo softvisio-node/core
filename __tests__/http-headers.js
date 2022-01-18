@@ -3,6 +3,19 @@ import { camelToKebabCase } from "#lib/utils/naming-conventions";
 
 const TESTS = [
 
+    // cookkie
+    {
+        "headers": {
+            "cookie": `a=1; b = 2 ; c=  1=2 3   `,
+        },
+        "method": "cookie",
+        "result": {
+            "a": "1",
+            "b": "2",
+            "c": "1=2 3",
+        },
+    },
+
     // set-cookkie
     {
         "headers": {
