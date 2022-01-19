@@ -56,7 +56,7 @@ const TESTS = [
     // content-disposition
     {
         "headers": {
-            "content-disposition": `   form-data  ;    name = file  ; filename = "${Buffer.from( "тест" ).toString( "binary" )}-%22-;-.txt"   `,
+            "content-disposition": `   form-data  ;    name = file  ; filename = "${Buffer.from( "тест" ).toString( "binary" )}-%22-;-.txt" ; fake1; fake2 = 234  `,
         },
         "method": "contentDisposition",
         "result": {
