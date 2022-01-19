@@ -1,5 +1,18 @@
 # Changelog
 
+### 6.43.0 (2022-01-19)
+
+Features:
+
+-   feat: api session last_used and cleanup
+-   feat: user action token expires
+
+Fixes:
+
+-   fix: content disposition parser
+-   fix: http fetch credentials processing
+-   fix: stream exports
+
 ### 6.42.14 (2022-01-18)
 
 Fixes:
