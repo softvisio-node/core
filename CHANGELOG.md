@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.43.1 (2022-01-19)
+
+Fixes:
+
+-   fix: http fetch credentials check
+
 ### 6.43.0 (2022-01-19)
 
 Features:
