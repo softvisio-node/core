@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.43.2 (2022-01-19)
+
+Fixes:
+
+-   fix: file tree api
+-   fix: stream blackhole() do nothing if destroyed
+
 ### 6.43.1 (2022-01-19)
 
 Fixes:
