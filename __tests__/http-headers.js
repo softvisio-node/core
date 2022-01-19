@@ -62,7 +62,7 @@ const TESTS = [
         "result": {
             "type": "form-data",
             "name": "file",
-            "filename": `${Buffer.from( "тест" ).toString( "binary" )}-%22-;-.txt`,
+            "filename": `тест-"-;-.txt`,
         },
     },
 ];
