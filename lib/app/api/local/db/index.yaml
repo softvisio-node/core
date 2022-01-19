@@ -1,6 +1,6 @@
 module: api
 type: pgsql
-patch: 37
+patch: 38
 
 emits:
   - api/invalidate-user-token # token_type, token_id
@@ -21,6 +21,7 @@ cron:
     cron: "0 1 * * *" # 01:00 everyday
     timezone: ~
     query: |-
-      DELETE FROM api_call_load WHERE started < CURRENT_TIMESTAMP - INTERVAL '30 DAYS';
-      DELETE FROM api_call_log WHERE finished < CURRENT_TIMESTAMP - INTERVAL '30 DAYS';
-      DELETE FROM user_session WHERE last_used < CURRENT_TIMESTAMP - INTERVAL '30 DAYS';
+      DELETE FROM api_call_load WHERE started < CURRENT_TIMESTAMP - INTERVAL '30 days';
+      DELETE FROM api_call_log WHERE finished < CURRENT_TIMESTAMP - INTERVAL '30 days';
+      DELETE FROM user_session WHERE last_used < CURRENT_TIMESTAMP - INTERVAL '30 days';
+      DELETE FROM user_action_token WHERE expires <= CURRENT_TIMESTAMP;
