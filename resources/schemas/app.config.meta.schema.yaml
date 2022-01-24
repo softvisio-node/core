@@ -3,7 +3,7 @@ properties:
   usernameIsEmail: { type: boolean }
   newUserEnabled: { type: boolean }
   defaultGravatarEmail: { type string, format: email }
-  defaultGravatarImage: { type: string } # url encoded url, 404, mp, identicon, monsterid, wavatar, retro, robohash, blank
+  defaultGravatarImage: { anyOf: [{ type: string, format: url }, { enum: [404, mp, identicon, monsterid, wavatar, retro, robohash, blank] }] }
   authCacheMaxSize: { type: integer, minimum: 0 }
   authCacheLastActivityDropInterval: { type: integer, minimum: 10_000 } # ms
   tokenMaxAge: { type: integer, minimum: 60_000 } # ms
