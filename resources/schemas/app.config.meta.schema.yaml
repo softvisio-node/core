@@ -45,6 +45,25 @@ properties:
             additionalProperties: false
       # required: [id, roles]
 
+  notifications:
+    type: object
+    additionalProperties:
+      type: object
+      properties:
+        name: { type: string }
+        description: { type: string }
+        channels:
+          type: object
+          properties:
+            internal: { type: boolean }
+            email: { type: boolean }
+            telegram: { type: boolean }
+            push: { type: boolean }
+          required: [internal, email, telegram, push]
+          additionalProperties: false
+      required: [name, description, channels]
+      additionalProperties: false
+
 required:
   - usernameIsEmail
   - newUserEnabled
