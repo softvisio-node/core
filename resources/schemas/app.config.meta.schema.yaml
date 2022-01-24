@@ -11,6 +11,40 @@ properties:
   apiCallLogCacheDropInterval: { type: integer, minimum: 10_000 } # ms
   defaultGravatarUrl: { type: string, format: url }
 
+  apiEnabled: { type: boolean }
+  rpcEnabled: { type: boolean }
+  privateHttpServerEnabled: { type: boolean }
+  publicHttpServerEnabled: { type: boolean }
+
+  permissions:
+    type: object
+    additionalProperties:
+      type: object
+      properties:
+        name: { type: string }
+        description: { type: string }
+        default: { type: boolean }
+      required: [name, description, default]
+      additionalProperties: false
+
+  objects:
+    type: object
+    additionalProperties:
+      type: object
+      properties:
+        id: { type: integer, minimum: 0 }
+        roles:
+          type: object
+          additionalProperties:
+            type: object
+            properties:
+              name: { type: string }
+              description: { type: string }
+              canEditRoles: { type: boolean }
+            required: [name, description]
+            additionalProperties: false
+      # required: [id, roles]
+
 required:
   - usernameIsEmail
   - newUserEnabled
