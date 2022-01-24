@@ -1,5 +1,7 @@
 title: Notifications
 permissions: [user]
+emits:
+  - notifications # emitted when new notifications available
 
 methods:
   get-notifications-settings:
