@@ -13,8 +13,8 @@ properties:
 
   apiEnabled: { type: boolean }
   rpcEnabled: { type: boolean }
-  privateHttpServerEnabled: { type: boolean }
-  publicHttpServerEnabled: { type: boolean }
+  privateHttpServerEnabled: { type: ["null", boolean] }
+  publicHttpServerEnabled: { type: ["null", boolean] }
 
   permissions:
     type: object
