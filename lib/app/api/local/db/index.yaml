@@ -1,6 +1,6 @@
 module: api
 type: pgsql
-patch: 39
+patch: 40
 
 emits:
   - api/invalidate-user-token # token_type, token_id
