@@ -6,6 +6,7 @@ properties:
   defaultGravatarImage: { anyOf: [{ type: string, format: url }, { enum: [404, mp, identicon, monsterid, wavatar, retro, robohash, blank] }] }
   authCacheMaxSize: { type: integer, minimum: 0 }
   authCacheLastActivityDropInterval: { type: integer, minimum: 10_000 } # ms
+  sessionMaxAge: { type: integer, minimum: 60_000 } # ms
   tokenMaxAge: { type: integer, minimum: 60_000 } # ms
   objectUserCacheMaxSize: { type: integer, minimum: 0 }
   apiCallLogCacheDropInterval: { type: integer, minimum: 10_000 } # ms
