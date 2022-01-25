@@ -1,4 +1,0 @@
-type: object
-properties:
-  emits: { type: array, items: { type: string } }
-additionalProperties: false

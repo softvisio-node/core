@@ -1,3 +1,10 @@
+# index
+- $id: index
+  type: object
+  properties:
+    emits: { type: array, items: { type: string } }
+  additionalProperties: false
+
 # module
 - $id: module
   type: object
