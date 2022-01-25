@@ -1,5 +1,38 @@
 # Changelog
 
+### 6.44.0 (2022-01-25)
+
+Features:
+
+-   feat: api schema emits
+-   feat: app config schema
+-   feat: app.const renamed to app.config
+-   feat: cluster refactored
+-   feat: events
+-   feat: session last used stats
+-   feat: sql publish method added
+
+Fixes:
+
+-   fix: api client disconnect event
+-   fix: api connection pub / sub
+-   fix: api connections refactored
+-   fix: api ws connection event emit
+-   fix: app const
+-   fix: app constants update
+-   fix: APP_DB renamed to APP_DATABASE
+-   fix: auth cache delete
+-   fix: authentication mutex added
+-   fix: client renamed to connection
+-   fix: file tree improvements
+-   fix: global const removed
+-   fix: lru cache refactored
+-   fix: session expires
+-   fix: sql constants
+-   fix: sql disconnect event
+-   fix: sql query error
+-   fix: user last activity
+
 ### 6.43.2 (2022-01-19)
 
 Fixes:
