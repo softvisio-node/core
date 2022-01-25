@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.44.1 (2022-01-25)
+
+Fixes:
+
+-   fix: \_new renamed to \_init
+-   fix: ajv schema
+
 ### 6.44.0 (2022-01-25)
 
 Features:
