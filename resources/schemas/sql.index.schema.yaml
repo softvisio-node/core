@@ -9,7 +9,7 @@ properties:
     anyOf:
       - { type: "null" }
       - { type: integer, minimal: 0 }
-  emits: { type: array, items: { type: string }, uniqueItems: true }
+  emits: { type: array, items: { type: string, format: kebab-case }, uniqueItems: true }
   cron:
     type: object
     additionalProperties:
