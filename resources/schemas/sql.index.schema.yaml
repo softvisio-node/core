@@ -1,0 +1,29 @@
+type: object
+properties:
+  module: { type: string }
+  type:
+  anyOf:
+    - { type: string, enum: [pgsql, sqlite] }
+    - { type: array, items: { type: string, enum: [pgsql, sqlite] }, minItems: 1, uniqueItems: true }
+  patch:
+    anyOf:
+      - { type: "null" }
+      - { type: integer, minimal: 0 }
+  emits: { type: array, items: { type: string }, uniqueItems: true }
+  cron:
+    type: object
+    additionalProperties:
+      type: object
+      properties:
+        cron: { type: string }
+        timezone: { type: string }
+        query:
+          anyOf:
+            - { type: string }
+            - { type: array, items: { type: string }, minIntems: 1 }
+        run_missed: { type: boolean, default: true }
+        run_as_superuser: { type: boolean, default: false }
+      required: [cron, query]
+      additionalProperties: false
+required: [module, type, patch]
+additionalProperties: false
