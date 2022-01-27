@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.44.6 (2022-01-27)
+
+Fixes:
+
+-   fix: api/connect -> backend/connect
+-   fix: events
+
 ### 6.44.5 (2022-01-26)
 
 Fixes:
