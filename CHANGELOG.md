@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.44.11 (2022-01-28)
+
+Fixes:
+
+-   fix: api out max listeners
+-   fix: api subscriptions
+-   fix: close websocket on bad credentials
+-   fix: disconnect on invalid credentials
+-   fix: events sub / unsub
+-   fix: send on closed ws
+
 ### 6.44.10 (2022-01-28)
 
 Fixes:
