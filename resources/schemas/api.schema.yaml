@@ -2,7 +2,7 @@
 - $id: index
   type: object
   properties:
-    emits: { type: array, items: { type: string } }
+    emits: { type: array, items: { type: string, format: event-name } }
   additionalProperties: false
 
 # module
@@ -13,7 +13,7 @@
     description: { $ref: "components#/desc" }
     extends: { type: string }
     permissions: { $ref: "components#/permissions" }
-    emits: { type: array, items: { type: string } }
+    emits: { type: array, items: { type: string, format: event-name } }
 
     methods:
       type: object
