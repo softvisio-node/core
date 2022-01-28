@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.44.10 (2022-01-28)
+
+Fixes:
+
+-   fix: ajv formats
+-   fix: app connections
+-   fix: publish to multiple users
+-   fix: subscribe listener
+
 ### 6.44.9 (2022-01-28)
 
 Fixes:
