@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.44.9 (2022-01-28)
+
+Fixes:
+
+-   fix: events
+-   fix: hub.unforwardSubscriptions added
+
 ### 6.44.8 (2022-01-28)
 
 Fixes:
