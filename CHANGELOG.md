@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.44.8 (2022-01-28)
+
+Fixes:
+
+-   fix: events cache
+
 ### 6.44.7 (2022-01-28)
 
 Fixes:
