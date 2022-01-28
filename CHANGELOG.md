@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.44.7 (2022-01-28)
+
+Fixes:
+
+-   fix: ajv refactored
+-   fix: api schema share validator
+-   fix: events
+-   fix: events hub spread args
+-   fix: sql index validator
+
 ### 6.44.6 (2022-01-27)
 
 Fixes:
