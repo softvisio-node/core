@@ -2,7 +2,12 @@
 - $id: index
   type: object
   properties:
-    emits: { type: array, items: { type: string, format: event-name } }
+    emits:
+      type: array
+      items:
+        anyOf:
+          - { const: "*" }
+          - { type: string, format: event-name }
   additionalProperties: false
 
 # module
