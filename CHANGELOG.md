@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.44.12 (2022-01-30)
+
+Fixes:
+
+-   fix: do not create auth descriptior on bad credentials
+-   fix: ws connection close
+-   fix: ws timeout before close removed
+
 ### 6.44.11 (2022-01-28)
 
 Fixes:
