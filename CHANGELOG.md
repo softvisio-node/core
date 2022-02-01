@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.44.13 (2022-02-01)
+
+Fixes:
+
+-   fix: ajv instanceof Buffer already registered
+-   fix: api call log
+-   fix: api clearCacheOn
+-   fix: api subscribe disabled in http mode
+
 ### 6.44.12 (2022-01-30)
 
 Fixes:
