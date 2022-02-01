@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.44.16 (2022-02-01)
+
+Fixes:
+
+-   fix: fetch resources memleak
+
 ### 6.44.15 (2022-02-01)
 
 Fixes:
