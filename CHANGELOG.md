@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.44.14 (2022-02-01)
+
+Fixes:
+
+-   fix: api options
+
 ### 6.44.13 (2022-02-01)
 
 Fixes:
