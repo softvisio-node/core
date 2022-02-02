@@ -1,5 +1,17 @@
 # Changelog
 
+### 6.45.0 (2022-02-02)
+
+Features:
+
+-   feat: persistent cache
+
+Fixes:
+
+-   fix: cache-lru relocated
+-   fix: lru cache stale option removed
+-   fix: sqlite buffer encode
+
 ### 6.44.16 (2022-02-01)
 
 Fixes:
