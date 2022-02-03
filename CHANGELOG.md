@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.45.1 (2022-02-03)
+
+Fixes:
+
+-   fix: persistent cache vacuum interval
+
 ### 6.45.0 (2022-02-02)
 
 Features:
