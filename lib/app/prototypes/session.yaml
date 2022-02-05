@@ -2,6 +2,9 @@ title: Session
 permissions: ["*"]
 
 methods:
+  check-authentication:
+    title: Check authentcation
+
   signin:
     title: Signin
     description: |-
@@ -18,24 +21,20 @@ methods:
       -   Any other status means bad request, internal or connection error. Refer to the response `statusText` property for more information.
     params:
       - name: credentials
-        required: false
+        required: true
         schema:
           type: object
           properties:
             username: { type: string }
             password: { type: string }
-          required:
-            - username
-            - password
+          required: [username, password]
           additionalProperties: false
       - name: signin_permissions
         description: "<null\\> | <Array\\> Array of permissions. Only user, who has this permissions can sign in. If `null` permissions will not check."
         schema:
           anyOf:
-            - type: "null"
-            - type: array
-              items:
-                type: string
+            - { type: "null" }
+            - { type: array, items: { type: string } }
 
   signout:
     title: Signout
