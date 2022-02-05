@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.45.2 (2022-02-05)
+
+Fixes:
+
+-   fix: authentication
+-   fix: relative file url
+-   fix: sql constructor
+
 ### 6.45.1 (2022-02-03)
 
 Fixes:
