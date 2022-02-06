@@ -17,6 +17,15 @@ properties:
   privateHttpServerEnabled: { type: ["null", boolean] }
   publicHttpServerEnabled: { type: ["null", boolean] }
 
+  apiMaxPayloadLength: { type: integer, minimum: 1 }
+  apiIdleTimeout: { type: integer, minimum: 0 }
+  apiSendPingsAutomatically: { type: boolean }
+  apiCompression: { type: boolean }
+  rpcMaxPayloadLength: { type: integer, minimum: 1 }
+  rpcIdleTimeout: { type: integer, minimum: 0 }
+  rpcSendPingsAutomatically: { type: boolean }
+  rpcCompression: { type: boolean }
+
   permissions:
     type: object
     additionalProperties:
@@ -76,3 +85,15 @@ required:
   - objectUserCacheMaxSize
   - apiCallLogCacheDropInterval
   - defaultGravatarUrl
+
+  - apiEnabled
+  - rpcEnabled
+
+  - apiMaxPayloadLength
+  - apiIdleTimeout
+  - apiSendPingsAutomatically
+  - apiCompression
+  - rpcMaxPayloadLength
+  - rpcIdleTimeout
+  - rpcSendPingsAutomatically
+  - rpcCompression
