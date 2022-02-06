@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.46.2 (2022-02-06)
+
+Fixes:
+
+-   fix: api client use json by default
+-   fix: in / out events renamed
+-   fix: threads use json serializer
+
 ### 6.46.1 (2022-02-06)
 
 Fixes:
