@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.46.0 (2022-02-06)
+
+Features:
+
+-   feat: websocket connection
+
+Fixes:
+
+-   fix: websocket
+
 ### 6.45.2 (2022-02-05)
 
 Fixes:
