@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.46.1 (2022-02-06)
+
+Fixes:
+
+-   fix: websocket options
+
 ### 6.46.0 (2022-02-06)
 
 Features:
