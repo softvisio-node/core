@@ -95,9 +95,6 @@ required:
   - apiCallLogCacheDropInterval
   - defaultGravatarUrl
 
-  - apiEnabled
-  - rpcEnabled
-
   - apiMaxPayloadLength
   - apiIdleTimeout
   - apiSendPingsAutomatically
