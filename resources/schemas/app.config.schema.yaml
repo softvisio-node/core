@@ -20,11 +20,20 @@ properties:
   apiMaxPayloadLength: { type: integer, minimum: 1 }
   apiIdleTimeout: { type: integer, minimum: 0 }
   apiSendPingsAutomatically: { type: boolean }
-  apiCompression: { type: boolean }
+  apiCompression:
+    anyOf:
+      - { type: boolean }
+      - { type: string }
+      - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+
   rpcMaxPayloadLength: { type: integer, minimum: 1 }
   rpcIdleTimeout: { type: integer, minimum: 0 }
   rpcSendPingsAutomatically: { type: boolean }
-  rpcCompression: { type: boolean }
+  rpcCompression:
+    anyOf:
+      - { type: boolean }
+      - { type: string }
+      - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
   permissions:
     type: object
