@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.46.4 (2022-02-06)
+
+Fixes:
+
+-   fix: app config
+
 ### 6.46.3 (2022-02-06)
 
 Fixes:
