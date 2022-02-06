@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.46.3 (2022-02-06)
+
+Fixes:
+
+-   fix: binaryProtocol renamed to protocol
+
 ### 6.46.2 (2022-02-06)
 
 Fixes:
