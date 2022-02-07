@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.46.6 (2022-02-07)
+
+Fixes:
+
+-   fix: api callVoind -> voidCall
+-   fix: compressMessages option
+
 ### 6.46.5 (2022-02-07)
 
 Fixes:
