@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.46.7 (2022-02-07)
+
+Fixes:
+
+-   fix: api http void call header
+-   fix: api protocol
+-   fix: api: msgpack removed
+
 ### 6.46.6 (2022-02-07)
 
 Fixes:
