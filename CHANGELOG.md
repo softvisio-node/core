@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.46.8 (2022-02-07)
+
+Fixes:
+
+-   fix: content type check
+
 ### 6.46.7 (2022-02-07)
 
 Fixes:
