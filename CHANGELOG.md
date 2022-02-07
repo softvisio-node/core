@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.46.5 (2022-02-07)
+
+Fixes:
+
+-   fix: minCompressionLength option
+
 ### 6.46.4 (2022-02-06)
 
 Fixes:
