@@ -1,5 +1,20 @@
 # Changelog
 
+### 6.46.9 (2022-02-08)
+
+Fixes:
+
+-   fix: api http read body
+-   fix: api upload handle errors
+-   fix: app mode cli
+-   fix: fetch pipeline
+-   fix: http server isResponded removed, isEnded added
+-   fix: http server listen defaults
+-   fix: http server request abort handler
+-   fix: http server request event aborted renamed eto abort
+-   fix: http server stream errors
+-   fix: websockets hooks
+
 ### 6.46.8 (2022-02-07)
 
 Fixes:
