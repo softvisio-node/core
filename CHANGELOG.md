@@ -1,5 +1,21 @@
 # Changelog
 
+### 6.47.0 (2022-02-09)
+
+Features:
+
+-   feat: content-length parser
+-   feat: content-type parser
+-   feat: msgpack decode stream
+
+Fixes:
+
+-   fix: form-data stream
+-   fix: http headers parse
+-   fix: msgpack stream
+-   fix: pipeline
+-   fix: split stream
+
 ### 6.46.9 (2022-02-08)
 
 Fixes:
