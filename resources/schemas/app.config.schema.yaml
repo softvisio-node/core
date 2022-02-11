@@ -14,8 +14,12 @@ properties:
 
   apiEnabled: { type: boolean }
   rpcEnabled: { type: boolean }
-  privateHttpServerEnabled: { type: ["null", boolean] }
-  publicHttpServerEnabled: { type: ["null", boolean] }
+  notificationsEnabled: { type: boolean }
+  threadsEnabled: { type: boolean }
+  privateHttpServerEnabled: { type: boolean }
+  privateHttpServerPort: { type: integer, minimum: 1, maximum: 65535 }
+  publicHttpServerEnabled: { type: boolean }
+  publicHttpServerPort: { type: integer, minimum: 1, maximum: 65535 }
 
   apiMaxPayloadLength: { type: integer, minimum: 1 }
   apiIdleTimeout: { type: integer, minimum: 0 }
@@ -94,6 +98,15 @@ required:
   - objectUserCacheMaxSize
   - apiCallLogCacheDropInterval
   - defaultGravatarUrl
+
+  - apiEnabled
+  - rpcEnabled
+  - notificationsEnabled
+  - threadsEnabled
+  - privateHttpServerEnabled
+  - privateHttpServerPort
+  - publicHttpServerEnabled
+  - publicHttpServerPort
 
   - apiMaxPayloadLength
   - apiIdleTimeout
