@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.47.1 (2022-02-11)
+
+Fixes:
+
+-   fix: app config
+-   fix: env readConfig -> loadEnv
+-   fix: env returns merged env variables
+-   fix: make global.host immutable
+
 ### 6.47.0 (2022-02-09)
 
 Features:
