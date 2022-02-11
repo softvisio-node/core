@@ -1,124 +1,146 @@
-type: object
-properties:
-  # app settings
-  apiEnabled: { type: boolean }
-  rpcEnabled: { type: boolean }
-  notificationsEnabled: { type: boolean }
-  threadsEnabled: { type: boolean }
-  privateHttpServerEnabled: { type: boolean }
-  privateHttpServerPort: { type: integer, minimum: 1, maximum: 65535 }
-  publicHttpServerEnabled: { type: boolean }
-  publicHttpServerPort: { type: integer, minimum: 1, maximum: 65535 }
+- $id: app
+  type: object
+  properties:
+    apiEnabled: { type: boolean }
+    rpcEnabled: { type: boolean }
+    notificationsEnabled: { type: boolean }
+    threadsEnabled: { type: boolean }
+    privateHttpServerEnabled: { type: boolean }
+    privateHttpServerPort: { type: integer, minimum: 1, maximum: 65535 }
+    publicHttpServerEnabled: { type: boolean }
+    publicHttpServerPort: { type: integer, minimum: 1, maximum: 65535 }
+  required:
+    - apiEnabled
+    - rpcEnabled
+    - notificationsEnabled
+    - threadsEnabled
+    - privateHttpServerEnabled
+    - privateHttpServerPort
+    - publicHttpServerEnabled
+    - publicHttpServerPort
 
-  # api settings
-  usernameIsEmail: { type: boolean }
-  newUserEnabled: { type: boolean }
-  defaultGravatarEmail: { type string, format: email }
-  defaultGravatarImage: { anyOf: [{ type: string, format: url }, { enum: [404, mp, identicon, monsterid, wavatar, retro, robohash, blank] }] }
-  authCacheMaxSize: { type: integer, minimum: 0 }
-  authCacheLastActivityDropInterval: { type: integer, minimum: 10_000 } # ms
-  sessionMaxAge: { type: integer, minimum: 60_000 } # ms
-  tokenMaxAge: { type: integer, minimum: 60_000 } # ms
-  objectUserCacheMaxSize: { type: integer, minimum: 0 }
-  apiCallLogCacheDropInterval: { type: integer, minimum: 10_000 } # ms
-  defaultGravatarUrl: { type: string, format: url }
+- $id: api
+  type: object
+  properties:
+    # settings
+    usernameIsEmail: { type: boolean }
+    newUserEnabled: { type: boolean }
+    defaultGravatarEmail: { type string, format: email }
+    defaultGravatarImage: { anyOf: [{ type: string, format: url }, { enum: [404, mp, identicon, monsterid, wavatar, retro, robohash, blank] }] }
+    authCacheMaxSize: { type: integer, minimum: 0 }
+    authCacheLastActivityDropInterval: { type: integer, minimum: 10_000 } # ms
+    sessionMaxAge: { type: integer, minimum: 60_000 } # ms
+    tokenMaxAge: { type: integer, minimum: 60_000 } # ms
+    objectUserCacheMaxSize: { type: integer, minimum: 0 }
+    apiCallLogCacheDropInterval: { type: integer, minimum: 10_000 } # ms
+    defaultGravatarUrl: { type: string, format: url }
 
-  # connections
-  apiMaxPayloadLength: { type: integer, minimum: 1 }
-  apiIdleTimeout: { type: integer, minimum: 0 }
-  apiSendPingsAutomatically: { type: boolean }
-  apiCompression:
-    anyOf:
-      - { type: boolean }
-      - { type: string }
-      - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+    # connections
+    apiMaxPayloadLength: { type: integer, minimum: 1 }
+    apiIdleTimeout: { type: integer, minimum: 0 }
+    apiSendPingsAutomatically: { type: boolean }
+    apiCompression:
+      anyOf:
+        - { type: boolean }
+        - { type: string }
+        - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
-  rpcMaxPayloadLength: { type: integer, minimum: 1 }
-  rpcIdleTimeout: { type: integer, minimum: 0 }
-  rpcSendPingsAutomatically: { type: boolean }
-  rpcCompression:
-    anyOf:
-      - { type: boolean }
-      - { type: string }
-      - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+  required:
+    # settings
+    - usernameIsEmail
+    - newUserEnabled
+    - defaultGravatarEmail
+    - defaultGravatarImage
+    - authCacheMaxSize
+    - authCacheLastActivityDropInterval
+    - sessionMaxAge
+    - tokenMaxAge
+    - objectUserCacheMaxSize
+    - apiCallLogCacheDropInterval
+    - defaultGravatarUrl
 
-  # permissions
-  permissions:
-    type: object
-    additionalProperties:
+    # connections
+    - apiMaxPayloadLength
+    - apiIdleTimeout
+    - apiSendPingsAutomatically
+    - apiCompression
+
+- $id: rpc
+  type: object
+  properties:
+    # connections
+    rpcMaxPayloadLength: { type: integer, minimum: 1 }
+    rpcIdleTimeout: { type: integer, minimum: 0 }
+    rpcSendPingsAutomatically: { type: boolean }
+    rpcCompression:
+      anyOf:
+        - { type: boolean }
+        - { type: string }
+        - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+
+  required:
+    # connections
+    - rpcMaxPayloadLength
+    - rpcIdleTimeout
+    - rpcSendPingsAutomatically
+    - rpcCompression
+
+- $id: permissions
+  type: object
+  properties:
+    permissions:
       type: object
-      properties:
-        name: { type: string }
-        description: { type: string }
-        default: { type: boolean }
-      required: [name, description, default]
-      additionalProperties: false
+      additionalProperties:
+        type: object
+        properties:
+          name: { type: string }
+          description: { type: string }
+          default: { type: boolean }
+        required: [name, description, default]
+        additionalProperties: false
+  required: [permissions]
 
-  # objects
-  objects:
-    type: object
-    additionalProperties:
+- $id: objects
+  type: object
+  properties:
+    objects:
       type: object
-      properties:
-        id: { type: integer, minimum: 0 }
-        roles:
-          type: object
-          additionalProperties:
+      additionalProperties:
+        type: object
+        properties:
+          id: { type: integer, minimum: 0 }
+          roles:
+            type: object
+            additionalProperties:
+              type: object
+              properties:
+                name: { type: string }
+                description: { type: string }
+                canEditRoles: { type: boolean }
+              required: [name, description]
+              additionalProperties: false
+        required: [id, roles]
+  # required: [objects]
+
+- $id: notifications
+  type: object
+  properties:
+    notifications:
+      type: object
+      additionalProperties:
+        type: object
+        properties:
+          name: { type: string }
+          description: { type: string }
+          channels:
             type: object
             properties:
-              name: { type: string }
-              description: { type: string }
-              canEditRoles: { type: boolean }
-            required: [name, description]
+              internal: { type: boolean }
+              email: { type: boolean }
+              telegram: { type: boolean }
+              push: { type: boolean }
+            required: [internal, email, telegram, push]
             additionalProperties: false
-      # required: [id, roles]
-
-  # notifications
-  notifications:
-    type: object
-    additionalProperties:
-      type: object
-      properties:
-        name: { type: string }
-        description: { type: string }
-        channels:
-          type: object
-          properties:
-            internal: { type: boolean }
-            email: { type: boolean }
-            telegram: { type: boolean }
-            push: { type: boolean }
-          required: [internal, email, telegram, push]
-          additionalProperties: false
-      required: [name, description, channels]
-      additionalProperties: false
-
-required:
-  - usernameIsEmail
-  - newUserEnabled
-  - defaultGravatarEmail
-  - defaultGravatarImage
-  - authCacheMaxSize
-  - authCacheLastActivityDropInterval
-  - tokenMaxAge
-  - objectUserCacheMaxSize
-  - apiCallLogCacheDropInterval
-  - defaultGravatarUrl
-
-  - apiEnabled
-  - rpcEnabled
-  - notificationsEnabled
-  - threadsEnabled
-  - privateHttpServerEnabled
-  - privateHttpServerPort
-  - publicHttpServerEnabled
-  - publicHttpServerPort
-
-  - apiMaxPayloadLength
-  - apiIdleTimeout
-  - apiSendPingsAutomatically
-  - apiCompression
-  - rpcMaxPayloadLength
-  - rpcIdleTimeout
-  - rpcSendPingsAutomatically
-  - rpcCompression
+        required: [name, description, channels]
+        additionalProperties: false
+  required: [notifications]
