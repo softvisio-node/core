@@ -120,7 +120,7 @@
               required: [name, description]
               additionalProperties: false
         required: [id, roles]
-  # required: [objects]
+  required: [objects]
 
 - $id: notifications
   type: object
