@@ -1,5 +1,16 @@
 type: object
 properties:
+  # app settings
+  apiEnabled: { type: boolean }
+  rpcEnabled: { type: boolean }
+  notificationsEnabled: { type: boolean }
+  threadsEnabled: { type: boolean }
+  privateHttpServerEnabled: { type: boolean }
+  privateHttpServerPort: { type: integer, minimum: 1, maximum: 65535 }
+  publicHttpServerEnabled: { type: boolean }
+  publicHttpServerPort: { type: integer, minimum: 1, maximum: 65535 }
+
+  # api settings
   usernameIsEmail: { type: boolean }
   newUserEnabled: { type: boolean }
   defaultGravatarEmail: { type string, format: email }
@@ -12,15 +23,7 @@ properties:
   apiCallLogCacheDropInterval: { type: integer, minimum: 10_000 } # ms
   defaultGravatarUrl: { type: string, format: url }
 
-  apiEnabled: { type: boolean }
-  rpcEnabled: { type: boolean }
-  notificationsEnabled: { type: boolean }
-  threadsEnabled: { type: boolean }
-  privateHttpServerEnabled: { type: boolean }
-  privateHttpServerPort: { type: integer, minimum: 1, maximum: 65535 }
-  publicHttpServerEnabled: { type: boolean }
-  publicHttpServerPort: { type: integer, minimum: 1, maximum: 65535 }
-
+  # connections
   apiMaxPayloadLength: { type: integer, minimum: 1 }
   apiIdleTimeout: { type: integer, minimum: 0 }
   apiSendPingsAutomatically: { type: boolean }
@@ -39,6 +42,7 @@ properties:
       - { type: string }
       - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
+  # permissions
   permissions:
     type: object
     additionalProperties:
@@ -50,6 +54,7 @@ properties:
       required: [name, description, default]
       additionalProperties: false
 
+  # objects
   objects:
     type: object
     additionalProperties:
@@ -68,6 +73,7 @@ properties:
             additionalProperties: false
       # required: [id, roles]
 
+  # notifications
   notifications:
     type: object
     additionalProperties:
