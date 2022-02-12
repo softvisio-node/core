@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.48.2 (2022-02-12)
+
+Fixes:
+
+-   fix: config api changed
+-   fix: docker-stack.yaml renamed
+
 ### 6.48.1 (2022-02-12)
 
 Fixes:
