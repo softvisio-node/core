@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.48.1 (2022-02-12)
+
+Fixes:
+
+-   fix: ajv format url is deprecated
+
 ### 6.48.0 (2022-02-12)
 
 Features:
