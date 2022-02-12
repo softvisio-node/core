@@ -1,3 +1,5 @@
+# https://docs.docker.com/compose/compose-file/compose-file-v3/
+
 type: object
 
 properties:
@@ -14,18 +16,28 @@ properties:
         stop_grace_period: { type: string }
 
         deploy:
-          type: object
-          properties:
-            replicas: { type: integer, minimum: 1 }
-            placement:
-              type: object
+          anyOf:
+            - type: object
               properties:
-                max_replicas_per_node: { type: integer, minimum: 1 }
-                constraints: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
-              required: []
+                mode: { const: global }
+              required: [mode]
               additionalProperties: false
-          required: [replicas]
-          additionalProperties: false
+            - type: object
+              properties:
+                mode: { const: replicated }
+                replicas: { type: integer, minimum: 1 }
+                placement:
+                  type: object
+                  properties:
+                    max_replicas_per_node: { type: integer, minimum: 1 }
+                    constraints: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+                  required: []
+                  additionalProperties: false
+                labels:
+                  type: object
+                  additionalProperties: { type: string }
+              required: [replicas]
+              additionalProperties: false
 
         healthcheck:
           type: object
@@ -42,6 +54,16 @@ properties:
         environment:
           type: object
           additinalProperties: { type: string }
+
+        configs:
+          type: array
+          items:
+            type: object
+            properties:
+              source: { type:string }
+              target: { type: string }
+            required: [source, target]
+            sdditionalProperties: false
 
         networks: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
@@ -114,5 +136,12 @@ properties:
         name: { type: string }
       required: [name]
 
-required: [services]
+  x-build:
+    type: object
+    properties:
+      default_tag: { type: string }
+      auto_tags: { type: array, items: { type: string }, uniqueItems: true }
+    additionalProperties: false
+
+required: [version, services]
 additionalProperties: false
