@@ -1,0 +1,118 @@
+type: object
+
+properties:
+  version: { const: "3.9" }
+
+  services:
+    type: object
+    additionalProperties:
+      type: object
+
+      properties:
+        image: { type: string }
+        init: { type: boolean }
+        stop_grace_period: { type: string }
+
+        deploy:
+          type: object
+          properties:
+            replicas: { type: integer, minimum: 1 }
+            placement:
+              type: object
+              properties:
+                max_replicas_per_node: { type: integer, minimum: 1 }
+                constraints: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+              required: []
+              additionalProperties: false
+          required: [replicas]
+          additionalProperties: false
+
+        healthcheck:
+          type: object
+          properties:
+            test: { type: string }
+            start_period: { type: string }
+            interval: { type: string }
+            timeout: { type: string }
+            retries: { type: integer, minimum: 1 }
+
+          reqyured: [test, start_period, interval, timeout, retries]
+          additinalProperties: false
+
+        environment:
+          type: object
+          additinalProperties: { type: string }
+
+        networks: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+
+        ports:
+          type: array
+          items:
+            type: object
+            properties:
+              published: { type: integer, minimum: 1, maximum: 65535 }
+              target: { type: integer, minimum: 1, maximum: 65535 }
+            required: [published, target]
+            additionalProperties: false
+          minItems: 1
+
+        volumes:
+          type: array
+          items:
+            anyOf:
+              - type: object
+                properties:
+                  type: { const: tmpfs }
+                  target: { type: string }
+                  tmpfs:
+                    type: object
+                    properties:
+                      size: { type: integer, minimum 1 }
+                    required: [size]
+                    additionalProperties: false
+                required: [type, target, tmpfs]
+                additionalProperties: false
+              - type: object
+                properties:
+                  type: { enum: [bind, volume] }
+                  source: { type: string }
+                  target: { type: string }
+                required: [type, source, target]
+                additionalProperties: false
+
+        build:
+          type: object
+          properties:
+            context: { type: string }
+          additionalProperties: false
+
+      required: [image]
+      additionalProperties: false
+
+  configs:
+    type: object
+    additionalProperties:
+      type: object
+      properties:
+        file: { type: string }
+      required: [file]
+      additionalProperties: false
+
+  networks:
+    type: object
+    additionalProperties:
+      type: object
+      properties:
+        name: { enum: [host] }
+        external: { type: boolean }
+
+  volumes:
+    type: object
+    additionalProperties:
+      type: object
+      properties:
+        name: { type: string }
+      required: [name]
+
+required: [services]
+additionalProperties: false
