@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.48.0 (2022-02-12)
+
+Features:
+
+-   feat: docker stack schema
+
+Fixes:
+
+-   fix: invalid import
+
 ### 6.47.1 (2022-02-11)
 
 Fixes:
