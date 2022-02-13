@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.48.4 (2022-02-13)
+
+Fixes:
+
+-   fix: msgpack stream
+
 ### 6.48.3 (2022-02-13)
 
 Fixes:
