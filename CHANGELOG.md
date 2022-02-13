@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.48.3 (2022-02-13)
+
+Fixes:
+
+-   fix: json stream eol option
+
 ### 6.48.2 (2022-02-12)
 
 Fixes:
