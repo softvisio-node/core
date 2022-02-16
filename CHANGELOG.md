@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.48.6 (2022-02-16)
+
+Fixes:
+
+-   fix: ajv format uri-whatwg added
+-   fix: pgsql default port
+-   fix: pgsqls
+-   fix: smtps: protocol
+
 ### 6.48.5 (2022-02-16)
 
 Fixes:
