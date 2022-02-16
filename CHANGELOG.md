@@ -1,5 +1,19 @@
 # Changelog
 
+### 6.48.5 (2022-02-16)
+
+Fixes:
+
+-   fix: decode uri username
+-   fix: http proxy port
+-   fix: listen on 127.0.0.1 by default
+-   fix: proxy server decode username
+-   fix: proxy server username params
+-   fix: smtp
+-   fix: smtp read response
+-   fix: smtp refactored
+-   fix: smtp sentAs removed
+
 ### 6.48.4 (2022-02-13)
 
 Fixes:
