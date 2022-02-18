@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.50.0 (2022-02-18)
+
+Features:
+
+-   feat: proxyrack proxies class
+
 ### 6.49.0 (2022-02-18)
 
 Features:
