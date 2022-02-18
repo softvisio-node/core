@@ -1,5 +1,19 @@
 # Changelog
 
+### 6.49.0 (2022-02-18)
+
+Features:
+
+-   feat: sql error codes
+
+Fixes:
+
+-   fix: api method args validation messages
+-   fix: api return args validaion errors
+-   fix: app env schema
+-   fix: error when user email is not uniq on insert user
+-   fix: smtp read
+
 ### 6.48.6 (2022-02-16)
 
 Fixes:
