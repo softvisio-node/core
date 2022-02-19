@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.50.1 (2022-02-19)
+
+Fixes:
+
+-   fix: http headers toJSON
+
 ### 6.50.0 (2022-02-18)
 
 Features:
