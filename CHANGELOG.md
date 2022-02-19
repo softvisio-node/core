@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.50.2 (2022-02-19)
+
+Fixes:
+
+-   fix: docker stack schema
+-   fix: http request real remote addr
+
 ### 6.50.1 (2022-02-19)
 
 Fixes:
