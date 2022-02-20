@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.50.3 (2022-02-20)
+
+Fixes:
+
+-   fix: real ip parser
+
 ### 6.50.2 (2022-02-19)
 
 Fixes:
