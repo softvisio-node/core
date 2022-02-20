@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.51.1 (2022-02-20)
+
+Fixes:
+
+-   fix: exports resources
+
 ### 6.51.0 (2022-02-20)
 
 Features:
