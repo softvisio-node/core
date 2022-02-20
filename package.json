@@ -20,13 +20,15 @@
     "type": "module",
     "imports": {
         "#browser/*": "./lib/_browser/*.js",
-        "#lib/*": "@softvisio/core/lib/*",
+        "#lib/*": "@softvisio/core/*",
         "#resources/*": "./resources/*"
     },
     "exports": {
         "./*": "./lib/*.js",
-        "./lib/*": "./lib/*.js",
-        "./resources/resource": "./lib/resources/resource.js",
+        "./resources": "./lib/resources.js",
+        "./resources/core": "./lib/resources/core.js",
+        "./resources/core/*": "./lib/resources/core/*.js",
+        "./resources/resource": "./resources/lib/resource.js",
         "./resources/*": "./resources/*",
         "./api": {
             "browser": "./lib/_browser/api.js",
