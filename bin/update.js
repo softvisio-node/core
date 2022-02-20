@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
 import Cli from "#lib/cli";
-import hostnameResources from "#lib/hostname/resources";
-import httpResources from "#lib/http/resources";
+import resources from "#lib/resources/core";
 
 const CLI = {
     "title": "Update datasets",
@@ -19,20 +18,10 @@ const CLI = {
 
 await Cli.parse( CLI );
 
-var res;
-
-res = await hostnameResources.update( { "build": process.cli.options.build } );
+const res = await resources.update( { "build": process.cli.options.build } );
 
 if ( !res.ok ) {
-    console.log( `Hostname resources update error: ` + res );
-
-    process.exit( 3 );
-}
-
-res = await httpResources.update( { "build": process.cli.options.build } );
-
-if ( !res.ok ) {
-    console.log( `Http resources update error: ` + res );
+    console.log( `Resources update error: ` + res );
 
     process.exit( 3 );
 }
