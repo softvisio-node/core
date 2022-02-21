@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.51.3 (2022-02-21)
+
+Fixes:
+
+-   fix: ip refactored
+-   fix: IpAddress renamed
+-   fix: resources github token
+-   fix: resources repo
+-   fix: subnets resources
+
 ### 6.51.2 (2022-02-21)
 
 Fixes:
