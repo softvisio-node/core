@@ -1,4 +1,4 @@
-name: Build datasets
+name: build resources
 on:
   workflow_dispatch:
   schedule:
