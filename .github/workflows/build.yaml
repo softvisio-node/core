@@ -12,6 +12,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - run: |
-          update-core --build
+          npx update-core --build
         shell: bash
         working-directory: /var/local/package
