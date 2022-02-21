@@ -1,4 +1,4 @@
-import IpAddr from "#lib/ip/addr";
+import IpAddress from "#lib/ip/address";
 import IpRange from "#lib/ip/range";
 
 describe( "addr", () => {
@@ -24,7 +24,7 @@ describe( "addr", () => {
             if ( property === "addr" ) continue;
 
             test( `addr-${_test.addr}-${property}`, () => {
-                addr ??= new IpAddr( _test.addr );
+                addr ??= new IpAddress( _test.addr );
 
                 expect( typeof addr[property] === "function" ? addr[property]() : addr[property] ).toBe( _test[property] );
             } );
@@ -40,8 +40,8 @@ describe( "range", () => {
         { "range": ["127.0.0.1-1.1.1.1"], "toString": "1.1.1.1-127.0.0.1" },
         { "range": ["127.0.0.1/24"], "toString": "127.0.0.0/24" },
         { "range": ["127.0.0.1/12", 24], "toString": "127.0.0.0/24" },
-        { "range": [new IpAddr( "127.0.0.1" )], "toString": "127.0.0.1/32" },
-        { "range": [new IpAddr( "127.0.0.1" ), 24], "toString": "127.0.0.0/24" },
+        { "range": [new IpAddress( "127.0.0.1" )], "toString": "127.0.0.1/32" },
+        { "range": [new IpAddress( "127.0.0.1" ), 24], "toString": "127.0.0.0/24" },
 
         { "range": ["100.100.100.100/10"], "toRangeString": "100.64.0.0-100.127.255.255" },
         { "range": ["100.100.100.100/20"], "toRangeString": "100.100.96.0-100.100.111.255" },
