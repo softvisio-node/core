@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.51.2 (2022-02-21)
+
+Fixes:
+
+-   fix: isV4/V6 renamed
+-   fix: metadata update
+-   fix: solid font awesome
+-   fix: uuid exports
+
 ### 6.51.1 (2022-02-20)
 
 Fixes:
