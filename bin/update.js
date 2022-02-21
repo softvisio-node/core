@@ -4,7 +4,7 @@ import Cli from "#lib/cli";
 import resources from "#lib/resources/core";
 
 const CLI = {
-    "title": "Update datasets",
+    "title": "Update resources",
     "options": {
         "build": {
             "description": "build resources",
