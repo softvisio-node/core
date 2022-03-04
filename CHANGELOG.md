@@ -1,5 +1,21 @@
 # Changelog
 
+### 6.52.0 (2022-03-04)
+
+Features:
+
+-   feat: avl tree
+
+Fixes:
+
+-   fix: api client accepts cache instance in options
+-   fix: ghithub action renamed
+-   fix: github action
+-   fix: github action renamed
+-   fix: ip refactor
+-   fix: resources names
+-   fix: user agent update
+
 ### 6.51.3 (2022-02-21)
 
 Fixes:
