@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.52.1 (2022-03-05)
+
+Fixes:
+
+-   fix: avl update value on set
+-   fix: ip subnets refactored
+-   fix: ip-range
+
 ### 6.52.0 (2022-03-04)
 
 Features:
