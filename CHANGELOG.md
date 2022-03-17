@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.53.1 (2022-03-17)
+
+Fixes:
+
+-   fix: stream base64 line length
+
 ### 6.53.0 (2022-03-17)
 
 Features:
