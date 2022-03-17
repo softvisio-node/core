@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.53.2 (2022-03-17)
+
+Fixes:
+
+-   fix: smtp stream
+
 ### 6.53.1 (2022-03-17)
 
 Fixes:
