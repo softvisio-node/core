@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.53.4 (2022-03-17)
+
+Fixes:
+
+-   fix: base64 stream default wrap length
+
 ### 6.53.3 (2022-03-17)
 
 Fixes:
