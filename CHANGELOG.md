@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.53.3 (2022-03-17)
+
+Fixes:
+
+-   fix: multipart stream content type
+
 ### 6.53.2 (2022-03-17)
 
 Fixes:
