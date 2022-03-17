@@ -1,5 +1,17 @@
 # Changelog
 
+### 6.53.0 (2022-03-17)
+
+Features:
+
+-   feat: stream multipart
+
+Fixes:
+
+-   fix: avl tree refactor
+-   fix: ip range set delete method
+-   fix: smtp refactor
+
 ### 6.52.1 (2022-03-05)
 
 Fixes:
