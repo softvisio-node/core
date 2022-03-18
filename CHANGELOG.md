@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.53.5 (2022-03-18)
+
+Fixes:
+
+-   fix: stream combined
+
 ### 6.53.4 (2022-03-17)
 
 Fixes:
