@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.54.0 (2022-03-21)
+
+Features:
+
+-   feat: http cookies
+
 ### 6.53.5 (2022-03-18)
 
 Fixes:
