@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.54.1 (2022-03-25)
+
+Fixes:
+
+-   fix: sleep abort signal support
+
 ### 6.54.0 (2022-03-21)
 
 Features:
