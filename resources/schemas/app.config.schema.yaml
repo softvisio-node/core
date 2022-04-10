@@ -6,8 +6,10 @@
     notificationsEnabled: { type: boolean }
     threadsEnabled: { type: boolean }
     privateHttpServerEnabled: { type: boolean }
+    privateHttpServerAddress: { type: string, format: ip-address }
     privateHttpServerPort: { type: integer, minimum: 0, maximum: 65535 }
     publicHttpServerEnabled: { type: boolean }
+    publicHttpServerAddress: { type: string, format: ip-address }
     publicHttpServerPort: { type: integer, minimum: 0, maximum: 65535 }
   required:
     - apiEnabled
@@ -15,8 +17,10 @@
     - notificationsEnabled
     - threadsEnabled
     - privateHttpServerEnabled
+    - privateHttpServerAddress
     - privateHttpServerPort
     - publicHttpServerEnabled
+    - publicHttpServerAddress
     - publicHttpServerPort
 
 - $id: api
