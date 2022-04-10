@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.54.3 (2022-04-10)
+
+Fixes:
+
+-   fix: app server address configurable
+-   fix: http servep location fix
+
 ### 6.54.2 (2022-04-10)
 
 Fixes:
