@@ -6,9 +6,9 @@
     notificationsEnabled: { type: boolean }
     threadsEnabled: { type: boolean }
     privateHttpServerEnabled: { type: boolean }
-    privateHttpServerPort: { type: integer, minimum: 1, maximum: 65535 }
+    privateHttpServerPort: { type: integer, minimum: 0, maximum: 65535 }
     publicHttpServerEnabled: { type: boolean }
-    publicHttpServerPort: { type: integer, minimum: 1, maximum: 65535 }
+    publicHttpServerPort: { type: integer, minimum: 0, maximum: 65535 }
   required:
     - apiEnabled
     - rpcEnabled
