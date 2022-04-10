@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.54.2 (2022-04-10)
+
+Fixes:
+
+-   fix: http server random port
+-   fix: uws return host and port on listen
+
 ### 6.54.1 (2022-03-25)
 
 Fixes:
