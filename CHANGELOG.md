@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.54.5 (2022-04-11)
+
+Fixes:
+
+-   fix: glob update
+
 ### 6.54.4 (2022-04-11)
 
 Fixes:
