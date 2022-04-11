@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.54.4 (2022-04-11)
+
+Fixes:
+
+-   fix: http server random port
+
 ### 6.54.3 (2022-04-10)
 
 Fixes:
