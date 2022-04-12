@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.54.6 (2022-04-12)
+
+Fixes:
+
+-   fix: subnets resources not mandatory
+
 ### 6.54.5 (2022-04-11)
 
 Fixes:
