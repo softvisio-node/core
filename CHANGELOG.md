@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.54.7 (2022-04-13)
+
+Fixes:
+
+-   fix: resource isAvailable property
+-   fix: resources update event
+-   fix: tar create current dir
+
 ### 6.54.6 (2022-04-12)
 
 Fixes:
