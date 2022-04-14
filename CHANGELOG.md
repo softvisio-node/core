@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.54.8 (2022-04-14)
+
+Fixes:
+
+-   fix: semaphore stats
+
 ### 6.54.7 (2022-04-13)
 
 Fixes:
