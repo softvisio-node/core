@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.54.9 (2022-04-15)
+
+Fixes:
+
+-   fix: tar import
+
 ### 6.54.8 (2022-04-14)
 
 Fixes:
