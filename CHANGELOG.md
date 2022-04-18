@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.54.10 (2022-04-18)
+
+Fixes:
+
+-   fix: docker migrated to github
+-   fix: file constructor options
+-   fix: file json method
+-   fix: file to dat url
+-   fix: fockerhub api removed
+
 ### 6.54.9 (2022-04-15)
 
 Fixes:
