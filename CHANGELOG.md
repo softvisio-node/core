@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.54.11 (2022-04-19)
+
+Fixes:
+
+-   fix: git upstream
+
 ### 6.54.10 (2022-04-18)
 
 Fixes:
