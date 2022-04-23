@@ -1,5 +1,17 @@
 # Changelog
 
+### 6.54.12 (2022-04-23)
+
+Fixes:
+
+-   fix: blob data url
+-   fix: blob refactor
+-   fix: confirm stdin restore
+-   fix: dns watcher
+-   fix: engines update
+-   fix: git child process
+-   fix: restore stdio mode after confirm
+
 ### 6.54.11 (2022-04-19)
 
 Fixes:
