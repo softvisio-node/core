@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.54.13 (2022-04-27)
+
+Fixes:
+
+-   fix: http resources refactor
+-   fix: http server request refactor
+-   fix: resources remote index
+
 ### 6.54.12 (2022-04-23)
 
 Fixes:
