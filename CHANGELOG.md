@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.54.14 (2022-04-27)
+
+Fixes:
+
+-   fix: http compressions
+-   fix: http server directory normalization
+-   fix: http server location normalization
+-   fix: http server request path
+-   fix: http server stream
+
 ### 6.54.13 (2022-04-27)
 
 Fixes:
