@@ -43,11 +43,10 @@
     apiMaxPayloadLength: { type: integer, minimum: 1 }
     apiIdleTimeout: { type: integer, minimum: 0 }
     apiSendPingsAutomatically: { type: boolean }
-    apiCompression:
+    apiCompress:
       anyOf:
         - { type: boolean }
-        - { type: string }
-        - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+        - { type: number }
 
   required:
     # settings
@@ -67,7 +66,7 @@
     - apiMaxPayloadLength
     - apiIdleTimeout
     - apiSendPingsAutomatically
-    - apiCompression
+    - apiCompress
 
 - $id: rpc
   type: object
@@ -76,18 +75,17 @@
     rpcMaxPayloadLength: { type: integer, minimum: 1 }
     rpcIdleTimeout: { type: integer, minimum: 0 }
     rpcSendPingsAutomatically: { type: boolean }
-    rpcCompression:
+    rpcCompress:
       anyOf:
         - { type: boolean }
-        - { type: string }
-        - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+        - { type: number }
 
   required:
     # connections
     - rpcMaxPayloadLength
     - rpcIdleTimeout
     - rpcSendPingsAutomatically
-    - rpcCompression
+    - rpcCompress
 
 - $id: permissions
   type: object
