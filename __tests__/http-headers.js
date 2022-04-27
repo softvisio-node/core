@@ -3,7 +3,16 @@ import { camelToKebabCase } from "#lib/utils/naming-conventions";
 
 const TESTS = [
 
-    // cookkie
+    // accept-encoding
+    {
+        "headers": {
+            "accept-encoding": `deflate, gzip;q=1.0, *;q=0.5    `,
+        },
+        "method": "acceptEncoding",
+        "result": ["gzip", "*", "deflate"],
+    },
+
+    // cookie
     {
         "headers": {
             "cookie": `a=1; b = 2 ; c=  1=2 3   `,
