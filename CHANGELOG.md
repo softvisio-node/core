@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.54.15 (2022-05-02)
+
+Fixes:
+
+-   fix: headers accept-encoding priority parser
+-   fix: http server responce buffer
+-   fix: http server responce close
+-   fix: user agent update
+
 ### 6.54.14 (2022-04-27)
 
 Fixes:
