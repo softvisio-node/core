@@ -1,5 +1,17 @@
 # Changelog
 
+### 6.54.16 (2022-05-03)
+
+Fixes:
+
+-   fix: file stream support removed
+-   fix: http headers normalization
+-   fix: http response last modified
+-   fix: http server request body
+-   fix: http server request last modified fix
+-   fix: http server request range
+-   fix: http server response cork
+
 ### 6.54.15 (2022-05-02)
 
 Fixes:
