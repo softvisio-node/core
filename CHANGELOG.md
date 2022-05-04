@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.55.0 (2022-05-04)
+
+Features:
+
+-   feat: gcloud api
+
+Fixes:
+
+-   fix: uws endWithoutBody
+-   fix: websockets exports
+
 ### 6.54.16 (2022-05-03)
 
 Fixes:
