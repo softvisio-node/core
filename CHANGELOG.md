@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.55.1 (2022-05-05)
+
+Fixes:
+
+-   fix: telegrm api
+
 ### 6.55.0 (2022-05-04)
 
 Features:
