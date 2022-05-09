@@ -1,5 +1,18 @@
 # Changelog
 
+### 6.56.0 (2022-05-09)
+
+Features:
+
+-   feat: google subnetworks
+
+Fixes:
+
+-   fix: ajv useDefaults enabled
+-   fix: google api oauth
+-   fix: pgsql tls support
+-   fix: real remote add parser
+
 ### 6.55.1 (2022-05-05)
 
 Fixes:
