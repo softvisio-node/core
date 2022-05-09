@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.56.1 (2022-05-09)
+
+Fixes:
+
+-   fix: real remote add parser
+
 ### 6.56.0 (2022-05-09)
 
 Features:
