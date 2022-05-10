@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.56.2 (2022-05-10)
+
+Fixes:
+
+-   fix: app validate process.env
+-   fix: env loadUserEnv
+-   fix: env must be string or number only
+
 ### 6.56.1 (2022-05-09)
 
 Fixes:
