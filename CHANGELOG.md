@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.56.5 (2022-05-15)
+
+Fixes:
+
+-   fix: mime type detection
+
 ### 6.56.4 (2022-05-15)
 
 Fixes:
