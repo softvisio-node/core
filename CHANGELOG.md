@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.56.3 (2022-05-15)
+
+Fixes:
+
+-   fix: google cloud load balancers
+
 ### 6.56.2 (2022-05-10)
 
 Fixes:
