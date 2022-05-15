@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.56.4 (2022-05-15)
+
+Fixes:
+
+-   fix: telegram api
+
 ### 6.56.3 (2022-05-15)
 
 Fixes:
