@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.56.8 (2022-05-16)
+
+Fixes:
+
+-   fix: add vary header in contet was compressed
+-   fix: webpack cache
+
 ### 6.56.7 (2022-05-16)
 
 Fixes:
