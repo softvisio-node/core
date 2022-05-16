@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.56.7 (2022-05-16)
+
+Fixes:
+
+-   fix: add vary header in contet was compressed
+
 ### 6.56.6 (2022-05-16)
 
 Fixes:
