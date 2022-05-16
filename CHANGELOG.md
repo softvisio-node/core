@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.56.6 (2022-05-16)
+
+Fixes:
+
+-   fix: cache http request data
+
 ### 6.56.5 (2022-05-15)
 
 Fixes:
