@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.57.2 (2022-05-20)
+
+Fixes:
+
+-   fix: code style
+-   fix: imports
+-   fix: mutex max threads
+
 ### 6.57.1 (2022-05-20)
 
 Fixes:
