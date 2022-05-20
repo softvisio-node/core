@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.57.1 (2022-05-20)
+
+Fixes:
+
+-   fix: mutex extends typo
+
 ### 6.57.0 (2022-05-20)
 
 Features:
