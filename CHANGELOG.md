@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.57.0 (2022-05-20)
+
+Features:
+
+-   feat: semaphore done event
+-   feat: semaphore set refactored
+
+Fixes:
+
+-   fix: http user agent updated
+
 ### 6.56.8 (2022-05-16)
 
 Fixes:
