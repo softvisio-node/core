@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.58.0 (2022-05-21)
+
+Features:
+
+-   feat: process shutdown controller
+
+Fixes:
+
+-   fix: semaphore destroy on done
+
 ### 6.57.2 (2022-05-20)
 
 Fixes:
