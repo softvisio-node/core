@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.58.3 (2022-05-21)
+
+Fixes:
+
+-   fix: app shutdown removed
+-   fix: shutdown
+
 ### 6.58.2 (2022-05-21)
 
 Fixes:
