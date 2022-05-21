@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.58.1 (2022-05-21)
+
+Fixes:
+
+-   fix: typo
+
 ### 6.58.0 (2022-05-21)
 
 Features:
