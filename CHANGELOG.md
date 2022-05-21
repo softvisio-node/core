@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.58.2 (2022-05-21)
+
+Fixes:
+
+-   fix: shutdown signal chained call
+
 ### 6.58.1 (2022-05-21)
 
 Fixes:
