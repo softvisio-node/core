@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.58.6 (2022-05-23)
+
+Fixes:
+
+-   fix: proxy socket connect
+
 ### 6.58.5 (2022-05-23)
 
 Fixes:
