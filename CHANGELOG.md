@@ -1,5 +1,18 @@
 # Changelog
 
+### 6.58.5 (2022-05-23)
+
+Fixes:
+
+-   fix: http request url parser
+-   fix: prixy server invalid path handler
+-   fix: proxy refactored
+-   fix: proxy server hostname renamed to address
+-   fix: proxy server listen
+-   fix: proxy server proxy protocol
+-   fix: proxy tls connections
+-   fix: semaphore done -> finish
+
 ### 6.58.4 (2022-05-21)
 
 Fixes:
