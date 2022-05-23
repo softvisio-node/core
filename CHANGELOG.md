@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.58.7 (2022-05-23)
+
+Fixes:
+
+-   fix: default ports for softvisio proxy
+
 ### 6.58.6 (2022-05-23)
 
 Fixes:
