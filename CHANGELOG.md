@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.58.8 (2022-05-23)
+
+Fixes:
+
+-   fix: proxy server debug
+
 ### 6.58.7 (2022-05-23)
 
 Fixes:
