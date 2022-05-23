@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.58.11 (2022-05-23)
+
+Fixes:
+
+-   fix: softvisio proxy default hostname
+
 ### 6.58.10 (2022-05-23)
 
 Fixes:
