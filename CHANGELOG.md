@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.58.12 (2022-05-24)
+
+Fixes:
+
+-   fix: softvisio proxy
+
 ### 6.58.11 (2022-05-23)
 
 Fixes:
