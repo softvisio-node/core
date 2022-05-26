@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.58.18 (2022-05-26)
+
+Fixes:
+
+-   fix: proxy protocol trusted subnets
+-   fix: trusted real address subnets
+
 ### 6.58.17 (2022-05-26)
 
 Fixes:
