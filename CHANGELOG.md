@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.58.19 (2022-05-26)
+
+Fixes:
+
+-   fix: default proxy protocol trusted subnets
+
 ### 6.58.18 (2022-05-26)
 
 Fixes:
