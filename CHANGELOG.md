@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.58.15 (2022-05-26)
+
+Fixes:
+
+-   fix: all subnet range added
+-   fix: proxy protocol trusted subnets
+
 ### 6.58.14 (2022-05-26)
 
 Fixes:
