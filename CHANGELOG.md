@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.58.17 (2022-05-26)
+
+Fixes:
+
+-   fix: subnets
+-   fix: trusted real address subnets
+
 ### 6.58.16 (2022-05-26)
 
 Fixes:
