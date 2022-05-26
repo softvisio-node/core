@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.58.14 (2022-05-26)
+
+Fixes:
+
+-   fix: etag support
+
 ### 6.58.13 (2022-05-24)
 
 Fixes:
