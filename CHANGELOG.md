@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.58.20 (2022-05-27)
+
+Fixes:
+
+-   fix: file url path support
+-   fix: http compress refactored
+-   fix: http server trusted subnets
+-   fix: proxy server trusted subnets
+-   fix: webserver refactored
+
 ### 6.58.19 (2022-05-26)
 
 Fixes:
