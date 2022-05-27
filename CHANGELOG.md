@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.58.21 (2022-05-27)
+
+Fixes:
+
+-   fix: api connection constructor
+-   fix: file stream import
+
 ### 6.58.20 (2022-05-27)
 
 Fixes:
