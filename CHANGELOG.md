@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.58.22 (2022-05-28)
+
+Fixes:
+
+-   fix: default http headers
+-   fix: headers translation
+
 ### 6.58.21 (2022-05-27)
 
 Fixes:
