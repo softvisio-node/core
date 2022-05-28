@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.58.23 (2022-05-28)
+
+Fixes:
+
+-   fix: fetch browser undefined
+
 ### 6.58.22 (2022-05-28)
 
 Fixes:
