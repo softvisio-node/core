@@ -54,6 +54,10 @@
             "browser": "./lib/_browser/form-data.js",
             "node": "./lib/form-data.js"
         },
+        "./l10n/locales": {
+            "browser": "./lib/_browser/l10n/locales.js",
+            "node": "./lib/l10n/locales.js"
+        },
         "./utils": {
             "browser": "./lib/_browser/utils.js",
             "node": "./lib/utils.js"
