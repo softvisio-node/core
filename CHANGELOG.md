@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.59.1 (2022-06-03)
+
+Fixes:
+
+-   fix: github api user agent
+
 ### 6.59.0 (2022-06-03)
 
 Features:
