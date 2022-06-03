@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.59.0 (2022-06-03)
+
+Features:
+
+-   feat: localization
+
+Fixes:
+
+-   fix: app locales
+-   fix: readConfig supports content options
+
 ### 6.58.23 (2022-05-28)
 
 Fixes:
