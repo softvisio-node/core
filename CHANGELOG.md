@@ -6,6 +6,12 @@ Fixes:
 
 -   fix: po file
 
+### 6.59.3 (2022-06-04)
+
+Fixes:
+
+-   fix: po file
+
 ### 6.59.2 (2022-06-04)
 
 Fixes:
