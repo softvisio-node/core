@@ -1,5 +1,9 @@
 # Changelog
 
+### 6.59.4 (2022-06-04)
+
+No notable changes since the previous release.
+
 ### 6.59.3 (2022-06-04)
 
 Fixes:
