@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.59.5 (2022-06-06)
+
+Fixes:
+
+-   fix: locale domains
+
 ### 6.59.4 (2022-06-04)
 
 No notable changes since the previous release.
