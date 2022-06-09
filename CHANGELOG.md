@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.59.6 (2022-06-09)
+
+Fixes:
+
+-   fix: electron updated removed
+-   fix: locales
+
 ### 6.59.5 (2022-06-06)
 
 Fixes:
