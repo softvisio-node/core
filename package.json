@@ -54,9 +54,9 @@
             "browser": "./lib/_browser/form-data.js",
             "node": "./lib/form-data.js"
         },
-        "./locale/locales": {
-            "browser": "./lib/_browser/locale/locales.js",
-            "node": "./lib/locale/locales.js"
+        "./locale/languages": {
+            "browser": "./lib/_browser/locale/languages.js",
+            "node": "./lib/locale/languages.js"
         },
         "./utils": {
             "browser": "./lib/_browser/utils.js",
