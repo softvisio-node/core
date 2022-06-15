@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.60.0 (2022-06-15)
+
+Features:
+
+-   feat: webview
+
 ### 6.59.9 (2022-06-15)
 
 Fixes:
