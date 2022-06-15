@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.59.9 (2022-06-15)
+
+Fixes:
+
+-   fix: profile renamed to account
+
 ### 6.59.8 (2022-06-15)
 
 Fixes:
