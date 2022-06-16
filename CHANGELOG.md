@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.60.1 (2022-06-16)
+
+Fixes:
+
+-   fix: locale hout12
+
 ### 6.60.0 (2022-06-15)
 
 Features:
