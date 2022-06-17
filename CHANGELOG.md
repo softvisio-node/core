@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.60.2 (2022-06-17)
+
+Fixes:
+
+-   fix: locale number options
+
 ### 6.60.1 (2022-06-16)
 
 Fixes:
