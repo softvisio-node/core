@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.60.3 (2022-06-24)
+
+Fixes:
+
+-   fix: http resources
+
 ### 6.60.2 (2022-06-17)
 
 Fixes:
