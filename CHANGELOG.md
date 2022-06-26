@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.60.7 (2022-06-26)
+
+Fixes:
+
+-   fix: browser args
+
 ### 6.60.6 (2022-06-26)
 
 Fixes:
