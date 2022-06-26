@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.60.4 (2022-06-26)
+
+Fixes:
+
+-   fix: webview
+
 ### 6.60.3 (2022-06-24)
 
 Fixes:
