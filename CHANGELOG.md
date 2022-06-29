@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.60.8 (2022-06-29)
+
+Fixes:
+
+-   fix: location en
+
 ### 6.60.7 (2022-06-26)
 
 Fixes:
