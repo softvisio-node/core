@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.60.10 (2022-07-02)
+
+Fixes:
+
+-   fix: locale formatters
+-   fix: locale refactored
+-   fix: locale script
+
 ### 6.60.9 (2022-06-30)
 
 Fixes:
