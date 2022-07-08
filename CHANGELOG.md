@@ -1,5 +1,18 @@
 # Changelog
 
+### 6.61.0 (2022-07-08)
+
+Features:
+
+-   feat: locale templates
+
+Fixes:
+
+-   fix: local domains accessor
+-   fix: mutex auto destroy
+-   fix: telegram bot api
+-   fix: useragent
+
 ### 6.60.10 (2022-07-02)
 
 Fixes:
