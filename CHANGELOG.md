@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.61.1 (2022-07-09)
+
+Fixes:
+
+-   fix: luxpn v3
+
 ### 6.61.0 (2022-07-08)
 
 Features:
