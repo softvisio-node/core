@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.61.2 (2022-07-12)
+
+Fixes:
+
+-   fix: telegram api return file metadata
+
 ### 6.61.1 (2022-07-09)
 
 Fixes:
