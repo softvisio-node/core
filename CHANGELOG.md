@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.61.3 (2022-07-14)
+
+Fixes:
+
+-   fix: http request result support
+-   fix: telegram api
+
 ### 6.61.2 (2022-07-12)
 
 Fixes:
