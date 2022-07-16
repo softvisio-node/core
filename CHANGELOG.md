@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.61.4 (2022-07-16)
+
+Fixes:
+
+-   fix: prinamry key fixed
+
 ### 6.61.3 (2022-07-14)
 
 Fixes:
