@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.61.5 (2022-07-16)
+
+Fixes:
+
+-   fix: env root in threads
+-   fix: fetch request tmp file content type
+
 ### 6.61.4 (2022-07-16)
 
 Fixes:
