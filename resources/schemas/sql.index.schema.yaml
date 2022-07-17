@@ -1,6 +1,6 @@
 type: object
 properties:
-  module: { type: string }
+  module: { type: string, format: kebab-case }
   type:
     anyOf:
       - { type: string, enum: [pgsql, sqlite] }
