@@ -1,0 +1,7 @@
+module: static-files
+type: pgsql
+patch:
+
+emits:
+
+cron:
