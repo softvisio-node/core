@@ -1,5 +1,17 @@
 # Changelog
 
+### 6.62.0 (2022-07-17)
+
+Features:
+
+-   feat: ajv kekab-case format
+-   feat: app static files component
+
+Fixes:
+
+-   fix: bots
+-   fix: db cron sync
+
 ### 6.61.5 (2022-07-16)
 
 Fixes:
