@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.62.1 (2022-07-17)
+
+Fixes:
+
+-   fix: docker engine api url
+
 ### 6.62.0 (2022-07-17)
 
 Features:
