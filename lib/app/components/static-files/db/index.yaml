@@ -2,6 +2,6 @@ module: static-files
 type: pgsql
 patch:
 
-emits:
+emits: []
 
-cron:
+cron: {}
