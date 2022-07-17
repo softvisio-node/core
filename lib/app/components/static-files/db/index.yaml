@@ -1,6 +1,6 @@
 module: static-files
 type: pgsql
-patch:
+patch: ~
 
 emits: []
 
