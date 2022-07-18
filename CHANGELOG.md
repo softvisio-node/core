@@ -1,5 +1,19 @@
 # Changelog
 
+### 6.63.0 (2022-07-18)
+
+Features:
+
+-   feat: data-url module
+
+Fixes:
+
+-   fix: file to json
+-   fix: static files return File instance
+-   fix: tmp file support for already exusts path
+-   fix: tmp refactored
+-   fix: tmp size option removed
+
 ### 6.62.1 (2022-07-17)
 
 Fixes:
