@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.64.1 (2022-07-28)
+
+Fixes:
+
+-   fix: sql procedure renamed to function
+
 ### 6.64.0 (2022-07-26)
 
 Features:
