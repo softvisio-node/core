@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.65.0 (2022-07-29)
+
+Features:
+
+-   feat: ctx object permissions error method
+
+Fixes:
+
+-   fix: api hasObjectPermissions
+-   fix: locale template
+
 ### 6.64.1 (2022-07-28)
 
 Fixes:
