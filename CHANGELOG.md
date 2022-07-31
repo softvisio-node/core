@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.65.1 (2022-07-31)
+
+Fixes:
+
+-   fix: api browser upload path
+-   fix: file category property added
+
 ### 6.65.0 (2022-07-29)
 
 Features:
