@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.65.2 (2022-07-31)
+
+Fixes:
+
+-   fix: pgsql prepared queries
+
 ### 6.65.1 (2022-07-31)
 
 Fixes:
