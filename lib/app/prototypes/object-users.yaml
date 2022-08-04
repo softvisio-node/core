@@ -7,14 +7,14 @@ methods:
     params:
       - name: object_id
         required: true
-        schema: { type: string }
+        schema: { type: string, check-object-permissions: true }
 
   set-object-user-role:
     title: Set object user role
     params:
       - name: object_id
         required: true
-        schema: { type: string }
+        schema: { type: string, check-object-permissions: true }
       - name: user_id
         required: true
         schema: { type: string }
@@ -27,7 +27,7 @@ methods:
     params:
       - name: object_id
         required: true
-        schema: { type: string }
+        schema: { type: string, check-object-permissions: true }
       - name: user_id
         required: true
         schema: { type: string }
