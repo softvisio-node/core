@@ -39,6 +39,7 @@ methods:
         schema:
           read:
             fields:
+              object_id: { type: string, operator: "=", required: true, check-object-permissions: true }
               name: { type: string, operator: "like" }
             order_by: [["name", "desc"]]
             offset: false
