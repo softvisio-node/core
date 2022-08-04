@@ -107,28 +107,26 @@
   properties:
     objects:
       type: object
-      additionalProperties:
-        anyOf:
-          - type: object
-            properties:
-              roles:
-                type: object
-                additionalProperties:
+      properties:
+        types:
+          type: object
+          additionalProperties:
+            type: object
+            additionalProperties:
+              type: object
+              properties:
+                name: { type: string }
+                description: { type: string }
+                permissions:
                   type: object
-                  properties:
-                    name: { type: string }
-                    description: { type: string }
-                    permissions:
-                      type: object
-                      additionalProperties: { type: boolean }
-                  required: [name, description, permissions]
-                  additionalProperties: false
-            required: [roles]
-          - type: object
-            properties:
-              resolver: { type: object }
-            required: [resolver]
-            additionalProperties: false
+                  additionalproperties: { type: boolean }
+              required: [name, description, permissions]
+
+        resolvers:
+          type: object
+          additionalProperties:
+            type: object
+      additionalProperties: false
   required: [objects]
 
 - $id: notifications
