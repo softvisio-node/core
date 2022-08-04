@@ -2,7 +2,7 @@ title: API access tokens
 permissions: [user]
 
 methods:
-  read-api-tokens:
+  read:
     title: Read API tokens
     params:
       - name: options

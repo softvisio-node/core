@@ -2,14 +2,14 @@ title: Object users
 permissions: [user]
 
 methods:
-  get-object-users:
+  get-users:
     title: Get object users
     params:
       - name: object_id
         required: true
         schema: { type: string, check-object-permissions: true }
 
-  set-object-user-role:
+  set-role:
     title: Set object user role
     params:
       - name: object_id
@@ -22,7 +22,7 @@ methods:
         required: true
         schema: { type: string }
 
-  delete-object-user:
+  delete:
     title: Delete object user
     params:
       - name: object_id
