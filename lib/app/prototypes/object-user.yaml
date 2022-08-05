@@ -9,6 +9,29 @@ methods:
         required: true
         schema: { type: string, check-object-permissions: true }
 
+  add:
+    title: Add object user
+    params:
+      - name: object_id
+        required: true
+        schema: { type: string, check-object-permissions: true }
+      - name: user_id
+        required: true
+        schema: { type: string }
+      - name: roles
+        required: true
+        schema: { type: array, items: { type: string }, uniqueItems: true }
+
+  delete:
+    title: Delete object user
+    params:
+      - name: object_id
+        required: true
+        schema: { type: string, check-object-permissions: true }
+      - name: user_id
+        required: true
+        schema: { type: string }
+
   add-role:
     title: Add object user role
     params:
@@ -32,16 +55,6 @@ methods:
         required: true
         schema: { type: string }
       - name: role
-        required: true
-        schema: { type: string }
-
-  delete:
-    title: Delete object user
-    params:
-      - name: object_id
-        required: true
-        schema: { type: string, check-object-permissions: true }
-      - name: user_id
         required: true
         schema: { type: string }
 
