@@ -32,6 +32,19 @@ methods:
         required: true
         schema: { type: string }
 
+  set-enabled:
+    title: Set object user enabled
+    params:
+      - name: object_id
+        required: true
+        schema: { type: string, check-object-permissions: true }
+      - name: user_id
+        required: true
+        schema: { type: string }
+      - name: enabled
+        required: true
+        schema: { type: boolean }
+
   add-role:
     title: Add object user role
     params:
