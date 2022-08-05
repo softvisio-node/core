@@ -9,8 +9,8 @@ methods:
         required: true
         schema: { type: string, check-object-permissions: true }
 
-  set-role:
-    title: Set object user role
+  add-role:
+    title: Add object user role
     params:
       - name: object_id
         required: true
@@ -18,7 +18,20 @@ methods:
       - name: user_id
         required: true
         schema: { type: string }
-      - name: role_id
+      - name: role
+        required: true
+        schema: { type: string }
+
+  delete-role:
+    title: Delete object user role
+    params:
+      - name: object_id
+        required: true
+        schema: { type: string, check-object-permissions: true }
+      - name: user_id
+        required: true
+        schema: { type: string }
+      - name: role
         required: true
         schema: { type: string }
 
