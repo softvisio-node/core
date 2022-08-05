@@ -9,6 +9,13 @@ methods:
         required: true
         schema: { type: string, check-object-permissions: true }
 
+  get-roles:
+    title: Get object roles
+    params:
+      - name: object_id
+        required: true
+        schema: { type: string, check-object-permissions: true }
+
   add:
     title: Add object user
     params:
