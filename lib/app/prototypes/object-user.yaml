@@ -26,8 +26,8 @@ methods:
         required: true
         schema: { type: string }
       - name: options
-        type: object
         schema:
+          type: object
           properties:
             enabled: { type: boolean }
             roles: { type: array, items: { type: string }, uniqueItems: true }
