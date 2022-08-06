@@ -56,8 +56,8 @@ methods:
         required: true
         schema: { type: boolean }
 
-  add-role:
-    title: Add object user role
+  set-role-enabled:
+    title: Set object user role enabled
     params:
       - name: object_id
         required: true
@@ -68,19 +68,9 @@ methods:
       - name: role
         required: true
         schema: { type: string }
-
-  delete-role:
-    title: Delete object user role
-    params:
-      - name: object_id
+      - name: enabled
         required: true
-        schema: { type: string, check-object-permissions: true }
-      - name: user_id
-        required: true
-        schema: { type: string }
-      - name: role
-        required: true
-        schema: { type: string }
+        schema: { type: boolean }
 
   suggest-users:
     title: Suggest users
