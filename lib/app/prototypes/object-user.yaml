@@ -25,9 +25,13 @@ methods:
       - name: user_id
         required: true
         schema: { type: string }
-      - name: roles
-        required: true
-        schema: { type: array, items: { type: string }, uniqueItems: true }
+      - name: options
+        type: object
+        schema:
+          properties:
+            enabled: { type: boolean }
+            roles: { type: array, items: { type: string }, uniqueItems: true }
+          additionalProperties: false
 
   delete:
     title: Delete object user
