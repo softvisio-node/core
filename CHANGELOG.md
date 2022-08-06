@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.66.0 (2022-08-06)
+
+Features:
+
+-   feat: object permissions refactored
+
+Fixes:
+
+-   fix: api refactored
+-   fix: object user component refactored
+
 ### 6.65.2 (2022-07-31)
 
 Fixes:
