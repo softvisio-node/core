@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.66.1 (2022-08-06)
+
+Fixes:
+
+-   fix: db get_object_users
+
 ### 6.66.0 (2022-08-06)
 
 Features:
