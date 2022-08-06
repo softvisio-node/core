@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.66.2 (2022-08-06)
+
+Fixes:
+
+-   fix: object types sync
+
 ### 6.66.1 (2022-08-06)
 
 Fixes:
