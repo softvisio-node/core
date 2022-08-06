@@ -19,7 +19,7 @@
     extends: { type: string }
     roles: { $ref: "components#/roles" }
     emits: { type: array, items: { type: string, format: event-name } }
-    object-id-resolvers: { type: object, additionalProperties: { type: string } }
+    acl-resolvers: { type: object, additionalProperties: { type: string } }
 
     methods:
       type: object
