@@ -13,8 +13,8 @@ emits:
   - api/user-email/update # user_id, email
   - api/user-telegram-username/update # user_id, telegram_username
   - api/user-notification-type/update # user_id, type
-  - api/object-user/delete # user_id, object_id, role
-  - api/object-user/update # user_id, object_id, role
+  - api/acl/delete # user_id, object_id, role
+  - api/acl/update # user_id, object_id, role
 
 cron:
   api-cleanup:
