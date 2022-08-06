@@ -19,6 +19,7 @@
     extends: { type: string }
     permissions: { $ref: "components#/permissions" }
     emits: { type: array, items: { type: string, format: event-name } }
+    object-id-resolvers: { type: object, additionalProperties: { type: string } }
 
     methods:
       type: object

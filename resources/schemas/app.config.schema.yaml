@@ -107,29 +107,21 @@
   properties:
     objects:
       type: object
-      properties:
-        types:
-          type: object
-          additionalProperties:
+      additionalProperties:
+        type: object
+        properties:
+          basePermissions: { type: array, items: { type: string }, uniqueItems: true }
+          roles:
             type: object
-            properties:
-              basePermissions: { type: array, items: { type: string }, uniqueItems: true }
-              roles:
-                type: object
-                additionalProperties:
-                  type: object
-                  properties:
-                    name: { type: string }
-                    description: { type: string }
-                    permissions: { type: array, items: { type: string }, uniqueItems: true }
-                  required: [name, description]
-            additionalProperties: false
-            required: [enabledPermissions, roles]
-        resolvers:
-          type: object
-          additionalProperties:
-            type: object
-      additionalProperties: false
+            additionalProperties:
+              type: object
+              properties:
+                name: { type: string }
+                description: { type: string }
+                permissions: { type: array, items: { type: string }, uniqueItems: true }
+              required: [name, description]
+        additionalProperties: false
+        required: [basePermissions, roles]
   required: [objects]
 
 - $id: notifications
