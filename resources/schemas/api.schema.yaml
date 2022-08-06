@@ -17,7 +17,7 @@
     title: { $ref: "components#/titleString" }
     description: { $ref: "components#/desc" }
     extends: { type: string }
-    permissions: { $ref: "components#/permissions" }
+    roles: { $ref: "components#/roles" }
     emits: { type: array, items: { type: string, format: event-name } }
     object-id-resolvers: { type: object, additionalProperties: { type: string } }
 
@@ -30,7 +30,7 @@
           description: { $ref: "components#/desc" }
           deprecated: { type: boolean }
           private: { type: boolean }
-          permissions: { $ref: "components#/permissions" }
+          roles: { $ref: "components#/roles" }
           persistentConnectionRequired: { type: "boolean" }
           validateParams: { type: "boolean" }
           logApiCalls: { type: boolean }
@@ -63,7 +63,7 @@
   desc:
     type: string
 
-  permissions:
+  roles:
     type: array
     items:
       type: string

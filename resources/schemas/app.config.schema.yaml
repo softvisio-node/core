@@ -87,10 +87,10 @@
     - rpcSendPingsAutomatically
     - rpcCompress
 
-- $id: permissions
+- $id: roles
   type: object
   properties:
-    permissions:
+    roles:
       type: object
       additionalProperties:
         type: object
@@ -100,7 +100,7 @@
           default: { type: boolean }
         required: [name, description, default]
         additionalProperties: false
-  required: [permissions]
+  required: [roles]
 
 - $id: objects
   type: object

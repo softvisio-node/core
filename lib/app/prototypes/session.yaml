@@ -1,5 +1,5 @@
 title: Session
-permissions: ["*"]
+roles: ["*"]
 
 methods:
   check-authentication:
@@ -29,8 +29,8 @@ methods:
             password: { type: string }
           required: [username, password]
           additionalProperties: false
-      - name: signin_permissions
-        description: "<null\\> | <Array\\> Array of permissions. Only user, who has this permissions can sign in. If `null` permissions will not check."
+      - name: signin_roles
+        description: "<null\\> | <Array\\> Array of roles. Only user, who has this roles can sign in. If `null` roles will not check."
         schema:
           anyOf:
             - { type: "null" }
@@ -38,11 +38,11 @@ methods:
 
   signout:
     title: Signout
-    permissions: [user]
+    roles: [user]
 
   signup:
     title: Signup
-    permissions: [guest]
+    roles: [guest]
     params:
       - name: fields
         required: true
@@ -67,7 +67,7 @@ methods:
 
   confirm-email-by-token:
     title: Confirm user email using email confirmation token
-    permissions: ["*"]
+    roles: ["*"]
     params:
       - name: token
         description: Email confirmation token.

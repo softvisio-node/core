@@ -8,7 +8,7 @@ emits:
   - api/user-enabled/update # user_id, enabled
   - api/user-password/update # user_id, username
   - api/user/delete # user_id
-  - api/user-permissions/update # user_id
+  - api/user-roles/update # user_id
   - api/user-name/update # user_id
   - api/user-email/update # user_id, email
   - api/user-telegram-username/update # user_id, telegram_username

@@ -1,5 +1,5 @@
 title: Notifications
-permissions: [user]
+roles: [user]
 emits:
   - notifications # emitted when new notifications available
 

@@ -1,5 +1,5 @@
 title: Application users management
-permissions: [admin]
+roles: [admin]
 
 methods:
   read:
@@ -28,7 +28,7 @@ methods:
             username: { type: string }
             password: { type: string }
             enabled: { type: boolean }
-            permissions:
+            roles:
               type: object
               additionalProperties: { type: boolean }
             email: { type: string }
@@ -69,35 +69,35 @@ methods:
         schema:
           type: string
 
-  get-permissions:
-    title: Get user permissions
+  get-roles:
+    title: Get user roles
     params:
       - name: user_id
         required: true
         schema:
           type: string
 
-  set-permissions:
-    title: Set user permissions
+  set-roles:
+    title: Set user roles
     params:
       - name: user_id
         required: true
         schema:
           type: string
-      - name: permissions
+      - name: roles
         required: true
         schema:
           type: object
           additionalProperties: { type: boolean }
 
-  update-permissions:
-    title: Update user permissions
+  update-roles:
+    title: Update user roles
     params:
       - name: user_id
         required: true
         schema:
           type: string
-      - name: permissions
+      - name: roles
         required: true
         schema:
           type: object

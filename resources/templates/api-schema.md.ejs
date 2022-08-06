@@ -42,7 +42,7 @@ const api = Api.new( "<%- httpUrl %>" )
 <% } -%>
 <% if ( options.type === "api" ) { -%>
 
-Method access permissions: <%- method.permissions.map( item => `\`"${item}"\``).join(", ") %>.
+Method access roles: <%- method.roles.map( item => `\`"${item}"\``).join(", ") %>.
 <% } -%>
 
 <!-- tabs:start -->

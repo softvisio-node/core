@@ -1,5 +1,5 @@
 title: API access tokens
-permissions: [user]
+roles: [user]
 
 methods:
   read:
@@ -44,48 +44,48 @@ methods:
         schema:
           type: boolean
 
-  get-permissions:
-    title: Get token permissions
+  get-roles:
+    title: Get token roles
     params:
       - name: token_id
         required: true
         schema:
           type: string
 
-  set-permissions:
-    title: Set token permissions
+  set-roles:
+    title: Set token roles
     description: |-
-      Set API token permissions. Old permissions will be replaced with the new.
+      Set API token roles. Old roles will be replaced with the new.
     params:
       - name: token_id
         description: Token ID.
         required: true
         schema:
           type: string
-      - name: permissions
+      - name: roles
         description: |-
-          Object contains permissions to set:
-          -   Key <string\> Permission name.
-          -   Value <boolean\> `true` to enable permission.
+          Object contains roles to set:
+          -   Key <string\> Role name.
+          -   Value <boolean\> `true` to enable role.
         required: true
         schema:
           type: object
           additionalProperties: { type: boolean }
 
-  update-permissions:
-    title: Update token permissions
-    description: Update token permissions. Permissions will be added or replaced.
+  update-roles:
+    title: Update token roles
+    description: Update token roles. Roles will be added or replaced.
     params:
       - name: token_id
         description: Token ID.
         required: true
         schema:
           type: string
-      - name: permissions
+      - name: roles
         description: |-
-          Object contains permissions to update:
-          -   Key <string\> Permission name.
-          -   Value <boolean\> `true` to enable permission.
+          Object contains roles to update:
+          -   Key <string\> Role name.
+          -   Value <boolean\> `true` to enable role.
         required: true
         schema:
           type: object
