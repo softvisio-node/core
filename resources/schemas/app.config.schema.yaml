@@ -112,16 +112,19 @@
           type: object
           additionalProperties:
             type: object
-            additionalProperties:
-              type: object
-              properties:
-                name: { type: string }
-                description: { type: string }
-                permissions:
+            properties:
+              enabledPermissions: { type: array, items: { type: string }, uniqueItems: true }
+              roles:
+                type: object
+                additionalProperties:
                   type: object
-                  additionalproperties: { type: boolean }
-              required: [name, description, permissions]
-
+                  properties:
+                    name: { type: string }
+                    description: { type: string }
+                    disabledPermissions: { type: array, items: { type: string }, uniqueItems: true }
+                  required: [name, description]
+            additionalProperties: false
+            required: [enabledPermissions, roles]
         resolvers:
           type: object
           additionalProperties:
