@@ -1,4 +1,4 @@
-title: Object users
+title: Access control lists
 roles: [user]
 
 methods:
@@ -16,7 +16,7 @@ methods:
         required: true
         schema: { type: string, check-acl: true }
 
-  add:
+  add-user:
     title: Add object user
     params:
       - name: object_id
@@ -33,7 +33,7 @@ methods:
             roles: { type: array, items: { type: string }, uniqueItems: true }
           additionalProperties: false
 
-  delete:
+  delete-user:
     title: Delete object user
     params:
       - name: object_id
@@ -43,7 +43,7 @@ methods:
         required: true
         schema: { type: string }
 
-  set-enabled:
+  set-user-enabled:
     title: Set object user enabled
     params:
       - name: object_id
