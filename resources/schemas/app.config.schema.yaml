@@ -110,7 +110,6 @@
       additionalProperties:
         type: object
         properties:
-          basePermissions: { type: array, items: { type: string }, uniqueItems: true }
           roles:
             type: object
             additionalProperties:
@@ -121,7 +120,7 @@
                 permissions: { type: array, items: { type: string }, uniqueItems: true }
               required: [name, description]
         additionalProperties: false
-        required: [basePermissions, roles]
+        required: [roles]
   required: [acl]
 
 - $id: notifications
