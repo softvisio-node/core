@@ -57,7 +57,7 @@ methods:
         schema: { type: boolean }
 
   set-role-enabled:
-    title: Set object user role enabled
+    title: Set object user role enabled status
     params:
       - name: object_id
         required: true
