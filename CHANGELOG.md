@@ -1,5 +1,18 @@
 # Changelog
 
+### 6.67.0 (2022-08-07)
+
+Features:
+
+-   feat: permissions renamed to roles
+
+Fixes:
+
+-   fix: auth roles
+-   fix: db patches propped
+-   fix: object-user renamed to acl
+-   fix: user auth
+
 ### 6.66.2 (2022-08-06)
 
 Fixes:
