@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.67.1 (2022-08-08)
+
+Fixes:
+
+-   fix: acl
+-   fix: acl matcher
+-   fix: acl readonly
+-   fix: pgsql migration lock
+
 ### 6.67.0 (2022-08-07)
 
 Features:
