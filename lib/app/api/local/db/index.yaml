@@ -16,7 +16,10 @@ emits:
   - api/acl/delete # user_id, object_id, role
   - api/acl/update # user_id, object_id, role
 
-locks: ~
+locks:
+  - api/acl/sync
+  - api/call-log/latest/generate
+  - api/call-log/historic/generate
 
 cron:
   api-cleanup:
