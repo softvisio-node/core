@@ -1,6 +1,10 @@
 module: static-files
 type: pgsql
 patch: ~
-# emits:
 
-# cron:
+emits: ~
+
+locks:
+  - static-files/lock
+
+cron: ~

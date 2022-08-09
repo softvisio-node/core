@@ -16,6 +16,8 @@ emits:
   - api/acl/delete # user_id, object_id, role
   - api/acl/update # user_id, object_id, role
 
+locks: ~
+
 cron:
   api-cleanup:
     cron: "0 1 * * *" # 01:00 everyday
