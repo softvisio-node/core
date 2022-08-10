@@ -5,6 +5,6 @@ patch: ~
 emits: ~
 
 locks:
-  - static-files/lock
+  - static-files/clear
 
 cron: ~
