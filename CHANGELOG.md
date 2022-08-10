@@ -1,5 +1,19 @@
 # Changelog
 
+### 6.68.0 (2022-08-10)
+
+Features:
+
+-   feat: sql locks
+
+Fixes:
+
+-   fix: acl
+-   fix: env root in threads
+-   fix: sql locks
+-   fix: static files
+-   fix: user id starts from 100
+
 ### 6.67.1 (2022-08-08)
 
 Fixes:
