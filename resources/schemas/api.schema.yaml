@@ -7,7 +7,7 @@
       items:
         anyOf:
           - { const: "*" }
-          - { type: string, format: event-name }
+          - { type: string, format: kebab-case-path }
   additionalProperties: false
 
 # module
@@ -18,7 +18,7 @@
     description: { $ref: "components#/desc" }
     extends: { type: string }
     roles: { $ref: "components#/roles" }
-    emits: { type: array, items: { type: string, format: event-name } }
+    emits: { type: array, items: { type: string, format: kebab-case-path } }
     acl-resolvers: { type: object, additionalProperties: { type: string } }
 
     methods:
