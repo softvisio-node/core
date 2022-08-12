@@ -29,12 +29,6 @@ methods:
             password: { type: string }
           required: [username, password]
           additionalProperties: false
-      - name: signin_roles
-        description: "<null\\> | <Array\\> Array of roles. Only user, who has this roles can sign in. If `null` roles will not check."
-        schema:
-          anyOf:
-            - { type: "null" }
-            - { type: array, items: { type: string } }
 
   signout:
     title: Signout
