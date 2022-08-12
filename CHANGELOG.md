@@ -1,5 +1,13 @@
 # Changelog
 
+### 6.68.1 (2022-08-12)
+
+Fixes:
+
+-   fix: ajv format kebab-case-path
+-   fix: api session signin roles removed
+-   fix: APP_SITE_URL renamed to APP_URL
+
 ### 6.68.0 (2022-08-10)
 
 Features:
