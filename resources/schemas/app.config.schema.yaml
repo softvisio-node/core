@@ -121,7 +121,7 @@
               required: [name, description]
           types:
             type: object
-            additionalProperties: { type: [boolean, string] }
+            additionalProperties: { type: string }
         additionalProperties: false
         required: [roles, types]
   required: [acl]
