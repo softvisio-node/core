@@ -119,8 +119,11 @@
                 description: { type: string }
                 permissions: { type: array, items: { type: string }, uniqueItems: true }
               required: [name, description]
+          types:
+            type: object
+            additionalProperties: { type: [boolean, string] }
         additionalProperties: false
-        required: [roles]
+        required: [roles, types]
   required: [acl]
 
 - $id: notifications

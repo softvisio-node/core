@@ -7,21 +7,21 @@ methods:
     params:
       - name: object_id
         required: true
-        schema: { type: string, check-acl: true }
+        schema: { type: string, check-acl: acl }
 
   get-roles:
     title: Get object roles
     params:
       - name: object_id
         required: true
-        schema: { type: string, check-acl: true }
+        schema: { type: string, check-acl: acl }
 
   add-user:
     title: Add object user
     params:
       - name: object_id
         required: true
-        schema: { type: string, check-acl: true }
+        schema: { type: string, check-acl: acl }
       - name: user_id
         required: true
         schema: { type: string }
@@ -38,7 +38,7 @@ methods:
     params:
       - name: object_id
         required: true
-        schema: { type: string, check-acl: true }
+        schema: { type: string, check-acl: acl }
       - name: user_id
         required: true
         schema: { type: string }
@@ -48,7 +48,7 @@ methods:
     params:
       - name: object_id
         required: true
-        schema: { type: string, check-acl: true }
+        schema: { type: string, check-acl: acl }
       - name: user_id
         required: true
         schema: { type: string }
@@ -61,7 +61,7 @@ methods:
     params:
       - name: object_id
         required: true
-        schema: { type: string, check-acl: true }
+        schema: { type: string, check-acl: acl }
       - name: user_id
         required: true
         schema: { type: string }
@@ -79,7 +79,7 @@ methods:
         schema:
           read:
             fields:
-              object_id: { type: string, operator: "=", required: true, check-acl: true }
+              object_id: { type: string, operator: "=", required: true, check-acl: acl }
               name: { type: string, operator: "like" }
             order_by: [["name", "desc"]]
             offset: false
