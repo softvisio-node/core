@@ -31,7 +31,6 @@
           private: { type: boolean }
           roles: { $ref: "components#/roles" }
           persistentConnectionRequired: { type: "boolean" }
-          validateParams: { type: "boolean" }
           logApiCalls: { type: boolean }
           activeRequestsLimit: { type: integer, minimum: 0 }
           activeRequestsUserLimit: { type: integer, minimum: 0 }
