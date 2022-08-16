@@ -120,7 +120,7 @@
                   properties:
                     name: { type: string }
                     description: { type: string }
-                    permissions: { type: array, items: { type: string }, uniqueItems: true }
+                    permissions: { type: object, additionalProperties: { type: boolean } }
                   required: [name, description]
             additionalProperties: false
         objectTypes:
