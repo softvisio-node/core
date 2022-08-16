@@ -3,23 +3,23 @@ roles: [user]
 
 methods:
   get-users:
-    title: Get object users
+    title: Get acl users
     params:
-      - name: object_id
+      - name: acl_id
         required: true
         schema: { type: string, check-acl: acl }
 
   get-roles:
-    title: Get object roles
+    title: Get acl roles
     params:
-      - name: object_id
+      - name: acl_id
         required: true
         schema: { type: string, check-acl: acl }
 
   add-user:
-    title: Add object user
+    title: Add acl user
     params:
-      - name: object_id
+      - name: acl_id
         required: true
         schema: { type: string, check-acl: acl }
       - name: user_id
@@ -34,9 +34,9 @@ methods:
           additionalProperties: false
 
   delete-user:
-    title: Delete object user
+    title: Delete acl user
     params:
-      - name: object_id
+      - name: acl_id
         required: true
         schema: { type: string, check-acl: acl }
       - name: user_id
@@ -44,9 +44,9 @@ methods:
         schema: { type: string }
 
   set-user-enabled:
-    title: Set object user enabled
+    title: Set acl user enabled
     params:
-      - name: object_id
+      - name: acl_id
         required: true
         schema: { type: string, check-acl: acl }
       - name: user_id
@@ -57,9 +57,9 @@ methods:
         schema: { type: boolean }
 
   set-role-enabled:
-    title: Set object user role enabled status
+    title: Set acl user role enabled status
     params:
-      - name: object_id
+      - name: acl_id
         required: true
         schema: { type: string, check-acl: acl }
       - name: user_id
@@ -79,7 +79,7 @@ methods:
         schema:
           read:
             fields:
-              object_id: { type: string, operator: "=", required: true, check-acl: acl }
+              acl_id: { type: string, operator: "=", required: true, check-acl: acl }
               name: { type: string, operator: "like" }
             order_by: [["name", "desc"]]
             offset: false
