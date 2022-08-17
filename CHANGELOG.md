@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.68.2 (2022-08-17)
+
+Fixes:
+
+-   fix: acl refactored
+
 ### 6.68.1 (2022-08-12)
 
 Fixes:
