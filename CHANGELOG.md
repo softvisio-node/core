@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.68.4 (2022-08-17)
+
+Fixes:
+
+-   fix: method call typo
+
 ### 6.68.3 (2022-08-17)
 
 Fixes:
