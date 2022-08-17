@@ -2,12 +2,15 @@ title: Access control lists
 roles: [user]
 
 methods:
-  get-acl:
+  get-acl-permissions:
     title: Get ACL permissions
     params:
       - name: acl_id
         required: true
         schema: { type: string, aclObjectType: acl }
+      - name: acl_object_type
+        required: true
+        schema: { type: string }
 
   get-users:
     title: Get ACL users
