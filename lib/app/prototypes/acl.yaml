@@ -2,22 +2,29 @@ title: Access control lists
 roles: [user]
 
 methods:
+  get-acl:
+    title: Get ACL permissions
+    params:
+      - name: acl_id
+        required: true
+        schema: { type: string, aclObjectType: acl }
+
   get-users:
-    title: Get acl users
+    title: Get ACL users
     params:
       - name: acl_id
         required: true
         schema: { type: string, aclObjectType: acl }
 
   get-roles:
-    title: Get acl roles
+    title: Get ACL roles
     params:
       - name: acl_id
         required: true
         schema: { type: string, aclObjectType: acl }
 
   add-user:
-    title: Add acl user
+    title: Add ACL user
     params:
       - name: acl_id
         required: true
@@ -34,7 +41,7 @@ methods:
           additionalProperties: false
 
   delete-user:
-    title: Delete acl user
+    title: Delete ACL user
     params:
       - name: acl_id
         required: true
@@ -44,7 +51,7 @@ methods:
         schema: { type: string }
 
   set-user-enabled:
-    title: Set acl user enabled
+    title: Set ACL user enabled
     params:
       - name: acl_id
         required: true
@@ -57,7 +64,7 @@ methods:
         schema: { type: boolean }
 
   set-role-enabled:
-    title: Set acl user role enabled status
+    title: Set ACL user role enabled status
     params:
       - name: acl_id
         required: true
