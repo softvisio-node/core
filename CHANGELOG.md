@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.68.6 (2022-08-18)
+
+Fixes:
+
+-   fix: browser options refactored
+
 ### 6.68.5 (2022-08-17)
 
 Fixes:
