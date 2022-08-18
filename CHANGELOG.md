@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.68.9 (2022-08-18)
+
+Fixes:
+
+-   fix: api schema load error
+-   fix: rpc load api
+
 ### 6.68.8 (2022-08-18)
 
 Fixes:
