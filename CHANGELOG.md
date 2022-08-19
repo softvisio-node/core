@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.68.11 (2022-08-19)
+
+Fixes:
+
+-   fix: sql locks sync
+
 ### 6.68.10 (2022-08-19)
 
 Fixes:
