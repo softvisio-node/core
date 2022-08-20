@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.69.1 (2022-08-20)
+
+Fixes:
+
+-   fix: send email
+-   fix: typo
+
 ### 6.69.0 (2022-08-20)
 
 Features:
