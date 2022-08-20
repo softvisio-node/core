@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.69.2 (2022-08-20)
+
+Fixes:
+
+-   fix: email templates
+
 ### 6.69.1 (2022-08-20)
 
 Fixes:
