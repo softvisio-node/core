@@ -31,3 +31,6 @@ methods:
 
   delete-sessions:
     title: Delete sessions
+
+  delete:
+    title: Delete account
