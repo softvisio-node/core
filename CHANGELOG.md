@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.69.0 (2022-08-20)
+
+Features:
+
+-   feat: api account delete
+
+Fixes:
+
+-   fix: naming conventions regexps
+
 ### 6.68.11 (2022-08-19)
 
 Fixes:
