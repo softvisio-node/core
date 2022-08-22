@@ -89,3 +89,10 @@ methods:
         required: true
         schema:
           type: string
+
+  register-push-notifications-token:
+    title: Register push notifications token
+    params:
+      - name: token
+        required: true
+        schema: { type: string }
