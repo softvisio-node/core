@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.70.0 (2022-08-23)
+
+Features:
+
+-   feat: firebase api
+
+Fixes:
+
+-   fix: firebase
+
 ### 6.69.2 (2022-08-20)
 
 Fixes:
