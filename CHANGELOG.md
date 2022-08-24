@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.70.1 (2022-08-24)
+
+Fixes:
+
+-   fix: app env schema
+-   fix: env config merge
+
 ### 6.70.0 (2022-08-23)
 
 Features:
