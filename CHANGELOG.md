@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.70.3 (2022-08-24)
+
+Fixes:
+
+-   fix: token length increased to 24
+
 ### 6.70.2 (2022-08-24)
 
 Fixes:
