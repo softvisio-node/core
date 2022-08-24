@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.70.2 (2022-08-24)
+
+Fixes:
+
+-   fix: token generator
+
 ### 6.70.1 (2022-08-24)
 
 Fixes:
