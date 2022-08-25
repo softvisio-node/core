@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.71.1 (2022-08-25)
+
+Fixes:
+
+-   fix: api methods
+
 ### 6.71.0 (2022-08-25)
 
 Features:
