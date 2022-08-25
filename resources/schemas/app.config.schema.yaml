@@ -34,7 +34,7 @@
     authCacheMaxSize: { type: integer, minimum: 0 }
     authCacheLastActivityDropInterval: { type: integer, minimum: 10_000 } # ms
     sessionMaxAge: { type: integer, minimum: 60_000 } # ms
-    tokenMaxAge: { type: integer, minimum: 60_000 } # ms
+    actionTokenMaxAge: { type: integer, minimum: 60_000 } # ms
     objectUserCacheMaxSize: { type: integer, minimum: 0 }
     apiCallLogCacheDropInterval: { type: integer, minimum: 10_000 } # ms
     defaultGravatarUrl: { type: string, format: uri }
@@ -57,7 +57,7 @@
     - authCacheMaxSize
     - authCacheLastActivityDropInterval
     - sessionMaxAge
-    - tokenMaxAge
+    - actionTokenMaxAge
     - objectUserCacheMaxSize
     - apiCallLogCacheDropInterval
     - defaultGravatarUrl
