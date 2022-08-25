@@ -3,7 +3,7 @@ type: pgsql
 patch: ~
 
 emits:
-  - api/invalidate-user-token # token_type, token_id
+  - api/invalidate-user-key # key_type, key_id
   - api/user-telegram-chat/update # user_id, chat_id, chat_id can be null, when chat was deleted
   - api/user-enabled/update # user_id, enabled
   - api/user-password/update # user_id, username
