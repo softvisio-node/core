@@ -1,9 +1,9 @@
-title: API access tokens
+title: API access keys
 roles: [user]
 
 methods:
   read:
-    title: Read API tokens
+    title: Read API keys
     params:
       - name: options
         schema:
@@ -17,7 +17,7 @@ methods:
             limit: { maxLimit: 100 }
 
   create:
-    title: Generate new token
+    title: Generate new key
     params:
       - name: name
         required: true
@@ -25,17 +25,17 @@ methods:
           type: string
 
   delete:
-    title: Remove token
+    title: Remove key
     params:
-      - name: token_id
+      - name: key_id
         required: true
         schema:
           type: string
 
   set-enabled:
-    title: Set token enabled
+    title: Set key enabled
     params:
-      - name: token_id
+      - name: key_id
         required: true
         schema:
           type: string
@@ -45,20 +45,20 @@ methods:
           type: boolean
 
   get-roles:
-    title: Get token roles
+    title: Get key roles
     params:
-      - name: token_id
+      - name: key_id
         required: true
         schema:
           type: string
 
   set-roles:
-    title: Set token roles
+    title: Set key roles
     description: |-
-      Set API token roles. Old roles will be replaced with the new.
+      Set API key roles. Old roles will be replaced with the new.
     params:
-      - name: token_id
-        description: Token ID.
+      - name: key_id
+        description: Key id.
         required: true
         schema:
           type: string
@@ -73,11 +73,11 @@ methods:
           additionalProperties: { type: boolean }
 
   update-roles:
-    title: Update token roles
-    description: Update token roles. Roles will be added or replaced.
+    title: Update key roles
+    description: Update key roles. Roles will be added or replaced.
     params:
-      - name: token_id
-        description: Token ID.
+      - name: key_id
+        description: Key id.
         required: true
         schema:
           type: string
