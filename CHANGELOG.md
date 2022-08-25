@@ -1,5 +1,18 @@
 # Changelog
 
+### 6.71.0 (2022-08-25)
+
+Features:
+
+-   feat: api tokens api refactored
+
+Fixes:
+
+-   fix: api token refactored
+-   fix: ctx properties
+-   fix: user session refactored
+-   fix: user_hash table renamed
+
 ### 6.70.3 (2022-08-24)
 
 Fixes:
