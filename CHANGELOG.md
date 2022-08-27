@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.71.2 (2022-08-27)
+
+Fixes:
+
+-   fix: threads add env
+
 ### 6.71.1 (2022-08-25)
 
 Fixes:
