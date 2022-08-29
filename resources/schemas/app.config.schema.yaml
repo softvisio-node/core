@@ -28,6 +28,7 @@
   properties:
     # settings
     usernameIsEmail: { type: boolean }
+    signupEnabled: { type: boolean, default: true }
     newUserEnabled: { type: boolean }
     defaultGravatarEmail: { type string, format: email }
     defaultGravatarImage: { anyOf: [{ type: string, format: uri }, { enum: [404, mp, identicon, monsterid, wavatar, retro, robohash, blank] }] }
