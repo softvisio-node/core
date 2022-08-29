@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.71.3 (2022-08-29)
+
+Fixes:
+
+-   fix: luxon downgraded to v3.0.1
+
 ### 6.71.2 (2022-08-27)
 
 Fixes:
