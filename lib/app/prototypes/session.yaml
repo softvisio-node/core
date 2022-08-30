@@ -101,3 +101,7 @@ methods:
       - name: token
         required: true
         schema: { type: string }
+
+  get-sessions:
+    title: Set active sessions list
+    roles: [user]
