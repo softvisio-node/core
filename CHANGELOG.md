@@ -1,5 +1,16 @@
 # Changelog
 
+### 6.71.4 (2022-08-30)
+
+Fixes:
+
+-   fix: app info
+-   fix: app signupEnabled option added
+-   fix: git api
+-   fix: git api moved to core
+-   fix: git status
+-   fix: luxon version
+
 ### 6.71.3 (2022-08-29)
 
 Fixes:
