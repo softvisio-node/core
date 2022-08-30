@@ -1,5 +1,18 @@
 # Changelog
 
+### 6.72.0 (2022-08-30)
+
+Features:
+
+-   feat: device id
+-   feat: sessions panel
+
+Fixes:
+
+-   fix: api keys last activity sort
+-   fix: user last activity sort
+-   fix: user sessions
+
 ### 6.71.4 (2022-08-30)
 
 Fixes:
