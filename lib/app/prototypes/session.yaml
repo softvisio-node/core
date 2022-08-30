@@ -34,6 +34,9 @@ methods:
   signout:
     title: Signout
     roles: [user]
+    params:
+      - name: session_id
+        schema: { type: string }
 
   signup:
     title: Signup
