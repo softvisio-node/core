@@ -12,6 +12,7 @@ methods:
               id: { type: string }
               name: { type: string, operator: like, sortable: true }
               created: { type: string, sortable: true }
+              last_activity: { type: string, sortable: true }
               enabled: { type: boolean, operator: "=", sortable: true }
             order_by: [[name, asc]]
             limit: { maxLimit: 100 }
