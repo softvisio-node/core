@@ -13,6 +13,7 @@ methods:
               search: { type: string, operator: like }
               name: { sortable: true }
               created: { sortable: true }
+              last_activity: { sortable: true }
               enabled: { sortable: true }
             order_by: [["name", "desc"]]
             limit: { maxLimit: 100 }
