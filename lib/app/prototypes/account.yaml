@@ -29,8 +29,5 @@ methods:
         schema:
           type: string
 
-  delete-sessions:
-    title: Delete sessions
-
   delete:
     title: Delete account

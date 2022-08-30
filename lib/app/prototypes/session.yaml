@@ -105,3 +105,7 @@ methods:
   get-sessions:
     title: Set active sessions list
     roles: [user]
+
+  delete-all-sessions:
+    title: Delete all sessions
+    roles: [user]
