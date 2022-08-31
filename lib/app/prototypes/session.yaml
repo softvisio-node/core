@@ -74,8 +74,8 @@ methods:
         schema:
           type: string
 
-  send-password-reset-email:
-    title: Send password reset email
+  send-password-recovery-email:
+    title: Send password recovery email
     params:
       - name: user_id
         description: User name or email.
