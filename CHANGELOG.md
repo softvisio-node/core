@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.72.1 (2022-08-31)
+
+Fixes:
+
+-   fix: password recovery
+
 ### 6.72.0 (2022-08-30)
 
 Features:
