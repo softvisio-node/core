@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.72.3 (2022-09-06)
+
+Fixes:
+
+-   fix: load env options
+
 ### 6.72.2 (2022-09-06)
 
 Fixes:
