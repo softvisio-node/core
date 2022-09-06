@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.72.2 (2022-09-06)
+
+Fixes:
+
+-   fix: apply env to target
+-   fix: push notifications default values
+
 ### 6.72.1 (2022-08-31)
 
 Fixes:
