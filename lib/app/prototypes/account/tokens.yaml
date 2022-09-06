@@ -1,0 +1,93 @@
+title: Personal access tokens
+roles: [user]
+
+methods:
+  read:
+    title: Read tokens
+    params:
+      - name: options
+        schema:
+          read:
+            fields:
+              id: { type: string }
+              name: { type: string, operator: like, sortable: true }
+              created: { type: string, sortable: true }
+              last_activity: { type: string, sortable: true }
+              enabled: { type: boolean, operator: "=", sortable: true }
+            order_by: [[name, asc]]
+            limit: { maxLimit: 100 }
+
+  create:
+    title: Generate new token
+    params:
+      - name: name
+        required: true
+        schema:
+          type: string
+
+  delete:
+    title: Remove token
+    params:
+      - name: token_id
+        required: true
+        schema:
+          type: string
+
+  set-enabled:
+    title: Set token enabled
+    params:
+      - name: token_id
+        required: true
+        schema:
+          type: string
+      - name: enabled
+        required: true
+        schema:
+          type: boolean
+
+  get-roles:
+    title: Get token roles
+    params:
+      - name: token_id
+        required: true
+        schema:
+          type: string
+
+  set-roles:
+    title: Set token roles
+    description: |-
+      Set token roles. Old roles will be replaced with the new.
+    params:
+      - name: token_id
+        description: Token id.
+        required: true
+        schema:
+          type: string
+      - name: roles
+        description: |-
+          Object contains roles to set:
+          -   Id <string\> Role name.
+          -   Value <boolean\> `true` to enable role.
+        required: true
+        schema:
+          type: object
+          additionalProperties: { type: boolean }
+
+  update-roles:
+    title: Update token roles
+    description: Update token roles. Roles will be added or replaced.
+    params:
+      - name: token_id
+        description: Token id.
+        required: true
+        schema:
+          type: string
+      - name: roles
+        description: |-
+          Object contains roles to update:
+          -   Id <string\> Role name.
+          -   Value <boolean\> `true` to enable role.
+        required: true
+        schema:
+          type: object
+          additionalProperties: { type: boolean }
