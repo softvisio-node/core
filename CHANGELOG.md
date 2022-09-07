@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.73.1 (2022-09-07)
+
+Fixes:
+
+-   fix: notification on sign in
+
 ### 6.73.0 (2022-09-07)
 
 Features:
