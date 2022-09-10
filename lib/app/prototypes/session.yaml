@@ -103,7 +103,7 @@ methods:
         schema: { type: string }
 
   get-sessions:
-    title: Set active sessions list
+    title: Get sessions list
     roles: [user]
 
   delete-all-sessions:

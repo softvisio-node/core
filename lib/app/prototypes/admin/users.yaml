@@ -119,7 +119,24 @@ methods:
         schema:
           type: string
 
-  delete-sessions:
+  get-sessions:
+    title: Get user sessions list
+    params:
+      - name: user_id
+        required: true
+        schema: { type: string }
+
+  delete-session:
+    title: Delete user session
+    params:
+      - name: user_id
+        required: true
+        schema: { type: string }
+      - name: session_id
+        required: true
+        schema: { type: string }
+
+  delete-all-sessions:
     title: Delete user sessions
     params:
       - name: user_id
