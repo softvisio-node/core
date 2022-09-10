@@ -105,6 +105,6 @@ methods:
     title: Get sessions list
     roles: [user]
 
-  delete-all-sessions:
-    title: Delete all sessions
+  signout-all-sessions:
+    title: Sign out of all sessions
     roles: [user]

@@ -126,8 +126,8 @@ methods:
         required: true
         schema: { type: string }
 
-  delete-session:
-    title: Delete user session
+  signout-session:
+    title: Sign out of user session
     params:
       - name: user_id
         required: true
@@ -136,8 +136,8 @@ methods:
         required: true
         schema: { type: string }
 
-  delete-all-sessions:
-    title: Delete user sessions
+  signout-all-sessions:
+    title: Sign out of all user sessions
     params:
       - name: user_id
         required: true
