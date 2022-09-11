@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.73.2 (2022-09-11)
+
+Fixes:
+
+-   fix: api account
+-   fix: sql schema
+-   fix: users roles filter
+-   fix: users sessions api
+
 ### 6.73.1 (2022-09-07)
 
 Fixes:
