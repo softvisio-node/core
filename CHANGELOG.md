@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.73.3 (2022-09-12)
+
+Fixes:
+
+-   fix: ua parser
+
 ### 6.73.2 (2022-09-11)
 
 Fixes:
