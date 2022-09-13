@@ -16,7 +16,6 @@ methods:
     params:
       - name: email
         description: Email address to set, if not specified, current email address will be removed.
-        required: false
         schema:
           type: string
 
@@ -25,7 +24,14 @@ methods:
     params:
       - name: telegram_username
         description: Telegram username to set, if not specified current telegram user name will be removed.
-        required: false
+        schema:
+          type: string
+
+  set-locale:
+    title: Set locale
+    params:
+      - name: locale
+        required: true
         schema:
           type: string
 
