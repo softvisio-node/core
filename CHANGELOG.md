@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.74.1 (2022-09-13)
+
+Fixes:
+
+-   fix: argin2 settings tuned
+-   fix: user password authenticatoin refactored
+
 ### 6.74.0 (2022-09-13)
 
 Features:
