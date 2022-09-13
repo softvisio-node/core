@@ -1,5 +1,17 @@
 # Changelog
 
+### 6.74.0 (2022-09-13)
+
+Features:
+
+-   feat: user locale
+
+Fixes:
+
+-   fix: api account sessions
+-   fix: ua constructor
+-   fix: ua getters
+
 ### 6.73.3 (2022-09-12)
 
 Fixes:
