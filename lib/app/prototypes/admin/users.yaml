@@ -110,15 +110,10 @@ methods:
     params:
       - name: user_id
         required: true
-        schema:
-          type: string
+        schema: { type: string }
       - name: new_username
         required: true
-        schema:
-          type: string
-      - name: new_password
-        schema:
-          type: string
+        schema: { type: string }
 
   get-sessions:
     title: Get user sessions list
