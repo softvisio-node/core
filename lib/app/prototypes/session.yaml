@@ -34,9 +34,6 @@ methods:
   signout:
     title: Signout
     roles: [user]
-    params:
-      - name: session_id
-        schema: { type: string }
 
   signup:
     title: Signup
@@ -100,11 +97,3 @@ methods:
       - name: token
         required: true
         schema: { type: string }
-
-  get-sessions:
-    title: Get sessions list
-    roles: [user]
-
-  signout-all-sessions:
-    title: Sign out of all sessions
-    roles: [user]

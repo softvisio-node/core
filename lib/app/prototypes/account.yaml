@@ -31,3 +31,16 @@ methods:
 
   delete:
     title: Delete account
+
+  get-sessions:
+    title: Get sessions list
+
+  signout-session:
+    title: Signout of session
+    params:
+      - name: session_id
+        required: true
+        schema: { type: string }
+
+  signout-all-sessions:
+    title: Sign out of all sessions
