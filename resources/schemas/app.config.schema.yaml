@@ -1,6 +1,10 @@
 - $id: app
   type: object
   properties:
+    locales: { type: object }
+    defaultLocale: { type: string }
+    currency: { type: string }
+
     apiEnabled: { type: boolean }
     rpcEnabled: { type: boolean }
     notificationsEnabled: { type: boolean }
@@ -12,6 +16,10 @@
     publicHttpServerAddress: { type: string, format: ip-address }
     publicHttpServerPort: { type: integer, minimum: 0, maximum: 65535 }
   required:
+    - locales
+    - defaultLocale
+    - currency
+
     - apiEnabled
     - rpcEnabled
     - notificationsEnabled
