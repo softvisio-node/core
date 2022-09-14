@@ -7,7 +7,6 @@ emits:
   - api/user-telegram-chat/update # user_id, chat_id, chat_id can be null, when chat was deleted
   - api/user-enabled/update # user_id, enabled
   - api/user-locale/update # user_id, locale
-  - api/user-password/update # user_id
   - api/user/delete # user_id
   - api/user-roles/update # user_id
   - api/user-name/update # user_id
