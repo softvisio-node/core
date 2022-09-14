@@ -1,5 +1,15 @@
 # Changelog
 
+### 6.74.2 (2022-09-14)
+
+Fixes:
+
+-   fix: api user locale update event
+-   fix: app auth cache
+-   fix: app locale
+-   fix: cache lru cleat silent
+-   fix: cache lru get silent
+
 ### 6.74.1 (2022-09-13)
 
 Fixes:
