@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.74.3 (2022-09-15)
+
+Fixes:
+
+-   fix: device id renamed to device guid
+-   fix: user device refactored
+
 ### 6.74.2 (2022-09-14)
 
 Fixes:
