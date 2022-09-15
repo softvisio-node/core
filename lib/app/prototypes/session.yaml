@@ -27,7 +27,7 @@ methods:
           properties:
             username: { type: string }
             password: { type: string }
-            device_id: { type: string, format: uuid }
+            device_guid: { type: string, format: uuid }
           required: [username, password]
           additionalProperties: false
 
@@ -48,7 +48,7 @@ methods:
             password: { type: string }
             email: { type: string }
             telegram_username: { type: string }
-            device_id: { type: string, format: uuid }
+            device_guid: { type: string, format: uuid }
           required:
             - username
 
