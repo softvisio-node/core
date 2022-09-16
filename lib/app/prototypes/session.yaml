@@ -97,3 +97,11 @@ methods:
       - name: token
         required: true
         schema: { type: string }
+
+  create-trusted-session:
+    title: Create trusted session
+    roles: [user]
+    params:
+      - name: password
+        required: true
+        schema: { type: string }

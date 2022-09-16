@@ -26,7 +26,8 @@ cron:
     cron: "0 1 * * *" # 01:00 everyday
     timezone: ~
     query: |-
+      DELETE FROM user_session WHERE expires <= CURRENT_TIMESTAMP;
+      DELETE FROM user_trusted_session WHERE expires <= CURRENT_TIMESTAMP;
+      DELETE FROM user_action_token WHERE expires <= CURRENT_TIMESTAMP;
       DELETE FROM api_call_load WHERE started < CURRENT_TIMESTAMP - INTERVAL '30 days';
       DELETE FROM api_call_log WHERE finished < CURRENT_TIMESTAMP - INTERVAL '30 days';
-      DELETE FROM user_session WHERE expires <= CURRENT_TIMESTAMP;
-      DELETE FROM user_action_token WHERE expires <= CURRENT_TIMESTAMP;
