@@ -39,7 +39,8 @@ methods:
             - username
 
   delete:
-    title: Remove user
+    title: Delete user
+    authorizationRequired: true
     params:
       - name: user_id
         required: true
@@ -134,7 +135,6 @@ methods:
 
   signout-all-sessions:
     title: Sign out of all user sessions
-    authorizationRequired: true
     params:
       - name: user_id
         required: true
