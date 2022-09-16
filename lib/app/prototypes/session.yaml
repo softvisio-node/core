@@ -31,6 +31,14 @@ methods:
           required: [username, password]
           additionalProperties: false
 
+  signin-session:
+    title: Update session
+    roles: [user]
+    params:
+      - name: password
+        required: true
+        schema: { type: string }
+
   signout:
     title: Signout
     roles: [user]
@@ -95,13 +103,5 @@ methods:
     title: Register push notifications token
     params:
       - name: token
-        required: true
-        schema: { type: string }
-
-  create-trusted-session:
-    title: Create trusted session
-    roles: [user]
-    params:
-      - name: password
         required: true
         schema: { type: string }
