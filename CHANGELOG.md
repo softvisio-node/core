@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.75.0 (2022-09-16)
+
+Features:
+
+-   feat: user trusted session'
+
 ### 6.74.3 (2022-09-15)
 
 Fixes:
