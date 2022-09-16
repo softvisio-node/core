@@ -31,8 +31,8 @@ methods:
           required: [username, password]
           additionalProperties: false
 
-  signin-session:
-    title: Update session
+  authorize-session:
+    title: Authorize session
     roles: [user]
     params:
       - name: password

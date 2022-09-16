@@ -134,6 +134,7 @@ methods:
 
   signout-all-sessions:
     title: Sign out of all user sessions
+    authorizationRequired: true
     params:
       - name: user_id
         required: true
