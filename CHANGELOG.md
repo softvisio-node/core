@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.75.3 (2022-09-16)
+
+Fixes:
+
+-   fix: device guid removed
+
 ### 6.75.2 (2022-09-16)
 
 Fixes:
