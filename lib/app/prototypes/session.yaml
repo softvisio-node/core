@@ -31,7 +31,7 @@ methods:
           required: [username, password]
           additionalProperties: false
 
-  authorize-session:
+  authorize:
     title: Authorize session
     roles: [user]
     params:
