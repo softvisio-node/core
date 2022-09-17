@@ -2,6 +2,9 @@ title: User account
 roles: [user]
 
 methods:
+  get-account:
+    title: Get your account data
+
   set-password:
     title: Set password
     authorizationRequired: true
