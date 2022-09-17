@@ -13,7 +13,7 @@ methods:
         schema:
           type: object
           properties:
-            email: { type: string }
+            email: { type: string, format: email }
             password: { type: string }
           required: [email, password]
           additionalProperties: false
@@ -39,7 +39,7 @@ methods:
         schema:
           type: object
           properties:
-            email: { type: string }
+            email: { type: string, format: email }
             password: { type: string }
             telegram_username: { type: string }
           required: [email]
@@ -47,11 +47,9 @@ methods:
   send-confirmation-email:
     title: Send confirmation email
     params:
-      - name: user_id
-        description: User name or email.
+      - name: email
         required: true
-        schema:
-          type: string
+        schema: { type: string, format: email }
 
   confirm-email-by-token:
     title: Confirm user email using email confirmation token
@@ -67,8 +65,7 @@ methods:
     params:
       - name: email
         required: true
-        schema:
-          type: string
+        schema: { type: string, format: email }
 
   set-password-by-token:
     title: Set user password using password recovery token

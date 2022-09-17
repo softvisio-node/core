@@ -20,7 +20,7 @@ methods:
     authorizationRequired: true
     params:
       - name: email
-        schema: { type: string }
+        schema: { type: string, format: email }
 
   set-telegram-username:
     title: Set telegram username
