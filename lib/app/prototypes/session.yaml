@@ -2,8 +2,8 @@ title: Session
 roles: ["*"]
 
 methods:
-  check-authentication:
-    title: Check authentcation
+  check-authorization:
+    title: Check authorization
 
   signin:
     title: Signin
