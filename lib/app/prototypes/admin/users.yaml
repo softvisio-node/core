@@ -27,16 +27,15 @@ methods:
         schema:
           type: object
           properties:
-            username: { type: string }
+            email: { type: string }
             password: { type: string }
             enabled: { type: boolean }
             roles:
               type: object
               additionalProperties: { type: boolean }
-            email: { type: string }
             telegram_username: { type: string }
           required:
-            - username
+            - email
 
   delete:
     title: Delete user
