@@ -46,10 +46,6 @@ methods:
 
   send-confirmation-email:
     title: Send confirmation email
-    params:
-      - name: email
-        required: true
-        schema: { type: string, format: email }
 
   confirm-email-by-token:
     title: Confirm user email using email confirmation token
