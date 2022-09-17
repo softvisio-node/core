@@ -35,7 +35,6 @@
   type: object
   properties:
     # settings
-    usernameIsEmail: { type: boolean }
     signupEnabled: { type: boolean, default: true }
     newUserEnabled: { type: boolean }
     defaultGravatarEmail: { type string, format: email }
@@ -60,7 +59,6 @@
 
   required:
     # settings
-    - usernameIsEmail
     - newUserEnabled
     - defaultGravatarEmail
     - defaultGravatarImage

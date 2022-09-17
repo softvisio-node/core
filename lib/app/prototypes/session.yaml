@@ -7,27 +7,15 @@ methods:
 
   signin:
     title: Signin
-    description: |-
-      If `credentials` parameter is specified - will try to sign in user using username and password, otherwise will try to sign in user, using currently used api token.
-
-      **Returns**:
-
-      -   `200`: Sign in successfully.
-
-      -   `401`: Bad credentials.
-
-      -   `403`: Not authorized.
-
-      -   Any other status means bad request, internal or connection error. Refer to the response `statusText` property for more information.
     params:
       - name: credentials
         required: true
         schema:
           type: object
           properties:
-            username: { type: string }
+            email: { type: string }
             password: { type: string }
-          required: [username, password]
+          required: [email, password]
           additionalProperties: false
 
   authorize:
@@ -51,12 +39,10 @@ methods:
         schema:
           type: object
           properties:
-            username: { type: string }
-            password: { type: string }
             email: { type: string }
+            password: { type: string }
             telegram_username: { type: string }
-          required:
-            - username
+          required: [email]
 
   send-confirmation-email:
     title: Send confirmation email
@@ -79,8 +65,7 @@ methods:
   send-password-recovery-email:
     title: Send password recovery email
     params:
-      - name: user_id
-        description: User name or email.
+      - name: email
         required: true
         schema:
           type: string
