@@ -4,6 +4,7 @@ roles: [user]
 methods:
   set-password:
     title: Set password
+    authorizationRequired: true
     params:
       - name: password
         description: New password.
@@ -13,6 +14,7 @@ methods:
 
   set-email:
     title: Set email
+    authorizationRequired: true
     params:
       - name: email
         description: Email address to set, if not specified, current email address will be removed.
@@ -21,6 +23,7 @@ methods:
 
   set-telegram-username:
     title: Set telegram username
+    authorizationRequired: true
     params:
       - name: telegram_username
         description: Telegram username to set, if not specified current telegram user name will be removed.
@@ -37,6 +40,7 @@ methods:
 
   delete:
     title: Delete account
+    authorizationRequired: true
 
   get-sessions:
     title: Get sessions list

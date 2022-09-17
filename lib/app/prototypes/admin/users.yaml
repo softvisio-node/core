@@ -62,6 +62,7 @@ methods:
 
   set-password:
     title: Set user password
+    authorizationRequired: true
     params:
       - name: user_id
         description: User id or name.
