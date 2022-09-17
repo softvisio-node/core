@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.75.4 (2022-09-17)
+
+Fixes:
+
+-   fix: session authorizations
+
 ### 6.75.3 (2022-09-16)
 
 Fixes:
