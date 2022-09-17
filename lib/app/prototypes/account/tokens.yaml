@@ -27,6 +27,7 @@ methods:
 
   delete:
     title: Remove token
+    authorizationRequired: true
     params:
       - name: token_id
         required: true
