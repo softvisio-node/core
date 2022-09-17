@@ -107,16 +107,6 @@ methods:
           type: object
           additionalProperties: { type: boolean }
 
-  set-username:
-    title: Change user name
-    params:
-      - name: user_id
-        required: true
-        schema: { type: string }
-      - name: new_username
-        required: true
-        schema: { type: string }
-
   get-sessions:
     title: Get user sessions list
     params:

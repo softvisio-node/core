@@ -20,9 +20,7 @@ methods:
     authorizationRequired: true
     params:
       - name: email
-        description: Email address to set, if not specified, current email address will be removed.
-        schema:
-          type: string
+        schema: { type: string }
 
   set-telegram-username:
     title: Set telegram username
