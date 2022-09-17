@@ -90,7 +90,7 @@ methods:
           read:
             fields:
               acl_id: { type: string, operator: "=", required: true, aclObjectType: acl }
-              name: { type: string, operator: "like" }
-            order_by: [["name", "desc"]]
+              email: { type: string, operator: "like" }
+            order_by: [["email", "desc"]]
             offset: false
             limit: { maxLimit: 20 }
