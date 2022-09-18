@@ -22,13 +22,13 @@ methods:
         required: true
         schema: { type: string, format: email }
 
-  set-email:
-    title: Set email
+  set-email-by-token:
+    title: Set email using token
     authorizationRequired: true
     params:
-      - name: email
+      - name: token
         required: true
-        schema: { type: string, format: email }
+        schema: { type: string }
 
   set-telegram-username:
     title: Set telegram username
