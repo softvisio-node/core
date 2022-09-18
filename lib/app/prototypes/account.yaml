@@ -15,6 +15,13 @@ methods:
         schema:
           type: string
 
+  send-email-change-token:
+    title: Send email change token
+    params:
+      - name: email
+        required: true
+        schema: { type: string, format: email }
+
   set-email:
     title: Set email
     authorizationRequired: true
