@@ -72,8 +72,8 @@ properties:
           items:
             type: object
             properties:
-              published: { type: integer, minimum: 1, maximum: 65535 }
-              target: { type: integer, minimum: 1, maximum: 65535 }
+              published: { type: number, format: ip-port }
+              target: { type: number, format: ip-port }
               protocol: { enum: [tcp, udp] }
               mode: { enum: [ingress, host] }
             required: [published, target]
