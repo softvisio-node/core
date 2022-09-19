@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.75.5 (2022-09-19)
+
+Fixes:
+
+-   fix: check authorization
+-   fix: session authorizations
+-   fix: user avvount
+-   fix: username is email
+
 ### 6.75.4 (2022-09-17)
 
 Fixes:
