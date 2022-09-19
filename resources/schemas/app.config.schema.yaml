@@ -14,7 +14,7 @@
     privateHttpServerPort: { type: number, format: ip-port }
     publicHttpServerEnabled: { type: boolean }
     publicHttpServerAddress: { type: string, format: ip-address }
-    publicHttpServerPort: { type: number, format: ip-port` }
+    publicHttpServerPort: { type: number, format: ip-port }
   required:
     - locales
     - defaultLocale
