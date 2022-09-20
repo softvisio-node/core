@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.75.8 (2022-09-20)
+
+Fixes:
+
+-   fix: email change template
+
 ### 6.75.7 (2022-09-20)
 
 Fixes:
