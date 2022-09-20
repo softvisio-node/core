@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.75.6 (2022-09-20)
+
+Fixes:
+
+-   fix: ajv ip-port format
+-   fix: cli schema
+-   fix: root user
+-   fix: root user id changed to -1
+
 ### 6.75.5 (2022-09-19)
 
 Fixes:
