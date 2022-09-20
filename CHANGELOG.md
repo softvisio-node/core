@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.75.7 (2022-09-20)
+
+Fixes:
+
+-   fix: gravator
+-   fix: root user acl
+
 ### 6.75.6 (2022-09-20)
 
 Fixes:
