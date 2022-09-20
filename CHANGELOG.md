@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.75.9 (2022-09-20)
+
+Fixes:
+
+-   fix: telegram username change
+
 ### 6.75.8 (2022-09-20)
 
 Fixes:
