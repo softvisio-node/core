@@ -41,6 +41,7 @@ methods:
           properties:
             email: { type: string, format: email }
             password: { type: string }
+            locale: { type: string }
             telegram_username: { type: string }
           required: [email]
 
