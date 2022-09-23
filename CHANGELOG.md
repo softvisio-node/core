@@ -1,5 +1,14 @@
 # Changelog
 
+### 6.75.11 (2022-09-23)
+
+Fixes:
+
+-   fix: app config loader
+-   fix: password generator
+-   fix: signup locale
+-   fix: utils validatord
+
 ### 6.75.10 (2022-09-20)
 
 Fixes:
