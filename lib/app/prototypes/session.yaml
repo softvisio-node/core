@@ -11,12 +11,19 @@ methods:
       - name: credentials
         required: true
         schema:
-          type: object
-          properties:
-            email: { type: string, format: email }
-            password: { type: string }
-          required: [email, password]
-          additionalProperties: false
+          anyOf:
+            - type: object
+              properties:
+                email: { type: string, format: email }
+                password: { type: string }
+              required: [email, password]
+              additionalProperties: false
+            - type: object
+              properties:
+                email: { type: string, format: email }
+                firebaseUserAccessToken: { type: string }
+              required: [email, firebaseUserAccessToken]
+              additionalProperties: false
 
   authorize:
     title: Authorize session
