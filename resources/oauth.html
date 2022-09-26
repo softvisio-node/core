@@ -12,10 +12,39 @@
     <body>
         <script>
             const params = new URLSearchParams(window.location.search),
-                url = params.get("providerUrl");
+                provider = params.get("provider");
 
-            if (url) {
-                window.location.href = url;
+            if (provider) {
+                const oauthUrl = new URL(window.location.href);
+                oauthUrl.search = "";
+                oauthUrl.hash = "";
+
+                let providerUrl;
+
+                if (provider === "google") {
+                    providerUrl = new URL("https://accounts.google.com/o/oauth2/auth");
+
+                    providerUrl.searchParams.set("response_type", "code");
+
+                    providerUrl.searchParams.set("client_id", "717442500180-d2ksm56b66jq0fbuvauktn0h66d24mh5.apps.googleusercontent.com");
+
+                    providerUrl.searchParams.set(
+                        "scope",
+                        [
+                            //
+                            "https://www.googleapis.com/auth/userinfo.email", // access email
+                            "https://www.googleapis.com/auth/userinfo.profile", // access profile
+                        ].join(" ")
+                    );
+
+                    providerUrl.searchParams.set("redirect_uri", oauthUrl.href);
+                }
+
+                if (providerUrl) {
+                    window.location.href = providerUrl;
+                } else {
+                    window.close();
+                }
             } else {
                 window.opener?.postMessage(window.location.search);
 
