@@ -12,7 +12,7 @@
     <body>
         <script>
             const params = new URLSearchParams(window.location.search),
-                provider = params.get("provider");
+                provider = params.get("oauthProvider");
 
             if (provider) {
                 const oauthUrl = new URL(window.location.href);
