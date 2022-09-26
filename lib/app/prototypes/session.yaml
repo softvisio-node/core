@@ -20,9 +20,9 @@ methods:
               additionalProperties: false
             - type: object
               properties:
-                provider: { enum: [google, facebook, github] }
-                code: { type: string }
-              required: [provider, code]
+                oauthProvider: { enum: [google, facebook, github] }
+                oauthCode: { type: string }
+              required: [oauthProvider, oauthCode]
               additionalProperties: false
 
   authorize:
