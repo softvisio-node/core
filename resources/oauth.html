@@ -31,9 +31,9 @@
                         { once: true }
                     );
 
-                    window.opener.postMessage({ loaded: true });
+                    window.opener.postMessage({ action: "begin" });
                 } else {
-                    window.opener.postMessage({ loaded: true, params: window.location.search });
+                    window.opener.postMessage({ action: "end", params: window.location.search });
                 }
             })();
         </script>
