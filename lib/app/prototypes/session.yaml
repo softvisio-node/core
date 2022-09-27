@@ -69,7 +69,7 @@ methods:
         required: true
         schema:
           anyOf:
-            - type: { type: string, format: email }
+            - { type: string, format: email }
             - type: object
               properties:
                 provider: { enum: [google, facebook, github] }
