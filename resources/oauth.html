@@ -11,43 +11,31 @@
     </head>
     <body>
         <script>
-            const params = new URLSearchParams(window.location.search),
-                provider = params.get("oauthProvider");
+            (function () {
+                if (!window.opener) return window.close();
 
-            if (provider) {
-                const oauthUrl = new URL(window.location.href);
-                oauthUrl.search = "";
-                oauthUrl.hash = "";
+                setInterval(() => {
+                    if (window.opener.closed) window.close();
+                }, 300);
 
-                let providerUrl;
+                if (!window.location.search) {
+                    window.addEventListener(
+                        "message",
+                        e => {
+                            if (e.source !== window.opener) return;
 
-                if (provider === "google") {
-                    providerUrl = new URL("https://accounts.google.com/o/oauth2/auth");
+                            if (!e.data?.providerUrl) return window.close();
 
-                    providerUrl.searchParams.set("response_type", "code");
-
-                    providerUrl.searchParams.set("client_id", "717442500180-d2ksm56b66jq0fbuvauktn0h66d24mh5.apps.googleusercontent.com");
-
-                    providerUrl.searchParams.set(
-                        "scope",
-                        [
-                            //
-                            "https://www.googleapis.com/auth/userinfo.email", // access email
-                            "https://www.googleapis.com/auth/userinfo.profile", // access profile
-                        ].join(" ")
+                            window.location.href = e.data.providerUrl;
+                        },
+                        { once: true }
                     );
 
-                    providerUrl.searchParams.set("redirect_uri", oauthUrl.href);
-                }
-
-                if (providerUrl) {
-                    window.location.href = providerUrl;
+                    window.opener.postMessage({ loaded: true });
                 } else {
-                    window.close();
+                    window.opener.postMessage({ loaded: true, params: window.location.search });
                 }
-            } else {
-                window.opener?.postMessage(window.location.search);
-            }
+            })();
         </script>
     </body>
 </html>
