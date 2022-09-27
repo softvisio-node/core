@@ -35,9 +35,27 @@ methods:
     title: Authorize session
     roles: [user]
     params:
-      - name: password
+      - name: credentials
         required: true
-        schema: { type: string }
+        schema:
+          anyOf:
+            - type: object
+              properties:
+                password: { type: string }
+              required: [password]
+              additionalProperties: false
+            - type: object
+              properties:
+                oauth:
+                  type: object
+                  properties:
+                    provider: { enum: [google, facebook, github] }
+                    code: { type: string }
+                    redirect: { type: string, format: uri }
+                  required: [provider, code, redirect]
+                  additionalProperties: false
+              required: [oauth]
+              additionalProperties: false
 
   signout:
     title: Signout
