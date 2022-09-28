@@ -20,15 +20,10 @@ methods:
               additionalProperties: false
             - type: object
               properties:
-                oauth:
-                  type: object
-                  properties:
-                    provider: { enum: [google, facebook, github] }
-                    code: { type: string }
-                    redirect: { type: string, format: uri }
-                  required: [provider, code, redirect]
-                  additionalProperties: false
-              required: [oauth]
+                oauth_provider: { enum: [google, facebook, github] }
+                oauth_code: { type: string }
+                oauth_redirect_uri: { type: string, format: uri }
+              required: [oauth_provider, oauth_code, oauth_redirect_uri]
               additionalProperties: false
 
   authorize:
@@ -46,15 +41,10 @@ methods:
               additionalProperties: false
             - type: object
               properties:
-                oauth:
-                  type: object
-                  properties:
-                    provider: { enum: [google, facebook, github] }
-                    code: { type: string }
-                    redirect: { type: string, format: uri }
-                  required: [provider, code, redirect]
-                  additionalProperties: false
-              required: [oauth]
+                oauth_provider: { enum: [google, facebook, github] }
+                oauth_code: { type: string }
+                oauth_redirect_uri: { type: string, format: uri }
+              required: [oauth_provider, oauth_code, oauth_redirect_uri]
               additionalProperties: false
 
   signout:
