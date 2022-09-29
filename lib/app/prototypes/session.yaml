@@ -62,10 +62,10 @@ methods:
             - { type: string, format: email }
             - type: object
               properties:
-                provider: { enum: [google, facebook, github] }
-                code: { type: string }
-                redirect: { type: string, format: uri }
-              required: [provider, code, redirect]
+                oauth_provider: { enum: [google, facebook, github] }
+                oauth_code: { type: string }
+                oauth_redirect_uri: { type: string, format: uri }
+              required: [oauth_provider, oauth_code, oauth_redirect_uri]
               additionalProperties: false
       - name: fields
         schema:
