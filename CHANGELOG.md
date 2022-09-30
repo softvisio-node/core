@@ -1,5 +1,20 @@
 # Changelog
 
+### 6.76.0 (2022-09-30)
+
+Features:
+
+-   feat: oauth
+
+Fixes:
+
+-   fix: api client is persistent under browser
+-   fix: app env
+-   fix: fetch default user agent
+-   fix: load user env
+-   fix: merge env configs recursively
+-   fix: signup
+
 ### 6.75.11 (2022-09-23)
 
 Fixes:
