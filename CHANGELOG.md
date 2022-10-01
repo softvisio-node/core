@@ -1,5 +1,11 @@
 # Changelog
 
+### 6.76.1 (2022-10-01)
+
+Fixes:
+
+-   fix: env default config
+
 ### 6.76.0 (2022-09-30)
 
 Features:
