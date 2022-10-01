@@ -1,5 +1,12 @@
 # Changelog
 
+### 6.76.2 (2022-10-01)
+
+Fixes:
+
+-   fix: env merge config
+-   fix: utils merge objects
+
 ### 6.76.1 (2022-10-01)
 
 Fixes:
