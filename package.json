@@ -25,6 +25,7 @@
     },
     "exports": {
         "./*": "./lib/*.js",
+        "./app.yaml": "./lib/app/app.yaml",
         "./resources": "./lib/resources.js",
         "./resources/core": "./lib/resources/core.js",
         "./resources/core/*": "./lib/resources/core/*.js",
