@@ -16,7 +16,6 @@
   properties:
     title: { $ref: "components#/titleString" }
     description: { $ref: "components#/desc" }
-    extends: { type: string }
     roles: { $ref: "components#/roles" }
     emits: { type: array, items: { type: string, format: kebab-case-path } }
 
