@@ -1,4 +1,9 @@
 type: object
 properties:
+  rpcMaxPayloadLength: { type: integer, default: 65535 } # 64K
+  rpcIdleTimeout: { type: integer, default: 0 }
+  rpcSendPingsAutomatically: { type: boolean, default: true }
+  rpcCompress: { type: boolean, default: false } # do not compress rpc messages
+
 required: []
 additionalProperties: false
