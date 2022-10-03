@@ -1,0 +1,5 @@
+type: object
+properties:
+  address: { type: string, format: ip-address, default: "0.0.0.0" }
+  port: { type: string, format: ip-port, default: 80 }
+additionalProperties: false
