@@ -25,19 +25,23 @@ properties:
       required: [maxPayloadLength, idleTimeout, sendPingsAutomatically, compress]
       additionalProperties: false
 
-  frontendUrl: { type: string, format: uri }
-  passwordsStrength: { enum: [weak, normal, strong] }
-
   locales: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
   defaultLocale: { type: string }
   currency: { type: string }
+
+  frontendUrl: { type: string, format: uri }
+  passwordsStrength: { enum: [weak, normal, strong] }
+  signupEnabled: { typs: boolean }
 
 additionalProperties: false
 required:
   - root
   - connections
-  - frontendUrl
-  - passwordsStrength
+
   - locales
   - defaultLocale
   - currency
+
+  - frontendUrl
+  - passwordsStrength
+  - signupEnabled

@@ -16,6 +16,7 @@ config:
 
   frontendUrl: ~
   passwordsStrength: strong
+  signupEnabled: true
 
   locales: [en-GB] # en-US, uk, ru
   defaultLocale: en-GB
