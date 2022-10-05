@@ -29,3 +29,5 @@ config:
   sessionMaxAge: 2_592_000_000 # ms, 30 days
   authorizedSessionMaxAge: 300_000 # ms, 5 minutes
   actionTokenMaxAge: 600_000 # ms, 10 minutes
+  aclCacheMaxSize: 10_000
+  apiCallLogCacheDropInterval: 10_000 # ms, 10 sec.

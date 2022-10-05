@@ -45,6 +45,8 @@ properties:
   sessionMaxAge: { type: integer, minimum: 60_000 } # ms
   authorizedSessionMaxAge: { type: integer, minimum: 60_000 } # ms
   actionTokenMaxAge: { type: integer, minimum: 60_000 } # ms
+  aclCacheMaxSize: { type: integer, minimum: 0 }
+  apiCallLogCacheDropInterval: { type: integer, minimum: 10_000 } # ms
 
 additionalProperties: false
 required:
@@ -67,3 +69,5 @@ required:
   - sessionMaxAge
   - authorizedSessionMaxAge
   - actionTokenMaxAge
+  - aclCacheMaxSize
+  - apiCallLogCacheDropInterval
