@@ -43,7 +43,7 @@
               type: object
               properties:
                 name: { type: string, format: snake-case }
-                description: { $ref: "components#/desc" }
+                description: { $ref: "components#/description" }
                 required: { type: boolean }
                 schema: { type: object }
               required: [name, schema]
