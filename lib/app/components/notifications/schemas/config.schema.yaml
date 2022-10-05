@@ -1,4 +1,7 @@
 type: object
 properties:
-required: []
+  smtp: { type: string, format: uri-whatwg }
+  telegramBotKey: { type: ["null", string] }
+
+required: [smtp, telegramBotKey]
 additionalProperties: false
