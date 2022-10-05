@@ -1,2 +1,9 @@
 dependencies:
   - privateHttpServer
+
+config:
+  connections:
+    maxPayloadLength: 65535 // 64K
+    idleTimeout: 0
+    sendPingsAutomatically: true
+    compress: false # do not compress RPC messages

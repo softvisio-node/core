@@ -1,9 +1,17 @@
 type: object
 properties:
-  maxPayloadLength: { type: integer, default: 65535 } # 64K
-  idleTimeout: { type: integer, default: 0 }
-  sendPingsAutomatically: { type: boolean, default: true }
-  compress: { type: boolean, default: false } # do not compress rpc messages
+  connections:
+    type: object
+    properties:
+      maxPayloadLength: { type: integer, minimum: 1 } # 64K
+      idleTimeout: { type: integer, minimum: 0 }
+      sendPingsAutomatically: { type: boolean }
+      compress:
+        anyOf:
+          - { type: boolean }
+          - { type: integer }
+      required: [maxPayloadLength, idleTimeout, sendPingsAutomatically, compress]
+      additionalProperties: false
 
-required: []
+required: ]connections]
 additionalProperties: false
