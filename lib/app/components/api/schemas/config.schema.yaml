@@ -44,6 +44,7 @@ properties:
   authCacheLastActivityDropInterval: { type: integer, minimum: 10_000 } # ms
   sessionMaxAge: { type: integer, minimum: 60_000 } # ms
   authorizedSessionMaxAge: { type: integer, minimum: 60_000 } # ms
+  actionTokenMaxAge: { type: integer, minimum: 60_000 } # ms
 
 additionalProperties: false
 required:
@@ -65,3 +66,4 @@ required:
   - authCacheLastActivityDropInterval
   - sessionMaxAge
   - authorizedSessionMaxAge
+  - actionTokenMaxAge
