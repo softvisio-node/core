@@ -41,6 +41,7 @@ properties:
   defaultGravatarEncoded: { typs: string }
 
   authcachemaxsize: { type: integer, minimum: 0 }
+  authCacheLastActivityDropInterval: { type: integer, minimum: 10_000 } # ms
 
 additionalProperties: false
 required:
@@ -59,3 +60,4 @@ required:
   - defaultGravatarEncoded
 
   - authcachemaxsize
+  - authCacheLastActivityDropInterval
