@@ -3,11 +3,12 @@
   type: object
   properties:
     emits:
-      type: array
-      items:
-        anyOf:
-          - { const: "*" }
-          - { type: string, format: kebab-case-path, uniqueItems: true }
+      anyOf:
+        - type: array
+          items: [{ const: "*" }]
+        - type: array
+          items: { type: string, format: kebab-case-path }
+          uniqueItems: true
   additionalProperties: false
 
 # module
@@ -64,11 +65,8 @@
   roles:
     anyOf:
       - type: array
-        items:
-          - const: "*"
+        items: [{ const: "*" }]
       - type: array
-        items:
-          type: string
-          format: kebab-case
+        items: { type: string, format: kebab-case }
         minItems: 1
         uniqueItems: true
