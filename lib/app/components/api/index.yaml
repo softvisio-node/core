@@ -9,7 +9,7 @@ config:
     telegramUsername: ~
 
   connections:
-    maxPayloadLength: 65_535 // 64K
+    maxPayloadLength: 65_535 # 64K
     idleTimeout: 40
     sendPingsAutomatically: true
     compress: ~ # user server default value

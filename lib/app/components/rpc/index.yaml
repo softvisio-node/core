@@ -3,7 +3,7 @@ dependencies:
 
 config:
   connections:
-    maxPayloadLength: 65_535 // 64K
+    maxPayloadLength: 65_535 # 64K
     idleTimeout: 0
     sendPingsAutomatically: true
     compress: false # do not compress RPC messages
