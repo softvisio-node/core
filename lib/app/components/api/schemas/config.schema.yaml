@@ -25,7 +25,8 @@ properties:
       required: [maxPayloadLength, idleTimeout, sendPingsAutomatically, compress]
       additionalProperties: false
 
+  frontendUrl: { type: string, format: uri }
   passwordsStrength: { enum: [weak, normal, strong] }
 
-required: [root, connections, passwordsStrength]
+required: [root, connections, frontendUrl, passwordsStrength]
 additionalProperties: false

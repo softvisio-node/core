@@ -14,4 +14,5 @@ config:
     sendPingsAutomatically: true
     compress: null # user server default value
 
+  frontendUrl: ~
   passwordsStrength: strong
