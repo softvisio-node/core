@@ -62,8 +62,12 @@
     type: string
 
   roles:
-    type: array
-    items:
-      type: string
-      format: kebab-case
-    minItems: 1
+    anyOf:
+      - type: array
+        items:
+          - const: "*"
+      - type: array
+        items:
+          type: string
+          format: kebab-case
+        minItems: 1
