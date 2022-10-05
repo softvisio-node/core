@@ -7,7 +7,7 @@
       items:
         anyOf:
           - { const: "*" }
-          - { type: string, format: kebab-case-path }
+          - { type: string, format: kebab-case-path, uniqueItems: true }
   additionalProperties: false
 
 # module
@@ -71,3 +71,4 @@
           type: string
           format: kebab-case
         minItems: 1
+        uniqueItems: true
