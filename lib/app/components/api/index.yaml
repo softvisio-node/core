@@ -14,11 +14,12 @@ config:
     sendPingsAutomatically: true
     compress: null # user server default value
 
+  locales: [en-GB] # en-US, uk, ru
+  defaultLocale: en-GB
+  currency: USD
+
   frontendUrl: ~
   passwordsStrength: strong
   signupEnabled: true
   newUserEnabled: true
-
-  locales: [en-GB] # en-US, uk, ru
-  defaultLocale: en-GB
-  currency: USD
+  defaultGravatarImage: "noname@softvisio.net" # email, url, 404, mp, identicon, monsterid, wavatar, retro, robohash, blank

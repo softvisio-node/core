@@ -33,6 +33,12 @@ properties:
   passwordsStrength: { enum: [weak, normal, strong] }
   signupEnabled: { typs: boolean }
   newUserEnabled: { typs: boolean }
+  defaultGravatarImage:
+    anyOf:
+      - { enum: ["404", mp, identicon, monsterid, wavatar, retro, robohash, blank] }
+      - { type: string, format: email }
+      - { type: string, format: uri }
+  defaultGravatarEncoded: { typs: string }
 
 additionalProperties: false
 required:
@@ -47,3 +53,5 @@ required:
   - passwordsStrength
   - signupEnabled
   - newUserEnabled
+  - defaultGravatarImage
+  - defaultGravatarEncoded
