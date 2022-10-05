@@ -14,8 +14,8 @@
 - $id: module
   type: object
   properties:
-    title: { $ref: "components#/titleString" }
-    description: { $ref: "components#/desc" }
+    title: { $ref: "components#/title" }
+    description: { $ref: "components#/description" }
     roles: { $ref: "components#/roles" }
     emits: { type: array, items: { type: string, format: kebab-case-path } }
 
@@ -24,8 +24,8 @@
       additionalProperties:
         type: object
         properties:
-          title: { $ref: "components#/titleString" }
-          description: { $ref: "components#/desc" }
+          title: { $ref: "components#/title" }
+          description: { $ref: "components#/description" }
           deprecated: { type: boolean }
           private: { type: boolean }
           roles: { $ref: "components#/roles" }
@@ -41,7 +41,7 @@
             items:
               type: object
               properties:
-                name: { type: string }
+                name: { type: string, format: snake-case }
                 description: { $ref: "components#/desc" }
                 required: { type: boolean }
                 schema: { type: object }
@@ -55,15 +55,15 @@
 
 # shared components
 - $id: components
-  titleString:
+  title:
     type: string
 
-  desc:
+  description:
     type: string
 
   roles:
     type: array
     items:
       type: string
-      pattern: "^(?:[*]|[a-z-]+)$"
+      format: kebab-case
     minItems: 1
