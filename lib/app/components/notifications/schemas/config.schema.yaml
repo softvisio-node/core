@@ -3,5 +3,26 @@ properties:
   smtp: { type: string, format: uri-whatwg }
   telegramBotKey: { type: ["null", string] }
 
-required: [smtp, telegramBotKey]
+  notifications:
+    anyOf:
+      - { type: "null" }
+      - type: object
+        additionalProperties:
+          type: object
+          properties:
+            name: { type: string }
+            description: { type: string }
+            channels:
+              type: object
+              properties:
+                internal: { type: boolean }
+                email: { type: boolean }
+                telegram: { type: boolean }
+                push: { type: boolean }
+              required: [internal, email, telegram, push]
+              additionalProperties: false
+          required: [name, description, channels]
+          additionalProperties: false
+
+required: [smtp, telegramBotKey, notifications]
 additionalProperties: false

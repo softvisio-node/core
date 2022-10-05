@@ -4,3 +4,4 @@ dependencies:
 config:
   smtp: ~
   telegramBotKey: ~
+  notifications: ~
