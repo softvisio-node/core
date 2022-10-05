@@ -42,6 +42,7 @@ properties:
 
   authcachemaxsize: { type: integer, minimum: 0 }
   authCacheLastActivityDropInterval: { type: integer, minimum: 10_000 } # ms
+  sessionMaxAge: { type: integer, minimum: 60_000 } # ms
 
 additionalProperties: false
 required:
@@ -58,6 +59,7 @@ required:
   - newUserEnabled
   - defaultGravatarImage
   - defaultGravatarEncoded
+  - sessionMaxAge
 
   - authcachemaxsize
   - authCacheLastActivityDropInterval

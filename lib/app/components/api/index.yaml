@@ -26,3 +26,4 @@ config:
 
   authcachemaxsize: 10_000
   authCacheLastActivityDropInterval: 60_000 # ms, 1 min.
+  "sessionMaxAge": 2592000000 # ms, 30 days
