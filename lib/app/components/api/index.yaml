@@ -23,3 +23,5 @@ config:
   signupEnabled: true
   newUserEnabled: true
   defaultGravatarImage: "noname@softvisio.net" # email, url, 404, mp, identicon, monsterid, wavatar, retro, robohash, blank
+
+  authcachemaxsize: 10_000

@@ -40,6 +40,8 @@ properties:
       - { type: string, format: uri }
   defaultGravatarEncoded: { typs: string }
 
+  authcachemaxsize: { type: integer, minimum: 0 }
+
 additionalProperties: false
 required:
   - root
@@ -55,3 +57,5 @@ required:
   - newUserEnabled
   - defaultGravatarImage
   - defaultGravatarEncoded
+
+  - authcachemaxsize
