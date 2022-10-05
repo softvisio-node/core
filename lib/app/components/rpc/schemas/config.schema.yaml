@@ -13,5 +13,5 @@ properties:
       required: [maxPayloadLength, idleTimeout, sendPingsAutomatically, compress]
       additionalProperties: false
 
-required: ]connections]
+required: [connections]
 additionalProperties: false

@@ -3,6 +3,11 @@ dependencies:
   - publicHttpServer
 
 config:
+  root:
+    email: ~
+    password: ~
+    telegramUsername: ~
+
   connections:
     maxPayloadLength: 65535 // 64K
     idleTimeout: 40
