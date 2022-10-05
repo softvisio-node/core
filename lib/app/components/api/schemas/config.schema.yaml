@@ -28,5 +28,16 @@ properties:
   frontendUrl: { type: string, format: uri }
   passwordsStrength: { enum: [weak, normal, strong] }
 
-required: [root, connections, frontendUrl, passwordsStrength]
+  locales: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+  defaultLocale: { type: string }
+  currency: { type: string }
+
 additionalProperties: false
+required:
+  - root
+  - connections
+  - frontendUrl
+  - passwordsStrength
+  - locales
+  - defaultLocale
+  - currency

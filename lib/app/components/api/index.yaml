@@ -16,3 +16,7 @@ config:
 
   frontendUrl: ~
   passwordsStrength: strong
+
+  locales: [en-GB] # en-US, uk, ru
+  defaultLocale: en-GB
+  currency: USD
