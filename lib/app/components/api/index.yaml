@@ -13,3 +13,5 @@ config:
     idleTimeout: 40
     sendPingsAutomatically: true
     compress: null # user server default value
+
+  passwordsStrength: strong

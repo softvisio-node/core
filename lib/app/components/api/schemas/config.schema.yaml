@@ -25,5 +25,7 @@ properties:
       required: [maxPayloadLength, idleTimeout, sendPingsAutomatically, compress]
       additionalProperties: false
 
-required: [root, connections]
+  passwordsStrength: { enum: [weak, normal, strong] }
+
+required: [root, connections, passwordsStrength]
 additionalProperties: false
