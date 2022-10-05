@@ -48,6 +48,33 @@ properties:
   aclCacheMaxSize: { type: integer, minimum: 0 }
   apiCallLogCacheDropInterval: { type: integer, minimum: 10_000 } # ms
 
+  oauth:
+    type: object
+    properties:
+      google:
+        type: object
+        properies:
+          clientId: { type: ["null", string] }
+          clientSecret: { type: ["null", string] }
+        required: [clientId, clientSecret]
+        additionalProperties: false
+      facebook:
+        type: object
+        properies:
+          clientId: { type: ["null", string] }
+          clientSecret: { type: ["null", string] }
+        required: [clientId, clientSecret]
+        additionalProperties: false
+      github:
+        type: object
+        properies:
+          clientId: { type: ["null", string] }
+          clientSecret: { type: ["null", string] }
+        required: [clientId, clientSecret]
+        additionalProperties: false
+    required: [gooele, facebook, github]
+    additionalProperties: false
+
 additionalProperties: false
 required:
   - root
@@ -71,3 +98,5 @@ required:
   - actionTokenMaxAge
   - aclCacheMaxSize
   - apiCallLogCacheDropInterval
+
+  - oauth

@@ -31,3 +31,14 @@ config:
   actionTokenMaxAge: 600_000 # ms, 10 minutes
   aclCacheMaxSize: 10_000
   apiCallLogCacheDropInterval: 10_000 # ms, 10 sec.
+
+  oauth:
+    google:
+      clientId: ~
+      clientSecret: ~
+    facebook:
+      clientId: ~
+      clientSecret: ~
+    github:
+      clientId: ~
+      clientSecret: ~
