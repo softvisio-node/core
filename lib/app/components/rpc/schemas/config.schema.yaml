@@ -10,8 +10,8 @@ properties:
         anyOf:
           - { type: boolean }
           - { type: integer }
-      required: [maxPayloadLength, idleTimeout, sendPingsAutomatically, compress]
-      additionalProperties: false
+    required: [maxPayloadLength, idleTimeout, sendPingsAutomatically, compress]
+    additionalProperties: false
 
 required: [connections]
 additionalProperties: false

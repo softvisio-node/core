@@ -22,8 +22,8 @@ properties:
         anyOf:
           - { type: boolean }
           - { type: integer }
-      required: [maxPayloadLength, idleTimeout, sendPingsAutomatically, compress]
-      additionalProperties: false
+    required: [maxPayloadLength, idleTimeout, sendPingsAutomatically, compress]
+    additionalProperties: false
 
   locales: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
   defaultLocale: { type: string }
