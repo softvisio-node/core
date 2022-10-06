@@ -74,7 +74,7 @@ properties:
           clientSecret: { type: ["null", string] }
         required: [clientId, clientSecret]
         additionalProperties: false
-    required: [gooele, facebook, github]
+    required: [google, facebook, github]
     additionalProperties: false
 
   roles:
