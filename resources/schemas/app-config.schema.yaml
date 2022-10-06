@@ -1,0 +1,26 @@
+type: object
+properties:
+  env:
+    anyOf:
+      - type: "null"
+      - type: object
+        additionalProperties: { type: string }
+
+  dependencies:
+    anyOf:
+      - type: "null"
+      - type: array
+        items: { type: string }
+        uniqueItems: true
+
+  components:
+    anyOf:
+      - type: "null"
+      - type: object
+        additionalProperties:
+          type: ["null", object]
+
+  config:
+    type: ["null", object]
+
+additionalProperties: false
