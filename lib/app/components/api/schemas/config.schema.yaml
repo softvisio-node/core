@@ -53,21 +53,23 @@ properties:
     properties:
       google:
         type: object
-        properies:
+        properties:
           clientId: { type: ["null", string] }
           clientSecret: { type: ["null", string] }
         required: [clientId, clientSecret]
         additionalProperties: false
+
       facebook:
         type: object
-        properies:
+        properties:
           clientId: { type: ["null", string] }
           clientSecret: { type: ["null", string] }
         required: [clientId, clientSecret]
         additionalProperties: false
+
       github:
         type: object
-        properies:
+        properties:
           clientId: { type: ["null", string] }
           clientSecret: { type: ["null", string] }
         required: [clientId, clientSecret]
