@@ -69,7 +69,7 @@ import * as utils from "@softvisio/utils";
 -   `module` <string\> Module to resolve path from.
 -   Returns: <string\> Absolute resolved path as file URL.
 
-This function will be removed when node `import.meta.resilve()` will be released.
+This function will be removed when node `import.meta.resolve()` will be released.
 
 ## Net
 
