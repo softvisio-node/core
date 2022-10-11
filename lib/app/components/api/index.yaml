@@ -1,6 +1,5 @@
 dependencies:
   - dbh
-  - threads
   - publicHttpServer
 
 config:
