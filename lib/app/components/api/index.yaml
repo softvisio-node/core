@@ -33,6 +33,9 @@ config:
   aclCacheMaxSize: 10_000
   apiCallLogCacheDropInterval: 10_000 # ms, 10 sec.
 
+  argon2:
+    preset: recommended
+
   oauth:
     google:
       clientId: ~

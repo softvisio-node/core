@@ -48,6 +48,18 @@ properties:
   aclCacheMaxSize: { type: integer, minimum: 0 }
   apiCallLogCacheDropInterval: { type: integer, minimum: 10_000 } # ms
 
+  argon2:
+    type: object
+    properties:
+      preset: { enum: [default, recommended] }
+      type: { enum: [argon2d, argon2i, argon2id] }
+      timeCost: { type: integer, minimum: 1 }
+      parallelism: { type: integer, minimum: 1 }
+      memoryCost: { type: integer, minimum: 1024 }
+      saltLength: { type: integer, minimum: 16 }
+      hashLength: { type: integer, minimum: 32 }
+    additionalProperties: false
+
   oauth:
     type: object
     properties:
@@ -143,6 +155,8 @@ required:
   - actionTokenMaxAge
   - aclCacheMaxSize
   - apiCallLogCacheDropInterval
+
+  - argon2
 
   - oauth
 
