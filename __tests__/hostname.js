@@ -8,7 +8,7 @@ const TESTS = [
 
     // domain name validation
     { "hostname": "-a.1.2.3.4", "isDomain": true, "isValid": false },
-    { "hostname": "a-a-a.1.2.3.4", "isDomain": true, "isValid": true },
+    { "hostname": "a-a-a.1.2.3.4", "isDomain": true, "isValid": false },
     { "hostname": "a-a.1.2-.3.4", "isDomain": true, "isValid": false },
 
     // rules: ck, *.ck, !www.ck
@@ -27,15 +27,17 @@ const TESTS = [
     { "hostname": "zzz.fuck", "tld": "fuck", "isTld": false, "tldIsValid": false },
 ];
 
-for ( const spec of TESTS ) _test( spec );
+for ( let n = 0; n < TESTS.length; n++ ) {
+    _test( n, TESTS[n] );
+}
 
-function _test ( spec ) {
+function _test ( id, spec ) {
     const hostname = new Hostname( spec.hostname );
 
     for ( const property in spec ) {
         if ( property === "hostname" ) continue;
 
-        test( `${hostname}_${property}`, () => {
+        test( `${id}-${spec.hostname}-${property}`, () => {
             const res = hostname[property];
 
             expect( res instanceof Hostname ? res.unicode : res ).toBe( spec[property] );
