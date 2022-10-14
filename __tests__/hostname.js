@@ -4,7 +4,7 @@ const TESTS = [
 
     // ip
     { "hostname": "1.2.3.4", "isDomain": false, "isIp": true, "isIpV4": true, "isValid": true },
-    { "hostname": "1.2.3.4.5", "isDomain": true, "isIp": false, "isIpV4": false, "isValid": true },
+    { "hostname": "1.2.3.4.5", "isDomain": true, "isIp": false, "isIpV4": false, "isValid": false },
 
     // domain name validation
     { "hostname": "-a.1.2.3.4", "isDomain": true, "isValid": false },
