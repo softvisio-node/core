@@ -1,9 +1,9 @@
 type: object
 properties:
-  connections:
+  frontend:
     type: object
     properties:
-      maxPayloadLength: { type: integer, minimum: 1 } # 64K
+      maxPayloadLength: { type: integer, minimum: 1 }
       idleTimeout: { type: integer, minimum: 0 }
       sendPingsAutomatically: { type: boolean }
       compress:
@@ -13,5 +13,5 @@ properties:
     required: [maxPayloadLength, idleTimeout, sendPingsAutomatically, compress]
     additionalProperties: false
 
-required: [connections]
+required: [frontend]
 additionalProperties: false

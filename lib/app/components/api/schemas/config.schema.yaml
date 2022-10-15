@@ -12,10 +12,10 @@ properties:
     required: [email, password, telegramUsername]
     additionalProperties: false
 
-  connections:
+  frontend:
     type: object
     properties:
-      maxPayloadLength: { type: integer, minimum: 1 } # 64K
+      maxPayloadLength: { type: integer, minimum: 1 }
       idleTimeout: { type: integer, minimum: 0 }
       sendPingsAutomatically: { type: boolean }
       compress:
@@ -135,7 +135,7 @@ properties:
 additionalProperties: false
 required:
   - root
-  - connections
+  - frontend
 
   - locales
   - defaultLocale

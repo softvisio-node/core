@@ -2,7 +2,7 @@ dependencies:
   - privateHttpServer
 
 config:
-  connections:
+  frontend:
     maxPayloadLength: 65_535 # 64K
     idleTimeout: 0
     sendPingsAutomatically: true

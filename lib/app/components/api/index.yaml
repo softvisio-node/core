@@ -8,7 +8,7 @@ config:
     password: ~
     telegramUsername: ~
 
-  connections:
+  frontend:
     maxPayloadLength: 65_535 # 64K
     idleTimeout: 40
     sendPingsAutomatically: true
