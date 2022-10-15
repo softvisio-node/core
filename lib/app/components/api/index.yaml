@@ -33,7 +33,7 @@ config:
   apiCallLogCacheDropInterval: 10_000 # ms, 10 sec.
 
   argon2:
-    preset: recommended
+    preset: default
 
   oauth:
     google:
