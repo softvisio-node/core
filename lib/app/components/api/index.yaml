@@ -9,7 +9,8 @@ config:
     telegramUsername: ~
 
   frontend:
-    maxPayloadLength: 65_535 # 64K
+    maxApiRequestLength: 65_535 # 64K
+    maxUploadFileSize: 1_073_741_824 # 1Gb
     idleTimeout: 40
     sendPingsAutomatically: true
     compress: ~ # user server default value
