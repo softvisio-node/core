@@ -3,7 +3,8 @@ dependencies:
 
 config:
   frontend:
-    maxPayloadLength: 65_535 # 64K
+    maxApiRequestLength: 65_535 # 64K
+    maxUploadFileSize: 1_073_741_824 # 1Gb
     idleTimeout: 0
     sendPingsAutomatically: true
     compress: false # do not compress RPC messages

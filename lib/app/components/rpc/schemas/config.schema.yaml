@@ -3,14 +3,15 @@ properties:
   frontend:
     type: object
     properties:
-      maxPayloadLength: { type: integer, minimum: 1 }
+      maxApiRequestLength: { type: integer, minimum: 1 }
+      maxUploadFileSize: { type: integer, minimum: 1 }
       idleTimeout: { type: integer, minimum: 0 }
       sendPingsAutomatically: { type: boolean }
       compress:
         anyOf:
           - { type: boolean }
           - { type: integer }
-    required: [maxPayloadLength, idleTimeout, sendPingsAutomatically, compress]
+    required: [maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
     additionalProperties: false
 
 required: [frontend]
