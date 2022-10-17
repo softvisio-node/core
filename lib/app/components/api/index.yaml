@@ -50,3 +50,9 @@ config:
   roles: ~
 
   acl: ~
+
+  notifications:
+    smtp: ~
+    telegramBotKey: ~
+    notifications: ~
+    firebase: ~
