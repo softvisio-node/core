@@ -54,5 +54,5 @@ config:
   notifications:
     smtp: ~
     telegramBotKey: ~
-    categories: ~
+    types: ~
     firebase: ~

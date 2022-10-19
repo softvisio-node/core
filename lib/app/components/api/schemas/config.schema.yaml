@@ -140,7 +140,7 @@ properties:
       smtp: { type: string, format: uri-whatwg }
       telegramBotKey: { type: ["null", string] }
 
-      categories:
+      types:
         anyOf:
           - { type: "null" }
           - type: object
@@ -179,7 +179,7 @@ properties:
             required: [type, project_id, private_key_id, private_key, client_email, client_id, auth_uri, token_uri, auth_provider_x509_cert_url, client_x509_cert_url]
             additionalProperties: false
 
-    required: [smtp, telegramBotKey, categories, firebase]
+    required: [smtp, telegramBotKey, types, firebase]
     additionalProperties: false
 
 additionalProperties: false
