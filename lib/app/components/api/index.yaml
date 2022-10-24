@@ -61,10 +61,10 @@ config:
       security:
         name: Security
         description: Various security related notifications
-        channels: { internal: true, email: true, telegram: true, push: true }
+        channels: { internal: true, email: true, telegram: true, push: false }
       other:
         name: Other
         description: Other unclassified notifications
-        channels: { internal: true, email: true, telegram: true, push: true }
+        channels: { internal: true, email: true, telegram: true, push: false }
 
     firebase: ~
