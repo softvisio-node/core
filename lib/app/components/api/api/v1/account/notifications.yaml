@@ -4,11 +4,11 @@ emits:
   - notifications # emitted when new notifications available
 
 methods:
-  get-notifications-settings:
+  get-user-notifications-profile:
     title: Get user notifications settings
 
-  set-user-notification-channel:
-    title: Set user notification channel status
+  set-user-notification-channel-enabled:
+    title: Set user user notification channel enabled
     params:
       - name: type
         required: true
