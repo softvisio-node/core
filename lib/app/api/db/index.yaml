@@ -5,22 +5,13 @@ patch: ~
 emits:
   - api/user/delete # user_id
   - api/user/update
-  - api/user_password_hash/update
+  - api/user-password-hash/update
   - api/user-notifications/update
 
   - api/acl/delete # user_id, object_id, role
   - api/acl/update # user_id, object_id, role
 
   - api/invalidate-user-token # token_type, token_id
-
-  # XXX delete
-  - api/user-telegram-chat/update # user_id, chat_id, chat_id can be null, when chat was deleted
-  - api/user-enabled/update # user_id, enabled
-  - api/user-locale/update # user_id, locale
-  - api/user-roles/update # user_id
-  - api/user-email/update # user_id, email
-  - api/user-telegram-username/update # user_id, telegram_username
-  - api/user-notification-type/update # user_id, type
 
 locks:
   - api/acl/sync
