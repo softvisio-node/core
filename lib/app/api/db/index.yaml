@@ -4,13 +4,12 @@ patch: ~
 
 emits:
   - api/user/update
-  - api/user/delete
+  - api/user/delete # user_id
 
   - api/invalidate-user-token # token_type, token_id
   - api/user-telegram-chat/update # user_id, chat_id, chat_id can be null, when chat was deleted
   - api/user-enabled/update # user_id, enabled
   - api/user-locale/update # user_id, locale
-  - api/user/delete # user_id
   - api/user-roles/update # user_id
   - api/user-email/update # user_id, email
   - api/user-telegram-username/update # user_id, telegram_username
