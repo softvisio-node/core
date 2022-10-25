@@ -68,28 +68,35 @@ properties:
     type: object
     properties:
       google:
-        type: object
-        properties:
-          clientId: { type: ["null", string] }
-          clientSecret: { type: ["null", string] }
-        required: [clientId, clientSecret]
-        additionalProperties: false
+        anyOf:
+          - type: "null"
+          - type: object
+            properties:
+              clientId: { type: ["null", string] }
+              clientSecret: { type: ["null", string] }
+            required: [clientId, clientSecret]
+            additionalProperties: false
 
       facebook:
-        type: object
-        properties:
-          clientId: { type: ["null", string] }
-          clientSecret: { type: ["null", string] }
-        required: [clientId, clientSecret]
-        additionalProperties: false
+        anyOf:
+          - type: "null"
+          - type: object
+            properties:
+              clientId: { type: ["null", string] }
+              clientSecret: { type: ["null", string] }
+            required: [clientId, clientSecret]
+            additionalProperties: false
 
       github:
-        type: object
-        properties:
-          clientId: { type: ["null", string] }
-          clientSecret: { type: ["null", string] }
-        required: [clientId, clientSecret]
-        additionalProperties: false
+        anyOf:
+          - type: "null"
+          - type: object
+            properties:
+              clientId: { type: ["null", string] }
+              clientSecret: { type: ["null", string] }
+            required: [clientId, clientSecret]
+            additionalProperties: false
+
     required: [google, facebook, github]
     additionalProperties: false
 
