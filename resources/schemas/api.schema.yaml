@@ -4,11 +4,9 @@
   properties:
     emits:
       anyOf:
-        - type: array
-          items: [{ const: "*" }]
-        - type: array
-          items: { type: string, format: kebab-case-path }
-          uniqueItems: true
+        - type: "null"
+        - { type: array, items: [{ const: "*" }] }
+        - { type: array, items: { type: string, format: kebab-case-path }, uniqueItems: true }
   additionalProperties: false
 
 # module
@@ -18,7 +16,10 @@
     title: { $ref: "components#/titleText" }
     description: { $ref: "components#/descriptionText" }
     roles: { $ref: "components#/roles" }
-    emits: { type: array, items: { type: string, format: kebab-case-path } }
+    emits:
+      anyOf:
+        - type: "null"
+        - { type: array, items: { type: string, format: kebab-case-path }, uniqueItems: true }
 
     methods:
       type: object
