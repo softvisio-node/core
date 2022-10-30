@@ -46,7 +46,6 @@ properties:
   userTokensCacheMaxSize: { type: integer, minimum: 1 }
   userSessionsCacheMaxSize: { type: integer, minimum: 1 }
 
-  authcachemaxsize: { type: integer, minimum: 0 }
   authCacheLastActivityDropInterval: { type: integer, minimum: 10_000 } # ms
   sessionMaxAge: { type: integer, minimum: 60_000 } # ms
   authorizedSessionMaxAge: { type: integer, minimum: 60_000 } # ms
@@ -210,8 +209,9 @@ required:
   - defaultGravatarEncoded
 
   - usersCacheMaxSize
+  - userTokensCacheMaxSize
+  - userSessionsCacheMaxSize
 
-  - authcachemaxsize
   - authCacheLastActivityDropInterval
   - sessionMaxAge
   - authorizedSessionMaxAge
