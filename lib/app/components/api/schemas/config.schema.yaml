@@ -43,6 +43,8 @@ properties:
   defaultGravatarEncoded: { typs: string }
 
   usersCacheMaxSize: { type: integer, minimum: 1 }
+  userTokensCacheMaxSize: { type: integer, minimum: 1 }
+  userSessionsCacheMaxSize: { type: integer, minimum: 1 }
 
   authcachemaxsize: { type: integer, minimum: 0 }
   authCacheLastActivityDropInterval: { type: integer, minimum: 10_000 } # ms

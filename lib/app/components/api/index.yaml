@@ -26,6 +26,8 @@ config:
   defaultGravatarImage: "noname@softvisio.net" # email, url, 404, mp, identicon, monsterid, wavatar, retro, robohash, blank
 
   usersCacheMaxSize: 10_000
+  userTokensCacheMaxSize: 10_000
+  userSessionsCacheMaxSize: 10_000
 
   authcachemaxsize: 10_000
   authCacheLastActivityDropInterval: 60_000 # ms, 1 min.
