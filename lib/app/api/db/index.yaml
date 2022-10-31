@@ -8,10 +8,14 @@ emits:
   - api/user-password-hash/update
   - api/user-notifications/update
 
+  - api/user-token/delete # user_id
+  - api/user-token/update
+
+  - api/user-session/delete # user_id
+  - api/user-session/update
+
   - api/acl/delete # user_id, object_id, role
   - api/acl/update # user_id, object_id, role
-
-  - api/invalidate-user-token # token_type, token_id
 
 locks:
   - api/acl/sync
