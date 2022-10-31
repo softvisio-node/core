@@ -29,6 +29,10 @@ config:
   userTokensCacheMaxSize: 10_000
   userSessionsCacheMaxSize: 10_000
 
+  userTokenLength: 8
+  userSessionTokenLength: 16
+  userActionTokenLength: 8
+
   authCacheLastActivityDropInterval: 60_000 # ms, 1 min.
   sessionMaxAge: 2_592_000_000 # ms, 30 days
   authorizedSessionMaxAge: 300_000 # ms, 5 minutes
