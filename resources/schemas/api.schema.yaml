@@ -34,8 +34,14 @@
           authorizationRequired: { type: "boolean" }
           persistentConnectionRequired: { type: "boolean" }
           logApiCalls: { type: boolean }
-          activeRequestsLimit: { type: integer, minimum: 0 }
-          activeRequestsUserLimit: { type: integer, minimum: 0 }
+          activeRequestsLimit:
+            anyOf:
+              - type: "null"
+              - { type: integer, minimum: 1 }
+          activeRequestsUserLimit:
+            anyOf:
+              - type: "null"
+              - { type: integer, minimum: 1 }
           params:
             params:
             type: array
