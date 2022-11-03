@@ -43,7 +43,6 @@
               - type: "null"
               - { type: integer, minimum: 1 }
           params:
-            params:
             type: array
             minItems: 1
             items:
