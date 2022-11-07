@@ -1,0 +1,6 @@
+dependencies:
+  - publicHttpServer
+
+config:
+  locations:
+    "/": "../frontend/www"

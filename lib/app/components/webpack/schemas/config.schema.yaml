@@ -1,0 +1,11 @@
+type: object
+properties:
+  locations:
+    anyOf:
+      - type: "null"
+      - type: object
+        additionalProperties: { type: string, format: uri-reference }
+        minProperties: 1
+
+required: [locations]
+additionalProperties: false
