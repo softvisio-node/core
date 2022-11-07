@@ -4,8 +4,10 @@ properties:
     anyOf:
       - type: "null"
       - type: object
-        additionalProperties: { type: string, format: uri-reference }
-        minProperties: 1
+        additionalProperties:
+          anyOf:
+            - type: "null"
+            - { type: string, format: uri-reference }
 
 required: [locations]
 additionalProperties: false
