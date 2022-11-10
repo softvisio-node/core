@@ -11,7 +11,7 @@ config:
   frontend:
     maxApiRequestLength: 65_535 # 64KB
     maxUploadFileSize: 1_073_741_824 # 1GB
-    idleTimeout: 40
+    idleTimeout: 40 # send ping every 40 seconds, required for CloudFlare
     sendPingsAutomatically: true
     compress: ~ # user server default value
 

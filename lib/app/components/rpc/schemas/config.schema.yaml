@@ -9,8 +9,8 @@ properties:
       sendPingsAutomatically: { type: boolean }
       compress:
         anyOf:
-          - { type: "null" } # use server default
-          - { type: boolean }
+          - type: "null" # use server default
+          - type: boolean
           - { type: integer, minimum: 0 }
     required: [maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
     additionalProperties: false
