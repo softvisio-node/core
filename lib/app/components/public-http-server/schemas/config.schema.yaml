@@ -1,5 +1,8 @@
 type: object
 properties:
-  address: { type: string, format: ip-address, default: "0.0.0.0" }
-  port: { type: number, format: ip-port, default: 80 }
+  address: { type: string, format: ip-address }
+  port: { type: number, format: ip-port }
+  exclusive: { type: boolean }
+
+required: [address, port, exclusive]
 additionalProperties: false
