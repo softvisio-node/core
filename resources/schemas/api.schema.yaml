@@ -29,7 +29,6 @@
           title: { $ref: "components#/titleText" }
           description: { $ref: "components#/descriptionText" }
           deprecated: { type: boolean }
-          private: { type: boolean }
           roles: { $ref: "components#/roles" }
           authorizationRequired: { type: "boolean" }
           persistentConnectionRequired: { type: "boolean" }
