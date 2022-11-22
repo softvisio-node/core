@@ -4,6 +4,7 @@ roles: [admin]
 methods:
   read:
     title: Read users
+    permission: admin/users:read
     params:
       - name: options
         schema:
@@ -21,6 +22,7 @@ methods:
 
   create:
     title: Create user
+    permission: admin/users:create
     params:
       - name: fields
         required: true
@@ -39,6 +41,7 @@ methods:
 
   delete:
     title: Delete user
+    permission: admin/users:delete
     authorizationRequired: true
     params:
       - name: user_id
@@ -48,6 +51,7 @@ methods:
 
   set-enabled:
     title: Set user enabled
+    permission: admin/users:update
     params:
       - name: user_id
         description: User id or name.
@@ -61,6 +65,7 @@ methods:
 
   set-password:
     title: Set user password
+    permission: admin/users:update
     authorizationRequired: true
     params:
       - name: user_id
@@ -74,6 +79,7 @@ methods:
 
   get-roles:
     title: Get user roles
+    permission: admin/users:update
     params:
       - name: user_id
         required: true
@@ -82,6 +88,7 @@ methods:
 
   set-roles:
     title: Set user roles
+    permission: admin/users:update
     params:
       - name: user_id
         required: true
@@ -95,6 +102,7 @@ methods:
 
   update-roles:
     title: Update user roles
+    permission: admin/users:update
     params:
       - name: user_id
         required: true
@@ -108,6 +116,7 @@ methods:
 
   get-sessions:
     title: Get user sessions list
+    permission: admin/users:update
     params:
       - name: user_id
         required: true
@@ -115,6 +124,7 @@ methods:
 
   signout-session:
     title: Sign out of user session
+    permission: admin/users:update
     params:
       - name: user_id
         required: true
@@ -125,6 +135,7 @@ methods:
 
   signout-all-sessions:
     title: Sign out of all user sessions
+    permission: admin/users:update
     params:
       - name: user_id
         required: true
