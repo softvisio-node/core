@@ -3,12 +3,9 @@ title: Access control lists
 methods:
   get-acl-permissions:
     title: Get ACL permissions
-    permission: acl:read
+    permission: user
     params:
       - name: acl_id
-        required: true
-        schema: { type: string, aclObjectType: acl }
-      - name: acl_object_type
         required: true
         schema: { type: string }
 
