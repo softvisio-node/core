@@ -109,24 +109,17 @@ properties:
     anyOf:
       - type: "null"
       - type: object
-        properties:
-          types:
+        additionalProperties:
+          type: object
+          additionalProperties:
             type: object
-            additionalProperties:
-              type: object
-              additionalProperties:
-                type: object
-                properties:
-                  name: { type: string }
-                  description: { type: string }
-                  permissions: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
-                required: [name, description, permissions]
-              minProperties: 1 # at least 1 scope is required
-            minProperties: 1 # at least 1 acl type is required
-          objectTypes:
-            type: object
-            additionalPropertoes: { type: ["null", string] }
-        additionalProperties: false
+            properties:
+              name: { type: string }
+              description: { type: string }
+              permissions: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+            required: [name, description, permissions]
+          minProperties: 1 # at least 1 scope is required
+        minProperties: 1 # at least 1 acl type is required
 
   notifications:
     type: object

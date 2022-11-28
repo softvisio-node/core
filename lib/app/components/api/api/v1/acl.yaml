@@ -1,4 +1,6 @@
 title: Access control lists
+aclResolvers:
+  acl: ~
 
 methods:
   get-acl-permissions:
