@@ -54,8 +54,6 @@ config:
       clientId: ~
       clientSecret: ~
 
-  roles: ~
-
   acl: ~
 
   notifications:

@@ -105,19 +105,6 @@ properties:
     required: [google, facebook, github]
     additionalProperties: false
 
-  roles:
-    anyOf:
-      - { type: "null" }
-      - type: object
-        additionalProperties:
-          type: object
-          properties:
-            name: { type: string }
-            description: { type: string }
-            default: { type: boolean }
-          required: [name, description, default]
-          additionalProperties: false
-
   acl:
     anyOf:
       - type: "null"
@@ -134,7 +121,7 @@ properties:
                   description: { type: string }
                   permissions: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
                 required: [name, description, permissions]
-              minProperties: 1 # at least 1 role is required
+              minProperties: 1 # at least 1 scope is required
             minProperties: 1 # at least 1 acl type is required
           objectTypes:
             type: object
@@ -223,8 +210,6 @@ required:
   - argon2
 
   - oauth
-
-  - roles
 
   - acl
 
