@@ -1,14 +1,15 @@
 title: Notifications
-roles: [user]
 emits:
   - notifications # emitted when new notifications available
 
 methods:
   get-user-notifications-profile:
     title: Get user notifications settings
+    permission: user
 
   set-user-notification-channel-enabled:
     title: Set user user notification channel enabled
+    permission: user
     params:
       - name: type
         required: true
@@ -26,6 +27,7 @@ methods:
 
   read:
     title: Read notifications
+    permission: user
     params:
       - name: options
         schema:
@@ -37,6 +39,7 @@ methods:
 
   set-read:
     title: Set notifications as read
+    permission: user
     params:
       - name: notifications
         schema:
@@ -46,9 +49,11 @@ methods:
 
   set-read-all:
     title: Set all notifications as read
+    permission: user
 
   set-unread:
     title: Set notifications as unread
+    permission: user
     params:
       - name: notifications
         schema:
@@ -58,9 +63,11 @@ methods:
 
   set-unread-all:
     title: Set all notifications as unread
+    permission: user
 
   set-done:
     title: Set notifications as done
+    permission: user
     params:
       - name: notifications
         schema:
@@ -70,9 +77,11 @@ methods:
 
   set-done-all:
     title: Set all notifications as done
+    permission: user
 
   set-undone:
     title: Set notifications as undone
+    permission: user
     params:
       - name: notifications
         schema:
@@ -82,9 +91,11 @@ methods:
 
   set-undone-all:
     title: Set all notifications as undone
+    permission: user
 
   delete:
     title: Delete notification
+    permission: user
     params:
       - name: notifications
         schema:
@@ -94,3 +105,4 @@ methods:
 
   delete-all:
     title: Delete all notifications
+    permission: user

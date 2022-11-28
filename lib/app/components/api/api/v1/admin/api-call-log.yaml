@@ -1,9 +1,9 @@
 title: Application API call log
-roles: [admin]
 
 methods:
   read-api-method-access-log:
     title: Get API method access log
+    permission: admin:read
     params:
       - name: options
         schema:
@@ -15,6 +15,7 @@ methods:
 
   get-latest-stats:
     title: Read statistics for the last 60 minutes
+    permission: admin:read
     description: Statistics updated every 10 seconds. Data resolution is 1 minute.
     params:
       - name: method_id
@@ -23,6 +24,7 @@ methods:
 
   get-history-stats:
     title: Read statistics for the given API method for the last 30 days
+    permission: admin:read
     description: Statistics updated every 1 minute. Data resolution is 10 minutes.
     params:
       - name: method_id

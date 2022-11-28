@@ -1,12 +1,13 @@
 title: User account
-roles: [user]
 
 methods:
   get-account:
     title: Get your account data
+    permission: user
 
   set-password:
     title: Set password
+    permission: user
     authorizationRequired: true
     params:
       - name: password
@@ -17,6 +18,7 @@ methods:
 
   send-email-change-token:
     title: Send email change token
+    permission: user
     params:
       - name: email
         required: true
@@ -24,6 +26,7 @@ methods:
 
   set-email-by-token:
     title: Set email using token
+    permission: user
     authorizationRequired: true
     params:
       - name: token
@@ -32,6 +35,7 @@ methods:
 
   set-telegram-username:
     title: Set telegram username
+    permission: user
     authorizationRequired: true
     params:
       - name: telegram_username
@@ -41,6 +45,7 @@ methods:
 
   set-locale:
     title: Set locale
+    permission: user
     params:
       - name: locale
         required: true
@@ -49,13 +54,16 @@ methods:
 
   delete:
     title: Delete account
+    permission: user
     authorizationRequired: true
 
   get-sessions:
     title: Get sessions list
+    permission: user
 
   signout-session:
     title: Signout of session
+    permission: user
     params:
       - name: session_id
         required: true
@@ -63,3 +71,4 @@ methods:
 
   signout-all-sessions:
     title: Sign out of all sessions
+    permission: user

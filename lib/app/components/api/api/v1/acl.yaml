@@ -1,9 +1,9 @@
 title: Access control lists
-roles: [user]
 
 methods:
   get-acl-permissions:
     title: Get ACL permissions
+    permission: acl:read
     params:
       - name: acl_id
         required: true
@@ -14,6 +14,7 @@ methods:
 
   get-users:
     title: Get ACL users
+    permission: acl:read
     params:
       - name: acl_id
         required: true
@@ -21,6 +22,7 @@ methods:
 
   get-roles:
     title: Get ACL roles
+    permission: acl:read
     params:
       - name: acl_id
         required: true
@@ -28,6 +30,7 @@ methods:
 
   add-user:
     title: Add ACL user
+    permission: acl:update
     params:
       - name: acl_id
         required: true
@@ -45,6 +48,7 @@ methods:
 
   delete-user:
     title: Delete ACL user
+    permission: acl:update
     params:
       - name: acl_id
         required: true
@@ -55,6 +59,7 @@ methods:
 
   set-user-enabled:
     title: Set ACL user enabled
+    permission: acl:update
     params:
       - name: acl_id
         required: true
@@ -68,6 +73,7 @@ methods:
 
   set-role-enabled:
     title: Set ACL user role enabled status
+    permission: acl:update
     params:
       - name: acl_id
         required: true
@@ -84,6 +90,7 @@ methods:
 
   suggest-users:
     title: Suggest users
+    permission: acl:read
     params:
       - name: options
         schema:

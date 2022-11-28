@@ -1,5 +1,4 @@
 title: Application users management
-roles: [admin]
 
 methods:
   read:

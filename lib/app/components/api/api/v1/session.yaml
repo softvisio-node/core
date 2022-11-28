@@ -1,5 +1,4 @@
 title: Session
-roles: ["*"]
 
 methods:
   check-authorization:
@@ -28,7 +27,7 @@ methods:
 
   authorize:
     title: Authorize session
-    roles: [user]
+    permission: user
     params:
       - name: credentials
         required: true
@@ -49,11 +48,11 @@ methods:
 
   signout:
     title: Signout
-    roles: [user]
+    permission: user
 
   signup:
     title: Signup
-    roles: [guest]
+    permission: guest
     params:
       - name: email
         required: true

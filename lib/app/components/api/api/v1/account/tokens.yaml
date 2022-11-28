@@ -1,9 +1,9 @@
 title: Personal access tokens
-roles: [user]
 
 methods:
   read:
     title: Read tokens
+    permission: user
     params:
       - name: options
         schema:
@@ -19,6 +19,7 @@ methods:
 
   create:
     title: Generate new token
+    permission: user
     params:
       - name: name
         required: true
@@ -27,6 +28,7 @@ methods:
 
   delete:
     title: Remove token
+    permission: user
     authorizationRequired: true
     params:
       - name: token_id
@@ -36,6 +38,7 @@ methods:
 
   set-enabled:
     title: Set token enabled
+    permission: user
     params:
       - name: token_id
         required: true
@@ -48,6 +51,7 @@ methods:
 
   get-roles:
     title: Get token roles
+    permission: user
     params:
       - name: token_id
         required: true
@@ -58,6 +62,7 @@ methods:
     title: Set token roles
     description: |-
       Set token roles. Old roles will be replaced with the new.
+    permission: user
     params:
       - name: token_id
         description: Token id.
@@ -77,6 +82,7 @@ methods:
   update-roles:
     title: Update token roles
     description: Update token roles. Roles will be added or replaced.
+    permission: user
     params:
       - name: token_id
         description: Token id.
