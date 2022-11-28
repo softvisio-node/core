@@ -15,7 +15,6 @@
   properties:
     title: { $ref: "components#/titleText" }
     description: { $ref: "components#/descriptionText" }
-    roles: { $ref: "components#/roles" }
     emits:
       anyOf:
         - type: "null"
@@ -30,7 +29,6 @@
           description: { $ref: "components#/descriptionText" }
           deprecated: { type: boolean }
           permission: { type: ["null", string] }
-          roles: { $ref: "components#/roles" }
           authorizationRequired: { type: "boolean" }
           persistentConnectionRequired: { type: "boolean" }
           logApiCalls: { type: boolean }
@@ -67,12 +65,3 @@
 
   descriptionText:
     type: string
-
-  roles:
-    anyOf:
-      - type: array
-        items: [{ const: "*" }]
-      - type: array
-        items: { type: string, format: kebab-case }
-        minItems: 1
-        uniqueItems: true
