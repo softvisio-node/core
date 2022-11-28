@@ -157,7 +157,7 @@ properties:
 
       firebase:
         anyOf:
-          - { type: "null" }
+          - type: "null"
           - type: object
             properties:
               type: { const: service_account }
