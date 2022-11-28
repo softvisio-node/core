@@ -17,7 +17,7 @@ methods:
     params:
       - name: acl_id
         required: true
-        schema: { type: string, aclObjectType: acl }
+        schema: { type: string, aclResolver: acl }
 
   get-roles:
     title: Get ACL roles
@@ -25,7 +25,7 @@ methods:
     params:
       - name: acl_id
         required: true
-        schema: { type: string, aclObjectType: acl }
+        schema: { type: string, aclResolver: acl }
 
   add-user:
     title: Add ACL user
@@ -33,7 +33,7 @@ methods:
     params:
       - name: acl_id
         required: true
-        schema: { type: string, aclObjectType: acl }
+        schema: { type: string, aclResolver: acl }
       - name: user_id
         required: true
         schema: { type: string }
@@ -51,7 +51,7 @@ methods:
     params:
       - name: acl_id
         required: true
-        schema: { type: string, aclObjectType: acl }
+        schema: { type: string, aclResolver: acl }
       - name: user_id
         required: true
         schema: { type: string }
@@ -62,7 +62,7 @@ methods:
     params:
       - name: acl_id
         required: true
-        schema: { type: string, aclObjectType: acl }
+        schema: { type: string, aclResolver: acl }
       - name: user_id
         required: true
         schema: { type: string }
@@ -76,7 +76,7 @@ methods:
     params:
       - name: acl_id
         required: true
-        schema: { type: string, aclObjectType: acl }
+        schema: { type: string, aclResolver: acl }
       - name: user_id
         required: true
         schema: { type: string }
@@ -95,7 +95,7 @@ methods:
         schema:
           read:
             fields:
-              acl_id: { type: string, operator: "=", required: true, aclObjectType: acl }
+              acl_id: { type: string, operator: "=", required: true, aclResolver: acl }
               email: { type: string, operator: "like" }
             order_by: [["email", "desc"]]
             offset: false
