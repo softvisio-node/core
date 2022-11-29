@@ -11,7 +11,7 @@ methods:
             fields:
               id: { type: string, operator: "=", sortable: true }
               search: { type: string, operator: like }
-              roles: { type: string, operator: in }
+              scopes: { type: string, operator: in }
               email: { sortable: true }
               created: { sortable: true }
               last_activity: { sortable: true }
@@ -31,9 +31,6 @@ methods:
             email: { type: string, format: email }
             password: { type: string }
             enabled: { type: boolean }
-            roles:
-              type: object
-              additionalProperties: { type: boolean }
             telegram_username: { type: string }
           required:
             - email
@@ -75,43 +72,6 @@ methods:
       - name: pasword
         schema:
           type: string
-
-  get-roles:
-    title: Get user roles
-    permission: admin/users:update
-    params:
-      - name: user_id
-        required: true
-        schema:
-          type: string
-
-  set-roles:
-    title: Set user roles
-    permission: admin/users:update
-    params:
-      - name: user_id
-        required: true
-        schema:
-          type: string
-      - name: roles
-        required: true
-        schema:
-          type: object
-          additionalProperties: { type: boolean }
-
-  update-roles:
-    title: Update user roles
-    permission: admin/users:update
-    params:
-      - name: user_id
-        required: true
-        schema:
-          type: string
-      - name: roles
-        required: true
-        schema:
-          type: object
-          additionalProperties: { type: boolean }
 
   get-sessions:
     title: Get user sessions list
