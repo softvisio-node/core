@@ -7,8 +7,8 @@ methods:
   read-acl-users:
     totle: Read ACL users
 
-  suggest-users:
-    title: Suggest users
+  suggest-acl-users:
+    title: Suggest ACL users
     permission: acl:read
     params:
       - name: options
