@@ -3,41 +3,25 @@ aclResolvers:
   acl: ~
 
 methods:
-  get-acl-permissions:
-    title: Get ACL permissions
-    permission: user
-    params:
-      - name: acl_id
-        required: true
-        schema: { type: string }
+  # XXX
+  read-acl-users:
+    totle: Read ACL users
 
-  get-users:
-    title: Get ACL users
+  suggest-users:
+    title: Suggest users
     permission: acl:read
     params:
-      - name: acl_id
-        required: true
-        schema: { type: string, aclResolver: acl }
+      - name: options
+        schema:
+          read:
+            fields:
+              acl_id: { type: string, operator: "=", required: true, aclResolver: acl }
+              email: { type: string, operator: "like" }
+            order_by: [["email", "desc"]]
+            offset: false
+            limit: { maxLimit: 20 }
 
-  get-acl-user-scopes:
-    title: Get ACL user scopes
-    permission: acl:read
-    params:
-      - name: acl_id
-        required: true
-        schema: { type: string, aclResolver: acl }
-      - name: user_id
-        schema: { type: string }
-
-  get-scopes:
-    title: Get ACL scopes
-    permission: acl:read
-    params:
-      - name: acl_id
-        required: true
-        schema: { type: string, aclResolver: acl }
-
-  add-user:
+  add-acl-user:
     title: Add ACL user
     permission: acl:update
     params:
@@ -55,7 +39,7 @@ methods:
             scopes: { type: array, items: { type: string }, uniqueItems: true }
           additionalProperties: false
 
-  delete-user:
+  delete-acl-user:
     title: Delete ACL user
     permission: acl:update
     params:
@@ -66,7 +50,7 @@ methods:
         required: true
         schema: { type: string }
 
-  set-user-enabled:
+  set-acl-user-enabled:
     title: Set ACL user enabled
     permission: acl:update
     params:
@@ -80,8 +64,8 @@ methods:
         required: true
         schema: { type: boolean }
 
-  set-acl-user-scope-enabled:
-    title: Set ACL user scope enabled status
+  set-acl-user-scopes:
+    title: Set ACL user scope
     permission: acl:update
     params:
       - name: acl_id
@@ -90,23 +74,53 @@ methods:
       - name: user_id
         required: true
         schema: { type: string }
-      - name: scope
+      - name: scopes
+        required: true
+        schema: { type: array, items: { type: string }, uniqueItems: true }
+
+  add-acl-user-scopes:
+    title: Add ACL user scope
+    permission: acl:update
+    params:
+      - name: acl_id
+        required: true
+        schema: { type: string, aclResolver: acl }
+      - name: user_id
         required: true
         schema: { type: string }
-      - name: enabled
+      - name: scopes
         required: true
-        schema: { type: boolean }
+        schema: { type: array, items: { type: string }, uniqueItems: true, minItems: 1 }
 
-  suggest-users:
-    title: Suggest users
+  delete-acl-user-scopes:
+    title: Delete ACL user scope
+    permission: acl:update
+    params:
+      - name: acl_id
+        required: true
+        schema: { type: string, aclResolver: acl }
+      - name: user_id
+        required: true
+        schema: { type: string }
+      - name: scopes
+        required: true
+        schema: { type: array, items: { type: string }, uniqueItems: true, minItems: 1 }
+
+  get-acl-user-scopes:
+    title: Get ACL user scopes
     permission: acl:read
     params:
-      - name: options
-        schema:
-          read:
-            fields:
-              acl_id: { type: string, operator: "=", required: true, aclResolver: acl }
-              email: { type: string, operator: "like" }
-            order_by: [["email", "desc"]]
-            offset: false
-            limit: { maxLimit: 20 }
+      - name: acl_id
+        required: true
+        schema: { type: string, aclResolver: acl }
+      - name: user_id
+        schema: { type: string }
+
+  # XXX
+  get-users:
+    title: Get ACL users
+    permission: acl:read
+    params:
+      - name: acl_id
+        required: true
+        schema: { type: string, aclResolver: acl }
