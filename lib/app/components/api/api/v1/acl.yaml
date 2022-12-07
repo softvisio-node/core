@@ -7,6 +7,15 @@ methods:
   read-acl-users:
     totle: Read ACL users
 
+  # XXX
+  get-users:
+    title: Get ACL users
+    permission: acl:read
+    params:
+      - name: acl_id
+        required: true
+        schema: { type: string, aclResolver: acl }
+
   suggest-acl-users:
     title: Suggest ACL users
     permission: acl:read
@@ -115,12 +124,3 @@ methods:
         schema: { type: string, aclResolver: acl }
       - name: user_id
         schema: { type: string }
-
-  # XXX
-  get-users:
-    title: Get ACL users
-    permission: acl:read
-    params:
-      - name: acl_id
-        required: true
-        schema: { type: string, aclResolver: acl }
