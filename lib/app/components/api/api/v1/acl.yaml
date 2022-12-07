@@ -3,9 +3,19 @@ aclResolvers:
   acl: ~
 
 methods:
-  # XXX
   read-acl-users:
-    totle: Read ACL users
+    title: Read ACL users
+    params:
+      - name: options
+        schema:
+          read:
+            fields:
+              acl_id: { type: string, operator: "=", required: true, aclResolver: acl }
+              email: { type: string, operator: like }
+              created: { sortable: true }
+              enabled: { type: boolean, operator: "=", sortable: true }
+            order_by: [["email", "desc"]]
+            limit: { maxLimit: 50 }
 
   suggest-acl-users:
     title: Suggest ACL users
