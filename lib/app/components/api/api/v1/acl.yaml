@@ -123,8 +123,6 @@ methods:
       - name: acl_id
         required: true
         schema: { type: string, aclResolver: acl }
-      - name: user_id
-        schema: { type: string }
 
   get-acl-user-permissions:
     title: Get ACL user permissions
