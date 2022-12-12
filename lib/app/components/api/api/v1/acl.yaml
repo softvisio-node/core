@@ -5,6 +5,7 @@ aclResolvers:
 methods:
   read-acl-users:
     title: Read ACL users
+    permission: acl:read
     params:
       - name: options
         schema:
@@ -33,7 +34,7 @@ methods:
 
   add-acl-user:
     title: Add ACL user
-    permission: acl:update
+    permission: acl:create
     params:
       - name: acl_id
         required: true
@@ -51,7 +52,7 @@ methods:
 
   delete-acl-user:
     title: Delete ACL user
-    permission: acl:update
+    permission: acl:delete
     params:
       - name: acl_id
         required: true
