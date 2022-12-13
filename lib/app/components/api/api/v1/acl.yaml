@@ -13,6 +13,7 @@ methods:
             fields:
               acl_id: { type: string, operator: "=", required: true, aclResolver: acl }
               email: { type: string, operator: like }
+              scopes: { type: string, operator: in }
               created: { sortable: true }
               enabled: { type: boolean, operator: "=", sortable: true }
             order_by: [["email", "desc"]]
