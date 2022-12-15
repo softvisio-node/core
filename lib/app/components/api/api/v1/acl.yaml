@@ -12,7 +12,7 @@ methods:
           read:
             fields:
               acl_id: { type: string, operator: "=", required: true, aclResolver: acl }
-              email: { type: string, operator: like }
+              email: { type: string, operator: like, sortable: true }
               scopes: { type: string, operator: in }
               created: { sortable: true }
               enabled: { type: boolean, operator: "=", sortable: true }
