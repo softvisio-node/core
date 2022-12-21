@@ -1,5 +1,34 @@
 # Changelog
 
+### 7.0.0 (2022-12-21)
+
+Breaking changes:
+
+-   feat!: app refactored
+
+Features:
+
+-   feat: acl refactored
+-   feat: api refactor
+-   feat: api upload refactored
+-   feat: app components
+-   feat: argon2
+-   feat: file constructor buffer
+
+Fixes:
+
+-   fix: argon2 settings
+-   fix: hostname validator
+-   fix: int53 extension added
+-   fix: multipart refactored
+-   fix: pgsql read methid
+-   fix: split stream
+-   fix: statuses
+-   fix: statuses text
+-   fix: telegram username api
+
+Migration:
+
 ### 6.76.2 (2022-10-01)
 
 Fixes:
