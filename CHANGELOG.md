@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.0.2 (2022-12-22)
+
+Fixes:
+
+-   fix: healthcheck
+-   fix: sql distinct
+
 ### 7.0.1 (2022-12-22)
 
 Fixes:
