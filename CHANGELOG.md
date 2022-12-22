@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.0.1 (2022-12-22)
+
+Fixes:
+
+-   fix: app constants
+-   fix: app started log
+-   fix: sort acl permissions
+-   fix: sort acl roles
+
 ### 7.0.0 (2022-12-21)
 
 Breaking changes:
