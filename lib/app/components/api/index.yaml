@@ -54,7 +54,23 @@ config:
       clientId: ~
       clientSecret: ~
 
-  acl: ~
+  acl:
+    default:
+      administrator:
+        name: Administrator
+        description: Project administrator
+        permissions:
+          # acl
+          - acl:create
+          - acl:read
+          - acl:update
+          - acl:delete
+
+          # admin
+          - admin:create
+          - admin:read
+          - admin:update
+          - admin:delete
 
   notifications:
     smtp: ~
