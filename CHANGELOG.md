@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.0.4 (2022-12-23)
+
+Fixes:
+
+-   fix: \_getHealthCheckStatus
+
 ### 7.0.3 (2022-12-23)
 
 Fixes:
