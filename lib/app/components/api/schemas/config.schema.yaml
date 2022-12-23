@@ -106,20 +106,18 @@ properties:
     additionalProperties: false
 
   acl:
-    anyOf:
-      - type: "null"
-      - type: object
-        additionalProperties:
-          type: object
-          additionalProperties:
-            type: object
-            properties:
-              name: { type: string }
-              description: { type: string }
-              permissions: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
-            required: [name, description, permissions]
-          minProperties: 1 # at least 1 role is required
-        minProperties: 1 # at least 1 acl type is required
+    type: object
+    additionalProperties:
+      type: object
+      additionalProperties:
+        type: object
+        properties:
+          name: { type: string }
+          description: { type: string }
+          permissions: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+        required: [name, description, permissions]
+      minProperties: 1 # at least 1 role is required
+    minProperties: 1 # at least 1 acl type is required
 
   notifications:
     type: object
