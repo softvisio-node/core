@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.0.3 (2022-12-23)
+
+Fixes:
+
+-   fix: default acl
+
 ### 7.0.2 (2022-12-22)
 
 Fixes:
