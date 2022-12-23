@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.0.5 (2022-12-23)
+
+Fixes:
+
+-   fix: app run threads
+
 ### 7.0.4 (2022-12-23)
 
 Fixes:
