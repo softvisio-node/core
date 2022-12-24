@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.0.6 (2022-12-24)
+
+Fixes:
+
+-   fix: file name set
+-   fix: support number as form data field value
+-   fix: telegram send file
+
 ### 7.0.5 (2022-12-23)
 
 Fixes:
