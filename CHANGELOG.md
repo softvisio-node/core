@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.0.7 (2022-12-25)
+
+Fixes:
+
+-   fix: headers content-disposition
+-   fix: multipart body
+-   fix: tmp file constructor
+
 ### 7.0.6 (2022-12-24)
 
 Fixes:
