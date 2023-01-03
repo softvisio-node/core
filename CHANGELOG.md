@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.0.8 (2023-01-03)
+
+Fixes:
+
+-   fix: http browser headers update
+
 ### 7.0.7 (2022-12-25)
 
 Fixes:
