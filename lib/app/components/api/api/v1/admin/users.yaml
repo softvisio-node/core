@@ -23,17 +23,23 @@ methods:
     title: Create user
     permission: admin:create
     params:
-      - name: fields
+      - name: email
         required: true
+        schema:
+          type: string
+          format: email
+      - name: fields
         schema:
           type: object
           properties:
-            email: { type: string, format: email }
             password: { type: string }
             enabled: { type: boolean }
             telegram_username: { type: string }
-          required:
-            - email
+      - name: roles
+        schema:
+          type: array
+          items: { type: string }
+          uniqueItems: true
 
   delete:
     title: Delete user
