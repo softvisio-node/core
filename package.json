@@ -97,7 +97,7 @@
         "semver": "^7.3.7",
         "tar": "^6.1.11",
         "ua-parser-js": "^1.0.2",
-        "utf-8-validate": "^5.0.4",
+        "utf-8-validate": "^6.0.0",
         "ws": "^8.0.0"
     },
     "engines": {
