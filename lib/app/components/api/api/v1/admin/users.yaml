@@ -35,6 +35,7 @@ methods:
             password: { type: string }
             enabled: { type: boolean }
             telegram_username: { type: string }
+          additionalProperties: false
       - name: roles
         schema:
           type: array
