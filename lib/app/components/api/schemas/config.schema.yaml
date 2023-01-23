@@ -151,24 +151,35 @@ properties:
           - type: "null"
           - type: object
             properties:
-              type: { const: service_account }
-              project_id: { type: string }
-              private_key_id: { type: string }
-              private_key: { type: string }
-              client_email: { type: string, format: email }
-              client_id: { type: string }
-              auth_uri: { type: string, format: uri }
-              token_uri: { type: string, format: uri }
-              auth_provider_x509_cert_url: { type: string, format: uri }
-              client_x509_cert_url: { type: string, format: uri }
-            required: [type, project_id, private_key_id, private_key, client_email, client_id, auth_uri, token_uri, auth_provider_x509_cert_url, client_x509_cert_url]
+              prefix:
+                anOf:
+                  - type: "null"
+                  - { type: string, format: kebab-case }
+              serviceAccount:
+                anyOf:
+                  - type: "null"
+                  - type: object
+                    properties:
+                      type: { const: service_account }
+                      project_id: { type: string }
+                      private_key_id: { type: string }
+                      private_key: { type: string }
+                      client_email: { type: string, format: email }
+                      client_id: { type: string }
+                      auth_uri: { type: string, format: uri }
+                      token_uri: { type: string, format: uri }
+                      auth_provider_x509_cert_url: { type: string, format: uri }
+                      client_x509_cert_url: { type: string, format: uri }
+
+                    additionalPropertirs: false
+                    required: [type, project_id, private_key_id, private_key, client_email, client_id, auth_uri, token_uri, auth_provider_x509_cert_url, client_x509_cert_url]
+
             additionalProperties: false
 
-    required: [smtp, telegramBotKey, types, firebase]
     additionalProperties: false
+    required: [smtp, telegramBotKey, types, firebase]
 
 additionalProperties: false
-
 required:
   - root
   - frontend
