@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.0.11 (2023-01-23)
+
+Fixes:
+
+-   fix: push notifications topics
+
 ### 7.0.10 (2023-01-23)
 
 Fixes:
