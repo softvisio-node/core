@@ -1,7 +1,7 @@
 logo: true
 
 externalTypes:
-  - https://softvisio.github.io/result/
+  - https://softvisio-node.github.io/result/
 
 types:
   Auth:
