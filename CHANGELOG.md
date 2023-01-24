@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.0.13 (2023-01-24)
+
+Fixes:
+
+-   fix: git repo relocated
+
 ### 7.0.12 (2023-01-24)
 
 Fixes:
