@@ -51,7 +51,7 @@ Method access permission: "<%- method.permission %>".
 
 <!-- prettier-ignore -->
 ```javascript
-const res = await api.call( "<%- method.id %>"<%- method.markdownSignature ? ", " + method.markdownSignature : "" %> );
+const res = await api.call( "<%- method.id %>"<%- method.params ? ", " + generator.getMethodMarkdownSignature( method ) : "" %> );
 ```
 
 #### **Shell**
@@ -73,9 +73,9 @@ curl \
 ```
 
 <!-- tabs:end -->
-<% if ( method.spec.params ) { -%>
+<% if ( method.params ) { -%>
 
-<% for ( let param of method.spec.params ) { -%>
+<% for ( let param of method.params ) { -%>
 -   `<%- param.name %><%- param.required ? "" : "?" %>`<%- await generator.getMethodParamDescription( method, param ) %>
 <% } -%>
 <% } -%>
