@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.0.14 (2023-02-14)
+
+Fixes:
+
+-   fix: app docs generator
+-   fix: app http server log
+
 ### 7.0.13 (2023-01-24)
 
 Fixes:
