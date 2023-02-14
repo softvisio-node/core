@@ -7,6 +7,7 @@
         - type: "null"
         - const: "*"
         - { type: array, items: { type: string, format: kebab-case-path }, uniqueItems: true }
+
   additionalProperties: false
 
 # module
@@ -55,13 +56,15 @@
                 description: { $ref: "components#/descriptionText" }
                 required: { type: boolean }
                 schema: { type: object }
-              required: [name, schema]
-              additionalProperties: false
-        required: [title]
-        additionalProperties: false
 
-  required: [title]
+              additionalProperties: false
+              required: [name, schema]
+
+        additionalProperties: false
+        required: [title]
+
   additionalProperties: false
+  required: [title]
 
 # shared components
 - $id: components
