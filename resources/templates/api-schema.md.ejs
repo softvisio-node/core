@@ -1,4 +1,4 @@
-# <%- options.type.toUpperCase() %> v<%- version %>
+# <%- generator.schema.type.toUpperCase() %> <%- version %>
 
 ### API connect URLs
 
@@ -40,7 +40,7 @@ const api = Api.new( "<%- httpUrl %>" )
 <% } else { -%>
 ### <%- method.title %>
 <% } -%>
-<% if ( options.type === "api" ) { -%>
+<% if ( generator.schema.type === "api" ) { -%>
 
 Method access roles: <%- method.roles.map( item => `\`"${item}"\``).join(", ") %>.
 <% } -%>
