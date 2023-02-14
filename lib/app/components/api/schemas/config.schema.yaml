@@ -9,8 +9,8 @@ properties:
         anyOf:
           - { type: "null" }
           - { type: string, format: telegram-username }
-    required: [email, password, telegramUsername]
     additionalProperties: false
+    required: [email, password, telegramUsername]
 
   frontend:
     type: object
@@ -24,8 +24,8 @@ properties:
           - type: "null" # use server default
           - type: boolean
           - { type: integer, minimum: 0 }
-    required: [maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
     additionalProperties: false
+    required: [maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
 
   locales: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
   defaultLocale: { type: string }
@@ -79,8 +79,8 @@ properties:
             properties:
               clientId: { type: ["null", string] }
               clientSecret: { type: ["null", string] }
-            required: [clientId, clientSecret]
             additionalProperties: false
+            required: [clientId, clientSecret]
 
       facebook:
         anyOf:
@@ -89,8 +89,8 @@ properties:
             properties:
               clientId: { type: ["null", string] }
               clientSecret: { type: ["null", string] }
-            required: [clientId, clientSecret]
             additionalProperties: false
+            required: [clientId, clientSecret]
 
       github:
         anyOf:
@@ -102,8 +102,8 @@ properties:
             required: [clientId, clientSecret]
             additionalProperties: false
 
-    required: [google, facebook, github]
     additionalProperties: false
+    required: [google, facebook, github]
 
   acl:
     type: object
@@ -143,8 +143,8 @@ properties:
                     push: { type: ["null", boolean] }
                   required: [internal, email, telegram, push]
                   additionalProperties: false
-              required: [name, description, channels]
               additionalProperties: false
+              required: [name, description, channels]
 
       firebase:
         anyOf:

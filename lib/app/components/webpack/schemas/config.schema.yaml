@@ -9,5 +9,5 @@ properties:
             - type: "null"
             - { type: string, format: uri-reference }
 
-required: [locations]
 additionalProperties: false
+required: [locations]

@@ -4,5 +4,5 @@ properties:
   port: { type: number, format: ip-port }
   exclusive: { type: boolean }
 
-required: [address, port, exclusive]
 additionalProperties: false
+required: [address, port, exclusive]

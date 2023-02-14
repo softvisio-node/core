@@ -12,8 +12,9 @@ properties:
           - type: "null" # use server default
           - type: boolean
           - { type: integer, minimum: 0 }
-    required: [maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
-    additionalProperties: false
 
-required: [frontend]
+    additionalProperties: false
+    required: [maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
+
 additionalProperties: false
+required: [frontend]

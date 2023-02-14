@@ -1,5 +1,6 @@
 type: object
 properties:
   uri: { type: string, format: uri }
-required: [uri]
+
 additionalProperties: false
+required: [uri]

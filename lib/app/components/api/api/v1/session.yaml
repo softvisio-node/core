@@ -15,15 +15,15 @@ methods:
               properties:
                 email: { type: string, format: email }
                 password: { type: string }
-              required: [email, password]
               additionalProperties: false
+              required: [email, password]
             - type: object
               properties:
                 oauth_provider: { enum: [google, facebook, github] }
                 oauth_code: { type: string }
                 oauth_redirect_uri: { type: string, format: uri }
-              required: [oauth_provider, oauth_code, oauth_redirect_uri]
               additionalProperties: false
+              required: [oauth_provider, oauth_code, oauth_redirect_uri]
 
   authorize:
     title: Authorize session
@@ -36,15 +36,15 @@ methods:
             - type: object
               properties:
                 password: { type: string }
-              required: [password]
               additionalProperties: false
+              required: [password]
             - type: object
               properties:
                 oauth_provider: { enum: [google, facebook, github] }
                 oauth_code: { type: string }
                 oauth_redirect_uri: { type: string, format: uri }
-              required: [oauth_provider, oauth_code, oauth_redirect_uri]
               additionalProperties: false
+              required: [oauth_provider, oauth_code, oauth_redirect_uri]
 
   signout:
     title: Signout
@@ -64,8 +64,8 @@ methods:
                 oauth_provider: { enum: [google, facebook, github] }
                 oauth_code: { type: string }
                 oauth_redirect_uri: { type: string, format: uri }
-              required: [oauth_provider, oauth_code, oauth_redirect_uri]
               additionalProperties: false
+              required: [oauth_provider, oauth_code, oauth_redirect_uri]
       - name: fields
         schema:
           type: object
