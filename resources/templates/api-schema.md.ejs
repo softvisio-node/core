@@ -77,6 +77,16 @@ curl \
 
 <% for ( let param of method.params ) { -%>
 -   `<%- param.name %><%- param.required ? "" : "?" %>`<%- await generator.getMethodParamDescription( method, param ) %>
+
+    <details>
+        <summary>JSON schema</summary>
+
+    ```json
+    <%- JSON.stringify( param.schema, null, 4 ).replaceAll( "\n", "\n" + " ".repeat( 8 ) ) %>
+    ```
+
+    </details>
+
 <% } -%>
 <% } -%>
 <% if ( method.description ) { -%>
