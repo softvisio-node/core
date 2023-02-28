@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.0.15 (2023-02-28)
+
+Fixes:
+
+-   fix: deps
+-   fix: import
+
 ### 7.0.14 (2023-02-14)
 
 Fixes:
