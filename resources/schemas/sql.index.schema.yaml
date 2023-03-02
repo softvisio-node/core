@@ -9,22 +9,22 @@ properties:
 
   patch:
     anyOf:
-      - { type: "null" }
+      - type: "null"
       - { type: integer, minimal: 0 }
 
   emits:
     anyOf:
-      - { type: "null" }
+      - type: "null"
       - { type: array, items: { type: string, format: kebab-case-path }, uniqueItems: true }
 
   locks:
     anyOf:
-      - { type: "null" }
+      - type: "null"
       - { type: array, items: { type: string, format: kebab-case-path }, uniqueItems: true }
 
   cron:
     anyOf:
-      - { type: "null" }
+      - type: "null"
       - type: object
         additionalProperties:
           type: object
@@ -33,12 +33,13 @@ properties:
             timezone: { type: string }
             query:
               anyOf:
-                - { type: string }
+                - type: string
                 - { type: array, items: { type: string }, minIntems: 1 }
-            run_missed: { type: boolean, default: true }
-            run_as_superuser: { type: boolean, default: false }
-          required: [cron, query]
-          additionalProperties: false
+            runMissed: { type: boolean, default: true }
+            runAsSuperuser: { type: boolean, default: false }
 
-required: [module, type, patch]
+          additionalProperties: false
+          required: [cron, query]
+
 additionalProperties: false
+required: [module, type, patch]
