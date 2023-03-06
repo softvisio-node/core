@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.0.17 (2023-03-06)
+
+Fixes:
+
+-   fix: glob api
+-   fix: sql cron options
+
 ### 7.0.16 (2023-03-01)
 
 Fixes:
