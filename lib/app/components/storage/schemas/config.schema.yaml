@@ -31,7 +31,7 @@ anyOf:
         additionalProperties:
           type: object
           properties:
-            bucket: { type: string, format: kebeb-case }
+            bucket: { type: string, format: kebab-case }
             predefinedAcl:
               anyOf:
                 - type: "null"
