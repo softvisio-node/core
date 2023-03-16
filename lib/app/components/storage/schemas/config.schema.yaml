@@ -2,6 +2,13 @@ anyOf:
   - type: object
     properties:
       type: { const: local }
+
+    additionalProperties: false
+    required: [type]
+
+  - type: object
+    properties:
+      type: { const: google }
       serviceAccount:
         type: object
         properties:
@@ -36,13 +43,6 @@ anyOf:
 
           addirionslProperties: false
           required: []
-
-    additionalProperties: false
-    required: [type, buckets]
-
-  - type: object
-    properties:
-      type: { const: google }
 
     additionalProperties: false
     required: [type, serviceAccount, buckets]
