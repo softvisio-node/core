@@ -1,10 +1,10 @@
-module: static-files
+module: storage
 type: pgsql
 patch: ~
 
 emits: ~
 
 locks:
-  - static-files/clear
+  - storage/clear
 
 cron: ~
