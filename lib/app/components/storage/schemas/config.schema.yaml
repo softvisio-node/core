@@ -28,24 +28,23 @@ anyOf:
 
       buckets:
         type: object
-        patternProperties:
-          "^[a-z][a-z\\d]*(?:-[a-z\\d]+)*$":
-            type: object
-            properties:
-              bucket: { type: string, format: kebab-case }
-              predefinedAcl:
-                anyOf:
-                  - type: "null"
-                  - enum: [authenticatedRead, private, projectPrivate, publicRead, publicReadWrite]
-              predefinedDefaultObjectAcl:
-                anyOf:
-                  - type: "null"
-                  - enum: [authenticatedRead, bucketOwnerFullControl, bucketOwnerRead, private, projectPrivate, publicRead]
+        propertyNames: { type: string, format: kebab-case }
+        additionalProperties:
+          type: object
+          properties:
+            bucket: { type: string, format: kebab-case }
+            predefinedAcl:
+              anyOf:
+                - type: "null"
+                - enum: [authenticatedRead, private, projectPrivate, publicRead, publicReadWrite]
+            predefinedDefaultObjectAcl:
+              anyOf:
+                - type: "null"
+                - enum: [authenticatedRead, bucketOwnerFullControl, bucketOwnerRead, private, projectPrivate, publicRead]
 
-            additionslProperties: false
-            required: [bucket]
+          additionslProperties: false
+          required: [bucket]
 
-        additionalProperties: false
         minProperties: 1
 
     additionalProperties: false
