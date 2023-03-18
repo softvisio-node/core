@@ -2,4 +2,6 @@ dependencies:
   - dbh
   - publicHttpServer
 
-config: ~
+config:
+  location: /storage
+  type: local

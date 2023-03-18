@@ -1,13 +1,15 @@
 anyOf:
   - type: object
     properties:
+      location: { type: string, format: kebab-case-path }
       type: { const: local }
 
     additionalProperties: false
-    required: [type]
+    required: [location, type]
 
   - type: object
     properties:
+      location: { type: string }
       type: { const: google }
       bucket: { type: string, format: kebab-case }
       serviceAccount:
@@ -28,4 +30,4 @@ anyOf:
         required: [project_id, private_key, client_email, token_uri]
 
     additionalProperties: false
-    required: [type, bucket, serviceAccount]
+    required: [location, type, bucket, serviceAccount]
