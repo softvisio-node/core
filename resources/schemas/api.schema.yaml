@@ -24,6 +24,8 @@
       anyOf:
         - type: "null"
         - type: object
+          propertyNames: { type: string, format: kebab-case }
+          minProperties: 1
           additionalPropertoes: { type: ["null", string] }
 
     methods:
