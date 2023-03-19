@@ -1,6 +1,20 @@
 import * as namingConventions from "#lib/utils/naming-conventions";
 
 const tests = {
+    "isSnakeCase": {
+        "method": "isSnakeCase",
+        "options": null,
+        "tests": [
+
+            //
+            ["a", true],
+            ["a_b", true],
+            ["ab12_wsd", true],
+
+            ["A", false],
+        ],
+    },
+
     "isCamelCase": {
         "method": "isCamelCase",
         "options": null,
