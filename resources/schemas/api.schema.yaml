@@ -28,6 +28,7 @@
 
     methods:
       type: object
+      propertyNames: { type: string, format: kebab-case }
       additionalProperties:
         type: object
         properties:
