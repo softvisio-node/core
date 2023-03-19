@@ -1,17 +1,21 @@
 import * as namingConventions from "#lib/utils/naming-conventions";
 
 const tests = {
-    "isCamelCase": [
+    "isCamelCase": {
+        "method": "isCamelCase",
+        "options": null,
+        "tests": [
 
-        //
-        ["aaaBBB", true],
-    ],
+            //
+            ["aaaBBB", true],
+        ],
+    },
 };
 
-for ( const method in tests ) {
-    for ( const _test of tests[method] ) {
-        test( `${method}_${_test[0]}`, () => {
-            expect( namingConventions[method]( _test[0], _test[2] ) ).toBe( _test[1] );
+for ( const name in tests ) {
+    for ( const _test of tests[name].tests ) {
+        test( `${name}_${_test[0]}`, () => {
+            expect( namingConventions[tests[name].method]( _test[0], tests[name].options ) ).toBe( _test[1] );
         } );
     }
 }
