@@ -15,12 +15,12 @@ properties:
   emits:
     anyOf:
       - type: "null"
-      - { type: array, items: { type: string, format: kebab-case-path }, uniqueItems: true }
+      - { type: array, items: { type: string, format: kebab-case-relative-file-path }, uniqueItems: true }
 
   locks:
     anyOf:
       - type: "null"
-      - { type: array, items: { type: string, format: kebab-case-path }, uniqueItems: true }
+      - { type: array, items: { type: string, format: kebab-case-relative-file-path }, uniqueItems: true }
 
   cron:
     anyOf:
