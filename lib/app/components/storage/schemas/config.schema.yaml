@@ -1,7 +1,7 @@
 anyOf:
   - type: object
     properties:
-      location: { type: string, format: kebab-case-path }
+      location: { type: string, format: kebab-case-root-or-file-path }
       type: { const: local }
 
     additionalProperties: false
@@ -9,7 +9,7 @@ anyOf:
 
   - type: object
     properties:
-      location: { type: string }
+      location: { type: string, format: kebab-case-root-or-file-path }
       type: { const: google }
       bucket: { type: string, format: kebab-case }
       serviceAccount:
