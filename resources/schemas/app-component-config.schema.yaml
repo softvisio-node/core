@@ -10,7 +10,7 @@ properties:
     anyOf:
       - type: "null"
       - type: array
-        items: { type: string }
+        items: { type: string, format: strict-camel-case }
         uniqueItems: true
 
   config:
