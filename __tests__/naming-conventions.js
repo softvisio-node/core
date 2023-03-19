@@ -7,9 +7,14 @@ const tests = {
         "tests": [
 
             //
+            ["a", true],
+            ["aaa", true],
             ["aaaBBB", true],
+
+            ["A", false],
         ],
     },
+
     "isCamelCaseStrict": {
         "method": "isCamelCase",
         "options": { "strict": true },
@@ -24,6 +29,36 @@ const tests = {
             ["aBB", false],
             ["aBBc", false],
             ["aBbbCC", false],
+        ],
+    },
+
+    "isPascalCase": {
+        "method": "isPascalCase",
+        "options": null,
+        "tests": [
+
+            //
+            ["AaaBBB", true],
+
+            ["aaaBBB", false],
+        ],
+    },
+
+    "isPascalCaseStrict": {
+        "method": "isPascalCase",
+        "options": { "strict": true },
+        "tests": [
+
+            //
+            ["A", true],
+            ["AaBb", true],
+            ["AaBbC", true],
+
+            ["a", false],
+            ["aaa", false],
+            ["ABB", false],
+            ["ABBc", false],
+            ["ABbbCC", false],
         ],
     },
 };
