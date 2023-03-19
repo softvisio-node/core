@@ -141,8 +141,10 @@ properties:
                     email: { type: ["null", boolean] }
                     telegram: { type: ["null", boolean] }
                     push: { type: ["null", boolean] }
-                  required: [internal, email, telegram, push]
+
                   additionalProperties: false
+                  required: [internal, email, telegram, push]
+
               additionalProperties: false
               required: [name, description, channels]
 
