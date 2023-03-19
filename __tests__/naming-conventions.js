@@ -10,6 +10,22 @@ const tests = {
             ["aaaBBB", true],
         ],
     },
+    "isCamelCaseStrict": {
+        "method": "isCamelCase",
+        "options": { "strict": true },
+        "tests": [
+
+            //
+            ["aB", true],
+            ["aBbb", true],
+            ["aBbbC", true],
+
+            ["Aaa", false],
+            ["aBB", false],
+            ["aBBc", false],
+            ["aBbbCC", false],
+        ],
+    },
 };
 
 for ( const name in tests ) {
