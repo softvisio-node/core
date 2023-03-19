@@ -129,7 +129,7 @@ properties:
 
       types:
         anyOf:
-          - { type: "null" }
+          - type: "null"
           - type: object
             additionalProperties:
               type: object
