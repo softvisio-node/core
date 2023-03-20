@@ -2,7 +2,9 @@ module: storage
 type: pgsql
 patch: ~
 
-emits: ~
+emits:
+  - storage/link/update
+  - storage/link/delete
 
 locks:
   - storage/clear
