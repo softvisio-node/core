@@ -2,14 +2,16 @@ anyOf:
   - type: object
     properties:
       location: { type: string, format: kebab-case-root-or-absolute-file-path }
+      maxCacheSize: { type: integer, minimum: 1 }
       type: { const: local }
 
     additionalProperties: false
-    required: [location, type]
+    required: [location, maxCacheSize, type]
 
   - type: object
     properties:
       location: { type: string, format: kebab-case-root-or-absolute-file-path }
+      maxCacheSize: { type: integer, minimum: 1 }
       type: { const: google }
       bucket: { type: string, format: kebab-case }
       serviceAccount:
@@ -30,4 +32,4 @@ anyOf:
         required: [project_id, private_key, client_email, token_uri]
 
     additionalProperties: false
-    required: [location, type, bucket, serviceAccount]
+    required: [location, maxCacheSize, type, bucket, serviceAccount]

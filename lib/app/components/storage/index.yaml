@@ -4,4 +4,5 @@ dependencies:
 
 config:
   location: /storage
+  maxCacheSize: 1000
   type: local
