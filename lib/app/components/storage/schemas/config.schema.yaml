@@ -2,6 +2,11 @@ anyOf:
   - type: object
     properties:
       location: { type: string, format: kebab-case-root-or-absolute-file-path }
+      privateLocations:
+        anyOf:
+          - type: "null"
+          - { type: array, items: { type: string, format: kebab-case-root-or-absolute-file-path }, uniqueItems: true }
+
       maxCacheSize: { type: integer, minimum: 1 }
       type: { const: local }
 
@@ -11,6 +16,11 @@ anyOf:
   - type: object
     properties:
       location: { type: string, format: kebab-case-root-or-absolute-file-path }
+      privateLocations:
+        anyOf:
+          - type: "null"
+          - { type: array, items: { type: string, format: kebab-case-root-or-absolute-file-path }, uniqueItems: true }
+
       maxCacheSize: { type: integer, minimum: 1 }
       type: { const: google }
       bucket: { type: string, format: kebab-case }
