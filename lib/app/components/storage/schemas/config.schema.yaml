@@ -2,7 +2,7 @@ anyOf:
   - type: object
     properties:
       location: { type: string, format: kebab-case-root-or-absolute-file-path }
-      privateLocations:
+      privatePaths:
         anyOf:
           - type: "null"
           - { type: array, items: { type: string, format: kebab-case-root-or-absolute-file-path }, uniqueItems: true }
@@ -16,7 +16,7 @@ anyOf:
   - type: object
     properties:
       location: { type: string, format: kebab-case-root-or-absolute-file-path }
-      privateLocations:
+      privatePaths:
         anyOf:
           - type: "null"
           - { type: array, items: { type: string, format: kebab-case-root-or-absolute-file-path }, uniqueItems: true }
