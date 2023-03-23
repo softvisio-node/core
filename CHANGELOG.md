@@ -1,5 +1,26 @@
 # Changelog
 
+### 7.1.0 (2023-03-23)
+
+Features:
+
+-   feat: app storage component
+-   feat: google storage api
+-   feat: http response
+-   feat: http server end() signature updated
+
+Fixes:
+
+-   fix: api upload options
+-   fix: custom File.inspect
+-   fix: fcm api
+-   fix: fetch convert headers
+-   fix: glob spi
+-   fix: google ouath api
+-   fix: http ranges
+-   fix: naming convintions functions
+-   fix: QUERIES const renamed to SQL
+
 ### 7.0.17 (2023-03-06)
 
 Fixes:
