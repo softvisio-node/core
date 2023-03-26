@@ -1,6 +1,8 @@
 anyOf:
   - type: object
     properties:
+      listenPublicHttpServer: { type: boolean }
+      listenPrivateHttpServer: { type: boolean }
       location: { type: string, format: kebab-case-root-or-absolute-file-path }
       privatePaths:
         anyOf:
@@ -11,10 +13,12 @@ anyOf:
       type: { const: local }
 
     additionalProperties: false
-    required: [location, maxCacheSize, type]
+    required: [listenPublicHttpServer, listenPrivateHttpServer, location, maxCacheSize, type]
 
   - type: object
     properties:
+      listenPublicHttpServer: { type: boolean }
+      listenPrivateHttpServer: { type: boolean }
       location: { type: string, format: kebab-case-root-or-absolute-file-path }
       privatePaths:
         anyOf:
@@ -42,4 +46,4 @@ anyOf:
         required: [project_id, private_key, client_email, token_uri]
 
     additionalProperties: false
-    required: [location, maxCacheSize, type, bucket, serviceAccount]
+    required: [listenPublicHttpServer, listenPrivateHttpServer, location, maxCacheSize, type, bucket, serviceAccount]

@@ -6,6 +6,8 @@ optionalDependencies:
   - privateHttpServer
 
 config:
+  listenPublicHttpServer: true
+  listenPrivateHttpServer: true
   location: /storage
   privatePaths:
     - /private
