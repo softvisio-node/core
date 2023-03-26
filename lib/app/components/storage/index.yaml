@@ -1,6 +1,9 @@
 dependencies:
   - dbh
+
+optionalDependencies:
   - publicHttpServer
+  - privateHttpServer
 
 config:
   location: /storage
