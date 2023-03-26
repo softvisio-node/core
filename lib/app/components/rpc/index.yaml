@@ -3,6 +3,7 @@ dependencies:
 
 config:
   frontend:
+    enabled: true
     maxApiRequestLength: 65_535 # 64KB
     maxUploadFileSize: 1_073_741_824 # 1GB
     idleTimeout: 0

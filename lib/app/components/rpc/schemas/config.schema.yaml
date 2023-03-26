@@ -3,6 +3,7 @@ properties:
   frontend:
     type: object
     properties:
+      enabled: { type: boolean }
       maxApiRequestLength: { type: integer, minimum: 1 }
       maxUploadFileSize: { type: integer, minimum: 1 }
       idleTimeout: { type: integer, minimum: 0 }
@@ -14,7 +15,7 @@ properties:
           - { type: integer, minimum: 0 }
 
     additionalProperties: false
-    required: [maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
+    required: [enabled, maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
 
 additionalProperties: false
 required: [frontend]
