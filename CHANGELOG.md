@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.2.0 (2023-03-26)
+
+Features:
+
+-   feat: app components optional deps
+-   feat: store file expires
+
+Fixes:
+
+-   fix: store component init
+
 ### 7.1.0 (2023-03-23)
 
 Features:
