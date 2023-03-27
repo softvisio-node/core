@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.3.0 (2023-03-27)
+
+Features:
+
+-   feat: api/rpc frontend enabled option
+
+Fixes:
+
+-   fix: storage expires
+
 ### 7.2.0 (2023-03-26)
 
 Features:
