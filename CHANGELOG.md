@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.3.1 (2023-03-27)
+
+Fixes:
+
+-   fix: app components optional deps
+
 ### 7.3.0 (2023-03-27)
 
 Features:
