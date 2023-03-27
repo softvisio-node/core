@@ -1,5 +1,7 @@
 dependencies:
   - dbh
+
+optionalDependencies:
   - publicHttpServer
 
 config:
