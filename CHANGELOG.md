@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.3.2 (2023-03-30)
+
+Fixes:
+
+-   fix: sql quoteLikePattern
+
 ### 7.3.1 (2023-03-27)
 
 Fixes:
