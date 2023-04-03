@@ -1,0 +1,10 @@
+module: telegram
+type: pgsql
+patch: ~
+
+emits: ~
+
+# locks:
+# - storage/clear
+
+cron: ~
