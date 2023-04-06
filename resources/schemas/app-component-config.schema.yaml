@@ -10,14 +10,14 @@ properties:
     anyOf:
       - type: "null"
       - type: array
-        items: { type: string, format: strict-camel-case }
+        items: { type: string, format: camel-case-strict }
         uniqueItems: true
 
   optionalDependencies:
     anyOf:
       - type: "null"
       - type: array
-        items: { type: string, format: strict-camel-case }
+        items: { type: string, format: camel-case-strict }
         uniqueItems: true
 
   config:

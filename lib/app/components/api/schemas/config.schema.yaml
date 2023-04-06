@@ -126,7 +126,14 @@ properties:
     type: object
     properties:
       smtp: { type: string, format: uri-whatwg }
-      telegramBotKey: { type: ["null", string] }
+      telegramBot:
+        type: object
+        properties:
+          type: { type: string, format: camel-case-strict }
+          apiKey: { type: ["null", string] }
+
+        additionalProperties: false
+        required: [type, apiKey]
 
       types:
         anyOf:
@@ -184,7 +191,7 @@ properties:
             additionalProperties: false
 
     additionalProperties: false
-    required: [smtp, telegramBotKey, types, firebase]
+    required: [smtp, telegramBot, types, firebase]
 
 additionalProperties: false
 required:

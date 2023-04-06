@@ -77,7 +77,9 @@ config:
 
   notifications:
     smtp: ~
-    telegramBotKey: ~
+    telegramBot:
+      type: telegramNotificationsBot
+      apiKey: ~
 
     types:
       security:
