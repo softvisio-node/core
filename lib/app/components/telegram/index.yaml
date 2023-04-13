@@ -3,6 +3,7 @@ dependencies:
   - storage
 
 optionalDependencies:
+  - services
   - publicHttpServer
   - privateHttpServer
 
