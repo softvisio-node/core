@@ -3,11 +3,11 @@ type: pgsql
 patch: ~
 
 emits:
-  - telegram-bot/create
-  - telegram-bot/update
-  - telegram-bot/delete
+  - telegram/telegram-bot/create
+  - telegram/telegram-bot/update
+  - telegram/telegram-bot/delete
 
 locks:
-  - telegram/create-bot
+  - telegram/telegram-bot/create
 
 cron: ~
