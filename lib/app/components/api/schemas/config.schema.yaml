@@ -5,12 +5,9 @@ properties:
     properties:
       email: { type: string, format: email }
       password: { type: ["null", string] }
-      telegramUsername:
-        anyOf:
-          - { type: "null" }
-          - { type: string, format: telegram-username }
+
     additionalProperties: false
-    required: [email, password, telegramUsername]
+    required: [email, password]
 
   frontend:
     type: object

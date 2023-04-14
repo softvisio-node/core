@@ -8,7 +8,6 @@ config:
   root:
     email: ~
     password: ~
-    telegramUsername: ~
 
   frontend:
     enabled: true
