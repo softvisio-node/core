@@ -1,0 +1,10 @@
+module: telegram-notifications-bot
+type: pgsql
+patch: ~
+
+emits:
+  - telegram-notifications-bot/telegram-notifications-bot-user/update
+
+locks: ~
+
+cron: ~
