@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.5.0 (2023-04-15)
+
+Features:
+
+-   feat: shutdown refactored
+
+Fixes:
+
+-   fix: telegram component
+
 ### 7.4.0 (2023-04-15)
 
 Features:
