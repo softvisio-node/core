@@ -1,5 +1,25 @@
 # Changelog
 
+### 7.4.0 (2023-04-15)
+
+Features:
+
+-   feat: events listeners group
+-   feat: shutdown refactored
+-   feat: storage inactiveMaxAge
+-   feat: telegram
+
+Fixes:
+
+-   fix: ajv url-whatwg format
+-   fix: app root telegram username removed
+-   fix: deps
+-   fix: glob
+-   fix: google oauth ttl renamed to maxAge
+-   fix: node >= 19.9.0
+-   fix: storage ttl renamed to maxAge
+-   fix: telegram bot api
+
 ### 7.3.2 (2023-03-30)
 
 Fixes:
