@@ -33,16 +33,6 @@ methods:
         required: true
         schema: { type: string }
 
-  set-telegram-username:
-    title: Set telegram username
-    permission: user
-    authorizationRequired: true
-    params:
-      - name: telegram_username
-        description: Telegram username to set, if not specified current telegram user name will be removed.
-        schema:
-          type: string
-
   set-locale:
     title: Set locale
     permission: user

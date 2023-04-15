@@ -72,7 +72,6 @@ methods:
           properties:
             password: { type: string }
             locale: { type: string }
-            telegram_username: { type: string }
           additionalProperties: false
 
   send-confirmation-email:
