@@ -1,5 +1,23 @@
 # Changelog
 
+### 7.6.0 (2023-04-22)
+
+Features:
+
+-   feat: http server stop
+
+Fixes:
+
+-   fix: api/rpc stop
+-   fix: fetch connection header
+-   fix: http server events removed
+-   fix: http server methods
+-   fix: http server response close with status
+-   fix: http server stop
+-   fix: server request end() close option removed
+-   fix: shutdown
+-   fix: watch refactored
+
 ### 7.5.0 (2023-04-15)
 
 Features:
