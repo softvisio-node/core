@@ -23,7 +23,6 @@ methods:
         required: true
         schema:
           type: string
-            ooo
 
   read-api-method-access-log:
     title: Get API method access log
