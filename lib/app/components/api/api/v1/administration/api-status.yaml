@@ -1,17 +1,9 @@
 title: Application API call log
 
 methods:
-  read-api-method-access-log:
-    title: Get API method access log
+  get-api-methods:
+    title: Get API methods
     permission: admin:read
-    params:
-      - name: options
-        schema:
-          read:
-            fields:
-              method_id: { type: string, operator: "=", required: true }
-            order_by: [["started", "desc"]]
-            limit: { maxLimit: 100 }
 
   get-latest-stats:
     title: Read statistics for the last 60 minutes
@@ -31,3 +23,16 @@ methods:
         required: true
         schema:
           type: string
+            ooo
+
+  read-api-method-access-log:
+    title: Get API method access log
+    permission: admin:read
+    params:
+      - name: options
+        schema:
+          read:
+            fields:
+              method_id: { type: string, operator: "=", required: true }
+            order_by: [["started", "desc"]]
+            limit: { maxLimit: 100 }
