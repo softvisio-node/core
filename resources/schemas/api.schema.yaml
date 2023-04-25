@@ -40,12 +40,11 @@
           permission: { type: ["null", string] }
           authorizationRequired: { type: "boolean" }
           persistentConnectionRequired: { type: "boolean" }
-          logApiCalls: { type: boolean }
-          activeRequestsLimit:
+          maxActiveCallsPerUser:
             anyOf:
               - type: "null"
               - { type: integer, minimum: 1 }
-          activeRequestsUserLimit:
+          maxActiveCallsPerGuest:
             anyOf:
               - type: "null"
               - { type: integer, minimum: 1 }

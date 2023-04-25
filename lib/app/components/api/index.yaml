@@ -11,6 +11,10 @@ config:
 
   frontend:
     enabled: true
+    methodMaxActiveCallsPerUser: 30,
+    methodMaxActiveCallsPerGuest: 100,
+    totalMaxActiveCallsPerUser: 100,
+    totalMaxActiveCallsPerGuest: 100,
     maxApiRequestLength: 65_535 # 64KB
     maxUploadFileSize: 1_073_741_824 # 1GB
     idleTimeout: 40 # send ping every 40 seconds, required for CloudFlare
