@@ -29,5 +29,5 @@ cron:
     query: |-
       DELETE FROM user_session WHERE expires <= CURRENT_TIMESTAMP;
       DELETE FROM user_action_token WHERE expires <= CURRENT_TIMESTAMP;
-      DELETE FROM api_call_load WHERE started < CURRENT_TIMESTAMP - INTERVAL '30 days';
-      DELETE FROM api_call_log WHERE finished < CURRENT_TIMESTAMP - INTERVAL '30 days';
+      DELETE FROM api_health_call WHERE date < CURRENT_TIMESTAMP - INTERVAL '30 days';
+      DELETE FROM api_health_exception WHERE date < CURRENT_TIMESTAMP - INTERVAL '30 days';
