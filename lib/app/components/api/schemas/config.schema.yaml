@@ -53,8 +53,6 @@ properties:
   userSessionTokenLength: { type: integer, minimum: 6 }
   userActionTokenLength: { type: integer, minimum: 6 }
 
-  apiCallLogCacheDropInterval: { type: integer, minimum: 10_000 } # ms
-  lastActivityCacheDropInterval: { type: integer, minimum: 10_000 } # ms
   sessionMaxAge: { type: integer, minimum: 60_000 } # ms
   authorizedSessionMaxAge: { type: integer, minimum: 60_000 } # ms
   actionTokenMaxAge: { type: integer, minimum: 60_000 } # ms
@@ -219,8 +217,6 @@ required:
   - userSessionTokenLength
   - userActionTokenLength
 
-  - apiCallLogCacheDropInterval
-  - lastActivityCacheDropInterval
   - sessionMaxAge
   - authorizedSessionMaxAge
   - actionTokenMaxAge

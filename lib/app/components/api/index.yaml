@@ -39,8 +39,6 @@ config:
   userSessionTokenLength: 16
   userActionTokenLength: 8
 
-  apiCallLogCacheDropInterval: 10_000 # ms, 10 sec.
-  lastActivityCacheDropInterval: 30_000 # ms, 30 sec.
   sessionMaxAge: 2_592_000_000 # ms, 30 days
   authorizedSessionMaxAge: 300_000 # ms, 5 minutes
   actionTokenMaxAge: 600_000 # ms, 10 minutes
