@@ -33,5 +33,5 @@ methods:
           read:
             fields:
               method_id: { type: string, operator: "=", required: true }
-            order_by: [["started", "desc"]]
+            order_by: [["date", "desc"]]
             limit: { maxLimit: 100 }
