@@ -5,7 +5,7 @@ methods:
     title: Get API methods
     permission: admin:read
 
-  get-latest-stats:
+  get-latest-time-series:
     title: Read statistics for the last 60 minutes
     permission: admin:read
     description: Statistics updated every 10 seconds. Data resolution is 1 minute.
@@ -14,7 +14,7 @@ methods:
         schema:
           type: string
 
-  get-historic-stats:
+  get-historic-time-series:
     title: Read statistics for the given API method for the last 30 days
     permission: admin:read
     description: Statistics updated every 1 minute. Data resolution is 10 minutes.
@@ -24,7 +24,7 @@ methods:
         schema:
           type: string
 
-  read-api-method-access-log:
+  read-api-method-exceptions:
     title: Get API method access log
     permission: admin:read
     params:
