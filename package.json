@@ -80,7 +80,7 @@
     "dependencies": {
         "@softvisio/argon2": "^1.2.5",
         "@softvisio/msgpack": "^3.0.0",
-        "@softvisio/result": "^5.0.0",
+        "@softvisio/result": "^6.0.0",
         "@softvisio/uws": "^2.0.0",
         "ajv": "^8.0.1",
         "ajv-errors": "^3.0.0",
