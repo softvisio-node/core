@@ -1,5 +1,30 @@
 # Changelog
 
+### 7.7.0 (2023-04-29)
+
+Features:
+
+-   feat: -32816 api status
+-   feat: api-status
+-   feat: health
+-   feat: sql VALUES_AS
+
+Fixes:
+
+-   fix: ajv read keyword
+-   fix: api admin namespace
+-   fix: api call log
+-   fix: api status
+-   fix: buffer.slice replacef with subarray
+-   fix: pgsql message
+-   fix: pgsql message buffer
+-   fix: result class updated
+-   fix: result.parse
+-   fix: rpc methods
+-   fix: substr is deprecated
+-   fix: substring optimized
+-   fix: telegram user
+
 ### 7.6.0 (2023-04-22)
 
 Features:
