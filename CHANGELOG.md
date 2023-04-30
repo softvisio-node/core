@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.7.1 (2023-04-30)
+
+Fixes:
+
+-   fix: api call refactor
+-   fix: api clear exceptions method added
+-   fix: api exceptions reader sort by date
+-   fix: po file parser
+-   fix: preserve locale id in domains
+-   fix: sql query.VALUES refactored
+
 ### 7.7.0 (2023-04-29)
 
 Features:
