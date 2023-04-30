@@ -19,6 +19,7 @@ methods:
     description: Statistics updated every 10 seconds. Data resolution is 1 minute.
     params:
       - name: method_id
+        required: true
         schema:
           type: string
 
@@ -44,3 +45,12 @@ methods:
               date: { sortable: true }
             order_by: [["date", "desc"]]
             limit: { maxLimit: 100 }
+
+  clear-api-method-exceptions:
+    title: Clear the API method exceptions
+    permission: admin:update
+    params:
+      - name: method_id
+        required: true
+        schema:
+          type: string
