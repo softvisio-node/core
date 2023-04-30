@@ -41,5 +41,6 @@ methods:
           read:
             fields:
               method_id: { type: string, operator: "=", required: true }
+              date: { sortable: true }
             order_by: [["date", "desc"]]
             limit: { maxLimit: 100 }
