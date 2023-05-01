@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.7.3 (2023-05-01)
+
+Fixes:
+
+-   fix: api limits refactor
+-   fix: api status active calls removed
+-   fix: check call limits for public calls
+-   fix: ip addr processing
+
 ### 7.7.2 (2023-04-30)
 
 Fixes:
