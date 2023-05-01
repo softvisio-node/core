@@ -13,10 +13,6 @@ properties:
     type: object
     properties:
       enabled: { type: boolean }
-      methodMaxActiveCallsPerUser: { type: integer, minimum: 1 }
-      methodMaxActiveCallsPerGuest: { type: integer, minimum: 1 }
-      totalMaxActiveCallsPerUser: { type: integer, minimum: 1 }
-      totalMaxActiveCallsPerGuest: { type: integer, minimum: 1 }
       maxApiRequestLength: { type: integer, minimum: 1 }
       maxUploadFileSize: { type: integer, minimum: 1 }
       idleTimeout: { type: integer, minimum: 0 }
@@ -28,7 +24,7 @@ properties:
           - { type: integer, minimum: 0 }
 
     additionalProperties: false
-    required: [enabled, methodMaxActiveCallsPerUser, methodMaxActiveCallsPerGuest, totalMaxActiveCallsPerUser, totalMaxActiveCallsPerGuest, maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
+    required: [enabled, maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
 
   locales: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
   defaultLocale: { type: string }
