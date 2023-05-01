@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.7.5 (2023-05-01)
+
+Fixes:
+
+-   fix: api limits refactor
+
 ### 7.7.4 (2023-05-01)
 
 Fixes:
