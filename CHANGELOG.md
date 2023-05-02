@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.7.7 (2023-05-02)
+
+Fixes:
+
+-   fix: condvar.recv() -> condvar.wait()
+
 ### 7.7.6 (2023-05-02)
 
 Fixes:
