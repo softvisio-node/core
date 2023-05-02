@@ -97,7 +97,7 @@ import CondVar from "@softvisio/core/threads/condvar";
 
 const cv = new CondVar().begin();
 
-await cv.end().recv();
+await cv.end().wait();
 ```
 
 ### cv.begin()
@@ -114,11 +114,11 @@ Decreases internal counter. If counter will equal `0` condvar will be resolved.
 
 ### cv.send( res? )
 
--   `res?` <any\> Any result, will be passed to the `cv.recv()` callback.
+-   `res?` <any\> Any result, will be passed to the `cv.wait()` callback.
 
 Resolves condvar, if it wasn't resolved previously.
 
-### cv.recv()
+### cv.wait()
 
 -   Returns: <Promise\> Resolves to the <any\>.
 
