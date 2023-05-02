@@ -13,7 +13,10 @@ properties:
     type: object
     properties:
       enabled: { type: boolean }
-      maxParallelCallsPerClient: { type: integer, minimum: 1 }
+      maxParallelCallsPerClient:
+        anyOf:
+          - type: "null"
+          - { type: integer, minimum: 1 }
       maxApiRequestLength: { type: integer, minimum: 1 }
       maxUploadFileSize: { type: integer, minimum: 1 }
       idleTimeout: { type: integer, minimum: 0 }
