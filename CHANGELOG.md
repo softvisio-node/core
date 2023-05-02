@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.7.6 (2023-05-02)
+
+Fixes:
+
+-   fix: api log
+-   fix: extra await removed
+
 ### 7.7.5 (2023-05-01)
 
 Fixes:
