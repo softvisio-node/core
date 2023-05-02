@@ -40,7 +40,7 @@
           permission: { type: ["null", string] }
           authorizationRequired: { type: "boolean" }
           persistentConnectionRequired: { type: "boolean" }
-          maxActiveCallsPerClient:
+          maxParallelCallsPerClient:
             anyOf:
               - type: "null"
               - { type: integer, minimum: 1 }

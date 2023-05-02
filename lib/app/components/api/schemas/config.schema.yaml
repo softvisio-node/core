@@ -13,6 +13,7 @@ properties:
     type: object
     properties:
       enabled: { type: boolean }
+      maxParallelCallsPerClient: { type: integer, minimum: 1 }
       maxApiRequestLength: { type: integer, minimum: 1 }
       maxUploadFileSize: { type: integer, minimum: 1 }
       idleTimeout: { type: integer, minimum: 0 }
@@ -24,7 +25,7 @@ properties:
           - { type: integer, minimum: 0 }
 
     additionalProperties: false
-    required: [enabled, maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
+    required: [enabled, maxParallelCallsPerClient, maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
 
   locales: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
   defaultLocale: { type: string }
