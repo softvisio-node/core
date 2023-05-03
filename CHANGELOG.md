@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.8.0 (2023-05-03)
+
+Features:
+
+-   feat: stack, deque modules
+
+Fixes:
+
+-   fix: data modules moved
+-   fix: semaphore speed
+
 ### 7.7.7 (2023-05-02)
 
 Fixes:
