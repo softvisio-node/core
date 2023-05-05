@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.9.0 (2023-05-05)
+
+Features:
+
+-   feat: dynamic-buffer module
+
+Fixes:
+
+-   fix: cache lru refactor
+-   fix: doubly linked list refactor
+-   fix: semaphore shutdown
+
 ### 7.8.0 (2023-05-03)
 
 Features:
