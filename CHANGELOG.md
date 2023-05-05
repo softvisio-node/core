@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.9.2 (2023-05-05)
+
+Fixes:
+
+-   fix: semaphore proxy
+
 ### 7.9.1 (2023-05-05)
 
 Fixes:
