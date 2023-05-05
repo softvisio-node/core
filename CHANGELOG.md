@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.9.1 (2023-05-05)
+
+Fixes:
+
+-   fix: semaphore set .has method added
+-   fix: signal events
+
 ### 7.9.0 (2023-05-05)
 
 Features:
