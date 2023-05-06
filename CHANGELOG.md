@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.10.0 (2023-05-06)
+
+Features:
+
+-   feat: threads shutdown
+
+Fixes:
+
+-   fix: api client options
+-   fix: cache options
+-   fix: pgsql options
+-   fix: sqlite options
+
 ### 7.9.4 (2023-05-06)
 
 Fixes:
