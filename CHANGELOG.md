@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.11.1 (2023-05-07)
+
+Fixes:
+
+-   fix: counteer refactor
+-   fix: signal refactor
+
 ### 7.11.0 (2023-05-06)
 
 Features:
