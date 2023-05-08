@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.11.5 (2023-05-08)
+
+Fixes:
+
+-   fix: pool methods renamed
+
 ### 7.11.4 (2023-05-08)
 
 Fixes:
