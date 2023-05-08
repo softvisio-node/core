@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.11.4 (2023-05-08)
+
+Fixes:
+
+-   fix: classes names
+
 ### 7.11.3 (2023-05-08)
 
 Fixes:
