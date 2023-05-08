@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.11.2 (2023-05-08)
+
+Fixes:
+
+-   fix: semaphore
+
 ### 7.11.1 (2023-05-07)
 
 Fixes:
