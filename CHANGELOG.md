@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.12.0 (2023-05-08)
+
+Features:
+
+-   feat: sql query dynamic attribute
+
+Fixes:
+
+-   fix: pool isEmpty prop
+
 ### 7.11.5 (2023-05-08)
 
 Fixes:
