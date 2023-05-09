@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.12.2 (2023-05-09)
+
+Fixes:
+
+-   fix: methos call typo
+
 ### 7.12.1 (2023-05-09)
 
 Fixes:
