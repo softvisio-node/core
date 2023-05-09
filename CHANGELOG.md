@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.12.1 (2023-05-09)
+
+Fixes:
+
+-   fix: signal
+-   fix: threads pool
+
 ### 7.12.0 (2023-05-08)
 
 Features:
