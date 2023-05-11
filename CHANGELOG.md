@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.12.4 (2023-05-11)
+
+Fixes:
+
+-   fix: api smtp shutdown
+
 ### 7.12.3 (2023-05-09)
 
 Fixes:
