@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.12.5 (2023-05-12)
+
+Fixes:
+
+-   fix: http server request
+
 ### 7.12.4 (2023-05-11)
 
 Fixes:
