@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.13.1 (2023-05-13)
+
+Fixes:
+
+-   fix: acl permissions glob
+
 ### 7.13.0 (2023-05-13)
 
 Features:
