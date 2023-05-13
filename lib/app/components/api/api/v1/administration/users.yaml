@@ -3,7 +3,7 @@ title: Application users management
 methods:
   read:
     title: Read users
-    permission: admin:read
+    permission: administration:read
     params:
       - name: options
         schema:
@@ -21,7 +21,7 @@ methods:
 
   create:
     title: Create user
-    permission: admin:create
+    permission: administration:create
     params:
       - name: email
         required: true
@@ -43,7 +43,7 @@ methods:
 
   delete:
     title: Delete user
-    permission: admin:delete
+    permission: administration:delete
     authorizationRequired: true
     params:
       - name: user_id
@@ -53,7 +53,7 @@ methods:
 
   set-enabled:
     title: Set user enabled
-    permission: admin:update
+    permission: administration:update
     params:
       - name: user_id
         description: User id or name.
@@ -67,7 +67,7 @@ methods:
 
   set-password:
     title: Set user password
-    permission: admin:update
+    permission: administration:update
     authorizationRequired: true
     params:
       - name: user_id
@@ -81,7 +81,7 @@ methods:
 
   get-sessions:
     title: Get user sessions list
-    permission: admin:update
+    permission: administration:update
     params:
       - name: user_id
         required: true
@@ -89,7 +89,7 @@ methods:
 
   signout-session:
     title: Sign out of user session
-    permission: admin:update
+    permission: administration:update
     params:
       - name: user_id
         required: true
@@ -100,7 +100,7 @@ methods:
 
   signout-all-sessions:
     title: Sign out of all user sessions
-    permission: admin:update
+    permission: administration:update
     params:
       - name: user_id
         required: true

@@ -72,11 +72,11 @@ config:
           - acl:update
           - acl:delete
 
-          # admin permisssions
-          - admin:create
-          - admin:read
-          - admin:update
-          - admin:delete
+          # administration permisssions
+          - administration:create
+          - administration:read
+          - administration:update
+          - administration:delete
 
   notifications:
     smtp: ~
