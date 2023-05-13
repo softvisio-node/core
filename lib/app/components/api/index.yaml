@@ -61,24 +61,14 @@ config:
         name: Developer
         description: Project developer
         permissions:
-          - development:read
-          - development:delete
+          - development:*
 
       administrator:
         name: Administrator
         description: Project administrator
         permissions:
-          # acl permissions
-          - acl:create
-          - acl:read
-          - acl:update
-          - acl:delete
-
-          # administration permisssions
-          - administration:create
-          - administration:read
-          - administration:update
-          - administration:delete
+          - acl:*
+          - administration:*
 
   notifications:
     smtp: ~
