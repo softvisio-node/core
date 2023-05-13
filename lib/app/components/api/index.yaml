@@ -57,17 +57,22 @@ config:
 
   acl:
     default:
+      developer:
+        name: Developer
+        description: Project developer
+        permissions:
+          - developer:all
       administrator:
         name: Administrator
         description: Project administrator
         permissions:
-          # acl
+          # acl permissions
           - acl:create
           - acl:read
           - acl:update
           - acl:delete
 
-          # admin
+          # admin permisssions
           - admin:create
           - admin:read
           - admin:update

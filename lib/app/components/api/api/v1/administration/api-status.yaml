@@ -3,7 +3,7 @@ title: Application API call log
 methods:
   get-api-methods:
     title: Get API methods metrics
-    permission: admin:read
+    permission: developer:all
     params:
       - name: options
         required: true
@@ -15,7 +15,7 @@ methods:
 
   get-latest-time-series:
     title: Get the API method time series for the last hour, grouped by 1 minute
-    permission: admin:read
+    permission: developer:all
     description: Statistics updated every 10 seconds. Data resolution is 1 minute.
     params:
       - name: method_id
@@ -25,7 +25,7 @@ methods:
 
   get-historical-time-series:
     title: Get the API method time series for the last 30 days, grouped by 24 hours
-    permission: admin:read
+    permission: developer:all
     description: Statistics updated every 1 minute. Data resolution is 10 minutes.
     params:
       - name: method_id
@@ -35,7 +35,7 @@ methods:
 
   read-api-method-exceptions:
     title: Read the API method exceptions
-    permission: admin:read
+    permission: developer:all
     params:
       - name: options
         schema:
@@ -48,7 +48,7 @@ methods:
 
   clear-api-method-exceptions:
     title: Clear the API method exceptions
-    permission: admin:update
+    permission: developer:all
     params:
       - name: method_id
         required: true
