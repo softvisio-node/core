@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.13.0 (2023-05-13)
+
+Features:
+
+-   feat: acl refactor
+
+Fixes:
+
+-   fix: development panel
+
 ### 7.12.5 (2023-05-12)
 
 Fixes:
