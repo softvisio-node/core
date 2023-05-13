@@ -61,7 +61,7 @@ config:
         name: Developer
         description: Project developer
         permissions:
-          - developer:all
+          - development:all
       administrator:
         name: Administrator
         description: Project administrator
