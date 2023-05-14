@@ -30,6 +30,7 @@ methods:
     permission: user
     params:
       - name: options
+        required: true
         schema:
           read:
             fields:
@@ -37,72 +38,48 @@ methods:
             order_by: [["created", "desc"]]
             limit: { maxLimit: 100 }
 
-  set-read:
-    title: Set notifications as read
+  update:
+    title: Update notification
     permission: user
     params:
-      - name: notifications
+      - name: notification-id
+        required: true
         schema:
-          type: array
-          items: { type: string }
-          minItems: 1
+          type: string
+      - name: options
+        required: true
+        schema:
+          type: object
+          properties:
+            done: { type: boolean }
 
-  set-read-all:
-    title: Set all notifications as read
-    permission: user
+          additionalProperties: false
+          minProperties: 1
 
-  set-unread:
-    title: Set notifications as unread
+  update-all:
+    title: Update all notification
     permission: user
     params:
-      - name: notifications
+      - name: options
+        required: true
         schema:
-          type: array
-          items: { type: string }
-          minItems: 1
+          type: object
+          properties:
+            done: { type: boolean }
 
-  set-unread-all:
-    title: Set all notifications as unread
-    permission: user
-
-  set-done:
-    title: Set notifications as done
-    permission: user
-    params:
-      - name: notifications
-        schema:
-          type: array
-          items: { type: string }
-          minItems: 1
-
-  set-done-all:
-    title: Set all notifications as done
-    permission: user
-
-  set-undone:
-    title: Set notifications as undone
-    permission: user
-    params:
-      - name: notifications
-        schema:
-          type: array
-          items: { type: string }
-          minItems: 1
-
-  set-undone-all:
-    title: Set all notifications as undone
-    permission: user
+          additionalProperties: false
+          minProperties: 1
 
   delete:
-    title: Delete notification
+    title: Delete notifications
     permission: user
     params:
-      - name: notifications
+      - name: options
         schema:
-          type: array
-          items: { type: string }
-          minItems: 1
+          type: object
+          properties:
+            id: { type: string }
+            done: { type: boolean }
 
-  delete-all:
-    title: Delete all notifications
-    permission: user
+          additionalProperties: false
+          minProperties: 1
