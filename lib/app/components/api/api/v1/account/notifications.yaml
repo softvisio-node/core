@@ -51,6 +51,7 @@ methods:
         schema:
           type: object
           properties:
+            read: { type: boolean }
             done: { type: boolean }
 
           additionalProperties: false
@@ -65,6 +66,7 @@ methods:
         schema:
           type: object
           properties:
+            read: { type: boolean }
             done: { type: boolean }
 
           additionalProperties: false
@@ -79,6 +81,7 @@ methods:
           type: object
           properties:
             id: { type: string }
+            read: { type: boolean }
             done: { type: boolean }
 
           additionalProperties: false
