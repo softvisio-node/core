@@ -42,7 +42,7 @@ methods:
     title: Update notification
     permission: user
     params:
-      - name: notification-id
+      - name: notification_id
         required: true
         schema:
           type: string
