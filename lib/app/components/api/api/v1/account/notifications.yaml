@@ -28,6 +28,7 @@ methods:
   read:
     title: Read notifications
     permission: user
+    maxParallelCallsPerClient: 5
     params:
       - name: options
         required: true
