@@ -31,3 +31,4 @@ cron:
       DELETE FROM user_action_token WHERE expires <= CURRENT_TIMESTAMP;
       DELETE FROM api_health_calls WHERE date < CURRENT_TIMESTAMP - INTERVAL '30 days';
       DELETE FROM api_health_exception WHERE date < CURRENT_TIMESTAMP - INTERVAL '30 days';
+      DELETE FROM internal_notification WHERE expires <= CURRENT_TIMESTAMP;
