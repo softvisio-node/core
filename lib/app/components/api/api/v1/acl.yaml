@@ -82,10 +82,10 @@ methods:
     params:
       - name: acl_id
         required: true
-        schema: { type: string, aclResolver: acl }
+        schema: { type: string, format: int64, aclResolver: acl }
       - name: user_id
         required: true
-        schema: { type: string }
+        schema: { type: string, format: int64 }
       - name: roles
         required: true
         schema: { type: array, items: { type: string }, uniqueItems: true }
@@ -96,10 +96,10 @@ methods:
     params:
       - name: acl_id
         required: true
-        schema: { type: string, aclResolver: acl }
+        schema: { type: string, format: int64, aclResolver: acl }
       - name: user_id
         required: true
-        schema: { type: string }
+        schema: { type: string, format: int64 }
       - name: roles
         required: true
         schema: { type: array, items: { type: string }, uniqueItems: true, minItems: 1 }
@@ -110,10 +110,10 @@ methods:
     params:
       - name: acl_id
         required: true
-        schema: { type: string, aclResolver: acl }
+        schema: { type: string, format: int64, aclResolver: acl }
       - name: user_id
         required: true
-        schema: { type: string }
+        schema: { type: string, format: int64 }
       - name: roles
         required: true
         schema: { type: array, items: { type: string }, uniqueItems: true, minItems: 1 }
