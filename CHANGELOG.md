@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.13.6 (2023-05-15)
+
+Fixes:
+
+-   fix: ajv formats
+-   fix: api schema id format: int64
+-   fix: api schema keywords
+-   fix: notifications api'
+
 ### 7.13.5 (2023-05-15)
 
 Fixes:
