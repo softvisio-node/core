@@ -134,7 +134,7 @@ methods:
     params:
       - name: acl_id
         required: true
-        schema: { type: string, aclResolver: acl }
+        schema: { type: string, format: int64, aclResolver: acl }
 
   get-acl-roles:
     title: Get ACL roles
@@ -142,4 +142,4 @@ methods:
     params:
       - name: acl_id
         required: true
-        schema: { type: string, aclResolver: acl }
+        schema: { type: string, format: int64, aclResolver: acl }
