@@ -124,9 +124,9 @@ methods:
     params:
       - name: acl_id
         required: true
-        schema: { type: string, aclResolver: acl }
+        schema: { type: string, format: int64, aclResolver: acl }
       - name: user_id
-        schema: { type: string }
+        schema: { type: string, format: int64 }
 
   get-acl-user-permissions:
     title: Get ACL user permissions
