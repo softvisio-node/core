@@ -50,6 +50,7 @@ methods:
         required: true
         schema:
           type: string
+          format: int64
 
   set-enabled:
     title: Set user enabled
@@ -60,6 +61,7 @@ methods:
         required: true
         schema:
           type: string
+          format: int64
       - name: enabled
         required: true
         schema:
@@ -75,6 +77,7 @@ methods:
         required: true
         schema:
           type: string
+          format: int64
       - name: pasword
         schema:
           type: string
@@ -85,7 +88,7 @@ methods:
     params:
       - name: user_id
         required: true
-        schema: { type: string }
+        schema: { type: string, format: int64 }
 
   signout-session:
     title: Sign out of user session
@@ -93,10 +96,10 @@ methods:
     params:
       - name: user_id
         required: true
-        schema: { type: string }
+        schema: { type: string, format: int64 }
       - name: session_id
         required: true
-        schema: { type: string }
+        schema: { type: string, format: int64 }
 
   signout-all-sessions:
     title: Sign out of all user sessions
@@ -106,3 +109,4 @@ methods:
         required: true
         schema:
           type: string
+          format: int64
