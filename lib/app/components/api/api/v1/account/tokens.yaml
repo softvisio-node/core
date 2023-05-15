@@ -35,6 +35,7 @@ methods:
         required: true
         schema:
           type: string
+          format: int64
 
   set-enabled:
     title: Set token enabled
@@ -44,6 +45,7 @@ methods:
         required: true
         schema:
           type: string
+          format: int64
       - name: enabled
         required: true
         schema:
