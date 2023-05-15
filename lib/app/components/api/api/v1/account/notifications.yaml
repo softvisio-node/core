@@ -43,33 +43,22 @@ methods:
     title: Update notification
     permission: user
     params:
-      - name: notification_id
-        required: true
-        schema:
-          type: string
       - name: options
         required: true
         schema:
-          type: object
-          properties:
-            done: { type: boolean }
-
-          additionalProperties: false
-          minProperties: 1
-
-  update-all:
-    title: Update all notification
-    permission: user
-    params:
-      - name: options
-        required: true
-        schema:
-          type: object
-          properties:
-            done: { type: boolean }
-
-          additionalProperties: false
-          minProperties: 1
+          anyOf:
+            - type: object
+              properties:
+                done: { type: boolean }
+              additionalProperties: false
+              minProperties: 1
+            - type: object
+              properties:
+                id: { type: string }
+                done: { type: boolean }
+              additionalProperties: false
+              minProperties: 2
+              required: [id]
 
   delete:
     title: Delete notifications
