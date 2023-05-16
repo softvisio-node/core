@@ -1,7 +1,7 @@
 type: object
 properties:
   id: { type: ["null", string] }
-  serviceName: { type: ["null", string] }
+  serviceName: { type: string }
 
 additionalProperties: false
-required: [id]
+required: [id, serviceName]
