@@ -1,4 +1,5 @@
 type: object
+propertyNames: { type: string, format: kebab-case }
 additionalProperties:
-  type: object
-  format: uri
+  type: string
+  format: uri-whatwg
