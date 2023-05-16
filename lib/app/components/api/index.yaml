@@ -71,7 +71,10 @@ config:
           - administration:*
 
   notifications:
+    enabled: true
+
     smtp: ~
+
     telegramBot:
       type: telegramNotificationsBot
       apiKey: ~
