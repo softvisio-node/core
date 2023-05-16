@@ -1,2 +1,6 @@
 dependencies:
   - services
+
+config:
+  id: null
+  serviceName: core
