@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.13.7 (2023-05-16)
+
+Fixes:
+
+-   fix: shared mutex
+
 ### 7.13.6 (2023-05-15)
 
 Fixes:
