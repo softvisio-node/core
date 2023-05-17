@@ -125,7 +125,10 @@ properties:
   notifications:
     type: object
     properties:
-      enabled: { type: boolean }
+      internalNotificationsEnabled: { type: boolean }
+      emailNotificationsEnabled: { type: boolean }
+      telegramNotificationsEnabled: { type: boolean }
+      pushNotificationsEnabled: { type: boolean }
 
       smtp: { type: string, format: uri-whatwg }
 
@@ -194,7 +197,7 @@ properties:
             additionalProperties: false
 
     additionalProperties: false
-    required: [enabled, smtp, telegramBot, types, firebase]
+    required: [internalNotificationsEnabled, emailNotificationsEnabled, telegramNotificationsEnabled, pushNotificationsEnabled, smtp, telegramBot, types, firebase]
 
 additionalProperties: false
 required:
