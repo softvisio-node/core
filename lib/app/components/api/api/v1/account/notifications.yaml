@@ -1,6 +1,6 @@
 title: Notifications
 emits:
-  - notifications # emitted when new notifications available
+  - notifications/update # emitted when new notifications available
 
 methods:
   get-user-notifications-profile:
