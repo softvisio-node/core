@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.13.8 (2023-05-18)
+
+Fixes:
+
+-   fix: app notifications enabled option
+-   fix: cluste config
+-   fix: cluster mutexes acessor
+-   fix: notifications
+-   fix: services config
+
 ### 7.13.7 (2023-05-16)
 
 Fixes:
