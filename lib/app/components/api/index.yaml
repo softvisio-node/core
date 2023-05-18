@@ -71,10 +71,10 @@ config:
           - administration:*
 
   notifications:
-    internalNotificationsEnabled: true
-    emailNotificationsEnabled: true
-    telegramNotificationsEnabled: true
-    pushNotificationsEnabled: true
+    internalChannelEnabled: true
+    emailChannelEnabled: true
+    telegramChannelEnabled: true
+    pushChannelEnabled: true
 
     smtp: ~
 
