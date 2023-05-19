@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.13.11 (2023-05-19)
+
+Fixes:
+
+-   fix: app reqiored components check
+
 ### 7.13.10 (2023-05-19)
 
 Fixes:
