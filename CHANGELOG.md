@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.13.9 (2023-05-19)
+
+Fixes:
+
+-   fix: api acl
+-   fix: app components
+-   fix: app settings
+-   fix: notifications
+
 ### 7.13.8 (2023-05-18)
 
 Fixes:
