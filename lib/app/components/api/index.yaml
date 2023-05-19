@@ -76,6 +76,8 @@ config:
     telegramChannelEnabled: true
     pushChannelEnabled: true
 
+    internalNotificationsMaxAge: 2592000 # seconts, 30 days
+
     smtp: ~
 
     telegramBot:

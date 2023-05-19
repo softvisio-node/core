@@ -130,6 +130,8 @@ properties:
       telegramChannelEnabled: { type: boolean }
       pushChannelEnabled: { type: boolean }
 
+      internalNotificationsMaxAge: { type: integer, minimum: 1 }
+
       smtp: { type: string, format: uri-whatwg }
 
       telegramBot:
@@ -197,7 +199,7 @@ properties:
             additionalProperties: false
 
     additionalProperties: false
-    required: [internalChannelEnabled, emailChannelEnabled, telegramChannelEnabled, pushChannelEnabled, smtp, telegramBot, types, firebase]
+    required: [internalChannelEnabled, emailChannelEnabled, telegramChannelEnabled, pushChannelEnabled, internalNotificationsMaxAge, smtp, telegramBot, types, firebase]
 
 additionalProperties: false
 required:
