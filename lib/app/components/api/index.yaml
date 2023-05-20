@@ -71,10 +71,10 @@ config:
           - administration:*
 
   notifications:
-    internalChannelEnabled: true
-    emailChannelEnabled: true
-    telegramChannelEnabled: true
-    pushChannelEnabled: true
+    internalNotificationsEnabled: true
+    emailNotificationsEnabled: true
+    telegramNotificationsEnabled: true
+    pushNotificationsEnabled: true
 
     internalNotificationsMaxAge: 2592000 # seconts, 30 days
 

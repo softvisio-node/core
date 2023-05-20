@@ -125,10 +125,10 @@ properties:
   notifications:
     type: object
     properties:
-      internalChannelEnabled: { type: boolean }
-      emailChannelEnabled: { type: boolean }
-      telegramChannelEnabled: { type: boolean }
-      pushChannelEnabled: { type: boolean }
+      internalNotificationsEnabled: { type: boolean }
+      emailNotificationsEnabled: { type: boolean }
+      telegramNotificationsEnabled: { type: boolean }
+      pushNotificationsEnabled: { type: boolean }
 
       internalNotificationsMaxAge: { type: integer, minimum: 1 }
 
@@ -199,7 +199,7 @@ properties:
             additionalProperties: false
 
     additionalProperties: false
-    required: [internalChannelEnabled, emailChannelEnabled, telegramChannelEnabled, pushChannelEnabled, internalNotificationsMaxAge, smtp, telegramBot, types, firebase]
+    required: [internalNotificationsEnabled, emailNotificationsEnabled, telegramNotificationsEnabled, pushNotificationsEnabled, internalNotificationsMaxAge, smtp, telegramBot, types, firebase]
 
 additionalProperties: false
 required:
