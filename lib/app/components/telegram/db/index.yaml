@@ -7,6 +7,10 @@ emits:
   - telegram/telegram-bot/update
   - telegram/telegram-bot/delete
 
+  - telegram/telegram-user/update
+
+  - telegram/telegram-bot-user/update
+
 locks:
   - telegram/telegram-bot/create
 
