@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.13.14 (2023-05-23)
+
+Fixes:
+
+-   fix: app publish
+-   fix: cluster mutexes getter
+-   fix: code
+-   fix: components install
+-   fix: fetch agent
+-   fix: shared mutex waitin locks
+-   fix: syntax
+-   fix: telegram
+
 ### 7.13.13 (2023-05-20)
 
 Fixes:
