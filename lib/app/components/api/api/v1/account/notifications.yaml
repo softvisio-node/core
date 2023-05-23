@@ -73,3 +73,7 @@ methods:
 
           additionalProperties: false
           minProperties: 1
+
+  get-link-telegram-account-url:
+    title: Get URL to link telegram account
+    permission: user
