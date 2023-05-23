@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.13.15 (2023-05-23)
+
+Fixes:
+
+-   fix: app publish
+
 ### 7.13.14 (2023-05-23)
 
 Fixes:
