@@ -162,6 +162,7 @@ properties:
                     properties:
                       enabled: { type: boolean }
                       default: { type: boolean }
+                      editable: { type: boolean }
 
                     additionalProperties: false
 
