@@ -19,7 +19,7 @@ properties:
       - type: object
         propertyNames: { type: string, format: camel-case-strict }
         additionalProperties:
-          type: ["null", object]
+          type: [boolean, object]
 
   config:
     type: ["null", object]
