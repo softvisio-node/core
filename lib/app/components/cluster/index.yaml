@@ -1,8 +1,7 @@
-dependencies:
-  - services
+dependencies: ~
 
 optionalDependencies: ~
 
 config:
   id: null
-  serviceName: core
+  apiUrl: ws://core/api
