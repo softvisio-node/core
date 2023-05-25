@@ -1,5 +1,7 @@
 dependencies: ~
 
+optionalDependencies: ~
+
 config:
   address: 0.0.0.0
   port: 80
