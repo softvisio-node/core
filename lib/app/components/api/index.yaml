@@ -3,6 +3,7 @@ dependencies:
 
 optionalDependencies:
   - cluster
+  - threads
   - publicHttpServer
 
 config:

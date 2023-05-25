@@ -2,6 +2,7 @@ dependencies: ~
 
 optionalDependencies:
   - cluster
+  - threads
   - privateHttpServer
 
 config:

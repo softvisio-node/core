@@ -1,10 +1,9 @@
 dependencies:
-  - dbh
   - api
   - storage
 
 optionalDependencies:
-  - services
+  - cluster
   - publicHttpServer
   - privateHttpServer
 
