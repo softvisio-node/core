@@ -18,7 +18,11 @@ methods:
     permission: development:read
     description: Statistics updated every 10 seconds. Data resolution is 1 minute.
     params:
-      - name: method_id
+      - name: component
+        required: true
+        schema:
+          type: string
+      - name: method
         required: true
         schema:
           type: string
@@ -28,7 +32,11 @@ methods:
     permission: development:read
     description: Statistics updated every 1 minute. Data resolution is 10 minutes.
     params:
-      - name: method_id
+      - name: component
+        required: true
+        schema:
+          type: string
+      - name: method
         required: true
         schema:
           type: string
@@ -41,7 +49,8 @@ methods:
         schema:
           read:
             fields:
-              method_id: { type: string, operator: "=", required: true }
+              component: { type: string, operator: "=", required: true }
+              method: { type: string, operator: "=", required: true }
               date: { sortable: true }
             order_by: [["date", "desc"]]
             limit: { maxLimit: 100 }
@@ -50,7 +59,11 @@ methods:
     title: Clear the method exceptions
     permission: development:delete
     params:
-      - name: method_id
+      - name: component
+        required: true
+        schema:
+          type: string
+      - name: method
         required: true
         schema:
           type: string
