@@ -22,6 +22,7 @@ methods:
         required: true
         schema:
           type: string
+          format: int64
 
   get-historical-time-series:
     title: Get the API method time series for the last 30 days, grouped by 24 hours
@@ -32,6 +33,7 @@ methods:
         required: true
         schema:
           type: string
+          format: int64
 
   read-method-exceptions:
     title: Read the method exceptions
@@ -41,7 +43,7 @@ methods:
         schema:
           read:
             fields:
-              monitoring_method_id: { type: string, operator: "=", required: true }
+              monitoring_method_id: { type: string, format: int64, operator: "=", required: true }
               date: { sortable: true }
             order_by: [["date", "desc"]]
             limit: { maxLimit: 100 }
@@ -54,3 +56,4 @@ methods:
         required: true
         schema:
           type: string
+          format: int64
