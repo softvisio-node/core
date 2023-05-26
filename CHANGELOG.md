@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.13.16 (2023-05-26)
+
+Fixes:
+
+-   fix: api events
+-   fix: app components
+-   fix: cluster
+-   fix: notifications
+-   fix: telegram
+
 ### 7.13.15 (2023-05-23)
 
 Fixes:
