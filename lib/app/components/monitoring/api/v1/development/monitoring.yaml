@@ -1,8 +1,8 @@
 title: Monitoring
 
 methods:
-  get-api-methods:
-    title: Get API methods metrics
+  get-methods:
+    title: Get monitored methods metrics
     permission: development:read
     params:
       - name: options
@@ -33,8 +33,8 @@ methods:
         schema:
           type: string
 
-  read-api-method-exceptions:
-    title: Read the API method exceptions
+  read-method-exceptions:
+    title: Read the method exceptions
     permission: development:read
     params:
       - name: options
@@ -46,8 +46,8 @@ methods:
             order_by: [["date", "desc"]]
             limit: { maxLimit: 100 }
 
-  clear-api-method-exceptions:
-    title: Clear the API method exceptions
+  clear-method-exceptions:
+    title: Clear the method exceptions
     permission: development:delete
     params:
       - name: method_id
