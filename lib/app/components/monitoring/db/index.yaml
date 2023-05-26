@@ -1,0 +1,13 @@
+module: monitoring
+type: pgsql
+patch: ~
+
+emits: ~
+
+cron:
+  monitoring-cleanup:
+    cron: "0 1 * * *" # 01:00 everyday
+    timezone: ~
+    query: |-
+      DELETE FROM api_health_calls WHERE date < CURRENT_TIMESTAMP - INTERVAL '30 days';
+      DELETE FROM api_health_exception WHERE date < CURRENT_TIMESTAMP - INTERVAL '30 days';
