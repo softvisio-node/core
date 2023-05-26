@@ -1,0 +1,14 @@
+title: Application telegram bots management
+
+methods:
+  read:
+    title: Read telegram bots
+    permission: administration:read
+    params:
+      - name: options
+        schema:
+          read:
+            fields:
+              id: { type: string, format: int64, operator: "=", sortable: true }
+            order_by: [["id", "asc"]]
+            limit: { maxLimit: 100 }
