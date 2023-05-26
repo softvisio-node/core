@@ -4,8 +4,8 @@ methods:
   check-authorization:
     title: Check authorization
 
-  signin:
-    title: Signin
+  sign-in:
+    title: Sign in
     params:
       - name: credentials
         required: true
@@ -46,12 +46,12 @@ methods:
               additionalProperties: false
               required: [oauth_provider, oauth_code, oauth_redirect_uri]
 
-  signout:
-    title: Signout
+  sign-out:
+    title: Sign out
     permission: user
 
-  signup:
-    title: Signup
+  sign-up:
+    title: Sign up
     permission: guest
     params:
       - name: email

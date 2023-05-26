@@ -90,7 +90,7 @@ methods:
         required: true
         schema: { type: string, format: int64 }
 
-  signout-session:
+  sign-out-session:
     title: Sign out of user session
     permission: administration:update
     params:
@@ -101,7 +101,7 @@ methods:
         required: true
         schema: { type: string, format: int64 }
 
-  signout-all-sessions:
+  sign-out-all-sessions:
     title: Sign out of all user sessions
     permission: administration:update
     params:

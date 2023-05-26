@@ -51,14 +51,14 @@ methods:
     title: Get sessions list
     permission: user
 
-  signout-session:
-    title: Signout of session
+  sign-out-session:
+    title: Sign out of session
     permission: user
     params:
       - name: session_id
         required: true
         schema: { type: string, format: int64 }
 
-  signout-all-sessions:
+  sign-out-all-sessions:
     title: Sign out of all sessions
     permission: user
