@@ -1,6 +1,6 @@
 type: object
 properties:
-  uri: { type: string, format: uri }
+  uri: { type: string, format: uri-whatwg }
 
 additionalProperties: false
 required: [uri]
