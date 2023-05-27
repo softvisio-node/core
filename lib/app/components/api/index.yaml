@@ -2,6 +2,7 @@ dependencies:
   - dbh
   - argon2
   - users
+  - notifications
   - monitoring
 
 optionalDependencies:
