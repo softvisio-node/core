@@ -1,6 +1,5 @@
 dependencies:
   - dbh
-  - argon2
 
 optionalDependencies: ~
 
