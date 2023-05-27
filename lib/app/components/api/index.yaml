@@ -27,8 +27,8 @@ config:
   signupEnabled: true
   newUserEnabled: true
 
-  userTokensCacheMaxSize: 10_000
-  userSessionsCacheMaxSize: 10_000
+  tokensCacheMaxSize: 10_000
+  sessionsCacheMaxSize: 10_000
 
   userTokenLength: 8
   userSessionTokenLength: 16

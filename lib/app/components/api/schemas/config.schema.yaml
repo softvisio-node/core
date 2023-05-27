@@ -34,8 +34,8 @@ properties:
   signupEnabled: { typs: boolean }
   newUserEnabled: { typs: boolean }
 
-  userTokensCacheMaxSize: { type: integer, minimum: 1 }
-  userSessionsCacheMaxSize: { type: integer, minimum: 1 }
+  tokensCacheMaxSize: { type: integer, minimum: 1 }
+  sessionsCacheMaxSize: { type: integer, minimum: 1 }
 
   userTokenLength: { type: integer, minimum: 6 }
   userSessionTokenLength: { type: integer, minimum: 6 }
@@ -108,8 +108,8 @@ required:
   - signupEnabled
   - newUserEnabled
 
-  - userTokensCacheMaxSize
-  - userSessionsCacheMaxSize
+  - tokensCacheMaxSize
+  - sessionsCacheMaxSize
 
   - userTokenLength
   - userSessionTokenLength
