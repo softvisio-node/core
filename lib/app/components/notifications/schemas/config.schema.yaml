@@ -1,0 +1,6 @@
+type: object
+properties:
+  cacheMaxSize: { type: integer, minimum: 1 }
+
+additionalProperties: false
+required: [cacheMaxSize]

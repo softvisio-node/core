@@ -1,0 +1,7 @@
+dependencies:
+  - users
+
+optionalDependencies: ~
+
+config:
+  cacheMaxSize: 10_000
