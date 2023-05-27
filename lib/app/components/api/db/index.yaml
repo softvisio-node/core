@@ -19,8 +19,6 @@ emits:
 
 locks:
   - api/acl/sync
-  - api/call-log/latest/generate
-  - api/call-log/historic/generate
 
 cron:
   api-cleanup:
