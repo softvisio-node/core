@@ -2,6 +2,7 @@ dependencies:
   - dbh
   - argon2
   - users
+  - actionTokens
   - notifications
   - monitoring
 
@@ -32,11 +33,9 @@ config:
 
   userTokenLength: 8
   userSessionTokenLength: 16
-  userActionTokenLength: 8
 
   sessionMaxAge: 2_592_000_000 # ms, 30 days
   authorizedSessionMaxAge: 300_000 # ms, 5 minutes
-  actionTokenMaxAge: 600_000 # ms, 10 minutes
   aclCacheMaxSize: 10_000
 
   oauth:

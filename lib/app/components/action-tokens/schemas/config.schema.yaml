@@ -1,0 +1,7 @@
+type: object
+properties:
+  actionTokenLength: { type: integer, minimum: 6 }
+  actionTokenMaxAge: { type: integer, minimum: 60_000 } # ms
+
+additionalProperties: false
+required: [actionTokenLength, actionTokenMaxAge]

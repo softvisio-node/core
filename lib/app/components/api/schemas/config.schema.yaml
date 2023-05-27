@@ -39,11 +39,9 @@ properties:
 
   userTokenLength: { type: integer, minimum: 6 }
   userSessionTokenLength: { type: integer, minimum: 6 }
-  userActionTokenLength: { type: integer, minimum: 6 }
 
   sessionMaxAge: { type: integer, minimum: 60_000 } # ms
   authorizedSessionMaxAge: { type: integer, minimum: 60_000 } # ms
-  actionTokenMaxAge: { type: integer, minimum: 60_000 } # ms
   aclCacheMaxSize: { type: integer, minimum: 0 }
 
   oauth:
@@ -113,11 +111,9 @@ required:
 
   - userTokenLength
   - userSessionTokenLength
-  - userActionTokenLength
 
   - sessionMaxAge
   - authorizedSessionMaxAge
-  - actionTokenMaxAge
   - aclCacheMaxSize
 
   - oauth

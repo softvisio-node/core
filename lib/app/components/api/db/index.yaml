@@ -21,4 +21,3 @@ cron:
     timezone: ~
     query: |-
       DELETE FROM api_session WHERE expires <= CURRENT_TIMESTAMP;
-      DELETE FROM api_action_token WHERE expires <= CURRENT_TIMESTAMP;

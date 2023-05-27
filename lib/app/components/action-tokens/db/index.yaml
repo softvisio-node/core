@@ -1,0 +1,14 @@
+module: action-tokens
+type: pgsql
+patch: ~
+
+emits: ~
+
+locks: ~
+
+cron:
+  api-cleanup:
+    cron: "0 1 * * *" # 01:00 everyday
+    timezone: ~
+    query: |-
+      DELETE FROM api_action_token WHERE expires <= CURRENT_TIMESTAMP;
