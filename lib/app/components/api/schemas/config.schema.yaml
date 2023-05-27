@@ -12,7 +12,6 @@ properties:
   frontend:
     type: object
     properties:
-      enabled: { type: boolean }
       maxParallelCallsPerClient:
         anyOf:
           - type: "null"
@@ -28,7 +27,7 @@ properties:
           - { type: integer, minimum: 0 }
 
     additionalProperties: false
-    required: [enabled, maxParallelCallsPerClient, maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
+    required: [maxParallelCallsPerClient, maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
 
   frontendUrl: { type: string, format: uri }
   passwordsStrength: { enum: [weak, normal, strong] }
