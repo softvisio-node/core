@@ -3,11 +3,6 @@ type: pgsql
 patch: ~
 
 emits:
-  - api/user/delete # user_id
-  - api/user/update
-  - api/user-password-hash/update
-  - api/user-notifications-profile/update
-
   - api/user-token/delete # user_id
   - api/user-token/update
 
