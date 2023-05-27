@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.14.0 (2023-05-27)
+
+Features:
+
+-   feat: components
+-   feat: uws v20.25.0
+
+Fixes:
+
+-   fix: code frtch
+
 ### 7.13.16 (2023-05-26)
 
 Fixes:
