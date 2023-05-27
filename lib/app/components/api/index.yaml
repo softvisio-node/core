@@ -23,10 +23,6 @@ config:
     sendPingsAutomatically: true
     compress: ~ # user server default value
 
-  locales: [en-GB] # en-US, uk, ru
-  defaultLocale: en-GB
-  currency: USD
-
   frontendUrl: ~
   passwordsStrength: strong
   signupEnabled: true
