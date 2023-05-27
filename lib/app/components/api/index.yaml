@@ -1,5 +1,6 @@
 dependencies:
   - dbh
+  - argon2
   - monitoring
 
 optionalDependencies:
@@ -42,9 +43,6 @@ config:
   authorizedSessionMaxAge: 300_000 # ms, 5 minutes
   actionTokenMaxAge: 600_000 # ms, 10 minutes
   aclCacheMaxSize: 10_000
-
-  argon2:
-    preset: default
 
   oauth:
     google:
