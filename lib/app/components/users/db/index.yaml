@@ -1,0 +1,31 @@
+module: api
+type: pgsql
+patch: ~
+
+emits:
+  - api/user/delete # user_id
+  - api/user/update
+  - api/user-password-hash/update
+  - api/user-notifications-profile/update
+
+  - api/user-token/delete # user_id
+  - api/user-token/update
+
+  - api/user-session/delete # user_id
+  - api/user-session/update
+
+  - api/acl/delete # user_id, object_id, role
+  - api/acl/update # user_id, object_id, role
+
+locks:
+  - api/acl/sync
+  - api/call-log/latest/generate
+  - api/call-log/historic/generate
+
+cron:
+  api-cleanup:
+    cron: "0 1 * * *" # 01:00 everyday
+    timezone: ~
+    query: |-
+      DELETE FROM api_session WHERE expires <= CURRENT_TIMESTAMP;
+      DELETE FROM api_action_token WHERE expires <= CURRENT_TIMESTAMP;

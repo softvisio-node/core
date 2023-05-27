@@ -1,0 +1,8 @@
+dependencies:
+  - dbh
+  - argon2
+
+optionalDependencies: ~
+
+config:
+  cacheMaxSize: 10_000
