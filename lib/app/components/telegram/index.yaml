@@ -2,7 +2,7 @@ dependencies:
   - users
   - notifications
   - storage
-  - action-tokens
+  - actionTokens
 
 optionalDependencies:
   - cluster
