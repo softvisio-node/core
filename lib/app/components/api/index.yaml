@@ -31,8 +31,8 @@ config:
   tokensCacheMaxSize: 10_000
   sessionsCacheMaxSize: 10_000
 
-  userTokenLength: 8
-  userSessionTokenLength: 16
+  tokenLength: 8
+  sessionTokenLength: 16
 
   sessionMaxAge: 2_592_000_000 # ms, 30 days
   authorizedSessionMaxAge: 300_000 # ms, 5 minutes
