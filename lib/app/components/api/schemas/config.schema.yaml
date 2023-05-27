@@ -45,7 +45,6 @@ properties:
       - { type: string, format: uri }
   defaultGravatarEncoded: { typs: string }
 
-  usersCacheMaxSize: { type: integer, minimum: 1 }
   userTokensCacheMaxSize: { type: integer, minimum: 1 }
   userSessionsCacheMaxSize: { type: integer, minimum: 1 }
 
@@ -206,7 +205,6 @@ required:
   - defaultGravatarImage
   - defaultGravatarEncoded
 
-  - usersCacheMaxSize
   - userTokensCacheMaxSize
   - userSessionsCacheMaxSize
 
