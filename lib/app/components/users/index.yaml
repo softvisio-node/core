@@ -6,3 +6,4 @@ optionalDependencies: ~
 
 config:
   cacheMaxSize: 10_000
+  defaultGravatarImage: "noname@softvisio.net" # email, url, 404, mp, identicon, monsterid, wavatar, retro, robohash, blank

@@ -34,12 +34,6 @@ properties:
   passwordsStrength: { enum: [weak, normal, strong] }
   signupEnabled: { typs: boolean }
   newUserEnabled: { typs: boolean }
-  defaultGravatarImage:
-    anyOf:
-      - { enum: ["404", mp, identicon, monsterid, wavatar, retro, robohash, blank] }
-      - { type: string, format: email }
-      - { type: string, format: uri }
-  defaultGravatarEncoded: { typs: string }
 
   userTokensCacheMaxSize: { type: integer, minimum: 1 }
   userSessionsCacheMaxSize: { type: integer, minimum: 1 }
@@ -114,8 +108,6 @@ required:
   - passwordsStrength
   - signupEnabled
   - newUserEnabled
-  - defaultGravatarImage
-  - defaultGravatarEncoded
 
   - userTokensCacheMaxSize
   - userSessionsCacheMaxSize
