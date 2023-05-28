@@ -29,7 +29,7 @@ properties:
       - type: object
         propertyNames: { type: string, format: camel-case-strict }
         additionalProperties:
-          type: [boolean, object]
+          type: ["null", object]
 
   config:
     type: ["null", object]
