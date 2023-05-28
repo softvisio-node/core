@@ -1,5 +1,6 @@
 type: object
 properties:
+  # root user
   root:
     type: object
     properties:
@@ -9,6 +10,8 @@ properties:
     additionalProperties: false
     required: [email, password]
 
+  # frontend
+  frontendUrl: { type: string, format: uri }
   frontend:
     type: object
     properties:
@@ -29,21 +32,22 @@ properties:
     additionalProperties: false
     required: [maxParallelCallsPerClient, maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
 
-  frontendUrl: { type: string, format: uri }
+  # users
   passwordsStrength: { enum: [weak, normal, strong] }
   signupEnabled: { typs: boolean }
   newUserEnabledByDefault: { typs: boolean } # new users are enabled by default
 
+  # tokens
   tokensCacheMaxSize: { type: integer, minimum: 1 }
-  sessionsCacheMaxSize: { type: integer, minimum: 1 }
-
   tokenLength: { type: integer, minimum: 6 }
-  sessionTokenLength: { type: integer, minimum: 6 }
 
+  # sessions
+  sessionsCacheMaxSize: { type: integer, minimum: 1 }
+  sessionTokenLength: { type: integer, minimum: 6 }
   sessionMaxAge: { type: integer, minimum: 60_000 } # ms
   authorizedSessionMaxAge: { type: integer, minimum: 60_000 } # ms
-  aclCacheMaxSize: { type: integer, minimum: 0 }
 
+  # oauth
   oauth:
     type: object
     properties:
@@ -80,6 +84,8 @@ properties:
     additionalProperties: false
     required: [google, facebook, github]
 
+  # scl
+  aclCacheMaxSize: { type: integer, minimum: 0 }
   acl:
     type: object
     propertyNames: { type: string, format: kebab-case }
