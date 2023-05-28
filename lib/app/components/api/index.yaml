@@ -11,10 +11,13 @@ optionalDependencies:
   - publicHttpServer
 
 config:
+  # root user
   root:
     email: ~
     password: ~
 
+  # forntend
+  frontendUrl: ~
   frontend:
     maxParallelCallsPerClient: 1
     maxApiRequestLength: 65_535 # 64KB
@@ -23,21 +26,22 @@ config:
     sendPingsAutomatically: true
     compress: ~ # user server default value
 
-  frontendUrl: ~
+  # users
   passwordsStrength: strong
   signupEnabled: true
-  newUserEnabled: true
+  newUserEnabledByDefault: true # new users are enabled by default
 
+  # tokens
   tokensCacheMaxSize: 10_000
-  sessionsCacheMaxSize: 10_000
-
   tokenLength: 8
-  sessionTokenLength: 16
 
+  # sessions
+  sessionsCacheMaxSize: 10_000
+  sessionTokenLength: 16
   sessionMaxAge: 2_592_000_000 # ms, 30 days
   authorizedSessionMaxAge: 300_000 # ms, 5 minutes
-  aclCacheMaxSize: 10_000
 
+  # oauth
   oauth:
     google:
       clientId: ~
@@ -49,6 +53,8 @@ config:
       clientId: ~
       clientSecret: ~
 
+  # acl
+  aclCacheMaxSize: 10_000
   acl:
     default:
       developer:

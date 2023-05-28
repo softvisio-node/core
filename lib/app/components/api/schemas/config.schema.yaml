@@ -32,7 +32,7 @@ properties:
   frontendUrl: { type: string, format: uri }
   passwordsStrength: { enum: [weak, normal, strong] }
   signupEnabled: { typs: boolean }
-  newUserEnabled: { typs: boolean }
+  newUserEnabledByDefault: { typs: boolean } # new users are enabled by default
 
   tokensCacheMaxSize: { type: integer, minimum: 1 }
   sessionsCacheMaxSize: { type: integer, minimum: 1 }
@@ -104,7 +104,7 @@ required:
   - frontendUrl
   - passwordsStrength
   - signupEnabled
-  - newUserEnabled
+  - newUserEnabledByDefault
 
   - tokensCacheMaxSize
   - sessionsCacheMaxSize
