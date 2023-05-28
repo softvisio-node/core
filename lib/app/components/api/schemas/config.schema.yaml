@@ -99,23 +99,23 @@ properties:
 additionalProperties: false
 required:
   - root
-  - frontend
 
   - frontendUrl
+  - frontend
+
   - passwordsStrength
   - signupEnabled
   - newUserEnabledByDefault
 
   - tokensCacheMaxSize
-  - sessionsCacheMaxSize
-
   - tokenLength
-  - sessionTokenLength
 
+  - sessionsCacheMaxSize
+  - sessionTokenLength
   - sessionMaxAge
   - authorizedSessionMaxAge
-  - aclCacheMaxSize
 
   - oauth
 
+  - aclCacheMaxSize
   - acl
