@@ -2,7 +2,8 @@ dependencies:
   - dbh
   - users
 
-optionalDependencies: ~
+optionalDependencies:
+  - cluster
 
 config:
   internalNotificationsEnabled: true
