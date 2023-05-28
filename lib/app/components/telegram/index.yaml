@@ -1,12 +1,11 @@
 dependencies:
   - users
   - notifications
-  - storage
   - actionTokens
+  - storage
 
 optionalDependencies:
   - cluster
-  - publicHttpServer
-  - privateHttpServer
+  - api
 
 config: ~
