@@ -13,6 +13,16 @@ properties:
         items: { type: string }
         uniqueItems: true
 
+  modes:
+    type: object
+    propertyNames: { type: string, format: camel-case-strict }
+    additionalProperties:
+      type: object
+      propertyNames: { type: string, format: camel-case-strict }
+      additionalProperties: { type: boolean }
+      minProperties: 1
+    required: [default]
+
   components:
     anyOf:
       - type: "null"
@@ -25,3 +35,4 @@ properties:
     type: ["null", object]
 
 additionalProperties: false
+required: [modes]
