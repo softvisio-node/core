@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.14.5 (2023-05-29)
+
+Fixes:
+
+-   fix: components
+
 ### 7.14.4 (2023-05-29)
 
 Fixes:
