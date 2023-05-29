@@ -1,9 +1,7 @@
 dependencies:
   - dbh
 
-optionalDependencies:
-  - publicHttpServer
-  - privateHttpServer
+optionalDependencies: ~
 
 config:
   listenPublicHttpServer: true

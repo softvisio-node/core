@@ -1,9 +1,9 @@
 dependencies:
+  - privateHttpServer
   - monitoring
 
 optionalDependencies:
   - cluster
-  - privateHttpServer
 
 config:
   frontend:

@@ -1,4 +1,5 @@
 dependencies:
+  - publicHttpServer
   - dbh
   - argon2
   - users
@@ -8,7 +9,6 @@ dependencies:
 
 optionalDependencies:
   - cluster
-  - publicHttpServer
 
 config:
   # root user
