@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.14.3 (2023-05-29)
+
+Fixes:
+
+-   fix: docker stack schema
+
 ### 7.14.2 (2023-05-29)
 
 Fixes:
