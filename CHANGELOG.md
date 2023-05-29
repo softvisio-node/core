@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.15.0 (2023-05-29)
+
+Features:
+
+-   feat: xml
+
 ### 7.14.6 (2023-05-29)
 
 Fixes:
