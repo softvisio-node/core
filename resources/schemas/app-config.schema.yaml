@@ -13,9 +13,9 @@ properties:
         items: { type: string }
         uniqueItems: true
 
-  modes:
+  services:
     type: object
-    propertyNames: { type: string, format: camel-case-strict }
+    propertyNames: { type: string, format: kebab-case }
     additionalProperties:
       type: object
       propertyNames: { type: string, format: camel-case-strict }
@@ -35,4 +35,4 @@ properties:
     type: ["null", object]
 
 additionalProperties: false
-required: [modes]
+required: [services]

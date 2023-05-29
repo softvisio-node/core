@@ -1,5 +1,5 @@
 dependencies: ~
 
-modes:
+services:
   default:
-    placeholder: false
+    fake-component: false
