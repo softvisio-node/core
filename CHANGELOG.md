@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.14.1 (2023-05-29)
+
+Fixes:
+
+-   fix: code frtch
+-   fix: components
+-   fix: telegram
+
 ### 7.14.0 (2023-05-27)
 
 Features:
