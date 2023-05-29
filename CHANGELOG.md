@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.14.4 (2023-05-29)
+
+Fixes:
+
+-   fix: app docks gen
+
 ### 7.14.3 (2023-05-29)
 
 Fixes:
