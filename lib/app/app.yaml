@@ -2,4 +2,4 @@ dependencies: ~
 
 services:
   default:
-    fake-component: false
+    fakeComponent: false
