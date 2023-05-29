@@ -14,14 +14,18 @@ properties:
         uniqueItems: true
 
   services:
-    type: object
-    propertyNames: { type: string, format: kebab-case }
-    additionalProperties:
-      type: object
-      propertyNames: { type: string, format: camel-case-strict }
-      additionalProperties: { type: boolean }
-      minProperties: 1
-    required: [default]
+    anyOf:
+      - type: "null"
+      - type: object
+        propertyNames: { type: string, format: kebab-case }
+        minProperties: 1
+        additionalProperties:
+          anyOf:
+            - type: "null"
+            - type: object
+              propertyNames: { type: string, format: camel-case-strict }
+              minProperties: 1
+              additionalProperties: { type: boolean }
 
   components:
     anyOf:
@@ -35,4 +39,4 @@ properties:
     type: ["null", object]
 
 additionalProperties: false
-required: [services]
+required: []

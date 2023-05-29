@@ -1,5 +1,3 @@
 dependencies: ~
 
-services:
-  default:
-    fakeComponent: false
+services: ~
