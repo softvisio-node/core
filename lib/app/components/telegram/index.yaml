@@ -6,6 +6,5 @@ dependencies:
 
 optionalDependencies:
   - cluster
-  - api
 
 config: ~
