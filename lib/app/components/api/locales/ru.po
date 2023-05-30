@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-05-30 12:15+0300\n"
+"POT-Creation-Date: 2023-05-30 12:41+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -15,8 +15,8 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: api/v1/session.js:201:40
-msgid "New sign in"
-msgstr "Новый вход"
+msgid "New device"
+msgstr "Новое устройство"
 
 #: api/v1/session.js:203:20
 #, javascript-format
@@ -48,3 +48,6 @@ msgstr ""
 "Пользовательский агент: ${n}\n"
 "\n"
 "Если это были не вы, пожалуйста, измените свой пароль и удалите эту сессию из сессий вашей учетной записи.\n"
+
+#~ msgid "New sign in"
+#~ msgstr "Новый вход"
