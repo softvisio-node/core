@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-05-30 12:41+0300\n"
+"POT-Creation-Date: 2023-05-30 13:02+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -13,6 +13,30 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 3.3.1\n"
 "X-Poedit-SearchPath-0: .\n"
+
+#: api/v1/account.js:36:44
+msgid "Password changed"
+msgstr "Пароль изменен"
+
+#: api/v1/account.js:37:44
+msgid "Your password was just changed."
+msgstr "Ваш пароль был только что изменен."
+
+#: api/v1/account.js:82:44
+msgid "Email changed"
+msgstr "Электронная почта изменена"
+
+#: api/v1/account.js:84:24
+#, javascript-format
+msgid ""
+"Your email address was changed.\n"
+"\n"
+"New email address: ${n}\n"
+msgstr ""
+"Ваш адрес электронной почты был изменен.\n"
+"\n"
+"Новый адрес электронной почты: ${n}\n"
+"\n"
 
 #: api/v1/session.js:201:40
 msgid "New device"
