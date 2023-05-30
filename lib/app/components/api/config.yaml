@@ -3,6 +3,7 @@ dependencies:
   - dbh
   - argon2
   - users
+  - locales
   - actionTokens
   - notifications
   - monitoring
