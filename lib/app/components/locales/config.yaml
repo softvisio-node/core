@@ -3,6 +3,6 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-  locales: [en-GB] # en-US, uk, ru
+  locales: [en-GB, en-US] # uk, ru
   defaultLocale: en-GB
   currency: USD
