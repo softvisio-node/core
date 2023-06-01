@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.15.11 (2023-06-01)
+
+Fixes:
+
+-   fix: events
+-   fix: ssqitch user locale
+
 ### 7.15.10 (2023-06-01)
 
 Fixes:
