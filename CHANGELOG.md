@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.15.5 (2023-06-01)
+
+Fixes:
+
+-   fix: events hub
+-   fix: locales
+
 ### 7.15.4 (2023-05-31)
 
 Fixes:
