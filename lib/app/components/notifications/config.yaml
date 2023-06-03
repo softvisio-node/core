@@ -21,13 +21,13 @@ config:
 
   types:
     security:
-      name: Security
-      description: Various security related notifications
+      name: !i18n [Security]
+      description: !i18n [Various security related notifications]
       channels:
         push: { default: false }
     other:
-      name: Other
-      description: Other unclassified notifications
+      name: !i18n [Other]
+      description: !i18n [Other unclassified notifications]
       channels:
         push: { default: false }
 
