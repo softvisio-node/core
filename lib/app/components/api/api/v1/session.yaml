@@ -1,8 +1,8 @@
 title: Session
 
 methods:
-  check-authorization:
-    title: Check authorization
+  init-session:
+    title: Init sessions
     params:
       - name: options
         schema:
