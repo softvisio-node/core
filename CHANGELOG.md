@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.15.18 (2023-06-03)
+
+Fixes:
+
+-   fix: yaml writer
+
 ### 7.15.17 (2023-06-03)
 
 Fixes:
