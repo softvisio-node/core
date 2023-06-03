@@ -27,7 +27,7 @@ methods:
 
   authorize:
     title: Authorize session
-    permission: user
+    permission: users
     params:
       - name: credentials
         required: true
@@ -48,11 +48,11 @@ methods:
 
   sign-out:
     title: Sign out
-    permission: user
+    permission: users
 
   sign-up:
     title: Sign up
-    permission: guest
+    permission: guests
     params:
       - name: email
         required: true

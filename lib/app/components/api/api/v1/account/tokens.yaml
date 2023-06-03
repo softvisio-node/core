@@ -3,7 +3,7 @@ title: Personal access tokens
 methods:
   read:
     title: Read tokens
-    permission: user
+    permission: users
     params:
       - name: options
         schema:
@@ -19,7 +19,7 @@ methods:
 
   create:
     title: Generate new token
-    permission: user
+    permission: users
     params:
       - name: name
         required: true
@@ -28,7 +28,7 @@ methods:
 
   delete:
     title: Remove token
-    permission: user
+    permission: users
     authorizationRequired: true
     params:
       - name: token_id
@@ -39,7 +39,7 @@ methods:
 
   set-enabled:
     title: Set token enabled
-    permission: user
+    permission: users
     params:
       - name: token_id
         required: true

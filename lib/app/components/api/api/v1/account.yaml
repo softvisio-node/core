@@ -3,11 +3,11 @@ title: User account
 methods:
   get-account:
     title: Get your account data
-    permission: user
+    permission: users
 
   set-password:
     title: Set password
-    permission: user
+    permission: users
     authorizationRequired: true
     params:
       - name: password
@@ -18,7 +18,7 @@ methods:
 
   send-email-change-token:
     title: Send email change token
-    permission: user
+    permission: users
     params:
       - name: email
         required: true
@@ -26,7 +26,7 @@ methods:
 
   set-email-by-token:
     title: Set email using token
-    permission: user
+    permission: users
     authorizationRequired: true
     params:
       - name: token
@@ -35,7 +35,7 @@ methods:
 
   set-locale:
     title: Set locale
-    permission: user
+    permission: users
     params:
       - name: locale
         required: true
@@ -44,16 +44,16 @@ methods:
 
   delete:
     title: Delete account
-    permission: user
+    permission: users
     authorizationRequired: true
 
   get-sessions:
     title: Get sessions list
-    permission: user
+    permission: users
 
   sign-out-session:
     title: Sign out of session
-    permission: user
+    permission: users
     params:
       - name: session_id
         required: true
@@ -61,4 +61,4 @@ methods:
 
   sign-out-all-sessions:
     title: Sign out of all sessions
-    permission: user
+    permission: users

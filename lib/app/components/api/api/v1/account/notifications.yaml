@@ -6,11 +6,11 @@ emits:
 methods:
   get-user-notifications-profile:
     title: Get user notifications settings
-    permission: user
+    permission: users
 
   set-user-notification-channel-enabled:
     title: Set user user notification channel enabled
-    permission: user
+    permission: users
     params:
       - name: type
         required: true
@@ -28,7 +28,7 @@ methods:
 
   read:
     title: Read notifications
-    permission: user
+    permission: users
     maxParallelCallsPerClient: 5
     params:
       - name: options
@@ -42,7 +42,7 @@ methods:
 
   update:
     title: Update notification
-    permission: user
+    permission: users
     params:
       - name: options
         required: true
@@ -63,7 +63,7 @@ methods:
 
   delete:
     title: Delete notifications
-    permission: user
+    permission: users
     params:
       - name: options
         schema:
@@ -77,8 +77,8 @@ methods:
 
   get-telegram-link-url:
     title: Get URL to link telegram account
-    permission: user
+    permission: users
 
   unlink-telegram:
     title: Unlink telegram account
-    permission: user
+    permission: users
