@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-05-30 13:55+0300\n"
+"POT-Creation-Date: 2023-06-03 23:47+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -38,11 +38,11 @@ msgstr ""
 "Новый адрес электронной почты: ${n}\n"
 "\n"
 
-#: api/v1/session.js:201:40
+#: api/v1/session.js:202:40
 msgid "New device"
 msgstr "Новое устройство"
 
-#: api/v1/session.js:203:20
+#: api/v1/session.js:204:20
 #, javascript-format
 msgid ""
 "You just signed in on the new device.\n"
@@ -72,6 +72,22 @@ msgstr ""
 "Пользовательский агент: ${n}\n"
 "\n"
 "Если это были не вы, пожалуйста, измените свой пароль и удалите эту сессию из сессий вашей учетной записи.\n"
+
+#: config.yaml
+msgid "Developer"
+msgstr "Разработчик"
+
+#: config.yaml
+msgid "Project developer"
+msgstr "Разработчик проекта"
+
+#: config.yaml
+msgid "Administrator"
+msgstr "Администратор"
+
+#: config.yaml
+msgid "Project administrator"
+msgstr "Администратор проекта"
 
 #~ msgid "New sign in"
 #~ msgstr "Новый вход"

@@ -3,6 +3,14 @@ title: Session
 methods:
   check-authorization:
     title: Check authorization
+    params:
+      - name: options
+        schema:
+          type: object
+          properties:
+            locale: { type: string }
+
+          additionalProperties: false
 
   sign-in:
     title: Sign in
