@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.15.17 (2023-06-03)
+
+Fixes:
+
+-   fix: log invalid json
+
 ### 7.15.16 (2023-06-03)
 
 Fixes:
