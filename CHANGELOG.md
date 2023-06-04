@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.16.1 (2023-06-04)
+
+Fixes:
+
+-   fix: health check
+
 ### 7.16.0 (2023-06-04)
 
 Features:
