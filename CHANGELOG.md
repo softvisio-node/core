@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.16.0 (2023-06-04)
+
+Features:
+
+-   feat: yaml i18n
+
+Fixes:
+
+-   fix: localizayion
+-   fix: yaml locale
+-   fix: yaml writer
+
 ### 7.15.18 (2023-06-03)
 
 Fixes:
