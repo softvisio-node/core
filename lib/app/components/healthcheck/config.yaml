@@ -3,4 +3,4 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-  intervsl: 10 # 10 seconds
+  interval: 10 # 10 seconds

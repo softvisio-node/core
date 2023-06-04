@@ -1,6 +1,6 @@
 type: object
 properties:
-intervsl: { type: integer, minimum: 1 } # seconds
+  interval: { type: integer, minimum: 1 } # seconds
 
 additionalProperties: false
-required: [intervsl]
+required: [interval]
