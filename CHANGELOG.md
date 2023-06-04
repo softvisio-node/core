@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.16.2 (2023-06-04)
+
+Fixes:
+
+-   fix: components iterator
+-   fix: health check
+
 ### 7.16.1 (2023-06-04)
 
 Fixes:
