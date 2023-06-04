@@ -2,4 +2,5 @@ dependencies: ~
 
 optionalDependencies: ~
 
-config: ~
+config:
+  intervsl: 10 # 10 seconds
