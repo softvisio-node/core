@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.16.5 (2023-06-05)
+
+Fixes:
+
+-   fix: freeze app configs
+-   fix: health check
+-   fix: user creation
+
 ### 7.16.4 (2023-06-04)
 
 Fixes:
