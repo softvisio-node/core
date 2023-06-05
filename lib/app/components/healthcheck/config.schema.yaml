@@ -1,6 +1,7 @@
-type: object
-properties:
-  interval: { type: integer, minimum: 1 } # seconds
+- $id: config
+  type: object
+  properties:
+    interval: { type: integer, minimum: 1 } # seconds
 
-additionalProperties: false
-required: [interval]
+  additionalProperties: false
+  required: [interval]

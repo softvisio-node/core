@@ -1,8 +1,9 @@
-type: object
-properties:
-  address: { type: string, format: ip-address }
-  port: { type: number, format: ip-port }
-  exclusive: { type: boolean }
+- $id: config
+  type: object
+  properties:
+    address: { type: string, format: ip-address }
+    port: { type: number, format: ip-port }
+    exclusive: { type: boolean }
 
-additionalProperties: false
-required: [address, port, exclusive]
+  additionalProperties: false
+  required: [address, port, exclusive]

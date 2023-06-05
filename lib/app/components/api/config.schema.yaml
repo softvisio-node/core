@@ -1,127 +1,128 @@
-type: object
-properties:
-  # root user
-  root:
-    type: object
-    properties:
-      email: { type: string, format: email }
-      password: { type: ["null", string] }
+- $id: config
+  type: object
+  properties:
+    # root user
+    root:
+      type: object
+      properties:
+        email: { type: string, format: email }
+        password: { type: ["null", string] }
 
-    additionalProperties: false
-    required: [email, password]
+      additionalProperties: false
+      required: [email, password]
 
-  # frontend
-  frontendUrl: { type: string, format: uri }
-  frontend:
-    type: object
-    properties:
-      maxParallelCallsPerClient:
-        anyOf:
-          - type: "null"
-          - { type: integer, minimum: 1 }
-      maxApiRequestLength: { type: integer, minimum: 1 }
-      maxUploadFileSize: { type: integer, minimum: 1 }
-      idleTimeout: { type: integer, minimum: 0 }
-      sendPingsAutomatically: { type: boolean }
-      compress:
-        anyOf:
-          - type: "null" # use server default
-          - type: boolean
-          - { type: integer, minimum: 0 }
+    # frontend
+    frontendUrl: { type: string, format: uri }
+    frontend:
+      type: object
+      properties:
+        maxParallelCallsPerClient:
+          anyOf:
+            - type: "null"
+            - { type: integer, minimum: 1 }
+        maxApiRequestLength: { type: integer, minimum: 1 }
+        maxUploadFileSize: { type: integer, minimum: 1 }
+        idleTimeout: { type: integer, minimum: 0 }
+        sendPingsAutomatically: { type: boolean }
+        compress:
+          anyOf:
+            - type: "null" # use server default
+            - type: boolean
+            - { type: integer, minimum: 0 }
 
-    additionalProperties: false
-    required: [maxParallelCallsPerClient, maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
+      additionalProperties: false
+      required: [maxParallelCallsPerClient, maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
 
-  # users
-  passwordsStrength: { enum: [weak, normal, strong] }
-  signupEnabled: { typs: boolean }
-  newUserEnabledByDefault: { typs: boolean } # new users are enabled by default
+    # users
+    passwordsStrength: { enum: [weak, normal, strong] }
+    signupEnabled: { typs: boolean }
+    newUserEnabledByDefault: { typs: boolean } # new users are enabled by default
 
-  # tokens
-  tokensCacheMaxSize: { type: integer, minimum: 1 }
-  tokenLength: { type: integer, minimum: 6 }
+    # tokens
+    tokensCacheMaxSize: { type: integer, minimum: 1 }
+    tokenLength: { type: integer, minimum: 6 }
 
-  # sessions
-  sessionsCacheMaxSize: { type: integer, minimum: 1 }
-  sessionTokenLength: { type: integer, minimum: 6 }
-  sessionMaxAge: { type: integer, minimum: 60_000 } # ms
-  authorizedSessionMaxAge: { type: integer, minimum: 60_000 } # ms
+    # sessions
+    sessionsCacheMaxSize: { type: integer, minimum: 1 }
+    sessionTokenLength: { type: integer, minimum: 6 }
+    sessionMaxAge: { type: integer, minimum: 60_000 } # ms
+    authorizedSessionMaxAge: { type: integer, minimum: 60_000 } # ms
 
-  # oauth
-  oauth:
-    type: object
-    properties:
-      google:
-        anyOf:
-          - type: "null"
-          - type: object
-            properties:
-              clientId: { type: ["null", string] }
-              clientSecret: { type: ["null", string] }
-            additionalProperties: false
-            required: [clientId, clientSecret]
+    # oauth
+    oauth:
+      type: object
+      properties:
+        google:
+          anyOf:
+            - type: "null"
+            - type: object
+              properties:
+                clientId: { type: ["null", string] }
+                clientSecret: { type: ["null", string] }
+              additionalProperties: false
+              required: [clientId, clientSecret]
 
-      facebook:
-        anyOf:
-          - type: "null"
-          - type: object
-            properties:
-              clientId: { type: ["null", string] }
-              clientSecret: { type: ["null", string] }
-            additionalProperties: false
-            required: [clientId, clientSecret]
+        facebook:
+          anyOf:
+            - type: "null"
+            - type: object
+              properties:
+                clientId: { type: ["null", string] }
+                clientSecret: { type: ["null", string] }
+              additionalProperties: false
+              required: [clientId, clientSecret]
 
-      github:
-        anyOf:
-          - type: "null"
-          - type: object
-            properties:
-              clientId: { type: ["null", string] }
-              clientSecret: { type: ["null", string] }
-            required: [clientId, clientSecret]
-            additionalProperties: false
+        github:
+          anyOf:
+            - type: "null"
+            - type: object
+              properties:
+                clientId: { type: ["null", string] }
+                clientSecret: { type: ["null", string] }
+              required: [clientId, clientSecret]
+              additionalProperties: false
 
-    additionalProperties: false
-    required: [google, facebook, github]
+      additionalProperties: false
+      required: [google, facebook, github]
 
-  # scl
-  aclCacheMaxSize: { type: integer, minimum: 0 }
-  acl:
-    type: object
-    propertyNames: { type: string, format: kebab-case }
-    additionalProperties:
+    # scl
+    aclCacheMaxSize: { type: integer, minimum: 0 }
+    acl:
       type: object
       propertyNames: { type: string, format: kebab-case }
       additionalProperties:
         type: object
-        properties:
-          name: { type: string }
-          description: { type: string }
-          permissions: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
-        required: [name, description, permissions]
-      minProperties: 1 # at least 1 role is required
-    minProperties: 1 # at least 1 acl type is required
+        propertyNames: { type: string, format: kebab-case }
+        additionalProperties:
+          type: object
+          properties:
+            name: { type: string }
+            description: { type: string }
+            permissions: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+          required: [name, description, permissions]
+        minProperties: 1 # at least 1 role is required
+      minProperties: 1 # at least 1 acl type is required
 
-additionalProperties: false
-required:
-  - root
+  additionalProperties: false
+  required:
+    - root
 
-  - frontendUrl
-  - frontend
+    - frontendUrl
+    - frontend
 
-  - passwordsStrength
-  - signupEnabled
-  - newUserEnabledByDefault
+    - passwordsStrength
+    - signupEnabled
+    - newUserEnabledByDefault
 
-  - tokensCacheMaxSize
-  - tokenLength
+    - tokensCacheMaxSize
+    - tokenLength
 
-  - sessionsCacheMaxSize
-  - sessionTokenLength
-  - sessionMaxAge
-  - authorizedSessionMaxAge
+    - sessionsCacheMaxSize
+    - sessionTokenLength
+    - sessionMaxAge
+    - authorizedSessionMaxAge
 
-  - oauth
+    - oauth
 
-  - aclCacheMaxSize
-  - acl
+    - aclCacheMaxSize
+    - acl

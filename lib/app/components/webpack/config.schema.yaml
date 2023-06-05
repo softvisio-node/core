@@ -1,13 +1,14 @@
-type: object
-properties:
-  locations:
-    anyOf:
-      - type: "null"
-      - type: object
-        additionalProperties:
-          anyOf:
-            - type: "null"
-            - { type: string, format: uri-reference }
+- $id: config
+  type: object
+  properties:
+    locations:
+      anyOf:
+        - type: "null"
+        - type: object
+          additionalProperties:
+            anyOf:
+              - type: "null"
+              - { type: string, format: uri-reference }
 
-additionalProperties: false
-required: [locations]
+  additionalProperties: false
+  required: [locations]

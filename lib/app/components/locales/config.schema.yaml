@@ -1,8 +1,9 @@
-type: object
-properties:
-  locales: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
-  defaultLocale: { type: string }
-  currency: { type: string }
+- $id: config
+  type: object
+  properties:
+    locales: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+    defaultLocale: { type: string }
+    currency: { type: string }
 
-additionalProperties: false
-required: [locales, defaultLocale, currency]
+  additionalProperties: false
+  required: [locales, defaultLocale, currency]

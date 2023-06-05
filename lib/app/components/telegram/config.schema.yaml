@@ -1,4 +1,5 @@
-type: object
-properties: {}
-additionalProperties: false
-required: []
+- $id: config
+  type: object
+  properties: {}
+  additionalProperties: false
+  required: []

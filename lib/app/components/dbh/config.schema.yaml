@@ -1,6 +1,7 @@
-type: object
-properties:
-  uri: { type: string, format: uri-whatwg }
+- $id: config
+  type: object
+  properties:
+    uri: { type: string, format: uri-whatwg }
 
-additionalProperties: false
-required: []
+  additionalProperties: false
+  required: []

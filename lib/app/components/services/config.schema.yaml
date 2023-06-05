@@ -1,5 +1,6 @@
-type: object
-propertyNames: { type: string, format: kebab-case }
-additionalProperties:
-  type: string
-  format: uri-whatwg
+- $id: config
+  type: object
+  propertyNames: { type: string, format: kebab-case }
+  additionalProperties:
+    type: string
+    format: uri-whatwg
