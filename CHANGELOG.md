@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.16.9 (2023-06-05)
+
+Fixes:
+
+-   fix: api deps
+-   fix: components moved
+-   fix: cpmponents config
+
 ### 7.16.8 (2023-06-05)
 
 Fixes:
