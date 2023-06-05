@@ -7,10 +7,10 @@ dependencies:
   - actionTokens
   - notifications
   - monitoring
+  - healthcheck
 
 optionalDependencies:
   - cluster
-  - healthcheck
 
 config:
   # root user
