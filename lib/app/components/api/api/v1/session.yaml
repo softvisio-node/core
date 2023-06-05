@@ -9,6 +9,7 @@ methods:
           type: object
           properties:
             locale: { type: string }
+            locales: { type: array, item: { type: string }, uniqueItem: true }
 
           additionalProperties: false
 
