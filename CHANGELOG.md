@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.16.8 (2023-06-05)
+
+Fixes:
+
+-   fix: components moved
+
 ### 7.16.7 (2023-06-05)
 
 Fixes:
