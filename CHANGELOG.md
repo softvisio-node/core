@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.16.10 (2023-06-06)
+
+Fixes:
+
+-   fix: component public config validator
+
 ### 7.16.9 (2023-06-05)
 
 Fixes:
