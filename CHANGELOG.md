@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.16.11 (2023-06-06)
+
+Fixes:
+
+-   fix: app configs
+
 ### 7.16.10 (2023-06-06)
 
 Fixes:
