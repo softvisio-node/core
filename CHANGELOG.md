@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.16.13 (2023-06-06)
+
+Fixes:
+
+-   fix: locale template
+
 ### 7.16.12 (2023-06-06)
 
 Fixes:
