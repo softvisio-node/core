@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.17.0 (2023-06-07)
+
+Features:
+
+-   feat: indexed list
+
+Fixes:
+
+-   fix: publish methods renamed
+-   fix: telegram
+
 ### 7.16.13 (2023-06-06)
 
 Fixes:
