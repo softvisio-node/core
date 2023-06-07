@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.17.1 (2023-06-07)
+
+Fixes:
+
+-   fix: app services
+
 ### 7.17.0 (2023-06-07)
 
 Features:
