@@ -12,7 +12,7 @@ properties:
 
       properties:
         image: { type: string }
-        depends_on: { type: string }
+        depends_on: { type: array, items: { type: string } }
         init: { type: boolean }
         stop_grace_period: { type: string }
 
