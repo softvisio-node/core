@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.17.2 (2023-06-08)
+
+Fixes:
+
+-   fix: schema path
+
 ### 7.17.1 (2023-06-07)
 
 Fixes:
