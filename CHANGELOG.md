@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.18.0 (2023-06-08)
+
+Features:
+
+-   feat: sql.ID()
+
 ### 7.17.2 (2023-06-08)
 
 Fixes:
