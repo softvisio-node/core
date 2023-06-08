@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.18.1 (2023-06-08)
+
+Fixes:
+
+-   fix: docker schema
+
 ### 7.18.0 (2023-06-08)
 
 Features:
