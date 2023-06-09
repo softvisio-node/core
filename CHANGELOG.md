@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.18.3 (2023-06-09)
+
+Fixes:
+
+-   fix: app shutdown
+
 ### 7.18.2 (2023-06-08)
 
 Fixes:
