@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.18.4 (2023-06-09)
+
+Fixes:
+
+-   fix: ajv crom format
+-   fix: docker schema
+
 ### 7.18.3 (2023-06-09)
 
 Fixes:
