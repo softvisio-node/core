@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.18.5 (2023-06-10)
+
+Fixes:
+
+-   fix: app cli
+-   fix: threads options
+
 ### 7.18.4 (2023-06-09)
 
 Fixes:
