@@ -29,6 +29,8 @@ properties:
               minProperties: 1
               additionalProperties: { type: boolean }
 
+  defaultService: { type: ["null", string] }
+
   components:
     anyOf:
       - type: "null"
