@@ -13,6 +13,8 @@ properties:
         items: { type: string }
         uniqueItems: true
 
+  cli: { type: ["null", "object"] }
+
   services:
     anyOf:
       - type: "null"
