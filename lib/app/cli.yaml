@@ -11,7 +11,7 @@ options:
       type: string
       enum: [production, development]
 
-  reset-root:
+  reset-root-password:
     short: false
     description: Set root password from the ".env" files and exit. If root password is not defined in environment it will be randomly generated.
     default: false
