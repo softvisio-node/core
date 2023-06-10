@@ -1,0 +1,19 @@
+options:
+  service:
+    description: Application service name to run
+    schema:
+      type: string
+      format: kebab-case
+
+  mode:
+    description: 'Set application mode. Set NODE_ENV variable. Allowed values: "production", "development"'
+    schema:
+      type: string
+      enum: [production, development]
+
+  reset-root:
+    short: false
+    description: Set root password from the ".env" files and exit. If root password is not defined in environment it will be randomly generated.
+    default: false
+    schema:
+      type: boolean
