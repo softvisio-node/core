@@ -29,7 +29,7 @@ properties:
         additionalProperties:
           type: object
           properties:
-            cron: { type: string }
+            cron: { type: string, format: cron }
             timezone: { type: string }
             query:
               anyOf:
