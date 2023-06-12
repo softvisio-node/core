@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.19.1 (2023-06-12)
+
+Fixes:
+
+-   fix: abort signal
+-   fix: locale
+
 ### 7.19.0 (2023-06-12)
 
 Features:
