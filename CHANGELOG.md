@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.19.0 (2023-06-12)
+
+Features:
+
+-   feat: devel monitoring module
+-   feat: locale.formatDuration()
+
+Fixes:
+
+-   fix: events .link support EventTarget
+-   fix: sql numeric types
+
 ### 7.18.7 (2023-06-10)
 
 Fixes:
