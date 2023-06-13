@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.20.0 (2023-06-13)
+
+Features:
+
+-   feat: indezed deque
+
+Fixes:
+
+-   fix: dbh aboty controller
+-   fix: mutex arobt
+-   fix: wait supports abort signal
+
 ### 7.19.1 (2023-06-12)
 
 Fixes:
