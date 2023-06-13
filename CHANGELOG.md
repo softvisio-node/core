@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.22.1 (2023-06-13)
+
+Fixes:
+
+-   fix: app cli
+-   fix: appi upload abort
+
 ### 7.22.0 (2023-06-13)
 
 Features:
