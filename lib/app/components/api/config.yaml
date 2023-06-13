@@ -6,6 +6,7 @@ dependencies:
   - locales
   - actionTokens
   - notifications
+  - acl
   - monitoring
   - healthcheck
 
