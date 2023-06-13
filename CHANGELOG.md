@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.23.0 (2023-06-13)
+
+Features:
+
+-   feat: App.run()
+
 ### 7.22.2 (2023-06-13)
 
 Fixes:
