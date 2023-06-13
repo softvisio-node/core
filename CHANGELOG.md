@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.22.0 (2023-06-13)
+
+Features:
+
+-   feat: proxy-registry
+
 ### 7.21.0 (2023-06-13)
 
 Features:
