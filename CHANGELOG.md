@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.24.0 (2023-06-15)
+
+Features:
+
+-   feat: app acl component
+-   feat: dbh events patterns
+-   feat: glob patterns
+
+Fixes:
+
+-   fix: migrate to the new glob
+-   fix: telegram
+
 ### 7.23.1 (2023-06-13)
 
 Fixes:
