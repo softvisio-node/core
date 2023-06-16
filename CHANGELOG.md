@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.24.1 (2023-06-16)
+
+Fixes:
+
+-   fix: glob
+-   fix: migrate to the new glob
+
 ### 7.24.0 (2023-06-15)
 
 Features:
