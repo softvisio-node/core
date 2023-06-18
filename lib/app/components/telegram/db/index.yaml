@@ -11,7 +11,7 @@ emits:
 
   - telegram/telegram-user/update
 
-  - telegram/telegram-bot-user/update
+  - telegram/telegram-bot-user/*/update
 
 locks:
   - telegram/telegram-bot/create
