@@ -1,5 +1,7 @@
 - $id: config
   type: object
-  properties: {}
+  properties:
+    usersCacheMaxSize: { type: integer, minimum: 100 }
+
   additionalProperties: false
-  required: []
+  required: [usersCacheMaxSize]

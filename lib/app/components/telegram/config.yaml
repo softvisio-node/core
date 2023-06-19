@@ -7,4 +7,5 @@ dependencies:
 optionalDependencies:
   - cluster
 
-config: ~
+config:
+  usersCacheMaxSize: 10_000

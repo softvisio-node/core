@@ -1,5 +1,8 @@
 - $id: config
   type: object
-  properties: {}
+  properties:
+    locales: { type: array, items: { type: string }, uniqueItems: true }
+    usersCacheMaxSize: { type: integer, minimum: 100 }
+
   additionalProperties: false
   required: []
