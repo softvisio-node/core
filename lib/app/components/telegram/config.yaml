@@ -1,4 +1,5 @@
 dependencies:
+  - locales
   - users
   - notifications
   - actionTokens
