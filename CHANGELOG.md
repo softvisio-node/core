@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.24.7 (2023-06-19)
+
+Fixes:
+
+-   fix: glob
+-   fix: telegram
+
 ### 7.24.6 (2023-06-17)
 
 Fixes:
