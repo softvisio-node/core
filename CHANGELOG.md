@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.24.9 (2023-06-21)
+
+Fixes:
+
+-   fix: ext 7.7.0
+-   fix: telegram
+
 ### 7.24.8 (2023-06-19)
 
 Fixes:
