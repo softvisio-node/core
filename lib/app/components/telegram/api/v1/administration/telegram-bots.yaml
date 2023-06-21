@@ -12,3 +12,22 @@ methods:
               id: { type: string, format: int64, operator: "=", sortable: true }
             order_by: [["id", "asc"]]
             limit: { maxLimit: 100 }
+
+  set-bot-started:
+    title: Start / stop bot
+    permission: administration:update
+    params:
+      - name: bot_id
+        required: true
+        schema: { type: string, format: int64 }
+      - name: started
+        required: true
+        schema: { type: boolean }
+
+  delete-bot:
+    title: Delete bot
+    permission: administration:delete
+    params:
+      - name: bot_id
+        required: true
+        schema: { type: string, format: int64 }
