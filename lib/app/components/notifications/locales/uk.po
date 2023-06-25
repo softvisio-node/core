@@ -13,43 +13,30 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: config.yaml
-msgid "Security"
-msgstr "Безпека"
-
-#: config.yaml
-msgid "Various security related notifications"
-msgstr "Різні сповіщення щодо безпеки"
-
-#: config.yaml
+#: lib/app/components/notifications/config.yaml
 msgid "Other"
 msgstr "Інший"
 
-#: config.yaml
+#: lib/app/components/notifications/config.yaml
 msgid "Other unclassified notifications"
 msgstr "Інші некласифіковані повідомлення"
 
-#~ msgid "Password changed"
-#~ msgstr "Пароль змінено"
+#: lib/app/components/notifications/config.yaml
+msgid "Security"
+msgstr "Безпека"
 
-#~ msgid "Your password was just changed."
-#~ msgstr "Ваш пароль щойно змінено."
+#: lib/app/components/notifications/config.yaml
+msgid "Various security related notifications"
+msgstr "Різні сповіщення щодо безпеки"
 
 #~ msgid "Email changed"
 #~ msgstr "Електронна адреса змінена"
 
-#, javascript-format
-#~ msgid ""
-#~ "Your email address was changed.\n"
-#~ "\n"
-#~ "New email address: ${n}\n"
-#~ msgstr ""
-#~ "Вашу адресу електронної пошти було змінено.\n"
-#~ "\n"
-#~ "Нова електронна адреса: ${n}\n"
-
 #~ msgid "New device"
 #~ msgstr "Новий пристрій"
+
+#~ msgid "Password changed"
+#~ msgstr "Пароль змінено"
 
 #, javascript-format
 #~ msgid ""
@@ -80,3 +67,16 @@ msgstr "Інші некласифіковані повідомлення"
 #~ "Агент користувача: ${n}\n"
 #~ "\n"
 #~ "Якщо це були не ви, будь ласка, змініть свій пароль і видаліть цей сеанс із сеансів свого облікового запису.\n"
+
+#, javascript-format
+#~ msgid ""
+#~ "Your email address was changed.\n"
+#~ "\n"
+#~ "New email address: ${n}\n"
+#~ msgstr ""
+#~ "Вашу адресу електронної пошти було змінено.\n"
+#~ "\n"
+#~ "Нова електронна адреса: ${n}\n"
+
+#~ msgid "Your password was just changed."
+#~ msgstr "Ваш пароль щойно змінено."
