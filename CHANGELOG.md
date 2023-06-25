@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.25.1 (2023-06-25)
+
+Fixes:
+
+-   fix: package localization'
+
 ### 7.25.0 (2023-06-25)
 
 Features:
