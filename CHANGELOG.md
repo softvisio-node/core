@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.26.0 (2023-06-26)
+
+Features:
+
+-   feat: api abort call
+
+Fixes:
+
+-   fix: .pot remplates
+
 ### 7.25.1 (2023-06-25)
 
 Fixes:
