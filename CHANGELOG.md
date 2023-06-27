@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.27.1 (2023-06-27)
+
+Fixes:
+
+-   fix: api client signal
+-   fix: api upload abort
+
 ### 7.27.0 (2023-06-27)
 
 Features:
