@@ -1,0 +1,59 @@
+title: Instances monitoring
+
+methods:
+  get-methods:
+    title: Get monitored methods metrics
+    permission: development:read
+    params:
+      - name: options
+        required: true
+        schema:
+          type: object
+          properties:
+            period: { type: integer, minimum: 1, maximum: 30 }
+          additionalProperties: false
+
+  get-latest-time-series:
+    title: Get the API method time series for the last hour, grouped by 1 minute
+    permission: development:read
+    description: Statistics updated every 10 seconds. Data resolution is 1 minute.
+    params:
+      - name: monitoring_method_id
+        required: true
+        schema:
+          type: string
+          format: int64
+
+  get-historical-time-series:
+    title: Get the API method time series for the last 30 days, grouped by 24 hours
+    permission: development:read
+    description: Statistics updated every 1 minute. Data resolution is 10 minutes.
+    params:
+      - name: monitoring_method_id
+        required: true
+        schema:
+          type: string
+          format: int64
+
+  read-method-exceptions:
+    title: Read the method exceptions
+    permission: development:read
+    params:
+      - name: options
+        schema:
+          read:
+            fields:
+              monitoring_method_id: { type: string, format: int64, operator: "=", required: true }
+              date: { sortable: true }
+            order_by: [["date", "desc"]]
+            limit: { maxLimit: 100 }
+
+  clear-method-exceptions:
+    title: Clear the method exceptions
+    permission: development:delete
+    params:
+      - name: monitoring_method_id
+        required: true
+        schema:
+          type: string
+          format: int64
