@@ -1,0 +1,7 @@
+- $id: config
+  type: object
+  properties:
+    clusterId: { type: ["null", string] }
+
+  additionalProperties: false
+  required: []
