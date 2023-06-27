@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.27.0 (2023-06-27)
+
+Features:
+
+-   feat: safe-set
+
+Fixes:
+
+-   fix: abort controller refactored
+
 ### 7.26.0 (2023-06-26)
 
 Features:
