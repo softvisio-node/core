@@ -10,5 +10,6 @@ cron:
     timezone: ~
     query: |-
       DELETE FROM monitoring_instance WHERE last_activity < CURRENT_TIMESTAMP - INTERVAL '30 days';
+      DELETE FROM monitoring_instance_stats WHERE date < CURRENT_TIMESTAMP - INTERVAL '30 days';
       DELETE FROM monitoring_method_stats WHERE date < CURRENT_TIMESTAMP - INTERVAL '30 days';
       DELETE FROM monitoring_method_exception WHERE date < CURRENT_TIMESTAMP - INTERVAL '30 days';
