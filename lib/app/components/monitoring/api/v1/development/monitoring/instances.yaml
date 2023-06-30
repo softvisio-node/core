@@ -1,7 +1,7 @@
 title: Instances monitoring
 
 methods:
-  get-methods:
+  get-instances:
     title: Get monitored methods metrics
     permission: development:read
     params:
