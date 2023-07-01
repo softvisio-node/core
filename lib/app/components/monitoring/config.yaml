@@ -1,5 +1,5 @@
 dependencies:
-  - id
+  - env
 
 optionalDependencies:
   - dbh
