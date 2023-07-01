@@ -14,9 +14,8 @@ methods:
           additionalProperties: false
 
   get-latest-time-series:
-    title: Get the API method time series for the last hour, grouped by 1 minute
+    title: Get the method time series for the last hour, grouped by 1 minute
     permission: development:read
-    description: Statistics updated every 10 seconds. Data resolution is 1 minute.
     params:
       - name: monitoring_method_id
         required: true
@@ -25,9 +24,8 @@ methods:
           format: int64
 
   get-historical-time-series:
-    title: Get the API method time series for the last 30 days, grouped by 24 hours
+    title: Get the method time series for the last 30 days, grouped by 1 hours
     permission: development:read
-    description: Statistics updated every 1 minute. Data resolution is 10 minutes.
     params:
       - name: monitoring_method_id
         required: true
