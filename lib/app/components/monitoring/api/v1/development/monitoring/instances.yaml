@@ -26,26 +26,3 @@ methods:
         schema:
           type: string
           format: int64
-
-  read-method-exceptions:
-    title: Read the method exceptions
-    permission: development:read
-    params:
-      - name: options
-        schema:
-          read:
-            fields:
-              monitoring_method_id: { type: string, format: int64, operator: "=", required: true }
-              date: { sortable: true }
-            order_by: [["date", "desc"]]
-            limit: { maxLimit: 100 }
-
-  clear-method-exceptions:
-    title: Clear the method exceptions
-    permission: development:delete
-    params:
-      - name: monitoring_method_id
-        required: true
-        schema:
-          type: string
-          format: int64
