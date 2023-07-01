@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.28.0 (2023-07-01)
+
+Features:
+
+-   feat: instance monitoring
+
+Fixes:
+
+-   fix: data location
+-   fix: monitoring fs
+-   fix: sql types
+
 ### 7.27.1 (2023-06-27)
 
 Fixes:
