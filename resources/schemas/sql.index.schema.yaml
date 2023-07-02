@@ -36,7 +36,6 @@ properties:
                 - type: string
                 - { type: array, items: { type: string }, minIntems: 1 }
             runMissed: { type: boolean, default: true }
-            runAsSuperuser: { type: boolean, default: false }
 
           additionalProperties: false
           required: [cron, query]
