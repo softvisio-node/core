@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.28.3 (2023-07-03)
+
+Fixes:
+
+-   fix: dbh cron
+
 ### 7.28.2 (2023-07-02)
 
 Fixes:
