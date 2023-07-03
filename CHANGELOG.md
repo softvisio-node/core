@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.29.1 (2023-07-03)
+
+Fixes:
+
+-   fix: app start
+-   fix: http server start
+-   fix: sql cron
+
 ### 7.29.0 (2023-07-03)
 
 Features:
