@@ -5,7 +5,7 @@ patch: ~
 emits: ~
 
 cron:
-  monitoring-cleanup:
+  cleanup:
     cron: "0 1 * * *" # 01:00 everyday
     timezone: ~
     query: |-
