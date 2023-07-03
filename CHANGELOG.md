@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.29.0 (2023-07-03)
+
+Features:
+
+-   feat: cron api
+
 ### 7.28.3 (2023-07-03)
 
 Fixes:
