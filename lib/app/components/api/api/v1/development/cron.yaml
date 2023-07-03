@@ -1,0 +1,6 @@
+title: Database cron
+
+methods:
+  get-schedule:
+    title: Get database cron schedule
+    permission: development:read
