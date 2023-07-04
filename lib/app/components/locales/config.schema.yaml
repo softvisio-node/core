@@ -1,7 +1,7 @@
 - $id: config
   type: object
   properties:
-    locales: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+    locales: { type: array, items: { type: string, formal: locale }, minItems: 1, uniqueItems: true }
     currency: { type: string }
 
   additionalProperties: false

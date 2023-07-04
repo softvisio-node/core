@@ -3,5 +3,5 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-  locales: [en-GB, en-US] # uk, ru
+  locales: [en-GB, en-US] # uk-UA, ru-RU
   currency: USD

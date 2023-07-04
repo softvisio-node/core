@@ -1,7 +1,7 @@
 - $id: config
   type: object
   properties:
-    locales: { type: array, items: { type: string }, uniqueItems: true }
+    locales: { type: array, items: { type: string, format: locale }, uniqueItems: true }
     usersCacheMaxSize: { type: integer, minimum: 100 }
 
   additionalProperties: false
