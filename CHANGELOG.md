@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.30.3 (2023-07-05)
+
+Fixes:
+
+-   fix: locale language name
+
 ### 7.30.2 (2023-07-05)
 
 Fixes:
