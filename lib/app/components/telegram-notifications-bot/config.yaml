@@ -3,4 +3,5 @@ dependencies:
 
 optionalDependencies: ~
 
-config: ~
+config:
+  locales: [en-GB, en-US, ru-RU, uk-UA]
