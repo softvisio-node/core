@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.30.0 (2023-07-05)
+
+Features:
+
+-   feat: locales
+
+Fixes:
+
+-   fix: cron
+-   fix: locale
+
 ### 7.29.1 (2023-07-03)
 
 Fixes:
