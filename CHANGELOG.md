@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.30.2 (2023-07-05)
+
+Fixes:
+
+-   fix: locales
+-   fix: telegram cache
+
 ### 7.30.1 (2023-07-05)
 
 Fixes:
