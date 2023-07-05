@@ -8,11 +8,14 @@ methods:
         schema:
           type: object
           properties:
-            locale: { type: ["null", string] }
+            locale:
+              anyOf:
+                - type: "null"
+                - { type: string, format: locale }
             locales:
               anyOf:
                 - type: "null"
-                - { type: array, item: { type: string }, uniqueItem: true }
+                - { type: array, item: { type: string, format: locale }, uniqueItem: true }
 
           additionalProperties: false
 

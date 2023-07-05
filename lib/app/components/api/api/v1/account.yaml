@@ -41,6 +41,7 @@ methods:
         required: true
         schema:
           type: string
+          format: locale
 
   delete:
     title: Delete account
