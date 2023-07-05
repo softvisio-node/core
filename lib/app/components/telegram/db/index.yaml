@@ -5,7 +5,6 @@ patch: ~
 emits:
   - telegram/telegram-bot/create
   - telegram/telegram-bot/update
-  - telegram/telegram-bot/locales/update
   - telegram/telegram-bot/delete
 
   - "telegram/telegram-bot-update/*/create"
