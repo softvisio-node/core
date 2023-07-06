@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.33.0 (2023-07-06)
+
+Features:
+
+-   feat: cache sql read queries
+
+Fixes:
+
+-   fix: bench
+-   fix: linted
+
 ### 7.32.1 (2023-07-06)
 
 Fixes:
