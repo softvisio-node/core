@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.34.1 (2023-07-06)
+
+Fixes:
+
+-   fix: pgsql code
+
 ### 7.34.0 (2023-07-06)
 
 Features:
