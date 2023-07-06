@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.33.1 (2023-07-06)
+
+Fixes:
+
+-   fix: linted
+-   fix: mime types
+
 ### 7.33.0 (2023-07-06)
 
 Features:
