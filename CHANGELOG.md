@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.32.1 (2023-07-06)
+
+Fixes:
+
+-   fix: sql id
+
 ### 7.32.0 (2023-07-06)
 
 Features:
