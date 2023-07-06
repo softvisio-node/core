@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.31.0 (2023-07-06)
+
+Features:
+
+-   feat: sql primary / standby
+
+Fixes:
+
+-   fix: locales
+
 ### 7.30.3 (2023-07-05)
 
 Fixes:
