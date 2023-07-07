@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.34.2 (2023-07-07)
+
+Fixes:
+
+-   fix: dbh
+-   fix: locales
+
 ### 7.34.1 (2023-07-06)
 
 Fixes:
