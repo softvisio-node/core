@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.34.3 (2023-07-07)
+
+Fixes:
+
+-   fix: sql refactored
+-   fix: user agent prope
+
 ### 7.34.2 (2023-07-07)
 
 Fixes:
