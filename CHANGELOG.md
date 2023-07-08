@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.35.0 (2023-07-08)
+
+Features:
+
+-   feat: resources
+
+Fixes:
+
+-   fix: sql
+
 ### 7.34.7 (2023-07-07)
 
 Fixes:
