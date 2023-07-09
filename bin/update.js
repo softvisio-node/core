@@ -1,18 +1,11 @@
 #!/usr/bin/env node
 
 import Cli from "#lib/cli";
-import PublicSuffixes from "#lib/resources-core/public-suffixes";
+import externalResources from "#lib/external-resources";
 
 const CLI = {
     "title": "Update resources",
     "options": {
-        "build": {
-            "description": "build resources",
-            "default": false,
-            "schema": {
-                "type": "boolean",
-            },
-        },
         "force": {
             "description": "Force build",
             "default": false,
@@ -25,15 +18,15 @@ const CLI = {
 
 await Cli.parse( CLI );
 
-if ( process.cli.options.build ) {
-    const res = await new PublicSuffixes().build( { "force": process.cli.options.force } );
-    if ( !res.ok ) process.exit( 1 );
-}
+externalResources.add( "softvisio-node/core/data/http", import.meta.url );
+externalResources.add( "softvisio-node/core/data/public-suffixes", import.meta.url );
+externalResources.add( "softvisio-node/core/data/subnets", import.meta.url );
+externalResources.add( "softvisio-node/core/data/tld", import.meta.url );
 
-// const res = await resources.update( { "build": process.cli.options.build } );
+const res = await externalResources.update( {
+    "remote": true,
+    "force": process.cli.options.force,
+    "silent": false,
+} );
 
-// if ( !res.ok ) {
-//     console.log( `Resources update error: ` + res );
-
-//     process.exit( 3 );
-// }
+if ( !res.ok ) process.exit( 1 );
