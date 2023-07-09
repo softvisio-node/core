@@ -18,6 +18,7 @@ const CLI = {
 
 await Cli.parse( CLI );
 
+externalResources.add( "softvisio-node/core/data/geolite2-country", import.meta.url );
 externalResources.add( "softvisio-node/core/data/http", import.meta.url );
 externalResources.add( "softvisio-node/core/data/public-suffixes", import.meta.url );
 externalResources.add( "softvisio-node/core/data/subnets", import.meta.url );
