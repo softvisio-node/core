@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.36.0 (2023-07-09)
+
+Features:
+
+-   feat: resoources refactored
+
+Fixes:
+
+-   fix: default location
+-   fix: events
+
 ### 7.35.0 (2023-07-08)
 
 Features:
