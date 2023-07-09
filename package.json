@@ -27,6 +27,7 @@
         "./*": "./lib/*.js",
         "./app.yaml": "./lib/app/app.yaml",
         "./resources": "./lib/resources.js",
+        "./resources/builder": "./lib/resources/builder.js",
         "./resources/core": "./lib/resources/core.js",
         "./resources/core/*": "./lib/resources/core/*.js",
         "./resources/resource": "./resources/lib/resource.js",
