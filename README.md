@@ -4,7 +4,7 @@
 
 # Introduction
 
-Link to the datasets: [https://github.com/softvisio-node/core/releases/tag/data](https://github.com/softvisio-node/core/releases/tag/data).
+Link to the resources: [https://github.com/softvisio-node/core/releases/tag/resources](https://github.com/softvisio-node/core/releases/tag/resources).
 
 ## Install
 
