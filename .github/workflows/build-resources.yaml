@@ -10,6 +10,7 @@ jobs:
       image: ghcr.io/zerocluster/core
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        MAXMIND_LICENSE_KEY: ${{ secrets.MAXMIND_LICENSE_KEY }}
     steps:
       - run: |
           npm explore @softvisio/core -- npm run build
