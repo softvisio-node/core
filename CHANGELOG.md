@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.36.3 (2023-07-10)
+
+Fixes:
+
+-   fix: gitgub actions
+
 ### 7.36.2 (2023-07-10)
 
 Fixes:
