@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.36.4 (2023-07-10)
+
+Fixes:
+
+-   fix: app resources update
+
 ### 7.36.3 (2023-07-10)
 
 Fixes:
