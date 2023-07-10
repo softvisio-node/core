@@ -18,11 +18,11 @@ const CLI = {
 
 await Cli.parse( CLI );
 
-externalResources.add( "softvisio-node/core/data/geolite2-country", import.meta.url );
-externalResources.add( "softvisio-node/core/data/http", import.meta.url );
-externalResources.add( "softvisio-node/core/data/public-suffixes", import.meta.url );
-externalResources.add( "softvisio-node/core/data/subnets", import.meta.url );
-externalResources.add( "softvisio-node/core/data/tld", import.meta.url );
+externalResources.add( "softvisio-node/core/resources/geolite2-country", import.meta.url );
+externalResources.add( "softvisio-node/core/resources/http", import.meta.url );
+externalResources.add( "softvisio-node/core/resources/public-suffixes", import.meta.url );
+externalResources.add( "softvisio-node/core/resources/subnets", import.meta.url );
+externalResources.add( "softvisio-node/core/resources/tld", import.meta.url );
 
 const res = await externalResources.update( {
     "remote": true,
