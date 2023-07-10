@@ -12,6 +12,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - run: |
-          npx update-core --build
+          npm explore @softvisio/core -- npm run build
         shell: bash
         working-directory: /var/local/package
