@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.36.1 (2023-07-10)
+
+Fixes:
+
+-   fix: global scripts
+-   fix: resoources refactored
+
 ### 7.36.0 (2023-07-09)
 
 Features:
