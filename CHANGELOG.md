@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.36.7 (2023-07-10)
+
+Fixes:
+
+-   fix: resources meta
+
 ### 7.36.6 (2023-07-10)
 
 Fixes:
