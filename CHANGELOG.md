@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.36.8 (2023-07-11)
+
+Fixes:
+
+-   fix: resources buildes
+
 ### 7.36.7 (2023-07-10)
 
 Fixes:
