@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.36.25 (2023-07-13)
+
+Fixes:
+
+-   fix: resources location
+
 ### 7.36.24 (2023-07-13)
 
 Fixes:
