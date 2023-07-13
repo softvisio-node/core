@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.36.23 (2023-07-13)
+
+Fixes:
+
+-   fix: external resource index
+
 ### 7.36.22 (2023-07-13)
 
 Fixes:
