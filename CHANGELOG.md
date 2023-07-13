@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.36.17 (2023-07-13)
+
+Fixes:
+
+-   fix: call stack depth
+
 ### 7.36.16 (2023-07-13)
 
 Fixes:
