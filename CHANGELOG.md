@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.36.26 (2023-07-13)
+
+Fixes:
+
+-   fix: resources updater
+
 ### 7.36.25 (2023-07-13)
 
 Fixes:
