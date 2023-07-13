@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.36.19 (2023-07-13)
+
+Fixes:
+
+-   fix: install script
+
 ### 7.36.18 (2023-07-13)
 
 Fixes:
