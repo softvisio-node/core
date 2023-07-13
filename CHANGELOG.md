@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.36.20 (2023-07-13)
+
+Fixes:
+
+-   fix: engines
+-   fix: http resources
+-   fix: subnets updater
+
 ### 7.36.19 (2023-07-13)
 
 Fixes:
