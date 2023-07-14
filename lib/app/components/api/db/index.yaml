@@ -9,11 +9,7 @@ emits:
   - api/user-session/delete # user_id
   - api/user-session/update
 
-  - api/acl/delete # user_id, object_id, role
-  - api/acl/update # user_id, object_id, role
-
-locks:
-  - api/acl/sync
+locks: ~
 
 cron:
   cleanup:

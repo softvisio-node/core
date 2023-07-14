@@ -1,0 +1,16 @@
+module: acl
+type: pgsql
+patch: ~
+
+emits:
+  - acl/delete # user_id, object_id, role
+  - acl/update # user_id, object_id, role
+
+locks:
+  - acl/sync
+# cron:
+#   cleanup:
+#     cron: "0 1 * * *" # 01:00 everyday
+#     timezone: ~
+#     query: |-
+#       DELETE FROM api_session WHERE expires <= CURRENT_TIMESTAMP;
