@@ -25,7 +25,6 @@ externalResources.add( "softvisio-node/core/resources/subnets" );
 externalResources.add( "softvisio-node/core/resources/tld" );
 
 const res = await externalResources.update( {
-    "remote": true,
     "force": process.cli.options.force,
     "silent": false,
 } );
