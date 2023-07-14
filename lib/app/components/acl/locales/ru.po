@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-06-04 12:08+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Search-Path: ../**\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: lib/app/components/api/config.yaml
+msgid "Administrator"
+msgstr "Администратор"
+
+#: lib/app/components/api/config.yaml
+msgid "Developer"
+msgstr "Разработчик"
+
+#: lib/app/components/api/api/v1/account.js:82:44
+msgid "Email changed"
+msgstr "Электронная почта изменена"
+
+#: lib/app/components/api/api/v1/session.js:202:40
+msgid "New device"
+msgstr "Новое устройство"
+
+#: lib/app/components/api/api/v1/account.js:36:44
+msgid "Password changed"
+msgstr "Пароль изменен"
+
+#: lib/app/components/api/config.yaml
+msgid "Project administrator"
+msgstr "Администратор проекта"
+
+#: lib/app/components/api/config.yaml
+msgid "Project developer"
+msgstr "Разработчик проекта"
+
+#: lib/app/components/api/api/v1/session.js:204:20
+#, javascript-format
+msgid ""
+"You just signed in on the new device.\n"
+"\n"
+"IP address: ${n}\n"
+"\n"
+"Device: ${n}\n"
+"\n"
+"Platform: ${n}\n"
+"\n"
+"Browser: ${n}\n"
+"\n"
+"User agent: ${n}\n"
+"\n"
+"If it was not you, please, change your password and remove this session from your account sessions.\n"
+msgstr ""
+"Вы только что вошли в систему на новом устройстве.\n"
+"\n"
+"IP-адрес: ${n}\n"
+"\n"
+"Устройство: ${n}\n"
+"\n"
+"Платформа: ${n}\n"
+"\n"
+"Браузер: ${n}\n"
+"\n"
+"Пользовательский агент: ${n}\n"
+"\n"
+"Если это были не вы, пожалуйста, измените свой пароль и удалите эту сессию из сессий вашей учетной записи.\n"
+
+#: lib/app/components/api/api/v1/account.js:84:24
+#, javascript-format
+msgid ""
+"Your email address was changed.\n"
+"\n"
+"New email address: ${n}\n"
+msgstr ""
+"Ваш адрес электронной почты был изменен.\n"
+"\n"
+"Новый адрес электронной почты: ${n}\n"
+"\n"
+
+#: lib/app/components/api/api/v1/account.js:37:44
+msgid "Your password was just changed."
+msgstr "Ваш пароль был только что изменен."
+
+#~ msgid "New sign in"
+#~ msgstr "Новый вход"
