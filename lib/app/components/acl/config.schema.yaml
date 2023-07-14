@@ -1,6 +1,8 @@
 - $id: config
   type: object
   properties:
+    cacheMaxSize: { type: integer, minimum: 0 }
+
     acl:
       type: object
       propertyNames: { type: string, format: kebab-case }
@@ -18,4 +20,4 @@
       minProperties: 1 # at least 1 acl type is required
 
   additionalProperties: false
-  required: [acl]
+  required: [cacheMaxSize, acl]

@@ -90,8 +90,7 @@
       additionalProperties: false
       required: [google, facebook, github]
 
-    # scl
-    aclCacheMaxSize: { type: integer, minimum: 0 }
+    # acl
     acl: { type: object }
 
   additionalProperties: false
@@ -115,5 +114,4 @@
 
     - oauth
 
-    - aclCacheMaxSize
     - acl
