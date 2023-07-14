@@ -23,6 +23,7 @@
           required: [name, description, permissions]
         minProperties: 1 # at least 1 role is required
       minProperties: 1 # at least 1 acl type is required
+      required: [default] # default acl is required
 
   additionalProperties: false
   required: [cacheMaxSize, types]
