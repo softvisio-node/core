@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.36.27 (2023-07-14)
+
+Fixes:
+
+-   fix: app external resoources
+
 ### 7.36.26 (2023-07-13)
 
 Fixes:
