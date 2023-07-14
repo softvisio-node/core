@@ -13,14 +13,6 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: lib/app/components/api/config.yaml
-msgid "Administrator"
-msgstr "Администратор"
-
-#: lib/app/components/api/config.yaml
-msgid "Developer"
-msgstr "Разработчик"
-
 #: lib/app/components/api/api/v1/account.js:82:44
 msgid "Email changed"
 msgstr "Электронная почта изменена"
@@ -32,14 +24,6 @@ msgstr "Новое устройство"
 #: lib/app/components/api/api/v1/account.js:36:44
 msgid "Password changed"
 msgstr "Пароль изменен"
-
-#: lib/app/components/api/config.yaml
-msgid "Project administrator"
-msgstr "Администратор проекта"
-
-#: lib/app/components/api/config.yaml
-msgid "Project developer"
-msgstr "Разработчик проекта"
 
 #: lib/app/components/api/api/v1/session.js:204:20
 #, javascript-format
@@ -88,5 +72,17 @@ msgstr ""
 msgid "Your password was just changed."
 msgstr "Ваш пароль был только что изменен."
 
+#~ msgid "Administrator"
+#~ msgstr "Администратор"
+
+#~ msgid "Developer"
+#~ msgstr "Разработчик"
+
 #~ msgid "New sign in"
 #~ msgstr "Новый вход"
+
+#~ msgid "Project administrator"
+#~ msgstr "Администратор проекта"
+
+#~ msgid "Project developer"
+#~ msgstr "Разработчик проекта"
