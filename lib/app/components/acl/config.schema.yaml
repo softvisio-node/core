@@ -1,9 +1,7 @@
 - $id: public-config
-  anyOf:
-    - type: "null"
-    - type: object
-      properties:
-        types: false
+  type: object
+  properties:
+    types: false
 
 - $id: config
   type: object
