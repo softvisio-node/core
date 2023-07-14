@@ -7,7 +7,7 @@ optionalDependencies: ~
 config:
   cacheMaxSize: 10_000
 
-  acl:
+  types:
     default:
       developer:
         name: !i18n [Developer]

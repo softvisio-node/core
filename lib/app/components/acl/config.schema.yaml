@@ -1,14 +1,14 @@
 - $id: public-config
   type: object
   properties:
-    acl: false
+    types: false
 
 - $id: config
   type: object
   properties:
     cacheMaxSize: { type: integer, minimum: 0 }
 
-    acl:
+    types:
       type: object
       propertyNames: { type: string, format: kebab-case }
       additionalProperties:
@@ -25,4 +25,4 @@
       minProperties: 1 # at least 1 acl type is required
 
   additionalProperties: false
-  required: [cacheMaxSize, acl]
+  required: [cacheMaxSize, types]
