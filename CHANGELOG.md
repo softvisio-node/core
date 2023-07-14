@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.36.28 (2023-07-14)
+
+Fixes:
+
+-   fix: update defaults
+
 ### 7.36.27 (2023-07-14)
 
 Fixes:
