@@ -1,8 +1,3 @@
-- $id: public-config
-  type: object
-  properties:
-    acl: false
-
 - $id: config
   type: object
   properties:
@@ -90,9 +85,6 @@
       additionalProperties: false
       required: [google, facebook, github]
 
-    # acl
-    acl: { type: object }
-
   additionalProperties: false
   required:
     - root
@@ -113,5 +105,3 @@
     - authorizedSessionMaxAge
 
     - oauth
-
-    - acl

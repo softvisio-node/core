@@ -7,4 +7,17 @@ optionalDependencies: ~
 config:
   cacheMaxSize: 10_000
 
-  acl: {}
+  acl:
+    default:
+      developer:
+        name: !i18n [Developer]
+        description: !i18n [Project developer]
+        permissions:
+          - development:*
+
+      administrator:
+        name: !i18n [Administrator]
+        description: !i18n [Project administrator]
+        permissions:
+          - acl:*
+          - administration:*
