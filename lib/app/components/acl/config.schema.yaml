@@ -1,5 +1,21 @@
 - $id: config
   type: object
-  properties: {}
+  properties:
+    acl:
+      type: object
+      propertyNames: { type: string, format: kebab-case }
+      additionalProperties:
+        type: object
+        propertyNames: { type: string, format: kebab-case }
+        additionalProperties:
+          type: object
+          properties:
+            name: { type: string }
+            description: { type: string }
+            permissions: { type: array, items: { type: string }, format: kebab-case-glob-pattern, minItems: 1, uniqueItems: true }
+          required: [name, description, permissions]
+        minProperties: 1 # at least 1 role is required
+      minProperties: 1 # at least 1 acl type is required
+
   additionalProperties: false
-  required: []
+  required: [acl]

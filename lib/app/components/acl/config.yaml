@@ -1,6 +1,8 @@
 dependencies:
+  - users
   - notifications
 
 optionalDependencies: ~
 
-config: ~
+config:
+  acl: {}
