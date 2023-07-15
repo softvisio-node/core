@@ -13,18 +13,44 @@
       propertyNames: { type: string, format: kebab-case }
       additionalProperties:
         type: object
-        propertyNames: { type: string, format: kebab-case }
-        additionalProperties:
-          type: object
-          properties:
-            name: { type: string }
-            description: { type: string }
-            permissions: { type: array, items: { type: string }, format: kebab-case-glob-pattern, minItems: 1, uniqueItems: true }
+        properties:
+          roles:
+            type: object
+            propertyNames: { type: string, format: kebab-case }
+            additionalProperties:
+              type: object
+              properties:
+                name: { type: string }
+                description: { type: string }
+                permissions: { type: array, items: { type: string }, format: kebab-case-glob-pattern, minItems: 1, uniqueItems: true }
 
-          additionalProperties: false
-          required: [name, description, permissions]
+              additionalProperties: false
+              required: [name, description, permissions]
 
-        minProperties: 1 # at least 1 role is required
+            minProperties: 1 # at least 1 role is required
+
+          notifications:
+            anyOf:
+              - type: "null"
+              - type: object
+                propertyNames: { type: string }
+                additionalProperties:
+                  type: object
+                  properties:
+                    name: { type: string }
+                    description: { type: string }
+                    default: { type: boolean }
+                    editable: { type: boolean }
+                    roles:
+                      anyOf:
+                        - type: "null"
+                        - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+                  additionalProperties: false
+                  required: [name, description]
+                minProperties: 1
+
+        additionalProperties: false
+        required: [roles]
 
       minProperties: 1 # at least 1 acl type is required
       required: [default] # default acl is required
