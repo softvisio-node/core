@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.37.0 (2023-07-15)
+
+Features:
+
+-   feat: acl refactor
+
 ### 7.36.28 (2023-07-14)
 
 Fixes:
