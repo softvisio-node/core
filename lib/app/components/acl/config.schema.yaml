@@ -10,13 +10,13 @@
 
     types:
       type: object
-      propertyNames: { type: string, format: kebab-case }
+      propertyNames: { type: string }
       additionalProperties:
         type: object
         properties:
           roles:
             type: object
-            propertyNames: { type: string, format: kebab-case }
+            propertyNames: { type: string }
             additionalProperties:
               type: object
               properties:
