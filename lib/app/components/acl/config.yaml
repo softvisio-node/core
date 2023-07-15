@@ -9,15 +9,16 @@ config:
 
   types:
     default:
-      developer:
-        name: !i18n [Developer]
-        description: !i18n [Project developer]
-        permissions:
-          - development:*
+      roles:
+        developer:
+          name: !i18n [Developer]
+          description: !i18n [Project developer]
+          permissions:
+            - development:*
 
-      administrator:
-        name: !i18n [Administrator]
-        description: !i18n [Project administrator]
-        permissions:
-          - acl:*
-          - administration:*
+        administrator:
+          name: !i18n [Administrator]
+          description: !i18n [Project administrator]
+          permissions:
+            - acl:*
+            - administration:*
