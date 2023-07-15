@@ -3,6 +3,7 @@ type: pgsql
 patch: ~
 
 emits:
+  - acl/type/update
   - acl/delete # user_id, object_id, role
   - acl/update # user_id, object_id, role
 
