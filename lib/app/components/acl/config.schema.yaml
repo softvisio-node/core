@@ -20,8 +20,12 @@
             name: { type: string }
             description: { type: string }
             permissions: { type: array, items: { type: string }, format: kebab-case-glob-pattern, minItems: 1, uniqueItems: true }
+
+          additionalProperties: false
           required: [name, description, permissions]
+
         minProperties: 1 # at least 1 role is required
+
       minProperties: 1 # at least 1 acl type is required
       required: [default] # default acl is required
 
