@@ -39,12 +39,22 @@
                   properties:
                     name: { type: string }
                     description: { type: string }
-                    default: { type: boolean }
-                    editable: { type: boolean }
                     roles:
                       anyOf:
                         - type: "null"
                         - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+                    channels:
+                      type: object
+                      propertyNames: { enum: [internal, email, telegram, push] }
+                      additionalProperties:
+                        type: object
+                        properties:
+                          enabled: { type: boolean }
+                          default: { type: boolean }
+                          editable: { type: boolean }
+
+                        additionalProperties: false
+
                   additionalProperties: false
                   required: [name, description]
                 minProperties: 1
