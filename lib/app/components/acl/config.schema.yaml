@@ -27,7 +27,7 @@
               additionalProperties: false
               required: [name, description, permissions]
 
-            minProperties: 1 # at least 1 role is required
+            required: [developer, administrator]
 
           notifications:
             anyOf:
@@ -62,7 +62,6 @@
         additionalProperties: false
         required: [roles]
 
-      minProperties: 1 # at least 1 acl type is required
       required: [default] # default acl is required
 
   additionalProperties: false
