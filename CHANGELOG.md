@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.37.2 (2023-07-16)
+
+Fixes:
+
+-   fix: acl
+-   fix: npm files
+
 ### 7.37.1 (2023-07-15)
 
 Fixes:
