@@ -67,6 +67,12 @@
     "bin": {
         "nenv": "bin/nenv.js"
     },
+    "files": [
+        "/bin",
+        "/lib",
+        "/resources",
+        "/src"
+    ],
     "scripts": {
         "build": "node bin/build.js",
         "install": "node bin/install.js"
