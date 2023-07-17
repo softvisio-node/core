@@ -27,8 +27,6 @@
               additionalProperties: false
               required: [name, description, permissions]
 
-            # XXX
-            # required: [developer, administrator]
             minProperties: 1
 
           notifications:
