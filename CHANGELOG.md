@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.38.0 (2023-07-18)
+
+Features:
+
+-   feat: acl notifications
+
+Fixes:
+
+-   fix: ansi
+-   fix: resource name builder
+
 ### 7.37.4 (2023-07-16)
 
 Fixes:
