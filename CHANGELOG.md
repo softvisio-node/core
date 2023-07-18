@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.38.1 (2023-07-18)
+
+Fixes:
+
+-   fix: typo
+
 ### 7.38.0 (2023-07-18)
 
 Features:
