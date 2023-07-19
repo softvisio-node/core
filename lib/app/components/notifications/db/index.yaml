@@ -1,0 +1,9 @@
+module: notifications
+type: pgsql
+patch: ~
+
+emits: ~
+
+locks: ~
+
+cron: ~
