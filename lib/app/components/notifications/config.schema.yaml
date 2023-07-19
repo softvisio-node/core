@@ -81,4 +81,13 @@
           additionalProperties: false
 
   additionalProperties: false
-  required: [internalNotificationsEnabled, emailNotificationsEnabled, telegramNotificationsEnabled, pushNotificationsEnabled, internalNotificationsMaxAge, smtp, telegramBot, types, firebase]
+  required:
+    - internalNotificationsEnabled
+    - emailNotificationsEnabled
+    - telegramNotificationsEnabled
+    - pushNotificationsEnabled
+    - internalNotificationsMaxAge
+    - smtp
+    - telegramBot
+    - types
+    - firebase
