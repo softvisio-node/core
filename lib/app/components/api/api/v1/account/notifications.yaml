@@ -8,7 +8,7 @@ methods:
     title: Get user notifications settings
     permission: users
 
-  set-user-notification-channel-acrive:
+  set-user-notification-channel-active:
     title: Set user notification channel active
     permission: users
     params:
