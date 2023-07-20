@@ -6,10 +6,11 @@ optionalDependencies:
   - cluster
 
 config:
-  internalNotificationsEnabled: true
-  emailNotificationsEnabled: true
-  telegramNotificationsEnabled: true
-  pushNotificationsEnabled: true
+  channels:
+    internal: true
+    email: true
+    telegram: true
+    push: true
 
   internalNotificationsMaxAge: 2592000 # seconts, 30 days
 

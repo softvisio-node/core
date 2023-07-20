@@ -6,10 +6,11 @@
 - $id: config
   type: object
   properties:
-    internalNotificationsEnabled: { type: boolean }
-    emailNotificationsEnabled: { type: boolean }
-    telegramNotificationsEnabled: { type: boolean }
-    pushNotificationsEnabled: { type: boolean }
+    channels:
+      type: object
+      propertyNames: { enum: [internal, email, telegram, push] }
+      additionalProperties:
+        type: boolean
 
     internalNotificationsMaxAge: { type: integer, minimum: 1 }
 
@@ -82,10 +83,7 @@
 
   additionalProperties: false
   required:
-    - internalNotificationsEnabled
-    - emailNotificationsEnabled
-    - telegramNotificationsEnabled
-    - pushNotificationsEnabled
+    - channels
     - internalNotificationsMaxAge
     - smtp
     - telegramBot
