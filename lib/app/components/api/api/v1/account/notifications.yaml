@@ -8,11 +8,11 @@ methods:
     title: Get user notifications settings
     permission: users
 
-  set-user-notification-channel-enabled:
-    title: Set user user notification channel enabled
+  set-user-notification-channel-acrive:
+    title: Set user user notification channel active
     permission: users
     params:
-      - name: type
+      - name: notification
         required: true
         schema:
           type: string
@@ -21,7 +21,7 @@ methods:
         schema:
           type: string
           enum: [internal, email, telegram, push]
-      - name: enabled
+      - name: active
         required: true
         schema:
           type: boolean
