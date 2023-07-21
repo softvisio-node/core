@@ -35,7 +35,7 @@ methods:
             channel: { enum: [internal, email, telegram, push] }
             subscribed: { type: boolean }
           additionalProperties: false
-          required: [notification, subscribed]
+          required: [subscribed]
 
   read:
     title: Read notifications
