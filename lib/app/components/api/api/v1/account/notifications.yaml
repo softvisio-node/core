@@ -12,7 +12,10 @@ methods:
         schema:
           type: object
           properties:
-            acl_id: { type: string, format: int64 }
+            acl_id:
+              anyOf:
+                - type: "null"
+                - { type: string, format: int64 }
           additionalProperties: false
 
   set-user-notification-active:
@@ -24,7 +27,10 @@ methods:
         schema:
           type: object
           properties:
-            acl_id: { type: string, format: int64 }
+            acl_id:
+              anyOf:
+                - type: "null"
+                - { type: string, format: int64 }
             notification: { type: string }
             channel: { enum: [internal, email, telegram, push] }
             active: { type: boolean }
