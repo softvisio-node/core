@@ -44,7 +44,7 @@
                   properties:
                     enabled: { type: boolean }
                     editable: { type: boolean }
-                    active: { type: boolean }
+                    subscribed: { type: boolean }
 
                   additionalProperties: false
 
