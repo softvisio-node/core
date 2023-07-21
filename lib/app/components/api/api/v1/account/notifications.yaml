@@ -7,6 +7,13 @@ methods:
   get-user-notifications-profile:
     title: Get user notifications settings
     permission: users
+    params:
+      - name: options
+        schema:
+          type: object
+          properties:
+            acl_id: { type: string, format: int64 }
+          additionalProperties: false
 
   set-user-notification-channel-active:
     title: Set user notification channel active
