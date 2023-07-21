@@ -18,8 +18,8 @@ methods:
                 - { type: string, format: int64 }
           additionalProperties: false
 
-  set-user-notification-active:
-    title: Set user notification channel active
+  set-user-notification-subscribed:
+    title: Set user notification channel subscribed
     permission: users
     params:
       - name: options
@@ -33,9 +33,9 @@ methods:
                 - { type: string, format: int64 }
             notification: { type: string }
             channel: { enum: [internal, email, telegram, push] }
-            active: { type: boolean }
+            subscribed: { type: boolean }
           additionalProperties: false
-          required: [notification, active]
+          required: [notification, subscribed]
 
   read:
     title: Read notifications
