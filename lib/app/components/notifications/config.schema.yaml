@@ -10,7 +10,14 @@
       type: object
       propertyNames: { enum: [internal, email, telegram, push] }
       additionalProperties:
-        type: boolean
+        type: object
+        properties:
+          enabled: { type: boolean }
+          editable: { type: boolean }
+          subscribed: { type: boolean }
+        additionalProperties: false
+        required: [enabled, editable, subscribed]
+      required: [internal, email, telegram, push]
 
     internalNotificationsMaxAge: { type: integer, minimum: 1 }
 

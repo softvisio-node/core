@@ -7,10 +7,10 @@ optionalDependencies:
 
 config:
   channels:
-    internal: true
-    email: true
-    telegram: true
-    push: true
+    internal: { enabled: true, editable: true, subscribed: true }
+    email: { enabled: true, editable: true, subscribed: true }
+    telegram: { enabled: true, editable: true, subscribed: true }
+    push: { enabled: true, editable: true, subscribed: true }
 
   internalNotificationsMaxAge: 2592000 # seconts, 30 days
 
@@ -25,7 +25,10 @@ config:
       name: !i18n [Security]
       description: !i18n [Various security related notifications]
       channels:
-        push: { subscribed: false }
+        internal: { editable: false }
+        email: { editable: false }
+        telegram: { editable: true, subscribed: false }
+        push: { editable: false, subscribed: false }
     other:
       name: !i18n [Other]
       description: !i18n [Other unclassified notifications]
