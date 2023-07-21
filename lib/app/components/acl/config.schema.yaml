@@ -50,7 +50,7 @@
                         type: object
                         properties:
                           enabled: { type: boolean }
-                          default: { type: boolean }
+                          active: { type: boolean }
                           editable: { type: boolean }
 
                         additionalProperties: false

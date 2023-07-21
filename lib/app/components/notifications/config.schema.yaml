@@ -43,8 +43,8 @@
                   type: object
                   properties:
                     enabled: { type: boolean }
-                    default: { type: boolean }
                     editable: { type: boolean }
+                    active: { type: boolean }
 
                   additionalProperties: false
 
