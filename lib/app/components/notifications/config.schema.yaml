@@ -8,7 +8,7 @@
   properties:
     channels:
       type: object
-      propertyNames: { enum: [internal, email, telegram, push] }
+      propertyNames: { type: string }
       additionalProperties:
         type: object
         properties:
