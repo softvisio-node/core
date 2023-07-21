@@ -15,36 +15,21 @@ methods:
             acl_id: { type: string, format: int64 }
           additionalProperties: false
 
-  set-user-notification-channel-active:
+  set-user-notification-active:
     title: Set user notification channel active
     permission: users
     params:
-      - name: notification
+      - name: options
         required: true
         schema:
-          type: string
-      - name: channel
-        required: true
-        schema:
-          type: string
-          enum: [internal, email, telegram, push]
-      - name: active
-        required: true
-        schema:
-          type: boolean
-
-  set-user-notification-acrive:
-    title: Set user notification active
-    permission: users
-    params:
-      - name: notification
-        required: true
-        schema:
-          type: string
-      - name: active
-        required: true
-        schema:
-          type: boolean
+          type: object
+          properties:
+            acl_id: { type: string, format: int64 }
+            notification: { type: string }
+            channel: { enum: [internal, email, telegram, push] }
+            active: { type: boolean }
+          additionalProperties: false
+          required: [notification, active]
 
   read:
     title: Read notifications
