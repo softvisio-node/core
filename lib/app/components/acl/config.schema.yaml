@@ -50,7 +50,7 @@
                         type: object
                         properties:
                           enabled: { type: boolean }
-                          active: { type: boolean }
+                          subscribed: { type: boolean }
                           editable: { type: boolean }
 
                         additionalProperties: false
