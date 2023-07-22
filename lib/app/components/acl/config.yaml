@@ -11,14 +11,14 @@ config:
     default:
       roles:
         developer:
-          name: !i18n [Developer]
-          description: !i18n [Project developer]
+          name: !l10n [Developer]
+          description: !l10n [Project developer]
           permissions:
             - development:*
 
         administrator:
-          name: !i18n [Administrator]
-          description: !i18n [Project administrator]
+          name: !l10n [Administrator]
+          description: !l10n [Project administrator]
           permissions:
             - acl:*
             - administration:*

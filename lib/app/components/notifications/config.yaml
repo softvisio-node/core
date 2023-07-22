@@ -22,8 +22,8 @@ config:
 
   types:
     security:
-      name: !i18n [Security]
-      description: !i18n [Various security related notifications]
+      name: !l10n [Security]
+      description: !l10n [Various security related notifications]
       channels:
         push: { editable: false }
 
