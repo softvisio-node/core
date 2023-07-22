@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.39.0 (2023-07-22)
+
+Features:
+
+-   feat: acl notifications
+
 ### 7.38.1 (2023-07-18)
 
 Fixes:
