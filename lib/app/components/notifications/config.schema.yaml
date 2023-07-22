@@ -37,7 +37,6 @@
         - type: "null"
         - type: object
           propertyNames: { type: string, format: kebab-case }
-          minProperties: 1
           additionalProperties:
             type: object
             properties:
@@ -57,6 +56,8 @@
 
             additionalProperties: false
             required: [name, description]
+
+          required: [security]
 
     firebase:
       anyOf:

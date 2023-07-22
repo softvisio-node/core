@@ -26,10 +26,5 @@ config:
       description: !i18n [Various security related notifications]
       channels:
         push: { editable: false }
-    other:
-      name: !i18n [Other]
-      description: !i18n [Other unclassified notifications]
-      channels:
-        push: { editable: false }
 
   firebase: ~
