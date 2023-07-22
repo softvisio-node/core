@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.39.1 (2023-07-22)
+
+Fixes:
+
+-   fix: notifications profile
+
 ### 7.39.0 (2023-07-22)
 
 Features:
