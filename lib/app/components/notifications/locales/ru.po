@@ -14,14 +14,6 @@ msgstr ""
 "X-Generator: Poedit 3.3.1\n"
 
 #: lib/app/components/notifications/config.yaml
-msgid "Other"
-msgstr "Другие"
-
-#: lib/app/components/notifications/config.yaml
-msgid "Other unclassified notifications"
-msgstr "Другие неклассифицированные уведомления"
-
-#: lib/app/components/notifications/config.yaml
 msgid "Security"
 msgstr "Безопасность"
 
@@ -37,6 +29,12 @@ msgstr "Различные уведомления, связанные с без�
 
 #~ msgid "New sign in"
 #~ msgstr "Новый вход"
+
+#~ msgid "Other"
+#~ msgstr "Другие"
+
+#~ msgid "Other unclassified notifications"
+#~ msgstr "Другие неклассифицированные уведомления"
 
 #~ msgid "Password changed"
 #~ msgstr "Пароль изменен"
