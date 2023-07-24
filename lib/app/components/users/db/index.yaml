@@ -6,7 +6,7 @@ emits:
   - users/user/delete # user_id
   - users/user/update
   - users/user-password-hash/update
-  - users/user-notifications-profile/update
+  - users/user-notification/update
 
 locks: ~
 
