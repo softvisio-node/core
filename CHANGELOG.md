@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.40.1 (2023-07-24)
+
+Fixes:
+
+-   fix: notifications
+-   fix: notifications users
+-   fix: sql query
+-   fix: sql query error
+-   fix: sql query options
+
 ### 7.40.0 (2023-07-22)
 
 Features:
