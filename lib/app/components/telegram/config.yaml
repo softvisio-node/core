@@ -10,3 +10,5 @@ optionalDependencies:
 
 config:
   usersCacheMaxSize: 10_000
+  runUpdater: true
+  runProcessor: true
