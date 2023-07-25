@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.40.2 (2023-07-25)
+
+Fixes:
+
+-   fix: component instance
+-   fix: devel call stack to string
+-   fix: telegram config
+
 ### 7.40.1 (2023-07-24)
 
 Fixes:
