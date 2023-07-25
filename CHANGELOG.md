@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.40.4 (2023-07-25)
+
+Fixes:
+
+-   fix: app config
+
 ### 7.40.3 (2023-07-25)
 
 Fixes:
