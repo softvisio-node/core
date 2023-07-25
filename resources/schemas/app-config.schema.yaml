@@ -25,9 +25,19 @@ properties:
           anyOf:
             - type: "null"
             - type: object
-              propertyNames: { type: string, format: camel-case-strict }
+              propertiea:
+                components:
+                  anyOf:
+                    - type: "null"
+                    - type: object
+                      propertyNames: { type: string, format: camel-case-strict }
+                      minProperties: 1
+                      additionalProperties: { type: [boolean, object] }
+
+                config: { type: ["null", pbject] }
+
               minProperties: 1
-              additionalProperties: { type: boolean }
+              additionalProperties: false
 
   defaultService: { type: ["null", string] }
 
