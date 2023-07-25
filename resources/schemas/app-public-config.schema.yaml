@@ -34,7 +34,7 @@ properties:
         additionalProperties:
           type: ["null", object]
 
-  config: { type: [null, object] }
+  config: { type: ["null", object] }
 
 additionalProperties: false
 required: []
