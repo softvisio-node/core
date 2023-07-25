@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.40.3 (2023-07-25)
+
+Fixes:
+
+-   fix: git upstream file url
+
 ### 7.40.2 (2023-07-25)
 
 Fixes:
