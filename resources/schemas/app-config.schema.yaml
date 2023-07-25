@@ -25,7 +25,7 @@ properties:
           anyOf:
             - type: "null"
             - type: object
-              propertiea:
+              properties:
                 components:
                   anyOf:
                     - type: "null"
@@ -34,7 +34,7 @@ properties:
                       minProperties: 1
                       additionalProperties: { type: [boolean, object] }
 
-                config: { type: ["null", pbject] }
+                config: { type: object }
 
               minProperties: 1
               additionalProperties: false
