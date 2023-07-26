@@ -1,0 +1,80 @@
+- $id: public-config
+  type: object
+  properties: {}
+
+- $id: config
+  type: object
+  properties:
+    postgresVersion: { type: integer, minimum: 15 }
+    postgresClusterName: { type: string }
+    dataRoot: { type: ["null", string] }
+
+    access:
+      type: array
+      items:
+        type: object
+        properties:
+          host: { enum: [local, host, hostssl, hostnossl, hostgssenc, hostnogssenc] }
+
+          database: { type: string }
+
+          user: { type: string }
+
+          address: { type: ["null", string] }
+
+          auth-method: { enum: [trust, reject, scram-sha-256, md5, password, gss, sspi, ident, peer, ldap, radius, cert, pam, bsd] }
+
+          auth-options: { type: ["null", string] }
+
+        additionalProperties: false
+        required: [host, database, user, address, auth-method, auth-options]
+
+    backup:
+      type: object
+      properties:
+        cron:
+          anyOf:
+            - type: "null"
+            - { type: string, format: cron }
+        numnerOfBackups: { type: integer, minimum: 0 }
+        backupOn: { enum: [primary, backup] }
+      additionalProperties: false
+      required: [cron, numnerOfBackups, backupOn]
+
+    replication:
+      type: object
+      properties:
+        port: { type: string, format: ip-port }
+        username: { type: string }
+        password: { type: string }
+
+        primary:
+          type: object
+          properties:
+            hostname: { type: string }
+          additionalProperties: false
+          required: [hostname]
+
+        sync:
+          type: object
+          properties:
+            hostname: { type: string }
+            numberOfStandbys: { type: integer, minimum: 0 }
+          additionalProperties: false
+          required: [hostname, numberOfStandbys]
+
+        async:
+          type: object
+          properties:
+            replicateFrom: { enum: [primary, sync] }
+          additionalProperties: false
+          required: [replicateFrom]
+
+      additionalProperties: false
+      required: [port, username, password]
+
+    settings:
+      type: ["null", object]
+
+  additionalProperties: false
+  required: [postgresVersion, postgresClusterName, dataRoot, access]
