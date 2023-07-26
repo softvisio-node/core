@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.41.3 (2023-07-26)
+
+Fixes:
+
+-   fix: sql types exports
+
 ### 7.41.2 (2023-07-26)
 
 Fixes:
