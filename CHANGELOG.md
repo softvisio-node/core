@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.40.5 (2023-07-26)
+
+Fixes:
+
+-   fix: glob patterns
+
 ### 7.40.4 (2023-07-25)
 
 Fixes:
