@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.41.2 (2023-07-26)
+
+Fixes:
+
+-   fix: postgresql nameing
+
 ### 7.41.1 (2023-07-26)
 
 Fixes:
