@@ -4,8 +4,8 @@ properties:
 
   type:
     anyOf:
-      - { type: string, enum: [pgsql, sqlite] }
-      - { type: array, items: { type: string, enum: [pgsql, sqlite] }, minItems: 1, uniqueItems: true }
+      - { type: string, enum: [postgresql, sqlite] }
+      - { type: array, items: { type: string, enum: [postgresql, sqlite] }, minItems: 1, uniqueItems: true }
 
   patch:
     anyOf:

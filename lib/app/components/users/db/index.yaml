@@ -1,5 +1,5 @@
 module: users
-type: pgsql
+type: postgresql
 patch: ~
 
 emits:

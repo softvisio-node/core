@@ -1,5 +1,5 @@
 module: notifications
-type: pgsql
+type: postgresql
 patch: ~
 
 emits: ~

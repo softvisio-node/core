@@ -1,5 +1,5 @@
 module: action-tokens
-type: pgsql
+type: postgresql
 patch: ~
 
 emits: ~

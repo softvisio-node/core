@@ -1,5 +1,5 @@
 module: api
-type: pgsql
+type: postgresql
 patch: ~
 
 emits:
