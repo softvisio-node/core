@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.41.8 (2023-07-27)
+
+Fixes:
+
+-   fix: wait for postgres ready
+
 ### 7.41.7 (2023-07-27)
 
 Fixes:
