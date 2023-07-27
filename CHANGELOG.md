@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.41.5 (2023-07-27)
+
+Fixes:
+
+-   fix: git+http upstream utl removed
+
 ### 7.41.4 (2023-07-27)
 
 Fixes:
