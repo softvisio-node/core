@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.41.10 (2023-07-27)
+
+Fixes:
+
+-   fix: postgres cli
+
 ### 7.41.9 (2023-07-27)
 
 Fixes:
