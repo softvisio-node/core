@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.41.12 (2023-07-27)
+
+Fixes:
+
+-   fix: user agnt update
+
 ### 7.41.11 (2023-07-27)
 
 Fixes:
