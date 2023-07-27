@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.41.6 (2023-07-27)
+
+Fixes:
+
+-   fix: docs
+-   fix: postgresql url
+
 ### 7.41.5 (2023-07-27)
 
 Fixes:
