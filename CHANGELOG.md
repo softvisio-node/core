@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.41.11 (2023-07-27)
+
+Fixes:
+
+-   fix: app exit code
+
 ### 7.41.10 (2023-07-27)
 
 Fixes:
