@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.41.4 (2023-07-27)
+
+Fixes:
+
+-   fix: git upstream
+-   fix: repo url
+
 ### 7.41.3 (2023-07-26)
 
 Fixes:
