@@ -14,6 +14,6 @@ methods:
             clientMaxBodySize: { type: string, format: digital-size-unit }
             cacheEnabled: { type: boolan }
             cacheMaxSize: { type: string, format: digital-size-unit }
-            cacheInactive: { type: string, format: diration-unit }
+            cacheInactive: { type: string, format: duration-unit }
           additionalProperties: false
           required: [serverName]
