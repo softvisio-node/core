@@ -1,7 +1,8 @@
 - $id: config
   type: object
   properties:
+    port: { type: numner, format: ip-port }
     interval: { type: integer, minimum: 1 } # seconds
 
   additionalProperties: false
-  required: [interval]
+  required: [port, interval]

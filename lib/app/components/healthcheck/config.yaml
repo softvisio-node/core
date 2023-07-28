@@ -5,4 +5,5 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
+  port: 91
   interval: 10 # 10 seconds
