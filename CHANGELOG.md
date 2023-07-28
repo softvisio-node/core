@@ -1,5 +1,20 @@
 # Changelog
 
+### 7.42.0 (2023-07-28)
+
+Features:
+
+-   feat: app global components
+
+Fixes:
+
+-   fix: afterInit hook
+-   fix: app init dbh
+-   fix: docker build refactored
+-   fix: healthcheck refactored
+-   fix: http unix socket support
+-   fix: postgres check ready
+
 ### 7.41.12 (2023-07-27)
 
 Fixes:
