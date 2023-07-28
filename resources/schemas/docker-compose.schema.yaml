@@ -4,6 +4,7 @@ type: object
 
 properties:
   version: { const: "3.9" }
+  name: { type: string }
 
   services:
     type: object
@@ -108,10 +109,13 @@ properties:
                 additionalProperties: false
 
         build:
-          type: object
-          properties:
-            context: { type: string }
-          additionalProperties: false
+          anyOf:
+            - type: string
+            - type: object
+              properties:
+                context: { type: string }
+                dockerfile: { type: string }
+              additionalProperties: false
 
       required: [image]
       additionalProperties: false
