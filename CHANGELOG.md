@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.42.1 (2023-07-28)
+
+Fixes:
+
+-   fix: app required component
+-   fix: health check
+
 ### 7.42.0 (2023-07-28)
 
 Features:
