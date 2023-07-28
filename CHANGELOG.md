@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.42.6 (2023-07-28)
+
+Fixes:
+
+-   fix: ockerfile mime
+
 ### 7.42.5 (2023-07-28)
 
 Fixes:
