@@ -1,4 +1,5 @@
-# https://docs.docker.com/compose/compose-file/compose-file-v3/
+# NOTE https://docs.docker.com/compose/compose-file/compose-file-v3/
+# NOTE https://docs.docker.com/compose/compose-file/build/
 
 type: object
 
