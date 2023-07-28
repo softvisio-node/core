@@ -10,10 +10,10 @@ methods:
         schema:
           type: object
           properties:
-            server_name: { type: array, items: { type: string }, minItems: 1, uniqueItemd: true }
-            client_max_body_size: { type: string }
-            cache_enabled: { type: boolan }
-            cache_max_size: { type: string }
-            cache_inactive: { type: string }
+            serverName: { type: array, items: { type: string }, minItems: 1, uniqueItemd: true }
+            clientMaxBodySize: { type: string }
+            cacheEnabled: { type: boolan }
+            cacheMaxSize: { type: string }
+            cacheInactive: { type: string }
           additionalProperties: false
-          required: []
+          required: [serverName]
