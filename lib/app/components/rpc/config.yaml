@@ -1,7 +1,6 @@
 dependencies:
   - privateHttpServer
   - monitoring
-  - healthcheck
 
 optionalDependencies:
   - cluster
