@@ -11,9 +11,9 @@ methods:
           type: object
           properties:
             serverName: { type: array, items: { type: string }, minItems: 1, uniqueItemd: true }
-            clientMaxBodySize: { type: string }
+            clientMaxBodySize: { type: string, format: digital-size-unit }
             cacheEnabled: { type: boolan }
-            cacheMaxSize: { type: string }
-            cacheInactive: { type: string }
+            cacheMaxSize: { type: string, format: digital-size-unit }
+            cacheInactive: { type: string, format: diration-unit }
           additionalProperties: false
           required: [serverName]

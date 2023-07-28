@@ -5,5 +5,20 @@
     port: { type: number, format: ip-port }
     exclusive: { type: boolean }
 
+    nginx:
+      type: object
+      properties:
+        apiUrl: { type: string, format: url-whatwg }
+        serverName:
+          anyOf:
+            - type: "null"
+            - { type: array, items: { type: string }, minItems: 1, uniqueItemd: true }
+        clientMaxBodySize: { type: string, format: digital-size-unit }
+        cacheEnabled: { type: boolan }
+        cacheMaxSize: { type: string, format: digital-size-unit }
+        cacheInactive: { type: string, format: diration-unit }
+      additionalProperties: false
+      required: []
+
   additionalProperties: false
   required: [address, port, exclusive]
