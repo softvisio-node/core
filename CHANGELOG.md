@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.43.0 (2023-07-29)
+
+Features:
+
+-   feat: nginx component
+
+Fixes:
+
+-   fix: docker build
+-   fix: ports
+
 ### 7.42.6 (2023-07-28)
 
 Fixes:
