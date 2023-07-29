@@ -10,10 +10,11 @@ config:
 
   nginx:
     apiUrl: ws://nginx/api
-    serverName: ~
-    clientMaxBodySize: 10m
-    cacheEnabled: true
-    cacheMaxSize: 10g
-    cacheInactive: 1w
-    cacheStatus: false
-    proxyCacheBypass: false
+    config:
+      serverName: ~
+      clientMaxBodySize: 10m
+      proxyCacheBypass: false
+      cacheEnabled: true
+      cacheMaxSize: 10g
+      cacheInactive: 1w
+      cacheStatus: false
