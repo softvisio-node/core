@@ -15,3 +15,5 @@ config:
     cacheEnabled: true
     cacheMaxSize: 10g
     cacheInactive: 1w
+    cacheStatus: false
+    proxyCacheBypass: false

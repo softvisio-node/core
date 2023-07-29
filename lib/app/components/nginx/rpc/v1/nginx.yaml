@@ -15,5 +15,7 @@ methods:
             cacheEnabled: { type: boolean }
             cacheMaxSize: { type: string, format: digital-size-unit }
             cacheInactive: { type: string, format: duration-unit }
+            cacheStatus: { type: boolean }
+            proxyCacheBypass: { type: boolean }
           additionalProperties: false
           required: [serverName]
