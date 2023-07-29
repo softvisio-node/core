@@ -4,5 +4,5 @@ dependencies:
 optionalDependencies: ~
 
 config:
-  httpPort: 80
+  httpPort: 8080
   listenIpFamily: 4
