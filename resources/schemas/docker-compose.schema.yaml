@@ -146,12 +146,5 @@ properties:
         name: { type: string }
       required: [name]
 
-  x-build:
-    type: object
-    properties:
-      default_tag: { type: string }
-      auto_tags: { type: array, items: { type: string }, uniqueItems: true }
-    additionalProperties: false
-
 required: [version, services]
 additionalProperties: false
