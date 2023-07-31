@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.43.4 (2023-07-31)
+
+Fixes:
+
+-   fix: docker options
+-   fix: glob patterns
+
 ### 7.43.3 (2023-07-31)
 
 Fixes:
