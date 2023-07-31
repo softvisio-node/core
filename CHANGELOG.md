@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.43.2 (2023-07-31)
+
+Fixes:
+
+-   fix: glob ignore files
+
 ### 7.43.1 (2023-07-31)
 
 Fixes:
