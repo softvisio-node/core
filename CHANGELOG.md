@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.43.1 (2023-07-31)
+
+Fixes:
+
+-   fix: .dockerignore
+-   fix: app schema
+-   fix: docker build
+-   fix: docker engine
+-   fix: focker build
+-   fix: glob ignore files
+
 ### 7.43.0 (2023-07-29)
 
 Features:
