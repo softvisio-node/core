@@ -3,6 +3,15 @@
   properties:
     httpPort: { type: number, format: ip-port }
     listenIpFamily: { enum: [0, 4, 6] }
+    cache:
+      type: object
+      properties:
+        enabled: { type: boolean }
+        maxSize: { type: string, format: digital-size-unit }
+        inactive: { type: string, format: duration-unit }
+
+      additionalProperties: false
+      required: []
 
   additionalProperties: false
   required: [httpPort, listenIpFamily]

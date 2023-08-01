@@ -6,3 +6,7 @@ optionalDependencies: ~
 config:
   httpPort: 80
   listenIpFamily: 4
+  cache:
+    enabled: true
+    maxSize: 100g
+    inactive: 1w
