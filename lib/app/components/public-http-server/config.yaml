@@ -7,14 +7,3 @@ config:
   address: 0.0.0.0
   port: 80
   exclusive: true
-
-  nginx:
-    apiUrl: ws://nginx/api
-    config:
-      serverName: ~
-      clientMaxBodySize: 10m
-      proxyCacheBypass: false
-      cacheEnabled: true
-      cacheMaxSize: 10g
-      cacheInactive: 1w
-      cacheStatus: false

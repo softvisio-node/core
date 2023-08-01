@@ -5,29 +5,5 @@
     port: { type: number, format: ip-port }
     exclusive: { type: boolean }
 
-    nginx:
-      type: object
-      properties:
-        apiUrl: { type: string, format: uri-whatwg }
-        config:
-          type: object
-          properties:
-            serverName:
-              anyOf:
-                - type: "null"
-                - { type: array, items: { type: string }, minItems: 1, uniqueItemd: true }
-            clientMaxBodySize: { type: string, format: digital-size-unit }
-            proxyCacheBypass: { type: boolean }
-            cacheEnabled: { type: boolean }
-            cacheMaxSize: { type: string, format: digital-size-unit }
-            cacheInactive: { type: string, format: duration-unit }
-            cacheStatus: { type: boolean }
-
-          additionalProperties: false
-          required: []
-
-      additionalProperties: false
-      required: []
-
   additionalProperties: false
   required: [address, port, exclusive]
