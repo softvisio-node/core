@@ -1,0 +1,18 @@
+type: object
+properties:
+  serverName:
+    anyOf:
+      - type: "null"
+      - { type: array, items: { type: striing, format: hostname }, minItems: 1, uniqueItems: true }
+
+  clientMaxBodySize: { type: string, format: digital-size-unit }
+  cacheEnabled: { type: boolean }
+  upstreamCacheStatus: { type: boolean }
+  proxyCacheBypass: { type: boolean }
+  streamPort:
+    anyOf:
+      - type: "null"
+      - { type: array, items: { type: striing, format: ip-port }, minItems: 1, uniqueItems: true }
+
+additionalProperties: false
+required: []
