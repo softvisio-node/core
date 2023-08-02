@@ -1,9 +1,9 @@
 server {
 <% if ( !listenIpFamily || listenIpFamily === 4 ) { -%>
-    listen               *:<%- port %> default_server;
+    listen               *:<%- httpPort %> default_server;
 <% } -%>
 <% if ( !listenIpFamily || listenIpFamily === 6 ) { -%>
-    listen               [::]:<%- port %> default_server;
+    listen               [::]:<%- httpPort %> default_server;
 <% } -%>
     server_name          "";
 
