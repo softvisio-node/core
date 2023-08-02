@@ -6,7 +6,7 @@ config:
   httpPort: 8080
   dynamicUpstreamsPort: 8082
   listenIpFamily: 4
-  dockerEnabled: true
+  dockerEnabled: false
   cache:
     enabled: true
     maxSize: 100G
