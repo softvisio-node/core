@@ -10,6 +10,6 @@ config:
   dockerEnabled: true
   cache:
     enabled: true
-    maxSize: 100g
+    maxSize: 100G
     minFree: 10G
     inactive: 1w
