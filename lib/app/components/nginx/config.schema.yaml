@@ -2,6 +2,7 @@
   type: object
   properties:
     httpPort: { type: number, format: ip-port }
+    dynamicUpstreamsPort: { type: number, format: ip-port }
     listenIpFamily: { enum: [0, 4, 6] }
     dockerEnabled: { typ: boolean }
     cache:

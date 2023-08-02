@@ -5,6 +5,7 @@ optionalDependencies: ~
 
 config:
   httpPort: 80
+  dynamicUpstreamsPort: 8081
   listenIpFamily: 4
   dockerEnabled: true
   cache:
