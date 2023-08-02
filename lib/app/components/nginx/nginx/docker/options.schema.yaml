@@ -3,7 +3,6 @@ properties:
   serverNames:
     anyOf:
       - type: "null"
-      - { type: array, items: { const: "*" }, minItems: 1, maxItems: 1 }
       - { type: array, items: { type: string, format: hostname }, minItems: 1, uniqueItems: true }
 
   streamPorts:
