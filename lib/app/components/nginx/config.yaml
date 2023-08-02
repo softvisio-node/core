@@ -3,10 +3,10 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-  httpPort: 80
+  httpPort: 8080
   dynamicUpstreamsPort: 8082
   listenIpFamily: 4
-  dockerEnabled: false
+  dockerEnabled: true
   cache:
     enabled: true
     maxSize: 100G
