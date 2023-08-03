@@ -4,6 +4,8 @@
     httpPort: { type: number, format: ip-port }
     listenIpFamily: { enum: [0, 4, 6] }
     dockerEnabled: { typ: boolean }
+    upstreamHttpPort: { type: number, format: ip-port }
+    clientMaxBodySize: { type: string, format: didital-size-unit }
     cache:
       type: object
       properties:
@@ -11,6 +13,8 @@
         maxSize: { type: string, format: digital-size-unit }
         maxFree: { type: string, format: digital-size-unit }
         inactive: { type: string, format: duration-unit }
+        status: { type: boolean }
+        bypass: { type: boolean }
 
       additionalProperties: false
       required: []

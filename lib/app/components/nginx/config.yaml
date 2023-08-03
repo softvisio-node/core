@@ -6,8 +6,12 @@ config:
   httpPort: 80
   listenIpFamily: 4
   dockerEnabled: false
+  upstreamHttpPort: 80
+  clientMaxBodySize: 10M
   cache:
     enabled: true
     maxSize: 100G
     minFree: 10G
     inactive: 1w
+    status: false
+    bypass: false
