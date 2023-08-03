@@ -1,8 +1,16 @@
 dependencies: ~
 
-optionalDependencies: ~
+optionalDependencies:
+  - nginx
 
 config:
   address: 0.0.0.0
   port: 80
   exclusive: true
+  nginx:
+    serverNAmes: ~
+    streamPorts: ~
+    clientMaxBodySize: 10M
+    cacheEnabled: true
+    cacheStatus: false
+    cacheBypass: false

@@ -4,6 +4,28 @@
     address: { type: string, format: ip-address }
     port: { type: number, format: ip-port }
     exclusive: { type: boolean }
+    nginx:
+      anyOf:
+        - type: "null"
+        - type: object
+          properties:
+            serverNames:
+              anyOf:
+                - type: "null"
+                - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+
+            streamPorts:
+              anyOf:
+                - type: "null"
+                - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+
+            clientMaxBodySize: { type: string, format: digital-size-unit }
+            cacheEnabled: { type: boolean }
+            cacheStatus: { type: boolean }
+            cacheBypass: { type: boolean }
+
+          additionalProperties: false
+          required: []
 
   additionalProperties: false
   required: [address, port, exclusive]
