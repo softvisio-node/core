@@ -3,7 +3,7 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-  httpPort: 8080
+  httpPort: 80
   listenIpFamily: 4
   dockerEnabled: false
   cache:
