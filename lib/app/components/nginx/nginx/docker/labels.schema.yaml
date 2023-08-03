@@ -15,5 +15,4 @@ properties:
   nginx.http.cache-status: { type: boolean }
   nginx.http.cache.bypass: { type: boolean }
 
-additionalProperties: false
 required: []
