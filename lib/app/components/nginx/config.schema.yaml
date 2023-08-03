@@ -11,13 +11,17 @@
       properties:
         enabled: { type: boolean }
         maxSize: { type: string, format: digital-size-unit }
-        maxFree: { type: string, format: digital-size-unit }
+        minFree:
+          anyOf:
+            - type: "null"
+            - { type: string, format: digital-size-unit }
+
         inactive: { type: string, format: duration-unit }
         status: { type: boolean }
         bypass: { type: boolean }
 
       additionalProperties: false
-      required: []
+      required: [enabled, maxSize, minFree, inactive, status, bypass]
 
   additionalProperties: false
-  required: [httpPort, listenIpFamily]
+  required: [httpPort, listenIpFamily, dockerEnabled, upstreamHttpPort, clientMaxBodySize, cache]

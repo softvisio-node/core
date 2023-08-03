@@ -11,7 +11,7 @@ config:
   cache:
     enabled: true
     maxSize: 100G
-    minFree: 10G
+    minFree: ~
     inactive: 1w
     status: false
     bypass: false
