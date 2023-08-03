@@ -5,5 +5,5 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-  port: 8081
+  port: 82
   interval: 10 # 10 seconds
