@@ -8,7 +8,7 @@ config:
   port: 80
   exclusive: true
   nginx:
-    serverNAmes: ~
+    serverNames: ~
     streamPorts: ~
     clientMaxBodySize: 10M
     cacheEnabled: true
