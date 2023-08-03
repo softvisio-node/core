@@ -6,22 +6,21 @@
     dockerEnabled: { typ: boolean }
     upstreamHttpPort: { type: number, format: ip-port }
     clientMaxBodySize: { type: string, format: didital-size-unit }
-    cache:
-      type: object
-      properties:
-        enabled: { type: boolean }
-        maxSize: { type: string, format: digital-size-unit }
-        minFree:
-          anyOf:
-            - type: "null"
-            - { type: string, format: digital-size-unit }
 
-        inactive: { type: string, format: duration-unit }
-        status: { type: boolean }
-        bypass: { type: boolean }
+    cacheEnabled: { type: boolean }
+    cacheMaxSize:
+      anyOf:
+        - type: "null"
+        - { type: string, format: digital-size-unit }
 
-      additionalProperties: false
-      required: [enabled, maxSize, minFree, inactive, status, bypass]
+    cacheMinFree:
+      anyOf:
+        - type: "null"
+        - { type: string, format: digital-size-unit }
+
+    cacheInactive: { type: string, format: duration-unit }
+    cacheStatus: { type: boolean }
+    cacheBypass: { type: boolean }
 
   additionalProperties: false
-  required: [httpPort, listenIpFamily, dockerEnabled, upstreamHttpPort, clientMaxBodySize, cache]
+  required: [httpPort, listenIpFamily, dockerEnabled, upstreamHttpPort, clientMaxBodySize, cachEenabled, cacheInactive, cacheStatus, cacheBypass]

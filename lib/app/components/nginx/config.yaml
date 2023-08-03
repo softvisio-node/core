@@ -8,10 +8,9 @@ config:
   dockerEnabled: false
   upstreamHttpPort: 80
   clientMaxBodySize: 10M
-  cache:
-    enabled: true
-    maxSize: 100G
-    minFree: ~
-    inactive: 1w
-    status: false
-    bypass: false
+  cachEenabled: true
+  cacheMaxSize: 100G
+  cacheMinFree: ~
+  cacheInactive: 1w
+  cacheStatus: false
+  cacheBypass: false
