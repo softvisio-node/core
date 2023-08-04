@@ -2,6 +2,7 @@ dependencies: ~
 
 optionalDependencies:
   - nginx
+  - tengine
 
 config:
   address: 0.0.0.0
