@@ -4,7 +4,6 @@
     httpPort: { type: number, format: ip-port }
     listenIpFamily: { enum: [0, 4, 6] }
     dockerEnabled: { typ: boolean }
-    resolver: { type: string }
     upstreamHttpPort: { type: number, format: ip-port }
     clientMaxBodySize: { type: string, format: didital-size-unit }
 
