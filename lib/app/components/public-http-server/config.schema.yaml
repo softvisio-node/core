@@ -20,7 +20,7 @@
                 - type: "null"
                 - { type: array, items: { type: number, format: ip-port }, minItems: 1, uniqueItems: true }
 
-            clientMaxBodySize: { type: string, format: digital-size-unit }
+            clientMaxBodySize: { type: string, format: digital-size }
             cacheEnabled: { type: boolean }
             cacheStatus: { type: boolean }
             cacheBypass: { type: boolean }

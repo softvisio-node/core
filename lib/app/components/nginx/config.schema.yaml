@@ -11,14 +11,14 @@
     cacheMaxSize:
       anyOf:
         - type: "null"
-        - { type: string, format: digital-size-unit }
+        - { type: string, format: digital-size }
 
     cacheMinFree:
       anyOf:
         - type: "null"
-        - { type: string, format: digital-size-unit }
+        - { type: string, format: digital-size }
 
-    cacheInactive: { type: string, format: duration-unit }
+    cacheInactive: { type: string, format: duration }
     cacheStatus: { type: boolean }
     cacheBypass: { type: boolean }
 
