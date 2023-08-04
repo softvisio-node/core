@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.44.1 (2023-08-04)
+
+Fixes:
+
+-   fix: nginx dynamic upstream
+
 ### 7.44.0 (2023-08-04)
 
 Features:
