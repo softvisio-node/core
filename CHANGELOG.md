@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.44.0 (2023-08-04)
+
+Features:
+
+-   feat: nginx component
+
+Fixes:
+
+-   fix: ajv formats
+-   fix: healthcheck port
+-   fix: nginx
+
 ### 7.43.4 (2023-07-31)
 
 Fixes:
