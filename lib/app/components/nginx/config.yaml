@@ -6,7 +6,6 @@ config:
   httpPort: 80
   listenIpFamily: 4
   dockerEnabled: false
-  resolver: 127.0.0.1 valid=30s
   upstreamHttpPort: 80
   clientMaxBodySize: 10M
   cacheEnabled: true
