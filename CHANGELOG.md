@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.45.0 (2023-08-06)
+
+Features:
+
+-   feat: tengine
+
+Fixes:
+
+-   fix: nginx
+-   fix: tengine
+-   fix: use nginx
+
 ### 7.44.1 (2023-08-04)
 
 Fixes:
