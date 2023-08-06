@@ -5,5 +5,11 @@ optionalDependencies:
 
 config:
   address: 0.0.0.0
-  port: 80
+  port: 81
   exclusive: true
+  nginx:
+    serverNames: "*"
+    clientMaxBodySize: 10M
+    cacheEnabled: true
+    cacheStatus: false
+    cacheBypass: false
