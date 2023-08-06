@@ -9,7 +9,7 @@ config:
   exclusive: true
   nginx:
     serverNames: "*"
-    clientMaxBodySize: 10M
+    maxBodySize: 10M
     cacheEnabled: true
     cacheStatus: false
     cacheBypass: false

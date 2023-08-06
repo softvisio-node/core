@@ -12,7 +12,7 @@
             - type: string
             - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
-        clientMaxBodySize: { type: string, format: digital-size }
+        maxBodySize: { type: string, format: digital-size }
         cacheEnabled: { type: boolean }
         cacheStatus: { type: boolean }
         cacheBypass: { type: boolean }

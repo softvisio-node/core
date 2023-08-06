@@ -5,7 +5,7 @@
     listenIpFamily: { enum: [0, 4, 6] }
     dockerEnabled: { typ: boolean }
     upstreamHttpPort: { type: number, format: ip-port }
-    clientMaxBodySize: { type: string, format: didital-size-unit }
+    maxBodySize: { type: string, format: didital-size-unit }
 
     cacheEnabled: { type: boolean }
     cacheMaxSize:
@@ -23,4 +23,4 @@
     cacheBypass: { type: boolean }
 
   additionalProperties: false
-  required: [httpPort, listenIpFamily, dockerEnabled, upstreamHttpPort, clientMaxBodySize, cachEenabled, cacheInactive, cacheStatus, cacheBypass]
+  required: [httpPort, listenIpFamily, dockerEnabled, upstreamHttpPort, maxBodySize, cachEenabled, cacheInactive, cacheStatus, cacheBypass]
