@@ -35,4 +35,3 @@ methods:
             cacheBypass: { type: boolean }
 
           additionalProperties: false
-          required: [serverId]
