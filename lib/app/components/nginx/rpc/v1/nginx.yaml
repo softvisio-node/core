@@ -14,6 +14,8 @@ methods:
 
             serverNames:
               anyOf:
+                - type: "null"
+                - const: "*"
                 - { type: string, format: nginx-server-name }
                 - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
