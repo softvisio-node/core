@@ -28,4 +28,4 @@ methods:
             cacheBypass: { type: boolean }
 
           additionalProperties: false
-          required: [serverId, serverNames]
+          required: [serverId]
