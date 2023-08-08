@@ -3,7 +3,7 @@ properties:
   nginx.http.server-names:
     anyOf:
       - type: "null"
-      - { type: array, items: { type: string, format: hostname }, minItems: 1, uniqueItems: true }
+      - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
   nginx.stream.ports:
     anyOf:
