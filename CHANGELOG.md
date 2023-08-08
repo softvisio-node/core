@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.46.0 (2023-08-08)
+
+Features:
+
+-   feat: nginx rpc
+
+Fixes:
+
+-   fix: hostname resources laze-load
+
 ### 7.45.0 (2023-08-06)
 
 Features:
