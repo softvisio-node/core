@@ -5,11 +5,11 @@ methods:
     title: Register nginx server
     persistentConnectionRequired: true
     params:
-      - name: server-id
-      #   required; true
-      # #   schema:
-      # #     type: string
-      # #     fotmat: kebab-case
+      - name: server_id
+        required: true
+        schema:
+          type: string
+          fotmat: kebab-case
 
       - name: options
         required: true
