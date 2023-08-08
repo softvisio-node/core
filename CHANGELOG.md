@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.46.1 (2023-08-08)
+
+Fixes:
+
+-   fix: api persistent methods shutdown
+
 ### 7.46.0 (2023-08-08)
 
 Features:
