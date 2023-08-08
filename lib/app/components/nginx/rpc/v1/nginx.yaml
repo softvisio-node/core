@@ -1,46 +1,31 @@
-title: Shared mutexes
+title: Nginx
 
 methods:
-  is-locked:
-    title: Check if mutex is locked
-    params:
-      - name: mutex_id
-        description: Mutex id.
-        required: true
-        schema:
-          type: string
-
-  try-lock:
-    title: Try lock mutex
+  register:
+    title: Register nginx server
     persistentConnectionRequired: true
     params:
-      - name: mutex_id
-        description: Mutex id.
+      - name: options
         required: true
         schema:
-          type: string
+          type: object
+          properties:
+            serverId: { type: string, fotmat: kebab-case }
 
-  lock:
-    title: Lock mutex
-    persistentConnectionRequired: true
-    params:
-      - name: mutex_id
-        description: Mutex id.
-        required: true
-        schema:
-          type: string
+            serverNames:
+              anyOf:
+                - type: string
+                - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
-  unlock:
-    title: Unlock mutex
-    persistentConnectionRequired: true
-    params:
-      - name: mutex_id
-        description: Mutex id.
-        required: true
-        schema:
-          type: string
-      - name: lock_id
-        required: true
-        schema:
-          type: string
-          format: uuid
+            streamPorts:
+              anyOf:
+                - type: "null"
+                - { type: array, items: { type: number, format: ip-port }, minItems: 1, uniqueItems: true }
+
+            maxBodySize: { type: string, format: digital-size }
+            cacheEnabled: { type: boolean }
+            cacheStatus: { type: boolean }
+            cacheBypass: { type: boolean }
+
+          additionalProperties: false
+          required: [serverId, serverNames]

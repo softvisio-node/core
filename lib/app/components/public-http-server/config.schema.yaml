@@ -11,7 +11,9 @@
           anyOf:
             - type: "null"
             - { type: string, fotmat: kebab-case }
+
         apiUrl: { type: string, format: uri-whatwg }
+
         serverNames:
           anyOf:
             - type: string
