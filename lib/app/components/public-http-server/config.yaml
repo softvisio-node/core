@@ -8,6 +8,8 @@ config:
   port: 80
   exclusive: true
   nginx:
+    apiUrl: ws://nginx:81/api
+    serverId: ~
     serverNames: "*"
     maxBodySize: 10M
     cacheEnabled: true

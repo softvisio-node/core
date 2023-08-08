@@ -7,6 +7,11 @@
     nginx:
       type: object
       properties:
+        serverId:
+          anyOf:
+            - type: "null"
+            - { type: string, fotmat: kebab-case }
+        apiUrl: { type: string, format: uri-whatwg }
         serverNames:
           anyOf:
             - type: string
@@ -18,7 +23,7 @@
         cacheBypass: { type: boolean }
 
       additionalProperties: false
-      required: [serverNames]
+      required: [apiUrl, serverNames]
 
   additionalProperties: false
   required: [address, port, exclusive, nginx]
