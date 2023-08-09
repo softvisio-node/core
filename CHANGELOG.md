@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.46.2 (2023-08-09)
+
+Fixes:
+
+-   fix: http server activity counter
+
 ### 7.46.1 (2023-08-08)
 
 Fixes:
