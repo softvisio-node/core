@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.46.4 (2023-08-10)
+
+Fixes:
+
+-   fix: http server request
+
 ### 7.46.3 (2023-08-10)
 
 Fixes:
