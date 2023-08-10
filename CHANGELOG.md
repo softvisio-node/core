@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.46.5 (2023-08-10)
+
+Fixes:
+
+-   fix: http server request
+-   fix: x-realip removed
+
 ### 7.46.4 (2023-08-10)
 
 Fixes:
