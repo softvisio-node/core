@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.46.6 (2023-08-10)
+
+Fixes:
+
+-   fix: x-forwarded-for parser
+
 ### 7.46.5 (2023-08-10)
 
 Fixes:
