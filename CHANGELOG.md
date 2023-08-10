@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.46.3 (2023-08-10)
+
+Fixes:
+
+-   fix: http server request
+-   fix: invalid set
+
 ### 7.46.2 (2023-08-09)
 
 Fixes:
