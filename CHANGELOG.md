@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.46.9 (2023-08-11)
+
+Fixes:
+
+-   fix: ws options
+
 ### 7.46.8 (2023-08-11)
 
 Fixes:
