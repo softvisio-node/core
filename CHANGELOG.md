@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.46.7 (2023-08-11)
+
+Fixes:
+
+-   fix: telegram
+-   fix: ws pong log
+-   fix: ws upgrade
+
 ### 7.46.6 (2023-08-10)
 
 Fixes:
