@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.46.11 (2023-08-11)
+
+Fixes:
+
+-   fix: api ping / pong removed
+-   fix: http server
+
 ### 7.46.10 (2023-08-11)
 
 Fixes:
