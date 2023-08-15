@@ -4,7 +4,7 @@
     usersCacheMaxSize: { type: integer, minimum: 100 }
     runUpdater: { type: boolean }
     runProcessor: { type: boolean }
-    storageFilesMaxAge: { type: integer, minimum: 60000 }
+    storageFilesMaxAge: { type: integer, minimum: 60 }
 
   additionalProperties: false
   required: [usersCacheMaxSize, runUpdater, runProcessor, storageFilesMaxAge]
