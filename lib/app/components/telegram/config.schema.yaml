@@ -4,7 +4,17 @@
     usersCacheMaxSize: { type: integer, minimum: 100 }
     runUpdater: { type: boolean }
     runProcessor: { type: boolean }
+    storageFilePath: { type: string, format: kebab-case-relative-file-path }
     storageFilesMaxAge: { type: integer, minimum: 60 }
+    telegramFileDownloadLocation: { type: string, format: kebab-case-glob-pattern }
+    telegramFileCacheControl: { type: string }
 
   additionalProperties: false
-  required: [usersCacheMaxSize, runUpdater, runProcessor, storageFilesMaxAge]
+  required:
+    - usersCacheMaxSize
+    - runUpdater
+    - runProcessor
+    - storageFilePath
+    - storageFilesMaxAge
+    - telegramFileDownloadLocation
+    - telegramFileCacheControl
