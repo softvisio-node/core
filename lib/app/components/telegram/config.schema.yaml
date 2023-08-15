@@ -1,7 +1,7 @@
 - $id: public-config
   type: object
   properties:
-    storageFilesPrefix: false
+    storageFilesLocation: false
     storageFilesMaxAge: false
     downloadFilesLocation: false
     downloadFilesCacheControl: false
@@ -12,7 +12,7 @@
     usersCacheMaxSize: { type: integer, minimum: 100 }
     runUpdater: { type: boolean }
     runProcessor: { type: boolean }
-    storageFilesPrefix: { type: string, format: kebab-case-relative-file-path }
+    storageFilesLocation: { type: string, format: kebab-case-relative-file-path }
     storageFilesMaxAge: { type: integer, minimum: 60 }
     downloadFilesLocation: { type: string, format: kebab-case-glob-pattern }
     downloadFilesCacheControl: { type: string }
@@ -22,7 +22,7 @@
     - usersCacheMaxSize
     - runUpdater
     - runProcessor
-    - storageFilesPrefix
+    - storageFilesLocation
     - storageFilesMaxAge
     - downloadFilesLocation
     - downloadFilesCacheControl
