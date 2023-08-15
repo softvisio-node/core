@@ -11,4 +11,4 @@ config:
   usersCacheMaxSize: 10_000
   runUpdater: true
   runProcessor: true
-  storageFilesMaxAge: 60 # 604800 # seconds, 7 data
+  storageFilesMaxAge: 604800 # seconds, 7 data
