@@ -1,20 +1,28 @@
+- $id: public-config
+  type: object
+  properties:
+    storageFilesPrefix: false
+    storageFilesMaxAge: false
+    downloadFilesLocation: false
+    downloadFilesCacheControl: false
+
 - $id: config
   type: object
   properties:
     usersCacheMaxSize: { type: integer, minimum: 100 }
     runUpdater: { type: boolean }
     runProcessor: { type: boolean }
-    storageFilePath: { type: string, format: kebab-case-relative-file-path }
+    storageFilesPrefix: { type: string, format: kebab-case-relative-file-path }
     storageFilesMaxAge: { type: integer, minimum: 60 }
-    telegramFileDownloadLocation: { type: string, format: kebab-case-glob-pattern }
-    telegramFileCacheControl: { type: string }
+    downloadFilesLocation: { type: string, format: kebab-case-glob-pattern }
+    downloadFilesCacheControl: { type: string }
 
   additionalProperties: false
   required:
     - usersCacheMaxSize
     - runUpdater
     - runProcessor
-    - storageFilePath
+    - storageFilesPrefix
     - storageFilesMaxAge
-    - telegramFileDownloadLocation
-    - telegramFileCacheControl
+    - downloadFilesLocation
+    - downloadFilesCacheControl
