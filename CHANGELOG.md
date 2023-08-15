@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.47.0 (2023-08-15)
+
+Features:
+
+-   feat: json container
+
+Fixes:
+
+-   fix: disable other bots
+-   fix: store
+-   fix: telegram
+
 ### 7.46.11 (2023-08-11)
 
 Fixes:
