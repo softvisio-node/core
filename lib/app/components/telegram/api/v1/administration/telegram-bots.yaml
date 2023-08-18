@@ -37,3 +37,19 @@ methods:
       - name: bot_id
         required: true
         schema: { type: string, format: int64 }
+
+  get-bot:
+    title: Get bot data
+    permission: administration:read
+    params:
+      - name: bot_id
+        required: true
+        schema: { type: string, format: int64 }
+
+  get-bot-subscription-stats:
+    title: Get bot subscribe stats
+    permission: administration:read
+    params:
+      - name: bot_id
+        required: true
+        schema: { type: string, format: int64 }
