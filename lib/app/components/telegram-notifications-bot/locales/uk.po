@@ -13,10 +13,10 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: lib/app/components/telegram-notifications-bot/telegram/bot.js:11:43
+#: lib/app/components/telegram-notifications-bot/telegram/modules/start.js:10:44
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
 
-#: lib/app/components/telegram-notifications-bot/telegram/bot.js:8:43
+#: lib/app/components/telegram-notifications-bot/telegram/modules/start.js:7:44
 msgid "You are not authorized to use this bot. You need to link your Telegram account in your user profile settings."
 msgstr "Ви не маєте права використовувати цього бота. Вам потрібно прив’язати обліковий запис Telegram у налаштуваннях профілю користувача."
