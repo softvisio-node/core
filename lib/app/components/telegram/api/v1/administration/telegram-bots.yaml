@@ -46,7 +46,7 @@ methods:
         required: true
         schema: { type: string, format: int64 }
 
-  get-bot-subscription-stats:
+  get-bot-stats:
     title: Get bot subscribe stats
     permission: administration:read
     params:
