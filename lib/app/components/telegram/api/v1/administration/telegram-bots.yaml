@@ -55,4 +55,4 @@ methods:
         schema: { type: string, format: int64 }
       - name: period
         required: true
-        schema: { enum: [week, month, year] }
+        schema: { enum: ["7 days", "3 months", "1 year"] }
