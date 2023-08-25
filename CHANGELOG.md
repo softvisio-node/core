@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.48.0 (2023-08-25)
+
+Features:
+
+-   feat: csv
+
+Fixes:
+
+-   fix: telegram
+-   fix: translations
+
 ### 7.47.3 (2023-08-19)
 
 Fixes:
