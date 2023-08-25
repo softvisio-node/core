@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.48.1 (2023-08-25)
+
+Fixes:
+
+-   fix: streams
+
 ### 7.48.0 (2023-08-25)
 
 Features:
