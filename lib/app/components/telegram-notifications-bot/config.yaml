@@ -5,3 +5,12 @@ optionalDependencies: ~
 
 config:
   locales: [en-GB, en-US, ru-RU, uk-UA]
+
+  acl:
+    roles:
+      administrator:
+        name: !l10n [Administrator]
+        description: !l10n [Bot administrator]
+        permissions:
+          - acl:*
+          - telegram/bot:*

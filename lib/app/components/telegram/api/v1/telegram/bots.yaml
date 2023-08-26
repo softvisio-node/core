@@ -3,7 +3,7 @@ title: Application telegram bots management
 methods:
   read:
     title: Read telegram bots
-    permission: administration:read
+    permission: telegram/bot:read
     params:
       - name: options
         schema:
@@ -21,7 +21,7 @@ methods:
 
   set-bot-started:
     title: Start / stop bot
-    permission: administration:update
+    permission: telegram/bot:update
     params:
       - name: bot_id
         required: true
@@ -32,7 +32,7 @@ methods:
 
   delete-bot:
     title: Delete bot
-    permission: administration:delete
+    permission: telegram/bot:delete
     params:
       - name: bot_id
         required: true
@@ -40,7 +40,7 @@ methods:
 
   get-bot:
     title: Get bot data
-    permission: administration:read
+    permission: telegram/bot:read
     params:
       - name: bot_id
         required: true
@@ -48,7 +48,7 @@ methods:
 
   get-bot-stats:
     title: Get bot subscribe stats
-    permission: administration:read
+    permission: telegram/bot:read
     params:
       - name: bot_id
         required: true
