@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.48.3 (2023-08-26)
+
+Fixes:
+
+-   fix: csv
+-   fix: streams
+
 ### 7.48.2 (2023-08-25)
 
 Fixes:
