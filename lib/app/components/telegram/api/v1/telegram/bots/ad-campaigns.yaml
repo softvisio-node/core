@@ -37,3 +37,22 @@ methods:
       - name: bot_id
         required: true
         schema: { type: string, format: int64 }
+
+  get-bot:
+    title: Get bot data
+    permission: administration:read
+    params:
+      - name: bot_id
+        required: true
+        schema: { type: string, format: int64 }
+
+  get-bot-stats:
+    title: Get bot subscribe stats
+    permission: administration:read
+    params:
+      - name: bot_id
+        required: true
+        schema: { type: string, format: int64 }
+      - name: period
+        required: true
+        schema: { enum: ["7 days", "3 months", "1 year"] }
