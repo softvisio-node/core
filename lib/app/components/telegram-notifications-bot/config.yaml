@@ -14,3 +14,9 @@ config:
         permissions:
           - acl:*
           - telegram/bot:*
+
+      read-only:
+        name: !l10n [Read-only]
+        description: !l10n [Bot read-only permissions]
+        permissions:
+          - telegram/bot:read
