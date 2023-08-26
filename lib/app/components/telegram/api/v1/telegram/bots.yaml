@@ -28,7 +28,7 @@ methods:
     params:
       - name: bot_id
         required: true
-        schema: { type: string, format: int64 }
+        schema: { type: string, format: int64, aclResolver: telegram-bot }
       - name: started
         required: true
         schema: { type: boolean }
@@ -39,7 +39,7 @@ methods:
     params:
       - name: bot_id
         required: true
-        schema: { type: string, format: int64 }
+        schema: { type: string, format: int64, aclResolver: telegram-bot }
 
   get-bot:
     title: Get bot data
