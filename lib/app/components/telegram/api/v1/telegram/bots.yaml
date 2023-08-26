@@ -1,5 +1,8 @@
 title: Application telegram bots management
 
+aclResolvers:
+  telegram-bot: SELECT acl_id AS id FROM telegram_bot WHERE id = ?
+
 methods:
   read:
     title: Read telegram bots
@@ -44,7 +47,7 @@ methods:
     params:
       - name: bot_id
         required: true
-        schema: { type: string, format: int64 }
+        schema: { type: string, format: int64, aclResolver: telegram-bot }
 
   get-bot-stats:
     title: Get bot subscribe stats
@@ -52,7 +55,7 @@ methods:
     params:
       - name: bot_id
         required: true
-        schema: { type: string, format: int64 }
+        schema: { type: string, format: int64, aclResolver: telegram-bot }
       - name: period
         required: true
         schema: { enum: ["7 days", "3 months", "1 year"] }
