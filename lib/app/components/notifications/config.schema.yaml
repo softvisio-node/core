@@ -40,8 +40,8 @@
           additionalProperties:
             type: object
             properties:
-              name: { type: string }
-              description: { type: string }
+              name: { type: object, format: locale-translation }
+              description: { type: object, format: locale-translation }
               channels:
                 type: object
                 propertyNames: { enum: [internal, email, telegram, push] }
