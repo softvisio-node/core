@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.48.4 (2023-08-27)
+
+Fixes:
+
+-   fix: app locales
+-   fix: telegram
+
 ### 7.48.3 (2023-08-26)
 
 Fixes:
