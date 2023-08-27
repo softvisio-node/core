@@ -13,11 +13,11 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: lib/app/components/telegram/telegram/component.js:49:27
+#: lib/app/components/telegram/telegram/component.js:53:27
 msgid "Bot owner"
 msgstr ""
 
-#: lib/app/components/telegram/telegram/component.js:48:20
+#: lib/app/components/telegram/telegram/component.js:52:20
 msgid "Owner"
 msgstr ""
 
