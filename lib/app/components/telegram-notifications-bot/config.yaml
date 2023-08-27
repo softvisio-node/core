@@ -8,6 +8,12 @@ config:
 
   acl:
     roles:
+      owner:
+        name: !l10n [Owner]
+        description: !l10n [Bot owner]
+        permissions:
+          - acl:*
+          - telegram/bot:*
       administrator:
         name: !l10n [Administrator]
         description: !l10n [Bot administrator]
