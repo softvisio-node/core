@@ -59,3 +59,21 @@ methods:
       - name: period
         required: true
         schema: { enum: ["7 days", "3 months", "1 year"] }
+
+  update-bot-details:
+    title: Update bot details
+    permission: telegram/bot:update
+    params:
+      - name: bot_id
+        required: true
+        schema: { type: string, format: int64, aclResolver: telegram-bot }
+      - name: options
+        required: true
+        schema:
+          type: object
+          properties:
+            name: { type: string, maxLength: 64 }
+            short_description: { type: string, maxLength: 120 }
+            description: { type: string, maxLength: 512 }
+          minProperties: 1
+          additionalProperties: false
