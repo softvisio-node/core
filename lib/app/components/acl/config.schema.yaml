@@ -62,7 +62,7 @@
         additionalProperties: false
         required: [roles]
 
-      required: [default] # default acl is required
+      required: [main] # main acl is required
 
   additionalProperties: false
   required: [cacheMaxSize, types]

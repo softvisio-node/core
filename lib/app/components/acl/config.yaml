@@ -8,7 +8,7 @@ config:
   cacheMaxSize: 10_000
 
   types:
-    default:
+    main:
       roles:
         developer:
           name: !l10nt Developer
