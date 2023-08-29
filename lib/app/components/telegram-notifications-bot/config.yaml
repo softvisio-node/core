@@ -14,6 +14,8 @@ config:
         permissions:
           - acl:*
           - telegram/bot:*
+          - "!telegram/bot:delete"
+          - telegram/bot/**
 
       read-only:
         name: !l10nt Read-only
