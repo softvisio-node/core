@@ -6,7 +6,7 @@ aclResolvers:
 methods:
   read:
     title: Read telegram bots
-    permission: user
+    permission: users
     params:
       - name: options
         schema:
