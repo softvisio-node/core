@@ -15,7 +15,7 @@ methods:
               type: { type: string, sortable: true }
               static: { type: string, sortable: true }
               name: { type: string, operator: like, sortable: true }
-              telegram_username: { type: string, operator: like, sortable: true }
+              telegram_username: { type: string, sortable: true }
               total_users: { type: string, sortable: true }
               total_subscribed_users: { type: string, sortable: true }
               started: { type: string, sortable: true }
