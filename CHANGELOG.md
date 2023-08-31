@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.48.7 (2023-08-31)
+
+Fixes:
+
+-   fix: app locale
+
 ### 7.48.6 (2023-08-30)
 
 Fixes:
