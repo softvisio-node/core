@@ -60,3 +60,14 @@ methods:
             #    description: { type: string ]
             #   minProperties: 1
             additionalProperties: false
+
+  delete-link:
+    title: Delete link
+    permission: telegram/bot/links:delete
+    params:
+      - name: telegram_bot_id
+        required: true
+        schema: { type: string, format: int64 }
+      - name: link_id
+        required: true
+        schema: { type: string, format: int64 }
