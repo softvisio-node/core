@@ -1,21 +1,17 @@
-title: Application telegram bots management
+title: Telegram bot links
 
 methods:
   read:
-    title: Read telegram bot ad campaings
-    permission: telegram/bot/ad-campaings:read
+    title: Read telegram bot links
+    permission: telegram/bot/links:read
     params:
       - name: options
         schema:
           read:
             fields:
               telegram_bot_id: { type: string, format: int64, required: true, aclResolver: telegram-bot }
-              type: { type: string, sortable: true }
-              static: { type: string, sortable: true }
-              telegram_username: { type: string, operator: like, sortable: true }
-              total_users: { type: string, sortable: true }
-              total_subscribed_users: { type: string, sortable: true }
-              started: { type: string, sortable: true }
-              error: { type: string, sortable: true }
-            order_by: [["telegram_username", "asc"]]
+              name: { type: string, operator: "like", sortable: true }
+              created: { type: string, sortable: true }
+              last_user_cewated: { type: string, sortable: true }
+            order_by: [["last_user_created", "desc"]]
             limit: { maxLimit: 100 }
