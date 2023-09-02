@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.48.9 (2023-09-02)
+
+Fixes:
+
+-   fix: app components
+
 ### 7.48.8 (2023-09-02)
 
 Fixes:
