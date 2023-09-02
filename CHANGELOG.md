@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.48.8 (2023-09-02)
+
+Fixes:
+
+-   fix: acl
+-   fix: telegram request
+
 ### 7.48.7 (2023-08-31)
 
 Fixes:
