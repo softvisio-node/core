@@ -6,6 +6,7 @@ methods:
     permission: telegram/bot/links:read
     params:
       - name: options
+        required: true
         schema:
           read:
             fields:
@@ -15,3 +16,47 @@ methods:
               last_user_cewated: { type: string, sortable: true }
             order_by: [["last_user_created", "desc"]]
             limit: { maxLimit: 100 }
+
+  create-link:
+    title: Createe link
+    permission: telegram/bot/links:create
+    params:
+      - name: telegram_bot_id
+        required: true
+        schema: { type: string, format: int64 }
+      - name: name
+        required: true
+        schema: { type: string }
+      - name: description
+        schema: { type: string }
+
+  get-link-stats:
+    title: Get link stats
+    permission: telegram/bot/links:read
+    params:
+      - name: telegram_bot_id
+        required: true
+        schema: { type: string, format: int64 }
+      - name: link_id
+        required: true
+        schema: { type: string, format: int64 }
+
+  update-link:
+    title: Update link
+    permission: telegram/bot/links:update
+    params:
+      - name: telegram_bot_id
+        required: true
+        schema: { type: string, format: int64 }
+      - name: link_id
+        required: true
+        schema: { type: string, format: int64 }
+      - name: options
+        required: true
+        schema:
+          type: object
+          properties:
+            #    name: { type: string ]
+            #    description: { type: string ]
+            #   minProperties: 1
+            additionalProperties: false
