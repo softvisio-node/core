@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.48.10 (2023-09-02)
+
+Fixes:
+
+-   fix: app settings api
+-   fix: po message
+-   fix: translations
+
 ### 7.48.9 (2023-09-02)
 
 Fixes:
