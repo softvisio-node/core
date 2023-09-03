@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.48.12 (2023-09-03)
+
+Fixes:
+
+-   fix: api settings
+
 ### 7.48.11 (2023-09-03)
 
 Fixes:
