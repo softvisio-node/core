@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.48.11 (2023-09-03)
+
+Fixes:
+
+-   fix: telegram
+-   fix: telegram request
+
 ### 7.48.10 (2023-09-02)
 
 Fixes:
