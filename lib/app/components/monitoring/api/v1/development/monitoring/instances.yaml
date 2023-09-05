@@ -5,22 +5,13 @@ methods:
     title: Get monitored instances metrics
     permission: development:read
 
-  get-latest-time-series:
-    title: Get the instance time series for the last hour, grouped by 1 minute
+  get-instance-stats:
+    title: Get the instance stats
     permission: development:read
     params:
-      - name: monitoring_instance_id
+      - name: instance_id
         required: true
-        schema:
-          type: string
-          format: int64
-
-  get-historical-time-series:
-    title: Get the instance time series for the last 30 days, grouped by 1 hour
-    permission: development:read
-    params:
-      - name: monitoring_instance_id
+        schema: { type: string, format: int64 }
+      - name: period
         required: true
-        schema:
-          type: string
-          format: int64
+        schema: { enum: [1 hour, 30 days] }
