@@ -13,25 +13,16 @@ methods:
             period: { type: integer, minimum: 1, maximum: 30 }
           additionalProperties: false
 
-  get-latest-time-series:
-    title: Get the method time series for the last hour, grouped by 1 minute
+  get-monitoring-method-stats:
+    title: Get the method stats
     permission: development:read
     params:
       - name: monitoring_method_id
         required: true
-        schema:
-          type: string
-          format: int64
-
-  get-historical-time-series:
-    title: Get the method time series for the last 30 days, grouped by 1 hours
-    permission: development:read
-    params:
-      - name: monitoring_method_id
+        schema: { type: string, format: int64 }
+      - name: period
         required: true
-        schema:
-          type: string
-          format: int64
+        schema: { enum: [1 hour, 30 days] }
 
   read-method-exceptions:
     title: Read the method exceptions
