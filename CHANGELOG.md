@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.48.18 (2023-09-06)
+
+Fixes:
+
+-   fix: monitoring
+
 ### 7.48.17 (2023-09-05)
 
 Fixes:
