@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.48.19 (2023-09-07)
+
+Fixes:
+
+-   fix: monitoring
+-   fix: telegram
+
 ### 7.48.18 (2023-09-06)
 
 Fixes:
