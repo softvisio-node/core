@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.48.22 (2023-09-09)
+
+Fixes:
+
+-   fix: pofile extracted comments
+-   fix: yaml parse
+
 ### 7.48.21 (2023-09-07)
 
 Fixes:
