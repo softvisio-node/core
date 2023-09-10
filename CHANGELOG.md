@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.48.25 (2023-09-10)
+
+Fixes:
+
+-   fix: locale domains
+
 ### 7.48.24 (2023-09-10)
 
 Fixes:
