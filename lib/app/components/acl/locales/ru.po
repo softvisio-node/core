@@ -13,18 +13,22 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
+#. !tags: backend
 #: lib/app/components/acl/config.yaml
 msgid "Administrator"
 msgstr "Администратор"
 
+#. !tags: backend
 #: lib/app/components/acl/config.yaml
 msgid "Developer"
 msgstr "Разработчик"
 
+#. !tags: backend
 #: lib/app/components/acl/config.yaml
 msgid "Project administrator"
 msgstr "Администратор проекта"
 
+#. !tags: backend
 #: lib/app/components/acl/config.yaml
 msgid "Project developer"
 msgstr "Разработчик проекта"
