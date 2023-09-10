@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.48.23 (2023-09-10)
+
+Fixes:
+
+-   fix: api client locale
+-   fix: backend locale removed
+-   fix: l10n tags
+-   fix: po message
+
 ### 7.48.22 (2023-09-09)
 
 Fixes:
