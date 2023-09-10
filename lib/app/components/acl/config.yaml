@@ -11,14 +11,14 @@ config:
     main:
       roles:
         developer:
-          name: !l10nt [Developer, { tags: backend }]
-          description: !l10nt [Project developer, { tags: backend }]
+          name: !l10nt Developer
+          description: !l10nt Project developer
           permissions:
             - development:*
 
         administrator:
-          name: !l10nt [Administrator, { tags: backend }]
-          description: !l10nt [Project administrator, { tags: backend }]
+          name: !l10nt Administrator
+          description: !l10nt Project administrator
           permissions:
             - acl:*
             - administration:*
