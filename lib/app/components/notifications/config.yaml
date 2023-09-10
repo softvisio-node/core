@@ -22,8 +22,8 @@ config:
 
   types:
     security:
-      name: !l10nt Security
-      description: !l10nt Various security related notifications
+      name: !l10nt [Security, { tags: backend }]
+      description: !l10nt [Various security related notifications, { tags: backend }]
       channels:
         push: { editable: false }
 

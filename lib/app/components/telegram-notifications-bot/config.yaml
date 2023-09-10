@@ -9,8 +9,8 @@ config:
   acl:
     roles:
       administrator:
-        name: !l10nt Administrator
-        description: !l10nt Bot administrator
+        name: !l10nt [Administrator, { tags: backend }]
+        description: !l10nt [Bot administrator, { tags: backend }]
         permissions:
           - acl:*
           - telegram/bot:*
@@ -18,7 +18,7 @@ config:
           - telegram/bot/**
 
       read-only:
-        name: !l10nt Read-only
-        description: !l10nt Bot read-only permissions
+        name: !l10nt [Read-only, { tags: backend }]
+        description: !l10nt [Bot read-only permissions, { tags: backend }]
         permissions:
           - telegram/bot:read
