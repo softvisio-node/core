@@ -13,14 +13,6 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: lib/app/components/telegram/telegram/component.js:53:27
-msgid "Bot owner"
-msgstr ""
-
-#: lib/app/components/telegram/telegram/component.js:52:20
-msgid "Owner"
-msgstr ""
-
 #: lib/app/components/telegram/telegram/bot/user.js:214:16
 msgid "Telegram account linked"
 msgstr "Обліковий запис Telegram прив’язано"
