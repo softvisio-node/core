@@ -13,12 +13,10 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#. !tags: backend
 #: lib/app/components/notifications/config.yaml
 msgid "Security"
 msgstr "Безпека"
 
-#. !tags: backend
 #: lib/app/components/notifications/config.yaml
 msgid "Various security related notifications"
 msgstr "Різні сповіщення щодо безпеки"
