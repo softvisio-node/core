@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.48.28 (2023-09-11)
+
+Fixes:
+
+-   fix: po rel path
+-   fix: translations
+
 ### 7.48.27 (2023-09-11)
 
 Fixes:
