@@ -13,26 +13,26 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.2\n"
 
-#: lib/app/components/telegram-notifications-bot/config.yaml
+#: ../config.yaml
 msgid "Administrator"
 msgstr "Администратор"
 
-#: lib/app/components/telegram-notifications-bot/config.yaml
+#: ../config.yaml
 msgid "Bot administrator"
 msgstr ""
 
-#: lib/app/components/telegram-notifications-bot/config.yaml
+#: ../config.yaml
 msgid "Bot read-only permissions"
 msgstr ""
 
-#: lib/app/components/telegram-notifications-bot/config.yaml
+#: ../config.yaml
 msgid "Read-only"
 msgstr ""
 
-#: lib/app/components/telegram-notifications-bot/telegram/modules/start.js:10:44
+#: ../telegram/modules/start.js:10:44
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Это бот уведомлений. Он не поддерживает никаких дополнительных команд."
 
-#: lib/app/components/telegram-notifications-bot/telegram/modules/start.js:7:44
+#: ../telegram/modules/start.js:7:44
 msgid "You are not authorized to use this bot. You need to link your Telegram account in your user profile settings."
 msgstr "У вас нет прав на использование этого бота. Вам необходимо связать свою учетную запись Telegram в настройках профиля пользователя."
