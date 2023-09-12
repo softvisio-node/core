@@ -10,7 +10,7 @@ methods:
         schema:
           read:
             fields:
-              telegram_bot_id: { type: string, format: int64, required: true, aclResolver: telegram-bot }
+              telegram_bot_id: { type: string, format: int64, required: true, operator: "=", aclResolver: telegram-bot }
               name: { type: string, operator: "like", sortable: true }
               created: { type: string, sortable: true }
               last_user_cewated: { type: string, sortable: true }
