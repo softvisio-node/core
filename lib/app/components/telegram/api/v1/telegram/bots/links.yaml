@@ -24,11 +24,15 @@ methods:
       - name: telegram_bot_id
         required: true
         schema: { type: string, format: int64, aclResolver: telegram-bot }
-      - name: name
+      - name: options
         required: true
-        schema: { type: string }
-      - name: description
-        schema: { type: string }
+        schema:
+          type: object
+          properties:
+            name: { type: string }
+            description: { type: string }
+          additionalProperties: false
+          required: [name]
 
   get-link-stats:
     title: Get link stats
