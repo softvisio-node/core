@@ -23,6 +23,7 @@ methods:
     params:
       - name: telegram_bot_id
         required: true
+        aclResolver: telegram-bot
         schema: { type: string, format: int64 }
       - name: name
         required: true
