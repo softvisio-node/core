@@ -12,8 +12,9 @@ methods:
             fields:
               telegram_bot_id: { type: string, format: int64, required: true, operator: "=", aclResolver: telegram-bot }
               name: { type: string, operator: "like", sortable: true }
-              created: { type: string, sortable: true }
-              last_user_cewated: { type: string, sortable: true }
+              created: { sortable: true }
+              last_user_created: { sortable: true }
+              total_subscribed_users: { sortable: true }
             order_by: [["last_user_created", "desc"]]
             limit: { maxLimit: 100 }
 
