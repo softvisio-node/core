@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.48.30 (2023-09-12)
+
+Fixes:
+
+-   fix: mount promise
+-   fix: telegram
+-   fix: uuidv4 renamed
+-   fix: vue $toast
+
 ### 7.48.29 (2023-09-11)
 
 Fixes:
