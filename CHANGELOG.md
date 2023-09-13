@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.48.31 (2023-09-13)
+
+Fixes:
+
+-   fix: parseJson removed
+
 ### 7.48.30 (2023-09-12)
 
 Fixes:
