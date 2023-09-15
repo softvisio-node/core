@@ -1,5 +1,8 @@
 title: Telegram bot links
 
+aclResolvers:
+  telegram-bot-link: SELECT telegram_bot.acl_id AS id FROM telegram_bot_link, telegram_bot WHERE telegram_bot_link.telegram_bot_id = telegram_bot.id AND telegram_bot_link.id = ?
+
 methods:
   read:
     title: Read telegram bot links
@@ -36,43 +39,37 @@ methods:
           required: [name]
 
   get-link-stats:
-    title: Get link stats
+    title: get telegram bot link stats
     permission: telegram/bot/links:read
     params:
-      - name: telegram_bot_id
+      - name: telegram_bot_link_id
         required: true
-        schema: { type: string, format: int64 }
-      - name: link_id
+        schema: { type: string, format: int64, aclResolver: telegram-bot-link }
+      - name: period
         required: true
-        schema: { type: string, format: int64 }
+        schema: { enum: ["7 days", "3 months", "1 year"] }
 
   update-link:
-    title: Update link
+    title: Update telegram bot link
     permission: telegram/bot/links:update
     params:
-      - name: telegram_bot_id
+      - name: teleram_bot_link_id
         required: true
-        schema: { type: string, format: int64 }
-      - name: link_id
-        required: true
-        schema: { type: string, format: int64 }
+        schema: { type: string, format: int64, aclResolver: telegram-bot-link }
       - name: options
         required: true
         schema:
           type: object
           properties:
-            #    name: { type: string ]
-            #    description: { type: string ]
-            #   minProperties: 1
-            additionalProperties: false
+            name: { type: string }
+            description: { type: string }
+          minProperties: 1
+          additionalProperties: false
 
   delete-link:
-    title: Delete link
+    title: Delete telegram bot link
     permission: telegram/bot/links:delete
     params:
-      - name: telegram_bot_id
+      - name: telegram_bot_link_id
         required: true
-        schema: { type: string, format: int64 }
-      - name: link_id
-        required: true
-        schema: { type: string, format: int64 }
+        schema: { type: string, format: int64, aclResolver: telegram-bot-link }
