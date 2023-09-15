@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.48.32 (2023-09-15)
+
+Fixes:
+
+-   fix: acl user permissions
+-   fix: app locales moved
+
 ### 7.48.31 (2023-09-13)
 
 Fixes:
