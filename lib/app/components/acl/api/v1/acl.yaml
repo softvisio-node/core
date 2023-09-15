@@ -136,6 +136,8 @@ methods:
       - name: acl_id
         required: true
         schema: { type: string, format: int64, aclResolver: acl }
+      - name: user_id
+        schema: { type: string, format: int64 }
 
   get-acl-roles:
     title: Get ACL roles

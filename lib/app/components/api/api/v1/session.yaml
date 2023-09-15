@@ -126,3 +126,11 @@ methods:
       - name: token
         required: true
         schema: { type: string }
+
+  get-acl-permissions:
+    title: Get ACL permissions
+    permission: users
+    params:
+      - name: acl_id
+        required: true
+        schema: { type: string, format: int64 }
