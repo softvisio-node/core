@@ -17,7 +17,7 @@ msgstr ""
 msgid "Email changed"
 msgstr "Електронна адреса змінена"
 
-#: ../api/v1/session.js:200:49
+#: ../api/v1/session.js:211:49
 msgid "New device"
 msgstr "Новий пристрій"
 
@@ -25,7 +25,7 @@ msgstr "Новий пристрій"
 msgid "Password changed"
 msgstr "Пароль змінено"
 
-#: ../api/v1/session.js:202:20
+#: ../api/v1/session.js:213:20
 #, javascript-format
 msgid ""
 "You just signed in on the new device.\n"
