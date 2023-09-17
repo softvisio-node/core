@@ -20,7 +20,7 @@ methods:
               total_subscribed_users: { type: string, sortable: true }
               started: { type: string, sortable: true }
               error: { type: string, sortable: true }
-            order_by: [["name", "asc"]]
+            order_by: { name: asc }
             limit: { maxLimit: 100 }
 
   set-bot-started:

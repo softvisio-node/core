@@ -34,7 +34,7 @@ methods:
             fields:
               monitoring_method_id: { type: string, format: int64, operator: "=", required: true }
               date: { sortable: true }
-            order_by: [["date", "desc"]]
+            order_by: { date: desc }
             limit: { maxLimit: 100 }
 
   clear-method-exceptions:

@@ -14,7 +14,7 @@ methods:
               created: { type: string, sortable: true }
               last_activity: { type: string, sortable: true }
               enabled: { type: boolean, operator: "=", sortable: true }
-            order_by: [[name, asc]]
+            order_by: { name: asc }
             limit: { maxLimit: 100 }
 
   create:
