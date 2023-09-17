@@ -4,7 +4,7 @@ aclResolvers:
   telegram-bot-link: SELECT telegram_bot.acl_id AS id FROM telegram_bot_link, telegram_bot WHERE telegram_bot_link.telegram_bot_id = telegram_bot.id AND telegram_bot_link.id = ?
 
 methods:
-  read:
+  get-links-list:
     title: Read telegram bot links
     permission: telegram/bot/links:read
     params:
