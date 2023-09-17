@@ -1,7 +1,7 @@
 title: Application users management
 
 methods:
-  read:
+  get-users-list:
     title: Read users
     permission: administration:read
     params:

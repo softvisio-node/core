@@ -37,7 +37,7 @@ methods:
           additionalProperties: false
           required: [subscribed]
 
-  read:
+  get-notifications-list:
     title: Read notifications
     permission: users
     maxParallelCallsPerClient: 5
