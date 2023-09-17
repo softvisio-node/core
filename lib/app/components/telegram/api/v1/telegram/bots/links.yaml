@@ -21,6 +21,14 @@ methods:
             order_by: { last_user_created: desc }
             limit: { maxLimit: 100 }
 
+  get-link:
+    title: Get telegram bot link data
+    permission: telegram/bot/links:read
+    params:
+      - name: telegram_bot_link_id
+        required: true
+        schema: { type: string, format: int64, aclResolver: telegram-bot-link }
+
   create-link:
     title: Createe link
     permission: telegram/bot/links:create
