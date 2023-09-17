@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.48.33 (2023-09-17)
+
+Fixes:
+
+-   fix: acl user
+-   fix: api read method renamed
+-   fix: order_by param
+-   fix: telegram
+
 ### 7.48.32 (2023-09-15)
 
 Fixes:
