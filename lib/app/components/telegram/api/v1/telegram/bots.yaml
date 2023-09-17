@@ -4,7 +4,7 @@ aclResolvers:
   telegram-bot: SELECT acl_id AS id FROM telegram_bot WHERE id = ?
 
 methods:
-  read:
+  get-bots-list:
     title: Read telegram bots
     permission: users
     params:

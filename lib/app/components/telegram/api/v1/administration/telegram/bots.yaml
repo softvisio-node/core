@@ -1,7 +1,7 @@
 title: Application telegram bots management
 
 methods:
-  read:
+  get-bots-list:
     title: Read telegram bots
     permission: administration:read
     params:
