@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.48.37 (2023-09-18)
+
+Fixes:
+
+-   fix: postgresql migration
+
 ### 7.48.36 (2023-09-18)
 
 Fixes:
