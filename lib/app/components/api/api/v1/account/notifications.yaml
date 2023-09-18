@@ -48,7 +48,7 @@ methods:
           read:
             fields:
               done: { type: boolean, operator: "=" }
-            order_by: { created: desc }
+            order_by: [[created, desc]]
             limit: { maxLimit: 100 }
 
   update:

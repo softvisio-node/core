@@ -17,7 +17,7 @@ methods:
               total_subscribed_users: { type: string, sortable: true }
               started: { type: string, sortable: true }
               error: { type: string, sortable: true }
-            order_by: { telegram_username: asc }
+            order_by: [[telegram_username, asc]]
             limit: { maxLimit: 100 }
 
   set-bot-started:

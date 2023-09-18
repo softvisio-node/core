@@ -16,7 +16,7 @@ methods:
               created: { sortable: true }
               last_activity: { sortable: true }
               enabled: { sortable: true }
-            order_by: { email: asc }
+            order_by: [[email, asc]]
             limit: { maxLimit: 100 }
 
   create:

@@ -17,7 +17,7 @@ methods:
               roles: { type: string, operator: in }
               created: { sortable: true }
               enabled: { type: boolean, operator: "=", sortable: true }
-            order_by: { email: desc }
+            order_by: [[email, desc]]
             limit: { maxLimit: 50 }
 
   suggest-acl-users:
@@ -30,7 +30,7 @@ methods:
             fields:
               acl_id: { type: string, format: int64, operator: "=", required: true, aclResolver: acl }
               email: { type: string, operator: "like" }
-            order_by: { email, desc }
+            order_by: [[email, desc]]
             offset: false
             limit: { maxLimit: 20 }
 
