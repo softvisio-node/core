@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.48.41 (2023-09-18)
+
+Fixes:
+
+-   fix: postgresql init
+
 ### 7.48.40 (2023-09-18)
 
 Fixes:
