@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.48.39 (2023-09-18)
+
+Fixes:
+
+-   fix: acl roles
+
 ### 7.48.38 (2023-09-18)
 
 Fixes:
