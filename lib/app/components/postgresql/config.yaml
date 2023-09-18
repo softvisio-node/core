@@ -4,7 +4,7 @@ optionalDependencies: ~
 
 config:
   mode: primary
-  postgresVersion: 15
+  postgresVersion: ~
   postgresClusterName: main
   dataRoot: ~
 
