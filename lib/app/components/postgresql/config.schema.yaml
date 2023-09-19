@@ -1,3 +1,9 @@
+- $id: env
+  type: object
+  properties:
+    POSTGRESQL_VERSION: { type: integer }
+  requiredProperties: [POSTGRESQL_VERSION]
+
 - $id: public-config
   type: object
   properties: {}
@@ -6,7 +12,6 @@
   type: object
   properties:
     mode: { enum: [primary, standby-sync, standby-async, standby-backup] }
-    clusterVersion: { type: integer, minimum: 15 }
     clusterName: { type: string }
     dataRoot: { type: ["null", string] }
 
@@ -78,4 +83,4 @@
       type: ["null", object]
 
   additionalProperties: false
-  required: [mode, clusterVersion, clusterName, dataRoot, access]
+  required: [mode, clusterName, dataRoot, access]

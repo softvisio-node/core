@@ -4,7 +4,6 @@ optionalDependencies: ~
 
 config:
   mode: primary
-  clusterVersion: ~
   clusterName: main
   dataRoot: ~
 
