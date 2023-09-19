@@ -6,7 +6,7 @@
   type: object
   properties:
     mode: { enum: [primary, standby-sync, standby-async, standby-backup] }
-    postgresVersion: { type: integer, minimum: 15 }
+    clusterVersion: { type: integer, minimum: 15 }
     clusterName: { type: string }
     dataRoot: { type: ["null", string] }
 
@@ -78,4 +78,4 @@
       type: ["null", object]
 
   additionalProperties: false
-  required: [mode, postgresVersion, clusterName, dataRoot, access]
+  required: [mode, clusterVersion, clusterName, dataRoot, access]
