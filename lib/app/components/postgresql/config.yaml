@@ -5,7 +5,7 @@ optionalDependencies: ~
 config:
   mode: primary
   postgresVersion: ~
-  postgresClusterName: main
+  clusterName: main
   dataRoot: ~
 
   access:
