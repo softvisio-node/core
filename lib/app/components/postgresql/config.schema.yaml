@@ -2,7 +2,7 @@
   type: object
   properties:
     POSTGRESQL_VERSION: { type: integer }
-  requiredProperties: [POSTGRESQL_VERSION]
+  required: [POSTGRESQL_VERSION]
 
 - $id: public-config
   type: object
