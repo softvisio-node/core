@@ -116,6 +116,10 @@ properties:
               properties:
                 context: { type: string }
                 dockerfile: { type: string }
+                args:
+                  type: object
+                  additionslProperties: { type: string }
+                  minProperties: 1
               additionalProperties: false
 
       required: [image]
