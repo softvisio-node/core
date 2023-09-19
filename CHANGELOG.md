@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.48.45 (2023-09-19)
+
+Fixes:
+
+-   fix: args order
+
 ### 7.48.44 (2023-09-19)
 
 Fixes:
