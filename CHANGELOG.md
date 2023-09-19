@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.48.42 (2023-09-19)
+
+Fixes:
+
+-   fix: docker build
+-   fix: postgres
+
 ### 7.48.41 (2023-09-18)
 
 Fixes:
