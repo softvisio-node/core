@@ -1,7 +1,7 @@
 title: Telegram bot links
 
 aclResolvers:
-  telegram-bot-user: SELECT telegram_bot.acl_id AS id FROM telegram_bot_link, telegram_bot WHERE telegram_bot_link.telegram_bot_id = telegram_bot.id AND telegram_bot_link.id = ?
+  telegram-bot-user: SELECT telegram_bot.acl_id AS id FROM telegram_bot_user, telegram_bot WHERE telegram_bot_user.telegram_bot_id = telegram_bot.id AND telegram_bot_user.id = ?
 
 methods:
   get-users-list:
