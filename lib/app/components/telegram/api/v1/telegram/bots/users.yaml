@@ -1,7 +1,7 @@
 title: Telegram bot links
 
 aclResolvers:
-  telegram-bot-link: SELECT telegram_bot.acl_id AS id FROM telegram_bot_link, telegram_bot WHERE telegram_bot_link.telegram_bot_id = telegram_bot.id AND telegram_bot_link.id = ?
+  telegram-bot-user: SELECT telegram_bot.acl_id AS id FROM telegram_bot_link, telegram_bot WHERE telegram_bot_link.telegram_bot_id = telegram_bot.id AND telegram_bot_link.id = ?
 
 methods:
   get-users-list:
@@ -27,7 +27,7 @@ methods:
     params:
       - name: telegram_bot_link_id
         required: true
-        schema: { type: string, format: int64, aclResolver: telegram-bot-link }
+        schema: { type: string, format: int64, aclResolver: telegram-bot-user }
 
   update-user:
     title: Update telegram bot link
@@ -35,7 +35,7 @@ methods:
     params:
       - name: teleram_bot_link_id
         required: true
-        schema: { type: string, format: int64, aclResolver: telegram-bot-link }
+        schema: { type: string, format: int64, aclResolver: telegram-bot-user }
       - name: options
         required: true
         schema:
