@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.48.46 (2023-09-20)
+
+Fixes:
+
+-   fix: postgres
+
 ### 7.48.45 (2023-09-19)
 
 Fixes:
