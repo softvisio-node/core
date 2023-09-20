@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.49.0 (2023-09-20)
+
+Features:
+
+-   feat: dbh destroy
+
+Fixes:
+
+-   fix: telegram
+
 ### 7.48.55 (2023-09-20)
 
 Fixes:
