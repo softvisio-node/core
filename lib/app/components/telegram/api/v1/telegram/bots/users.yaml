@@ -1,0 +1,47 @@
+title: Telegram bot links
+
+aclResolvers:
+  telegram-bot-link: SELECT telegram_bot.acl_id AS id FROM telegram_bot_link, telegram_bot WHERE telegram_bot_link.telegram_bot_id = telegram_bot.id AND telegram_bot_link.id = ?
+
+methods:
+  get-users-list:
+    title: Read telegram bot links
+    permission: telegram/bot/users:read
+    params:
+      - name: options
+        required: true
+        schema:
+          read:
+            fields:
+              telegram_bot_id: { type: string, format: int64, required: true, operator: "=", aclResolver: telegram-bot }
+              name: { type: string, operator: "like", sortable: true }
+              created: { sortable: true }
+              last_user_created: { sortable: true }
+              total_subscribed_users: { sortable: true }
+            order_by: [[last_user_created, desc]]
+            limit: { maxLimit: 100 }
+
+  get-user:
+    title: Get telegram bot link data
+    permission: telegram/bot/users:read
+    params:
+      - name: telegram_bot_link_id
+        required: true
+        schema: { type: string, format: int64, aclResolver: telegram-bot-link }
+
+  update-user:
+    title: Update telegram bot link
+    permission: telegram/bot/users:update
+    params:
+      - name: teleram_bot_link_id
+        required: true
+        schema: { type: string, format: int64, aclResolver: telegram-bot-link }
+      - name: options
+        required: true
+        schema:
+          type: object
+          properties:
+            name: { type: string }
+            description: { type: string }
+          minProperties: 1
+          additionalProperties: false
