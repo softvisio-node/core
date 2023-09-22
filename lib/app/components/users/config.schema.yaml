@@ -9,6 +9,7 @@
         - { type: string, format: uri }
 
     defaultGravatarEncoded: { typs: string }
+    defaultGravatarUrl: { type:string, format: uri }
 
   additionalProperties: false
-  required: [cacheMaxSize, defaultGravatarImage, defaultGravatarEncoded]
+  required: [cacheMaxSize, defaultGravatarImage, defaultGravatarEncoded, defaultGravatarUrl]
