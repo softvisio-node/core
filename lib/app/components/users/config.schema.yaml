@@ -8,8 +8,8 @@
         - { type: string, format: email }
         - { type: string, format: uri }
 
-    defaultGravatarEncoded: { typs: string }
+    defaultGravatarParam: { typs: string }
     defaultGravatarUrl: { type:string, format: uri }
 
   additionalProperties: false
-  required: [cacheMaxSize, defaultGravatarImage, defaultGravatarEncoded, defaultGravatarUrl]
+  required: [cacheMaxSize, defaultGravatarImage, defaultGravatarParam, defaultGravatarUrl]
