@@ -45,7 +45,7 @@
     # sessions
     sessionsCacheMaxSize: { type: integer, minimum: 1 }
     sessionTokenLength: { type: integer, minimum: 6 }
-    sessionMaxAge: { type: integer, minimum: 60_000 } # ms
+    sessionMaxAge: { type: string, format: duration } # ms
     authorizedSessionMaxAge: { type: string, format: duration } # ms
 
     # oauth
