@@ -12,7 +12,7 @@ config:
     telegram: { enabled: true, editable: true, subscribed: true }
     push: { enabled: true, editable: true, subscribed: false }
 
-  internalNotificationsMaxAge: 2592000 # seconts, 30 days
+  internalNotificationsMaxAge: 30 days
 
   smtp: ~
 
