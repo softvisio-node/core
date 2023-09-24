@@ -6,4 +6,4 @@ optionalDependencies: ~
 
 config:
   actionTokenLength: 8
-  actionTokenMaxAge: 600_000 # ms, 10 minutes
+  actionTokenMaxAge: 10 minutes

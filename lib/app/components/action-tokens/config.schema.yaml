@@ -2,7 +2,7 @@
   type: object
   properties:
     actionTokenLength: { type: integer, minimum: 6 }
-    actionTokenMaxAge: { type: integer, minimum: 60_000 } # ms
+    actionTokenMaxAge: { type: string, format: duration }
 
   additionalProperties: false
   required: [actionTokenLength, actionTokenMaxAge]
