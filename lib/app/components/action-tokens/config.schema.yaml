@@ -1,8 +1,5 @@
 - $id: config
   type: object
-  properties:
-    actionTokenLength: { type: integer, minimum: 6 }
-    actionTokenMaxAge: { type: string, format: duration }
-
+  properties: {}
   additionalProperties: false
-  required: [actionTokenLength, actionTokenMaxAge]
+  required: []
