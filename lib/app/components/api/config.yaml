@@ -32,8 +32,7 @@ config:
   newUserEnabledByDefault: true # new users are enabled by default
 
   # tokens
-  tokensCacheMaxSize: 10_000
-  tokenLength: 8
+  apiTokensCacheMaxSize: 10_000
 
   # sessions
   sessionsCacheMaxSize: 10_000

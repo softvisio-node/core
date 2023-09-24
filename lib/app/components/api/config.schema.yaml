@@ -39,8 +39,7 @@
     newUserEnabledByDefault: { typs: boolean } # new users are enabled by default
 
     # tokens
-    tokensCacheMaxSize: { type: integer, minimum: 1 }
-    tokenLength: { type: integer, minimum: 6 }
+    apiTokensCacheMaxSize: { type: integer, minimum: 1 }
 
     # sessions
     sessionsCacheMaxSize: { type: integer, minimum: 1 }
@@ -96,8 +95,7 @@
     - signupEnabled
     - newUserEnabledByDefault
 
-    - tokensCacheMaxSize
-    - tokenLength
+    - apiTokensCacheMaxSize
 
     - sessionsCacheMaxSize
     - sessionTokenLength
