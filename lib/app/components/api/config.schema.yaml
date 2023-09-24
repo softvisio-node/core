@@ -43,7 +43,6 @@
 
     # sessions
     sessionsCacheMaxSize: { type: integer, minimum: 1 }
-    sessionTokenLength: { type: integer, minimum: 6 }
     sessionMaxAge: { type: string, format: duration } # ms
     authorizedSessionMaxAge: { type: string, format: duration } # ms
 
@@ -98,7 +97,6 @@
     - apiTokensCacheMaxSize
 
     - sessionsCacheMaxSize
-    - sessionTokenLength
     - sessionMaxAge
     - authorizedSessionMaxAge
 

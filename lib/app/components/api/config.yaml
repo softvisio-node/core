@@ -36,7 +36,6 @@ config:
 
   # sessions
   sessionsCacheMaxSize: 10_000
-  sessionTokenLength: 16
   sessionMaxAge: 30 days
   authorizedSessionMaxAge: 5 minutes
 
