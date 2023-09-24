@@ -11,6 +11,6 @@ config:
   cacheEnabled: true
   cacheMaxSize: 100G
   cacheMinFree: ~
-  cacheInactive: 1w
+  cacheInactive: 1 week
   cacheStatus: false
   cacheBypass: false

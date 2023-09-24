@@ -39,7 +39,7 @@ config:
   sessionsCacheMaxSize: 10_000
   sessionTokenLength: 16
   sessionMaxAge: 2_592_000_000 # ms, 30 days
-  authorizedSessionMaxAge: 300_000 # ms, 5 minutes
+  authorizedSessionMaxAge: 5 minutes
 
   # oauth
   oauth:
