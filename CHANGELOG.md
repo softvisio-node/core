@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.50.0 (2023-09-25)
+
+Features:
+
+-   feat: digital size
+-   feat: duration
+
+Fixes:
+
+-   fix: telegram
+
 ### 7.49.0 (2023-09-20)
 
 Features:
