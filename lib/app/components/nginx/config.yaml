@@ -7,10 +7,10 @@ config:
   listenIpFamily: 4
   dockerEnabled: false
   upstreamHttpPort: 80
-  maxBodySize: 10 MB
+  maxBodySize: 50 MB
   cacheEnabled: true
-  cacheMaxSize: 100 GB
-  cacheMinFree: ~
+  cacheMaxSize: ~
+  cacheMinFree: 1 GB
   cacheInactive: 1 week
   cacheStatus: false
   cacheBypass: false
