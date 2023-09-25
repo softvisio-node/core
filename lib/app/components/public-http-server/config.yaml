@@ -11,7 +11,7 @@ config:
     apiUrl: ws://nginx:81/api
     serverId: ~
     serverNames: "*"
-    maxBodySize: 10M
+    maxBodySize: 10 MB
     cacheEnabled: true
     cacheStatus: false
     cacheBypass: false
