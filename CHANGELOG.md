@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.50.6 (2023-09-25)
+
+Fixes:
+
+-   fix: digital size
+-   fix: nginx default params
+-   fix: passwords
+-   fix: utils globals rremoves
+-   fix: uule
+
 ### 7.50.5 (2023-09-25)
 
 Fixes:
