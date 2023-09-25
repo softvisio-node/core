@@ -1,5 +1,5 @@
 import Headers from "#lib/http/headers";
-import { camelToKebabCase } from "#lib/utils/naming-conventions";
+import { camelToKebabCase } from "#lib/naming-conventions";
 
 const TESTS = [
 

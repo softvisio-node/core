@@ -1,4 +1,4 @@
-import * as namingConventions from "#lib/utils/naming-conventions";
+import * as namingConventions from "#lib/naming-conventions";
 
 const tests = {
     "isSnakeCase": {
