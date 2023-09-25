@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.50.2 (2023-09-25)
+
+Fixes:
+
+-   fix: postgres uid
+
 ### 7.50.1 (2023-09-25)
 
 Fixes:
