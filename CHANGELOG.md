@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.51.0 (2023-09-26)
+
+Features:
+
+-   feat: decimal
+
+Fixes:
+
+-   fix: ajv formats
+-   fix: digital size
+-   fix: net
+
 ### 7.50.6 (2023-09-25)
 
 Fixes:
