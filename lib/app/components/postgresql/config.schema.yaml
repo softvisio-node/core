@@ -13,7 +13,7 @@
   properties:
     mode: { enum: [primary, standby-sync, standby-async, standby-backup] }
     clusterName: { type: string }
-    dataRoot: { type: ["null", string] }
+    dataRootDir: { type: ["null", string] }
 
     access:
       type: array
@@ -83,4 +83,4 @@
       type: ["null", object]
 
   additionalProperties: false
-  required: [mode, clusterName, dataRoot, access]
+  required: [mode, clusterName, dataRootDir, access]

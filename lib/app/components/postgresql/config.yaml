@@ -5,7 +5,7 @@ optionalDependencies: ~
 config:
   mode: primary
   clusterName: main
-  dataRoot: ~
+  dataRootDir: ~
 
   access:
     - { host: local, database: all, user: all, address: ~, auth-method: trust, auth-options: ~ }
