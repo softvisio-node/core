@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.51.1 (2023-09-26)
+
+Fixes:
+
+-   fix: postgres baclup
+
 ### 7.51.0 (2023-09-26)
 
 Features:
