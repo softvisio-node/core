@@ -38,14 +38,17 @@
     backup:
       type: object
       properties:
-        cron:
-          anyOf:
-            - type: "null"
-            - { type: string, format: cron }
-        numnerOfBackups: { type: integer, minimum: 0 }
         backupOn: { enum: [primary, backup] }
+        numnerOfBackups:
+          type: object
+          propertyName: { enum: [hourly, daily, weekly, monthly] }
+          additionalProperties:
+            anyOf:
+              - type: "null"
+              - { type: integer, minimum: 1 }
+          required: [hourly, daily, weekly, monthly]
       additionalProperties: false
-      required: [cron, numnerOfBackups, backupOn]
+      required: [backupOn, numnerOfBackups]
 
     replication:
       type: object
