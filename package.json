@@ -88,6 +88,7 @@
         "ajv-formats-draft2019": "^1.4.3",
         "ajv-keywords": "^5.0.0",
         "bufferutil": "^4.0.3",
+        "decimal.js": "^10.4.3",
         "ejs": "^3.1.5",
         "fast-xml-parser": "^4.2.2",
         "js-yaml": "^4.1.0",
