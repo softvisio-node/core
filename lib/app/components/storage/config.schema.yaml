@@ -16,7 +16,7 @@
     type: { const: local }
 
   additionalProperties: false
-  required: [listenPublicHttpServer, listenPrivateHttpServer, location, maxCacheSize, type]
+  required: [listenPublicHttpServer, listenPrivateHttpServer, location, maxCacheSize, locations, type]
 
 - $id: google
   type: object
@@ -48,7 +48,7 @@
       required: [project_id, private_key, client_email, token_uri]
 
   additionalProperties: false
-  required: [listenPublicHttpServer, listenPrivateHttpServer, location, maxCacheSize, type, bucket, serviceAccount]
+  required: [listenPublicHttpServer, listenPrivateHttpServer, location, maxCacheSize, locations, type, bucket, serviceAccount]
 
 - $id: locations
   type: object
