@@ -11,7 +11,7 @@
 - $id: config
   type: object
   properties:
-    mode: { enum: [primary, standby-sync, standby-async, standby-backup] }
+    mode: { enum: [primary, standby-sync, standby-async] }
     clusterName: { type: string }
     dataRootDir: { type: ["null", string] }
 
@@ -36,18 +36,15 @@
         required: [host, database, user, address, auth-method, auth-options]
 
     backup:
-      type: object
-      properties:
-        numnerOfBackups:
-          type: object
+      anyOf:
+        - type: "null"
+        - type: object
           propertyName: { enum: [hourly, daily, weekly, monthly] }
           additionalProperties:
             anyOf:
               - type: "null"
               - { type: integer, minimum: 1 }
           required: [hourly, daily, weekly, monthly]
-      additionalProperties: false
-      required: [numnerOfBackups]
 
     replication:
       type: object
@@ -85,4 +82,4 @@
       type: ["null", object]
 
   additionalProperties: false
-  required: [mode, clusterName, dataRootDir, access]
+  required: [mode, clusterName, dataRootDir, access, backup]
