@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.51.5 (2023-09-28)
+
+Fixes:
+
+-   fix: pg backups
+-   fix: storage
+
 ### 7.51.4 (2023-09-28)
 
 Fixes:
