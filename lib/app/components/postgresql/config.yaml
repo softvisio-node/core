@@ -13,12 +13,11 @@ config:
     - { host: host, database: replication, user: replication, address: 0.0.0.0/0, auth-method: scram-sha-256, auth-options: ~ }
     - { host: host, database: all, user: all, address: 0.0.0.0/0, auth-method: scram-sha-256, auth-options: ~ }
 
-  backup:
-    numnerOfBackups:
-      hourly: ~
-      daily: 3
-      weekly: 1
-      monthly: ~
+  backups:
+    hourly: ~
+    daily: 3
+    weekly: 1
+    monthly: ~
 
   replication:
     port: 5432

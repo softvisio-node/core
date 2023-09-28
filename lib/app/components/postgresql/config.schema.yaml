@@ -35,7 +35,7 @@
         additionalProperties: false
         required: [host, database, user, address, auth-method, auth-options]
 
-    backup:
+    backups:
       anyOf:
         - type: "null"
         - type: object
@@ -82,4 +82,4 @@
       type: ["null", object]
 
   additionalProperties: false
-  required: [mode, clusterName, dataRootDir, access, backup]
+  required: [mode, clusterName, dataRootDir, access, backups]
