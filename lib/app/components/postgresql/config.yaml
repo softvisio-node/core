@@ -14,7 +14,6 @@ config:
     - { host: host, database: all, user: all, address: 0.0.0.0/0, auth-method: scram-sha-256, auth-options: ~ }
 
   backup:
-    backupOn: primary
     numnerOfBackups:
       hourly: ~
       daily: 3

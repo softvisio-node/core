@@ -38,7 +38,6 @@
     backup:
       type: object
       properties:
-        backupOn: { enum: [primary, backup] }
         numnerOfBackups:
           type: object
           propertyName: { enum: [hourly, daily, weekly, monthly] }
@@ -48,7 +47,7 @@
               - { type: integer, minimum: 1 }
           required: [hourly, daily, weekly, monthly]
       additionalProperties: false
-      required: [backupOn, numnerOfBackups]
+      required: [numnerOfBackups]
 
     replication:
       type: object
