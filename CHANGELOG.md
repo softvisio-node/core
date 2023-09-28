@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.51.2 (2023-09-28)
+
+Fixes:
+
+-   fix: pg backups
+-   fix: postgres backup
+
 ### 7.51.1 (2023-09-26)
 
 Fixes:
