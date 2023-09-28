@@ -9,10 +9,8 @@
     listenPublicHttpServer: { type: boolean }
     listenPrivateHttpServer: { type: boolean }
     location: { type: string, format: kebab-case-root-or-absolute-file-path }
-    privatePaths:
-      anyOf:
-        - type: "null"
-        - { type: array, items: { type: string, format: kebab-case-root-or-absolute-file-path }, uniqueItems: true }
+
+    locations: { $id: locations }
 
     maxCacheSize: { type: integer, minimum: 1 }
     type: { const: local }
@@ -26,10 +24,8 @@
     listenPublicHttpServer: { type: boolean }
     listenPrivateHttpServer: { type: boolean }
     location: { type: string, format: kebab-case-root-or-absolute-file-path }
-    privatePaths:
-      anyOf:
-        - type: "null"
-        - { type: array, items: { type: string, format: kebab-case-root-or-absolute-file-path }, uniqueItems: true }
+
+    locations: { $id: locations }
 
     maxCacheSize: { type: integer, minimum: 1 }
     type: { const: google }
@@ -53,3 +49,14 @@
 
   additionalProperties: false
   required: [listenPublicHttpServer, listenPrivateHttpServer, location, maxCacheSize, type, bucket, serviceAccount]
+
+- $id: locations
+  type: object
+  propertyName: { type: string, format: kebab-case-root-file-path }
+  additionalProperties:
+    type: object
+    properties:
+      private: { type: boolean }
+      virtual: { type: boolean }
+    additionalProperties: false
+    required: [private]

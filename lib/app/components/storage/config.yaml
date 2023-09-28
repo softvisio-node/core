@@ -4,10 +4,13 @@ dependencies:
 optionalDependencies: ~
 
 config:
+  type: local
+  maxCacheSize: 1000
+
   listenPublicHttpServer: true
   listenPrivateHttpServer: true
   location: /storage
-  privatePaths:
-    - /private
-  maxCacheSize: 1000
-  type: local
+
+  locations:
+    /public: { virtual: true, private: false }
+    /private: { virtual: true, private: false }
