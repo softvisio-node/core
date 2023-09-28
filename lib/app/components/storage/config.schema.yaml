@@ -61,3 +61,4 @@
       inactiveMaxAge: { type: string, format: duration }
     additionalProperties: false
     required: [private]
+  required: ["/"]
