@@ -12,5 +12,5 @@ config:
   location: /storage
 
   locations:
-    /public: { virtual: true, private: false }
-    /private: { virtual: true, private: false }
+    /: { private: false }
+    /private: { private: false }

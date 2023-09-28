@@ -57,6 +57,7 @@
     type: object
     properties:
       private: { type: boolean }
-      virtual: { type: boolean }
+      maxAge: { type: string, format: duration }
+      inactiveMaxAge: { type: string, format: duration }
     additionalProperties: false
     required: [private]
