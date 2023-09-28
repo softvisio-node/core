@@ -10,7 +10,7 @@
     listenPrivateHttpServer: { type: boolean }
     location: { type: string, format: kebab-case-root-or-absolute-file-path }
 
-    locations: { $id: locations }
+    locations: { $ref: locations }
 
     maxCacheSize: { type: integer, minimum: 1 }
     type: { const: local }
@@ -25,7 +25,7 @@
     listenPrivateHttpServer: { type: boolean }
     location: { type: string, format: kebab-case-root-or-absolute-file-path }
 
-    locations: { $id: locations }
+    locations: { $ref: locations }
 
     maxCacheSize: { type: integer, minimum: 1 }
     type: { const: google }
