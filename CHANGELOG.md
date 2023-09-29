@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.51.12 (2023-09-29)
+
+Fixes:
+
+-   fix: pg backups
+
 ### 7.51.11 (2023-09-29)
 
 Fixes:
