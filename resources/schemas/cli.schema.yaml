@@ -37,7 +37,7 @@
       properties:
         title: { type: string }
         short: { $ref: short }
-      required: [title, commands]
+      required: [title]
 
 - $id: options
   anyOf:
