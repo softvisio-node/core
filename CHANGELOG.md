@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.51.13 (2023-10-01)
+
+Fixes:
+
+-   fix: cli
+-   fix: pg backups
+
 ### 7.51.12 (2023-09-29)
 
 Fixes:
