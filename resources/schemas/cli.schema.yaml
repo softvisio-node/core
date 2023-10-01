@@ -20,7 +20,7 @@
   anyOf:
     - type: "null"
     - type: object
-      propertyName: { type: string, format: kebab-case }
+      propertyNames: { type: string, format: kebab-case }
       additionalProperties: { $res: command }
 
 - $id: command
@@ -43,7 +43,7 @@
   anyOf:
     - type: "null"
     - type: object
-      propertyName: { type: string, format: kebab-case }
+      propertyNames: { type: string, format: kebab-case }
       additionalProperties: { $ref: option }
 
 - $id: option
@@ -63,7 +63,7 @@
   anyOf:
     - type: "null"
     - type: object
-      propertyName: { type: string, format: kebab-case }
+      propertyNames: { type: string, format: kebab-case }
       additionalProperties: { $ref: argument }
 
 - $id: argument

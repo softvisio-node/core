@@ -52,7 +52,7 @@
 
 - $id: locations
   type: object
-  propertyName: { type: string, format: kebab-case-root-file-path }
+  propertyNames: { type: string, format: kebab-case-root-file-path }
   additionalProperties:
     type: object
     properties:

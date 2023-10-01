@@ -39,7 +39,7 @@
       anyOf:
         - type: "null"
         - type: object
-          propertyName: { enum: [hourly, daily, weekly, monthly] }
+          propertyNames: { enum: [hourly, daily, weekly, monthly] }
           additionalProperties:
             anyOf:
               - type: "null"
