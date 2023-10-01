@@ -48,7 +48,7 @@
 
 - $id: option
   anyOf:
-    - tyoe: "null"
+    - type: "null"
     - type: object
       properties:
         short: { ref: short }
@@ -80,6 +80,5 @@
 
 - $id: short
   anyOf:
-    - type: "null"
     - const: false
     - { type: string, minLength: 1, maxLength: 1 }
