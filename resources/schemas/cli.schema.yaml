@@ -6,7 +6,7 @@
         description: { type: string }
         commands: { $ref: commands }
       additionalProperties: false
-      required: [title]
+      required: [title, commands]
     - type: object
       properties:
         title: { type: string }
@@ -51,7 +51,7 @@
     - type: "null"
     - type: object
       properties:
-        short: { ref: short }
+        short: { $ref: short }
         description: { type: string }
         required: { type: boolean }
         default: { type: [string, integer, boolean] }
