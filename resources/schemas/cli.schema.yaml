@@ -80,5 +80,6 @@
 
 - $id: short
   anyOf:
+    - type: "null"
     - const: false
     - { type: string, minLength: 1, maxLength: 1 }
