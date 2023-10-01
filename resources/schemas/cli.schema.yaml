@@ -51,7 +51,7 @@
     - type: "null"
     - type: object
       properties:
-        short1: { ref: short }
+        short: { ref: short }
         description: { type: string }
         required: { type: boolean }
         default: { type: [string, integer, boolean] }
