@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.51.20 (2023-10-02)
+
+Fixes:
+
+-   fix: cli
+-   fix: telegram
+
 ### 7.51.19 (2023-10-01)
 
 Fixes:
