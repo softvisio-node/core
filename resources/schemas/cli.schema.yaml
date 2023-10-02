@@ -4,6 +4,7 @@
       properties:
         title: { type: string }
         description: { type: string }
+        globalOptions: { $ref: options }
         commands: { $ref: commands }
       additionalProperties: false
       required: [title, commands]
@@ -11,6 +12,7 @@
       properties:
         title: { type: string }
         description: { type: string }
+        globalOptions: { $ref: options }
         options: { $ref: options }
         arguments: { $ref: arguments }
       additionalProperties: false
