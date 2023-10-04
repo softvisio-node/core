@@ -12,17 +12,17 @@
     usersCacheMaxSize: { type: integer, minimum: 100 }
     runUpdater: { type: boolean }
     runProcessor: { type: boolean }
-    storageFilesLocation: { type: string, format: kebab-case-relative-file-path }
-    storageFilesMaxAge: { type: integer, minimum: 60 }
-    downloadFilesLocation: { type: string, format: kebab-case-glob-pattern }
-    downloadFilesCacheControl: { type: string }
+
+    storageLocation: { type: string, formal: kebab-case-path }
+    storageMaxAge: { type: string, format: duration }
+    storageCacheControl: { format: string }
 
   additionalProperties: false
   required:
     - usersCacheMaxSize
     - runUpdater
     - runProcessor
-    - storageFilesLocation
-    - storageFilesMaxAge
-    - downloadFilesLocation
-    - downloadFilesCacheControl
+
+    - storageLocation
+    - storageMaxAge
+    - storageCacheControl

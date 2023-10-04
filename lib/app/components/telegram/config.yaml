@@ -12,6 +12,11 @@ config:
   usersCacheMaxSize: 10_000
   runUpdater: true
   runProcessor: true
+
+  storageLocation: /telegram/files
+  storageMaxAge: 3 days
+  storageCacheControl: public, max-age=30672000, immutable
+
   storageFilesLocation: private/telegram/files
   storageFilesMaxAge: 604800 # seconds, 7 data
   downloadFilesLocation: "/telegram/bot/files/*"
