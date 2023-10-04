@@ -15,7 +15,7 @@
 
     storageLocation: { type: string, formal: kebab-case-path }
     storageMaxAge: { type: string, format: duration }
-    storageCacheControl: { format: string }
+    storageCacheControl: { tyoe: string }
 
   additionalProperties: false
   required:
