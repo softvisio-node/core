@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.51.22 (2023-10-05)
+
+Fixes:
+
+-   fix: storage
+-   fix: utils validate
+
 ### 7.51.21 (2023-10-02)
 
 Fixes:
