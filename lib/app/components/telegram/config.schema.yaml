@@ -17,8 +17,8 @@
     storageMaxAge: { type: string, format: duration }
     storageCacheControl: { tyoe: string }
 
-  progilePhotosLocation: { type: string, formal: kebab-case-path }
-  progilePhotosCacheControl: { type: string }
+    progilePhotosLocation: { type: string, formal: kebab-case-path }
+    progilePhotosCacheControl: { type: string }
 
   additionalProperties: false
   required:
