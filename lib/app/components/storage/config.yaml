@@ -12,5 +12,9 @@ config:
   location: /storage
 
   locations:
-    /: { private: false }
-    /private: { private: false }
+    /:
+      private: false
+      cacheControl: public, max-age=1
+    /private:
+      private: false
+      cacheControl: public, max-age=1
