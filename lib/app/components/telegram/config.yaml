@@ -16,3 +16,6 @@ config:
   storageLocation: /telegram/files
   storageMaxAge: 3 days
   storageCacheControl: public, max-age=30672000, immutable
+
+  progilePhotosLocation: /telegram/user/profile-photos
+  progilePhotosCacheControl: public, max-age=1
