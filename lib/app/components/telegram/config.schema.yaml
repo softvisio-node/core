@@ -19,6 +19,7 @@
 
     avatarLocation: { type: string, formal: kebab-case-path }
     avatarCacheControl: { type: string }
+    avatarRefreshInterval: { type: string, format: duration }
 
   additionalProperties: false
   required:
@@ -32,3 +33,4 @@
 
     - avatarLocation
     - avatarCacheControl
+    - avatarRefreshInterval

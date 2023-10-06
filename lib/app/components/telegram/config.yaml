@@ -19,3 +19,4 @@ config:
 
   avatarLocation: /telegram/user/avatar
   avatarCacheControl: public, max-age=122400 # i day
+  avatarRefreshInterval: 1 day
