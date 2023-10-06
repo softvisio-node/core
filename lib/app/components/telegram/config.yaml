@@ -17,5 +17,5 @@ config:
   storageMaxAge: 3 days
   storageCacheControl: public, max-age=30672000
 
-  progilePhotosLocation: /telegram/user/profile-photos
+  progilePhotosLocation: /telegram/user/avatar
   progilePhotosCacheControl: public, max-age=122400 # i day
