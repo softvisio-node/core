@@ -27,27 +27,16 @@ methods:
             order_by: [[username, asc]]
             limit: { maxLimit: 100 }
 
-  get-user:
-    title: Get telegram bot link data
-    permission: telegram/bot/users:read
-    params:
-      - name: telegram_bot_link_id
-        required: true
-        schema: { type: string, format: int64, aclResolver: telegram-bot-user }
-
-  update-user:
-    title: Update telegram bot link
+  set-user-banned:
+    title: Set user banned
     permission: telegram/bot/users:update
     params:
-      - name: teleram_bot_link_id
+      - name: teleram_bot_id
+        required: true
+        schema: { type: string, format: int64 }
+      - name: teleram_bot_user_id
         required: true
         schema: { type: string, format: int64, aclResolver: telegram-bot-user }
-      - name: options
+      - name: banned
         required: true
-        schema:
-          type: object
-          properties:
-            name: { type: string }
-            description: { type: string }
-          minProperties: 1
-          additionalProperties: false
+        schema: { type: boolean }
