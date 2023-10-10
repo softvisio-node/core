@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.52.0 (2023-10-10)
+
+Features:
+
+-   feat: sql contains
+
+Fixes:
+
+-   fix: aiv
+-   fix: sql like
+-   fix: sql where parser
+
 ### 7.51.26 (2023-10-08)
 
 Fixes:
