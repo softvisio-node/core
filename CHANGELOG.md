@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.52.1 (2023-10-11)
+
+Fixes:
+
+-   fix: ajv formats
+-   fix: monitoring methods qiery
+
 ### 7.52.0 (2023-10-10)
 
 Features:
