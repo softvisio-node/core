@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.52.2 (2023-10-12)
+
+Fixes:
+
+-   fix: isKebabCasePath
+-   fix: storage hash
+
 ### 7.52.1 (2023-10-11)
 
 Fixes:
