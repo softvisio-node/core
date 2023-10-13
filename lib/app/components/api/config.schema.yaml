@@ -12,6 +12,11 @@
       required: [email, password]
 
     avatarMaxAge: { type: string, format: duration }
+    forceDefaultAvatar: { type: boolean }
+    defaultGravatar:
+      anyOf:
+        - type: "null"
+        - enum: [mp, identicon, monsterid, wavatar, retro, robohash]
 
     # frontend
     frontendUrl: { type: string, format: uri }
@@ -89,6 +94,7 @@
   required:
     - root
     - avatarMaxAge
+    - forceDefaultAvatar
 
     - frontendUrl
     - frontend

@@ -17,6 +17,8 @@ config:
     password: ~
 
   avatarMaxAge: 1 day
+  forceDefaultAvatar: false
+  defaultGravatar: ~
 
   # forntend
   frontendUrl: ~
