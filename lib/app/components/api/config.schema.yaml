@@ -11,6 +11,8 @@
       additionalProperties: false
       required: [email, password]
 
+    avatarMaxAge: { type: string, format: duration }
+
     # frontend
     frontendUrl: { type: string, format: uri }
     frontend:
@@ -86,6 +88,7 @@
   additionalProperties: false
   required:
     - root
+    - avatarMaxAge
 
     - frontendUrl
     - frontend

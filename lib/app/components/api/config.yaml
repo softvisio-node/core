@@ -16,6 +16,8 @@ config:
     email: ~
     password: ~
 
+  avatarMaxAge: 1 day
+
   # forntend
   frontendUrl: ~
   frontend:
