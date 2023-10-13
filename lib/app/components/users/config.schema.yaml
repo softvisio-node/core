@@ -2,14 +2,12 @@
   type: object
   properties:
     cacheMaxSize: { type: integer, minimum: 1 }
+    avatarCacheControl: { type: string }
     defaultGravatarImage:
       anyOf:
         - { enum: ["404", mp, identicon, monsterid, wavatar, retro, robohash, blank] }
         - { type: string, format: email }
-        - { type: string, format: uri }
-
-    defaultGravatarParam: { typs: string }
-    defaultGravatarUrl: { type:string, format: uri }
+        - { type: string, format: uri-reference }
 
   additionalProperties: false
-  required: [cacheMaxSize, defaultGravatarImage, defaultGravatarParam, defaultGravatarUrl]
+  required: [cacheMaxSize, avatarCacheControl, defaultGravatarImage]
