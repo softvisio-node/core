@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.52.3 (2023-10-13)
+
+Fixes:
+
+-   fix: default avatar
+
 ### 7.52.2 (2023-10-12)
 
 Fixes:
