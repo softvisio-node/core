@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.52.10 (2023-10-14)
+
+Fixes:
+
+-   fix: ignotr null headers
+-   fix: users search api
+
 ### 7.52.9 (2023-10-13)
 
 Fixes:
