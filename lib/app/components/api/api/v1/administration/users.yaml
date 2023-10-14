@@ -10,7 +10,7 @@ methods:
           read:
             fields:
               id: { type: string, format: int64, operator: "=", sortable: true }
-              search: { type: string, operator: icontains }
+              search: { type: string, operator: includes case insensitive }
               roles: { type: string, operator: in }
               email: { sortable: true }
               created: { sortable: true }

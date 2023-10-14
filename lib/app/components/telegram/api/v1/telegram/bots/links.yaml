@@ -14,7 +14,7 @@ methods:
           read:
             fields:
               telegram_bot_id: { type: string, format: int64, required: true, operator: "=", aclResolver: telegram-bot }
-              name: { type: string, operator: icontains, sortable: true }
+              name: { type: string, operator: includes case insensitive, sortable: true }
               created: { sortable: true }
               last_user_created: { sortable: true }
               total_subscribed_users: { sortable: true }

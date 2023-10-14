@@ -14,12 +14,12 @@ methods:
           read:
             fields:
               telegram_bot_id: { type: string, format: int64, required: true, operator: "=", aclResolver: telegram-bot }
-              search: { type: string, operator: icontains }
+              search: { type: string, operator: includes case insensitive }
               is_bot: { type: boolean, operator: "=" }
-              username: { type: string, operator: icontains, sortable: true }
-              first_name: { type: string, operator: icontains, sortable: true }
-              last_name: { type: string, operator: icontains, sortable: true }
-              phone: { type: string, operator: icontains, sortable: true }
+              username: { type: string, operator: includes case insensitive, sortable: true }
+              first_name: { type: string, operator: includes case insensitive, sortable: true }
+              last_name: { type: string, operator: includes case insensitive, sortable: true }
+              phone: { type: string, operator: includes case insensitive, sortable: true }
               created: { type: string, sortable: true }
               last_activity: { type: string, sortable: true }
               subscribed: { type: boolean, operator: "=" }

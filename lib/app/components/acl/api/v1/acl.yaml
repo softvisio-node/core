@@ -13,7 +13,7 @@ methods:
           read:
             fields:
               acl_id: { type: string, format: int64, operator: "=", required: true, aclResolver: acl }
-              email: { type: string, operator: icontains, sortable: true }
+              email: { type: string, operator: includes case insensitive, sortable: true }
               roles: { type: string, operator: in }
               created: { sortable: true }
               enabled: { type: boolean, operator: "=", sortable: true }
@@ -29,7 +29,7 @@ methods:
           read:
             fields:
               acl_id: { type: string, format: int64, operator: "=", required: true, aclResolver: acl }
-              email: { type: string, operator: icontains }
+              email: { type: string, operator: includes case insensitive }
             order_by: [[email, desc]]
             offset: false
             limit: { maxLimit: 20 }
