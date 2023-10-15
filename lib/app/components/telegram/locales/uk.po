@@ -21,18 +21,18 @@ msgstr ""
 msgid "Owner"
 msgstr ""
 
-#: ../telegram/bot/user.js:214:16
+#: ../telegram/bot/user.js:258:16
 msgid "Telegram account linked"
 msgstr "Обліковий запис Telegram прив’язано"
 
-#: ../telegram/bot/user.js:184:16
+#: ../telegram/bot/user.js:228:16
 msgid "Telegram account removed"
 msgstr "Акаунт Telegram видалено"
 
-#: ../telegram/bot/user.js:215:16
+#: ../telegram/bot/user.js:259:16
 msgid "Your Telegram account linked to your user profile."
 msgstr "Ваш обліковий запис Telegram, прив’язаний до вашого профілю користувача."
 
-#: ../telegram/bot/user.js:185:16
+#: ../telegram/bot/user.js:229:16
 msgid "Your Telegram account removed from your user profile."
 msgstr "Ваш обліковий запис Telegram видалено з вашого профілю користувача."
