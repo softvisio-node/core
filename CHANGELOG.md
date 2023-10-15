@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.52.11 (2023-10-15)
+
+Fixes:
+
+-   fix: dutation methods
+-   fix: glob patternd refactored
+-   fix: hrafers .add
+-   fix: sql glob
+-   fix: sql includes
+-   fix: sql regexp operatiors
+
 ### 7.52.10 (2023-10-14)
 
 Fixes:
