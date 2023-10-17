@@ -18,7 +18,6 @@
     storageCacheControl: { tyoe: string }
 
     avatarLocation: { type: string, formal: kebab-case-path }
-    avatarRefreshInterval: { type: string, format: duration }
 
   additionalProperties: false
   required:
@@ -31,4 +30,3 @@
     - storageCacheControl
 
     - avatarLocation
-    - avatarRefreshInterval
