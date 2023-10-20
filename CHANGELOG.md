@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.52.14 (2023-10-20)
+
+Fixes:
+
+-   fix: package repo url
+
 ### 7.52.13 (2023-10-20)
 
 Fixes:
