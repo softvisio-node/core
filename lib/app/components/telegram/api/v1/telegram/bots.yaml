@@ -23,6 +23,25 @@ methods:
             order_by: [[name, asc]]
             limit: { maxLimit: 100 }
 
+  check-bot-api-key:
+    title: Check bot API key
+    permission: telegram/bot:create
+    params:
+      - name: telegram_bot_api_key
+        required: true
+        schema: { type: string }
+
+  create-bot:
+    title: Create telegram bot
+    permission: telegram/bot:create
+    params:
+      - name: telegram_bot_api_key
+        required: true
+        schema: { type: string }
+      - name: telegram_bot_type
+        required: true
+        schema: { type: string }
+
   set-bot-started:
     title: Start / stop bot
     permission: telegram/bot:update
