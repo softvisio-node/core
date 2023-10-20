@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.52.13 (2023-10-20)
+
+Fixes:
+
+-   fix: telegram avatar
+-   fix: user avatar url
+
 ### 7.52.12 (2023-10-17)
 
 Fixes:
