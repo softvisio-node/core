@@ -19,6 +19,9 @@ methods:
 
           additionalProperties: false
 
+  check-session:
+    title: Check session status
+
   sign-in:
     title: Sign in
     params:
