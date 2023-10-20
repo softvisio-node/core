@@ -3,11 +3,11 @@ type: postgresql
 patch: ~
 
 emits:
-  - api/user-token/delete # user_id
-  - api/user-token/update
+  - api/token/delete # user_id
+  - api/token/update
 
-  - api/user-session/delete # user_id
-  - api/user-session/update
+  - api/session/delete # user_id
+  - api/session/update
 
 locks: ~
 
