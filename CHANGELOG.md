@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.52.17 (2023-10-21)
+
+Fixes:
+
+-   fix: api connection status events
+
 ### 7.52.16 (2023-10-21)
 
 Fixes:
