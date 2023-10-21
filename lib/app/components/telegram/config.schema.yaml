@@ -17,7 +17,7 @@
     storageMaxAge: { type: string, format: duration }
     storageCacheControl: { tyoe: string }
 
-    avatarLocation: { type: string, formal: kebab-case-path }
+    avatarUrl: { type: string, formal: kebab-case-absolute-folder-path }
 
   additionalProperties: false
   required:
@@ -29,4 +29,4 @@
     - storageMaxAge
     - storageCacheControl
 
-    - avatarLocation
+    - avatarUrl
