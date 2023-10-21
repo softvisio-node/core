@@ -11,6 +11,7 @@
       additionalProperties: false
       required: [email, password]
 
+    avatarUrl: { type: string, formal: kebab-case-absolute-folder-path }
     avatarMaxAge: { type: string, format: duration }
     forceDefaultAvatar: { type: boolean }
     defaultGravatar:
@@ -93,6 +94,8 @@
   additionalProperties: false
   required:
     - root
+
+    - avatarUrl
     - avatarMaxAge
     - forceDefaultAvatar
 

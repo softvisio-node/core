@@ -16,6 +16,7 @@ config:
     email: ~
     password: ~
 
+  avatarUrl: /api/avatar/
   avatarMaxAge: 1 day
   forceDefaultAvatar: false
   defaultGravatar: ~
