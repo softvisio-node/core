@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.52.15 (2023-10-21)
+
+Fixes:
+
+-   fix: api connection status events
+-   fix: api gdh events
+-   fix: telegram
+
 ### 7.52.14 (2023-10-20)
 
 Fixes:
