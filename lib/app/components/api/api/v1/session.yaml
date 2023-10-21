@@ -19,8 +19,9 @@ methods:
 
           additionalProperties: false
 
-  check-session:
+  check-authentication:
     title: Check session status
+    permission: users
 
   sign-in:
     title: Sign in
