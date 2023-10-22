@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.52.18 (2023-10-22)
+
+Fixes:
+
+-   fix: external resources undex
+
 ### 7.52.17 (2023-10-21)
 
 Fixes:
