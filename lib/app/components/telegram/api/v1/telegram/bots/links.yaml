@@ -18,6 +18,7 @@ methods:
               created: { sortable: true }
               last_user_created: { sortable: true }
               total_subscribed_users: { sortable: true }
+              total_unsubscribed_users: { sortable: true }
             order_by: [[last_user_created, desc]]
             limit: { maxLimit: 100 }
 
