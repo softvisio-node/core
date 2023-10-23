@@ -3,8 +3,8 @@ type: postgresql
 patch: ~
 
 emits:
-  - storage/link/update
-  - storage/link/delete
+  - storage/file/update
+  - storage/file/delete
 
 locks:
   - storage/clear
