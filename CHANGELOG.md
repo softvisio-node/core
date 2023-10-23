@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.52.19 (2023-10-23)
+
+Fixes:
+
+-   fix: build node versions
+
 ### 7.52.18 (2023-10-22)
 
 Fixes:
