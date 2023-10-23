@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.52.20 (2023-10-23)
+
+Fixes:
+
+-   fix: acl selector
+-   fix: telegram
+
 ### 7.52.19 (2023-10-23)
 
 Fixes:
