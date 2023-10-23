@@ -1,7 +1,7 @@
 title: Notifications
 emits:
   - notifications/update # emitted when new notifications available
-  - notifications/telegram-linked # true / false, emits, when Telegram link status changed
+  - notifications/telegram/link # true / false, emits, when Telegram link status changed
 
 methods:
   get-user-notifications-profile:

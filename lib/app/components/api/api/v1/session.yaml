@@ -1,5 +1,8 @@
 title: Session
 
+emits:
+  - session/email/confirm
+
 methods:
   init-session:
     title: Init sessions
