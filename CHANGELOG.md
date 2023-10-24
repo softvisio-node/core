@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.53.0 (2023-10-24)
+
+Features:
+
+-   feat: add counter start event
+
+Fixes:
+
+-   fix: avatar utl
+-   fix: telegram acc link
+-   fix: typo
+
 ### 7.52.21 (2023-10-23)
 
 Fixes:
