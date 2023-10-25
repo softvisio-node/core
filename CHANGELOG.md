@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.53.2 (2023-10-25)
+
+Fixes:
+
+-   fix: api token disable
+
 ### 7.53.1 (2023-10-25)
 
 Fixes:
