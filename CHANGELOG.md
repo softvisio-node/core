@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.53.1 (2023-10-25)
+
+Fixes:
+
+-   fix: package engines update
+
 ### 7.53.0 (2023-10-24)
 
 Features:
