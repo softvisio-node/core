@@ -13,11 +13,15 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../api/v1/account.js:82:53
+#: ../api/v1/session.js:213:28
+msgid "Confirm your email"
+msgstr ""
+
+#: ../api/v1/account.js:98:64
 msgid "Email changed"
 msgstr "Электронная почта изменена"
 
-#: ../api/v1/session.js:217:49
+#: ../api/v1/session.js:249:49
 msgid "New device"
 msgstr "Новое устройство"
 
@@ -25,7 +29,7 @@ msgstr "Новое устройство"
 msgid "Password changed"
 msgstr "Пароль изменен"
 
-#: ../api/v1/session.js:219:20
+#: ../api/v1/session.js:251:20
 #, javascript-format
 msgid ""
 "You just signed in on the new device.\n"
@@ -67,6 +71,16 @@ msgstr ""
 "\n"
 "Новый адрес электронной почты: ${n}\n"
 "\n"
+
+#: ../api/v1/account.js:101:20
+#, javascript-format
+msgid ""
+"Your email address was changed.\n"
+"\n"
+"New email address: ${n}\n"
+"\n"
+"Old email address: ${n}\n"
+msgstr ""
 
 #: ../api/v1/account.js:35:53
 msgid "Your password was just changed."

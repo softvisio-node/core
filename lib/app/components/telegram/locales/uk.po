@@ -17,22 +17,30 @@ msgstr ""
 msgid "Bot owner"
 msgstr ""
 
+#: ../component.js:23:39
+msgid "Can create telegram bots"
+msgstr ""
+
 #: ../telegram/component.js:52:20
 msgid "Owner"
 msgstr ""
 
-#: ../telegram/bot/user.js:258:16
+#: ../telegram/bot/user.js:218:16
 msgid "Telegram account linked"
 msgstr "Обліковий запис Telegram прив’язано"
 
-#: ../telegram/bot/user.js:228:16
+#: ../telegram/bot/user.js:188:16
 msgid "Telegram account removed"
 msgstr "Акаунт Telegram видалено"
 
-#: ../telegram/bot/user.js:259:16
+#: ../component.js:22:32
+msgid "Telegram bot owner"
+msgstr ""
+
+#: ../telegram/bot/user.js:219:16
 msgid "Your Telegram account linked to your user profile."
 msgstr "Ваш обліковий запис Telegram, прив’язаний до вашого профілю користувача."
 
-#: ../telegram/bot/user.js:229:16
+#: ../telegram/bot/user.js:189:16
 msgid "Your Telegram account removed from your user profile."
 msgstr "Ваш обліковий запис Telegram видалено з вашого профілю користувача."
