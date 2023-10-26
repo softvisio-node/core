@@ -14,14 +14,14 @@ msgstr ""
 "X-Generator: Poedit 3.3.1\n"
 
 #: ../api/v1/session.js:213:28
-msgid "Confirm your email"
+msgid "Confirm your email address"
 msgstr ""
 
 #: ../api/v1/account.js:98:64
 msgid "Email changed"
 msgstr "Електронна адреса змінена"
 
-#: ../api/v1/session.js:249:49
+#: ../api/v1/session.js:250:49
 msgid "New device"
 msgstr "Новий пристрій"
 
@@ -29,7 +29,19 @@ msgstr "Новий пристрій"
 msgid "Password changed"
 msgstr "Пароль змінено"
 
-#: ../api/v1/session.js:251:20
+#: ../api/v1/session.js:215:25
+#, javascript-format
+msgid ""
+"Use the following link to confirm your email on ${n}:\n"
+"\n"
+"${n}\n"
+"\n"
+"This link is valid till ${n}.\n"
+"\n"
+"If you received this email by mistake just ignore it.\n"
+msgstr ""
+
+#: ../api/v1/session.js:252:20
 #, javascript-format
 msgid ""
 "You just signed in on the new device.\n"
