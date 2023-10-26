@@ -98,6 +98,7 @@ methods:
 
   send-confirmation-email:
     title: Send confirmation email
+    permission: users
 
   confirm-email-by-token:
     title: Confirm user email using email confirmation token
