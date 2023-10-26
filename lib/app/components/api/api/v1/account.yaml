@@ -26,8 +26,6 @@ methods:
 
   set-email-by-token:
     title: Set email using token
-    permission: users
-    authorizationRequired: true
     params:
       - name: token
         required: true
