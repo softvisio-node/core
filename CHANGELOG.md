@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.53.6 (2023-10-27)
+
+Fixes:
+
+-   fix: acl users limit
+
 ### 7.53.5 (2023-10-27)
 
 Fixes:
