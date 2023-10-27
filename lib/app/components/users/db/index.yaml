@@ -6,6 +6,7 @@ emits:
   - users/user/delete # user_id
   - users/user/update
   - users/user/enabled/update
+  - users/user/email/update
 
   - users/user-password-hash/update
   - users/user-notification/update
