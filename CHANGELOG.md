@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.53.7 (2023-10-27)
+
+Fixes:
+
+-   fix: tg notifications subject
+
 ### 7.53.6 (2023-10-27)
 
 Fixes:
