@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.53.8 (2023-10-29)
+
+Fixes:
+
+-   fix: sqlite file url
+
 ### 7.53.7 (2023-10-27)
 
 Fixes:
