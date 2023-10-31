@@ -18,3 +18,5 @@ config:
   storageCacheControl: public, max-age=30672000
 
   avatarUrl: /telegram/avatar/
+
+  allowUsersCreateBots: true

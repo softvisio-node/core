@@ -19,6 +19,8 @@
 
     avatarUrl: { type: string, formal: kebab-case-absolute-folder-path }
 
+    allowUsersCreateBots: { type: boolean }
+
   additionalProperties: false
   required:
     - usersCacheMaxSize
@@ -30,3 +32,5 @@
     - storageCacheControl
 
     - avatarUrl
+
+    - allowUsersCreateBots
