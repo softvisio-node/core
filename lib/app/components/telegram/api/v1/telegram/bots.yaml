@@ -54,6 +54,17 @@ methods:
         required: true
         schema: { type: boolean }
 
+  set-bot-api-token:
+    title: Set bot API token
+    permission: telegram/bot:update
+    params:
+      - name: bot_id
+        required: true
+        schema: { type: string, format: int64, aclResolver: telegram-bot }
+      - name: bot-api-token
+        required: true
+        schema: { type: string }
+
   delete-bot:
     title: Delete bot
     permission: telegram/bot:delete
