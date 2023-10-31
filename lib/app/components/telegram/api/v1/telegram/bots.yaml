@@ -61,7 +61,7 @@ methods:
       - name: bot_id
         required: true
         schema: { type: string, format: int64, aclResolver: telegram-bot }
-      - name: bot-api-token
+      - name: bot_api_token
         required: true
         schema: { type: string }
 
