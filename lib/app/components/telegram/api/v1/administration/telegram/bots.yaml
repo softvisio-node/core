@@ -18,24 +18,5 @@ methods:
               total_unsubscribed_users: { type: string, sortable: true }
               started: { type: string, sortable: true }
               error: { type: string, sortable: true }
-            order_by: [[telegram_username, asc]]
+            order_by: [[name, asc]]
             limit: { maxLimit: 100 }
-
-  set-bot-started:
-    title: Start / stop bot
-    permission: administration:update
-    params:
-      - name: bot_id
-        required: true
-        schema: { type: string, format: int64 }
-      - name: started
-        required: true
-        schema: { type: boolean }
-
-  delete-bot:
-    title: Delete bot
-    permission: administration:delete
-    params:
-      - name: bot_id
-        required: true
-        schema: { type: string, format: int64 }
