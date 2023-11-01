@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.53.9 (2023-11-01)
+
+Fixes:
+
+-   fix: permissions
+-   fix: telegram link
+-   fix: tg notifications subject
+
 ### 7.53.8 (2023-10-29)
 
 Fixes:
