@@ -24,6 +24,10 @@ methods:
             order_by: [[name, asc]]
             limit: { maxLimit: 100 }
 
+  get-registered-components:
+    title: Get registered telegram components
+    permission: telegram/bot:create
+
   check-bot-api-token:
     title: Check bot API token
     permission: telegram/bot:create
