@@ -17,7 +17,7 @@ msgstr ""
 msgid "Bot owner"
 msgstr ""
 
-#: ../component.js:23:39
+#: ../component.js:35:31
 msgid "Can create telegram bots"
 msgstr ""
 
@@ -33,7 +33,7 @@ msgstr "Обліковий запис Telegram прив’язано"
 msgid "Telegram account removed"
 msgstr "Акаунт Telegram видалено"
 
-#: ../component.js:22:32
+#: ../component.js:34:24
 msgid "Telegram bot owner"
 msgstr ""
 
