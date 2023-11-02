@@ -14,6 +14,7 @@ config:
         permissions:
           - acl:*
           - telegram/bot:*
+          - "!telegram/bot:create"
           - "!telegram/bot:delete"
           - telegram/bot/**
 
