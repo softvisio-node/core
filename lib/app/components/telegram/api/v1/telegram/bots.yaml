@@ -109,8 +109,8 @@ methods:
         schema:
           type: object
           properties:
-            name: { type: string, maxLength: 64 }
-            short_description: { type: string, maxLength: 120 }
-            description: { type: string, maxLength: 512 }
+            name: { type: string, minLength: 1, maxLength: 64, transform: ["trim"] }
+            short_description: { type: string, maxLength: 120, transform: ["trim"] }
+            description: { type: string, maxLength: 512, transform: ["trim"] }
           minProperties: 1
           additionalProperties: false

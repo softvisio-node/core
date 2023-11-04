@@ -42,8 +42,8 @@ methods:
         schema:
           type: object
           properties:
-            name: { type: string }
-            description: { type: string }
+            name: { type: string, minLength: 1, maxLength: 100, transform: ["trim"] }
+            description: { type: string, maxLength: 10000, transform: ["trim"] }
           additionalProperties: false
           required: [name]
 
@@ -70,8 +70,8 @@ methods:
         schema:
           type: object
           properties:
-            name: { type: string }
-            description: { type: string }
+            name: { type: string, minLength: 1, maxLength: 100, transform: ["trim"] }
+            description: { type: string, maxLength: 10000, transform: ["trim"] }
           minProperties: 1
           additionalProperties: false
 
