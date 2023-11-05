@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.53.14 (2023-11-05)
+
+Fixes:
+
+-   fix: external resource etag
+-   fix: telegram link
+
 ### 7.53.13 (2023-11-04)
 
 Fixes:
