@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.53.19 (2023-11-05)
+
+Fixes:
+
+-   fix: resources
+-   fix: yaml line width
+
 ### 7.53.18 (2023-11-05)
 
 Fixes:
