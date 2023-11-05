@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.53.15 (2023-11-05)
+
+Fixes:
+
+-   fix: external resource etag
+
 ### 7.53.14 (2023-11-05)
 
 Fixes:
