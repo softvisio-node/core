@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.53.21 (2023-11-05)
+
+Fixes:
+
+-   fix: resources
+
 ### 7.53.20 (2023-11-05)
 
 Fixes:
