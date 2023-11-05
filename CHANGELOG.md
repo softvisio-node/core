@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.53.22 (2023-11-05)
+
+Fixes:
+
+-   fix: fetch browser
+-   fix: resources
+
 ### 7.53.21 (2023-11-05)
 
 Fixes:
