@@ -8,7 +8,6 @@ chrome-windows:
 
   "https:":
     Dnt: 1
-    Upgrade-Insecure-Requests: 1
     Accept: "*/*"
     Accept-Language: en-US,en;q=0.9
     Sec-Ch-Ua: '"Chromium";v="114", "Not?A_Brand";v="8"'
