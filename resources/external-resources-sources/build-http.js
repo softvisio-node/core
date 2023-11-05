@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import playwright from "d:/projects/softvisio-node/playwright/lib/index.js";
+import playwright from "file:///d:/projects/softvisio-node/playwright/lib/index.js";
 import * as config from "#lib/config";
 
 const browser = await playwright.chromium.launch( {
@@ -20,11 +20,11 @@ parseHeaders( "http", headers );
 headers = await getHeaders( "https://httpbin.org/headers" );
 parseHeaders( "https", headers );
 
-const http = config.readConfig( "http.ysml" );
+const http = config.readConfig( "http.yaml" );
 
 http["edge-windows"] = data;
 
-config.writeConfig( "http.ysml", http );
+config.writeConfig( "http.yaml", http );
 
 process.exit();
 
