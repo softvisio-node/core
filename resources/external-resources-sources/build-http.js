@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import playwright from "@softvisio/playwright";
+import playwright from "d:/projects/softvisio-node/playwright/lib/index.js";
 import * as config from "#lib/config";
 
 const browser = await playwright.chromium.launch( {
