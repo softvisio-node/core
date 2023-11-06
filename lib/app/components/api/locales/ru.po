@@ -13,11 +13,11 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.4\n"
 
-#: ../api/v1/session.js:217:28
+#: ../api/v1/session.js:263:60
 msgid "Confirm your email address"
 msgstr "Подтвердите Ваш электронный адрес"
 
-#: ../api/v1/account.js:56:28
+#: ../api/v1/account.js:130:63
 msgid "Email address change"
 msgstr ""
 
@@ -25,22 +25,22 @@ msgstr ""
 msgid "Email changed"
 msgstr "Электронная почта изменена"
 
-#: ../api/v1/session.js:252:49
+#: ../api/v1/session.js:319:68
 msgid "New device"
 msgstr "Новое устройство"
 
-#: ../api/v1/account.js:34:53 ../api/v1/session.js:190:53
+#: ../api/v1/session.js:248:75
 msgid "Password changed"
 msgstr "Пароль изменен"
 
-#: ../api/v1/session.js:234:28
+#: ../api/v1/session.js:291:70
 msgid "Password reset link"
 msgstr ""
 
-#: ../api/v1/session.js:219:25
+#: ../api/v1/session.js:266:16
 #, javascript-format
 msgid ""
-"Use the following link to confirm your email on ${n}:\n"
+"Use the following link to confirm your email:\n"
 "\n"
 "${n}\n"
 "\n"
@@ -49,10 +49,10 @@ msgid ""
 "If you received this email by mistake just ignore it.\n"
 msgstr ""
 
-#: ../api/v1/session.js:236:25
+#: ../api/v1/session.js:294:16
 #, javascript-format
 msgid ""
-"Use the following link to reset your password on ${n}.\n"
+"Use the following link to reset your password:\n"
 "\n"
 "${n}\n"
 "\n"
@@ -61,19 +61,7 @@ msgid ""
 "If you didn't ask for password reset and received this email by mistake just ignore it.\n"
 msgstr ""
 
-#: ../api/v1/account.js:58:25
-#, javascript-format
-msgid ""
-"Use the following lunk to change your email address on ${n} to ${n}:\n"
-"\n"
-"${n}\n"
-"\n"
-"This link is valid till ${n}.\n"
-"\n"
-"If you received this email by mistake just ignore it.\n"
-msgstr ""
-
-#: ../api/v1/session.js:254:20
+#: ../api/v1/session.js:322:16
 #, javascript-format
 msgid ""
 "You just signed in on the new device.\n"
@@ -104,7 +92,7 @@ msgstr ""
 "\n"
 "Если это были не вы, пожалуйста, измените свой пароль и удалите эту сессию из сессий вашей учетной записи.\n"
 
-#: ../api/v1/account.js:111:64
+#: ../api/v1/account.js:159:71
 msgid "Your email address was changed"
 msgstr ""
 
@@ -120,7 +108,7 @@ msgstr ""
 "Новый адрес электронной почты: ${n}\n"
 "\n"
 
-#: ../api/v1/account.js:113:29
+#: ../api/v1/account.js:162:16
 #, javascript-format
 msgid ""
 "Your email address was changed.\n"
@@ -130,7 +118,7 @@ msgid ""
 "Old email address: ${n}\n"
 msgstr ""
 
-#: ../api/v1/account.js:35:53 ../api/v1/session.js:191:53
+#: ../api/v1/session.js:250:72
 msgid "Your password was just changed."
 msgstr "Ваш пароль был только что изменен."
 

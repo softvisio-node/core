@@ -18,10 +18,6 @@ msgid "Administrator"
 msgstr "Администратор"
 
 #: ../config.yaml
-msgid "Bot administrator"
-msgstr ""
-
-#: ../config.yaml
 msgid "Bot read-only permissions"
 msgstr ""
 

@@ -13,7 +13,16 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../telegram/component.js:53:27
+#: ../telegram/component.js:66:20
+#, fuzzy
+msgid "Administrator"
+msgstr "Администратор"
+
+#: ../telegram/component.js:67:27
+msgid "Bot administrator. Full access, but can't delete bot."
+msgstr ""
+
+#: ../telegram/component.js:54:27
 msgid "Bot owner"
 msgstr ""
 
@@ -21,7 +30,7 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr ""
 
-#: ../telegram/component.js:52:20
+#: ../telegram/component.js:53:20
 msgid "Owner"
 msgstr ""
 
