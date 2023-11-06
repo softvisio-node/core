@@ -4,10 +4,10 @@ api/password-changed/body: !ejs <%- locale.l10n( `Your password was just changed
 
 api/email-change-token/subject: !ejs <%- locale.l10n( `Email address change` ) %>
 
-api/email-change-token/body: |-
+api/email-change-token/body: !ejs |-
   <%- locale.l10n( msgid`Use the following lunk to change your email address to ${data.email}: %>
 
-  <%- data.url %>
+  ${data.url}
 
   This link is valid till ${data.tokenExpires.toISOString()}.
 
