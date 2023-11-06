@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.53.23 (2023-11-06)
+
+Fixes:
+
+-   fix: ejs
+-   fix: locale template
+-   fix: spp templstrs
+
 ### 7.53.22 (2023-11-05)
 
 Fixes:
