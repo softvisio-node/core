@@ -1,0 +1,3 @@
+api/password-changed/subject: !ejs <%- locale.l10n( `Password changed` ) %>
+
+api/password-changed/body: !ejs <%- locale.l10n( `Your password was just changed.` ) %>
