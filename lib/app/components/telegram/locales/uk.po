@@ -14,7 +14,6 @@ msgstr ""
 "X-Generator: Poedit 3.3.1\n"
 
 #: ../telegram/component.js:66:20
-#, fuzzy
 msgid "Administrator"
 msgstr "Адміністратор"
 
