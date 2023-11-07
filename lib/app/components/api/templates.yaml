@@ -1,10 +1,10 @@
 # api/password-changed
-api/password-changed/subject: !ejs <%- locale.l10n( `Password changed` ) %>
+api/password-changed/subject: !l10nt Password changed
 
-api/password-changed/body: !ejs <%- locale.l10n( `Your password was just changed.` ) %>
+api/password-changed/body: !l10nt Your password was just changed.
 
 # api/email-change-token
-api/email-change-token/subject: !ejs <%- locale.l10n( `Email address change` ) %>
+api/email-change-token/subject: !l10nt Email address change
 
 api/email-change-token/body: !ejs |-
   <%- locale.l10n( msgid`Use the following link to change your email address to ${data.email}:
@@ -17,7 +17,7 @@ api/email-change-token/body: !ejs |-
   ` ) %>
 
 # api/email-changed
-api/email-changed/subject: !ejs <%- locale.l10n( `Your email address was changed` ) %>
+api/email-changed/subject: !l10nt Your email address was changed
 
 api/email-changed/body: !ejs |-
   <%- locale.l10n( msgid`Your email address was changed.
@@ -28,7 +28,7 @@ api/email-changed/body: !ejs |-
   ` ) %>
 
 # api/confirm-email-token
-api/confirm-email-token/subject: !ejs <%- locale.l10n( `Confirm your email address` ) %>
+api/confirm-email-token/subject: !l10nt Confirm your email address
 
 api/confirm-email-token/body: !ejs |-
   <%- locale.l10n( msgid`Use the following link to confirm your email:
@@ -41,7 +41,7 @@ api/confirm-email-token/body: !ejs |-
   ` ) %>
 
 # api/password-recovery-token
-api/password-recovery-token/subject: !ejs <%- locale.l10n( `Password reset link` ) %>
+api/password-recovery-token/subject: !l10nt Password reset link
 
 api/password-recovery-token/body: !ejs |-
   <%- locale.l10n( msgid`Use the following link to reset your password:
@@ -54,7 +54,7 @@ api/password-recovery-token/body: !ejs |-
   ` ) %>
 
 # api/new-signin
-api/new-signin/subject: !ejs <%- locale.l10n( `New device` ) %>
+api/new-signin/subject: !l10nt New device
 
 api/new-signin/body: !ejs |-
   <%- locale.l10n( msgid`You just signed in on the new device.
