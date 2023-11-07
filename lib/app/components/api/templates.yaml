@@ -13,3 +13,13 @@ api/email-change-token/body: !ejs |-
 
   If you received this email by mistake just ignore it.
   ` ) %>
+
+api/email-changed/subject: !ejs <%- locale.l10n( `Your email address was changed` ) %>
+
+api/email-changed/body: !ejs |-
+  <%- locale.l10n( msgid`Your email address was changed.
+
+  New email address: ${data.newEmail}
+
+  Old email address: ${data.oldEmail}
+  ` ) %>
