@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.53.24 (2023-11-07)
+
+Fixes:
+
+-   fix: app templates
+-   fix: ejs
+
 ### 7.53.23 (2023-11-06)
 
 Fixes:
