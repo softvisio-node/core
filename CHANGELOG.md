@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.53.27 (2023-11-07)
+
+Fixes:
+
+-   fix: nginx ejs
+
 ### 7.53.26 (2023-11-07)
 
 Fixes:
