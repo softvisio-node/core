@@ -1,3 +1,13 @@
-api/password-changed/subject: !ejs <%- locale.l10n( `Password changed` ) %>
+# telegram/link-account
+telegram/link-account/subject: !ejs <%- locale.l10n( `Telegram account linked` ) %>
 
-api/password-changed/body: !ejs <%- locale.l10n( `Your password was just changed.` ) %>
+telegram/link-account/body: !ejs |-
+  <%- locale.l10n( msgid`Your Telegram account linked to your user profile.
+  ` ) %>
+
+# telegram/unlink-account
+telegram/unlink-account/subject: !ejs <%- locale.l10n( `Telegram account removed` ) %>
+
+telegram/unlink-account/body: !ejs |-
+  <%- locale.l10n( msgid`Your Telegram account removed from your user profile.
+  ` ) %>
