@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.53.25 (2023-11-07)
+
+Fixes:
+
+-   fix: ejs
+-   fix: ejs parser
+
 ### 7.53.24 (2023-11-07)
 
 Fixes:
