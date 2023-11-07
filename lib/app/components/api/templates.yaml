@@ -1,7 +1,9 @@
+# api/password-changed
 api/password-changed/subject: !ejs <%- locale.l10n( `Password changed` ) %>
 
 api/password-changed/body: !ejs <%- locale.l10n( `Your password was just changed.` ) %>
 
+# api/email-change-token
 api/email-change-token/subject: !ejs <%- locale.l10n( `Email address change` ) %>
 
 api/email-change-token/body: !ejs |-
@@ -14,6 +16,7 @@ api/email-change-token/body: !ejs |-
   If you received this email by mistake just ignore it.
   ` ) %>
 
+# api/email-changed
 api/email-changed/subject: !ejs <%- locale.l10n( `Your email address was changed` ) %>
 
 api/email-changed/body: !ejs |-
@@ -22,4 +25,17 @@ api/email-changed/body: !ejs |-
   New email address: ${data.newEmail}
 
   Old email address: ${data.oldEmail}
+  ` ) %>
+
+# api/confirm-email-token
+api/confirm-email-token/subject: !ejs <%- locale.l10n( `Confirm your email address` ) %>
+
+api/confirm-email-token/body: !ejs |-
+  <%- locale.l10n( msgid`Use the following link to confirm your email:
+
+  ${data.url}
+
+  This link is valid till ${data.tokenExpires.toISOString()}.
+
+  If you received this email by mistake just ignore it.
   ` ) %>
