@@ -33,19 +33,23 @@ msgstr ""
 msgid "Owner"
 msgstr ""
 
-#: ../templates.yaml:4:16
+#: ../templates.yaml
 msgid "Telegram account linked"
 msgstr "Обліковий запис Telegram прив’язано"
 
-#: ../templates.yaml:4:16
+#: ../templates.yaml
 msgid "Telegram account removed"
 msgstr "Акаунт Telegram видалено"
+
+#: ../templates.yaml
+msgid "Telegram account removed from your user profile."
+msgstr ""
 
 #: ../component.js:34:24
 msgid "Telegram bot owner"
 msgstr ""
 
-#: ../templates.yaml:4:16
+#: ../templates.yaml
 msgid "Your Telegram account linked to your user profile."
 msgstr "Ваш обліковий запис Telegram, прив’язаний до вашого профілю користувача."
 

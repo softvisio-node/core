@@ -13,11 +13,11 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../templates.yaml:4:16
+#: ../templates.yaml
 msgid "Confirm your email address"
 msgstr ""
 
-#: ../templates.yaml:4:16
+#: ../templates.yaml
 msgid "Email address change"
 msgstr ""
 
@@ -25,15 +25,15 @@ msgstr ""
 msgid "Email changed"
 msgstr "Електронна адреса змінена"
 
-#: ../templates.yaml:4:16
+#: ../templates.yaml
 msgid "New device"
 msgstr "Новий пристрій"
 
-#: ../templates.yaml:4:16
+#: ../templates.yaml
 msgid "Password changed"
 msgstr "Пароль змінено"
 
-#: ../templates.yaml:4:16
+#: ../templates.yaml
 msgid "Password reset link"
 msgstr ""
 
@@ -104,7 +104,7 @@ msgstr ""
 "\n"
 "Якщо це були не ви, будь ласка, змініть свій пароль і видаліть цей сеанс із сеансів свого облікового запису.\n"
 
-#: ../templates.yaml:4:16
+#: ../templates.yaml
 msgid "Your email address was changed"
 msgstr ""
 
@@ -129,7 +129,7 @@ msgid ""
 "Old email address: ${n}\n"
 msgstr ""
 
-#: ../templates.yaml:4:16
+#: ../templates.yaml
 msgid "Your password was just changed."
 msgstr "Ваш пароль щойно змінено."
 
