@@ -17,10 +17,6 @@ msgstr ""
 msgid "Confirm your email address"
 msgstr "Подтвердите Ваш электронный адрес"
 
-#: ../api/v1/account.js:130:63
-msgid "Email address change"
-msgstr ""
-
 #: ../api/v1/account.js:98:64
 msgid "Email changed"
 msgstr "Электронная почта изменена"
@@ -32,34 +28,6 @@ msgstr "Новое устройство"
 #: ../api/v1/session.js:248:75
 msgid "Password changed"
 msgstr "Пароль изменен"
-
-#: ../api/v1/session.js:291:70
-msgid "Password reset link"
-msgstr ""
-
-#: ../api/v1/session.js:266:16
-#, javascript-format
-msgid ""
-"Use the following link to confirm your email:\n"
-"\n"
-"${n}\n"
-"\n"
-"This link is valid till ${n}.\n"
-"\n"
-"If you received this email by mistake just ignore it.\n"
-msgstr ""
-
-#: ../api/v1/session.js:294:16
-#, javascript-format
-msgid ""
-"Use the following link to reset your password:\n"
-"\n"
-"${n}\n"
-"\n"
-"This link is valid till ${n}.\n"
-"\n"
-"If you didn't ask for password reset and received this email by mistake just ignore it.\n"
-msgstr ""
 
 #: ../api/v1/session.js:322:16
 #, javascript-format
@@ -92,10 +60,6 @@ msgstr ""
 "\n"
 "Если это были не вы, пожалуйста, измените свой пароль и удалите эту сессию из сессий вашей учетной записи.\n"
 
-#: ../api/v1/account.js:159:71
-msgid "Your email address was changed"
-msgstr ""
-
 #: ../api/v1/account.js:84:24
 #, javascript-format
 msgid ""
@@ -107,16 +71,6 @@ msgstr ""
 "\n"
 "Новый адрес электронной почты: ${n}\n"
 "\n"
-
-#: ../api/v1/account.js:162:16
-#, javascript-format
-msgid ""
-"Your email address was changed.\n"
-"\n"
-"New email address: ${n}\n"
-"\n"
-"Old email address: ${n}\n"
-msgstr ""
 
 #: ../api/v1/session.js:250:72
 msgid "Your password was just changed."
