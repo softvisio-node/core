@@ -52,3 +52,22 @@ api/password-recovery-token/body: !ejs |-
 
   If you didn't ask for password reset and received this email by mistake just ignore it.
   ` ) %>
+
+# api/new-signin
+api/new-signin/subject: !ejs <%- locale.l10n( `New device` ) %>
+
+api/new-signin/body: !ejs |-
+  <%- locale.l10n( msgid`You just signed in on the new device.
+
+  IP address: ${data.remoteAddress}
+
+  Device: ${data.userAgent.device || "-"}
+
+  Platform: ${data.userAgent.os || "-"}
+
+  Browser: ${data.userAgent.browserName || "-"}
+
+  User agent: ${data.userAgent.userAgent || "-"}
+
+  If it was not you, please, change your password and remove this session from your account sessions.
+  ` ) %>
