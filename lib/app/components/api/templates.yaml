@@ -39,3 +39,16 @@ api/confirm-email-token/body: !ejs |-
 
   If you received this email by mistake just ignore it.
   ` ) %>
+
+# api/password-recovery-token
+api/password-recovery-token/subject: !ejs <%- locale.l10n( `Password reset link` ) %>
+
+api/password-recovery-token/body: !ejs |-
+  <%- locale.l10n( msgid`Use the following link to reset your password:
+
+  ${data.url}
+
+  This link is valid till ${data.tokenExpires.toISOString()}.
+
+  If you didn't ask for password reset and received this email by mistake just ignore it.
+  ` ) %>
