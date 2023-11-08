@@ -1,0 +1,17 @@
+- $id: public-config
+  type: object
+  properties:
+    storageFilesLocation: false
+    storageFilesMaxAge: false
+    downloadFilesLocation: false
+    downloadFilesCacheControl: false
+
+- $id: config
+  type: object
+  properties:
+    locales: { type: array, items: { type: string, format: locale }, uniqueItems: true }
+    usersCacheMaxSize: { type: integer, minimum: 100 }
+    acl: { type: object }
+
+  additionalProperties: false
+  required: []

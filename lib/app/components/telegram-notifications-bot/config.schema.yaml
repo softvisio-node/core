@@ -6,10 +6,7 @@
 - $id: config
   type: object
   properties:
-    locales: { type: array, items: { type: string, format: locale }, uniqueItems: true }
-    usersCacheMaxSize: { type: integer, minimum: 100 }
-
-    acl: { type: object }
+    telegram: { type: object }
 
   additionalProperties: false
-  required: [acl]
+  required: [telegram]
