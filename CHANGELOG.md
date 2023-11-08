@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.53.29 (2023-11-08)
+
+Fixes:
+
+-   fix: ejs
+-   fix: telegram
+
 ### 7.53.28 (2023-11-07)
 
 Fixes:
