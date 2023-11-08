@@ -17,7 +17,7 @@ config:
   smtp: ~
 
   telegramBot:
-    type: telegramNotificationsBot
+    type: telegramSupportBot
     apiToken: ~
 
   types:
