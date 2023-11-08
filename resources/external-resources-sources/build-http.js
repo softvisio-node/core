@@ -15,10 +15,10 @@ const data = {
 };
 
 var headers = await getHeaders( "http://httpbin.org/headers" );
-parseHeaders( "http", headers );
+parseHeaders( "http:", headers );
 
 headers = await getHeaders( "https://httpbin.org/headers" );
-parseHeaders( "https", headers );
+parseHeaders( "https:", headers );
 
 const http = config.readConfig( "http.yaml" );
 
