@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.53.31 (2023-11-08)
+
+Fixes:
+
+-   fix: fetch browser
+-   fix: tor client
+
 ### 7.53.30 (2023-11-08)
 
 Fixes:
