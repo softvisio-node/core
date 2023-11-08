@@ -17,6 +17,6 @@
         acl: { type: object }
 
       additionalProperties: false
-      required: []
+      required: [usersCacheMaxSize]
 
   required: [telegram]

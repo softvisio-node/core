@@ -1,0 +1,4 @@
+telegram:
+  locales: []
+  usersCacheMaxSize: 1000
+  acl: {}

@@ -9,7 +9,6 @@
 - $id: config
   type: object
   properties:
-    usersCacheMaxSize: { type: integer, minimum: 100 }
     runUpdater: { type: boolean }
     runProcessor: { type: boolean }
 
@@ -23,7 +22,6 @@
 
   additionalProperties: false
   required:
-    - usersCacheMaxSize
     - runUpdater
     - runProcessor
 
