@@ -19,6 +19,11 @@ methods:
               anyOf:
                 - type: "null"
                 - { type: array, item: { type: string, format: locale }, uniqueItem: true }
+            defaultLocale:
+              anyOf:
+                - type: "null"
+                - { type: string, format: locale }
+            useIpAddressCountry: { type: ["null", boolean] }
 
           additionalProperties: false
 
