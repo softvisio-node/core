@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.53.32 (2023-11-09)
+
+Fixes:
+
+-   fix: locales
+-   fix: sql patches
+
 ### 7.53.31 (2023-11-08)
 
 Fixes:
