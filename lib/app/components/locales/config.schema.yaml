@@ -6,8 +6,8 @@
       anyOf:
         - type: "null"
         - { type: string, format: locale }
-    defineLocaleByIpAddress: { type: boolean }
+    detectLocaleByClientIpAddress: { type: boolean }
     currency: { type: string }
 
   additionalProperties: false
-  required: [locales, defaultLocale, defineLocaleByIpAddress, currency]
+  required: [locales, defaultLocale, detectLocaleByClientIpAddress, currency]

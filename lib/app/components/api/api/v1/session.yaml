@@ -23,7 +23,7 @@ methods:
               anyOf:
                 - type: "null"
                 - { type: string, format: locale }
-            defineLocaleByIpAddress: { type: ["null", boolean] }
+            detectLocaleByClientIpAddress: { type: ["null", boolean] }
 
           additionalProperties: false
 

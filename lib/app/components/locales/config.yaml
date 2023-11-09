@@ -7,5 +7,5 @@ optionalDependencies: ~
 config:
   locales: [en-GB, en-US] # uk-UA, ru-RU
   defaultLocale: ~
-  defineLocaleByIpAddress: true
+  detectLocaleByClientIpAddress: true
   currency: USD
