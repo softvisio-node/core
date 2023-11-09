@@ -13,6 +13,11 @@
       type: object
       properties:
         locales: { type: array, items: { type: string, format: locale }, uniqueItems: true }
+        defaultLocale:
+          anyOf:
+            - type: "null"
+            - { type: string, format: locale }
+        detectLocaleByClientLanguage: { type: boolean }
         usersCacheMaxSize: { type: integer, minimum: 100 }
         acl: { type: object }
 
