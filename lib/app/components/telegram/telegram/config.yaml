@@ -1,5 +1,3 @@
 locales: ~
-defaultLocale: ~
-detectLocaleByClientLanguage: true
 usersCacheMaxSize: 1000
 acl: {}
