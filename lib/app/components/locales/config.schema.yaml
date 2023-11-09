@@ -2,7 +2,12 @@
   type: object
   properties:
     locales: { type: array, items: { type: string, formal: locale }, minItems: 1, uniqueItems: true }
+    defaultLocale:
+      anyOf:
+        - type: "null"
+        - { type: string, format: locale }
+    useIpAddressCountry: { type: boolean }
     currency: { type: string }
 
   additionalProperties: false
-  required: [locales, currency]
+  required: [locales, defaultLocale, useIpAddressCountry, currency]

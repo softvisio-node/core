@@ -6,4 +6,6 @@ optionalDependencies: ~
 
 config:
   locales: [en-GB, en-US] # uk-UA, ru-RU
+  defaultLocale: ~
+  useIpAddressCountry: true
   currency: USD
