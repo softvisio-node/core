@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.53.33 (2023-11-10)
+
+Fixes:
+
+-   fix: telegram form data
+
 ### 7.53.32 (2023-11-09)
 
 Fixes:
