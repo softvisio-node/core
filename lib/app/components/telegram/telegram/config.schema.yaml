@@ -15,6 +15,17 @@
         locales: { type: array, items: { type: string, format: locale }, uniqueItems: true }
         usersCacheMaxSize: { type: integer, minimum: 100 }
         acl: { type: object }
+        commands:
+          anyOf:
+            - type: "null"
+            - type: object
+              propertyNames: { enum: [default, all_private_chats, all_group_chats, all_chat_administrators] }
+              additionalProperties:
+                type: object
+                propertyNames: { type: string, format: kebab-case-absolute-file-path }
+                additionalProperties: { type: object, format: translation }
+                minProperties: 1
+              minProperties: 1
 
       additionalProperties: false
       required: [usersCacheMaxSize]
