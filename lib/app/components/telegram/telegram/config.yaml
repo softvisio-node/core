@@ -1,4 +1,5 @@
 locales: ~
 usersCacheMaxSize: 1000
+actionPrefix: ⌘
 acl: {}
 commands: ~
