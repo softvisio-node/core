@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.53.40 (2023-11-15)
+
+Fixes:
+
+-   fix: nginx
+-   fix: telegram
+
 ### 7.53.39 (2023-11-14)
 
 Fixes:
