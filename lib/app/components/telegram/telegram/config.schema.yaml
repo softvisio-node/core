@@ -14,10 +14,9 @@
       properties:
         locales: { type: array, items: { type: string, format: locale }, uniqueItems: true }
         usersCacheMaxSize: { type: integer, minimum: 100 }
-        actionPrefix: { type: string }
         acl: { type: object }
 
       additionalProperties: false
-      required: [usersCacheMaxSize, actionPrefix]
+      required: [usersCacheMaxSize]
 
   required: [telegram]
