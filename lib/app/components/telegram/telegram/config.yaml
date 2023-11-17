@@ -1,3 +1,4 @@
 locales: ~
 usersCacheMaxSize: 1000
+webAppUrl: null
 acl: {}

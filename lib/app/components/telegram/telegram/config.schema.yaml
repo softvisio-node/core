@@ -14,6 +14,11 @@
       properties:
         locales: { type: array, items: { type: string, format: locale }, uniqueItems: true }
         usersCacheMaxSize: { type: integer, minimum: 100 }
+        webAppUrl:
+          anyOf:
+            - type: "null"
+            - { type: string, format: uri-whatwg }
+
         acl: { type: object }
 
       additionalProperties: false
