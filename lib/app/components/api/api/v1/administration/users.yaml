@@ -19,7 +19,7 @@ methods:
             order_by: [[email, asc]]
             limit: { maxLimit: 100 }
 
-  create:
+  create-user:
     title: Create user
     permission: administration:create
     params:
@@ -34,12 +34,13 @@ methods:
           properties:
             password: { type: string }
             enabled: { type: boolean }
+            roles:
+              anyOf:
+                - type: "null"
+                - type: array
+                  items: { type: string }
+
           additionalProperties: false
-      - name: roles
-        schema:
-          type: array
-          items: { type: string }
-          uniqueItems: true
 
   delete:
     title: Delete user
