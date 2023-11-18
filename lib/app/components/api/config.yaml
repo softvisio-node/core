@@ -1,7 +1,6 @@
 dependencies:
   - publicHttpServer
   - dbh
-  - argon2
   - users
   - actionTokens
   - notifications
