@@ -25,10 +25,10 @@ msgstr ""
 msgid "Read-only"
 msgstr ""
 
-#: ../telegram/modules/start.js:10:41
+#: ../telegram/modules/start.js:12:41
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Это бот уведомлений. Он не поддерживает никаких дополнительных команд."
 
-#: ../telegram/modules/start.js:7:41
+#: ../telegram/modules/start.js:9:41
 msgid "You are not authorized to use this bot. You need to link your Telegram account in your user profile settings."
 msgstr "У вас нет прав на использование этого бота. Вам необходимо связать свою учетную запись Telegram в настройках профиля пользователя."

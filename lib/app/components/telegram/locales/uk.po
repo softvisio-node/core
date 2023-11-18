@@ -29,7 +29,7 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr ""
 
-#: ../telegram/bot/modules/start.js:43:37
+#: ../telegram/bot/modules/start.js:57:37
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr ""
 
@@ -37,11 +37,11 @@ msgstr ""
 msgid "Owner"
 msgstr ""
 
-#: ../telegram/bot/modules/locale.js:52:24
+#: ../telegram/bot/modules/locale.js:54:24
 msgid "Please, select your communication language:"
 msgstr ""
 
-#: ../telegram/bot/modules/locale.js:18:41
+#: ../telegram/bot/modules/locale.js:20:41
 msgid "Some error occured, pleast try again."
 msgstr ""
 
