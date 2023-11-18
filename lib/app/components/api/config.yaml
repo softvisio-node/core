@@ -32,9 +32,7 @@ config:
     compress: ~ # user server default value
 
   # users
-  passwordsStrength: strong
   signupEnabled: true
-  newUserEnabledByDefault: true # new users are enabled by default
 
   # tokens
   apiTokensCacheMaxSize: 10_000

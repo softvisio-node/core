@@ -6,3 +6,5 @@ optionalDependencies: ~
 
 config:
   cacheMaxSize: 10_000
+  newUserEnabledByDefault: true # new users are enabled by default
+  passwordsStrength: strong

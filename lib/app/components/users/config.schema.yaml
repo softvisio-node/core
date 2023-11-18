@@ -2,6 +2,8 @@
   type: object
   properties:
     cacheMaxSize: { type: integer, minimum: 1 }
+    newUserEnabledByDefault: { typs: boolean } # new users are enabled by default
+    passwordsStrength: { enum: [weak, normal, strong] }
 
   additionalProperties: false
-  required: [cacheMaxSize]
+  required: [cacheMaxSize, newUserEnabledByDefault, passwordsStrength]

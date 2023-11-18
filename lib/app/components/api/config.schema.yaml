@@ -42,9 +42,7 @@
       required: [maxParallelCallsPerClient, maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
 
     # users
-    passwordsStrength: { enum: [weak, normal, strong] }
     signupEnabled: { typs: boolean }
-    newUserEnabledByDefault: { typs: boolean } # new users are enabled by default
 
     # tokens
     apiTokensCacheMaxSize: { type: integer, minimum: 1 }
@@ -102,9 +100,7 @@
     - frontendUrl
     - frontend
 
-    - passwordsStrength
     - signupEnabled
-    - newUserEnabledByDefault
 
     - apiTokensCacheMaxSize
 
