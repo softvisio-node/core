@@ -28,7 +28,7 @@ methods:
         schema:
           type: string
           format: email
-      - name: fields
+      - name: options
         schema:
           type: object
           properties:
