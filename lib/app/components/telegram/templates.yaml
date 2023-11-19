@@ -2,20 +2,12 @@
 telegram/link-account/subject: !l10nt Telegram account linked
 
 telegram/link-account/body: !ejs |-
-  <%- locale.l10n( msgid`Your Telegram account linked.
-
-  Telegram username: ${data.telegramUsername}
-
-  Linked to the user account: ${data.email}
+  <%- locale.l10n( msgid`Your Telegram account ${ "@" +  data.telegramUsername} was linked to the API user ${data.email}.
   ` ) %>
 
 # telegram/unlink-account
 telegram/unlink-account/subject: !l10nt Telegram account unlinked
 
 telegram/unlink-account/body: !ejs |-
-  <%- locale.l10n( msgid`Your Telegram account unlinked.
-
-  Telegram username: ${data.telegramUsername}
-
-  Unlinked from the user account: ${data.email}
+  <%- locale.l10n( msgid`Your Telegram account ${ "@" +  data.telegramUsername} was unlinked from the API user ${data.email}.
   ` ) %>
