@@ -13,7 +13,7 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../telegram/bot/modules/sign-in.js:215:20
+#: ../telegram/bot/modules/sign-in.js:220:20
 #, javascript-format
 msgid ""
 "${n}\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:229:40
+#: ../telegram/bot/modules/sign-in.js:234:40
 msgid "Change email address"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgstr ""
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:156:62
+#: ../telegram/bot/modules/sign-in.js:161:62
 msgid "Confirmation link is not valid. Please, try again."
 msgstr ""
 
@@ -69,11 +69,11 @@ msgstr ""
 msgid "Please, select your communication language:"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:170:40
+#: ../telegram/bot/modules/sign-in.js:175:40
 msgid "Return to start"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:223:40
+#: ../telegram/bot/modules/sign-in.js:228:40
 msgid "Send confirmation email again"
 msgstr ""
 
@@ -112,7 +112,7 @@ msgstr ""
 msgid "To sign in, please, enter yoour email address"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:165:24
+#: ../telegram/bot/modules/sign-in.js:170:24
 #, javascript-format
 msgid "You are signed in as: ${n}"
 msgstr ""
