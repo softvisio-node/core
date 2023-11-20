@@ -1,13 +1,7 @@
-# telegram/link-account
-telegram/link-account/subject: !l10nt Telegram account linked
+telegram/sign-in-email/subject: !ejs Sign in to "<%- data.telegramBotName" %> bot
 
-telegram/link-account/body: !ejs |-
-  <%- locale.l10n( msgid`Your Telegram account ${ "@" +  data.telegramUsername} was linked to the user ${data.email}.
-  ` ) %>
+telegram/sign-in-email/body: !ejs |-
+  <%- locale.l10n( msgid`Please, click following link to sign in to "${data.telegramBotName}" Telegram bot:
 
-# telegram/unlink-account
-telegram/unlink-account/subject: !l10nt Telegram account unlinked
-
-telegram/unlink-account/body: !ejs |-
-  <%- locale.l10n( msgid`Your Telegram account ${ "@" +  data.telegramUsername} was unlinked from the user ${data.email}.
+  ${data.url}
   ` ) %>
