@@ -25,7 +25,7 @@ msgstr ""
 msgid "Read-only"
 msgstr ""
 
-#: ../telegram/modules/start.js:12:41
+#: ../telegram/modules/start.js:14:41
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
 

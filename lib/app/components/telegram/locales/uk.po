@@ -29,16 +29,48 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr ""
 
+#: ../telegram/bot/modules/sign-in.js:77:40
+msgid "Change email address"
+msgstr ""
+
 #: ../telegram/bot/modules/start.js:57:37
 msgid "Command is unknown. Please, use commands from \"Menu\"."
+msgstr ""
+
+#: ../telegram/bot/modules/sign-in.js:44:45
+msgid "Email address is not valid"
+msgstr ""
+
+#: ../telegram/bot/modules/sign-in.js:113:38
+#, javascript-format
+msgid ""
+"I just sent link to sign inl to your emaul address ${n}.\n"
+"Please, use this link to finish sign in."
 msgstr ""
 
 #: ../telegram/component.js:73:20
 msgid "Owner"
 msgstr ""
 
+#: ../templates.yaml:4:16
+#, javascript-format
+msgid ""
+"Please, click following link to sign in to \"${n}\" Telegram bot:\n"
+"\n"
+"${n}\n"
+msgstr ""
+
 #: ../telegram/bot/modules/locale.js:54:24
 msgid "Please, select your communication language:"
+msgstr ""
+
+#: ../telegram/bot/modules/sign-in.js:71:40
+msgid "Send confirmation email again"
+msgstr ""
+
+#: ../templates.yaml:4:16
+#, javascript-format
+msgid "Sign in to \"${n}\" bot"
 msgstr ""
 
 #: ../telegram/bot/modules/locale.js:20:41
@@ -53,12 +85,19 @@ msgstr "Обліковий запис Telegram прив’язано"
 msgid "Telegram account removed"
 msgstr "Акаунт Telegram видалено"
 
-#: ../templates.yaml
-msgid "Telegram account unlinked"
-msgstr ""
-
 #: ../component.js:34:24
 msgid "Telegram bot owner"
+msgstr ""
+
+#: ../telegram/bot/modules/sign-in.js:58:24
+msgid "To sign in, please, enter yoour email address"
+msgstr ""
+
+#: ../telegram/bot/modules/sign-in.js:64:24
+#, javascript-format
+msgid ""
+"Your email address: ${n}.\n"
+"We sent confirmation email.\n"
 msgstr ""
 
 #: ../templates.yaml
@@ -66,25 +105,5 @@ msgid "Your Telegram account linked to your user profile."
 msgstr "Ваш обліковий запис Telegram, прив’язаний до вашого профілю користувача."
 
 #: ../templates.yaml:4:16
-#, javascript-format
-msgid ""
-"Your Telegram account linked.\n"
-"\n"
-"Telegram username: ${n}\n"
-"\n"
-"Linked to the user account: ${n}\n"
-msgstr ""
-
-#: ../templates.yaml:4:16
 msgid "Your Telegram account removed from your user profile."
 msgstr "Ваш обліковий запис Telegram видалено з вашого профілю користувача."
-
-#: ../templates.yaml:4:16
-#, javascript-format
-msgid ""
-"Your Telegram account unlinked.\n"
-"\n"
-"Telegram username: ${n}\n"
-"\n"
-"Unlinked from the user account: ${n}\n"
-msgstr ""
