@@ -1,4 +1,4 @@
-telegram/sign-in-email/subject: !ejs <%- locale.l10n( `Sign in to "${data.telegramBotName}" bot`) %>
+telegram/sign-in-email/subject: !ejs <%- locale.l10n( msgid`Sign in to "${data.telegramBotName}" bot`) %>
 
 telegram/sign-in-email/body: !ejs |-
   <%- locale.l10n( msgid`Please, click following link to sign in to "${data.telegramBotName}" Telegram bot:
