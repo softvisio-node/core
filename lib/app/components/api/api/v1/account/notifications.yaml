@@ -89,7 +89,3 @@ methods:
   get-telegram-link-url:
     title: Get URL to link telegram account
     permission: users
-
-  unlink-telegram:
-    title: Unlink telegram account
-    permission: users
