@@ -13,6 +13,14 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
+#: ../telegram/bot/modules/sign-in.js:135:20
+#, javascript-format
+msgid ""
+"${n}\n"
+"\n"
+"Yout email address: ${n}\n"
+msgstr ""
+
 #: ../telegram/component.js:86:20
 msgid "Administrator"
 msgstr "Администратор"
@@ -29,23 +37,23 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:77:40
+#: ../telegram/bot/modules/sign-in.js:149:40
 msgid "Change email address"
 msgstr ""
 
-#: ../telegram/bot/modules/start.js:57:37
+#: ../telegram/bot/modules/start.js:64:37
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:44:45
+#: ../telegram/bot/modules/sign-in.js:50:45
 msgid "Email address is not valid"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:113:38
+#: ../telegram/bot/modules/sign-in.js:125:16
 #, javascript-format
 msgid ""
 "I just sent link to sign inl to your emaul address ${n}.\n"
-"Please, use this link to finish sign in."
+"Please, use this link to comlete sign in."
 msgstr ""
 
 #: ../telegram/component.js:73:20
@@ -64,7 +72,7 @@ msgstr ""
 msgid "Please, select your communication language:"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:71:40
+#: ../telegram/bot/modules/sign-in.js:143:40
 msgid "Send confirmation email again"
 msgstr ""
 
@@ -89,15 +97,18 @@ msgstr "Аккаунт Telegram удален"
 msgid "Telegram bot owner"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:58:24
-msgid "To sign in, please, enter yoour email address"
+#: ../telegram/bot/modules/sign-in.js:71:16
+msgid ""
+"To complete sign in, please, click on link which I just sent to your email address.\n"
+"If you didn't received emaul in several minutes you can send it again."
 msgstr ""
 
 #: ../telegram/bot/modules/sign-in.js:64:24
-#, javascript-format
-msgid ""
-"Your email address: ${n}.\n"
-"We sent confirmation email.\n"
+msgid "To sign in, please, enter yoour email address"
+msgstr ""
+
+#: ../telegram/bot/modules/sign-in.js:91:48
+msgid "Token is not valid. Please, try again."
 msgstr ""
 
 #: ../templates.yaml
