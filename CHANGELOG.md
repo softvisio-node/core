@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.53.48 (2023-11-20)
+
+Fixes:
+
+-   fix: config
+-   fix: swarm
+-   fix: telegram
+
 ### 7.53.47 (2023-11-17)
 
 Fixes:
