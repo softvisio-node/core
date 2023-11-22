@@ -19,3 +19,5 @@ config:
   avatarUrl: /telegram/avatar/
 
   allowUsersCreateBots: true
+
+  webAppUrl: ~

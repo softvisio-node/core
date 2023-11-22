@@ -14,14 +14,13 @@
       properties:
         locales: { type: array, items: { type: string, format: locale }, uniqueItems: true }
         usersCacheMaxSize: { type: integer, minimum: 100 }
-        webAppUrl:
-          anyOf:
-            - type: "null"
-            - { type: string, format: uri-whatwg }
+
+        signinRequired: { type: boolean }
+        signupEnabled: { type: boolean }
 
         acl: { type: object }
 
       additionalProperties: false
-      required: [usersCacheMaxSize]
+      required: [usersCacheMaxSize, signinRequired, signupEnabled]
 
   required: [telegram]

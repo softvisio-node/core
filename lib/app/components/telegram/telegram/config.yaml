@@ -1,4 +1,7 @@
 locales: ~
 usersCacheMaxSize: 1000
-webAppUrl: null
+
+signinRequired: false
+signupEnabled: true
+
 acl: {}

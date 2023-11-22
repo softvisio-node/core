@@ -20,6 +20,11 @@
 
     allowUsersCreateBots: { type: boolean }
 
+    webAppUrl:
+      anyOf:
+        - type: "null"
+        - { type: string, format: uri-whatwg }
+
   additionalProperties: false
   required:
     - runUpdater
@@ -32,3 +37,5 @@
     - avatarUrl
 
     - allowUsersCreateBots
+
+    - webAppUrl
