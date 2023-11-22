@@ -6,6 +6,7 @@ optionalDependencies: ~
 config:
   telegram:
     locales: [en-GB, en-US, ru-RU, uk-UA]
+    signupEnabled: false
 
     acl:
       roles:

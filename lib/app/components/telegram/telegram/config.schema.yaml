@@ -15,12 +15,11 @@
         locales: { type: array, items: { type: string, format: locale }, uniqueItems: true }
         usersCacheMaxSize: { type: integer, minimum: 100 }
 
-        signinRequired: { type: boolean }
         signupEnabled: { type: boolean }
 
         acl: { type: object }
 
       additionalProperties: false
-      required: [usersCacheMaxSize, signinRequired, signupEnabled]
+      required: [usersCacheMaxSize, signupEnabled]
 
   required: [telegram]

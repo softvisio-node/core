@@ -1,7 +1,6 @@
 locales: ~
 usersCacheMaxSize: 1000
 
-signinRequired: false
 signupEnabled: true
 
 acl: {}
