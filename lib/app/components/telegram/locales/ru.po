@@ -13,7 +13,7 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../telegram/bot/modules/sign-in.js:215:20
+#: ../telegram/bot/modules/sign-in.js:217:20
 #, javascript-format
 msgid ""
 "${n}\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:229:40
+#: ../telegram/bot/modules/sign-in.js:231:40
 msgid "Change email address"
 msgstr ""
 
@@ -45,11 +45,11 @@ msgstr ""
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:113:62
+#: ../telegram/bot/modules/sign-in.js:113:37
 msgid "Confirmation link is not valid. Please, try again."
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:122:45
+#: ../telegram/bot/modules/sign-in.js:124:45
 msgid "Email address is not valid"
 msgstr ""
 
@@ -69,11 +69,11 @@ msgstr ""
 msgid "Please, select your communication language:"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:170:67
+#: ../telegram/bot/modules/sign-in.js:172:67
 msgid "Return to start"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:223:40
+#: ../telegram/bot/modules/sign-in.js:225:40
 msgid "Send confirmation email again"
 msgstr ""
 
@@ -98,21 +98,21 @@ msgstr "Аккаунт Telegram удален"
 msgid "Telegram bot owner"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:134:49
+#: ../telegram/bot/modules/sign-in.js:136:49
 msgid "This email address is already used by the other user"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:154:16
+#: ../telegram/bot/modules/sign-in.js:156:16
 msgid ""
 "To complete sign in, please, click on link which I just sent to your email address.\n"
 "If you didn't received emaul in several minutes you can send it again."
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:147:24
+#: ../telegram/bot/modules/sign-in.js:149:24
 msgid "To sign in, please, enter yoour email address"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:165:24
+#: ../telegram/bot/modules/sign-in.js:167:24
 #, javascript-format
 msgid "You are signed in as: ${n}"
 msgstr ""
