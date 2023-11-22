@@ -16,7 +16,7 @@ methods:
               static: { type: boolean, operator: "=", sortable: true }
               deleted: { type: boolean, operator: "=", sortable: true }
               name: { type: string, operator: includes case insensitive, sortable: true }
-              telegram_username: { type: string, sortable: true }
+              username: { type: string, sortable: true }
               total_users: { type: string, sortable: true }
               total_subscribed_users: { type: string, sortable: true }
               total_unsubscribed_users: { type: string, sortable: true }
