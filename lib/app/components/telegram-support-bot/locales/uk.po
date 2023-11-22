@@ -30,7 +30,6 @@ msgid "Read-only"
 msgstr ""
 
 #: ../telegram/modules/start.js:9:25
-#, fuzzy
 msgid "Start"
 msgstr "Запустити"
 
