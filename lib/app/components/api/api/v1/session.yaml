@@ -38,12 +38,15 @@ methods:
         required: true
         schema:
           anyOf:
+            # password
             - type: object
               properties:
                 email: { type: string, format: email }
                 password: { type: string }
               additionalProperties: false
               required: [email, password]
+
+            # oauth
             - type: object
               properties:
                 oauth_provider: { enum: [google, facebook, github] }
@@ -51,6 +54,14 @@ methods:
                 oauth_redirect_uri: { type: string, format: uri }
               additionalProperties: false
               required: [oauth_provider, oauth_code, oauth_redirect_uri]
+
+            # telegram webapp
+            - type: object
+              properties:
+                telegram_bot_id: { type: integer, forman: int64 }
+                telegram_initial_data: { type: string }
+              additionalProperties: false
+              required: [telegram_bot_id, telegram_initial_data]
 
   authorize:
     title: Authorize session
