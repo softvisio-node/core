@@ -59,9 +59,9 @@ methods:
             - type: object
               properties:
                 telegram_bot_id: { type: integer, forman: int64 }
-                telegram_init_data: { type: string }
+                telegram_webapp_init_data: { type: string }
               additionalProperties: false
-              required: [telegram_bot_id, telegram_init_data]
+              required: [telegram_bot_id, telegram_webapp_init_data]
 
   authorize:
     title: Authorize session
