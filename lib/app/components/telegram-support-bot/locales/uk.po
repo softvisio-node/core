@@ -33,7 +33,7 @@ msgstr ""
 msgid "Start"
 msgstr "Запустити"
 
-#: ../telegram/modules/start.js:23:41
+#: ../telegram/modules/start.js:17:32
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
 
