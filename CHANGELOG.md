@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.53.54 (2023-11-24)
+
+Fixes:
+
+-   fix: telegram
+
 ### 7.53.53 (2023-11-24)
 
 Fixes:
