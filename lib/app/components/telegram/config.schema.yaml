@@ -42,6 +42,8 @@
                 anyOf:
                   - type: "null"
                   - { type: string, format: locale }
+
+            additionalProperties: false
             required: [type, apiToken]
           minItems: 1
 
