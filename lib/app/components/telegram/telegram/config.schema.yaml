@@ -12,7 +12,7 @@
     telegram:
       type: object
       properties:
-        locales: { type: array, items: { type: string, format: locale }, uniqueItems: true }
+        locales: { type: array, items: { type: string, format: locale }, uniqueItems: true, minItems: 1 }
         usersCacheMaxSize: { type: integer, minimum: 100 }
 
         signupEnabled: { type: boolean }

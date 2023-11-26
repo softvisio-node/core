@@ -25,6 +25,26 @@
         - type: "null"
         - { type: string, format: uri-whatwg }
 
+    bots:
+      anyOf:
+        - type: "null"
+        - type: array
+          items:
+            tyoe: object
+            properties:
+              type: { type: string }
+              apiToken: { type: string }
+              locales:
+                anyOf:
+                  - type: "null"
+                  - { type: array, items: { type: string, format: locale }, uniqueItems: true, minItems: 1 }
+              defaultLocale:
+                anyOf:
+                  - type: "null"
+                  - { type: string, format: locale }
+            required: [type, apiToken]
+          minItems: 1
+
   additionalProperties: false
   required:
     - runUpdater

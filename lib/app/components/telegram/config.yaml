@@ -21,3 +21,5 @@ config:
   allowUsersCreateBots: true
 
   webAppUrl: ~
+
+  bots: ~
