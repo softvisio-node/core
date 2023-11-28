@@ -11,7 +11,7 @@ config:
   runUpdater: true
   runProcessor: true
 
-  filesUrl: /telegram/files
+  filesUrl: /telegram/files/
   avatarUrl: /telegram/avatar/
 
   allowUsersCreateBots: true
