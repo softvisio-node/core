@@ -12,10 +12,7 @@ config:
   runUpdater: true
   runProcessor: true
 
-  storageLocation: /telegram/files
-  storageMaxAge: 3 days
-  storageCacheControl: public, max-age=30672000
-
+  filesUrl: /telegram/files
   avatarUrl: /telegram/avatar/
 
   allowUsersCreateBots: true

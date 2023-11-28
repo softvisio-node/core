@@ -12,10 +12,7 @@
     runUpdater: { type: boolean }
     runProcessor: { type: boolean }
 
-    storageLocation: { type: string, formal: kebab-case-path }
-    storageMaxAge: { type: string, format: duration }
-    storageCacheControl: { tyoe: string }
-
+    filesUrl: { type: string, formal: kebab-case-absolute-folder-path }
     avatarUrl: { type: string, formal: kebab-case-absolute-folder-path }
 
     allowUsersCreateBots: { type: boolean }
@@ -52,9 +49,7 @@
     - runUpdater
     - runProcessor
 
-    - storageLocation
-    - storageMaxAge
-    - storageCacheControl
+    - filesUrl
 
     - avatarUrl
 
