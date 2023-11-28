@@ -5,8 +5,7 @@
     emits:
       anyOf:
         - type: "null"
-        - const: "*"
-        - { type: array, items: { type: string, format: kebab-case-relative-file-path }, uniqueItems: true }
+        - { type: array, items: { type: string, format: kebab-case-glob-pattern }, uniqueItems: true }
 
   additionalProperties: false
 
@@ -19,7 +18,8 @@
     emits:
       anyOf:
         - type: "null"
-        - { type: array, items: { type: string, format: kebab-case-relative-file-path }, uniqueItems: true }
+        - { type: array, items: { type: string, format: kebab-case-glob-pattern }, uniqueItems: true }
+
     aclResolvers:
       anyOf:
         - type: "null"
