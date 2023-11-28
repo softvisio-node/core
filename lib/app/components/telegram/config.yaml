@@ -3,7 +3,6 @@ dependencies:
   - acl
   - notifications
   - actionTokens
-  - storage
 
 optionalDependencies:
   - cluster

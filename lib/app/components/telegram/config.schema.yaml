@@ -1,11 +1,3 @@
-- $id: public-config
-  type: object
-  properties:
-    storageFilesLocation: false
-    storageFilesMaxAge: false
-    downloadFilesLocation: false
-    downloadFilesCacheControl: false
-
 - $id: config
   type: object
   properties:
