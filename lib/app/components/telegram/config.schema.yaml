@@ -4,8 +4,8 @@
     runUpdater: { type: boolean }
     runProcessor: { type: boolean }
 
-    filesUrl: { type: string, formal: kebab-case-absolute-folder-path }
-    avatarUrl: { type: string, formal: kebab-case-absolute-folder-path }
+    filesUrl: { type: string, format: kebab-case-absolute-folder-path }
+    avatarUrl: { type: string, format: kebab-case-absolute-folder-path }
 
     allowUsersCreateBots: { type: boolean }
 
