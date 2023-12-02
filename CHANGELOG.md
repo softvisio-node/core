@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.53.67 (2023-12-02)
+
+Fixes:
+
+-   fix: sqlite deps
+
 ### 7.53.66 (2023-12-02)
 
 Fixes:
