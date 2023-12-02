@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.53.68 (2023-12-02)
+
+Fixes:
+
+-   fix: external resource
+
 ### 7.53.67 (2023-12-02)
 
 Fixes:
