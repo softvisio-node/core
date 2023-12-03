@@ -1,12 +1,9 @@
 module: storage
 type: postgresql
-patch: ~
+patch: 0
 
 emits:
   - storage/file/update
   - storage/file/delete
-
-locks:
-  - storage/clear
 
 cron: ~
