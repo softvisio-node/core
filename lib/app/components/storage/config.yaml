@@ -1,7 +1,8 @@
 dependencies:
   - dbh
 
-optionalDependencies: ~
+optionalDependencies:
+  - cluster
 
 config:
   type: local
