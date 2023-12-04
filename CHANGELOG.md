@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.53.70 (2023-12-04)
+
+Fixes:
+
+-   fix: sql scjema
+-   fix: storage
+
 ### 7.53.69 (2023-12-02)
 
 Fixes:
