@@ -1,16 +1,6 @@
 - $id: config
   type: object
   properties:
-    # root user
-    root:
-      type: object
-      properties:
-        email: { type: string, format: email }
-        password: { type: ["null", string] }
-
-      additionalProperties: false
-      required: [email, password]
-
     avatarUrl: { type: string, format: kebab-case-absolute-folder-path }
     avatarMaxAge: { type: string, format: duration }
     forceDefaultAvatar: { type: boolean }
@@ -91,8 +81,6 @@
 
   additionalProperties: false
   required:
-    - root
-
     - avatarUrl
     - avatarMaxAge
     - forceDefaultAvatar
