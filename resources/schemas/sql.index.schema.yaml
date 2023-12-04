@@ -7,10 +7,7 @@ properties:
       - { type: string, enum: [postgresql, sqlite] }
       - { type: array, items: { type: string, enum: [postgresql, sqlite] }, minItems: 1, uniqueItems: true }
 
-  patch:
-    anyOf:
-      - { type: integer, minimal: 0 }
-      - type: "null"
+  patch: { type: integer, minimum: 0 }
 
   emits:
     anyOf:
