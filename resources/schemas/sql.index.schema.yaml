@@ -9,8 +9,8 @@ properties:
 
   patch:
     anyOf:
-      - type: "null"
       - { type: integer, minimal: 0 }
+      - type: "null"
 
   emits:
     anyOf:
