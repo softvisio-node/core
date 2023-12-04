@@ -6,6 +6,8 @@
 - $id: local
   type: object
   properties:
+    clearCron: { type: string, format: crosd }
+
     listenPublicHttpServer: { type: boolean }
     listenPrivateHttpServer: { type: boolean }
     location: { type: string, format: kebab-case-root-or-absolute-file-path }
@@ -16,11 +18,13 @@
     type: { const: local }
 
   additionalProperties: false
-  required: [listenPublicHttpServer, listenPrivateHttpServer, location, maxCacheSize, locations, type]
+  required: [clearCron, listenPublicHttpServer, listenPrivateHttpServer, location, maxCacheSize, locations, type]
 
 - $id: google
   type: object
   properties:
+    clearCron: { type: string, format: crosd }
+
     listenPublicHttpServer: { type: boolean }
     listenPrivateHttpServer: { type: boolean }
     location: { type: string, format: kebab-case-root-or-absolute-file-path }
@@ -48,7 +52,7 @@
       required: [project_id, private_key, client_email, token_uri]
 
   additionalProperties: false
-  required: [listenPublicHttpServer, listenPrivateHttpServer, location, maxCacheSize, locations, type, bucket, serviceAccount]
+  required: [clearCron, listenPublicHttpServer, listenPrivateHttpServer, location, maxCacheSize, locations, type, bucket, serviceAccount]
 
 - $id: locations
   type: object

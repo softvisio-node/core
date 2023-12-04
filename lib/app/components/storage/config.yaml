@@ -5,6 +5,8 @@ optionalDependencies:
   - cluster
 
 config:
+  clearCron: "10 * * * *"
+
   type: local
   maxCacheSize: 1000
 
