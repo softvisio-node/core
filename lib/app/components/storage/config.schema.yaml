@@ -6,7 +6,7 @@
 - $id: local
   type: object
   properties:
-    clearCron: { type: string, format: crosd }
+    clearCron: { type: string, format: cron }
 
     listenPublicHttpServer: { type: boolean }
     listenPrivateHttpServer: { type: boolean }
@@ -23,7 +23,7 @@
 - $id: google
   type: object
   properties:
-    clearCron: { type: string, format: crosd }
+    clearCron: { type: string, format: cron }
 
     listenPublicHttpServer: { type: boolean }
     listenPrivateHttpServer: { type: boolean }
