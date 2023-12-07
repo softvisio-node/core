@@ -6,13 +6,15 @@ optionalDependencies:
 
 config:
   clearCron: "10 * * * *"
-
-  type: local
   maxCacheSize: 1000
-
+  localPath: /storage
   listenPublicHttpServer: true
   listenPrivateHttpServer: true
-  location: /storage
+
+  buckets:
+    /:
+      type: local
+      deduplicate: false
 
   locations:
     /:
