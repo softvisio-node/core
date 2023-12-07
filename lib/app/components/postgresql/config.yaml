@@ -3,6 +3,8 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
+  storageLocation: /postgresql
+
   mode: primary
   clusterName: main
   dataRootDir: ~

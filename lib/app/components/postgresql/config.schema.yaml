@@ -11,6 +11,8 @@
 - $id: config
   type: object
   properties:
+    storageLocation: { type: string, format: kebab-case-root-or-absolute-file-path }
+
     mode: { enum: [primary, standby-sync, standby-async] }
     clusterName: { type: string }
     dataRootDir: { type: ["null", string] }
@@ -82,4 +84,4 @@
       type: ["null", object]
 
   additionalProperties: false
-  required: [mode, clusterName, dataRootDir, access, backups]
+  required: [storageLocation, mode, clusterName, dataRootDir, access, backups]
