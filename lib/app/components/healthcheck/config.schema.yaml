@@ -1,8 +1,9 @@
 - $id: config
   type: object
   properties:
+    enabled: { type: boolean }
     port: { type: number, format: ip-port }
-    interval: { type: integer, minimum: 1 } # seconds
+    interval: { type: string, format: duration }
 
   additionalProperties: false
-  required: [port, interval]
+  required: [enabled, port, interval]
