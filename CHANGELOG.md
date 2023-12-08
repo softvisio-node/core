@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.54.1 (2023-12-08)
+
+Fixes:
+
+-   fix: app shutdown
+-   fix: healthcheck
+
 ### 7.54.0 (2023-12-08)
 
 Features:
