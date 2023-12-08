@@ -14,7 +14,7 @@ config:
   buckets:
     /:
       type: local
-      deduplicate: false
+      deduplicate: true
 
   locations:
     /:
