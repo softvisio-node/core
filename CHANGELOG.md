@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.54.3 (2023-12-08)
+
+Fixes:
+
+-   fix: healthcheck
+
 ### 7.54.2 (2023-12-08)
 
 Fixes:
