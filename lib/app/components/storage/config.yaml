@@ -7,7 +7,7 @@ optionalDependencies:
 config:
   clearCron: "10 * * * *"
   maxCacheSize: 1000
-  localPath: /storage
+  location: /storage
   listenPublicHttpServer: true
   listenPrivateHttpServer: true
 

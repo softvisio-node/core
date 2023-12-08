@@ -3,7 +3,7 @@
   properties:
     clearCron: { type: string, format: crom }
     maxCacheSize: { type: integer, minimum: 1 }
-    localPath: { type: string, format: kebab-case-root-or-absolute-file-path }
+    location: { type: string, format: kebab-case-root-or-absolute-file-path }
     listenPublicHttpServer: { type: boolean }
     listenPrivateHttpServer: { type: boolean }
 
@@ -61,4 +61,4 @@
       required: ["/"]
 
   additionalProperties: false
-  required: [clearCron, maxCacheSize, localPath, listenPublicHttpServer, listenPrivateHttpServer, buckets, locations]
+  required: [clearCron, maxCacheSize, location, listenPublicHttpServer, listenPrivateHttpServer, buckets, locations]
