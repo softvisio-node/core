@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.54.0 (2023-12-08)
+
+Features:
+
+-   feat: postgresql storage
+
+Fixes:
+
+-   fix: ajv config
+-   fix: deps
+-   fix: storage config
+
 ### 7.53.71 (2023-12-04)
 
 Fixes:
