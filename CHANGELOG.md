@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.54.7 (2023-12-09)
+
+Fixes:
+
+-   fix: storage glob
+
 ### 7.54.6 (2023-12-09)
 
 Fixes:
