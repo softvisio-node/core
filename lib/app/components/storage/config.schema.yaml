@@ -1,7 +1,7 @@
 - $id: config
   type: object
   properties:
-    clearCron: { type: string, format: crom }
+    clearInterval: { type: string, format: duration }
     maxCacheSize: { type: integer, minimum: 1 }
     location: { type: string, format: kebab-case-root-or-absolute-file-path }
     listenPublicHttpServer: { type: boolean }
@@ -61,4 +61,4 @@
       required: ["/"]
 
   additionalProperties: false
-  required: [clearCron, maxCacheSize, location, listenPublicHttpServer, listenPrivateHttpServer, buckets, locations]
+  required: [clearInterval, maxCacheSize, location, listenPublicHttpServer, listenPrivateHttpServer, buckets, locations]

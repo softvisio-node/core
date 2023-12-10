@@ -5,7 +5,7 @@ optionalDependencies:
   - cluster
 
 config:
-  clearCron: "10 * * * *"
+  clearInterval: 10 minutes
   maxCacheSize: 1000
   location: /storage
   listenPublicHttpServer: true
