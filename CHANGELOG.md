@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.54.8 (2023-12-10)
+
+Fixes:
+
+-   fix: storage
+
 ### 7.54.7 (2023-12-09)
 
 Fixes:
