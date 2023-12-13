@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.54.9 (2023-12-13)
+
+Fixes:
+
+-   fix: duration constructor
+-   fix: postgresql backups
+-   fix: sql glob
+-   fix: storage
+
 ### 7.54.8 (2023-12-10)
 
 Fixes:
