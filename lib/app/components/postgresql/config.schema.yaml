@@ -40,13 +40,10 @@
     backups:
       anyOf:
         - type: "null"
-        - type: object
-          propertyNames: { enum: [hourly, daily, weekly, monthly] }
-          additionalProperties:
-            anyOf:
-              - type: "null"
-              - { type: integer, minimum: 1 }
-          required: [hourly, daily, weekly, monthly]
+        - type: array
+          items: { type: string, format: duration }
+          minItems: 1
+          uniqueItems: true
 
     replication:
       type: object

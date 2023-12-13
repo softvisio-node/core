@@ -16,10 +16,10 @@ config:
     - { host: host, database: all, user: all, address: 0.0.0.0/0, auth-method: scram-sha-256, auth-options: ~ }
 
   backups:
-    hourly: ~
-    daily: 3
-    weekly: 1
-    monthly: ~
+    - 1 day
+    - 2 days
+    - 1 week
+    - 1 month
 
   replication:
     port: 5432
