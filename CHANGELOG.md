@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.54.11 (2023-12-14)
+
+Fixes:
+
+-   fix: postgresql backups
+
 ### 7.54.10 (2023-12-13)
 
 Fixes:
