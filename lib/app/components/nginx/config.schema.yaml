@@ -22,5 +22,24 @@
     cacheStatus: { type: boolean }
     cacheBypass: { type: boolean }
 
+    acme:
+      type: object
+      properties:
+        email:
+          anyOf:
+            - type: "null"
+            - { type: string, format: email }
+      additionalProperties: false
+
+    cloudFlare:
+      type: object
+      properties:
+        apiKey: { type: ["null", string] }
+        email:
+          anyOf:
+            - type: "null"
+            - { type: string, format: email }
+      additionalProperties: false
+
   additionalProperties: false
   required: [httpPort, listenIpFamily, dockerEnabled, upstreamHttpPort, maxBodySize, cachEenabled, cacheInactive, cacheStatus, cacheBypass]
