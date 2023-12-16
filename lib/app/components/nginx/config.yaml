@@ -14,3 +14,10 @@ config:
   cacheInactive: 1 week
   cacheStatus: false
   cacheBypass: false
+
+  acme:
+    email: ~
+
+  cloudFlare:
+    apiKey: ~
+    email: ~
