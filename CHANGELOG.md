@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.56.6 (2023-12-17)
+
+Fixes:
+
+-   fix: duration -> interval
+
 ### 7.56.5 (2023-12-17)
 
 Fixes:
