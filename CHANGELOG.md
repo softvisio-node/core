@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.56.5 (2023-12-17)
+
+Fixes:
+
+-   fix: ajv formats
+-   fix: duration -> interval
+-   fix: nginx acme
+
 ### 7.56.4 (2023-12-17)
 
 Fixes:
