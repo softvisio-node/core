@@ -19,7 +19,7 @@ config:
 
   storageLocation: /nginx
   certificatesMaxAge: 1 month
-  cetrificatesRenewInterval: 1 week
+  cetrificatesRenewInterval: 1 day
 
   acme:
     email: ~
