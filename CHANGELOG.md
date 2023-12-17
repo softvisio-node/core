@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.56.10 (2023-12-17)
+
+Fixes:
+
+-   fix: duration -> interval
+-   fix: nginx congig
+
 ### 7.56.9 (2023-12-17)
 
 Fixes:
