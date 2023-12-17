@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.56.0 (2023-12-17)
+
+Features:
+
+-   feat: nginx acme
+
 ### 7.55.0 (2023-12-16)
 
 Features:
