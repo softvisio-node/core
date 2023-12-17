@@ -2,7 +2,7 @@
   type: object
   properties:
     avatarUrl: { type: string, format: kebab-case-absolute-folder-path }
-    avatarMaxAge: { type: string, format: duration }
+    avatarMaxAge: { type: string, format: interval }
     forceDefaultAvatar: { type: boolean }
     defaultGravatar:
       anyOf:
@@ -39,8 +39,8 @@
 
     # sessions
     sessionsCacheMaxSize: { type: integer, minimum: 1 }
-    sessionMaxAge: { type: string, format: duration } # ms
-    authorizedSessionMaxAge: { type: string, format: duration } # ms
+    sessionMaxAge: { type: string, format: interval } # ms
+    authorizedSessionMaxAge: { type: string, format: interval }
 
     # oauth
     oauth:

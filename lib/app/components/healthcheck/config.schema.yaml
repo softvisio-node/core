@@ -3,7 +3,7 @@
   properties:
     enabled: { type: boolean }
     port: { type: number, format: ip-port }
-    interval: { type: string, format: duration }
+    interval: { type: string, format: interval }
 
   additionalProperties: false
   required: [enabled, port, interval]

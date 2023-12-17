@@ -41,7 +41,7 @@
       anyOf:
         - type: "null"
         - type: array
-          items: { type: string, format: duration }
+          items: { type: string, format: interval }
           minItems: 1
           uniqueItems: true
 

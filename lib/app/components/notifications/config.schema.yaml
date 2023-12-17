@@ -19,7 +19,7 @@
         required: [enabled, editable, subscribed]
       required: [internal, email, telegram, push]
 
-    internalNotificationsMaxAge: { type: string, format: duration }
+    internalNotificationsMaxAge: { type: string, format: interval }
 
     smtp: { type: string, format: uri-whatwg }
 
