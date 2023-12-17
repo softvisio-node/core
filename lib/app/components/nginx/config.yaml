@@ -1,6 +1,7 @@
 dependencies: ~
 
-optionalDependencies: ~
+optionalDependencies:
+  - storage
 
 config:
   httpPort: 80
@@ -15,6 +16,10 @@ config:
   cacheInactive: 1 week
   cacheStatus: false
   cacheBypass: false
+
+  storageLocation: /nginx
+  certificatesMaxAge: 1 month
+  cetrificatesRenewInterval: 1 week
 
   acme:
     email: ~

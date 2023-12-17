@@ -23,6 +23,10 @@
     cacheStatus: { type: boolean }
     cacheBypass: { type: boolean }
 
+    storageLocation: { type: string, format: kebeb-case-root-or-absolute-file-path }
+    certificatesMaxAge: { type: string, format: duration }
+    cetrificatesRenewInterval: { type: string, format: duration }
+
     acme:
       type: object
       properties:
@@ -43,4 +47,17 @@
       additionalProperties: false
 
   additionalProperties: false
-  required: [httpPort, httpSslPort, listenIpFamily, dockerEnabled, upstreamHttpPort, maxBodySize, cachEenabled, cacheInactive, cacheStatus, cacheBypass]
+  required:
+    - httpPort
+    - httpSslPort
+    - listenIpFamily
+    - dockerEnabled
+    - upstreamHttpPort
+    - maxBodySize
+    - cachEenabled
+    - cacheInactive
+    - cacheStatus
+    - cacheBypass
+    - storageLocation
+    - certificatesMaxAge
+    - cetrificatesRenewInterval
