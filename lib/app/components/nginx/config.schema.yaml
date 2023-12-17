@@ -19,12 +19,12 @@
         - type: "null"
         - { type: string, format: digital-size }
 
-    cacheInactive: { type: string, format: duration }
+    cacheInactive: { type: string, format: interval }
     cacheStatus: { type: boolean }
     cacheBypass: { type: boolean }
 
     storageLocation: { type: string, format: kebeb-case-root-or-absolute-file-path }
-    certificatesMaxAge: { type: string, format: duration }
+    certificatesMaxAge: { type: string, format: interval }
     cetrificatesRenewInterval: { type: string, format: timeout-interval }
 
     acme:
