@@ -4,6 +4,7 @@ optionalDependencies: ~
 
 config:
   httpPort: 80
+  httpSslPort: 443
   listenIpFamily: 4
   dockerEnabled: false
   upstreamHttpPort: 80

@@ -2,6 +2,7 @@
   type: object
   properties:
     httpPort: { type: number, format: ip-port }
+    httpSslPort: { type: number, format: ip-port }
     listenIpFamily: { enum: [0, 4, 6] }
     dockerEnabled: { typ: boolean }
     upstreamHttpPort: { type: number, format: ip-port }
@@ -42,4 +43,4 @@
       additionalProperties: false
 
   additionalProperties: false
-  required: [httpPort, listenIpFamily, dockerEnabled, upstreamHttpPort, maxBodySize, cachEenabled, cacheInactive, cacheStatus, cacheBypass]
+  required: [httpPort, httpSslPort, listenIpFamily, dockerEnabled, upstreamHttpPort, maxBodySize, cachEenabled, cacheInactive, cacheStatus, cacheBypass]
