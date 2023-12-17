@@ -20,5 +20,5 @@ config:
     email: ~
 
   cloudFlare:
-    apiKey: ~
     email: ~
+    apiKey: ~

@@ -35,11 +35,11 @@
     cloudFlare:
       type: object
       properties:
-        apiKey: { type: ["null", string] }
         email:
           anyOf:
             - type: "null"
             - { type: string, format: email }
+        apiKey: { type: ["null", string] }
       additionalProperties: false
 
   additionalProperties: false
