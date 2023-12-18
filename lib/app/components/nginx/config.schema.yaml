@@ -25,7 +25,7 @@
 
     storageLocation: { type: string, format: kebeb-case-root-or-absolute-file-path }
     certificatesMaxAge: { type: string, format: interval }
-    cetrificatesRenewInterval: { type: string, format: timeout-interval }
+    cetrificatesRenewInterval: { type: string, format: interval }
 
     acme:
       type: object
