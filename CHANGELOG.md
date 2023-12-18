@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.56.15 (2023-12-18)
+
+Fixes:
+
+-   fix: nginx acme
+
 ### 7.56.14 (2023-12-18)
 
 Fixes:
