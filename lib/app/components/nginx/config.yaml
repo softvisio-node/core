@@ -21,9 +21,5 @@ config:
   certificatesMaxAge: 3 month
   cetrificatesRenewInterval: 2 month
 
-  acme:
-    email: ~
-
-  cloudFlare:
-    email: ~
-    apiKey: ~
+  acmeEmail: ~
+  cloudFlareApiToken: ~

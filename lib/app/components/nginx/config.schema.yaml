@@ -27,24 +27,12 @@
     certificatesMaxAge: { type: string, format: interval }
     cetrificatesRenewInterval: { type: string, format: interval }
 
-    acme:
-      type: object
-      properties:
-        email:
-          anyOf:
-            - type: "null"
-            - { type: string, format: email }
-      additionalProperties: false
+  acmeEmail:
+    anyOf:
+      - type: "null"
+      - { type: string, format: email }
 
-    cloudFlare:
-      type: object
-      properties:
-        email:
-          anyOf:
-            - type: "null"
-            - { type: string, format: email }
-        apiKey: { type: ["null", string] }
-      additionalProperties: false
+  cloudFlareApiToken: { type: ["null", string] }
 
   additionalProperties: false
   required:
