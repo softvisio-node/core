@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.56.13 (2023-12-18)
+
+Fixes:
+
+-   fix: local storage
+
 ### 7.56.12 (2023-12-17)
 
 Fixes:
