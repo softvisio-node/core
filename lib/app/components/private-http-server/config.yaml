@@ -1,7 +1,6 @@
 dependencies: ~
 
-optionalDependencies:
-  - nginx
+optionalDependencies: ~
 
 config:
   address: 0.0.0.0

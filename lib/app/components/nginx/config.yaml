@@ -1,6 +1,8 @@
 dependencies: ~
 
 optionalDependencies:
+  - privateHttpServer
+  - publicHttpServer
   - storage
 
 config:
