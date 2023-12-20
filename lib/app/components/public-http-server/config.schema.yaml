@@ -16,7 +16,7 @@
 
         serverNames:
           anyOf:
-            - const: "*"
+            - type: "null"
             - { type: string, format: nginx-server-name }
             - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 

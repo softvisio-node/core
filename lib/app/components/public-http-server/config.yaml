@@ -9,7 +9,7 @@ config:
   nginx:
     apiUrl: ws://nginx:81/api
     serverId: ~
-    serverNames: "*"
+    serverNames: ~
     maxBodySize: 10 MB
     cacheEnabled: true
     cacheStatus: false
