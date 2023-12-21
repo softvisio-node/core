@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.58.1 (2023-12-21)
+
+Fixes:
+
+-   fix: nginx config
+-   fix: sqlite
+
 ### 7.58.0 (2023-12-21)
 
 Features:
