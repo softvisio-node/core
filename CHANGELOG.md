@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.58.0 (2023-12-21)
+
+Features:
+
+-   feat: nginx refactor
+
+Fixes:
+
+-   fix: app optional deps
+
 ### 7.57.0 (2023-12-21)
 
 Features:
