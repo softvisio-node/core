@@ -23,5 +23,5 @@ config:
   certificatesMaxAge: 3 month
   cetrificatesRenewInterval: 2 month
 
-  acmeEmail: ~
+  acmeEmail: zdm@softvisio.net
   cloudFlareApiToken: ~
