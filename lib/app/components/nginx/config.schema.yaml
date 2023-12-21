@@ -20,7 +20,6 @@
         - { type: string, format: digital-size }
 
     cacheInactive: { type: string, format: interval }
-    cacheStatus: { type: boolean }
     cacheBypass: { type: boolean }
 
     storageLocation: { type: string, format: kebeb-case-root-or-absolute-file-path }
@@ -44,7 +43,6 @@
     - maxBodySize
     - cachEenabled
     - cacheInactive
-    - cacheStatus
     - cacheBypass
     - storageLocation
     - certificatesMaxAge

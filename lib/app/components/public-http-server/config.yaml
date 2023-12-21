@@ -12,5 +12,4 @@ config:
     serverNames: ~
     maxBodySize: 10 MB
     cacheEnabled: true
-    cacheStatus: false
     cacheBypass: false

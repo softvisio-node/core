@@ -22,9 +22,6 @@ config:
   cacheInactive: 1 week
   cacheBypass: false
 
-  # XXX
-  cacheStatus: false
-
   storageLocation: /nginx
   certificatesMaxAge: 3 month
   cetrificatesRenewInterval: 2 month

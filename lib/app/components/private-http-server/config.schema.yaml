@@ -15,7 +15,6 @@
 
         maxBodySize: { type: string, format: digital-size }
         cacheEnabled: { type: boolean }
-        cacheStatus: { type: boolean }
         cacheBypass: { type: boolean }
 
       additionalProperties: false
