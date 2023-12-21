@@ -5,6 +5,7 @@ dependencies:
   - actionTokens
   - notifications
   - acl
+  - monitoring
 
 optionalDependencies:
   - cluster
