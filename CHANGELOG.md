@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.57.0 (2023-12-21)
+
+Features:
+
+-   feat: nginx refactor
+
+Fixes:
+
+-   fix: nginx acme
+-   fix: nginx ngx_stream_ssl_preread_module added
+
 ### 7.56.21 (2023-12-19)
 
 Fixes:
