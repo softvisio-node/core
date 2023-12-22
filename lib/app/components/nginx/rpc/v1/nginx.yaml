@@ -16,20 +16,18 @@ methods:
         schema:
           type: object
           properties:
-            serverNames:
+            serverName:
               anyOf:
                 - type: "null"
                 - const: "*"
                 - { type: string, format: nginx-server-name }
                 - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
-            streamPorts:
-              anyOf:
-                - type: "null"
-                - { type: array, items: { type: number, format: ip-port }, minItems: 1, uniqueItems: true }
-
             maxBodySize: { type: string, format: digital-size }
             cacheEnabled: { type: boolean }
             cacheBypass: { type: boolean }
+            sslEnabled: { type: boolean }
+
+            upstreamDefaultPort: { type: ["null", number], format: ip-port }
 
           additionalProperties: false
