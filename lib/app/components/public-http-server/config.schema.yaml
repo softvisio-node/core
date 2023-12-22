@@ -4,16 +4,16 @@
     address: { type: string, format: ip-address }
     port: { type: number, format: ip-port }
     exclusive: { type: boolean }
+
+    nginxApiUrl: { type: string, format: uri-whatwg }
+    nginxServerId:
+      anyOf:
+        - type: "null"
+        - { type: string, fotmat: kebab-case }
+
     nginx:
       type: object
       properties:
-        serverId:
-          anyOf:
-            - type: "null"
-            - { type: string, fotmat: kebab-case }
-
-        apiUrl: { type: string, format: uri-whatwg }
-
         serverName:
           anyOf:
             - type: "null"
@@ -26,7 +26,7 @@
         sslEnabled: { type: boolean }
 
       additionalProperties: false
-      required: [apiUrl, serverName]
+      required: [serverName]
 
   additionalProperties: false
-  required: [address, port, exclusive, nginx]
+  required: [address, port, exclusive, nginx, nginxApiUrl]
