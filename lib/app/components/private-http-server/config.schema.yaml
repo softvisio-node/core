@@ -7,7 +7,7 @@
     nginx:
       type: object
       properties:
-        serverNames:
+        serverName:
           anyOf:
             - type: "null"
             - { type: string, format: nginx-server-name }
@@ -16,9 +16,10 @@
         maxBodySize: { type: string, format: digital-size }
         cacheEnabled: { type: boolean }
         cacheBypass: { type: boolean }
+        sslEnabked: { type: boolean }
 
       additionalProperties: false
-      required: [serverNames]
+      required: [serverName]
 
   additionalProperties: false
   required: [address, port, exclusive, nginx]
