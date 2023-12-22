@@ -16,7 +16,7 @@
         maxBodySize: { type: string, format: digital-size }
         cacheEnabled: { type: boolean }
         cacheBypass: { type: boolean }
-        sslEnabked: { type: boolean }
+        sslEnabled: { type: boolean }
 
       additionalProperties: false
       required: [serverName]
