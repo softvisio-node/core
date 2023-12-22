@@ -1,11 +1,8 @@
 - $id: config1
   type: object
   properties:
-    httpPort: { type: number, format: ip-port }
-    httpSslPort: { type: number, format: ip-port }
     listenIpFamily: { enum: [0, 4, 6] }
     dockerEnabled: { typ: boolean }
-    upstreamHttpPort: { type: number, format: ip-port }
     maxBodySize: { type: string, format: didital-size-unit }
 
     cacheEnabled: { type: boolean }
@@ -35,11 +32,8 @@
 
   additionalProperties: false
   required:
-    - httpPort
-    - httpSslPort
     - listenIpFamily
     - dockerEnabled
-    - upstreamHttpPort
     - maxBodySize
     - cachEenabled
     - cacheInactive

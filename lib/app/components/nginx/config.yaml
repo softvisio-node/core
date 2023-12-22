@@ -9,11 +9,6 @@ config:
   listenIpFamily: 4
   dockerEnabled: false
 
-  # XXX
-  httpPort: 80
-  httpSslPort: 443
-  upstreamHttpPort: 80
-
   maxBodySize: 50 MB
 
   cacheEnabled: true
