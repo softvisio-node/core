@@ -16,6 +16,8 @@ methods:
         schema:
           type: object
           properties:
+            type: { enum: [http, tcp, udp] }
+
             serverName:
               anyOf:
                 - type: "null"
@@ -31,3 +33,4 @@ methods:
             upstreamDefaultPort: { type: ["null", number], format: ip-port }
 
           additionalProperties: false
+          required: [type]
