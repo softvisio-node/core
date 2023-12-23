@@ -1,8 +1,7 @@
 type: object
 properties:
   type: { enum: [http, tcp, udp] }
-
-  port: { type: ["null", number], format: ip-port }
+  port: { type: number, format: ip-port, default: 80 }
 
   serverName:
     anyOf:
@@ -20,4 +19,4 @@ properties:
   sslEnabled: { type: boolean }
 
 additionalProperties: false
-required: [type]
+required: [type, port]
