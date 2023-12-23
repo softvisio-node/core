@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.59.0 (2023-12-23)
+
+Features:
+
+-   feat: nginx refactor
+
+Fixes:
+
+-   fix: nginx config
+
 ### 7.58.1 (2023-12-21)
 
 Fixes:
