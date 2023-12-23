@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.59.1 (2023-12-23)
+
+Fixes:
+
+-   fix: nginx config
+
 ### 7.59.0 (2023-12-23)
 
 Features:
