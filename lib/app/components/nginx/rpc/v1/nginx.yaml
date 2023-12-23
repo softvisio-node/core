@@ -25,7 +25,7 @@ methods:
                 - { type: string, format: nginx-server-name }
                 - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
-            upstreamDefaultPort: { type: ["null", number], format: ip-port }
+            upstreamPort: { type: ["null", number], format: ip-port }
 
             maxBodySize: { type: string, format: digital-size }
             cacheEnabled: { type: boolean }
