@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.59.3 (2023-12-24)
+
+Fixes:
+
+-   fix: github api keep-alive
+-   fix: nginx config
+-   fix: sqlite version
+
 ### 7.59.2 (2023-12-23)
 
 Fixes:
