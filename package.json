@@ -80,7 +80,7 @@
     "dependencies": {
         "@softvisio/argon2": "^1.2.5",
         "@softvisio/msgpack": "^3.0.0",
-        "@softvisio/sqlite": "1.15.39",
+        "@softvisio/sqlite": "^1.15.39",
         "@softvisio/utils": "^1.1.0",
         "@softvisio/uws": "^2.0.0",
         "ajv": "^8.0.1",
