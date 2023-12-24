@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.59.4 (2023-12-24)
+
+Fixes:
+
+-   fix: acme pre-check domains
+-   fix: hostname
+-   fix: nginx ssl
+
 ### 7.59.3 (2023-12-24)
 
 Fixes:
