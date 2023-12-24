@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.59.5 (2023-12-24)
+
+Fixes:
+
+-   fix: hostname
+
 ### 7.59.4 (2023-12-24)
 
 Fixes:
