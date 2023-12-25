@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.59.13 (2023-12-25)
+
+Fixes:
+
+-   fix: nginx acme docker
+
 ### 7.59.12 (2023-12-25)
 
 Fixes:
