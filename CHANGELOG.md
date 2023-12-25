@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.59.17 (2023-12-25)
+
+Fixes:
+
+-   fix: reald remote addr for proxy proto
+
 ### 7.59.16 (2023-12-25)
 
 Fixes:
