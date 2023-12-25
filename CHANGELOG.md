@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.59.8 (2023-12-25)
+
+Fixes:
+
+-   fix: docker config
+
 ### 7.59.7 (2023-12-24)
 
 Fixes:
