@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.59.26 (2023-12-27)
+
+Fixes:
+
+-   fix: acme dpmain pre-check
+-   fix: http server unix spckert chmod
+-   fix: nginx server
+-   fix: nginx upstream ip
+
 ### 7.59.25 (2023-12-26)
 
 Fixes:
