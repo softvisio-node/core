@@ -15,4 +15,3 @@ config:
     maxBodySize: 10 MB
     cacheEnabled: true
     cacheBypass: false
-    sslEnabled: true
