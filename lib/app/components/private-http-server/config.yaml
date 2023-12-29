@@ -7,8 +7,6 @@ config:
   port: 81
   exclusive: true
   nginx:
-    serverName: ~
     maxBodySize: 10 MB
     cacheEnabled: true
     cacheBypass: false
-    sslEnabled: false
