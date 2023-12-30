@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.59.27 (2023-12-30)
+
+Fixes:
+
+-   fix: ip port
+-   fix: nginx refactor
+
 ### 7.59.26 (2023-12-27)
 
 Fixes:
