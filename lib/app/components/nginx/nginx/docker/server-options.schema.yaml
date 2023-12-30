@@ -1,7 +1,7 @@
 type: object
 properties:
   type: { enum: [http, tcp, udp] }
-  port: { type: number, format: ip-port, default: 80 }
+  port: { type: integer, format: ip-port, default: 80 }
 
   serverName:
     anyOf:
@@ -10,7 +10,7 @@ properties:
       - { type: string, format: nginx-server-name }
       - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
-  upstreamPort: { type: ["null", number], format: ip-port }
+  upstreamPort: { type: ["null", integer], format: ip-port }
   upstreamProxyProtocol: { type: boolean }
 
   maxBodySize: { type: string, format: digital-size }

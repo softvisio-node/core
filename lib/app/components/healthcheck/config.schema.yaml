@@ -2,7 +2,7 @@
   type: object
   properties:
     enabled: { type: boolean }
-    port: { type: number, format: ip-port }
+    port: { type: integer, format: ip-port }
     interval: { type: string, format: interval }
 
   additionalProperties: false

@@ -77,8 +77,8 @@ properties:
           items:
             type: object
             properties:
-              published: { type: number, format: ip-port }
-              target: { type: number, format: ip-port }
+              published: { type: integer, format: ip-port }
+              target: { type: integer, format: ip-port }
               protocol: { enum: [tcp, udp] }
               mode: { enum: [ingress, host] }
             required: [published, target]

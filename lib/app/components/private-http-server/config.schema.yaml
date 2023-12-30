@@ -2,7 +2,7 @@
   type: object
   properties:
     address: { type: string, format: ip-address }
-    port: { type: number, format: ip-port }
+    port: { type: integer, format: ip-port }
     exclusive: { type: boolean }
     nginx:
       type: object

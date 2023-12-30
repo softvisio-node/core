@@ -48,7 +48,7 @@
     replication:
       type: object
       properties:
-        port: { type: string, format: ip-port }
+        port: { type: integer, format: ip-port }
         username: { type: string }
         password: { type: string }
 
