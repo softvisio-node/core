@@ -2,7 +2,7 @@ title: Nginx
 
 methods:
   add-proxy:
-    title: Register nginx server
+    title: Add nginx proxy
     persistentConnectionRequired: true
     params:
       - name: proxy_id
