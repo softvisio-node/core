@@ -25,7 +25,8 @@ methods:
             servers:
               type: object
               propertyName: { type: integer, format: ip-port }
-              additionalProperties:
+              minProperties: 1
+              additionalPropertoes:
                 type: object
                 properties:
                   type: { enum: [http, tcp, udp] }
@@ -42,8 +43,6 @@ methods:
                   proxyProtocol: { type: boolean }
 
                 additionalProperties: false
-
-              minProperties: 1
 
           additionalProperties: false
           required: [servers]
