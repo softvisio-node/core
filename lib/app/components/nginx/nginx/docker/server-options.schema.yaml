@@ -1,6 +1,6 @@
 type: object
 properties:
-  port: { type: integer, format: ip-port }
+  upstreamPort: { type: integer, format: ip-port }
   options:
     type: object
     properties:
@@ -32,4 +32,4 @@ properties:
     required: [servers]
 
 additionalProperties: false
-required: [port, options]
+required: [upstreamPort, options]
