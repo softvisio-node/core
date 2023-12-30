@@ -8,7 +8,7 @@ config:
   exclusive: true
 
   nginxApiUrl: ws://nginx:81/api
-  nginxServerId: ~
+  nginxProxyName: ~
 
   nginx:
     serverName: ~

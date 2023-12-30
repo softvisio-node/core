@@ -6,7 +6,7 @@
     exclusive: { type: boolean }
 
     nginxApiUrl: { type: string, format: uri-whatwg }
-    nginxServerId:
+    nginxProxyName:
       anyOf:
         - type: "null"
         - { type: string, fotmat: kebab-case }
