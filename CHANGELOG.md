@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.59.28 (2023-12-30)
+
+Fixes:
+
+-   fix: nginx refactor
+
 ### 7.59.27 (2023-12-30)
 
 Fixes:
