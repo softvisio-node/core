@@ -1,22 +1,28 @@
 type: object
 properties:
-  type: { enum: [http, tcp, udp] }
-  port: { type: integer, format: ip-port, default: 80 }
+  proxyProtocol: { type: boolean }
 
-  serverName:
-    anyOf:
-      - type: "null"
-      - const: "*"
-      - { type: string, format: nginx-server-name }
-      - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+  servers:
+    type: object
+    propertyName: { type: integer, format: ip-port }
+    minProperties: 1
+    additionalPropertoes:
+      type: object
+      properties:
+        type: { enum: [http, tcp, udp] }
+        serverName:
+          anyOf:
+            - type: "null"
+            - { type: string, format: nginx-server-name }
+            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
-  upstreamPort: { type: ["null", integer], format: ip-port }
-  upstreamProxyProtocol: { type: boolean }
+        sslEnabled: { type: boolean }
+        maxBodySize: { type: string, format: digital-size }
+        cacheEnabled: { type: boolean }
+        cacheBypass: { type: boolean }
+        proxyProtocol: { type: boolean }
 
-  maxBodySize: { type: string, format: digital-size }
-  cacheEnabled: { type: boolean }
-  cacheBypass: { type: boolean }
-  sslEnabled: { type: boolean }
+      additionalProperties: false
 
 additionalProperties: false
-required: [type, port]
+required: [servers]
