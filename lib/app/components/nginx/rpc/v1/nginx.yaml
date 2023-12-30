@@ -20,7 +20,7 @@ methods:
         schema:
           type: object
           properties:
-            proxyProtocol: { type: boolean }
+            upstreamProxyProtocol: { type: boolean }
 
             servers:
               type: object
