@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.59.29 (2023-12-31)
+
+Fixes:
+
+-   fix: acme
+-   fix: nginx
+
 ### 7.59.28 (2023-12-30)
 
 Fixes:
