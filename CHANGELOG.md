@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.59.31 (2023-12-31)
+
+Fixes:
+
+-   fix: resources
+
 ### 7.59.30 (2023-12-31)
 
 Fixes:
