@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.59.30 (2023-12-31)
+
+Fixes:
+
+-   fix: acme
+-   fix: cloudflare
+
 ### 7.59.29 (2023-12-31)
 
 Fixes:
