@@ -26,7 +26,7 @@ methods:
               type: object
               propertyName: { type: integer, format: ip-port }
               minProperties: 1
-              additionalPropertoes:
+              additionalProperties:
                 type: object
                 properties:
                   type: { enum: [http, tcp, udp] }
