@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.59.37 (2024-01-02)
+
+Fixes:
+
+-   fix: proxy protocol
+
 ### 7.59.36 (2024-01-02)
 
 Fixes:
