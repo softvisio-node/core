@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.59.36 (2024-01-02)
+
+Fixes:
+
+-   fix: nginx
+-   fix: proxy protocol
+
 ### 7.59.35 (2024-01-02)
 
 Fixes:
