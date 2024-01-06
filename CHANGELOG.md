@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.59.45 (2024-01-06)
+
+Fixes:
+
+-   fix: nginx config
+
 ### 7.59.44 (2024-01-06)
 
 Fixes:
