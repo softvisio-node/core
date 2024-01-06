@@ -7,12 +7,12 @@ properties:
       upstreamProxyProtocol: { type: boolean }
 
       servers:
-        type: object
-        propertyName: { type: integer, format: ip-port }
-        minProperties: 1
-        additionalProperties:
+        type: Array
+        minItems: 1
+        items:
           type: object
           properties:
+            port: { type: integer, format: ip-port }
             type: { enum: [http, tcp, udp] }
             serverName:
               anyOf:
@@ -27,6 +27,7 @@ properties:
             proxyProtocol: { type: boolean }
 
           additionalProperties: false
+          required: [port]
 
     additionalProperties: false
     required: [servers]
