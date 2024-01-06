@@ -7,7 +7,7 @@ properties:
       upstreamProxyProtocol: { type: boolean }
 
       servers:
-        type: Array
+        type: array
         minItems: 1
         items:
           type: object
