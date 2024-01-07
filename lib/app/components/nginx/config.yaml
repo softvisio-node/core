@@ -18,7 +18,7 @@ config:
   cacheBypass: false
 
   storageLocation: /nginx
-  cetrificatesRenewInterval: 2 month
+  cetrificatesRenewInterval: 1 week
 
   acmeEmail: zdm@softvisio.net
   cloudFlareApiToken: ~
