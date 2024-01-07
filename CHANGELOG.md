@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.59.46 (2024-01-07)
+
+Fixes:
+
+-   fix: nginx acme
+
 ### 7.59.45 (2024-01-06)
 
 Fixes:
