@@ -18,7 +18,6 @@ config:
   cacheBypass: false
 
   storageLocation: /nginx
-  certificatesMaxAge: 3 month
   cetrificatesRenewInterval: 2 month
 
   acmeEmail: zdm@softvisio.net

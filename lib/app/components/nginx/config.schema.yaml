@@ -20,7 +20,6 @@
     cacheBypass: { type: boolean }
 
     storageLocation: { type: string, format: kebeb-case-root-or-absolute-file-path }
-    certificatesMaxAge: { type: string, format: interval }
     cetrificatesRenewInterval: { type: string, format: interval }
 
     acmeEmail: { type: string, format: email }
@@ -36,5 +35,4 @@
     - cacheInactive
     - cacheBypass
     - storageLocation
-    - certificatesMaxAge
     - cetrificatesRenewInterval
