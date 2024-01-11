@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.59.53 (2024-01-11)
+
+Fixes:
+
+-   fix: postgresql backup
+
 ### 7.59.52 (2024-01-11)
 
 Fixes:
