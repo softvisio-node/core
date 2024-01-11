@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.59.54 (2024-01-11)
+
+Fixes:
+
+-   fix: nginx default server
+
 ### 7.59.53 (2024-01-11)
 
 Fixes:
