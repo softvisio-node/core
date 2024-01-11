@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.59.51 (2024-01-11)
+
+Fixes:
+
+-   fix: nginx default server
+-   fix: postgresql backup
+
 ### 7.59.50 (2024-01-11)
 
 Fixes:
