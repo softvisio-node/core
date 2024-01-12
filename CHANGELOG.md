@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.60.1 (2024-01-12)
+
+Fixes:
+
+-   fix: logger
+
 ### 7.60.0 (2024-01-12)
 
 Features:
