@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.60.0 (2024-01-12)
+
+Features:
+
+-   feat: logger
+
+Fixes:
+
+-   fix: postgresql backup
+
 ### 7.59.56 (2024-01-12)
 
 Fixes:
