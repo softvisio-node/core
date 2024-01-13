@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.60.8 (2024-01-13)
+
+Fixes:
+
+-   fix: fetch manual redirects
+
 ### 7.60.7 (2024-01-13)
 
 Fixes:
