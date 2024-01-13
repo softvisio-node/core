@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.60.9 (2024-01-13)
+
+Fixes:
+
+-   fix: logger
+-   fix: nginx
+
 ### 7.60.8 (2024-01-13)
 
 Fixes:
