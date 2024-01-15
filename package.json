@@ -94,7 +94,6 @@
         "fast-xml-parser": "^4.2.2",
         "js-yaml": "^4.1.0",
         "json5": "^2.2.0",
-        "jsrsasign": "^10.9.0",
         "luxon": "^3.0.0",
         "mime-db": "^1.45.0",
         "mmdb-lib": "^2.0.2",
