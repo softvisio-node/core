@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.62.0 (2024-01-15)
+
+Features:
+
+-   feat: certificates
+
 ### 7.61.0 (2024-01-15)
 
 Features:
