@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.62.5 (2024-01-15)
+
+Fixes:
+
+-   fix: certificates
+
 ### 7.62.4 (2024-01-15)
 
 Fixes:
