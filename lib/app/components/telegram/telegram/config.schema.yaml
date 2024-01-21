@@ -11,11 +11,12 @@
 
         usersCacheMaxSize: { type: integer, minimum: 100 }
 
+        signinRequired: { type: boolean }
         signupEnabled: { type: boolean }
 
         acl: { type: object }
 
       additionalProperties: false
-      required: [usersCacheMaxSize, signupEnabled]
+      required: [usersCacheMaxSize, signinRequired, signupEnabled]
 
   required: [telegram]
