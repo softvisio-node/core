@@ -3,5 +3,4 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-  id: ~
-  apiUrl: ws://core:81/api
+  privateKey: ~
