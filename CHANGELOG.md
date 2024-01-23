@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.64.7 (2024-01-23)
+
+Fixes:
+
+-   fix: app encrypt
+
 ### 7.64.6 (2024-01-23)
 
 Fixes:
