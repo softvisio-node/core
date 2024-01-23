@@ -7,11 +7,11 @@ const tests = {
         "tests": [
 
             //
-            ["a", true],
-            ["a_b", true],
-            ["ab12_wsd", true],
+            [ "a", true ],
+            [ "a_b", true ],
+            [ "ab12_wsd", true ],
 
-            ["A", false],
+            [ "A", false ],
         ],
     },
 
@@ -21,11 +21,11 @@ const tests = {
         "tests": [
 
             //
-            ["a", true],
-            ["aaa", true],
-            ["aaaBBB", true],
+            [ "a", true ],
+            [ "aaa", true ],
+            [ "aaaBBB", true ],
 
-            ["A", false],
+            [ "A", false ],
         ],
     },
 
@@ -35,14 +35,14 @@ const tests = {
         "tests": [
 
             //
-            ["aB", true],
-            ["aBbb", true],
-            ["aBbbC", true],
+            [ "aB", true ],
+            [ "aBbb", true ],
+            [ "aBbbC", true ],
 
-            ["Aaa", false],
-            ["aBB", false],
-            ["aBBc", false],
-            ["aBbbCC", false],
+            [ "Aaa", false ],
+            [ "aBB", false ],
+            [ "aBBc", false ],
+            [ "aBbbCC", false ],
         ],
     },
 
@@ -52,9 +52,9 @@ const tests = {
         "tests": [
 
             //
-            ["AaaBBB", true],
+            [ "AaaBBB", true ],
 
-            ["aaaBBB", false],
+            [ "aaaBBB", false ],
         ],
     },
 
@@ -64,15 +64,15 @@ const tests = {
         "tests": [
 
             //
-            ["A", true],
-            ["AaBb", true],
-            ["AaBbC", true],
+            [ "A", true ],
+            [ "AaBb", true ],
+            [ "AaBbC", true ],
 
-            ["a", false],
-            ["aaa", false],
-            ["ABB", false],
-            ["ABBc", false],
-            ["ABbbCC", false],
+            [ "a", false ],
+            [ "aaa", false ],
+            [ "ABB", false ],
+            [ "ABBc", false ],
+            [ "ABbbCC", false ],
         ],
     },
 };

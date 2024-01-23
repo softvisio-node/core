@@ -49,7 +49,7 @@ describe( "readline", () => {
         test( "read_line_" + n, async () => {
             const data = READ_LINE[n];
 
-            const [line, rest, exception] = await readLine( data );
+            const [ line, rest, exception ] = await readLine( data );
 
             expect( line ).toBe( data.line );
 
@@ -66,7 +66,7 @@ describe( "readchunk", () => {
         test( "read_chunk_" + n, async () => {
             const data = READ_CHUNK[n];
 
-            const [line, rest] = await readChunk( data );
+            const [ line, rest ] = await readChunk( data );
 
             expect( line ).toBe( data.line );
 
@@ -89,7 +89,7 @@ async function readLine ( data ) {
 
     const rest = await stream.buffer();
 
-    return [line, rest ? rest.toString() : rest, exception];
+    return [ line, rest ? rest.toString() : rest, exception ];
 }
 
 async function readChunk ( data ) {
@@ -100,7 +100,7 @@ async function readChunk ( data ) {
 
     const line = await stream.readChunk( data.length, { "encoding": data.encoding } );
 
-    return [line, await stream.text()];
+    return [ line, await stream.text() ];
 }
 
 async function push ( stream, data ) {

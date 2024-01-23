@@ -9,7 +9,7 @@ const TESTS = [
             "accept-encoding": `br;q=0.1, deflate, gzip;q=1.0, *;q=0.5    `,
         },
         "method": "acceptEncoding",
-        "result": ["deflate", "gzip", "*", "br"],
+        "result": [ "deflate", "gzip", "*", "br" ],
     },
 
     // cookie

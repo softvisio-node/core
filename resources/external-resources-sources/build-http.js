@@ -47,7 +47,7 @@ async function getHeaders ( url ) {
 function parseHeaders ( type, headers ) {
     data[type] = {};
 
-    for ( const [header, value] of Object.entries( headers ) ) {
+    for ( const [ header, value ] of Object.entries( headers ) ) {
         const name = header.toLowerCase();
 
         if ( name === "user-agent" ) {
