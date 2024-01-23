@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.64.3 (2024-01-23)
+
+Fixes:
+
+-   fix: acme log
+
 ### 7.64.2 (2024-01-23)
 
 Fixes:
