@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.64.0 (2024-01-23)
+
+Features:
+
+-   feat: app crypto
+
+Fixes:
+
+-   fix: app private key
+-   fix: app tmp dir
+-   fix: linted
+-   fix: telegram
+
 ### 7.63.2 (2024-01-18)
 
 Fixes:
