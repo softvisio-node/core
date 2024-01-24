@@ -28,7 +28,7 @@ const TESTS = [
 ];
 
 for ( let n = 0; n < TESTS.length; n++ ) {
-    _test( n, TESTS[n] );
+    _test( n, TESTS[ n ] );
 }
 
 function _test ( id, spec ) {
@@ -38,9 +38,9 @@ function _test ( id, spec ) {
         if ( property === "hostname" ) continue;
 
         test( `${ id }-${ spec.hostname }-${ property }`, () => {
-            const res = hostname[property];
+            const res = hostname[ property ];
 
-            expect( res instanceof Hostname ? res.unicode : res ).toBe( spec[property] );
+            expect( res instanceof Hostname ? res.unicode : res ).toBe( spec[ property ] );
         } );
     }
 }

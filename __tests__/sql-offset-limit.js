@@ -20,7 +20,7 @@ const TESTS = [
 for ( let n = 0; n < TESTS.length; n++ ) _test( n );
 
 function _test ( id ) {
-    const spec = TESTS[id];
+    const spec = TESTS[ id ];
 
     test( `${ id }`, () => {
         const res = sql.calcOffsetLimit( ...spec.params );

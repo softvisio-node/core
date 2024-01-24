@@ -16,7 +16,7 @@ while ( process.argv.length ) {
         break;
     }
 
-    process.env[arg.substring( 0, idx )] = arg.substring( idx + 1 );
+    process.env[ arg.substring( 0, idx ) ] = arg.substring( idx + 1 );
 }
 
 if ( !process.argv.length ) process.exit( 2 );

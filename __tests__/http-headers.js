@@ -77,13 +77,13 @@ const TESTS = [
 ];
 
 for ( let n = 0; n < TESTS.length; n++ ) {
-    const _test = TESTS[n],
+    const _test = TESTS[ n ],
         id = `http-headers-${ camelToKebabCase( _test.method ) }-${ n }`;
 
     test( `${ id }`, () => {
         const headers = new Headers( _test.headers );
 
-        const res = typeof headers[_test.method] === "function" ? headers[_test.method]() : headers[_test.method];
+        const res = typeof headers[ _test.method ] === "function" ? headers[ _test.method ]() : headers[ _test.method ];
 
         console.log( "expected:", JSON.stringify( _test.result, null, 4 ) );
         console.log( "result:", JSON.stringify( res, null, 4 ) );

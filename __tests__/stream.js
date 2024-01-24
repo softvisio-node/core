@@ -47,7 +47,7 @@ const sleep = () => new Promise( resolve => setTimeout( resolve, 1 ) );
 describe( "readline", () => {
     for ( let n = 0; n < READ_LINE.length; n++ ) {
         test( "read_line_" + n, async () => {
-            const data = READ_LINE[n];
+            const data = READ_LINE[ n ];
 
             const [ line, rest, exception ] = await readLine( data );
 
@@ -64,7 +64,7 @@ describe( "readline", () => {
 describe( "readchunk", () => {
     for ( let n = 0; n < READ_CHUNK.length; n++ ) {
         test( "read_chunk_" + n, async () => {
-            const data = READ_CHUNK[n];
+            const data = READ_CHUNK[ n ];
 
             const [ line, rest ] = await readChunk( data );
 

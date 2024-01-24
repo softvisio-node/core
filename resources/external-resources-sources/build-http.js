@@ -22,7 +22,7 @@ parseHeaders( "https:", headers );
 
 const http = config.readConfig( "http.yaml" );
 
-http["edge-windows"] = data;
+http[ "edge-windows" ] = data;
 
 config.writeConfig( "http.yaml", http );
 
@@ -37,7 +37,7 @@ async function getHeaders ( url ) {
 
     const match = content.match( /{\s+"headers":(.+?\})/s );
 
-    const json = match[1].trim();
+    const json = match[ 1 ].trim();
 
     const data = JSON.parse( json );
 
@@ -45,25 +45,25 @@ async function getHeaders ( url ) {
 }
 
 function parseHeaders ( type, headers ) {
-    data[type] = {};
+    data[ type ] = {};
 
     for ( const [ header, value ] of Object.entries( headers ) ) {
         const name = header.toLowerCase();
 
         if ( name === "user-agent" ) {
-            data["userAgent"] = value;
+            data[ "userAgent" ] = value;
         }
         else if ( name === "dnt" ) {
-            data[type][header] = value;
+            data[ type ][ header ] = value;
         }
         else if ( name === "accept" ) {
-            data[type][header] = value;
+            data[ type ][ header ] = value;
         }
         else if ( name === "accept-language" ) {
-            data[type][header] = value;
+            data[ type ][ header ] = value;
         }
         else if ( name.startsWith( "sec-" ) ) {
-            data[type][header] = value;
+            data[ type ][ header ] = value;
         }
     }
 }

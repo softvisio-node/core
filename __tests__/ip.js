@@ -26,7 +26,7 @@ describe( "addr", () => {
             test( `addr-${ _test.addr }-${ property }`, () => {
                 addr ??= new IpAddress( _test.addr );
 
-                expect( typeof addr[property] === "function" ? addr[property]() : addr[property] ).toBe( _test[property] );
+                expect( typeof addr[ property ] === "function" ? addr[ property ]() : addr[ property ] ).toBe( _test[ property ] );
             } );
         }
     }
@@ -61,7 +61,7 @@ describe( "range", () => {
             test( `range-${ _test.range }-${ property }`, () => {
                 range ??= new IpRange( ..._test.range );
 
-                expect( typeof range[property] === "function" ? range[property]() : range[property] ).toBe( _test[property] );
+                expect( typeof range[ property ] === "function" ? range[ property ]() : range[ property ] ).toBe( _test[ property ] );
             } );
         }
     }

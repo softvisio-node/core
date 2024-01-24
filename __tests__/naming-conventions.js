@@ -78,9 +78,9 @@ const tests = {
 };
 
 for ( const name in tests ) {
-    for ( const _test of tests[name].tests ) {
-        test( `${ name }_${ _test[0] }`, () => {
-            expect( namingConventions[tests[name].method]( _test[0], tests[name].options || {} ) ).toBe( _test[1] );
+    for ( const _test of tests[ name ].tests ) {
+        test( `${ name }_${ _test[ 0 ] }`, () => {
+            expect( namingConventions[ tests[ name ].method ]( _test[ 0 ], tests[ name ].options || {} ) ).toBe( _test[ 1 ] );
         } );
     }
 }
