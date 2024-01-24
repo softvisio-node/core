@@ -16,7 +16,6 @@ config:
     /:
       type: local
       deduplicate: false
-      encrypt: false
 
   locations:
     /:

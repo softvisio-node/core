@@ -16,7 +16,6 @@
             properties:
               type: { const: local }
               deduplicate: { type: boolean }
-              encrypt: { type: boolean }
             additionalProperties: false
             required: [type]
 
@@ -24,7 +23,6 @@
             properties:
               type: { const: google }
               deduplicate: { type: boolean }
-              encrypt: { type: boolean }
               bucket: { type: string, format: kebab-case }
               serviceAccount:
                 type: object
@@ -58,7 +56,7 @@
           cacheControl: { type: ["null", string] }
           maxAge: { type: string, format: interval }
           inactiveMaxAge: { type: string, format: interval }
-          encrypt: { type: boolean }
+          encrypt: { type: ["null", boolean] }
         additionalProperties: false
         required: [private]
       required: ["/"]
