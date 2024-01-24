@@ -65,7 +65,7 @@ const TESTS = [
     // content-disposition
     {
         "headers": {
-            "content-disposition": `   form-data  ;    name = file  ; filename = "${Buffer.from( "тест" ).toString( "binary" )}-%22-;-.txt" ; fake1; fake2 = 234  `,
+            "content-disposition": `   form-data  ;    name = file  ; filename = "${ Buffer.from( "тест" ).toString( "binary" ) }-%22-;-.txt" ; fake1; fake2 = 234  `,
         },
         "method": "contentDisposition",
         "result": {
@@ -78,9 +78,9 @@ const TESTS = [
 
 for ( let n = 0; n < TESTS.length; n++ ) {
     const _test = TESTS[n],
-        id = `http-headers-${camelToKebabCase( _test.method )}-${n}`;
+        id = `http-headers-${ camelToKebabCase( _test.method ) }-${ n }`;
 
-    test( `${id}`, () => {
+    test( `${ id }`, () => {
         const headers = new Headers( _test.headers );
 
         const res = typeof headers[_test.method] === "function" ? headers[_test.method]() : headers[_test.method];

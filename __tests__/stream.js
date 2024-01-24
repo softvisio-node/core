@@ -106,7 +106,7 @@ async function readChunk ( data ) {
 async function push ( stream, data ) {
     await sleep( 1 );
 
-    for ( const buf of data.buffer.split( new RegExp( `(.{1,${data.chunkSize}})` ) ).filter( buf => buf !== "" ) ) {
+    for ( const buf of data.buffer.split( new RegExp( `(.{1,${ data.chunkSize }})` ) ).filter( buf => buf !== "" ) ) {
         stream.push( buf );
         await sleep( 1 );
     }

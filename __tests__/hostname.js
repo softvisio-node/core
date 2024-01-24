@@ -37,7 +37,7 @@ function _test ( id, spec ) {
     for ( const property in spec ) {
         if ( property === "hostname" ) continue;
 
-        test( `${id}-${spec.hostname}-${property}`, () => {
+        test( `${ id }-${ spec.hostname }-${ property }`, () => {
             const res = hostname[property];
 
             expect( res instanceof Hostname ? res.unicode : res ).toBe( spec[property] );
