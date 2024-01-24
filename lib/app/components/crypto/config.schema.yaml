@@ -1,7 +1,7 @@
 - $id: config
   type: object
   properties:
-    privateKey: { type: string, minLength: 1 }
+    privateKey: { type: ["null", string] }
 
   additionalProperties: false
   required: [privateKey]

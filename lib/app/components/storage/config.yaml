@@ -3,6 +3,7 @@ dependencies:
 
 optionalDependencies:
   - cluster
+  - crypto
 
 config:
   clearInterval: 10 minutes
