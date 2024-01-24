@@ -58,7 +58,7 @@
           inactiveMaxAge: { type: string, format: interval }
           encrypt: { type: ["null", boolean] }
         additionalProperties: false
-        required: [private]
+        required: []
       required: ["/"]
 
   additionalProperties: false
