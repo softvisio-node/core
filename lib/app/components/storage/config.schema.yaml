@@ -16,13 +16,15 @@
             properties:
               type: { const: local }
               deduplicate: { type: boolean }
+              encrypt: { type: boolean }
             additionalProperties: false
-            required: [type, deduplicate]
+            required: [type]
 
           - type: object
             properties:
               type: { const: google }
               deduplicate: { type: boolean }
+              encrypt: { type: boolean }
               bucket: { type: string, format: kebab-case }
               serviceAccount:
                 type: object
@@ -42,7 +44,7 @@
                 required: [project_id, private_key, client_email, token_uri]
 
             additionalProperties: false
-            required: [type, deduplicate, bucket, serviceAccount]
+            required: [type, bucket, serviceAccount]
 
       required: ["/"]
 
@@ -56,6 +58,7 @@
           cacheControl: { type: ["null", string] }
           maxAge: { type: string, format: interval }
           inactiveMaxAge: { type: string, format: interval }
+          encrypt: { type: boolean }
         additionalProperties: false
         required: [private]
       required: ["/"]

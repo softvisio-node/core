@@ -16,11 +16,14 @@ config:
     /:
       type: local
       deduplicate: false
+      encrypt: false
 
   locations:
     /:
       private: false
+      encrypt: false
       cacheControl: public, max-age=1
     /private:
       private: false
+      encrypt: false
       cacheControl: public, max-age=1
