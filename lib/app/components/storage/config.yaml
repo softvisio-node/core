@@ -22,7 +22,7 @@ config:
       private: false
       encrypt: false
       cacheControl: public, max-age=1
-    /private/:
+    /private:
       private: false
       encrypt: false
       cacheControl: public, max-age=1
