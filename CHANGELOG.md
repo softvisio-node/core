@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.65.0 (2024-01-25)
+
+Features:
+
+-   feat: storage encryption
+
+Fixes:
+
+-   fix: app crypto
+-   fix: uws v20.41.0
+
 ### 7.64.8 (2024-01-24)
 
 Fixes:
