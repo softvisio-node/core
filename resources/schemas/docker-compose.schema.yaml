@@ -140,21 +140,33 @@ properties:
     type: object
     propertyNames: { type: string }
     additionalProperties:
-      type: object
-      properties:
-        file: { type: string }
-      required: [file]
-      additionalProperties: false
+      anyOf:
+        - type: object
+          properties:
+            file: { type: string }
+          additionalProperties: false
+          required: [file]
+        - type: object
+          properties:
+            external: { const: true }
+          additionalProperties: false
+          required: [file]
 
   secrets:
     type: object
     propertyNames: { type: string }
     additionalProperties:
-      type: object
-      properties:
-        file: { type: string }
-      required: [file]
-      additionalProperties: false
+      anyOf:
+        - type: object
+          properties:
+            file: { type: string }
+          additionalProperties: false
+          required: [file]
+        - type: object
+          properties:
+            external: { const: true }
+          additionalProperties: false
+          required: [file]
 
   networks:
     type: object
