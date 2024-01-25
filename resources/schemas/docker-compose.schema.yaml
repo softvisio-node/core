@@ -9,6 +9,7 @@ properties:
 
   services:
     type: object
+    propertyNames: { type: string }
     additionalProperties:
       type: object
 
@@ -61,6 +62,16 @@ properties:
         command: { type: string }
 
         configs:
+          type: array
+          items:
+            type: object
+            properties:
+              source: { type:string }
+              target: { type: string }
+            required: [source, target]
+            sdditionalProperties: false
+
+        secrets:
           type: array
           items:
             type: object
@@ -126,6 +137,15 @@ properties:
       additionalProperties: false
 
   configs:
+    type: object
+    additionalProperties:
+      type: object
+      properties:
+        file: { type: string }
+      required: [file]
+      additionalProperties: false
+
+  secrets:
     type: object
     additionalProperties:
       type: object
