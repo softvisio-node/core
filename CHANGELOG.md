@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.65.1 (2024-01-25)
+
+Fixes:
+
+-   fix: result try / catch options
+-   fix: storage encryption
+
 ### 7.65.0 (2024-01-25)
 
 Features:
