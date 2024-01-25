@@ -53,10 +53,19 @@
         type: object
         properties:
           private: { type: boolean }
-          cacheControl: { type: ["null", string] }
-          maxAge: { type: string, format: interval }
-          inactiveMaxAge: { type: string, format: interval }
           encrypt: { type: ["null", boolean] }
+          cacheControl: { type: ["null", ["null", string]] }
+
+          maxAge:
+            anyOf:
+              - type: "null"
+              - { type: string, format: interval }
+
+          inactiveMaxAge:
+            anyOf:
+              - type: "null"
+              - { type: string, format: interval }
+
         additionalProperties: false
         required: []
       required: ["/"]
