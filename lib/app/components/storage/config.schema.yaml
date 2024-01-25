@@ -54,7 +54,7 @@
         properties:
           private: { type: boolean }
           encrypt: { type: ["null", boolean] }
-          cacheControl: { type: ["null", ["null", string]] }
+          cacheControl: { type: ["null", string] }
 
           maxAge:
             anyOf:
