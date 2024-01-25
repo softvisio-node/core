@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.65.3 (2024-01-25)
+
+Fixes:
+
+-   fix: focker config secrets
+
 ### 7.65.2 (2024-01-25)
 
 Fixes:
