@@ -138,6 +138,7 @@ properties:
 
   configs:
     type: object
+    propertyNames: { type: string }
     additionalProperties:
       type: object
       properties:
@@ -147,6 +148,7 @@ properties:
 
   secrets:
     type: object
+    propertyNames: { type: string }
     additionalProperties:
       type: object
       properties:
@@ -156,6 +158,7 @@ properties:
 
   networks:
     type: object
+    propertyNames: { type: string }
     additionalProperties:
       type: object
       properties:
@@ -164,6 +167,7 @@ properties:
 
   volumes:
     type: object
+    propertyNames: { type: string }
     additionalProperties:
       type: object
       properties:
