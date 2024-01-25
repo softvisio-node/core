@@ -15,14 +15,15 @@ config:
   buckets:
     /:
       type: local
-      deduplicate: false
 
   locations:
     /:
       private: false
       encrypt: false
+      deduplicate: false
       cacheControl: public, max-age=1
     /private:
       private: false
       encrypt: false
+      deduplicate: false
       cacheControl: public, max-age=1

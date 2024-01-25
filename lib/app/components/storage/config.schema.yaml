@@ -15,14 +15,12 @@
           - type: object
             properties:
               type: { const: local }
-              deduplicate: { type: boolean }
             additionalProperties: false
             required: [type]
 
           - type: object
             properties:
               type: { const: google }
-              deduplicate: { type: boolean }
               bucket: { type: string, format: kebab-case }
               serviceAccount:
                 type: object
@@ -53,7 +51,8 @@
         type: object
         properties:
           private: { type: boolean }
-          encrypt: { type: ["null", boolean] }
+          encrypt: { type: boolean }
+          deduplicate: { type: boolean }
           cacheControl: { type: ["null", string] }
 
           maxAge:
