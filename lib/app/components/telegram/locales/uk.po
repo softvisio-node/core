@@ -82,7 +82,6 @@ msgid "Send confirmation email again"
 msgstr ""
 
 #: ../telegram/bot/modules/sign-in.js:27:19
-#, fuzzy
 msgid "Sign in"
 msgstr "Увійти"
 
@@ -96,7 +95,6 @@ msgid "Some error occured, pleast try again."
 msgstr ""
 
 #: ../telegram/bot/modules/start.js:26:19
-#, fuzzy
 msgid "Start"
 msgstr "Запустити"
 
