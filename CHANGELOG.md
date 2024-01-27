@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.65.5 (2024-01-27)
+
+Fixes:
+
+-   fix: result try / catch options
+-   fix: storage
+
 ### 7.65.4 (2024-01-27)
 
 Fixes:
