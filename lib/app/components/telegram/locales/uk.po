@@ -13,7 +13,7 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../telegram/bot/modules/sign-in.js:257:20
+#: ../telegram/bot/modules/sign-in.js:261:20
 #, javascript-format
 msgid ""
 "${n}\n"
@@ -37,19 +37,23 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:271:40
+#: ../telegram/bot/modules/sign-in.js:275:40
 msgid "Change email address"
 msgstr ""
 
-#: ../telegram/bot/modules/start.js:60:40
+#: ../telegram/bot/modules/locale.js:8:19
+msgid "Change language"
+msgstr ""
+
+#: ../telegram/bot/modules/start.js:63:40
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:117:32
+#: ../telegram/bot/modules/sign-in.js:121:32
 msgid "Confirmation link is not valid. Please, try again."
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:128:40
+#: ../telegram/bot/modules/sign-in.js:132:40
 msgid "Email address is not valid"
 msgstr ""
 
@@ -65,26 +69,36 @@ msgid ""
 "${n}\n"
 msgstr ""
 
-#: ../telegram/bot/modules/locale.js:54:24
+#: ../telegram/bot/modules/locale.js:58:24
 msgid "Please, select your communication language:"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:186:67
+#: ../telegram/bot/modules/sign-in.js:190:67
 msgid "Return to start"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:265:40
+#: ../telegram/bot/modules/sign-in.js:269:40
 msgid "Send confirmation email again"
 msgstr ""
+
+#: ../telegram/bot/modules/sign-in.js:27:19
+#, fuzzy
+msgid "Sign in"
+msgstr "Увійти"
 
 #: ../templates.yaml:4:16
 #, javascript-format
 msgid "Sign in to \"${n}\" bot"
 msgstr ""
 
-#: ../telegram/bot/modules/locale.js:20:36
+#: ../telegram/bot/modules/locale.js:24:36
 msgid "Some error occured, pleast try again."
 msgstr ""
+
+#: ../telegram/bot/modules/start.js:26:19
+#, fuzzy
+msgid "Start"
+msgstr "Запустити"
 
 #: ../templates.yaml
 msgid "Telegram account linked"
@@ -98,25 +112,25 @@ msgstr "Акаунт Telegram видалено"
 msgid "Telegram bot owner"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:150:44
+#: ../telegram/bot/modules/sign-in.js:154:44
 msgid "This email address is already used by the other user"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:135:48
+#: ../telegram/bot/modules/sign-in.js:139:48
 msgid "This email address is not registered"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:170:16
+#: ../telegram/bot/modules/sign-in.js:174:16
 msgid ""
 "To complete sign in, please, click on link which I just sent to your email address.\n"
 "If you didn't received emaul in several minutes you can send it again."
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:163:24
+#: ../telegram/bot/modules/sign-in.js:167:24
 msgid "To sign in, please, enter yoour email address"
 msgstr ""
 
-#: ../telegram/bot/modules/sign-in.js:181:24
+#: ../telegram/bot/modules/sign-in.js:185:24
 #, javascript-format
 msgid "You are signed in as: ${n}"
 msgstr ""
