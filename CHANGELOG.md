@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.65.4 (2024-01-27)
+
+Fixes:
+
+-   fix: permissions
+-   fix: result try / catch options
+-   fix: root label
+-   fix: telegram
+
 ### 7.65.3 (2024-01-25)
 
 Fixes:
