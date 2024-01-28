@@ -7,7 +7,7 @@ emits:
   - telegram/telegram-bot/update
   - telegram/telegram-bot/deleted/update
 
-  - "telegram/telegram-bot-update/*/create"
+  - telegram/telegram-bot-update/*/create
 
   - telegram/telegram-user/update
 
