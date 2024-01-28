@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.65.6 (2024-01-28)
+
+Fixes:
+
+-   fix: permissions
+-   fix: telegram
+
 ### 7.65.5 (2024-01-27)
 
 Fixes:
