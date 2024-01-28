@@ -37,7 +37,7 @@ msgstr ""
 msgid "Change language"
 msgstr ""
 
-#: ../telegram/bot/commands/start.js:63:40
+#: ../telegram/bot/commands/start.js:59:40
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr ""
 
