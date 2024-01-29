@@ -133,7 +133,7 @@ msgstr ""
 msgid "You are signed in as: ${n}"
 msgstr ""
 
-#: ../telegram/bot/command.js:411:56
+#: ../telegram/bot/command.js:409:56
 msgid ""
 "You can use these commands::\n"
 msgstr ""
