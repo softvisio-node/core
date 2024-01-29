@@ -25,16 +25,20 @@ msgstr ""
 msgid "Bot owner"
 msgstr ""
 
+#: ../telegram/bot/commands/start.js:26:19
+msgid "bot start page"
+msgstr ""
+
 #: ../component.js:25:31
 msgid "Can create telegram bots"
 msgstr ""
 
-#: ../telegram/bot/commands/sign-in.js:258:40
-msgid "Change email address"
+#: ../telegram/bot/commands/locale.js:8:19
+msgid "change communication language"
 msgstr ""
 
-#: ../telegram/bot/commands/locale.js:8:19
-msgid "Change language"
+#: ../telegram/bot/commands/sign-in.js:258:40
+msgid "Change email address"
 msgstr ""
 
 #: ../telegram/bot/commands/start.js:59:40
@@ -82,6 +86,10 @@ msgstr "Войти"
 msgid "Sign in to \"${n}\" bot"
 msgstr ""
 
+#: ../telegram/bot/commands/sign-in.js:34:19
+msgid "sign in to your account"
+msgstr ""
+
 #: ../telegram/bot/commands/locale.js:24:36
 msgid "Some error occured, pleast try again."
 msgstr ""
@@ -123,6 +131,11 @@ msgstr ""
 #: ../telegram/bot/commands/sign-in.js:282:24
 #, javascript-format
 msgid "You are signed in as: ${n}"
+msgstr ""
+
+#: ../telegram/bot/command.js:411:56
+msgid ""
+"You can use these commands::\n"
 msgstr ""
 
 #: ../templates.yaml
