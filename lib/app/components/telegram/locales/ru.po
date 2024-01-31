@@ -53,6 +53,11 @@ msgstr ""
 msgid "Email address is not valid"
 msgstr ""
 
+#: ../telegram/bot/commands/chat.js:23:40
+#: ../telegram/bot/commands/chat.js:40:40
+msgid "Open PRIVATE JOIN"
+msgstr ""
+
 #: ../telegram/component.js:73:20
 msgid "Owner"
 msgstr ""
