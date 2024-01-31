@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.65.10 (2024-01-31)
+
+Fixes:
+
+-   fix: permissions
+-   fix: sqlite 3.45.1
+-   fix: telegram
+
 ### 7.65.9 (2024-01-29)
 
 Fixes:
