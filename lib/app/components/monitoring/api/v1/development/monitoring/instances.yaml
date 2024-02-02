@@ -11,7 +11,7 @@ methods:
     params:
       - name: instance_id
         required: true
-        schema: { type: string, format: int64 }
+        schema: { type: integer }
       - name: period
         required: true
         schema: { enum: [1 hour, 30 days] }

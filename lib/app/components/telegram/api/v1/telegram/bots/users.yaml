@@ -13,7 +13,7 @@ methods:
         schema:
           read:
             fields:
-              telegram_bot_id: { type: string, format: int64, required: true, operator: "=", aclResolver: telegram-bot }
+              telegram_bot_id: { type: integer, required: true, operator: "=", aclResolver: telegram-bot }
               search: { type: string, operator: includes case insensitive }
               is_bot: { type: boolean, operator: "=" }
               username: { type: string, operator: includes case insensitive, sortable: true }
@@ -33,10 +33,10 @@ methods:
     params:
       - name: teleram_bot_id
         required: true
-        schema: { type: string, format: int64 }
+        schema: { type: integer }
       - name: teleram_bot_user_id
         required: true
-        schema: { type: string, format: int64, aclResolver: telegram-bot-user }
+        schema: { type: integer, aclResolver: telegram-bot-user }
       - name: banned
         required: true
         schema: { type: boolean }

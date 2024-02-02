@@ -19,7 +19,7 @@ methods:
     params:
       - name: monitoring_method_id
         required: true
-        schema: { type: string, format: int64 }
+        schema: { type: integer }
       - name: period
         required: true
         schema: { enum: [1 hour, 30 days] }
@@ -32,7 +32,7 @@ methods:
         schema:
           read:
             fields:
-              monitoring_method_id: { type: string, format: int64, operator: "=", required: true }
+              monitoring_method_id: { type: integer, operator: "=", required: true }
               date: { sortable: true }
             order_by: [[date, desc]]
             limit: { maxLimit: 100 }
@@ -44,5 +44,4 @@ methods:
       - name: monitoring_method_id
         required: true
         schema:
-          type: string
-          format: int64
+          type: integer

@@ -34,8 +34,7 @@ methods:
       - name: token_id
         required: true
         schema:
-          type: string
-          format: int64
+          type: integer
 
   set-enabled:
     title: Set token enabled
@@ -44,8 +43,7 @@ methods:
       - name: token_id
         required: true
         schema:
-          type: string
-          format: int64
+          type: integer
       - name: enabled
         required: true
         schema:

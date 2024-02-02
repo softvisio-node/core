@@ -72,7 +72,7 @@ methods:
     params:
       - name: session_id
         required: true
-        schema: { type: string, format: int64 }
+        schema: { type: integer }
 
   sign-out-all-sessions:
     title: Sign out of all sessions

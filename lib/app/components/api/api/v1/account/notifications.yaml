@@ -15,7 +15,7 @@ methods:
             acl_id:
               anyOf:
                 - type: "null"
-                - { type: string, format: int64 }
+                - { type: integer }
           additionalProperties: false
 
   set-user-notification-subscribed:
@@ -30,7 +30,7 @@ methods:
             acl_id:
               anyOf:
                 - type: "null"
-                - { type: string, format: int64 }
+                - { type: integer }
             notification: { type: string }
             channel: { enum: [internal, email, telegram, push] }
             subscribed: { type: boolean }
@@ -66,7 +66,7 @@ methods:
               minProperties: 1
             - type: object
               properties:
-                id: { type: string, format: int64 }
+                id: { type: integer }
                 done: { type: boolean }
               additionalProperties: false
               minProperties: 2
@@ -80,7 +80,7 @@ methods:
         schema:
           type: object
           properties:
-            id: { type: string, format: int64 }
+            id: { type: integer }
             done: { type: boolean }
 
           additionalProperties: false

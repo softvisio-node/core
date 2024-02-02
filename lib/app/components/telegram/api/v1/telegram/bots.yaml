@@ -54,7 +54,7 @@ methods:
     params:
       - name: bot_id
         required: true
-        schema: { type: string, format: int64, aclResolver: telegram-bot }
+        schema: { type: integer, aclResolver: telegram-bot }
       - name: started
         required: true
         schema: { type: boolean }
@@ -65,7 +65,7 @@ methods:
     params:
       - name: bot_id
         required: true
-        schema: { type: string, format: int64, aclResolver: telegram-bot }
+        schema: { type: integer, aclResolver: telegram-bot }
       - name: bot_api_token
         required: true
         schema: { type: string }
@@ -76,7 +76,7 @@ methods:
     params:
       - name: bot_id
         required: true
-        schema: { type: string, format: int64, aclResolver: telegram-bot }
+        schema: { type: integer, aclResolver: telegram-bot }
 
   get-bot:
     title: Get bot data
@@ -84,7 +84,7 @@ methods:
     params:
       - name: bot_id
         required: true
-        schema: { type: string, format: int64, aclResolver: telegram-bot }
+        schema: { type: integer, aclResolver: telegram-bot }
 
   get-bot-stats:
     title: Get bot subscribe stats
@@ -92,7 +92,7 @@ methods:
     params:
       - name: bot_id
         required: true
-        schema: { type: string, format: int64, aclResolver: telegram-bot }
+        schema: { type: integer, aclResolver: telegram-bot }
       - name: period
         required: true
         schema: { enum: ["7 days", "3 months", "1 year"] }
@@ -103,7 +103,7 @@ methods:
     params:
       - name: bot_id
         required: true
-        schema: { type: string, format: int64, aclResolver: telegram-bot }
+        schema: { type: integer, aclResolver: telegram-bot }
       - name: options
         required: true
         schema:
