@@ -1,5 +1,19 @@
 # Changelog
 
+### 7.66.0 (2024-02-03)
+
+Features:
+
+-   feat: int53 domain
+
+Fixes:
+
+-   fix: better-sqlite v9.4.0
+-   fix: nginx dtorage encrypt
+-   fix: permissions
+-   fix: sql types
+-   fix: telegram
+
 ### 7.65.10 (2024-01-31)
 
 Fixes:
