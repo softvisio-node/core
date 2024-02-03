@@ -1,6 +1,6 @@
 module: telegram
 type: postgresql
-patch: 1
+patch: ~
 
 emits:
   - telegram/telegram-bot/create
