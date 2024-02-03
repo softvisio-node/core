@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.66.1 (2024-02-03)
+
+Fixes:
+
+-   fix: storage
+
 ### 7.66.0 (2024-02-03)
 
 Features:
