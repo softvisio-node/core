@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.66.2 (2024-02-04)
+
+Fixes:
+
+-   fix: sql types
+
 ### 7.66.1 (2024-02-03)
 
 Fixes:
