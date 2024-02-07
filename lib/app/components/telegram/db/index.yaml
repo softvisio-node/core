@@ -13,6 +13,7 @@ emits:
 
   - telegram/telegram-bot-user/*/update
 
+  - telegram/telegram-bot-message/*/update
   - telegram/telegram-bot-message/*/delete
 
 locks:
