@@ -10,6 +10,7 @@
             - { type: array, items: { type: string, format: locale }, uniqueItems: true, minItems: 1 }
 
         usersCacheMaxSize: { type: integer, minimum: 100 }
+        messagesCacheMaxSize: { type: integer, minimum: 100 }
 
         signinRequired: { type: boolean }
         signupEnabled: { type: boolean }
@@ -17,6 +18,6 @@
         acl: { type: object }
 
       additionalProperties: false
-      required: [usersCacheMaxSize, signinRequired, signupEnabled]
+      required: [usersCacheMaxSize, messagesCacheMaxSize, signinRequired, signupEnabled]
 
   required: [telegram]
