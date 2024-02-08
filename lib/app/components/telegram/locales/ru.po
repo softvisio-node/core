@@ -13,18 +13,18 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../telegram/bot/commands/message.js:216:24
+#: ../telegram/bot/commands/message.js:217:24
 msgid ""
 "\n"
 "Send me medfia files ( photos, videos, audios, documents ) to add to the message.\n"
 "Photos / videos, audios and documents can be grouped to the album. up to 10 files in the album.\n"
 msgstr ""
 
-#: ../telegram/bot/commands/message.js:163:28
+#: ../telegram/bot/commands/message.js:164:28
 msgid "Add medua"
 msgstr ""
 
-#: ../telegram/bot/commands/message.js:143:32
+#: ../telegram/bot/commands/message.js:144:32
 msgid "Add text"
 msgstr ""
 
@@ -32,8 +32,8 @@ msgstr ""
 msgid "Administrator"
 msgstr "Администратор"
 
-#: ../telegram/bot/commands/message.js:224:40
-#: ../telegram/bot/commands/message.js:265:40
+#: ../telegram/bot/commands/message.js:225:40
+#: ../telegram/bot/commands/message.js:266:40
 msgid "Back"
 msgstr "Назад"
 
@@ -53,7 +53,7 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr ""
 
-#: ../telegram/bot/commands/message.js:205:40
+#: ../telegram/bot/commands/message.js:206:40
 msgid "Cancel"
 msgstr "Отменить"
 
@@ -65,7 +65,7 @@ msgstr ""
 msgid "Change email address"
 msgstr ""
 
-#: ../telegram/bot/commands/message.js:151:32
+#: ../telegram/bot/commands/message.js:152:32
 msgid "Change text"
 msgstr ""
 
@@ -77,11 +77,11 @@ msgstr ""
 msgid "Confirmation link is not valid. Please, try again."
 msgstr ""
 
-#: ../telegram/bot/commands/message.js:170:28
+#: ../telegram/bot/commands/message.js:171:28
 msgid "Delete media"
 msgstr ""
 
-#: ../telegram/bot/commands/message.js:155:32
+#: ../telegram/bot/commands/message.js:156:32
 msgid "Delete text"
 msgstr ""
 
@@ -97,7 +97,7 @@ msgstr ""
 msgid "Owner"
 msgstr ""
 
-#: ../telegram/bot/commands/message.js:176:24
+#: ../telegram/bot/commands/message.js:177:24
 msgid "Please, choose what you want to dp"
 msgstr ""
 
@@ -113,7 +113,7 @@ msgstr ""
 msgid "Please, select your communication language:"
 msgstr ""
 
-#: ../telegram/bot/commands/message.js:260:24
+#: ../telegram/bot/commands/message.js:261:24
 msgid "Press button when you will finish edit media:"
 msgstr ""
 
@@ -125,7 +125,7 @@ msgstr ""
 msgid "Send confirmation email again"
 msgstr ""
 
-#: ../telegram/bot/commands/message.js:190:25
+#: ../telegram/bot/commands/message.js:191:25
 msgid ""
 "Send me a text to add to the message.\n"
 "\n"
@@ -187,7 +187,7 @@ msgstr ""
 msgid "To sign in, please, enter yoour email address"
 msgstr ""
 
-#: ../telegram/bot/commands/message.js:246:44
+#: ../telegram/bot/commands/message.js:247:44
 msgid "x Delete media file"
 msgstr ""
 
@@ -209,6 +209,6 @@ msgstr "Ваша учетная запись Telegram связана с ваши
 msgid "Your Telegram account removed from your user profile."
 msgstr "Ваша учетная запись Telegram удалена из вашего профиля пользователя."
 
-#: ../telegram/bot/commands/message.js:186:33
+#: ../telegram/bot/commands/message.js:187:33
 msgid "Ypir message has no content. You need to add text and media."
 msgstr ""
