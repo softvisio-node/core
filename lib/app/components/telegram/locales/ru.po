@@ -13,9 +13,42 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
+#: ../telegram/bot/commands/message.js:190:25
+msgid ""
+"\n"
+"Send me a text to add to the message.\n"
+"\n"
+"<b>You can use following syntax to format text:</b>\n"
+"**bold text**: <b>bold text</b>\n"
+"__italic text__: <i>talic text</i>_\n"
+"~~strikethrough~~: <s>strikethrough</s>\n"
+"||spoiler||: <span class=\"tg-spoiler\">spoiler</span>\n"
+msgstr ""
+
+#: ../telegram/bot/commands/message.js:218:24
+msgid ""
+"\n"
+"Send me medfia files ( photos, videos, audios, documents ) to add to the message.\n"
+"Photos / videos, audios and documents can be grouped to the album. up to 10 files in the album.\n"
+msgstr ""
+
+#: ../telegram/bot/commands/message.js:163:28
+msgid "Add medua"
+msgstr ""
+
+#: ../telegram/bot/commands/message.js:143:32
+msgid "Add text"
+msgstr ""
+
 #: ../telegram/component.js:86:20
 msgid "Administrator"
 msgstr "Администратор"
+
+#: ../telegram/bot/commands/message.js:226:40
+#: ../telegram/bot/commands/message.js:267:40
+#, fuzzy
+msgid "Back"
+msgstr "Назад"
 
 #: ../telegram/component.js:87:27
 msgid "Bot administrator. Full access, but can't delete bot."
@@ -33,6 +66,11 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr ""
 
+#: ../telegram/bot/commands/message.js:207:40
+#, fuzzy
+msgid "Cancel"
+msgstr "Отменить"
+
 #: ../telegram/bot/commands/locale.js:8:19
 msgid "change communication language"
 msgstr ""
@@ -41,7 +79,11 @@ msgstr ""
 msgid "Change email address"
 msgstr ""
 
-#: ../telegram/bot/commands/start.js:59:40
+#: ../telegram/bot/commands/message.js:151:32
+msgid "Change text"
+msgstr ""
+
+#: ../telegram/bot/commands/start.js:72:44
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr ""
 
@@ -49,17 +91,28 @@ msgstr ""
 msgid "Confirmation link is not valid. Please, try again."
 msgstr ""
 
+#: ../telegram/bot/commands/message.js:170:28
+msgid "Delete media"
+msgstr ""
+
+#: ../telegram/bot/commands/message.js:155:32
+msgid "Delete text"
+msgstr ""
+
 #: ../telegram/bot/commands/sign-in.js:200:40
 msgid "Email address is not valid"
 msgstr ""
 
-#: ../telegram/bot/commands/chat.js:23:40
-#: ../telegram/bot/commands/chat.js:40:40
+#: ../telegram/bot/commands/chat.js:16:40
 msgid "Open PRIVATE JOIN"
 msgstr ""
 
 #: ../telegram/component.js:73:20
 msgid "Owner"
+msgstr ""
+
+#: ../telegram/bot/commands/message.js:176:24
+msgid "Please, choose what you want to dp"
 msgstr ""
 
 #: ../templates.yaml:4:16
@@ -72,6 +125,10 @@ msgstr ""
 
 #: ../telegram/bot/commands/locale.js:58:24
 msgid "Please, select your communication language:"
+msgstr ""
+
+#: ../telegram/bot/commands/message.js:262:24
+msgid "Press button when you will finish edit media:"
 msgstr ""
 
 #: ../telegram/bot/commands/sign-in.js:287:67
@@ -133,6 +190,10 @@ msgstr ""
 msgid "To sign in, please, enter yoour email address"
 msgstr ""
 
+#: ../telegram/bot/commands/message.js:248:44
+msgid "x Delete media file"
+msgstr ""
+
 #: ../telegram/bot/commands/sign-in.js:282:24
 #, javascript-format
 msgid "You are signed in as: ${n}"
@@ -150,3 +211,7 @@ msgstr "Ваша учетная запись Telegram связана с ваши
 #: ../templates.yaml:4:16
 msgid "Your Telegram account removed from your user profile."
 msgstr "Ваша учетная запись Telegram удалена из вашего профиля пользователя."
+
+#: ../telegram/bot/commands/message.js:186:33
+msgid "Ypir message has no content. You need to add text and media."
+msgstr ""
