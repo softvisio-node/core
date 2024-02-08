@@ -13,19 +13,7 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../telegram/bot/commands/message.js:190:25
-msgid ""
-"\n"
-"Send me a text to add to the message.\n"
-"\n"
-"<b>You can use following syntax to format text:</b>\n"
-"**bold text**: <b>bold text</b>\n"
-"__italic text__: <i>talic text</i>_\n"
-"~~strikethrough~~: <s>strikethrough</s>\n"
-"||spoiler||: <span class=\"tg-spoiler\">spoiler</span>\n"
-msgstr ""
-
-#: ../telegram/bot/commands/message.js:218:24
+#: ../telegram/bot/commands/message.js:216:24
 msgid ""
 "\n"
 "Send me medfia files ( photos, videos, audios, documents ) to add to the message.\n"
@@ -44,9 +32,8 @@ msgstr ""
 msgid "Administrator"
 msgstr "Администратор"
 
-#: ../telegram/bot/commands/message.js:226:40
-#: ../telegram/bot/commands/message.js:267:40
-#, fuzzy
+#: ../telegram/bot/commands/message.js:224:40
+#: ../telegram/bot/commands/message.js:265:40
 msgid "Back"
 msgstr "Назад"
 
@@ -66,8 +53,7 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr ""
 
-#: ../telegram/bot/commands/message.js:207:40
-#, fuzzy
+#: ../telegram/bot/commands/message.js:205:40
 msgid "Cancel"
 msgstr "Отменить"
 
@@ -127,16 +113,27 @@ msgstr ""
 msgid "Please, select your communication language:"
 msgstr ""
 
-#: ../telegram/bot/commands/message.js:262:24
+#: ../telegram/bot/commands/message.js:260:24
 msgid "Press button when you will finish edit media:"
 msgstr ""
 
-#: ../telegram/bot/commands/sign-in.js:287:67
+#: ../telegram/bot/commands/sign-in.js:287:40
 msgid "Return to start"
 msgstr ""
 
 #: ../telegram/bot/commands/sign-in.js:252:40
 msgid "Send confirmation email again"
+msgstr ""
+
+#: ../telegram/bot/commands/message.js:190:25
+msgid ""
+"Send me a text to add to the message.\n"
+"\n"
+"<b>You can use following syntax to format text:</b>\n"
+"**bold text**: <b>bold text</b>\n"
+"__italic text__: <i>talic text</i>_\n"
+"~~strikethrough~~: <s>strikethrough</s>\n"
+"||spoiler||: <span class=\"tg-spoiler\">spoiler</span>"
 msgstr ""
 
 #: ../telegram/bot/commands/sign-in.js:34:19
@@ -190,7 +187,7 @@ msgstr ""
 msgid "To sign in, please, enter yoour email address"
 msgstr ""
 
-#: ../telegram/bot/commands/message.js:248:44
+#: ../telegram/bot/commands/message.js:246:44
 msgid "x Delete media file"
 msgstr ""
 
@@ -199,7 +196,7 @@ msgstr ""
 msgid "You are signed in as: ${n}"
 msgstr ""
 
-#: ../telegram/bot/command.js:409:56
+#: ../telegram/bot/command.js:401:56
 msgid ""
 "You can use these commands::\n"
 msgstr ""
