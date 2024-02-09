@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.66.7 (2024-02-09)
+
+Fixes:
+
+-   fix: telegram
+
 ### 7.66.6 (2024-02-09)
 
 Fixes:
