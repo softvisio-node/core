@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.66.6 (2024-02-09)
+
+Fixes:
+
+-   fix: chrome repo
+-   fix: symvol iterator
+-   fix: telegram
+
 ### 7.66.5 (2024-02-07)
 
 Fixes:
