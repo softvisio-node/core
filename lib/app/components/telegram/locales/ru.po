@@ -21,7 +21,7 @@ msgstr ""
 msgid "Add text"
 msgstr ""
 
-#: ../telegram/component.js:86:20
+#: ../telegram/component.js:87:20
 msgid "Administrator"
 msgstr "Администратор"
 
@@ -30,11 +30,11 @@ msgstr "Администратор"
 msgid "Back"
 msgstr "Назад"
 
-#: ../telegram/component.js:87:27
+#: ../telegram/component.js:88:27
 msgid "Bot administrator. Full access, but can't delete bot."
 msgstr ""
 
-#: ../telegram/component.js:74:27
+#: ../telegram/component.js:75:27
 msgid "Bot owner"
 msgstr ""
 
@@ -86,7 +86,7 @@ msgstr ""
 msgid "Open PRIVATE JOIN"
 msgstr ""
 
-#: ../telegram/component.js:73:20
+#: ../telegram/component.js:74:20
 msgid "Owner"
 msgstr ""
 
