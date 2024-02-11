@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.66.9 (2024-02-11)
+
+Fixes:
+
+-   fix: better-sqlite v9.4.1
+-   fix: telegram
+
 ### 7.66.8 (2024-02-10)
 
 Fixes:
