@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.67.0 (2024-02-12)
+
+Features:
+
+-   feat: app component mixin
+
+Fixes:
+
+-   fix: telegram
+
 ### 7.66.9 (2024-02-11)
 
 Fixes:
