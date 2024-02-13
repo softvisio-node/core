@@ -31,6 +31,11 @@ msgstr "Администратор"
 msgid "Back"
 msgstr "Назад"
 
+#: ../bot/commands/sign-in.js:291:40
+#, fuzzy
+msgid "Back to the start"
+msgstr "Вернуться к началу"
+
 #: ../bot/component.js:87:31
 #, fuzzy
 msgid "Bot administrator. Full access, but can't delete bot."
