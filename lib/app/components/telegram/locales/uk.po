@@ -14,16 +14,14 @@ msgstr ""
 "X-Generator: Poedit 3.3.1\n"
 
 #: ../bot/commands/message.js:168:28
-#, fuzzy
 msgid "Add media"
-msgstr "Додайте медіа"
+msgstr ""
 
 #: ../bot/commands/message.js:148:32
-#, fuzzy
 msgid "Add text"
-msgstr "Додайте текст"
+msgstr ""
 
-#: ../bot/component.js:86:24
+#: ../bot/component.js:97:20
 msgid "Administrator"
 msgstr "Адміністратор"
 
@@ -31,116 +29,95 @@ msgstr "Адміністратор"
 msgid "Back"
 msgstr "Назад"
 
-#: ../bot/component.js:87:31
-#, fuzzy
+#: ../bot/component.js:98:27
 msgid "Bot administrator. Full access, but can't delete bot."
-msgstr "Адміністратор бота. Повний доступ, але неможливо видалити бота."
+msgstr ""
 
-#: ../bot/component.js:74:31
-#, fuzzy
+#: ../bot/component.js:85:27
 msgid "Bot owner"
-msgstr "Власник бота"
+msgstr ""
 
-#: ../component.js:25:35
-#, fuzzy
+#: ../component.js:25:31
 msgid "Can create telegram bots"
-msgstr "Може створювати телеграм-ботів"
+msgstr ""
 
 #: ../bot/commands/message.js:210:40
 msgid "Cancel"
 msgstr "Скасувати"
 
 #: ../bot/commands/locale.js:8:19
-#, fuzzy
 msgid "change communication language"
-msgstr "змінити мову спілкування"
+msgstr ""
 
 #: ../bot/commands/sign-in.js:262:40
-#, fuzzy
 msgid "Change email address"
-msgstr "Змінити адресу електронної пошти"
+msgstr ""
 
 #: ../bot/commands/message.js:156:32
-#, fuzzy
 msgid "Change text"
-msgstr "Змінити текст"
+msgstr ""
 
 #: ../bot/commands/start.js:72:44
-#, fuzzy
 msgid "Command is unknown. Please, use commands from \"Menu\"."
-msgstr "Команда невідома. Будь ласка, використовуйте команди з «Меню»."
+msgstr ""
 
 #: ../bot/commands/sign-in.js:155:32
-#, fuzzy
 msgid "Confirmation link is not valid. Please, try again."
-msgstr "Посилання для підтвердження недійсне. Будь ласка спробуйте ще раз."
+msgstr ""
 
 #: ../bot/commands/message.js:175:28
-#, fuzzy
 msgid "Delete media"
-msgstr "Видалити медіа"
+msgstr ""
 
 #: ../bot/commands/message.js:160:32
-#, fuzzy
 msgid "Delete text"
-msgstr "Видалити текст"
+msgstr ""
 
 #: ../bot/commands/sign-in.js:204:40
-#, fuzzy
 msgid "Email address is not valid"
-msgstr "Адреса електронної пошти недійсна"
+msgstr ""
 
 #: ../bot/commands/start.js:26:19
-#, fuzzy
 msgid "go to the bot start"
-msgstr "перейти до початку бота"
+msgstr ""
 
 #: ../bot/commands/chat.js:16:40
-#, fuzzy
 msgid "Open PRIVATE JOIN"
-msgstr "Відкрийте PRIVATE JOIN"
+msgstr ""
 
-#: ../bot/component.js:73:24
-#, fuzzy
+#: ../bot/component.js:84:20
 msgid "Owner"
-msgstr "Власник"
+msgstr ""
 
 #: ../bot/commands/message.js:181:24
-#, fuzzy
 msgid "Please, choose what you want to dp"
-msgstr "Будь ласка, виберіть, що ви хочете дп"
+msgstr ""
 
 #: ../templates.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Please, click following link to sign in to \"${n}\" Telegram bot:\n"
 "\n"
 "${n}\n"
 msgstr ""
-"Клацніть це посилання, щоб увійти в бот Telegram &quot;${n}&quot;: ${n}\n"
 
 #: ../bot/commands/locale.js:58:24
-#, fuzzy
 msgid "Please, select your communication language:"
-msgstr "Виберіть мову спілкування:"
+msgstr ""
 
 #: ../bot/commands/message.js:264:24
-#, fuzzy
 msgid "Press button when you will finish edit media:"
-msgstr "Натисніть кнопку, коли закінчите редагувати медіа:"
+msgstr ""
 
 #: ../bot/commands/sign-in.js:291:40
-#, fuzzy
 msgid "Return to start"
-msgstr "Повернутися до початку"
+msgstr ""
 
 #: ../bot/commands/sign-in.js:256:40
-#, fuzzy
 msgid "Send confirmation email again"
-msgstr "Ще раз надішліть електронний лист із підтвердженням"
+msgstr ""
 
 #: ../bot/commands/message.js:195:25
-#, fuzzy
 msgid ""
 "Send me a text to add to the message.\n"
 "\n"
@@ -149,33 +126,30 @@ msgid ""
 "__italic text__: <i>talic text</i>_\n"
 "~~strikethrough~~: <s>strikethrough</s>\n"
 "||spoiler||: <span class=\"tg-spoiler\">spoiler</span>"
-msgstr "Надішліть мені текст, щоб додати його до повідомлення. <b>Ви можете використовувати наступний синтаксис для форматування тексту:</b> **жирний текст**: <b>жирний текст</b> __курсивний текст__: <i>курсивний текст</i> _ ~~закреслене~~: <s>закреслене</s> ||спойлер||: <span class=\"tg-spoiler\">спойлер</span>"
+msgstr ""
 
 #: ../bot/commands/message.js:220:25
-#, fuzzy
 msgid ""
 "Send me medfia files ( photos, videos, audios, documents ) to add to the message.\n"
 "Photos / videos, audios and documents can be grouped to the album. up to 10 files in the album."
-msgstr "Надсилайте мені файли медіа (фото, відео, аудіо, документи), щоб додати їх до повідомлення. Фотографії/відео, аудіо та документи можна згрупувати в альбом. до 10 файлів в альбомі."
+msgstr ""
 
 #: ../telegram/bot/commands/sign-in.js:34:19
 msgid "Sign in"
 msgstr "Увійти"
 
 #: ../templates.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Sign in to \"${n}\" bot"
-msgstr "Увійдіть до бота &quot;${n}&quot;."
+msgstr ""
 
 #: ../bot/commands/sign-in.js:38:19
-#, fuzzy
 msgid "sign in to your account"
-msgstr "увійдіть у свій обліковий запис"
+msgstr ""
 
 #: ../bot/commands/locale.js:24:36
-#, fuzzy
 msgid "Some error occured, pleast try again."
-msgstr "Сталася якась помилка, спробуйте ще раз."
+msgstr ""
 
 #: ../telegram/bot/commands/start.js:26:19
 msgid "Start"
@@ -189,49 +163,41 @@ msgstr "Обліковий запис Telegram прив’язано"
 msgid "Telegram account removed"
 msgstr "Акаунт Telegram видалено"
 
-#: ../component.js:24:28
-#, fuzzy
+#: ../component.js:24:24
 msgid "Telegram bot owner"
-msgstr "Власник телеграм-бота"
+msgstr ""
 
 #: ../bot/commands/sign-in.js:229:44
-#, fuzzy
 msgid "This email address is already used by the other user"
-msgstr "Ця електронна адреса вже використовується іншим користувачем"
+msgstr ""
 
 #: ../bot/commands/sign-in.js:216:48
-#, fuzzy
 msgid "This email address is not registered"
-msgstr "Ця електронна адреса не зареєстрована"
+msgstr ""
 
 #: ../bot/commands/sign-in.js:250:24
-#, fuzzy
 msgid ""
 "To complete sign in, please, click on link which I just sent to your email address.\n"
 "If you didn't received emaul in several minutes you can send it again."
-msgstr "Щоб завершити вхід, натисніть посилання, яке я щойно надіслав на вашу електронну адресу. Якщо ви не отримали лист протягом кількох хвилин, ви можете надіслати його ще раз."
+msgstr ""
 
 #: ../bot/commands/sign-in.js:242:24
-#, fuzzy
 msgid "To sign in, please, enter yoour email address"
-msgstr "Щоб увійти, будь ласка, введіть свою електронну адресу"
+msgstr ""
 
 #: ../bot/commands/message.js:250:44
-#, fuzzy
 msgid "x Delete media file"
-msgstr "x Видалити медіафайл"
+msgstr ""
 
 #: ../bot/commands/sign-in.js:286:24
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "You are signed in as: ${n}"
-msgstr "Ви ввійшли як: ${n}"
+msgstr ""
 
 #: ../bot/command.js:401:56
-#, fuzzy
 msgid ""
 "You can use these commands::\n"
 msgstr ""
-"Ви можете використовувати ці команди:\n"
 
 #: ../templates.yaml
 msgid "Your Telegram account linked to your user profile."
@@ -242,6 +208,5 @@ msgid "Your Telegram account removed from your user profile."
 msgstr "Ваш обліковий запис Telegram видалено з вашого профілю користувача."
 
 #: ../bot/commands/message.js:191:33
-#, fuzzy
 msgid "Ypir message has no content. You need to add text and media."
-msgstr "Повідомлення Ypir не має вмісту. Потрібно додати текст і медіа."
+msgstr ""

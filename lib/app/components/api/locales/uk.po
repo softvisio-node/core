@@ -14,14 +14,12 @@ msgstr ""
 "X-Generator: Poedit 3.3.1\n"
 
 #: ../templates.yaml
-#, fuzzy
 msgid "Confirm your email address"
-msgstr "Підтвердіть Вашу електронну адресу"
+msgstr ""
 
 #: ../templates.yaml
-#, fuzzy
 msgid "Email address change"
-msgstr "Зміна електронної адреси"
+msgstr ""
 
 #: ../api/v1/account.js:98:64
 msgid "Email changed"
@@ -36,12 +34,11 @@ msgid "Password changed"
 msgstr "Пароль змінено"
 
 #: ../templates.yaml
-#, fuzzy
 msgid "Password reset link"
-msgstr "Посилання для зміни пароля"
+msgstr ""
 
 #: ../templates.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Use the following link to change your email address to ${n}:\n"
 "\n"
@@ -51,10 +48,9 @@ msgid ""
 "\n"
 "If you received this email by mistake just ignore it.\n"
 msgstr ""
-"Скористайтеся наведеним нижче посиланням, щоб змінити адресу електронної пошти на ${n}: ${n} Це посилання дійсне до ${n}. Якщо ви отримали цей електронний лист помилково, просто проігноруйте його.\n"
 
 #: ../templates.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Use the following link to confirm your email:\n"
 "\n"
@@ -64,10 +60,9 @@ msgid ""
 "\n"
 "If you received this email by mistake just ignore it.\n"
 msgstr ""
-"Скористайтеся цим посиланням, щоб підтвердити свою електронну адресу: ${n} Це посилання дійсне до ${n}. Якщо ви отримали цей електронний лист помилково, просто проігноруйте його.\n"
 
 #: ../templates.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Use the following link to reset your password:\n"
 "\n"
@@ -77,7 +72,6 @@ msgid ""
 "\n"
 "If you didn't ask for password reset and received this email by mistake just ignore it.\n"
 msgstr ""
-"Скористайтеся цим посиланням, щоб змінити свій пароль: ${n} Це посилання дійсне до ${n}. Якщо ви не запитували скидання пароля та отримали цей електронний лист помилково, просто проігноруйте його.\n"
 
 #: ../templates.yaml:4:16
 #, javascript-format
@@ -111,9 +105,8 @@ msgstr ""
 "Якщо це були не ви, будь ласка, змініть свій пароль і видаліть цей сеанс із сеансів свого облікового запису.\n"
 
 #: ../templates.yaml
-#, fuzzy
 msgid "Your email address was changed"
-msgstr "Вашу адресу електронної пошти було змінено"
+msgstr ""
 
 #: ../api/v1/account.js:84:24
 #, javascript-format
@@ -127,7 +120,7 @@ msgstr ""
 "Нова електронна адреса: ${n}\n"
 
 #: ../templates.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Your email address was changed.\n"
 "\n"
@@ -135,7 +128,6 @@ msgid ""
 "\n"
 "Old email address: ${n}\n"
 msgstr ""
-"Вашу адресу електронної пошти було змінено. Нова електронна адреса: ${n} Стара електронна адреса: ${n}\n"
 
 #: ../templates.yaml
 msgid "Your password was just changed."
