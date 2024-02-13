@@ -35,7 +35,7 @@ msgstr "Назад"
 msgid "back to the start"
 msgstr "вернуться к началу"
 
-#: ../bot/commands/sign-in.js:291:40
+#: ../bot/commands/sign-in.js:292:40
 msgid "Back to the start"
 msgstr "Вернуться к началу"
 
@@ -63,7 +63,7 @@ msgstr "Отменить"
 msgid "change communication language"
 msgstr "изменить язык общения"
 
-#: ../bot/commands/sign-in.js:262:40
+#: ../bot/commands/sign-in.js:263:40
 #, fuzzy
 msgid "Change email address"
 msgstr "Изменить адрес электронной почты"
@@ -78,7 +78,7 @@ msgstr "Изменить текст"
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr "Командование неизвестно. Пожалуйста, используйте команды из «Меню»."
 
-#: ../bot/commands/sign-in.js:155:32
+#: ../bot/commands/sign-in.js:156:32
 #, fuzzy
 msgid "Confirmation link is not valid. Please, try again."
 msgstr "Ссылка для подтверждения недействительна. Пожалуйста, попробуйте еще раз."
@@ -93,7 +93,7 @@ msgstr "Удалить медиа"
 msgid "Delete text"
 msgstr "Удалить текст"
 
-#: ../bot/commands/sign-in.js:204:40
+#: ../bot/commands/sign-in.js:205:40
 #, fuzzy
 msgid "Email address is not valid"
 msgstr "Адрес электронной почты недействителен"
@@ -134,7 +134,7 @@ msgstr "Пожалуйста, выберите язык общения:"
 msgid "Press button when you will finish edit media:"
 msgstr "Нажмите кнопку, когда вы закончите редактирование мультимедиа:"
 
-#: ../bot/commands/sign-in.js:256:40
+#: ../bot/commands/sign-in.js:257:40
 #, fuzzy
 msgid "Send confirmation email again"
 msgstr "Отправить письмо с подтверждением еще раз"
@@ -172,10 +172,9 @@ msgstr ""
 msgid "Sign in to \"${n}\" bot"
 msgstr "Войдите в бот &quot;${n}&quot;"
 
-#: ../bot/commands/sign-in.js:38:19
-#, fuzzy
+#: ../bot/commands/sign-in.js:39:19
 msgid "sign in to your account"
-msgstr "Войдите в свой аккаунт"
+msgstr "войдите в свой аккаунт"
 
 #: ../bot/commands/locale.js:24:36
 #, fuzzy
@@ -187,17 +186,17 @@ msgstr "Произошла ошибка. Повторите попытку."
 msgid "Telegram bot owner"
 msgstr "Владелец Telegram-бота"
 
-#: ../bot/commands/sign-in.js:229:44
+#: ../bot/commands/sign-in.js:230:44
 #, fuzzy
 msgid "This email address is already used by the other user"
 msgstr "Этот адрес электронной почты уже используется другим пользователем"
 
-#: ../bot/commands/sign-in.js:216:48
+#: ../bot/commands/sign-in.js:217:48
 #, fuzzy
 msgid "This email address is not registered"
 msgstr "Этот адрес электронной почты не зарегистрирован"
 
-#: ../bot/commands/sign-in.js:250:24
+#: ../bot/commands/sign-in.js:251:24
 #, fuzzy
 msgid ""
 "To complete sign in, please, click on link which I just sent to your email address.\n"
@@ -206,7 +205,7 @@ msgstr ""
 "Чтобы завершить вход, пожалуйста, нажмите на ссылку, которую я только что отправил на ваш адрес электронной почты.\n"
 "Если вы не получили электронное письмо в течение нескольких минут, вы можете отправить его еще раз."
 
-#: ../bot/commands/sign-in.js:242:24
+#: ../bot/commands/sign-in.js:243:24
 #, fuzzy
 msgid "To sign in, please, enter yoour email address"
 msgstr "Для входа, пожалуйста, введите свой адрес электронной почты"
@@ -216,7 +215,7 @@ msgstr "Для входа, пожалуйста, введите свой адр�
 msgid "x Delete media file"
 msgstr "x Удалить медиа-файл"
 
-#: ../bot/commands/sign-in.js:286:24
+#: ../bot/commands/sign-in.js:287:24
 #, fuzzy, javascript-format
 msgid "You are signed in as: ${n}"
 msgstr "Вы вошли как: ${n}"
