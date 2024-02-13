@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.69.2 (2024-02-13)
+
+Fixes:
+
+-   fix: telegram
+-   fix: tramslations
+
 ### 7.69.1 (2024-02-13)
 
 Fixes:
