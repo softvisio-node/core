@@ -18,12 +18,14 @@ msgid "Administrator"
 msgstr "Администратор"
 
 #: ../config.yaml
+#, fuzzy
 msgid "Bot read-only permissions"
-msgstr ""
+msgstr "Разрешения бота только на чтение"
 
 #: ../config.yaml
+#, fuzzy
 msgid "Read-only"
-msgstr ""
+msgstr "Только чтение"
 
 #: ../telegram/modules/start.js:9:25
 msgid "Start"

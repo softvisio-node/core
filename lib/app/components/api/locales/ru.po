@@ -18,8 +18,9 @@ msgid "Confirm your email address"
 msgstr "Подтвердите Ваш электронный адрес"
 
 #: ../templates.yaml
+#, fuzzy
 msgid "Email address change"
-msgstr ""
+msgstr "Изменение адреса электронной почты"
 
 #: ../api/v1/account.js:98:64
 msgid "Email changed"
@@ -34,11 +35,12 @@ msgid "Password changed"
 msgstr "Пароль изменен"
 
 #: ../templates.yaml
+#, fuzzy
 msgid "Password reset link"
-msgstr ""
+msgstr "Ссылка для сброса пароля"
 
 #: ../templates.yaml:4:16
-#, javascript-format
+#, fuzzy, javascript-format
 msgid ""
 "Use the following link to change your email address to ${n}:\n"
 "\n"
@@ -48,9 +50,10 @@ msgid ""
 "\n"
 "If you received this email by mistake just ignore it.\n"
 msgstr ""
+"Используйте следующую ссылку, чтобы изменить свой адрес электронной почты на ${n}: ${n} Эта ссылка действительна до ${n}. Если вы получили это письмо по ошибке, просто проигнорируйте его.\n"
 
 #: ../templates.yaml:4:16
-#, javascript-format
+#, fuzzy, javascript-format
 msgid ""
 "Use the following link to confirm your email:\n"
 "\n"
@@ -60,9 +63,10 @@ msgid ""
 "\n"
 "If you received this email by mistake just ignore it.\n"
 msgstr ""
+"Используйте следующую ссылку, чтобы подтвердить свой адрес электронной почты: ${n} Эта ссылка действительна до ${n}. Если вы получили это письмо по ошибке, просто проигнорируйте его.\n"
 
 #: ../templates.yaml:4:16
-#, javascript-format
+#, fuzzy, javascript-format
 msgid ""
 "Use the following link to reset your password:\n"
 "\n"
@@ -72,6 +76,7 @@ msgid ""
 "\n"
 "If you didn't ask for password reset and received this email by mistake just ignore it.\n"
 msgstr ""
+"Используйте следующую ссылку, чтобы сбросить пароль: ${n} Эта ссылка действительна до ${n}. Если вы не запрашивали сброс пароля и получили это письмо по ошибке, просто проигнорируйте его.\n"
 
 #: ../templates.yaml:4:16
 #, javascript-format
@@ -105,8 +110,9 @@ msgstr ""
 "Если это были не вы, пожалуйста, измените свой пароль и удалите эту сессию из сессий вашей учетной записи.\n"
 
 #: ../templates.yaml
+#, fuzzy
 msgid "Your email address was changed"
-msgstr ""
+msgstr "Ваш адрес электронной почты был изменен"
 
 #: ../api/v1/account.js:84:24
 #, javascript-format
@@ -121,7 +127,7 @@ msgstr ""
 "\n"
 
 #: ../templates.yaml:4:16
-#, javascript-format
+#, fuzzy, javascript-format
 msgid ""
 "Your email address was changed.\n"
 "\n"
@@ -129,6 +135,7 @@ msgid ""
 "\n"
 "Old email address: ${n}\n"
 msgstr ""
+"Ваш адрес электронной почты был изменен. Новый адрес электронной почты: ${n} Старый адрес электронной почты: ${n}\n"
 
 #: ../templates.yaml
 msgid "Your password was just changed."
