@@ -14,7 +14,6 @@ msgstr ""
 "X-Generator: Poedit 3.3.1\n"
 
 #: ../bot/commands/edit-start-message.js:8:19
-#, fuzzy
 msgid "edit start message"
 msgstr "редактировать стартовое сообщение"
 
