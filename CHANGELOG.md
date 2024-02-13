@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.69.1 (2024-02-13)
+
+Fixes:
+
+-   fix: tramslations
+
 ### 7.69.0 (2024-02-13)
 
 Features:
