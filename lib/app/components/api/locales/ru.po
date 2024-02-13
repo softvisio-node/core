@@ -22,10 +22,6 @@ msgstr "Подтвердите Ваш электронный адрес"
 msgid "Email address change"
 msgstr "Изменение адреса электронной почты"
 
-#: ../api/v1/account.js:98:64
-msgid "Email changed"
-msgstr "Электронная почта изменена"
-
 #: ../templates.yaml
 msgid "New device"
 msgstr "Новое устройство"
@@ -132,18 +128,6 @@ msgstr ""
 msgid "Your email address was changed"
 msgstr "Ваш адрес электронной почты был изменен"
 
-#: ../api/v1/account.js:84:24
-#, javascript-format
-msgid ""
-"Your email address was changed.\n"
-"\n"
-"New email address: ${n}\n"
-msgstr ""
-"Ваш адрес электронной почты был изменен.\n"
-"\n"
-"Новый адрес электронной почты: ${n}\n"
-"\n"
-
 #: ../templates.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
@@ -169,6 +153,10 @@ msgstr "Ваш пароль был только что изменен."
 #~ msgid "Developer"
 #~ msgstr "Разработчик"
 
+#: ../api/v1/account.js:98:64
+#~ msgid "Email changed"
+#~ msgstr "Электронная почта изменена"
+
 #~ msgid "New sign in"
 #~ msgstr "Новый вход"
 
@@ -177,3 +165,15 @@ msgstr "Ваш пароль был только что изменен."
 
 #~ msgid "Project developer"
 #~ msgstr "Разработчик проекта"
+
+#: ../api/v1/account.js:84:24
+#, javascript-format
+#~ msgid ""
+#~ "Your email address was changed.\n"
+#~ "\n"
+#~ "New email address: ${n}\n"
+#~ msgstr ""
+#~ "Ваш адрес электронной почты был изменен.\n"
+#~ "\n"
+#~ "Новый адрес электронной почты: ${n}\n"
+#~ "\n"

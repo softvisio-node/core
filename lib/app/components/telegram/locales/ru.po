@@ -136,11 +136,6 @@ msgstr "Пожалуйста, выберите язык общения:"
 msgid "Press button when you will finish edit media:"
 msgstr "Нажмите кнопку, когда вы закончите редактирование мультимедиа:"
 
-#: ../bot/commands/sign-in.js:291:40
-#, fuzzy
-msgid "Return to start"
-msgstr "Return to start"
-
 #: ../bot/commands/sign-in.js:256:40
 #, fuzzy
 msgid "Send confirmation email again"
@@ -165,25 +160,6 @@ msgstr ""
 "~~зачеркнутый текст~~: <s>зачеркнутый текст</s>\n"
 "||текст под спойлером||: <span class=\"tg-spoiler\">текст под спойлером</span>"
 
-#: ../bot/commands/message.js:195:25
-#, fuzzy
-msgid ""
-"Send me a text to add to the message.\n"
-"\n"
-"<b>You can use following syntax to format text:</b>\n"
-"**bold text**: <b>bold text</b>\n"
-"__italic text__: <i>talic text</i>_\n"
-"~~strikethrough~~: <s>strikethrough</s>\n"
-"||spoiler||: <span class=\"tg-spoiler\">spoiler</span>"
-msgstr ""
-"Отправьте мне текст, чтобы добавить к сообщению.\n"
-"\n"
-"<b>Для форматирования текста вы можете использовать следующий синтаксис:</b>\n"
-"**жирный текст**: <b>жирный текст</b>\n"
-"__курсив__: <i>курсивный текст</i> _\n"
-"~~зачеркивание~~: <s>зачеркивание</s>\n"
-"||спойлер||: <span class=\"tg-spoiler\">спойлер</span>"
-
 #: ../bot/commands/message.js:220:25
 #, fuzzy
 msgid ""
@@ -192,10 +168,6 @@ msgid ""
 msgstr ""
 "Отправьте мне медиафайлы (фотографии, видео, аудио, документы), чтобы добавить их к сообщению.\n"
 "Фотографии/видео, аудио и документы можно группировать в альбом. до 10 файлов в альбоме."
-
-#: ../telegram/bot/commands/sign-in.js:34:19
-msgid "Sign in"
-msgstr "Войти"
 
 #: ../templates.yaml:4:16
 #, fuzzy, javascript-format
@@ -211,18 +183,6 @@ msgstr "Войдите в свой аккаунт"
 #, fuzzy
 msgid "Some error occured, pleast try again."
 msgstr "Произошла ошибка. Повторите попытку."
-
-#: ../telegram/bot/commands/start.js:26:19
-msgid "Start"
-msgstr "Старт"
-
-#: ../templates.yaml
-msgid "Telegram account linked"
-msgstr "Аккаунт Telegram привязан"
-
-#: ../templates.yaml
-msgid "Telegram account removed"
-msgstr "Аккаунт Telegram удален"
 
 #: ../component.js:24:28
 #, fuzzy
@@ -270,15 +230,55 @@ msgid ""
 msgstr ""
 "Вы можете использовать эти команды::\n"
 
-#: ../templates.yaml
-msgid "Your Telegram account linked to your user profile."
-msgstr "Ваша учетная запись Telegram связана с вашим профилем пользователя."
-
-#: ../templates.yaml:4:16
-msgid "Your Telegram account removed from your user profile."
-msgstr "Ваша учетная запись Telegram удалена из вашего профиля пользователя."
-
 #: ../bot/commands/message.js:191:33
 #, fuzzy
 msgid "Ypir message has no content. You need to add text and media."
 msgstr "Сообщение Ypir не имеет содержания. Вам нужно добавить текст и медиа."
+
+#: ../bot/commands/sign-in.js:291:40
+#, fuzzy
+#~ msgid "Return to start"
+#~ msgstr "Return to start"
+
+#: ../bot/commands/message.js:195:25
+#, fuzzy
+#~ msgid ""
+#~ "Send me a text to add to the message.\n"
+#~ "\n"
+#~ "<b>You can use following syntax to format text:</b>\n"
+#~ "**bold text**: <b>bold text</b>\n"
+#~ "__italic text__: <i>talic text</i>_\n"
+#~ "~~strikethrough~~: <s>strikethrough</s>\n"
+#~ "||spoiler||: <span class=\"tg-spoiler\">spoiler</span>"
+#~ msgstr ""
+#~ "Отправьте мне текст, чтобы добавить к сообщению.\n"
+#~ "\n"
+#~ "<b>Для форматирования текста вы можете использовать следующий синтаксис:</b>\n"
+#~ "**жирный текст**: <b>жирный текст</b>\n"
+#~ "__курсив__: <i>курсивный текст</i> _\n"
+#~ "~~зачеркивание~~: <s>зачеркивание</s>\n"
+#~ "||спойлер||: <span class=\"tg-spoiler\">спойлер</span>"
+
+#: ../telegram/bot/commands/sign-in.js:34:19
+#~ msgid "Sign in"
+#~ msgstr "Войти"
+
+#: ../telegram/bot/commands/start.js:26:19
+#~ msgid "Start"
+#~ msgstr "Старт"
+
+#: ../templates.yaml
+#~ msgid "Telegram account linked"
+#~ msgstr "Аккаунт Telegram привязан"
+
+#: ../templates.yaml
+#~ msgid "Telegram account removed"
+#~ msgstr "Аккаунт Telegram удален"
+
+#: ../templates.yaml
+#~ msgid "Your Telegram account linked to your user profile."
+#~ msgstr "Ваша учетная запись Telegram связана с вашим профилем пользователя."
+
+#: ../templates.yaml:4:16
+#~ msgid "Your Telegram account removed from your user profile."
+#~ msgstr "Ваша учетная запись Telegram удалена из вашего профиля пользователя."

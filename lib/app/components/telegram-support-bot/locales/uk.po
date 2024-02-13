@@ -14,10 +14,6 @@ msgstr ""
 "X-Generator: Poedit 3.3.2\n"
 
 #: ../config.yaml
-msgid "Administrator"
-msgstr "Адміністратор"
-
-#: ../config.yaml
 #, fuzzy
 msgid "Bot read-only permissions"
 msgstr "Дозволи бота лише на читання"
@@ -27,14 +23,18 @@ msgstr "Дозволи бота лише на читання"
 msgid "Read-only"
 msgstr "Лише для читання"
 
-#: ../telegram/modules/start.js:9:25
-msgid "Start"
-msgstr "Запустити"
-
 #: ../bot/commands/start.js:8:32
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
 
+#: ../config.yaml
+#~ msgid "Administrator"
+#~ msgstr "Адміністратор"
+
+#: ../telegram/modules/start.js:9:25
+#~ msgid "Start"
+#~ msgstr "Запустити"
+
 #: ../telegram/modules/start.js:18:41
-msgid "You are not authorized to use this bot. You need to link your Telegram account in your user profile settings."
-msgstr "Ви не маєте права використовувати цього бота. Вам потрібно прив’язати обліковий запис Telegram у налаштуваннях профілю користувача."
+#~ msgid "You are not authorized to use this bot. You need to link your Telegram account in your user profile settings."
+#~ msgstr "Ви не маєте права використовувати цього бота. Вам потрібно прив’язати обліковий запис Telegram у налаштуваннях профілю користувача."
