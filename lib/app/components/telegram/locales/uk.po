@@ -31,6 +31,11 @@ msgstr "Адміністратор"
 msgid "Back"
 msgstr "Назад"
 
+#: ../bot/commands/start.js:26:19
+#, fuzzy
+msgid "back to the start"
+msgstr "повернутися до початку"
+
 #: ../bot/commands/sign-in.js:291:40
 #, fuzzy
 msgid "Back to the start"
@@ -94,11 +99,6 @@ msgstr "Видалити текст"
 #, fuzzy
 msgid "Email address is not valid"
 msgstr "Адреса електронної пошти недійсна"
-
-#: ../bot/commands/start.js:26:19
-#, fuzzy
-msgid "go to the bot start"
-msgstr "перейти до початку бота"
 
 #: ../bot/commands/chat.js:16:40
 #, fuzzy
@@ -235,10 +235,20 @@ msgstr ""
 msgid "Ypir message has no content. You need to add text and media."
 msgstr "Повідомлення Ypir не має вмісту. Потрібно додати текст і медіа."
 
+#: ../bot/commands/start.js:26:19
+#, fuzzy
+#~ msgid "go to the bot start"
+#~ msgstr "перейти до початку бота"
+
 #: ../bot/commands/sign-in.js:291:40
 #, fuzzy
 #~ msgid "Return to start"
 #~ msgstr "Повернутися до початку"
+
+#: ../bot/commands/start.js:26:19
+#, fuzzy
+#~ msgid "return to the start"
+#~ msgstr "повернутися до початку"
 
 #: ../bot/commands/message.js:195:25
 #, fuzzy
