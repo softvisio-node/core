@@ -90,6 +90,11 @@ msgstr "Посилання для підтвердження недійсне. �
 msgid "Delete media"
 msgstr "Видалити медіа"
 
+#: ../bot/commands/message.js:250:44
+#, fuzzy
+msgid "Delete media file"
+msgstr "Видалити медіафайл"
+
 #: ../bot/commands/message.js:160:32
 #, fuzzy
 msgid "Delete text"
@@ -212,11 +217,6 @@ msgstr ""
 msgid "To sign in, please, enter yoour email address"
 msgstr "Щоб увійти, будь ласка, введіть свою електронну адресу"
 
-#: ../bot/commands/message.js:250:44
-#, fuzzy
-msgid "x Delete media file"
-msgstr "x Видалити медіафайл"
-
 #: ../bot/commands/sign-in.js:287:24
 #, fuzzy, javascript-format
 msgid "You are signed in as: ${n}"
@@ -283,6 +283,11 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #: ../templates.yaml
 #~ msgid "Telegram account removed"
 #~ msgstr "Акаунт Telegram видалено"
+
+#: ../bot/commands/message.js:250:44
+#, fuzzy
+#~ msgid "x Delete media file"
+#~ msgstr "x Видалити медіафайл"
 
 #: ../templates.yaml
 #~ msgid "Your Telegram account linked to your user profile."
