@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.69.0 (2024-02-13)
+
+Features:
+
+-   feat: cloud translation
+
+Fixes:
+
+-   fix: pofile fuzzy status
+-   fix: tramslations
+
 ### 7.68.0 (2024-02-13)
 
 Features:
