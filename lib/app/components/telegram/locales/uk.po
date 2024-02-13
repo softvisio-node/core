@@ -85,11 +85,6 @@ msgstr "Команда невідома. Будь ласка, використо
 msgid "Confirmation link is not valid. Please, try again."
 msgstr "Посилання для підтвердження недійсне. Будь ласка спробуйте ще раз."
 
-#: ../bot/commands/message.js:175:28
-#, fuzzy
-msgid "Delete media"
-msgstr "Видалити медіа"
-
 #: ../bot/commands/message.js:250:44
 #, fuzzy
 msgid "Delete media file"
@@ -99,6 +94,11 @@ msgstr "Видалити медіафайл"
 #, fuzzy
 msgid "Delete text"
 msgstr "Видалити текст"
+
+#: ../bot/commands/message.js:175:28
+#, fuzzy
+msgid "Edit media"
+msgstr "Редагувати медіа"
 
 #: ../bot/commands/sign-in.js:205:40
 #, fuzzy
@@ -233,6 +233,11 @@ msgstr ""
 #, fuzzy
 msgid "Ypir message has no content. You need to add text and media."
 msgstr "Повідомлення Ypir не має вмісту. Потрібно додати текст і медіа."
+
+#: ../bot/commands/message.js:175:28
+#, fuzzy
+#~ msgid "Delete media"
+#~ msgstr "Видалити медіа"
 
 #: ../bot/commands/start.js:26:19
 #, fuzzy
