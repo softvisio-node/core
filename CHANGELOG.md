@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.68.0 (2024-02-13)
+
+Features:
+
+-   feat: translations api
+
 ### 7.67.0 (2024-02-12)
 
 Features:
