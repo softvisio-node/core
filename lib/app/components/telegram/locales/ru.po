@@ -32,12 +32,10 @@ msgid "Back"
 msgstr "Назад"
 
 #: ../bot/commands/start.js:26:19
-#, fuzzy
 msgid "back to the start"
-msgstr "Вернуться к началу"
+msgstr "вернуться к началу"
 
 #: ../bot/commands/sign-in.js:291:40
-#, fuzzy
 msgid "Back to the start"
 msgstr "Вернуться к началу"
 
