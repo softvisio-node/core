@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.69.5 (2024-02-14)
+
+Fixes:
+
+-   fix: rpc perms
+-   fix: tramslations
+
 ### 7.69.4 (2024-02-14)
 
 Fixes:
