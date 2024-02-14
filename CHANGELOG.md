@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.69.4 (2024-02-14)
+
+Fixes:
+
+-   fix: utils confirm
+
 ### 7.69.3 (2024-02-14)
 
 Fixes:
