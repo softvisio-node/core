@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.69.6 (2024-02-14)
+
+Fixes:
+
+-   fix: app context
+
 ### 7.69.5 (2024-02-14)
 
 Fixes:
