@@ -23,7 +23,7 @@ msgstr "Разрешения бота только на чтение"
 msgid "Read-only"
 msgstr "Только чтение"
 
-#: ../bot/commands/start.js:8:32
+#: ../bot/commands/start.js:8:44
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Это бот уведомлений. Он не поддерживает никаких дополнительных команд."
 

@@ -13,114 +13,114 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../bot/commands/message.js:168:28
+#: ../bot/commands/message.js:168:40
 #, fuzzy
 msgid "Add media"
 msgstr "Додайте медіа"
 
-#: ../bot/commands/message.js:148:32
+#: ../bot/commands/message.js:148:44
 #, fuzzy
 msgid "Add text"
 msgstr "Додайте текст"
 
-#: ../bot/component.js:86:24
+#: ../bot/component.js:86:47
 msgid "Administrator"
 msgstr "Адміністратор"
 
-#: ../bot/commands/message.js:229:40 ../bot/commands/message.js:269:40
+#: ../bot/commands/message.js:229:52 ../bot/commands/message.js:269:52
 msgid "Back"
 msgstr "Назад"
 
-#: ../bot/commands/start.js:26:19
+#: ../bot/commands/start.js:26:31
 #, fuzzy
 msgid "back to the start"
 msgstr "повернутися до початку"
 
-#: ../bot/commands/sign-in.js:292:40
+#: ../bot/commands/sign-in.js:292:52
 #, fuzzy
 msgid "Back to the start"
 msgstr "Назад до початку"
 
-#: ../bot/component.js:87:31
+#: ../bot/component.js:87:54
 #, fuzzy
 msgid "Bot administrator. Full access, but can't delete bot."
 msgstr "Адміністратор бота. Повний доступ, але неможливо видалити бота."
 
-#: ../bot/component.js:74:31
+#: ../bot/component.js:74:54
 #, fuzzy
 msgid "Bot owner"
 msgstr "Власник бота"
 
-#: ../component.js:25:35
+#: ../component.js:25:58
 #, fuzzy
 msgid "Can create telegram bots"
 msgstr "Може створювати телеграм-ботів"
 
-#: ../bot/commands/message.js:210:40
+#: ../bot/commands/message.js:210:52
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: ../bot/commands/locale.js:8:19
+#: ../bot/commands/locale.js:8:31
 #, fuzzy
 msgid "change communication language"
 msgstr "змінити мову спілкування"
 
-#: ../bot/commands/sign-in.js:263:40
+#: ../bot/commands/sign-in.js:263:52
 #, fuzzy
 msgid "Change email address"
 msgstr "Змінити адресу електронної пошти"
 
-#: ../bot/commands/message.js:156:32
+#: ../bot/commands/message.js:156:44
 #, fuzzy
 msgid "Change text"
 msgstr "Змінити текст"
 
-#: ../bot/commands/start.js:72:44
+#: ../bot/commands/start.js:72:56
 #, fuzzy
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr "Команда невідома. Будь ласка, використовуйте команди з «Меню»."
 
-#: ../bot/commands/sign-in.js:156:32
+#: ../bot/commands/sign-in.js:156:44
 #, fuzzy
 msgid "Confirmation link is not valid. Please, try again."
 msgstr "Посилання для підтвердження недійсне. Будь ласка спробуйте ще раз."
 
-#: ../bot/commands/message.js:250:44
+#: ../bot/commands/message.js:250:56
 #, fuzzy
 msgid "Delete media file"
 msgstr "Видалити медіафайл"
 
-#: ../bot/commands/message.js:160:32
+#: ../bot/commands/message.js:160:44
 #, fuzzy
 msgid "Delete text"
 msgstr "Видалити текст"
 
-#: ../bot/commands/message.js:175:28
+#: ../bot/commands/message.js:175:40
 #, fuzzy
 msgid "Edit media"
 msgstr "Редагувати медіа"
 
-#: ../bot/commands/sign-in.js:205:40
+#: ../bot/commands/sign-in.js:205:52
 #, fuzzy
 msgid "Email address is not valid"
 msgstr "Адреса електронної пошти недійсна"
 
-#: ../bot/commands/chat.js:16:40
+#: ../bot/commands/chat.js:16:52
 #, fuzzy
 msgid "Open PRIVATE JOIN"
 msgstr "Відкрийте PRIVATE JOIN"
 
-#: ../bot/component.js:73:24
+#: ../bot/component.js:73:47
 #, fuzzy
 msgid "Owner"
 msgstr "Власник"
 
-#: ../bot/commands/message.js:181:24
+#: ../bot/commands/message.js:181:36
 #, fuzzy
 msgid "Please, choose what you want to dp"
 msgstr "Будь ласка, виберіть, що ви хочете дп"
 
-#: ../templates.yaml:4:16
+#: ../templates.yaml:4:29
 #, fuzzy, javascript-format
 msgid ""
 "Please, click following link to sign in to \"${n}\" Telegram bot:\n"
@@ -131,22 +131,22 @@ msgstr ""
 "\n"
 "${n}\n"
 
-#: ../bot/commands/locale.js:58:24
+#: ../bot/commands/locale.js:58:36
 #, fuzzy
 msgid "Please, select your communication language:"
 msgstr "Виберіть мову спілкування:"
 
-#: ../bot/commands/message.js:264:24
+#: ../bot/commands/message.js:264:36
 #, fuzzy
 msgid "Press button when you will finish edit media:"
 msgstr "Натисніть кнопку, коли закінчите редагувати медіа:"
 
-#: ../bot/commands/sign-in.js:257:40
+#: ../bot/commands/sign-in.js:257:52
 #, fuzzy
 msgid "Send confirmation email again"
 msgstr "Ще раз надішліть електронний лист із підтвердженням"
 
-#: ../bot/commands/message.js:195:25
+#: ../bot/commands/message.js:195:37
 #, fuzzy
 msgid ""
 "Send me a text to add to the message.\n"
@@ -165,7 +165,7 @@ msgstr ""
 "~~закреслений текст~~: <s>закреслений текст</s>\n"
 "||текст під спойлером||: <span class=\"tg-spoiler\">текст під спойлером</span>"
 
-#: ../bot/commands/message.js:220:25
+#: ../bot/commands/message.js:220:37
 #, fuzzy
 msgid ""
 "Send me medfia files ( photos, videos, audios, documents ) to add to the message.\n"
@@ -174,36 +174,36 @@ msgstr ""
 "Надсилайте мені файли медіа (фото, відео, аудіо, документи), щоб додати їх до повідомлення.\n"
 "Фотографії/відео, аудіо та документи можна згрупувати в альбом. до 10 файлів в альбомі."
 
-#: ../templates.yaml:4:16
+#: ../templates.yaml:4:29
 #, fuzzy, javascript-format
 msgid "Sign in to \"${n}\" bot"
 msgstr "Увійдіть до бота &quot;${n}&quot;."
 
-#: ../bot/commands/sign-in.js:39:19
+#: ../bot/commands/sign-in.js:39:31
 msgid "sign in to your account"
 msgstr "увійдіть у свій обліковий запис"
 
-#: ../bot/commands/locale.js:24:36
+#: ../bot/commands/locale.js:24:48
 #, fuzzy
 msgid "Some error occured, pleast try again."
 msgstr "Сталася якась помилка, спробуйте ще раз."
 
-#: ../component.js:24:28
+#: ../component.js:24:51
 #, fuzzy
 msgid "Telegram bot owner"
 msgstr "Власник телеграм-бота"
 
-#: ../bot/commands/sign-in.js:230:44
+#: ../bot/commands/sign-in.js:230:56
 #, fuzzy
 msgid "This email address is already used by the other user"
 msgstr "Ця електронна адреса вже використовується іншим користувачем"
 
-#: ../bot/commands/sign-in.js:217:48
+#: ../bot/commands/sign-in.js:217:60
 #, fuzzy
 msgid "This email address is not registered"
 msgstr "Ця електронна адреса не зареєстрована"
 
-#: ../bot/commands/sign-in.js:251:24
+#: ../bot/commands/sign-in.js:251:36
 #, fuzzy
 msgid ""
 "To complete sign in, please, click on link which I just sent to your email address.\n"
@@ -212,24 +212,24 @@ msgstr ""
 "Щоб завершити вхід, натисніть посилання, яке я щойно надіслав на вашу електронну адресу.\n"
 "Якщо ви не отримали лист протягом кількох хвилин, ви можете надіслати його ще раз."
 
-#: ../bot/commands/sign-in.js:243:24
+#: ../bot/commands/sign-in.js:243:36
 #, fuzzy
 msgid "To sign in, please, enter yoour email address"
 msgstr "Щоб увійти, будь ласка, введіть свою електронну адресу"
 
-#: ../bot/commands/sign-in.js:287:24
+#: ../bot/commands/sign-in.js:287:36
 #, fuzzy, javascript-format
 msgid "You are signed in as: ${n}"
 msgstr "Ви ввійшли як: ${n}"
 
-#: ../bot/command.js:401:56
+#: ../bot/command.js:401:68
 #, fuzzy
 msgid ""
 "You can use these commands::\n"
 msgstr ""
 "Ви можете використовувати ці команди:\n"
 
-#: ../bot/commands/message.js:191:33
+#: ../bot/commands/message.js:191:45
 #, fuzzy
 msgid "Ypir message has no content. You need to add text and media."
 msgstr "Повідомлення Ypir не має вмісту. Потрібно додати текст і медіа."
