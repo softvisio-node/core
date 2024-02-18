@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.70.0 (2024-02-18)
+
+Features:
+
+-   feat: app global locale
+
 ### 7.69.11 (2024-02-18)
 
 Fixes:
