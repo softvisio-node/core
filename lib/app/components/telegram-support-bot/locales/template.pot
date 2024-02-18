@@ -1,5 +1,0 @@
-msgid ""
-msgstr ""
-"Language-Team: \n"
-"Last-Translator: \n"
-"X-Search-Path: ../**\n"
