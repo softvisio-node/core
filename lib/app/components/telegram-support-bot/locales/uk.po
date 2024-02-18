@@ -23,7 +23,7 @@ msgstr "Дозволи бота лише на читання"
 msgid "Read-only"
 msgstr "Лише для читання"
 
-#: ../bot/commands/start.js:8:44
+#: ../bot/commands/start.js:8:32
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
 

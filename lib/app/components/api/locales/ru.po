@@ -35,7 +35,7 @@ msgstr "Пароль изменен"
 msgid "Password reset link"
 msgstr "Ссылка для сброса пароля"
 
-#: ../templates.yaml:4:29
+#: ../templates.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Use the following link to change your email address to ${n}:\n"
@@ -54,7 +54,7 @@ msgstr ""
 "\n"
 "Если вы получили это письмо по ошибке, просто проигнорируйте его.\n"
 
-#: ../templates.yaml:4:29
+#: ../templates.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Use the following link to confirm your email:\n"
@@ -73,7 +73,7 @@ msgstr ""
 "\n"
 "Если вы получили это письмо по ошибке, просто проигнорируйте его.\n"
 
-#: ../templates.yaml:4:29
+#: ../templates.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Use the following link to reset your password:\n"
@@ -92,7 +92,7 @@ msgstr ""
 "\n"
 "Если вы не запрашивали сброс пароля и получили это письмо по ошибке, просто проигнорируйте его.\n"
 
-#: ../templates.yaml:4:29
+#: ../templates.yaml:4:16
 #, javascript-format
 msgid ""
 "You just signed in on the new device.\n"
@@ -128,7 +128,7 @@ msgstr ""
 msgid "Your email address was changed"
 msgstr "Ваш адрес электронной почты был изменен"
 
-#: ../templates.yaml:4:29
+#: ../templates.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Your email address was changed.\n"

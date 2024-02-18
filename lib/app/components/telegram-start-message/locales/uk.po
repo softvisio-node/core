@@ -13,7 +13,7 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../bot/commands/edit-start-message.js:8:31
+#: ../bot/commands/edit-start-message.js:8:19
 msgid "edit start message"
 msgstr "редагувати початкове повідомлення"
 
