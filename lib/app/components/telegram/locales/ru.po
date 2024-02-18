@@ -220,7 +220,7 @@ msgstr "Для входа, пожалуйста, введите свой адр�
 msgid "You are signed in as: ${n}"
 msgstr "Вы вошли как: ${n}"
 
-#: ../bot/command.js:401:56
+#: ../bot/command.js:397:56
 #, fuzzy
 msgid ""
 "You can use these commands::\n"

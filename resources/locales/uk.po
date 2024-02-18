@@ -12,3 +12,399 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Search-Path: /lib/**\n"
 "X-Generator: Poedit 3.3.1\n"
+
+#: ../../lib/app/components/telegram/bot/commands/message.js:168:28
+#, fuzzy
+msgid "Add media"
+msgstr "Додайте медіа"
+
+#: ../../lib/app/components/telegram/bot/commands/message.js:148:32
+#, fuzzy
+msgid "Add text"
+msgstr "Додайте текст"
+
+#: ../../lib/app/components/acl/config.yaml
+#: ../../lib/app/components/telegram/bot/component.js:86:24
+msgid "Administrator"
+msgstr "Адміністратор"
+
+#: ../../lib/app/components/telegram/bot/commands/message.js:229:40
+#: ../../lib/app/components/telegram/bot/commands/message.js:269:40
+msgid "Back"
+msgstr "Назад"
+
+#: ../../lib/app/components/telegram/bot/commands/start.js:26:19
+#, fuzzy
+msgid "back to the start"
+msgstr "повернутися до початку"
+
+#: ../../lib/app/components/telegram/bot/commands/sign-in.js:292:40
+#, fuzzy
+msgid "Back to the start"
+msgstr "Назад до початку"
+
+#: ../../lib/app/components/telegram/bot/component.js:87:31
+#, fuzzy
+msgid "Bot administrator. Full access, but can't delete bot."
+msgstr "Адміністратор бота. Повний доступ, але неможливо видалити бота."
+
+#: ../../lib/app/components/telegram/bot/component.js:74:31
+#, fuzzy
+msgid "Bot owner"
+msgstr "Власник бота"
+
+#: ../../lib/app/components/telegram-support-bot/config.yaml
+#, fuzzy
+msgid "Bot read-only permissions"
+msgstr "Дозволи бота лише на читання"
+
+#: ../../lib/app/components/telegram/component.js:25:35
+#, fuzzy
+msgid "Can create telegram bots"
+msgstr "Може створювати телеграм-ботів"
+
+#: ../../lib/app/components/telegram/bot/commands/message.js:210:40
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: ../../lib/app/components/telegram/bot/commands/locale.js:8:19
+#, fuzzy
+msgid "change communication language"
+msgstr "змінити мову спілкування"
+
+#: ../../lib/app/components/telegram/bot/commands/sign-in.js:263:40
+#, fuzzy
+msgid "Change email address"
+msgstr "Змінити адресу електронної пошти"
+
+#: ../../lib/app/components/telegram/bot/commands/message.js:156:32
+#, fuzzy
+msgid "Change text"
+msgstr "Змінити текст"
+
+#: ../../lib/app/components/telegram/bot/commands/start.js:72:44
+#, fuzzy
+msgid "Command is unknown. Please, use commands from \"Menu\"."
+msgstr "Команда невідома. Будь ласка, використовуйте команди з «Меню»."
+
+#: ../../lib/app/components/api/templates.yaml
+#, fuzzy
+msgid "Confirm your email address"
+msgstr "Підтвердіть Вашу електронну адресу"
+
+#: ../../lib/app/components/telegram/bot/commands/sign-in.js:156:32
+#, fuzzy
+msgid "Confirmation link is not valid. Please, try again."
+msgstr "Посилання для підтвердження недійсне. Будь ласка спробуйте ще раз."
+
+#: ../../lib/app/components/telegram/bot/commands/message.js:250:44
+#, fuzzy
+msgid "Delete media file"
+msgstr "Видалити медіафайл"
+
+#: ../../lib/app/components/telegram/bot/commands/message.js:160:32
+#, fuzzy
+msgid "Delete text"
+msgstr "Видалити текст"
+
+#: ../../lib/app/components/acl/config.yaml
+msgid "Developer"
+msgstr "Розробник"
+
+#: ../../lib/app/components/telegram/bot/commands/message.js:175:28
+#, fuzzy
+msgid "Edit media"
+msgstr "Редагувати медіа"
+
+#: ../../lib/app/components/telegram-start-message/bot/commands/edit-start-message.js:8:19
+msgid "edit start message"
+msgstr "редагувати початкове повідомлення"
+
+#: ../../lib/app/components/api/templates.yaml
+#, fuzzy
+msgid "Email address change"
+msgstr "Зміна електронної адреси"
+
+#: ../../lib/app/components/telegram/bot/commands/sign-in.js:205:40
+#, fuzzy
+msgid "Email address is not valid"
+msgstr "Адреса електронної пошти недійсна"
+
+#: ../../lib/app/components/api/templates.yaml
+msgid "New device"
+msgstr "Новий пристрій"
+
+#: ../../lib/app/components/telegram/bot/commands/chat.js:16:40
+#, fuzzy
+msgid "Open PRIVATE JOIN"
+msgstr "Відкрийте PRIVATE JOIN"
+
+#: ../../lib/app/components/telegram/bot/component.js:73:24
+#, fuzzy
+msgid "Owner"
+msgstr "Власник"
+
+#: ../../lib/app/components/api/templates.yaml
+msgid "Password changed"
+msgstr "Пароль змінено"
+
+#: ../../lib/app/components/api/templates.yaml
+#, fuzzy
+msgid "Password reset link"
+msgstr "Посилання для зміни пароля"
+
+#: ../../lib/app/components/telegram/bot/commands/message.js:181:24
+#, fuzzy
+msgid "Please, choose what you want to dp"
+msgstr "Будь ласка, виберіть, що ви хочете дп"
+
+#: ../../lib/app/components/telegram/templates.yaml:4:16
+#, fuzzy, javascript-format
+msgid ""
+"Please, click following link to sign in to \"${n}\" Telegram bot:\n"
+"\n"
+"${n}\n"
+msgstr ""
+"Натисніть це посилання, щоб увійти в бот Telegram &quot;${n}&quot;:\n"
+"\n"
+"${n}\n"
+
+#: ../../lib/app/components/telegram/bot/commands/locale.js:58:24
+#, fuzzy
+msgid "Please, select your communication language:"
+msgstr "Виберіть мову спілкування:"
+
+#: ../../lib/app/components/telegram/bot/commands/message.js:264:24
+#, fuzzy
+msgid "Press button when you will finish edit media:"
+msgstr "Натисніть кнопку, коли закінчите редагувати медіа:"
+
+#: ../../lib/app/components/acl/config.yaml
+msgid "Project administrator"
+msgstr "Адміністратор проекту"
+
+#: ../../lib/app/components/acl/config.yaml
+msgid "Project developer"
+msgstr "Розробник проекту"
+
+#: ../../lib/app/components/telegram-support-bot/config.yaml
+#, fuzzy
+msgid "Read-only"
+msgstr "Лише для читання"
+
+#: ../../lib/app/components/notifications/config.yaml
+msgid "Security"
+msgstr "Безпека"
+
+#: ../../lib/app/components/telegram/bot/commands/sign-in.js:257:40
+#, fuzzy
+msgid "Send confirmation email again"
+msgstr "Ще раз надішліть електронний лист із підтвердженням"
+
+#: ../../lib/app/components/telegram/bot/commands/message.js:195:25
+#, fuzzy
+msgid ""
+"Send me a text to add to the message.\n"
+"\n"
+"<b>You can use following syntax to format text:</b>\n"
+"**bold text**: <b>bold text</b>\n"
+"__italic text__: <i>talic text</i>\n"
+"~~strikethrough text~~: <s>strikethrough text</s>\n"
+"||text under spoiler||: <span class=\"tg-spoiler\">text under spoiler</span>"
+msgstr ""
+"Надішліть мені текст, щоб додати його до повідомлення.\n"
+"\n"
+"<b>Для форматування тексту можна використовувати такий синтаксис:</b>\n"
+"**жирний текст**: <b>жирний текст</b>\n"
+"__курсив__: <i>курсив</i>\n"
+"~~закреслений текст~~: <s>закреслений текст</s>\n"
+"||текст під спойлером||: <span class=\"tg-spoiler\">текст під спойлером</span>"
+
+#: ../../lib/app/components/telegram/bot/commands/message.js:220:25
+#, fuzzy
+msgid ""
+"Send me medfia files ( photos, videos, audios, documents ) to add to the message.\n"
+"Photos / videos, audios and documents can be grouped to the album. up to 10 files in the album."
+msgstr ""
+"Надсилайте мені файли медіа (фото, відео, аудіо, документи), щоб додати їх до повідомлення.\n"
+"Фотографії/відео, аудіо та документи можна згрупувати в альбом. до 10 файлів в альбомі."
+
+#: ../../lib/app/components/telegram/templates.yaml:4:16
+#, fuzzy, javascript-format
+msgid "Sign in to \"${n}\" bot"
+msgstr "Увійдіть до бота &quot;${n}&quot;."
+
+#: ../../lib/app/components/telegram/bot/commands/sign-in.js:39:19
+msgid "sign in to your account"
+msgstr "увійдіть у свій обліковий запис"
+
+#: ../../lib/app/components/telegram/bot/commands/locale.js:24:36
+#, fuzzy
+msgid "Some error occured, pleast try again."
+msgstr "Сталася якась помилка, спробуйте ще раз."
+
+#: ../../lib/app/components/telegram/component.js:24:28
+#, fuzzy
+msgid "Telegram bot owner"
+msgstr "Власник телеграм-бота"
+
+#: ../../lib/app/components/telegram/bot/commands/sign-in.js:230:44
+#, fuzzy
+msgid "This email address is already used by the other user"
+msgstr "Ця електронна адреса вже використовується іншим користувачем"
+
+#: ../../lib/app/components/telegram/bot/commands/sign-in.js:217:48
+#, fuzzy
+msgid "This email address is not registered"
+msgstr "Ця електронна адреса не зареєстрована"
+
+#: ../../lib/app/components/telegram-support-bot/bot/commands/start.js:8:32
+msgid "This is notifications bot. It doesn't support any additional commands."
+msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
+
+#: ../../lib/app/components/telegram/bot/commands/sign-in.js:251:24
+#, fuzzy
+msgid ""
+"To complete sign in, please, click on link which I just sent to your email address.\n"
+"If you didn't received emaul in several minutes you can send it again."
+msgstr ""
+"Щоб завершити вхід, натисніть посилання, яке я щойно надіслав на вашу електронну адресу.\n"
+"Якщо ви не отримали лист протягом кількох хвилин, ви можете надіслати його ще раз."
+
+#: ../../lib/app/components/telegram/bot/commands/sign-in.js:243:24
+#, fuzzy
+msgid "To sign in, please, enter yoour email address"
+msgstr "Щоб увійти, будь ласка, введіть свою електронну адресу"
+
+#: ../../lib/app/components/api/templates.yaml:4:16
+#, fuzzy, javascript-format
+msgid ""
+"Use the following link to change your email address to ${n}:\n"
+"\n"
+"${n}\n"
+"\n"
+"This link is valid till ${n}.\n"
+"\n"
+"If you received this email by mistake just ignore it.\n"
+msgstr ""
+"Скористайтеся наведеним нижче посиланням, щоб змінити адресу електронної пошти на ${n}:\n"
+"\n"
+"${n}\n"
+"\n"
+"Це посилання дійсне до ${n}.\n"
+"\n"
+"Якщо ви отримали цей електронний лист помилково, просто проігноруйте його.\n"
+
+#: ../../lib/app/components/api/templates.yaml:4:16
+#, fuzzy, javascript-format
+msgid ""
+"Use the following link to confirm your email:\n"
+"\n"
+"${n}\n"
+"\n"
+"This link is valid till ${n}.\n"
+"\n"
+"If you received this email by mistake just ignore it.\n"
+msgstr ""
+"Скористайтеся наступним посиланням, щоб підтвердити свою електронну адресу:\n"
+"\n"
+"${n}\n"
+"\n"
+"Це посилання дійсне до ${n}.\n"
+"\n"
+"Якщо ви отримали цей електронний лист помилково, просто проігноруйте його.\n"
+
+#: ../../lib/app/components/api/templates.yaml:4:16
+#, fuzzy, javascript-format
+msgid ""
+"Use the following link to reset your password:\n"
+"\n"
+"${n}\n"
+"\n"
+"This link is valid till ${n}.\n"
+"\n"
+"If you didn't ask for password reset and received this email by mistake just ignore it.\n"
+msgstr ""
+"Скористайтеся наступним посиланням, щоб скинути пароль:\n"
+"\n"
+"${n}\n"
+"\n"
+"Це посилання дійсне до ${n}.\n"
+"\n"
+"Якщо ви не запитували скидання пароля та отримали цей електронний лист помилково, просто проігноруйте його.\n"
+
+#: ../../lib/app/components/notifications/config.yaml
+msgid "Various security related notifications"
+msgstr "Різні сповіщення щодо безпеки"
+
+#: ../../lib/app/components/telegram/bot/commands/sign-in.js:287:24
+#, fuzzy, javascript-format
+msgid "You are signed in as: ${n}"
+msgstr "Ви ввійшли як: ${n}"
+
+#: ../../lib/app/components/telegram/bot/command.js:397:56
+#, fuzzy
+msgid ""
+"You can use these commands::\n"
+msgstr ""
+"Ви можете використовувати ці команди:\n"
+
+#: ../../lib/app/components/api/templates.yaml:4:16
+#, javascript-format
+msgid ""
+"You just signed in on the new device.\n"
+"\n"
+"IP address: ${n}\n"
+"\n"
+"Device: ${n}\n"
+"\n"
+"Platform: ${n}\n"
+"\n"
+"Browser: ${n}\n"
+"\n"
+"User agent: ${n}\n"
+"\n"
+"If it was not you, please, change your password and remove this session from your account sessions.\n"
+msgstr ""
+"Ви щойно ввійшли на новому пристрої.\n"
+"\n"
+"IP-адреса: ${n}\n"
+"\n"
+"Пристрій: ${n}\n"
+"\n"
+"Платформа: ${n}\n"
+"\n"
+"Браузер: ${n}\n"
+"\n"
+"Агент користувача: ${n}\n"
+"\n"
+"Якщо це були не ви, будь ласка, змініть свій пароль і видаліть цей сеанс із сеансів свого облікового запису.\n"
+
+#: ../../lib/app/components/api/templates.yaml
+#, fuzzy
+msgid "Your email address was changed"
+msgstr "Вашу адресу електронної пошти було змінено"
+
+#: ../../lib/app/components/api/templates.yaml:4:16
+#, fuzzy, javascript-format
+msgid ""
+"Your email address was changed.\n"
+"\n"
+"New email address: ${n}\n"
+"\n"
+"Old email address: ${n}\n"
+msgstr ""
+"Вашу адресу електронної пошти було змінено.\n"
+"\n"
+"Нова електронна адреса: ${n}\n"
+"\n"
+"Стара електронна адреса: ${n}\n"
+
+#: ../../lib/app/components/api/templates.yaml
+msgid "Your password was just changed."
+msgstr "Ваш пароль щойно змінено."
+
+#: ../../lib/app/components/telegram/bot/commands/message.js:191:33
+#, fuzzy
+msgid "Ypir message has no content. You need to add text and media."
+msgstr "Повідомлення Ypir не має вмісту. Потрібно додати текст і медіа."

@@ -222,7 +222,7 @@ msgstr "Щоб увійти, будь ласка, введіть свою еле
 msgid "You are signed in as: ${n}"
 msgstr "Ви ввійшли як: ${n}"
 
-#: ../bot/command.js:401:56
+#: ../bot/command.js:397:56
 #, fuzzy
 msgid ""
 "You can use these commands::\n"
