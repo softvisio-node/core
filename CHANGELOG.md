@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.70.6 (2024-02-19)
+
+Fixes:
+
+-   fix: app component templates
+
 ### 7.70.5 (2024-02-19)
 
 Fixes:
