@@ -22,7 +22,12 @@ properties:
         items: { type: string, format: camel-case-strict }
         uniqueItems: true
 
-  config:
-    type: ["null", object]
+  templates:
+    anyOf:
+      - type: "null"
+      - type: object
+        propertyNames: { type: string, formap: kebab-case-relative-file-path }
+
+  config: { type: ["null", object] }
 
 additionalProperties: false
