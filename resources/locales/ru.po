@@ -85,7 +85,7 @@ msgstr "Изменить текст"
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr "Командование неизвестно. Пожалуйста, используйте команды из «Меню»."
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 msgid "Confirm your email address"
 msgstr "Подтвердите Ваш электронный адрес"
 
@@ -117,7 +117,7 @@ msgstr "Редактировать медиа"
 msgid "edit start message"
 msgstr "редактировать стартовое сообщение"
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 #, fuzzy
 msgid "Email address change"
 msgstr "Изменение адреса электронной почты"
@@ -127,7 +127,7 @@ msgstr "Изменение адреса электронной почты"
 msgid "Email address is not valid"
 msgstr "Адрес электронной почты недействителен"
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 msgid "New device"
 msgstr "Новое устройство"
 
@@ -141,11 +141,11 @@ msgstr "Открыть ЧАСТНОЕ ПРИСОЕДИНЕНИЕ"
 msgid "Owner"
 msgstr "Владелец"
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 msgid "Password changed"
 msgstr "Пароль изменен"
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 #, fuzzy
 msgid "Password reset link"
 msgstr "Ссылка для сброса пароля"
@@ -155,7 +155,7 @@ msgstr "Ссылка для сброса пароля"
 msgid "Please, choose what you want to dp"
 msgstr "Пожалуйста, выберите, что вы хотите сделать"
 
-#: ../../lib/app/components/telegram/templates.yaml:4:16
+#: ../../lib/app/components/telegram/config.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Please, click following link to sign in to \"${n}\" Telegram bot:\n"
@@ -226,7 +226,7 @@ msgstr ""
 "Отправьте мне медиафайлы (фотографии, видео, аудио, документы), чтобы добавить их к сообщению.\n"
 "Фотографии/видео, аудио и документы можно группировать в альбом. до 10 файлов в альбоме."
 
-#: ../../lib/app/components/telegram/templates.yaml:4:16
+#: ../../lib/app/components/telegram/config.yaml:4:16
 #, fuzzy, javascript-format
 msgid "Sign in to \"${n}\" bot"
 msgstr "Войдите в бот &quot;${n}&quot;"
@@ -273,7 +273,7 @@ msgstr ""
 msgid "To sign in, please, enter yoour email address"
 msgstr "Для входа, пожалуйста, введите свой адрес электронной почты"
 
-#: ../../lib/app/components/api/templates.yaml:4:16
+#: ../../lib/app/components/api/config.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Use the following link to change your email address to ${n}:\n"
@@ -292,7 +292,7 @@ msgstr ""
 "\n"
 "Если вы получили это письмо по ошибке, просто проигнорируйте его.\n"
 
-#: ../../lib/app/components/api/templates.yaml:4:16
+#: ../../lib/app/components/api/config.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Use the following link to confirm your email:\n"
@@ -311,7 +311,7 @@ msgstr ""
 "\n"
 "Если вы получили это письмо по ошибке, просто проигнорируйте его.\n"
 
-#: ../../lib/app/components/api/templates.yaml:4:16
+#: ../../lib/app/components/api/config.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Use the following link to reset your password:\n"
@@ -346,7 +346,7 @@ msgid ""
 msgstr ""
 "Вы можете использовать эти команды::\n"
 
-#: ../../lib/app/components/api/templates.yaml:4:16
+#: ../../lib/app/components/api/config.yaml:4:16
 #, javascript-format
 msgid ""
 "You just signed in on the new device.\n"
@@ -377,12 +377,12 @@ msgstr ""
 "\n"
 "Если это были не вы, пожалуйста, измените свой пароль и удалите эту сессию из сессий вашей учетной записи.\n"
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 #, fuzzy
 msgid "Your email address was changed"
 msgstr "Ваш адрес электронной почты был изменен"
 
-#: ../../lib/app/components/api/templates.yaml:4:16
+#: ../../lib/app/components/api/config.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Your email address was changed.\n"
@@ -397,7 +397,7 @@ msgstr ""
 "\n"
 "Старый адрес электронной почты: ${n}\n"
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 msgid "Your password was just changed."
 msgstr "Ваш пароль был только что изменен."
 

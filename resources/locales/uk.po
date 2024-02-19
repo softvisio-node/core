@@ -87,7 +87,7 @@ msgstr "Змінити текст"
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr "Команда невідома. Будь ласка, використовуйте команди з «Меню»."
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 #, fuzzy
 msgid "Confirm your email address"
 msgstr "Підтвердіть Вашу електронну адресу"
@@ -120,7 +120,7 @@ msgstr "Редагувати медіа"
 msgid "edit start message"
 msgstr "редагувати початкове повідомлення"
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 #, fuzzy
 msgid "Email address change"
 msgstr "Зміна електронної адреси"
@@ -130,7 +130,7 @@ msgstr "Зміна електронної адреси"
 msgid "Email address is not valid"
 msgstr "Адреса електронної пошти недійсна"
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 msgid "New device"
 msgstr "Новий пристрій"
 
@@ -144,11 +144,11 @@ msgstr "Відкрийте PRIVATE JOIN"
 msgid "Owner"
 msgstr "Власник"
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 msgid "Password changed"
 msgstr "Пароль змінено"
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 #, fuzzy
 msgid "Password reset link"
 msgstr "Посилання для зміни пароля"
@@ -158,7 +158,7 @@ msgstr "Посилання для зміни пароля"
 msgid "Please, choose what you want to dp"
 msgstr "Будь ласка, виберіть, що ви хочете дп"
 
-#: ../../lib/app/components/telegram/templates.yaml:4:16
+#: ../../lib/app/components/telegram/config.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Please, click following link to sign in to \"${n}\" Telegram bot:\n"
@@ -229,7 +229,7 @@ msgstr ""
 "Надсилайте мені файли медіа (фото, відео, аудіо, документи), щоб додати їх до повідомлення.\n"
 "Фотографії/відео, аудіо та документи можна згрупувати в альбом. до 10 файлів в альбомі."
 
-#: ../../lib/app/components/telegram/templates.yaml:4:16
+#: ../../lib/app/components/telegram/config.yaml:4:16
 #, fuzzy, javascript-format
 msgid "Sign in to \"${n}\" bot"
 msgstr "Увійдіть до бота &quot;${n}&quot;."
@@ -276,7 +276,7 @@ msgstr ""
 msgid "To sign in, please, enter yoour email address"
 msgstr "Щоб увійти, будь ласка, введіть свою електронну адресу"
 
-#: ../../lib/app/components/api/templates.yaml:4:16
+#: ../../lib/app/components/api/config.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Use the following link to change your email address to ${n}:\n"
@@ -295,7 +295,7 @@ msgstr ""
 "\n"
 "Якщо ви отримали цей електронний лист помилково, просто проігноруйте його.\n"
 
-#: ../../lib/app/components/api/templates.yaml:4:16
+#: ../../lib/app/components/api/config.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Use the following link to confirm your email:\n"
@@ -314,7 +314,7 @@ msgstr ""
 "\n"
 "Якщо ви отримали цей електронний лист помилково, просто проігноруйте його.\n"
 
-#: ../../lib/app/components/api/templates.yaml:4:16
+#: ../../lib/app/components/api/config.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Use the following link to reset your password:\n"
@@ -349,7 +349,7 @@ msgid ""
 msgstr ""
 "Ви можете використовувати ці команди:\n"
 
-#: ../../lib/app/components/api/templates.yaml:4:16
+#: ../../lib/app/components/api/config.yaml:4:16
 #, javascript-format
 msgid ""
 "You just signed in on the new device.\n"
@@ -380,12 +380,12 @@ msgstr ""
 "\n"
 "Якщо це були не ви, будь ласка, змініть свій пароль і видаліть цей сеанс із сеансів свого облікового запису.\n"
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 #, fuzzy
 msgid "Your email address was changed"
 msgstr "Вашу адресу електронної пошти було змінено"
 
-#: ../../lib/app/components/api/templates.yaml:4:16
+#: ../../lib/app/components/api/config.yaml:4:16
 #, fuzzy, javascript-format
 msgid ""
 "Your email address was changed.\n"
@@ -400,7 +400,7 @@ msgstr ""
 "\n"
 "Стара електронна адреса: ${n}\n"
 
-#: ../../lib/app/components/api/templates.yaml
+#: ../../lib/app/components/api/config.yaml
 msgid "Your password was just changed."
 msgstr "Ваш пароль щойно змінено."
 
