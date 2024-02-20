@@ -1,0 +1,9 @@
+telegram:
+  locales: ~
+  usersCacheMaxSize: 1000
+  messagesCacheMaxSize: 1000
+
+  signinRequired: false
+  signupEnabled: true
+
+  acl: {}
