@@ -56,10 +56,15 @@ msgstr "Владелец бота"
 msgid "Bot read-only permissions"
 msgstr "Разрешения бота только на чтение"
 
+#: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:13:19
+#, fuzzy
+msgid "bot's statistics"
+msgstr "статистика бота"
+
 #: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:24:24
 #, fuzzy, javascript-format
 msgid ""
-"Bot statistics:\n"
+"Bot's statistics:\n"
 "\n"
 "Total users: <b>${n}</b>\n"
 "Subsctibed users: <b>${n}</b>\n"
@@ -70,11 +75,6 @@ msgstr ""
 "Всего пользователей: <b>${n}</b>\n"
 "Подписавшиеся пользователи: <b>${n}</b>\n"
 "Неподписавшиеся пользователи: <b>${n}</b>\n"
-
-#: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:13:19
-#, fuzzy
-msgid "bot's statistics"
-msgstr "статистика бота"
 
 #: ../../lib/app/components/telegram/component.js:25:35
 #, fuzzy
@@ -435,3 +435,18 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #, fuzzy
 #~ msgid "bot statistics"
 #~ msgstr "статистика ботов"
+
+#: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:24:24
+#, fuzzy, javascript-format
+#~ msgid ""
+#~ "Bot statistics:\n"
+#~ "\n"
+#~ "Total users: <b>${n}</b>\n"
+#~ "Subsctibed users: <b>${n}</b>\n"
+#~ "Unsubsctibed users: <b>${n}</b>\n"
+#~ msgstr ""
+#~ "Статистика бота:\n"
+#~ "\n"
+#~ "Всего пользователей: <b>${n}</b>\n"
+#~ "Подписавшиеся пользователи: <b>${n}</b>\n"
+#~ "Неподписавшиеся пользователи: <b>${n}</b>\n"
