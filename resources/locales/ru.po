@@ -14,7 +14,6 @@ msgstr ""
 "X-Generator: Poedit 3.3.1\n"
 
 #: ../../lib/app/components/telegram/bot/commands/message.js:168:28
-#, fuzzy
 msgid "Add media"
 msgstr "Добавить медиа"
 
@@ -47,7 +46,6 @@ msgid "Bot administrator. Full access, but can't delete bot."
 msgstr "Администратор бота. Полный доступ, но не могу удалить бота."
 
 #: ../../lib/app/components/telegram/bot/sub-component.js:69:31
-#, fuzzy
 msgid "Bot owner"
 msgstr "Владелец бота"
 
@@ -57,7 +55,6 @@ msgid "Bot read-only permissions"
 msgstr "Разрешения бота только на чтение"
 
 #: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:13:19
-#, fuzzy
 msgid "bot's statistics"
 msgstr "статистика бота"
 
@@ -86,17 +83,14 @@ msgid "Cancel"
 msgstr "Отменить"
 
 #: ../../lib/app/components/telegram/bot/commands/locale.js:8:19
-#, fuzzy
 msgid "change communication language"
 msgstr "изменить язык общения"
 
 #: ../../lib/app/components/telegram/bot/commands/sign-in.js:263:40
-#, fuzzy
 msgid "Change email address"
 msgstr "Изменить адрес электронной почты"
 
 #: ../../lib/app/components/telegram/bot/commands/message.js:156:32
-#, fuzzy
 msgid "Change text"
 msgstr "Изменить текст"
 
@@ -205,7 +199,6 @@ msgid "Project developer"
 msgstr "Разработчик проекта"
 
 #: ../../lib/app/components/telegram-support-bot/config.yaml
-#, fuzzy
 msgid "Read-only"
 msgstr "Только чтение"
 
@@ -214,7 +207,6 @@ msgid "Security"
 msgstr "Безопасность"
 
 #: ../../lib/app/components/telegram/bot/commands/sign-in.js:257:40
-#, fuzzy
 msgid "Send confirmation email again"
 msgstr "Отправить письмо с подтверждением еще раз"
 
@@ -261,7 +253,6 @@ msgid "Some error occured, pleast try again."
 msgstr "Произошла ошибка. Повторите попытку."
 
 #: ../../lib/app/components/telegram/component.js:24:28
-#, fuzzy
 msgid "Telegram bot owner"
 msgstr "Владелец Telegram-бота"
 
@@ -355,7 +346,6 @@ msgid "Various security related notifications"
 msgstr "Различные уведомления, связанные с безопасностью"
 
 #: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:35:40
-#, fuzzy
 msgid "View charts"
 msgstr "Посмотреть графики"
 
