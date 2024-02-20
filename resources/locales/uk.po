@@ -367,7 +367,7 @@ msgstr "Перегляд діаграм"
 msgid "You are signed in as: ${n}"
 msgstr "Ви ввійшли як: ${n}"
 
-#: ../../lib/app/components/telegram/bot/command.js:397:56
+#: ../../lib/app/components/telegram/bot/command.js:405:56
 #, fuzzy
 msgid ""
 "You can use these commands::\n"
@@ -428,6 +428,14 @@ msgstr ""
 #: ../../lib/app/components/api/config.yaml
 msgid "Your password was just changed."
 msgstr "Ваш пароль щойно змінено."
+
+#: ../../lib/app/components/telegram/bot/commands/settings.js:6:19
+msgid "your settings"
+msgstr "ваші налаштування"
+
+#: ../../lib/app/components/telegram/bot/commands/settings.js:10:19
+msgid "Your settings"
+msgstr "Ваші налаштування"
 
 #: ../../lib/app/components/telegram/bot/commands/message.js:191:33
 #, fuzzy
