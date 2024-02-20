@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.71.1 (2024-02-20)
+
+Fixes:
+
+-   fix: locales
+-   fix: telegram
+
 ### 7.71.0 (2024-02-20)
 
 Features:
