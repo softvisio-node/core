@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.71.0 (2024-02-20)
+
+Features:
+
+-   feat: app sub-components
+
+Fixes:
+
+-   fix: ajv merge patch
+
 ### 7.70.6 (2024-02-19)
 
 Fixes:
