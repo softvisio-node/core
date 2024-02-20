@@ -4,8 +4,6 @@
 
 - $id: config
   type: object
-  properties:
-    telegram: { type: object }
-
+  properties: {}
   additionalProperties: false
-  required: [telegram]
+  required: []
