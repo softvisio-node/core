@@ -56,11 +56,6 @@ msgstr "Владелец бота"
 msgid "Bot read-only permissions"
 msgstr "Разрешения бота только на чтение"
 
-#: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:13:19
-#, fuzzy
-msgid "bot statistics"
-msgstr "статистика ботов"
-
 #: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:24:24
 #, fuzzy, javascript-format
 msgid ""
@@ -75,6 +70,11 @@ msgstr ""
 "Всего пользователей: <b>${n}</b>\n"
 "Подписавшиеся пользователи: <b>${n}</b>\n"
 "Неподписавшиеся пользователи: <b>${n}</b>\n"
+
+#: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:13:19
+#, fuzzy
+msgid "bot's statistics"
+msgstr "статистика бота"
 
 #: ../../lib/app/components/telegram/component.js:25:35
 #, fuzzy
@@ -186,7 +186,7 @@ msgstr ""
 "\n"
 "${n}\n"
 
-#: ../../lib/app/components/telegram/bot/commands/locale.js:58:24
+#: ../../lib/app/components/telegram/bot/commands/locale.js:62:24
 #, fuzzy
 msgid "Please, select your communication language:"
 msgstr "Пожалуйста, выберите язык общения:"
@@ -255,7 +255,7 @@ msgstr "Войдите в бот &quot;${n}&quot;"
 msgid "sign in to your account"
 msgstr "войдите в свой аккаунт"
 
-#: ../../lib/app/components/telegram/bot/commands/locale.js:24:36
+#: ../../lib/app/components/telegram/bot/commands/locale.js:28:36
 #, fuzzy
 msgid "Some error occured, pleast try again."
 msgstr "Произошла ошибка. Повторите попытку."
@@ -430,3 +430,8 @@ msgstr "Ваш пароль был только что изменен."
 #, fuzzy
 msgid "Ypir message has no content. You need to add text and media."
 msgstr "Сообщение Ypir не имеет содержания. Вам нужно добавить текст и медиа."
+
+#: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:13:19
+#, fuzzy
+#~ msgid "bot statistics"
+#~ msgstr "статистика ботов"
