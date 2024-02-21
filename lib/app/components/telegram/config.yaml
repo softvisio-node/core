@@ -26,6 +26,6 @@ config:
 
   allowUsersCreateBots: true
 
-  webAppUrl: ~
+  webAppDomain: ~
 
   bots: ~

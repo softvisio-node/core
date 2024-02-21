@@ -9,10 +9,10 @@
 
     allowUsersCreateBots: { type: boolean }
 
-    webAppUrl:
+    webAppDomain:
       anyOf:
         - type: "null"
-        - { type: string, format: uri-whatwg }
+        - { type: string, format: domain }
 
     bots:
       anyOf:
@@ -47,4 +47,4 @@
 
     - allowUsersCreateBots
 
-    - webAppUrl
+    - webAppDomain
