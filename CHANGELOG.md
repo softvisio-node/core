@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.71.4 (2024-02-21)
+
+Fixes:
+
+-   fix: locales
+-   fix: mixin extends
+-   fix: telegram webapp url
+-   fix: utils require
+
 ### 7.71.3 (2024-02-21)
 
 Fixes:
