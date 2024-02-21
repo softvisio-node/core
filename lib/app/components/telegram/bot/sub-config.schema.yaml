@@ -9,6 +9,11 @@
             - type: "null"
             - { type: array, items: { type: string, format: locale }, uniqueItems: true, minItems: 1 }
 
+        defaultLocale:
+          anyOf:
+            - type: "null"
+            - { type: string, format: locale }
+
         usersCacheMaxSize: { type: integer, minimum: 100 }
         messagesCacheMaxSize: { type: integer, minimum: 100 }
 
