@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.71.5 (2024-02-21)
+
+Fixes:
+
+-   fix: ajv merge removed
+
 ### 7.71.4 (2024-02-21)
 
 Fixes:
