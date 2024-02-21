@@ -147,8 +147,8 @@ msgstr "Зміна електронної адреси"
 
 #: ../../lib/app/components/telegram/bot/commands/sign-in.js:205:40
 #, fuzzy
-msgid "Email address is not valid"
-msgstr "Адреса електронної пошти недійсна"
+msgid "Email address is not correct"
+msgstr "Адреса електронної пошти неправильна"
 
 #: ../../lib/app/components/api/config.yaml
 msgid "New device"
@@ -461,3 +461,8 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #~ "Загальна кількість користувачів: <b>${n}</b>\n"
 #~ "Підписані користувачі: <b>${n}</b>\n"
 #~ "Користувачі, які скасували підписку: <b>${n}</b>\n"
+
+#: ../../lib/app/components/telegram/bot/commands/sign-in.js:205:40
+#, fuzzy
+#~ msgid "Email address is not valid"
+#~ msgstr "Адреса електронної пошти недійсна"

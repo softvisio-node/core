@@ -109,12 +109,10 @@ msgid "Confirmation link is not valid. Please, try again."
 msgstr "Ссылка для подтверждения недействительна. Пожалуйста, попробуйте еще раз."
 
 #: ../../lib/app/components/telegram/bot/commands/message.js:250:44
-#, fuzzy
 msgid "Delete media file"
 msgstr "Удалить медиа-файл"
 
 #: ../../lib/app/components/telegram/bot/commands/message.js:160:32
-#, fuzzy
 msgid "Delete text"
 msgstr "Удалить текст"
 
@@ -123,7 +121,6 @@ msgid "Developer"
 msgstr "Разработчик"
 
 #: ../../lib/app/components/telegram/bot/commands/message.js:175:28
-#, fuzzy
 msgid "Edit media"
 msgstr "Редактировать медиа"
 
@@ -132,14 +129,12 @@ msgid "edit start message"
 msgstr "редактировать стартовое сообщение"
 
 #: ../../lib/app/components/api/config.yaml
-#, fuzzy
 msgid "Email address change"
 msgstr "Изменение адреса электронной почты"
 
 #: ../../lib/app/components/telegram/bot/commands/sign-in.js:205:40
-#, fuzzy
-msgid "Email address is not valid"
-msgstr "Адрес электронной почты недействителен"
+msgid "Email address is not correct"
+msgstr "Адрес электронной почты неверен"
 
 #: ../../lib/app/components/api/config.yaml
 msgid "New device"
@@ -151,7 +146,6 @@ msgid "Open PRIVATE JOIN"
 msgstr "Открыть ЧАСТНОЕ ПРИСОЕДИНЕНИЕ"
 
 #: ../../lib/app/components/telegram/bot/sub-component.js:68:24
-#, fuzzy
 msgid "Owner"
 msgstr "Владелец"
 
@@ -160,12 +154,10 @@ msgid "Password changed"
 msgstr "Пароль изменен"
 
 #: ../../lib/app/components/api/config.yaml
-#, fuzzy
 msgid "Password reset link"
 msgstr "Ссылка для сброса пароля"
 
 #: ../../lib/app/components/telegram/bot/commands/message.js:181:24
-#, fuzzy
 msgid "Please, choose what you want to dp"
 msgstr "Пожалуйста, выберите, что вы хотите сделать"
 
@@ -181,7 +173,6 @@ msgstr ""
 "${n}\n"
 
 #: ../../lib/app/components/telegram/bot/commands/locale.js:62:24
-#, fuzzy
 msgid "Please, select your communication language:"
 msgstr "Пожалуйста, выберите язык общения:"
 
@@ -239,9 +230,9 @@ msgstr ""
 "Фотографии/видео, аудио и документы можно группировать в альбом. до 10 файлов в альбоме."
 
 #: ../../lib/app/components/telegram/config.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Sign in to \"${n}\" bot"
-msgstr "Войдите в бот &quot;${n}&quot;"
+msgstr "Войдите в бот \"${n}\";"
 
 #: ../../lib/app/components/telegram/bot/commands/sign-in.js:39:19
 msgid "sign in to your account"
@@ -393,7 +384,6 @@ msgstr ""
 "Если это были не вы, пожалуйста, измените свой пароль и удалите эту сессию из сессий вашей учетной записи.\n"
 
 #: ../../lib/app/components/api/config.yaml
-#, fuzzy
 msgid "Your email address was changed"
 msgstr "Ваш адрес электронной почты был изменен"
 
@@ -448,3 +438,8 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #~ "Всего пользователей: <b>${n}</b>\n"
 #~ "Подписавшиеся пользователи: <b>${n}</b>\n"
 #~ "Неподписавшиеся пользователи: <b>${n}</b>\n"
+
+#: ../../lib/app/components/telegram/bot/commands/sign-in.js:205:40
+#, fuzzy
+#~ msgid "Email address is not valid"
+#~ msgstr "Адрес электронной почты недействителен"
