@@ -12,7 +12,7 @@
     webAppDomain:
       anyOf:
         - type: "null"
-        - { type: string, format: domain }
+        - { type: string, format: domain-name }
 
     bots:
       anyOf:
