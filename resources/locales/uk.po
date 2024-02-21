@@ -38,7 +38,7 @@ msgstr "Назад"
 msgid "back to the start"
 msgstr "повернутися до початку"
 
-#: ../../lib/app/components/telegram/bot/commands/sign-in.js:292:40
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:292:40
 #, fuzzy
 msgid "Back to the start"
 msgstr "Назад до початку"
@@ -58,12 +58,12 @@ msgstr "Власник бота"
 msgid "Bot read-only permissions"
 msgstr "Дозволи бота лише на читання"
 
-#: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:13:19
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:13:19
 #, fuzzy
 msgid "bot's statistics"
 msgstr "статистика бота"
 
-#: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:24:24
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:24:24
 #, fuzzy, javascript-format
 msgid ""
 "Bot's statistics:\n"
@@ -87,12 +87,12 @@ msgstr "Може створювати телеграм-ботів"
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: ../../lib/app/components/telegram/bot/commands/locale.js:8:19
+#: ../../lib/app/components/telegram/bot/commands/settings/locale.js:8:19
 #, fuzzy
 msgid "change communication language"
 msgstr "змінити мову спілкування"
 
-#: ../../lib/app/components/telegram/bot/commands/sign-in.js:263:40
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:263:40
 #, fuzzy
 msgid "Change email address"
 msgstr "Змінити адресу електронної пошти"
@@ -112,7 +112,7 @@ msgstr "Команда невідома. Будь ласка, використо
 msgid "Confirm your email address"
 msgstr "Підтвердіть Вашу електронну адресу"
 
-#: ../../lib/app/components/telegram/bot/commands/sign-in.js:156:32
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:156:32
 #, fuzzy
 msgid "Confirmation link is not valid. Please, try again."
 msgstr "Посилання для підтвердження недійсне. Будь ласка спробуйте ще раз."
@@ -145,7 +145,7 @@ msgstr "редагувати початкове повідомлення"
 msgid "Email address change"
 msgstr "Зміна електронної адреси"
 
-#: ../../lib/app/components/telegram/bot/commands/sign-in.js:205:40
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:205:40
 #, fuzzy
 msgid "Email address is not correct"
 msgstr "Адреса електронної пошти неправильна"
@@ -189,7 +189,7 @@ msgstr ""
 "\n"
 "${n}\n"
 
-#: ../../lib/app/components/telegram/bot/commands/locale.js:62:24
+#: ../../lib/app/components/telegram/bot/commands/settings/locale.js:62:24
 #, fuzzy
 msgid "Please, select your communication language:"
 msgstr "Виберіть мову спілкування:"
@@ -216,7 +216,7 @@ msgstr "Лише для читання"
 msgid "Security"
 msgstr "Безпека"
 
-#: ../../lib/app/components/telegram/bot/commands/sign-in.js:257:40
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:257:40
 #, fuzzy
 msgid "Send confirmation email again"
 msgstr "Ще раз надішліть електронний лист із підтвердженням"
@@ -254,11 +254,11 @@ msgstr ""
 msgid "Sign in to \"${n}\" bot"
 msgstr "Увійдіть до бота &quot;${n}&quot;."
 
-#: ../../lib/app/components/telegram/bot/commands/sign-in.js:39:19
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:39:19
 msgid "sign in to your account"
 msgstr "увійдіть у свій обліковий запис"
 
-#: ../../lib/app/components/telegram/bot/commands/locale.js:28:36
+#: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
 #, fuzzy
 msgid "Some error occured, pleast try again."
 msgstr "Сталася якась помилка, спробуйте ще раз."
@@ -268,12 +268,12 @@ msgstr "Сталася якась помилка, спробуйте ще раз
 msgid "Telegram bot owner"
 msgstr "Власник телеграм-бота"
 
-#: ../../lib/app/components/telegram/bot/commands/sign-in.js:230:44
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:230:44
 #, fuzzy
 msgid "This email address is already used by the other user"
 msgstr "Ця електронна адреса вже використовується іншим користувачем"
 
-#: ../../lib/app/components/telegram/bot/commands/sign-in.js:217:48
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:217:48
 #, fuzzy
 msgid "This email address is not registered"
 msgstr "Ця електронна адреса не зареєстрована"
@@ -282,7 +282,7 @@ msgstr "Ця електронна адреса не зареєстрована"
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
 
-#: ../../lib/app/components/telegram/bot/commands/sign-in.js:251:24
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:251:24
 #, fuzzy
 msgid ""
 "To complete sign in, please, click on link which I just sent to your email address.\n"
@@ -291,7 +291,7 @@ msgstr ""
 "Щоб завершити вхід, натисніть посилання, яке я щойно надіслав на вашу електронну адресу.\n"
 "Якщо ви не отримали лист протягом кількох хвилин, ви можете надіслати його ще раз."
 
-#: ../../lib/app/components/telegram/bot/commands/sign-in.js:243:24
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:243:24
 #, fuzzy
 msgid "To sign in, please, enter yoour email address"
 msgstr "Щоб увійти, будь ласка, введіть свою електронну адресу"
@@ -357,12 +357,12 @@ msgstr ""
 msgid "Various security related notifications"
 msgstr "Різні сповіщення щодо безпеки"
 
-#: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:35:40
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:35:40
 #, fuzzy
 msgid "View charts"
 msgstr "Перегляд діаграм"
 
-#: ../../lib/app/components/telegram/bot/commands/sign-in.js:287:24
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:287:24
 #, fuzzy, javascript-format
 msgid "You are signed in as: ${n}"
 msgstr "Ви ввійшли як: ${n}"
