@@ -23,7 +23,7 @@ msgid "Add text"
 msgstr "Добавить текст"
 
 #: ../../lib/app/components/acl/config.yaml
-#: ../../lib/app/components/telegram/bot/sub-component.js:81:24
+#: ../../lib/app/components/telegram/bot/sub-component.js:75:24
 msgid "Administrator"
 msgstr "Администратор"
 
@@ -40,12 +40,12 @@ msgstr "вернуться к началу"
 msgid "Back to the start"
 msgstr "Вернуться к началу"
 
-#: ../../lib/app/components/telegram/bot/sub-component.js:82:31
+#: ../../lib/app/components/telegram/bot/sub-component.js:76:31
 #, fuzzy
 msgid "Bot administrator. Full access, but can't delete bot."
 msgstr "Администратор бота. Полный доступ, но не могу удалить бота."
 
-#: ../../lib/app/components/telegram/bot/sub-component.js:69:31
+#: ../../lib/app/components/telegram/bot/sub-component.js:63:31
 msgid "Bot owner"
 msgstr "Владелец бота"
 
@@ -145,7 +145,7 @@ msgstr "Новое устройство"
 msgid "Open PRIVATE JOIN"
 msgstr "Открыть ЧАСТНОЕ ПРИСОЕДИНЕНИЕ"
 
-#: ../../lib/app/components/telegram/bot/sub-component.js:68:24
+#: ../../lib/app/components/telegram/bot/sub-component.js:62:24
 msgid "Owner"
 msgstr "Владелец"
 
