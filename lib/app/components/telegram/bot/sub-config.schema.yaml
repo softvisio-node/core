@@ -16,6 +16,7 @@
 
         usersCacheMaxSize: { type: integer, minimum: 100 }
         messagesCacheMaxSize: { type: integer, minimum: 100 }
+        contactsCacheMaxSize: { type: integer, minimum: 100 }
 
         webAppDomain:
           anyOf:
@@ -29,6 +30,6 @@
         acl: { type: object }
 
       additionalProperties: false
-      required: [usersCacheMaxSize, messagesCacheMaxSize, signinRequired, signupEnabled, signoutEnabled]
+      required: [usersCacheMaxSize, messagesCacheMaxSize, contactsCacheMaxSize, signinRequired, signupEnabled, signoutEnabled]
 
   required: [telegram]
