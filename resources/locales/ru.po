@@ -36,10 +36,6 @@ msgstr "Назад"
 msgid "back to the start"
 msgstr "вернуться к началу"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:320:28
-msgid "Back to the start"
-msgstr "Вернуться к началу"
-
 #: ../../lib/app/components/telegram/bot/sub-component.js:76:31
 #, fuzzy
 msgid "Bot administrator. Full access, but can't delete bot."
@@ -344,10 +340,10 @@ msgstr "Различные уведомления, связанные с без�
 msgid "View charts"
 msgstr "Посмотреть графики"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:326:24
+#: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:319:24
 #, fuzzy, javascript-format
-msgid "You are signed in as: ${n}"
-msgstr "Вы вошли как: ${n}"
+msgid "You are signed in as: `${n}`"
+msgstr "Вы вошли в систему как: `${n}`"
 
 #: ../../lib/app/components/telegram/bot/command.js:405:56
 #, fuzzy
@@ -423,6 +419,10 @@ msgstr "Ваши настройки"
 msgid "Ypir message has no content. You need to add text and media."
 msgstr "Сообщение Ypir не имеет содержания. Вам нужно добавить текст и медиа."
 
+#: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:320:28
+#~ msgid "Back to the start"
+#~ msgstr "Вернуться к началу"
+
 #: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:13:19
 #, fuzzy
 #~ msgid "bot statistics"
@@ -447,3 +447,8 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #, fuzzy
 #~ msgid "Email address is not valid"
 #~ msgstr "Адрес электронной почты недействителен"
+
+#: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:326:24
+#, fuzzy, javascript-format
+#~ msgid "You are signed in as: ${n}"
+#~ msgstr "Вы вошли как: ${n}"
