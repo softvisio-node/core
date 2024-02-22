@@ -131,9 +131,14 @@ msgstr "Розробник"
 msgid "Edit media"
 msgstr "Редагувати медіа"
 
-#: ../../lib/app/components/telegram-start-message/bot/commands/edit-start-message.js:8:19
+#: ../../lib/app/components/telegram-bot-start-message/bot/commands/edit-start-message.js:8:19
 msgid "edit start message"
 msgstr "редагувати початкове повідомлення"
+
+#: ../../lib/app/components/telegram-bot-contacts/bot/commands/edit-contacts.js:6:19
+#, fuzzy
+msgid "edit start your contacts"
+msgstr "редагувати почати свої контакти"
 
 #: ../../lib/app/components/api/config.yaml
 #, fuzzy
