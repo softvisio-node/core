@@ -1,4 +1,4 @@
-module: telegram-contacts
+module: telegram-bot-contacts
 type: postgresql
 patch: ~
 
