@@ -1,4 +1,4 @@
 contacts:
-  phoneEnabled: false
-  emailEnabled: false
+  phoneEnabled: true
+  emailEnabled: true
   addressEnabled: true
