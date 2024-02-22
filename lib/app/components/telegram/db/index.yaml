@@ -16,6 +16,9 @@ emits:
   - telegram/telegram-bot-message/*/update
   - telegram/telegram-bot-message/*/delete
 
+  - telegram/telegram-bot-contact/*/update
+  - telegram/telegram-bot-contact/*/delete
+
 locks:
   - telegram/telegram-bot/create
 
