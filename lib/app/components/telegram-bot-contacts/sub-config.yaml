@@ -4,7 +4,7 @@ dependencies:
 optionalDependencies: ~
 
 config:
-  contancts:
+  contacts:
     phoneEnabled: false
     emailEnabled: false
     addressEnabled: true
