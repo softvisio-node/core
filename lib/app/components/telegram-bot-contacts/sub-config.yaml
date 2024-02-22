@@ -1,10 +1,4 @@
-dependencies:
-  - telegram
-
-optionalDependencies: ~
-
-config:
-  contacts:
-    phoneEnabled: false
-    emailEnabled: false
-    addressEnabled: true
+contacts:
+  phoneEnabled: false
+  emailEnabled: false
+  addressEnabled: true
