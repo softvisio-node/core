@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.71.6 (2024-02-22)
+
+Fixes:
+
+-   fix: locale template
+-   fix: telegram
+
 ### 7.71.5 (2024-02-21)
 
 Fixes:
