@@ -1,0 +1,13 @@
+- $id: public-config
+  type: object
+  properties: {}
+
+- $id: config
+  type: object
+  properties:
+  phoneEnabled: { type: boolean }
+  emailEnabled: { type: boolean }
+  addressEnabled: { type: boolean }
+
+  additionalProperties: false
+  required: [phoneEnabled, emailEnabled, addressEnabled]

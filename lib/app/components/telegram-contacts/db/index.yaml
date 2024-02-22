@@ -1,0 +1,9 @@
+module: telegram-contacts
+type: postgresql
+patch: ~
+
+emits: ~
+
+locks: ~
+
+cron: ~

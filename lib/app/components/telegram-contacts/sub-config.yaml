@@ -1,0 +1,9 @@
+dependencies:
+  - telegram
+
+optionalDependencies: ~
+
+config:
+  phoneEnabled: false
+  emailEnabled: false
+  addressEnabled: true
