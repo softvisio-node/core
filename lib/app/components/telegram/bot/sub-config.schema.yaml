@@ -17,6 +17,11 @@
         usersCacheMaxSize: { type: integer, minimum: 100 }
         messagesCacheMaxSize: { type: integer, minimum: 100 }
 
+        webAppDomain:
+          anyOf:
+            - type: "null"
+            - { type: string, format: domain }
+
         signinRequired: { type: boolean }
         signupEnabled: { type: boolean }
         signoutEnabled: { type: boolean }

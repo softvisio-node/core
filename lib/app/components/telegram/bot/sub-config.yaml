@@ -5,6 +5,8 @@ telegram:
   usersCacheMaxSize: 1000
   messagesCacheMaxSize: 1000
 
+  webAppDomain: ~
+
   signinRequired: false
   signupEnabled: true
   signoutEnabled: false
