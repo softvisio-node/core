@@ -1,4 +1,4 @@
-module: telegram-start-message
+module: telegram-bot-start-message
 type: postgresql
 patch: ~
 
