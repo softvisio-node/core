@@ -13,6 +13,26 @@ msgstr ""
 "X-Search-Path: /lib/**\n"
 "X-Generator: Poedit 3.3.1\n"
 
+#: ../../lib/app/components/telegram-bot-contacts/bot/contacts.js:48:27
+#, fuzzy
+msgid "<b>Additional info"
+msgstr "<b>додаткова інформація</b>"
+
+#: ../../lib/app/components/telegram-bot-contacts/bot/contacts.js:44:27
+#, fuzzy
+msgid "<b>Address"
+msgstr "<b>Адреса</b>"
+
+#: ../../lib/app/components/telegram-bot-contacts/bot/contacts.js:40:27
+#, fuzzy
+msgid "<b>Email"
+msgstr "<b>Електронна пошта</b>"
+
+#: ../../lib/app/components/telegram-bot-contacts/bot/contacts.js:36:27
+#, fuzzy
+msgid "<b>Phone"
+msgstr "<b>Телефон</b>"
+
 #: ../../lib/app/components/telegram/bot/commands/message.js:168:28
 #, fuzzy
 msgid "Add media"
