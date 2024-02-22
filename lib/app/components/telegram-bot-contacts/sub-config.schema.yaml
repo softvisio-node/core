@@ -5,9 +5,14 @@
 - $id: config
   type: object
   properties:
-  phoneEnabled: { type: boolean }
-  emailEnabled: { type: boolean }
-  addressEnabled: { type: boolean }
+    contacts:
+      type: object
+      properties:
+        phoneEnabled: { type: boolean }
+        emailEnabled: { type: boolean }
+        addressEnabled: { type: boolean }
 
-  additionalProperties: false
-  required: [phoneEnabled, emailEnabled, addressEnabled]
+      additionalProperties: false
+      required: [phoneEnabled, emailEnabled, addressEnabled]
+
+  required: [contacts]

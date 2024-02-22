@@ -4,6 +4,7 @@ dependencies:
 optionalDependencies: ~
 
 config:
-  phoneEnabled: false
-  emailEnabled: false
-  addressEnabled: true
+  contancts:
+    phoneEnabled: false
+    emailEnabled: false
+    addressEnabled: true
