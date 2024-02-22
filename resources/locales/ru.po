@@ -36,7 +36,7 @@ msgstr "Назад"
 msgid "back to the start"
 msgstr "вернуться к началу"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:292:40
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:317:24
 msgid "Back to the start"
 msgstr "Вернуться к началу"
 
@@ -86,7 +86,7 @@ msgstr "Отменить"
 msgid "change communication language"
 msgstr "изменить язык общения"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:263:40
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:284:40
 msgid "Change email address"
 msgstr "Изменить адрес электронной почты"
 
@@ -103,7 +103,7 @@ msgstr "Командование неизвестно. Пожалуйста, и�
 msgid "Confirm your email address"
 msgstr "Подтвердите Ваш электронный адрес"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:156:32
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:165:32
 #, fuzzy
 msgid "Confirmation link is not valid. Please, try again."
 msgstr "Ссылка для подтверждения недействительна. Пожалуйста, попробуйте еще раз."
@@ -132,7 +132,7 @@ msgstr "редактировать стартовое сообщение"
 msgid "Email address change"
 msgstr "Изменение адреса электронной почты"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:205:40
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:226:40
 msgid "Email address is not correct"
 msgstr "Адрес электронной почты неверен"
 
@@ -197,7 +197,7 @@ msgstr "Только чтение"
 msgid "Security"
 msgstr "Безопасность"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:257:40
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:278:40
 msgid "Send confirmation email again"
 msgstr "Отправить письмо с подтверждением еще раз"
 
@@ -234,9 +234,13 @@ msgstr ""
 msgid "Sign in to \"${n}\" bot"
 msgstr "Войдите в бот \"${n}\";"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:39:19
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:48:19
 msgid "sign in to your account"
 msgstr "войдите в свой аккаунт"
+
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:311:28
+msgid "Sign out"
+msgstr "Выйти"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
 #, fuzzy
@@ -247,12 +251,12 @@ msgstr "Произошла ошибка. Повторите попытку."
 msgid "Telegram bot owner"
 msgstr "Владелец Telegram-бота"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:230:44
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:251:44
 #, fuzzy
 msgid "This email address is already used by the other user"
 msgstr "Этот адрес электронной почты уже используется другим пользователем"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:217:48
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:238:48
 #, fuzzy
 msgid "This email address is not registered"
 msgstr "Этот адрес электронной почты не зарегистрирован"
@@ -261,7 +265,7 @@ msgstr "Этот адрес электронной почты не зареги�
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Это бот уведомлений. Он не поддерживает никаких дополнительных команд."
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:251:24
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:272:24
 #, fuzzy
 msgid ""
 "To complete sign in, please, click on link which I just sent to your email address.\n"
@@ -270,7 +274,7 @@ msgstr ""
 "Чтобы завершить вход, пожалуйста, нажмите на ссылку, которую я только что отправил на ваш адрес электронной почты.\n"
 "Если вы не получили электронное письмо в течение нескольких минут, вы можете отправить его еще раз."
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:243:24
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:264:24
 #, fuzzy
 msgid "To sign in, please, enter yoour email address"
 msgstr "Для входа, пожалуйста, введите свой адрес электронной почты"
@@ -340,7 +344,7 @@ msgstr "Различные уведомления, связанные с без�
 msgid "View charts"
 msgstr "Посмотреть графики"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:287:24
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:322:24
 #, fuzzy, javascript-format
 msgid "You are signed in as: ${n}"
 msgstr "Вы вошли как: ${n}"
