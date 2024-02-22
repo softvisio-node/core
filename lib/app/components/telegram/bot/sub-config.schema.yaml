@@ -19,10 +19,11 @@
 
         signinRequired: { type: boolean }
         signupEnabled: { type: boolean }
+        signoutEnabled: { type: boolean }
 
         acl: { type: object }
 
       additionalProperties: false
-      required: [usersCacheMaxSize, messagesCacheMaxSize, signinRequired, signupEnabled]
+      required: [usersCacheMaxSize, messagesCacheMaxSize, signinRequired, signupEnabled, signoutEnabled]
 
   required: [telegram]

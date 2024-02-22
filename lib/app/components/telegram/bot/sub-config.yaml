@@ -7,5 +7,6 @@ telegram:
 
   signinRequired: false
   signupEnabled: true
+  signoutEnabled: false
 
   acl: {}
