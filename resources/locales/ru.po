@@ -339,7 +339,7 @@ msgstr "Посмотреть графики"
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:300:24
 #, fuzzy, javascript-format
 msgid "You are signed in as: `${n}`"
-msgstr "Вы вошли в систему как: `${n}`"
+msgstr "Вы вошли как: `${n}`"
 
 #: ../../lib/app/components/telegram/bot/command.js:405:56
 #, fuzzy
