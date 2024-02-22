@@ -38,7 +38,7 @@ msgstr "Назад"
 msgid "back to the start"
 msgstr "повернутися до початку"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:317:24
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:320:28
 #, fuzzy
 msgid "Back to the start"
 msgstr "Назад до початку"
@@ -258,7 +258,7 @@ msgstr "Увійдіть до бота &quot;${n}&quot;."
 msgid "sign in to your account"
 msgstr "увійдіть у свій обліковий запис"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:311:28
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:312:32
 msgid "Sign out"
 msgstr "Вийти"
 
@@ -366,7 +366,7 @@ msgstr "Різні сповіщення щодо безпеки"
 msgid "View charts"
 msgstr "Перегляд діаграм"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:322:24
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:326:24
 #, fuzzy, javascript-format
 msgid "You are signed in as: ${n}"
 msgstr "Ви ввійшли як: ${n}"

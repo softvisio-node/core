@@ -36,7 +36,7 @@ msgstr "Назад"
 msgid "back to the start"
 msgstr "вернуться к началу"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:317:24
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:320:28
 msgid "Back to the start"
 msgstr "Вернуться к началу"
 
@@ -238,7 +238,7 @@ msgstr "Войдите в бот \"${n}\";"
 msgid "sign in to your account"
 msgstr "войдите в свой аккаунт"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:311:28
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:312:32
 msgid "Sign out"
 msgstr "Выйти"
 
@@ -344,7 +344,7 @@ msgstr "Различные уведомления, связанные с без�
 msgid "View charts"
 msgstr "Посмотреть графики"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:322:24
+#: ../../lib/app/components/telegram/bot/commands/settings/sign-in.js:326:24
 #, fuzzy, javascript-format
 msgid "You are signed in as: ${n}"
 msgstr "Вы вошли как: ${n}"
