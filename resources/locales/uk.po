@@ -367,8 +367,8 @@ msgstr "Встановити телефон"
 
 #: ../../lib/app/components/telegram/bot/contact.js:195:24
 #, fuzzy
-msgid "Shom on the map"
-msgstr "Шом на карті"
+msgid "Show on the map"
+msgstr "Покажіть на карті"
 
 #: ../../lib/app/components/telegram/config.yaml:4:16
 #, fuzzy, javascript-format
@@ -666,6 +666,11 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #, fuzzy, javascript-format
 #~ msgid "Phone: ${n}"
 #~ msgstr "Телефон: ${n}"
+
+#: ../../lib/app/components/telegram/bot/contact.js:195:24
+#, fuzzy
+#~ msgid "Shom on the map"
+#~ msgstr "Шом на карті"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:48:19
 #~ msgid "sign in to your account"
