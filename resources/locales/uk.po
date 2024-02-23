@@ -33,12 +33,17 @@ msgstr "<b>Електронна пошта</b>"
 msgid "<b>Phone"
 msgstr "<b>Телефон</b>"
 
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:286:48
+#, fuzzy
+msgid "Add address"
+msgstr "Додайте адресу"
+
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:168:28
 #, fuzzy
 msgid "Add media"
 msgstr "Додайте медіа"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:256:48
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:326:48
 #, fuzzy
 msgid "Add notes"
 msgstr "Додайте примітки"
@@ -47,6 +52,12 @@ msgstr "Додайте примітки"
 #, fuzzy
 msgid "Add text"
 msgstr "Додайте текст"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:260:57
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:280:57
+#, fuzzy
+msgid "Address"
+msgstr "Адреса"
 
 #: ../../lib/app/components/acl/config.yaml
 #: ../../lib/app/components/telegram/bot/sub-component.js:75:24
@@ -103,19 +114,25 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr "Може створювати телеграм-ботів"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:276:40
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:292:40
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:308:40
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:346:40
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:362:40
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:378:40
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:394:40
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:210:40
 msgid "Cancel"
 msgstr "Скасувати"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:266:48
+#, fuzzy
+msgid "Change address"
+msgstr "Змінити адресу"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/locale.js:8:19
 #, fuzzy
 msgid "change communication language"
 msgstr "змінити мову спілкування"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:196:48
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:226:48
 msgid "Change email"
 msgstr "Змінити email"
 
@@ -124,12 +141,12 @@ msgstr "Змінити email"
 msgid "Change email address"
 msgstr "Змінити адресу електронної пошти"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:236:48
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:306:48
 #, fuzzy
 msgid "Change notes"
 msgstr "Змінити нотатки"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:156:48
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:186:48
 #, fuzzy
 msgid "Change phone"
 msgstr "Змінити телефон"
@@ -154,7 +171,12 @@ msgstr "Підтвердіть Вашу електронну адресу"
 msgid "Confirmation link is not valid. Please, try again."
 msgstr "Посилання для підтвердження недійсне. Будь ласка спробуйте ще раз."
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:200:48
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:270:48
+#, fuzzy
+msgid "Delete address"
+msgstr "Видалити адресу"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:230:48
 #, fuzzy
 msgid "Delete email"
 msgstr "Видалити електронну пошту"
@@ -164,12 +186,12 @@ msgstr "Видалити електронну пошту"
 msgid "Delete media file"
 msgstr "Видалити медіафайл"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:240:48
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:310:48
 #, fuzzy
 msgid "Delete notes"
 msgstr "Видалити нотатки"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:160:48
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:190:48
 #, fuzzy
 msgid "Delete phone"
 msgstr "Видалити телефон"
@@ -198,7 +220,7 @@ msgstr "редагувати початкове повідомлення"
 msgid "edit your contacts"
 msgstr "редагувати свої контакти"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:210:57
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:240:57
 #, fuzzy
 msgid "Email"
 msgstr "Електронна пошта"
@@ -213,7 +235,7 @@ msgstr "Зміна електронної адреси"
 msgid "Email address is not correct"
 msgstr "Адреса електронної пошти неправильна"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:190:57
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:220:57
 msgid "Emain"
 msgstr ""
 
@@ -221,15 +243,16 @@ msgstr ""
 msgid "New device"
 msgstr "Новий пристрій"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:170:93
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:210:93
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:250:93
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:200:93
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:240:93
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:280:95
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:320:93
 #, fuzzy
 msgid "not set"
 msgstr "не встановлено"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:230:57
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:250:57
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:300:57
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:320:57
 #, fuzzy
 msgid "Notes"
 msgstr "Примітки"
@@ -253,8 +276,8 @@ msgstr "Пароль змінено"
 msgid "Password reset link"
 msgstr "Посилання для зміни пароля"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:150:57
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:170:57
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:180:57
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:200:57
 #, fuzzy
 msgid "Phone"
 msgstr "Телефон"
@@ -307,7 +330,7 @@ msgstr "Безпека"
 msgid "Send confirmation email again"
 msgstr "Ще раз надішліть електронний лист із підтвердженням"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:271:24
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:341:24
 #, fuzzy
 msgid "Send me a phone number in the international format: +XXX XX XXXXXXX"
 msgstr "Надішліть мені номер телефону в міжнародному форматі: +XXX XX XXXXXXX"
@@ -340,18 +363,23 @@ msgstr ""
 "Надсилайте мені файли медіа (фото, відео, аудіо, документи), щоб додати їх до повідомлення.\n"
 "Фотографії/відео, аудіо та документи можна згрупувати в альбом. до 10 файлів в альбомі."
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:287:24
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:373:24
+#, fuzzy
+msgid "Send me your address"
+msgstr "Надішліть мені свою адресу"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:357:24
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:6:19
 #, fuzzy
 msgid "Send me your emaul address"
 msgstr "Надішліть мені свою електронну адресу"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:216:48
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:246:48
 #, fuzzy
 msgid "Sett email"
 msgstr "Налаштувати електронну адресу"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:176:48
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:206:48
 #, fuzzy
 msgid "Sett phone"
 msgstr "Встановити телефон"
