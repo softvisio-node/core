@@ -1,4 +1,4 @@
-contact:
+botContact:
   phoneEnabled: true
   emailEnabled: true
   addressEnabled: true

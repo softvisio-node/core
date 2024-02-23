@@ -13,22 +13,22 @@ msgstr ""
 "X-Search-Path: /lib/**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../../lib/app/components/telegram/bot/contact.js:189:27
+#: ../../lib/app/components/telegram/bot/contact.js:188:27
 #, fuzzy
 msgid "<b>Additional info"
 msgstr "<b>додаткова інформація</b>"
 
-#: ../../lib/app/components/telegram/bot/contact.js:185:27
+#: ../../lib/app/components/telegram/bot/contact.js:184:27
 #, fuzzy
 msgid "<b>Address"
 msgstr "<b>Адреса</b>"
 
-#: ../../lib/app/components/telegram/bot/contact.js:181:27
+#: ../../lib/app/components/telegram/bot/contact.js:180:27
 #, fuzzy
 msgid "<b>Email"
 msgstr "<b>Електронна пошта</b>"
 
-#: ../../lib/app/components/telegram/bot/contact.js:177:27
+#: ../../lib/app/components/telegram/bot/contact.js:176:27
 #, fuzzy
 msgid "<b>Phone"
 msgstr "<b>Телефон</b>"
@@ -132,17 +132,12 @@ msgstr "Підтвердіть Вашу електронну адресу"
 msgid "Confirmation link is not valid. Please, try again."
 msgstr "Посилання для підтвердження недійсне. Будь ласка спробуйте ще раз."
 
-#: ../../lib/app/components/telegram-bot-contacts/bot/commands/edit-contacts.js:46:40
-#, fuzzy
-msgid "Delete email"
-msgstr "Видалити електронну пошту"
-
 #: ../../lib/app/components/telegram/bot/commands/message.js:250:44
 #, fuzzy
 msgid "Delete media file"
 msgstr "Видалити медіафайл"
 
-#: ../../lib/app/components/telegram-bot-contacts/bot/commands/edit-contacts.js:28:40
+#: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:30:44
 #, fuzzy
 msgid "Delete phone"
 msgstr "Видалити телефон"
@@ -156,17 +151,12 @@ msgstr "Видалити текст"
 msgid "Developer"
 msgstr "Розробник"
 
-#: ../../lib/app/components/telegram-bot-contacts/bot/commands/edit-contacts.js:42:40
-#, fuzzy
-msgid "Edit email"
-msgstr "Редагувати електронну адресу"
-
 #: ../../lib/app/components/telegram/bot/commands/message.js:175:28
 #, fuzzy
 msgid "Edit media"
 msgstr "Редагувати медіа"
 
-#: ../../lib/app/components/telegram-bot-contacts/bot/commands/edit-contacts.js:24:40
+#: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:26:44
 #, fuzzy
 msgid "Edit phone"
 msgstr "Редагувати телефон"
@@ -175,7 +165,7 @@ msgstr "Редагувати телефон"
 msgid "edit start message"
 msgstr "редагувати початкове повідомлення"
 
-#: ../../lib/app/components/telegram-bot-contacts/bot/commands/edit-contacts.js:6:19
+#: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:6:19
 #, fuzzy
 msgid "edit start your contacts"
 msgstr "редагувати почати свої контакти"
@@ -190,14 +180,14 @@ msgstr "Зміна електронної адреси"
 msgid "Email address is not correct"
 msgstr "Адреса електронної пошти неправильна"
 
-#: ../../lib/app/components/telegram-bot-contacts/bot/commands/edit-contacts.js:37:24
-#, fuzzy, javascript-format
-msgid "Email: ${n}"
-msgstr "Електронна пошта: ${n}"
-
 #: ../../lib/app/components/api/config.yaml
 msgid "New device"
 msgstr "Новий пристрій"
+
+#: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:21:68
+#, fuzzy
+msgid "not set"
+msgstr "не встановлено"
 
 #: ../../lib/app/components/telegram/bot/commands/chat.js:16:40
 #, fuzzy
@@ -218,7 +208,7 @@ msgstr "Пароль змінено"
 msgid "Password reset link"
 msgstr "Посилання для зміни пароля"
 
-#: ../../lib/app/components/telegram-bot-contacts/bot/commands/edit-contacts.js:19:24
+#: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:21:28
 #, fuzzy, javascript-format
 msgid "Phone: ${n}"
 msgstr "Телефон: ${n}"
@@ -522,10 +512,30 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #~ "Підписані користувачі: <b>${n}</b>\n"
 #~ "Користувачі, які скасували підписку: <b>${n}</b>\n"
 
+#: ../../lib/app/components/telegram-bot-contacts/bot/commands/edit-contacts.js:46:40
+#, fuzzy
+#~ msgid "Delete email"
+#~ msgstr "Видалити електронну пошту"
+
+#: ../../lib/app/components/telegram-bot-contacts/bot/commands/edit-contacts.js:42:40
+#, fuzzy
+#~ msgid "Edit email"
+#~ msgstr "Редагувати електронну адресу"
+
 #: ../../lib/app/components/telegram/bot/commands/sign-in.js:205:40
 #, fuzzy
 #~ msgid "Email address is not valid"
 #~ msgstr "Адреса електронної пошти недійсна"
+
+#: ../../lib/app/components/telegram-bot-contacts/bot/commands/edit-contacts.js:37:24
+#, fuzzy, javascript-format
+#~ msgid "Email: ${n}"
+#~ msgstr "Електронна пошта: ${n}"
+
+#: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:21:68
+#, fuzzy
+#~ msgid "not defined"
+#~ msgstr "не визначений"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:48:19
 #~ msgid "sign in to your account"
