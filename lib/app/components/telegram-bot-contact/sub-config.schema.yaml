@@ -11,8 +11,9 @@
         phoneEnabled: { type: boolean }
         emailEnabled: { type: boolean }
         addressEnabled: { type: boolean }
+        notesEnabled: { type: boolean }
 
       additionalProperties: false
-      required: [phoneEnabled, emailEnabled, addressEnabled]
+      required: [phoneEnabled, emailEnabled, addressEnabled, notesEnabled]
 
   required: [botContact]
