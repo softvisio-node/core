@@ -209,6 +209,7 @@ msgstr "редактировать стартовое сообщение"
 msgid "edit your contacts"
 msgstr "редактировать свои контакты"
 
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:220:57
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:240:57
 #, fuzzy
 msgid "Email"
@@ -221,11 +222,6 @@ msgstr "Изменение адреса электронной почты"
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:207:40
 msgid "Email address is not correct"
 msgstr "Адрес электронной почты неверен"
-
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:220:57
-#, fuzzy
-msgid "Emain"
-msgstr "Эмейн"
 
 #: ../../lib/app/components/api/config.yaml
 msgid "New device"
@@ -609,6 +605,11 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #, fuzzy, javascript-format
 #~ msgid "Email: ${n}"
 #~ msgstr "Электронная почта: ${n}"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:220:57
+#, fuzzy
+#~ msgid "Emain"
+#~ msgstr "Эмейн"
 
 #: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:21:68
 #, fuzzy
