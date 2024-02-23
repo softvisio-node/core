@@ -35,7 +35,7 @@ msgstr "Додайте текст"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:260:57
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:280:57
-#: ../../lib/app/components/telegram/bot/contact.js:181:38
+#: ../../lib/app/components/telegram/bot/contact.js:180:38
 #, fuzzy
 msgid "Address"
 msgstr "Адреса"
@@ -203,7 +203,7 @@ msgstr "редагувати свої контакти"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:220:57
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:240:57
-#: ../../lib/app/components/telegram/bot/contact.js:176:38
+#: ../../lib/app/components/telegram/bot/contact.js:175:38
 #, fuzzy
 msgid "Email"
 msgstr "Електронна пошта"
@@ -232,7 +232,7 @@ msgstr "не встановлено"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:300:57
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:320:57
-#: ../../lib/app/components/telegram/bot/contact.js:186:38
+#: ../../lib/app/components/telegram/bot/contact.js:185:38
 #, fuzzy
 msgid "Notes"
 msgstr "Примітки"
@@ -258,7 +258,7 @@ msgstr "Посилання для зміни пароля"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:180:57
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:200:57
-#: ../../lib/app/components/telegram/bot/contact.js:171:38
+#: ../../lib/app/components/telegram/bot/contact.js:170:38
 #, fuzzy
 msgid "Phone"
 msgstr "Телефон"
@@ -364,6 +364,11 @@ msgstr "Налаштувати електронну адресу"
 #, fuzzy
 msgid "Sett phone"
 msgstr "Встановити телефон"
+
+#: ../../lib/app/components/telegram/bot/contact.js:195:24
+#, fuzzy
+msgid "Shom on the map"
+msgstr "Шом на карті"
 
 #: ../../lib/app/components/telegram/config.yaml:4:16
 #, fuzzy, javascript-format
