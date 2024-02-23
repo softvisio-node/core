@@ -33,8 +33,8 @@ msgstr "Додайте примітки"
 msgid "Add text"
 msgstr "Додайте текст"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:263:57
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:283:57
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:263:60
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:283:60
 #: ../../lib/app/components/telegram/bot/contact.js:189:38
 #, fuzzy
 msgid "Address"
@@ -201,8 +201,8 @@ msgstr "редагувати початкове повідомлення"
 msgid "edit your contacts"
 msgstr "редагувати свої контакти"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:223:57
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:243:57
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:223:60
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:243:60
 #: ../../lib/app/components/telegram/bot/contact.js:184:38
 #, fuzzy
 msgid "Email"
@@ -222,16 +222,16 @@ msgstr "Адреса електронної пошти неправильна"
 msgid "New device"
 msgstr "Новий пристрій"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:203:93
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:243:93
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:283:95
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:323:93
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:203:100
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:243:100
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:283:102
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:323:100
 #, fuzzy
 msgid "not set"
 msgstr "не встановлено"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:303:57
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:323:57
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:303:60
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:323:60
 #: ../../lib/app/components/telegram/bot/contact.js:194:38
 #, fuzzy
 msgid "Notes"
@@ -256,8 +256,8 @@ msgstr "Пароль змінено"
 msgid "Password reset link"
 msgstr "Посилання для зміни пароля"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:183:57
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:203:57
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:183:60
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:203:60
 #: ../../lib/app/components/telegram/bot/contact.js:179:38
 #, fuzzy
 msgid "Phone"
