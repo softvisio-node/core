@@ -222,6 +222,14 @@ msgstr "Адреса електронної пошти неправильна"
 msgid "New device"
 msgstr "Новий пристрій"
 
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:201:100
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:241:100
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:281:102
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:321:100
+#, fuzzy
+msgid "not specified"
+msgstr "не визначено"
+
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:301:60
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:321:60
 #: ../../lib/app/components/telegram/bot/contact.js:194:38
@@ -635,15 +643,19 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #~ msgid "hone"
 #~ msgstr "відточувати"
 
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:201:100
+#, fuzzy
+#~ msgid "no"
+#~ msgstr "немає"
+
 #: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:21:68
 #, fuzzy
 #~ msgid "not defined"
 #~ msgstr "не визначений"
 
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:203:100
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:243:100
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:283:102
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:323:100
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:241:100
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:281:102
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:321:100
 #, fuzzy
 #~ msgid "not set"
 #~ msgstr "не встановлено"
