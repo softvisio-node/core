@@ -14,6 +14,8 @@ emits:
   - telegram/telegram-channel/update
 
   - telegram/telegram-bot-user/*/update
+  - telegram/telegram-bot-group/*/update
+  - telegram/telegram-bot-channel/*/update
 
   - telegram/telegram-bot-message/*/update
   - telegram/telegram-bot-message/*/delete
