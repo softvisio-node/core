@@ -16,7 +16,7 @@
 
         usersCacheMaxSize: { type: integer, minimum: 100 }
         groupsCacheMaxSize: { type: integer, minimum: 100 }
-        channelssCacheMaxSize: { type: integer, minimum: 100 }
+        channelsCacheMaxSize: { type: integer, minimum: 100 }
         messagesCacheMaxSize: { type: integer, minimum: 100 }
         contactsCacheMaxSize: { type: integer, minimum: 100 }
 
@@ -32,6 +32,6 @@
         acl: { type: object }
 
       additionalProperties: false
-      required: [usersCacheMaxSize, groupsCacheMaxSize, channelssCacheMaxSize, messagesCacheMaxSize, contactsCacheMaxSize, signinRequired, signupEnabled, signoutEnabled]
+      required: [usersCacheMaxSize, groupsCacheMaxSize, channelsCacheMaxSize, messagesCacheMaxSize, contactsCacheMaxSize, signinRequired, signupEnabled, signoutEnabled]
 
   required: [telegram]

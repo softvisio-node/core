@@ -3,8 +3,8 @@ telegram:
   defaultLocale: ~
 
   usersCacheMaxSize: 1000
-  groupssCacheMaxSize: 1000
-  channelssCacheMaxSize: 1000
+  groupsCacheMaxSize: 1000
+  channelsCacheMaxSize: 1000
   messagesCacheMaxSize: 1000
   contactsCacheMaxSize: 1000
 
