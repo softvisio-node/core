@@ -55,7 +55,7 @@ msgstr "Адміністратор"
 msgid "Back"
 msgstr "Назад"
 
-#: ../../lib/app/components/telegram/bot/commands/start.js:27:19
+#: ../../lib/app/components/telegram/bot/commands/start.js:23:19
 #, fuzzy
 msgid "back to the start"
 msgstr "повернутися до початку"
@@ -147,7 +147,7 @@ msgstr "Змінити текст"
 msgid "Chat closed"
 msgstr "Чат закрито"
 
-#: ../../lib/app/components/telegram/bot/commands/start.js:73:44
+#: ../../lib/app/components/telegram/bot/commands/start.js:69:44
 #, fuzzy
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr "Команда невідома. Будь ласка, використовуйте команди з «Меню»."
@@ -508,7 +508,7 @@ msgstr ""
 msgid "You are signed in as: `${n}`"
 msgstr "Ви ввійшли як: `${n}`"
 
-#: ../../lib/app/components/telegram/bot/command.js:405:56
+#: ../../lib/app/components/telegram/bot/command.js:401:56
 #, fuzzy
 msgid ""
 "You can use these commands::\n"
