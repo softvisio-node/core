@@ -13,6 +13,11 @@ msgstr ""
 "X-Search-Path: /lib/**\n"
 "X-Generator: Poedit 3.3.1\n"
 
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:90:48
+#, fuzzy
+msgid "/start - Exit from the chat"
+msgstr "/start - Вийти з чату"
+
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:279:48
 #, fuzzy
 msgid "Add address"
@@ -50,7 +55,7 @@ msgstr "Адміністратор"
 msgid "Back"
 msgstr "Назад"
 
-#: ../../lib/app/components/telegram/bot/commands/start.js:26:19
+#: ../../lib/app/components/telegram/bot/commands/start.js:27:19
 #, fuzzy
 msgid "back to the start"
 msgstr "повернутися до початку"
@@ -137,7 +142,12 @@ msgstr "Змінити телефон"
 msgid "Change text"
 msgstr "Змінити текст"
 
-#: ../../lib/app/components/telegram/bot/commands/start.js:72:44
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:144:24
+#, fuzzy
+msgid "Chat closed"
+msgstr "Чат закрито"
+
+#: ../../lib/app/components/telegram/bot/commands/start.js:73:44
 #, fuzzy
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr "Команда невідома. Будь ласка, використовуйте команди з «Меню»."
@@ -482,6 +492,16 @@ msgstr "Різні сповіщення щодо безпеки"
 #, fuzzy
 msgid "View charts"
 msgstr "Перегляд діаграм"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:79:32
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:82:55
+#, fuzzy
+msgid ""
+"Write me a message.\n"
+"To exit chat use \"Start\" menu."
+msgstr ""
+"Напишіть мені повідомлення.\n"
+"Для виходу з чату використовуйте меню «Пуск»."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:300:24
 #, fuzzy, javascript-format
