@@ -54,7 +54,7 @@ msgstr "Администратор"
 msgid "Back"
 msgstr "Назад"
 
-#: ../../lib/app/components/telegram/bot/commands/start.js:24:19
+#: ../../lib/app/components/telegram/bot/commands/start.js:8:19
 msgid "back to the start"
 msgstr "вернуться к началу"
 
@@ -117,7 +117,7 @@ msgstr "изменить язык общения"
 msgid "Change email"
 msgstr "Изменить email"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:222:40
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:226:40
 msgid "Change email address"
 msgstr "Изменить адрес электронной почты"
 
@@ -140,7 +140,7 @@ msgstr "Изменить текст"
 msgid "Chat closed"
 msgstr "Чат закрыт"
 
-#: ../../lib/app/components/telegram/bot/commands/start.js:70:44
+#: ../../lib/app/components/telegram/bot/commands/start.js:54:44
 #, fuzzy
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr "Командование неизвестно. Пожалуйста, используйте команды из «Меню»."
@@ -149,7 +149,7 @@ msgstr "Командование неизвестно. Пожалуйста, и�
 msgid "Confirm your email address"
 msgstr "Подтвердите Ваш электронный адрес"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:140:32
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:136:32
 #, fuzzy
 msgid "Confirmation link is not valid. Please, try again."
 msgstr "Ссылка для подтверждения недействительна. Пожалуйста, попробуйте еще раз."
@@ -211,7 +211,7 @@ msgstr "Электронная почта"
 msgid "Email address change"
 msgstr "Изменение адреса электронной почты"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:164:40
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:168:40
 msgid "Email address is not correct"
 msgstr "Адрес электронной почты неверен"
 
@@ -298,7 +298,7 @@ msgstr "Только чтение"
 msgid "Security"
 msgstr "Безопасность"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:216:40
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:220:40
 msgid "Send confirmation email again"
 msgstr "Отправить письмо с подтверждением еще раз"
 
@@ -366,7 +366,7 @@ msgstr "Показать на карте"
 msgid "Sign in to \"${n}\" bot"
 msgstr "Войдите в бот \"${n}\";"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:250:32
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:254:32
 msgid "Sign out"
 msgstr "Выйти"
 
@@ -379,12 +379,12 @@ msgstr "Произошла ошибка. Повторите попытку."
 msgid "Telegram bot owner"
 msgstr "Владелец Telegram-бота"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:189:44
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:193:44
 #, fuzzy
 msgid "This email address is already used by the other user"
 msgstr "Этот адрес электронной почты уже используется другим пользователем"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:176:48
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:180:48
 #, fuzzy
 msgid "This email address is not registered"
 msgstr "Этот адрес электронной почты не зарегистрирован"
@@ -393,7 +393,7 @@ msgstr "Этот адрес электронной почты не зареги�
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Это бот уведомлений. Он не поддерживает никаких дополнительных команд."
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:210:24
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:214:24
 #, fuzzy
 msgid ""
 "To complete sign in, please, click on link which I just sent to your email address.\n"
@@ -402,7 +402,7 @@ msgstr ""
 "Чтобы завершить вход, пожалуйста, нажмите на ссылку, которую я только что отправил на ваш адрес электронной почты.\n"
 "Если вы не получили электронное письмо в течение нескольких минут, вы можете отправить его еще раз."
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:202:24
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:206:24
 #, fuzzy
 msgid "To sign in, please, enter yoour email address"
 msgstr "Для входа, пожалуйста, введите свой адрес электронной почты"
@@ -482,12 +482,12 @@ msgstr ""
 "Напишите мне сообщение.\n"
 "Для выхода из чата используйте меню «Пуск»."
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:258:20
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:262:20
 #, fuzzy
 msgid "You are signed in as"
 msgstr "Вы вошли в систему как"
 
-#: ../../lib/app/components/telegram/bot/command.js:401:56
+#: ../../lib/app/components/telegram/bot/command.js:396:56
 #, fuzzy
 msgid ""
 "You can use these commands::\n"
