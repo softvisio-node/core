@@ -25,7 +25,10 @@
             - type: "null"
             - { type: string, format: domain }
 
-        signinRequired: { type: boolean }
+        signinRequired:
+          anyOf:
+            - const: auto
+            - { type: boolean }
         signupEnabled: { type: boolean }
         signoutEnabled: { type: boolean }
 
