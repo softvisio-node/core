@@ -503,10 +503,10 @@ msgstr ""
 "Напишіть мені повідомлення.\n"
 "Для виходу з чату використовуйте меню «Пуск»."
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:257:24
-#, fuzzy, javascript-format
-msgid "You are signed in as: `${n}`"
-msgstr "Ви ввійшли як: `${n}`"
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:258:20
+#, fuzzy
+msgid "You are signed in as"
+msgstr "Ви ввійшли як"
 
 #: ../../lib/app/components/telegram/bot/command.js:401:56
 #, fuzzy
@@ -715,6 +715,11 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:48:19
 #~ msgid "sign in to your account"
 #~ msgstr "увійдіть у свій обліковий запис"
+
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:257:24
+#, fuzzy, javascript-format
+#~ msgid "You are signed in as: `${n}`"
+#~ msgstr "Ви ввійшли як: `${n}`"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:326:24
 #, fuzzy, javascript-format

@@ -482,10 +482,10 @@ msgstr ""
 "Напишите мне сообщение.\n"
 "Для выхода из чата используйте меню «Пуск»."
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:257:24
-#, fuzzy, javascript-format
-msgid "You are signed in as: `${n}`"
-msgstr "Вы вошли как: `${n}`"
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:258:20
+#, fuzzy
+msgid "You are signed in as"
+msgstr "Вы вошли в систему как"
 
 #: ../../lib/app/components/telegram/bot/command.js:401:56
 #, fuzzy
@@ -697,6 +697,11 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:48:19
 #~ msgid "sign in to your account"
 #~ msgstr "войдите в свой аккаунт"
+
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:257:24
+#, fuzzy, javascript-format
+#~ msgid "You are signed in as: `${n}`"
+#~ msgstr "Вы вошли как: `${n}`"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:326:24
 #, fuzzy, javascript-format
