@@ -51,9 +51,12 @@ methods:
     title: get telegram bot link stats
     permission: telegram/bot/links:read
     params:
+      - name: telegram_bot_id
+        required: true
+        schema: { type: integer, aclResolver: telegram-bot }
       - name: telegram_bot_link_id
         required: true
-        schema: { type: integer, aclResolver: telegram-bot-link }
+        schema: { type: integer }
       - name: period
         required: true
         schema: { enum: ["7 days", "3 months", "1 year"] }
@@ -62,9 +65,12 @@ methods:
     title: Update telegram bot link
     permission: telegram/bot/links:update
     params:
+      - name: telegram_bot_id
+        required: true
+        schema: { type: integer, aclResolver: telegram-bot }
       - name: teleram_bot_link_id
         required: true
-        schema: { type: integer, aclResolver: telegram-bot-link }
+        schema: { type: integer }
       - name: options
         required: true
         schema:
@@ -79,6 +85,9 @@ methods:
     title: Delete telegram bot link
     permission: telegram/bot/links:delete
     params:
+      - name: telegram_bot_id
+        required: true
+        schema: { type: integer, aclResolver: telegram-bot }
       - name: telegram_bot_link_id
         required: true
-        schema: { type: integer, aclResolver: telegram-bot-link }
+        schema: { type: integer }
