@@ -9,6 +9,9 @@
 
     allowUsersCreateBots: { type: boolean }
 
+    linkStartParameterName: { type: string, format: snake-case }
+    signinStartParameterName: { type: string, format: snake-case }
+
     webAppDomain:
       anyOf:
         - type: "null"
@@ -46,5 +49,8 @@
     - avatarUrl
 
     - allowUsersCreateBots
+
+    - linkStartParameterName
+    - signinStartParameterName
 
     - webAppDomain

@@ -28,4 +28,7 @@ config:
 
   webAppDomain: ~
 
+  linkStartParameterName: link
+  signinStartParameterName: signin
+
   bots: ~
