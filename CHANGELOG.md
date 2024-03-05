@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.71.10 (2024-03-05)
+
+Fixes:
+
+-   fix: break sql transaction on bad result
+-   fix: geotargets
+-   fix: google geotargets
+-   fix: telegram
+
 ### 7.71.9 (2024-02-28)
 
 Fixes:
