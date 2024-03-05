@@ -9,6 +9,7 @@ import Http from "#lib/external-resources/http";
 import PublicSuffixes from "#lib/external-resources/public-suffixes";
 import Subnets from "#lib/external-resources/subnets";
 import Tld from "#lib/external-resources/tld";
+import GoogleGeotargets from "#lib/external-resources/google-geotargets";
 
 const CLI = {
     "title": "Update resources",
@@ -36,6 +37,7 @@ const res = await ExternalResourceBuilder.build(
         PublicSuffixes,
         Subnets,
         Tld,
+        GoogleGeotargets,
     ],
     { "force": process.cli.options.force }
 );
