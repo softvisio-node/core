@@ -86,6 +86,7 @@
         "install": "node bin/install.js"
     },
     "dependencies": {
+        "@mtproto/core": "^6.3.0",
         "@softvisio/argon2": "^1.2.5",
         "@softvisio/msgpack": "^3.0.0",
         "@softvisio/sqlite": "^1.15.39",
