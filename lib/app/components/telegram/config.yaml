@@ -31,4 +31,10 @@ config:
   linkStartParameterName: link
   signinStartParameterName: signin
 
+  app:
+    apiId: ~
+    apiHash: ~
+
+  clients: ~
+
   bots: ~
