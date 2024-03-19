@@ -3,6 +3,10 @@ type: postgresql
 patch: ~
 
 emits:
+  - telegram/telegram-client/create
+  - telegram/telegram-client/update
+  - telegram/telegram-client/delete
+
   - telegram/telegram-bot/create
   - telegram/telegram-bot/update
   - telegram/telegram-bot/deleted/update
