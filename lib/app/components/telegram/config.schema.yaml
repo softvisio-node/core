@@ -17,27 +17,27 @@
         - type: "null"
         - { type: string, format: domain }
 
-  app:
-    type: object
-    properties:
-      apiId: { type: ["null", integer] }
-      apiHash: { type: ["null", string] }
-    additionalProperties: false
-    required: [apiId, apiHash]
+    app:
+      type: object
+      properties:
+        apiId: { type: ["null", integer] }
+        apiHash: { type: ["null", string] }
+      additionalProperties: false
+      required: [apiId, apiHash]
 
-  clients:
-    anyOf:
-      - tyoe: "null"
-      - type: object
-        properties:
-          phoneNumber: { type: string }
-          phoneCode:
-            anyOf:
-              - type: "null"
-              - { type: string, minLength: 5, maxLength: 5 }
-          password: { type: ["null", string] }
-        additionalProperties: false
-        required: [phoneNumber]
+    clients:
+      anyOf:
+        - tyoe: "null"
+        - type: object
+          properties:
+            phoneNumber: { type: string }
+            phoneCode:
+              anyOf:
+                - type: "null"
+                - { type: string, minLength: 5, maxLength: 5 }
+            password: { type: ["null", string] }
+          additionalProperties: false
+          required: [phoneNumber]
 
     bots:
       anyOf:
