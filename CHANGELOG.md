@@ -1,5 +1,20 @@
 # Changelog
 
+### 7.72.0 (2024-03-27)
+
+Features:
+
+-   feat: telegram client api
+
+Fixes:
+
+-   fix: cli array
+-   fix: cli name
+-   fix: env find package
+-   fix: git upstream
+-   fix: google geotargets
+-   fix: telegram
+
 ### 7.71.11 (2024-03-05)
 
 Fixes:
