@@ -54,7 +54,7 @@ msgstr "Администратор"
 msgid "Back"
 msgstr "Назад"
 
-#: ../../lib/app/components/telegram/bot/commands/start.js:8:19
+#: ../../lib/app/components/telegram/bot/commands/start.js:71:19
 msgid "back to the start"
 msgstr "вернуться к началу"
 
@@ -72,11 +72,11 @@ msgstr "Владелец бота"
 msgid "Bot read-only permissions"
 msgstr "Разрешения бота только на чтение"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:13:19
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:45:19
 msgid "bot's statistics"
 msgstr "статистика бота"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:24:24
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:16:24
 #, fuzzy, javascript-format
 msgid ""
 "Bot's statistics:\n"
@@ -96,6 +96,7 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr "Можно создавать ботов для Telegram"
 
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:119:40
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:339:40
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:355:40
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:371:40
@@ -109,7 +110,7 @@ msgstr "Отменить"
 msgid "Change address"
 msgstr "Сменить адрес"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/locale.js:8:19
+#: ../../lib/app/components/telegram/bot/commands/settings/locale.js:21:19
 msgid "change communication language"
 msgstr "изменить язык общения"
 
@@ -120,6 +121,11 @@ msgstr "Изменить email"
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:226:40
 msgid "Change email address"
 msgstr "Изменить адрес электронной почты"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:97:40
+#, fuzzy
+msgid "Change group"
+msgstr "Изменить группу"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:299:48
 #, fuzzy
@@ -135,12 +141,17 @@ msgstr "Сменить телефон"
 msgid "Change text"
 msgstr "Изменить текст"
 
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:92:24
+#, fuzzy
+msgid "Char group is set."
+msgstr "Группа символов установлена."
+
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:144:24
 #, fuzzy
 msgid "Chat closed"
 msgstr "Чат закрыт"
 
-#: ../../lib/app/components/telegram/bot/commands/start.js:54:44
+#: ../../lib/app/components/telegram/bot/commands/start.js:46:44
 #, fuzzy
 msgid "Command is unknown. Please, use commands from \"Menu\"."
 msgstr "Командование неизвестно. Пожалуйста, используйте команды из «Меню»."
@@ -190,12 +201,12 @@ msgstr "Разработчик"
 msgid "Edit media"
 msgstr "Редактировать медиа"
 
-#: ../../lib/app/components/telegram-bot-start-message/bot/commands/edit-start-message.js:8:19
+#: ../../lib/app/components/telegram-bot-start-message/bot/commands/edit-start-message.js:12:19
 msgid "edit start message"
 msgstr "редактировать стартовое сообщение"
 
-#: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:8:19
-#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:13:19
+#: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:12:19
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:85:19
 #, fuzzy
 msgid "edit your contacts"
 msgstr "редактировать свои контакты"
@@ -223,6 +234,11 @@ msgstr "Адрес электронной почты неверен"
 msgid "field not specified"
 msgstr "поле не указано"
 
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:76:24
+#, fuzzy
+msgid "In otder to communicate with your customers you nees to create Telegram forum."
+msgstr "Чтобы общаться со своими клиентами, вам необходимо создать форум в Telegram."
+
 #: ../../lib/app/components/api/config.yaml
 msgid "New device"
 msgstr "Новое устройство"
@@ -233,11 +249,6 @@ msgstr "Новое устройство"
 #, fuzzy
 msgid "Notes"
 msgstr "Примечания"
-
-#: ../../lib/app/components/telegram/bot/commands/chat.js:16:40
-#, fuzzy
-msgid "Open PRIVATE JOIN"
-msgstr "Открыть ЧАСТНОЕ ПРИСОЕДИНЕНИЕ"
 
 #: ../../lib/app/components/telegram/bot/sub-component.js:74:24
 msgid "Owner"
@@ -294,6 +305,11 @@ msgstr "Разработчик проекта"
 msgid "Read-only"
 msgstr "Только чтение"
 
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:103:40
+#, fuzzy
+msgid "Renew invite link"
+msgstr "Обновить ссылку для приглашения"
+
 #: ../../lib/app/components/notifications/config.yaml
 msgid "Security"
 msgstr "Безопасность"
@@ -326,6 +342,11 @@ msgstr ""
 "~~зачеркнутый текст~~: <s>зачеркнутый текст</s>\n"
 "||текст под спойлером||: <span class=\"tg-spoiler\">текст под спойлером</span>"
 
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:114:24
+#, fuzzy
+msgid "Send me group link or ID"
+msgstr "Отправьте мне ссылку на группу или идентификатор"
+
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:220:25
 #, fuzzy
 msgid ""
@@ -346,6 +367,11 @@ msgstr "Отправьте мне свой адрес"
 msgid "Send me your emaul address"
 msgstr "Отправьте мне свой адрес электронной почты"
 
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:81:40
+#, fuzzy
+msgid "Set group"
+msgstr "Установить группу"
+
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:239:48
 #, fuzzy
 msgid "Sett email"
@@ -355,6 +381,11 @@ msgstr "Установить адрес электронной почты"
 #, fuzzy
 msgid "Sett phone"
 msgstr "Установить телефон"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:44:19
+#, fuzzy
+msgid "Setup chat"
+msgstr "Настройка чата"
 
 #: ../../lib/app/components/telegram/bot/contact.js:204:24
 #, fuzzy
@@ -374,6 +405,11 @@ msgstr "Выйти"
 #, fuzzy
 msgid "Some error occured, pleast try again."
 msgstr "Произошла ошибка. Повторите попытку."
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:18:44
+#, fuzzy
+msgid "Some error occured. Please, try again."
+msgstr "Произошла какая-то ошибка. Пожалуйста, попробуйте еще раз."
 
 #: ../../lib/app/components/telegram/component.js:24:28
 msgid "Telegram bot owner"
@@ -468,7 +504,7 @@ msgstr ""
 msgid "Various security related notifications"
 msgstr "Различные уведомления, связанные с безопасностью"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:35:40
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:27:40
 msgid "View charts"
 msgstr "Посмотреть графики"
 
@@ -525,7 +561,7 @@ msgstr ""
 "\n"
 "Если это были не вы, пожалуйста, измените свой пароль и удалите эту сессию из сессий вашей учетной записи.\n"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:28:19
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:46:19
 #, fuzzy
 msgid "your account"
 msgstr "ваш счет"
@@ -553,11 +589,11 @@ msgstr ""
 msgid "Your password was just changed."
 msgstr "Ваш пароль был только что изменен."
 
-#: ../../lib/app/components/telegram/bot/commands/settings.js:6:19
+#: ../../lib/app/components/telegram/bot/commands/settings.js:14:19
 msgid "your settings"
 msgstr "ваши настройки"
 
-#: ../../lib/app/components/telegram/bot/commands/settings.js:10:19
+#: ../../lib/app/components/telegram/bot/commands/settings.js:18:19
 msgid "Your settings"
 msgstr "Ваши настройки"
 
@@ -683,6 +719,11 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #, fuzzy, javascript-format
 #~ msgid "Notes: ${n}"
 #~ msgstr "Примечания: ${n}"
+
+#: ../../lib/app/components/telegram/bot/commands/chat.js:16:40
+#, fuzzy
+#~ msgid "Open PRIVATE JOIN"
+#~ msgstr "Открыть ЧАСТНОЕ ПРИСОЕДИНЕНИЕ"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:170:32
 #, fuzzy, javascript-format
