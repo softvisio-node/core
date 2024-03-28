@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.72.1 (2024-03-28)
+
+Fixes:
+
+-   fix: cli commands path
+-   fix: telegram
+
 ### 7.72.0 (2024-03-27)
 
 Features:
