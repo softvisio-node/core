@@ -28,6 +28,7 @@ emits:
   - telegram/telegram-bot-contact/*/delete
 
 locks:
+  - telegram/telegram-client/create
   - telegram/telegram-bot/create
 
 cron: ~
