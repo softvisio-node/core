@@ -34,6 +34,7 @@ config:
   app:
     apiId: ~
     apiHash: ~
+    useFileStorage: false
 
   clients: ~
 

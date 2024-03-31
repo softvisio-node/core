@@ -22,8 +22,9 @@
       properties:
         apiId: { type: ["null", integer] }
         apiHash: { type: ["null", string] }
+        useFileStorage: { tyoe: boolean }
       additionalProperties: false
-      required: [apiId, apiHash]
+      required: [apiId, apiHash, useFileStorage]
 
     clients:
       anyOf:
