@@ -242,13 +242,13 @@ msgstr "Примечания"
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:62:44
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:166:48
 #, fuzzy
-msgid "Opem chats with customers"
-msgstr "Opem общается с клиентами"
+msgid "Open chats with customers"
+msgstr "Открытые чаты с клиентами"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:40:28
 #, fuzzy
-msgid "Opem group chats"
-msgstr "Групповые чаты Opem"
+msgid "Open group chats"
+msgstr "Открыть групповые чаты"
 
 #: ../../lib/app/components/telegram/bot/sub-component.js:74:24
 msgid "Owner"
@@ -724,6 +724,17 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #, fuzzy, javascript-format
 #~ msgid "Notes: ${n}"
 #~ msgstr "Примечания: ${n}"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:62:44
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:166:48
+#, fuzzy
+#~ msgid "Opem chats with customers"
+#~ msgstr "Opem общается с клиентами"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:40:28
+#, fuzzy
+#~ msgid "Opem group chats"
+#~ msgstr "Групповые чаты Opem"
 
 #: ../../lib/app/components/telegram/bot/commands/chat.js:16:40
 #, fuzzy
