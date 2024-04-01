@@ -13,7 +13,7 @@ msgstr ""
 "X-Search-Path: /lib/**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:90:48
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:88:44
 #, fuzzy
 msgid "/start - Exit from the chat"
 msgstr "/start - Вийти з чату"
@@ -55,7 +55,7 @@ msgstr "Адміністратор"
 msgid "Back"
 msgstr "Назад"
 
-#: ../../lib/app/components/telegram/bot/commands/start.js:71:19
+#: ../../lib/app/components/telegram/bot/commands/start.js:65:19
 #, fuzzy
 msgid "back to the start"
 msgstr "повернутися до початку"
@@ -100,7 +100,6 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr "Може створювати телеграм-ботів"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:119:40
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:339:40
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:355:40
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:371:40
@@ -128,11 +127,6 @@ msgstr "Змінити email"
 msgid "Change email address"
 msgstr "Змінити адресу електронної пошти"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:97:40
-#, fuzzy
-msgid "Change group"
-msgstr "Змінити групу"
-
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:299:48
 #, fuzzy
 msgid "Change notes"
@@ -148,12 +142,7 @@ msgstr "Змінити телефон"
 msgid "Change text"
 msgstr "Змінити текст"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:92:24
-#, fuzzy
-msgid "Char group is set."
-msgstr "Група символів встановлена."
-
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:144:24
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:109:24
 #, fuzzy
 msgid "Chat closed"
 msgstr "Чат закрито"
@@ -247,10 +236,10 @@ msgstr "Адреса електронної пошти неправильна"
 msgid "field not specified"
 msgstr "поле не вказано"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:76:24
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:45:44
 #, fuzzy
-msgid "In otder to communicate with your customers you nees to create Telegram forum."
-msgstr "Щоб спілкуватися зі своїми клієнтами, вам необхідно створити форум Telegram."
+msgid "Join chats with customers"
+msgstr "Приєднуйтеся до чатів з клієнтами"
 
 #: ../../lib/app/components/api/config.yaml
 msgid "New device"
@@ -262,6 +251,11 @@ msgstr "Новий пристрій"
 #, fuzzy
 msgid "Notes"
 msgstr "Примітки"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:62:44
+#, fuzzy
+msgid "Opem chats with customers"
+msgstr "Opem спілкується з клієнтами"
 
 #: ../../lib/app/components/telegram/bot/sub-component.js:74:24
 #, fuzzy
@@ -323,11 +317,6 @@ msgstr "Розробник проекту"
 msgid "Read-only"
 msgstr "Лише для читання"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:103:40
-#, fuzzy
-msgid "Renew invite link"
-msgstr "Поновити посилання для запрошення"
-
 #: ../../lib/app/components/notifications/config.yaml
 msgid "Security"
 msgstr "Безпека"
@@ -361,11 +350,6 @@ msgstr ""
 "~~закреслений текст~~: <s>закреслений текст</s>\n"
 "||текст під спойлером||: <span class=\"tg-spoiler\">текст під спойлером</span>"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:114:24
-#, fuzzy
-msgid "Send me group link or ID"
-msgstr "Надішліть мені посилання на групу або ID"
-
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:220:25
 #, fuzzy
 msgid ""
@@ -386,11 +370,6 @@ msgstr "Надішліть мені свою адресу"
 msgid "Send me your emaul address"
 msgstr "Надішліть мені свою електронну адресу"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:81:40
-#, fuzzy
-msgid "Set group"
-msgstr "Встановити групу"
-
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:239:48
 #, fuzzy
 msgid "Sett email"
@@ -400,11 +379,6 @@ msgstr "Налаштувати електронну адресу"
 #, fuzzy
 msgid "Sett phone"
 msgstr "Встановити телефон"
-
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:44:19
-#, fuzzy
-msgid "Setup chat"
-msgstr "Налаштувати чат"
 
 #: ../../lib/app/components/telegram/bot/contact.js:204:24
 #, fuzzy
@@ -424,11 +398,6 @@ msgstr "Вийти"
 #, fuzzy
 msgid "Some error occured, pleast try again."
 msgstr "Сталася якась помилка, спробуйте ще раз."
-
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:18:44
-#, fuzzy
-msgid "Some error occured. Please, try again."
-msgstr "Сталася якась помилка. Будь ласка спробуйте ще раз."
 
 #: ../../lib/app/components/telegram/component.js:24:28
 #, fuzzy
@@ -529,8 +498,8 @@ msgstr "Різні сповіщення щодо безпеки"
 msgid "View charts"
 msgstr "Перегляд діаграм"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:79:32
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:82:55
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:77:28
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:80:51
 #, fuzzy
 msgid ""
 "Write me a message.\n"
@@ -669,6 +638,16 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #~ "Підписані користувачі: <b>${n}</b>\n"
 #~ "Користувачі, які скасували підписку: <b>${n}</b>\n"
 
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:97:40
+#, fuzzy
+#~ msgid "Change group"
+#~ msgstr "Змінити групу"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:92:24
+#, fuzzy
+#~ msgid "Char group is set."
+#~ msgstr "Група символів встановлена."
+
 #: ../../lib/app/components/telegram-bot-contacts/bot/commands/edit-contacts.js:42:40
 #, fuzzy
 #~ msgid "Edit email"
@@ -698,6 +677,11 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #, fuzzy
 #~ msgid "hone"
 #~ msgstr "відточувати"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:76:24
+#, fuzzy
+#~ msgid "In otder to communicate with your customers you nees to create Telegram forum."
+#~ msgstr "Щоб спілкуватися зі своїми клієнтами, вам необхідно створити форум Telegram."
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:201:100
 #, fuzzy
@@ -748,6 +732,26 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #~ msgid "Phone: ${n}"
 #~ msgstr "Телефон: ${n}"
 
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:103:40
+#, fuzzy
+#~ msgid "Renew invite link"
+#~ msgstr "Поновити посилання для запрошення"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:114:24
+#, fuzzy
+#~ msgid "Send me group link or ID"
+#~ msgstr "Надішліть мені посилання на групу або ID"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:81:40
+#, fuzzy
+#~ msgid "Set group"
+#~ msgstr "Встановити групу"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:44:19
+#, fuzzy
+#~ msgid "Setup chat"
+#~ msgstr "Налаштувати чат"
+
 #: ../../lib/app/components/telegram/bot/contact.js:195:24
 #, fuzzy
 #~ msgid "Shom on the map"
@@ -756,6 +760,11 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:48:19
 #~ msgid "sign in to your account"
 #~ msgstr "увійдіть у свій обліковий запис"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:18:44
+#, fuzzy
+#~ msgid "Some error occured. Please, try again."
+#~ msgstr "Сталася якась помилка. Будь ласка спробуйте ще раз."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:257:24
 #, fuzzy, javascript-format
