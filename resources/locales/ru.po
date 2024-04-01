@@ -245,6 +245,11 @@ msgstr "Примечания"
 msgid "Opem chats with customers"
 msgstr "Opem общается с клиентами"
 
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:40:28
+#, fuzzy
+msgid "Opem group chats"
+msgstr "Групповые чаты Opem"
+
 #: ../../lib/app/components/telegram/bot/sub-component.js:74:24
 msgid "Owner"
 msgstr "Владелец"
