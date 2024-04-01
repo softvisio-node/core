@@ -240,6 +240,7 @@ msgid "Notes"
 msgstr "Примечания"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:62:44
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:166:48
 #, fuzzy
 msgid "Opem chats with customers"
 msgstr "Opem общается с клиентами"
@@ -379,6 +380,11 @@ msgstr "Выйти"
 #, fuzzy
 msgid "Some error occured, pleast try again."
 msgstr "Произошла ошибка. Повторите попытку."
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:175:47
+#, fuzzy
+msgid "Some error occured. Please, try again."
+msgstr "Произошла какая-то ошибка. Пожалуйста, попробуйте еще раз."
 
 #: ../../lib/app/components/telegram/component.js:24:28
 msgid "Telegram bot owner"
@@ -553,6 +559,16 @@ msgstr ""
 "Новый адрес электронной почты: ${n}\n"
 "\n"
 "Старый адрес электронной почты: ${n}\n"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:186:47
+#, fuzzy
+msgid "Your group join request has been declined."
+msgstr "Ваш запрос на вступление в группу был отклонен."
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:161:32
+#, fuzzy
+msgid "Your join request has been approved."
+msgstr "Ваш запрос на присоединение был одобрен."
 
 #: ../../lib/app/components/api/config.yaml
 msgid "Your password was just changed."
@@ -742,11 +758,6 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:48:19
 #~ msgid "sign in to your account"
 #~ msgstr "войдите в свой аккаунт"
-
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:18:44
-#, fuzzy
-#~ msgid "Some error occured. Please, try again."
-#~ msgstr "Произошла какая-то ошибка. Пожалуйста, попробуйте еще раз."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:257:24
 #, fuzzy, javascript-format

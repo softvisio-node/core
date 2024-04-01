@@ -253,6 +253,7 @@ msgid "Notes"
 msgstr "Примітки"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:62:44
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:166:48
 #, fuzzy
 msgid "Opem chats with customers"
 msgstr "Opem спілкується з клієнтами"
@@ -398,6 +399,11 @@ msgstr "Вийти"
 #, fuzzy
 msgid "Some error occured, pleast try again."
 msgstr "Сталася якась помилка, спробуйте ще раз."
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:175:47
+#, fuzzy
+msgid "Some error occured. Please, try again."
+msgstr "Сталася якась помилка. Будь ласка спробуйте ще раз."
 
 #: ../../lib/app/components/telegram/component.js:24:28
 #, fuzzy
@@ -575,6 +581,16 @@ msgstr ""
 "Нова електронна адреса: ${n}\n"
 "\n"
 "Стара електронна адреса: ${n}\n"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:186:47
+#, fuzzy
+msgid "Your group join request has been declined."
+msgstr "Ваш запит на приєднання до групи відхилено."
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:161:32
+#, fuzzy
+msgid "Your join request has been approved."
+msgstr "Ваш запит на приєднання схвалено."
 
 #: ../../lib/app/components/api/config.yaml
 msgid "Your password was just changed."
@@ -760,11 +776,6 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:48:19
 #~ msgid "sign in to your account"
 #~ msgstr "увійдіть у свій обліковий запис"
-
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:18:44
-#, fuzzy
-#~ msgid "Some error occured. Please, try again."
-#~ msgstr "Сталася якась помилка. Будь ласка спробуйте ще раз."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:257:24
 #, fuzzy, javascript-format
