@@ -13,7 +13,7 @@ msgstr ""
 "X-Search-Path: /lib/**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:88:44
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:90:44
 #, fuzzy
 msgid "/start - Exit from the chat"
 msgstr "/start - Вийти з чату"
@@ -142,7 +142,7 @@ msgstr "Змінити телефон"
 msgid "Change text"
 msgstr "Змінити текст"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:109:24
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:111:24
 #, fuzzy
 msgid "Chat closed"
 msgstr "Чат закрито"
@@ -236,8 +236,8 @@ msgstr "Адреса електронної пошти неправильна"
 msgid "field not specified"
 msgstr "поле не вказано"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:40:28
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:45:44
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:42:28
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:47:44
 #, fuzzy
 msgid "Join chats with customers"
 msgstr "Приєднуйтеся до чатів з клієнтами"
@@ -253,8 +253,8 @@ msgstr "Новий пристрій"
 msgid "Notes"
 msgstr "Примітки"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:57:28
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:62:44
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:59:28
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:64:44
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:166:48
 #, fuzzy
 msgid "Open chats with customers"
@@ -506,8 +506,8 @@ msgstr "Різні сповіщення щодо безпеки"
 msgid "View charts"
 msgstr "Перегляд діаграм"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:77:28
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:80:51
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:79:28
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:82:51
 #, fuzzy
 msgid ""
 "Write me a message.\n"
