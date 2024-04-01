@@ -236,6 +236,7 @@ msgstr "Адреса електронної пошти неправильна"
 msgid "field not specified"
 msgstr "поле не вказано"
 
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:40:28
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:45:44
 #, fuzzy
 msgid "Join chats with customers"
@@ -252,16 +253,12 @@ msgstr "Новий пристрій"
 msgid "Notes"
 msgstr "Примітки"
 
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:57:28
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:62:44
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:166:48
 #, fuzzy
 msgid "Open chats with customers"
 msgstr "Відкрийте чати з клієнтами"
-
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:40:28
-#, fuzzy
-msgid "Open group chats"
-msgstr "Відкрийте групові чати"
 
 #: ../../lib/app/components/telegram/bot/sub-component.js:74:24
 #, fuzzy
@@ -753,6 +750,11 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #, fuzzy
 #~ msgid "Opem group chats"
 #~ msgstr "Групові чати Opem"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:40:28
+#, fuzzy
+#~ msgid "Open group chats"
+#~ msgstr "Відкрийте групові чати"
 
 #: ../../lib/app/components/telegram/bot/commands/chat.js:16:40
 #, fuzzy
