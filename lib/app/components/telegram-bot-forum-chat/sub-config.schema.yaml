@@ -8,9 +8,10 @@
     forumChat:
       type: object
       properties:
+        deleteGroupCreator: { type: boolean }
         hideGeneralTopic: { type: boolean }
 
       additionalProperties: false
-      required: [hideGeneralTopic]
+      required: [deleteGroupCreator, hideGeneralTopic]
 
   required: [forumChat]

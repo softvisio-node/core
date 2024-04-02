@@ -1,2 +1,3 @@
 forumChat:
+  deleteGroupCreator: true
   hideGeneralTopic: true
