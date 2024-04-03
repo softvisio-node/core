@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.72.3 (2024-04-03)
+
+Fixes:
+
+-   fix: deps
+-   fix: telegram
+
 ### 7.72.2 (2024-03-29)
 
 Fixes:
