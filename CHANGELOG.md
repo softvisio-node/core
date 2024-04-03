@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.72.4 (2024-04-03)
+
+Fixes:
+
+-   fix: nginx acme acc storage path
+
 ### 7.72.3 (2024-04-03)
 
 Fixes:
