@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.72.5 (2024-04-05)
+
+Fixes:
+
+-   fix: nginx acme acc storage path
+-   fix: telegram
+
 ### 7.72.4 (2024-04-03)
 
 Fixes:
