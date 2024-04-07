@@ -441,8 +441,8 @@ msgstr ""
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:439:24
 #, fuzzy
-msgid "To reply please go to the chat."
-msgstr "Щоб відповісти, перейдіть у чат."
+msgid "To reply, please, go to the chat."
+msgstr "Щоб відповісти, будь ласка, зайдіть в чат."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:206:24
 #, fuzzy
@@ -813,6 +813,11 @@ msgstr "У вас є нове повідомлення від вашого кл�
 #, fuzzy
 #~ msgid "To reply go to /chat."
 #~ msgstr "Щоб відповісти, перейдіть до /chat."
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:439:24
+#, fuzzy
+#~ msgid "To reply please go to the chat."
+#~ msgstr "Щоб відповісти, перейдіть у чат."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:257:24
 #, fuzzy, javascript-format
