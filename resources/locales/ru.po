@@ -315,8 +315,8 @@ msgstr "Отправить письмо с подтверждением еще �
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:334:24
 #, fuzzy
-msgid "Send me a phone number in the international format: +XXX XX XXXXXXX"
-msgstr "Отправьте мне номер телефона в международном формате: +XXX XX XXXXXXX."
+msgid "Send me a phone number in the international format"
+msgstr "Отправьте мне номер телефона в международном формате"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:195:25
 #, fuzzy
@@ -765,6 +765,11 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #, fuzzy
 #~ msgid "Renew invite link"
 #~ msgstr "Обновить ссылку для приглашения"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:334:24
+#, fuzzy
+#~ msgid "Send me a phone number in the international format: +XXX XX XXXXXXX"
+#~ msgstr "Отправьте мне номер телефона в международном формате: +XXX XX XXXXXXX."
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:114:24
 #, fuzzy
