@@ -1,0 +1,18 @@
+- $id: public-config
+  type: object
+  properties: {}
+
+- $id: config
+  type: object
+  properties:
+    forumChat:
+      type: object
+      properties:
+        clientPhoneNumber: { type: ["null", string] }
+        deleteGroupCreator: { type: boolean }
+        hideGeneralTopic: { type: boolean }
+
+      additionalProperties: false
+      required: [clientPhoneNumber, deleteGroupCreator, hideGeneralTopic]
+
+  required: [forumChat]
