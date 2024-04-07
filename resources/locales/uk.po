@@ -13,7 +13,7 @@ msgstr ""
 "X-Search-Path: /lib/**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:63:44
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:62:44
 #, fuzzy
 msgid "/start - Exit from the chat"
 msgstr "/start - Вийти з чату"
@@ -142,7 +142,7 @@ msgstr "Змінити телефон"
 msgid "Change text"
 msgstr "Змінити текст"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:86:24
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:83:24
 #, fuzzy
 msgid "Chat closed"
 msgstr "Чат закрито"
@@ -236,15 +236,10 @@ msgstr "Адреса електронної пошти неправильна"
 msgid "field not specified"
 msgstr "поле не вказано"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:444:40
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:376:40
 #, fuzzy
 msgid "Go to the chat"
 msgstr "Зайти в чат"
-
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:229:44
-#, fuzzy
-msgid "Join chats with customers"
-msgstr "Приєднуйтеся до чатів з клієнтами"
 
 #: ../../lib/app/components/api/config.yaml
 msgid "New device"
@@ -259,7 +254,7 @@ msgstr "Примітки"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:30:24
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:35:40
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:400:44
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:332:44
 #, fuzzy
 msgid "Open chats with customers"
 msgstr "Відкрийте чати з клієнтами"
@@ -406,7 +401,7 @@ msgstr "Вийти"
 msgid "Some error occured, pleast try again."
 msgstr "Сталася якась помилка, спробуйте ще раз."
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:409:43
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:341:43
 #, fuzzy
 msgid "Some error occured. Please, try again."
 msgstr "Сталася якась помилка. Будь ласка спробуйте ще раз."
@@ -439,7 +434,7 @@ msgstr ""
 "Щоб завершити вхід, натисніть посилання, яке я щойно надіслав на вашу електронну адресу.\n"
 "Якщо ви не отримали лист протягом кількох хвилин, ви можете надіслати його ще раз."
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:439:24
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:371:24
 #, fuzzy
 msgid "To reply, please, go to the chat."
 msgstr "Щоб відповісти, будь ласка, зайдіть в чат."
@@ -515,8 +510,8 @@ msgstr "Різні сповіщення щодо безпеки"
 msgid "View charts"
 msgstr "Перегляд діаграм"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:52:28
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:55:51
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:51:28
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:54:51
 #, fuzzy
 msgid ""
 "Write me a message.\n"
@@ -593,12 +588,12 @@ msgstr ""
 "\n"
 "Стара електронна адреса: ${n}\n"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:420:43
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:352:43
 #, fuzzy
 msgid "Your group join request has been declined."
 msgstr "Ваш запит на приєднання до групи відхилено."
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:395:28
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:327:28
 #, fuzzy
 msgid "Your join request has been approved."
 msgstr "Ваш запит на приєднання схвалено."
@@ -619,11 +614,6 @@ msgstr "Ваші налаштування"
 #, fuzzy
 msgid "Ypir message has no content. You need to add text and media."
 msgstr "Повідомлення Ypir не має вмісту. Потрібно додати текст і медіа."
-
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:224:28
-#, fuzzy
-msgid "Ypu have new message from your customer. To read it, please, join to the chats,"
-msgstr "У вас є нове повідомлення від вашого клієнта. Щоб прочитати, приєднуйтеся до чатів,"
 
 #: ../../lib/app/components/telegram/bot/contact.js:188:27
 #, fuzzy
@@ -714,6 +704,11 @@ msgstr "У вас є нове повідомлення від вашого кл�
 #, fuzzy
 #~ msgid "In otder to communicate with your customers you nees to create Telegram forum."
 #~ msgstr "Щоб спілкуватися зі своїми клієнтами, вам необхідно створити форум Telegram."
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:229:44
+#, fuzzy
+#~ msgid "Join chats with customers"
+#~ msgstr "Приєднуйтеся до чатів з клієнтами"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:201:100
 #, fuzzy
@@ -828,3 +823,8 @@ msgstr "У вас є нове повідомлення від вашого кл�
 #, fuzzy, javascript-format
 #~ msgid "You are signed in as: ${n}"
 #~ msgstr "Ви ввійшли як: ${n}"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:224:28
+#, fuzzy
+#~ msgid "Ypu have new message from your customer. To read it, please, join to the chats,"
+#~ msgstr "У вас є нове повідомлення від вашого клієнта. Щоб прочитати, приєднуйтеся до чатів,"
