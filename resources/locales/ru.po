@@ -239,8 +239,12 @@ msgstr "Новое устройство"
 msgid "Notes"
 msgstr "Примечания"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:30:24
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:35:40
+#, fuzzy
+msgid "Open chats"
+msgstr "Открытые чаты"
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:30:24
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:332:44
 #, fuzzy
 msgid "Open chats with customers"
