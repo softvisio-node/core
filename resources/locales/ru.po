@@ -13,7 +13,7 @@ msgstr ""
 "X-Search-Path: /lib/**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/chat.js:62:44
+#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/setup-external-chat.js:66:44
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:62:44
 #, fuzzy
 msgid "/start - Exit from the chat"
@@ -136,7 +136,7 @@ msgstr "Сменить телефон"
 msgid "Change text"
 msgstr "Изменить текст"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/chat.js:83:24
+#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/setup-external-chat.js:87:24
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:83:24
 #, fuzzy
 msgid "Chat closed"
@@ -225,7 +225,6 @@ msgstr "Адрес электронной почты неверен"
 msgid "field not specified"
 msgstr "поле не указано"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/forum-chat.js:374:40
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:374:40
 #, fuzzy
 msgid "Go to the chat"
@@ -242,19 +241,23 @@ msgstr "Новое устройство"
 msgid "Notes"
 msgstr "Примечания"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/chat.js:35:40
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/forum-chat.js:330:44
+#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/setup-external-chat.js:39:40
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:35:40
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:330:44
 #, fuzzy
 msgid "Open chats"
 msgstr "Открытые чаты"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/chat.js:30:24
+#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/setup-external-chat.js:34:24
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:30:24
 #, fuzzy
 msgid "Open chats with customers"
 msgstr "Открытые чаты с клиентами"
+
+#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/external-chat.js:37:40
+#, fuzzy
+msgid "Open the chat"
+msgstr "Открыть чат"
 
 #: ../../lib/app/components/telegram/bot/sub-component.js:74:24
 msgid "Owner"
@@ -392,7 +395,6 @@ msgstr "Выйти"
 msgid "Some error occured, pleast try again."
 msgstr "Произошла ошибка. Повторите попытку."
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/forum-chat.js:339:43
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:339:43
 #, fuzzy
 msgid "Some error occured. Please, try again."
@@ -425,7 +427,6 @@ msgstr ""
 "Чтобы завершить вход, пожалуйста, нажмите на ссылку, которую я только что отправил на ваш адрес электронной почты.\n"
 "Если вы не получили электронное письмо в течение нескольких минут, вы можете отправить его еще раз."
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/forum-chat.js:369:24
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:369:24
 #, fuzzy
 msgid "To reply, please, go to the chat."
@@ -435,6 +436,11 @@ msgstr "Чтобы ответить, пожалуйста, зайдите в ч�
 #, fuzzy
 msgid "To sign in, please, enter yoour email address"
 msgstr "Для входа, пожалуйста, введите свой адрес электронной почты"
+
+#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/external-chat.js:32:24
+#, fuzzy
+msgid "To write me a message, please, go to the chat."
+msgstr "Чтобы написать мне сообщение, пожалуйста, зайдите в чат."
 
 #: ../../lib/app/components/api/config.yaml:4:16
 #, fuzzy, javascript-format
@@ -501,8 +507,8 @@ msgstr "Различные уведомления, связанные с без�
 msgid "View charts"
 msgstr "Посмотреть графики"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/chat.js:51:28
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/chat.js:54:51
+#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/setup-external-chat.js:55:28
+#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/setup-external-chat.js:58:51
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:51:28
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:54:51
 #, fuzzy
@@ -518,7 +524,7 @@ msgstr ""
 msgid "You are signed in as"
 msgstr "Вы вошли в систему как"
 
-#: ../../lib/app/components/telegram/bot/command.js:396:56
+#: ../../lib/app/components/telegram/bot/command.js:402:56
 #, fuzzy
 msgid ""
 "You can use these commands::\n"
@@ -580,13 +586,11 @@ msgstr ""
 "\n"
 "Старый адрес электронной почты: ${n}\n"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/forum-chat.js:350:43
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:350:43
 #, fuzzy
 msgid "Your group join request has been declined."
 msgstr "Ваш запрос на вступление в группу был отклонен."
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/forum-chat.js:325:28
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:325:28
 #, fuzzy
 msgid "Your join request has been approved."
