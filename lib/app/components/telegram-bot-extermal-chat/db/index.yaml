@@ -1,8 +1,9 @@
-module: telegram-bot-forum-chat
+module: telegram-bot-external-chat
 type: postgresql
 patch: ~
 
-emits: ~
+emits:
+  - telegram/telegram-bot-external-chat/update
 
 locks: ~
 
