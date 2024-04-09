@@ -13,8 +13,7 @@ msgstr ""
 "X-Search-Path: /lib/**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/setup-external-chat.js:66:44
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:62:44
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:62:44
 #, fuzzy
 msgid "/start - Exit from the chat"
 msgstr "/start - Вийти з чату"
@@ -143,8 +142,7 @@ msgstr "Змінити телефон"
 msgid "Change text"
 msgstr "Змінити текст"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/setup-external-chat.js:87:24
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:83:24
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:83:24
 #, fuzzy
 msgid "Chat closed"
 msgstr "Чат закрито"
@@ -254,20 +252,18 @@ msgstr "Новий пристрій"
 msgid "Notes"
 msgstr "Примітки"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/setup-external-chat.js:39:40
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:35:40
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:35:40
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:330:44
 #, fuzzy
 msgid "Open chats"
 msgstr "Відкрити чати"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/setup-external-chat.js:34:24
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:30:24
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:30:24
 #, fuzzy
 msgid "Open chats with customers"
 msgstr "Відкрийте чати з клієнтами"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/external-chat.js:37:40
+#: ../../lib/app/components/telegram-bot-external-chat/bot/commands/external-chat.js:37:40
 #, fuzzy
 msgid "Open the chat"
 msgstr "Відкрийте чат"
@@ -457,7 +453,7 @@ msgstr "Щоб відповісти, будь ласка, зайдіть в ча
 msgid "To sign in, please, enter yoour email address"
 msgstr "Щоб увійти, будь ласка, введіть свою електронну адресу"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/external-chat.js:32:24
+#: ../../lib/app/components/telegram-bot-external-chat/bot/commands/external-chat.js:32:24
 #, fuzzy
 msgid "To write me a message, please, go to the chat."
 msgstr "Щоб написати мені повідомлення, будь ласка, зайдіть в чат."
@@ -528,10 +524,8 @@ msgstr "Різні сповіщення щодо безпеки"
 msgid "View charts"
 msgstr "Перегляд діаграм"
 
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/setup-external-chat.js:55:28
-#: ../../lib/app/components/telegram-bot-extermal-chat/bot/commands/setup-external-chat.js:58:51
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:51:28
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/chat.js:54:51
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:51:28
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:54:51
 #, fuzzy
 msgid ""
 "Write me a message.\n"
