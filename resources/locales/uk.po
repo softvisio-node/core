@@ -100,6 +100,7 @@ msgstr ""
 msgid "Can create telegram bots"
 msgstr "Може створювати телеграм-ботів"
 
+#: ../../lib/app/components/telegram-bot-external-chat/bot/commands/setup-external-chat.js:23:44
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:339:40
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:355:40
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:371:40
@@ -126,6 +127,11 @@ msgstr "Змінити email"
 #, fuzzy
 msgid "Change email address"
 msgstr "Змінити адресу електронної пошти"
+
+#: ../../lib/app/components/telegram-bot-external-chat/bot/commands/setup-external-chat.js:38:40
+#, fuzzy
+msgid "Change link"
+msgstr "Змінити посилання"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:299:48
 #, fuzzy
@@ -161,6 +167,11 @@ msgstr "Підтвердіть Вашу електронну адресу"
 #, fuzzy
 msgid "Confirmation link is not valid. Please, try again."
 msgstr "Посилання для підтвердження недійсне. Будь ласка спробуйте ще раз."
+
+#: ../../lib/app/components/telegram-bot-external-chat/bot/commands/setup-external-chat.js:33:41
+#, fuzzy
+msgid "Current chat link"
+msgstr "Поточне посилання на чат"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:263:48
 #, fuzzy
@@ -369,6 +380,11 @@ msgid ""
 msgstr ""
 "Надсилайте мені файли медіа (фото, відео, аудіо, документи), щоб додати їх до повідомлення.\n"
 "Фотографії/відео, аудіо та документи можна згрупувати в альбом. до 10 файлів в альбомі."
+
+#: ../../lib/app/components/telegram-bot-external-chat/bot/commands/setup-external-chat.js:18:28
+#, fuzzy
+msgid "Send me new link to thw chat."
+msgstr "Надішліть мені нове посилання на чат."
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:366:24
 #, fuzzy
