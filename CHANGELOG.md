@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.72.8 (2024-04-13)
+
+Fixes:
+
+-   fix: tar patch
+
 ### 7.72.7 (2024-04-10)
 
 Fixes:
