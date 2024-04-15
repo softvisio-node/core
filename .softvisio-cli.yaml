@@ -1,0 +1,30 @@
+docs:
+  locations: docs
+
+  logo: true
+
+  externalTypes:
+    - softvisio-node/result
+
+  types:
+    Auth:
+    Table: "/text.md#Class: Table"
+    ProxyClient:
+    Blob: "/blob.md#Class: Blob"
+    File: "/file.md#Class: File"
+    APIClient: "/api-client.md#Class: APIClient"
+    APIClientUpload: "/api-client.md#Class: APIClientUpload"
+    APIClientConnection: "/api-client.md#Class: APIClientConnection"
+    APIServices: "/api-client.md#Class: APIServices"
+    TmpFile: "/tmp.md#Class: TmpFile"
+    TmpDir: "/tmp.md#Class: TmpDir"
+    DoublyLinkedList: "/doubly-linked-list.md"
+    DoublyLinkedListNode: "/doubly-linked-list.md#Class: DoublyLinkedListNode"
+    CacheLRU: "/cache-lru.md"
+    Threads: "/threads.md#Class: Threads"
+    CondVar: "/threads.md#Class: CondVar"
+    Semaphore: "/threads.md#Class: Semaphore"
+    SemaphoreSet: "/threads.md#Class: SemaphoreSet"
+    Mutex: "/threads.md#Class: Mutex"
+    Signal: "/threads.md#Class: Signal"
+    Hostname: "/hostname.md"
