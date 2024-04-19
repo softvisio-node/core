@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.73.0 (2024-04-19)
+
+Features:
+
+-   feat: telegram wallet pay api
+
 ### 7.72.9 (2024-04-15)
 
 Fixes:
