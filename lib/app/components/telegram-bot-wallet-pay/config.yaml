@@ -1,0 +1,6 @@
+dependencies:
+  - telegram
+
+optionalDependencies: ~
+
+config: ~
