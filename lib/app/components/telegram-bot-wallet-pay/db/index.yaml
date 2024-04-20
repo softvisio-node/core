@@ -1,4 +1,4 @@
-module: telegram-bot-contacts
+module: telegram-bot-wallet-pay
 type: postgresql
 patch: ~
 
