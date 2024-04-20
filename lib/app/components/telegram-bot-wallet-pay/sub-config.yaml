@@ -1,5 +1,1 @@
-botContact:
-  phoneEnabled: true
-  emailEnabled: true
-  addressEnabled: true
-  notesEnabled: true
+walletPay: {}
