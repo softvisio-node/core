@@ -72,7 +72,7 @@ msgstr "Владелец бота"
 msgid "Bot read-only permissions"
 msgstr "Разрешения бота только на чтение"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:45:19
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:43:19
 msgid "bot's statistics"
 msgstr "статистика бота"
 
@@ -206,6 +206,7 @@ msgid "edit start message"
 msgstr "редактировать стартовое сообщение"
 
 #: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:12:19
+#: ../../lib/app/components/telegram-bot-wallet-pay/bot/commands/edit-contact.js:12:19
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:85:19
 #, fuzzy
 msgid "edit your contacts"
