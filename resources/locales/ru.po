@@ -279,7 +279,7 @@ msgstr "Пароль изменен"
 msgid "Password reset link"
 msgstr "Ссылка для сброса пароля"
 
-#: ../../lib/app/components/telegram-bot-payments/bot/payments.js:66:45
+#: ../../lib/app/components/telegram-bot-payments/bot/payments.js:63:45
 #, fuzzy
 msgid "Pay via Wallet"
 msgstr "Оплата через кошелек"
