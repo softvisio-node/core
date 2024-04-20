@@ -206,7 +206,7 @@ msgid "edit start message"
 msgstr "редактировать стартовое сообщение"
 
 #: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:12:19
-#: ../../lib/app/components/telegram-bot-wallet-pay/bot/commands/edit-contact.js:12:19
+#: ../../lib/app/components/telegram-bot-payments/bot/commands/edit-contact.js:12:19
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:85:19
 #, fuzzy
 msgid "edit your contacts"
@@ -279,7 +279,7 @@ msgstr "Пароль изменен"
 msgid "Password reset link"
 msgstr "Ссылка для сброса пароля"
 
-#: ../../lib/app/components/telegram-bot-wallet-pay/bot/wallet-pay.js:66:45
+#: ../../lib/app/components/telegram-bot-payments/bot/payments.js:66:45
 #, fuzzy
 msgid "Pay via Wallet"
 msgstr "Оплата через кошелек"
