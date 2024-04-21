@@ -1,0 +1,9 @@
+module: payments
+type: postgresql
+patch: ~
+
+emits: ~
+
+locks: ~
+
+cron: ~

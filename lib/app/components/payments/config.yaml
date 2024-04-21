@@ -1,0 +1,8 @@
+dependencies:
+  - dbh
+  - users
+
+optionalDependencies: ~
+
+config:
+  currencies: [USD, USDT]
