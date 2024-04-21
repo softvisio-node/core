@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.73.2 (2024-04-21)
+
+Fixes:
+
+-   fix: nginx stream pass
+
 ### 7.73.1 (2024-04-21)
 
 Fixes:
