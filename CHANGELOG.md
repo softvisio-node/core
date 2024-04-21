@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.73.1 (2024-04-21)
+
+Fixes:
+
+-   fix: app payments component
+-   fix: nginx stream pass
+-   fix: telegram
+
 ### 7.73.0 (2024-04-19)
 
 Features:
