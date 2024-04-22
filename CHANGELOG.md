@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.73.10 (2024-04-22)
+
+Fixes:
+
+-   fix: nginx real ip
+
 ### 7.73.9 (2024-04-22)
 
 Fixes:
