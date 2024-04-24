@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.73.15 (2024-04-24)
+
+Fixes:
+
+-   fix: nginx local socket path
+
 ### 7.73.14 (2024-04-24)
 
 Fixes:
