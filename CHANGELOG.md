@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.73.17 (2024-04-26)
+
+Fixes:
+
+-   fix: postgresql
+
 ### 7.73.16 (2024-04-26)
 
 Fixes:
