@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.73.16 (2024-04-26)
+
+Fixes:
+
+-   fix: docker builder
+
 ### 7.73.15 (2024-04-24)
 
 Fixes:
