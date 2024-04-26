@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.73.18 (2024-04-26)
+
+Fixes:
+
+-   fix: http respirces
+
 ### 7.73.17 (2024-04-26)
 
 Fixes:
