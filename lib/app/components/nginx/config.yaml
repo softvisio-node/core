@@ -17,6 +17,9 @@ config:
   cacheInactive: 1 week
   cacheBypass: false
 
+  httpSetRealIpFrom: ~
+  streamSetRealIpFrom: ~
+
   storageLocation: /nginx
   cetrificatesRenewInterval: 1 week
 
