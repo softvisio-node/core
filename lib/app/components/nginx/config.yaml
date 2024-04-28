@@ -23,6 +23,6 @@ config:
   acmeEmail: zdm@softvisio.net
   cloudFlareApiToken: ~
 
-  httpSetRealIpFrom: [local, private. cloudflate, google-cloud-load-balancers]
+  httpSetRealIpFrom: [local, private]
 
-  streamSetRealIpFrom: [local, private. cloudflate, google-cloud-load-balancers]
+  streamSetRealIpFrom: [local, private]
