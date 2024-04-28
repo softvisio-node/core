@@ -29,12 +29,12 @@
     httpSetRealIpFrom:
       anyOf:
         - type: "null"
-        - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+        - { type: array, items: { type: string, format: ip-cidr }, minItems: 1, uniqueItems: true }
 
     streamSetRealIpFrom:
       anyOf:
         - type: "null"
-        - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+        - { type: array, items: { type: string, format: ip-cidr }, minItems: 1, uniqueItems: true }
 
   additionalProperties: false
   required:
