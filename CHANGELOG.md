@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.73.22 (2024-04-28)
+
+Fixes:
+
+-   fix: nginx trusted subnets
+
 ### 7.73.21 (2024-04-28)
 
 Fixes:
