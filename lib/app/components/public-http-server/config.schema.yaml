@@ -8,7 +8,13 @@
     setRealIpFrom:
       anyOf:
         - type: "null"
-        - { type: array, items: { type: string, format: ip-subnet }, minItems: 1, uniqueItems: true }
+        - type: array
+          items:
+            anyOf:
+              - { type: string, format: kebab-case }
+              - { type: string, format: ip-subnet }
+          minItems: 1
+          uniqueItems: true
 
     nginxApiUrl: { type: string, format: uri-whatwg }
     nginxProxyName:
