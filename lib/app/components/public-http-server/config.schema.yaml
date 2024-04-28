@@ -5,7 +5,7 @@
     port: { type: integer, format: ip-port }
     exclusive: { type: boolean }
 
-    this.config.trustedSubnets:
+    trustedSubnets:
       anyOf:
         - type: "null"
         - type: array
