@@ -16,6 +16,11 @@
           minItems: 1
           uniqueItems: true
 
+    realIpHeader:
+      anyOf:
+        - type: "null"
+        - enum: [x-real-ip, x-forwarded-for]
+
     nginxApiUrl: { type: string, format: uri-whatwg }
     nginxProxyName:
       anyOf:
