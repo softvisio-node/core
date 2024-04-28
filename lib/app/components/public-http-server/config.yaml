@@ -7,7 +7,7 @@ config:
   port: 80
   exclusive: true
 
-  setRealIpFrom: [local, private]
+  trustedSubnets: [local, private]
   realIpHeader: x-real-ip
 
   nginxApiUrl: ws://nginx:81/api
