@@ -1,4 +1,4 @@
-- $id: config1
+- $id: config
   type: object
   properties:
     listenIpFamily: { enum: [0, 4, 6] }
