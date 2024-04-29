@@ -48,6 +48,8 @@
           minItems: 1
           uniqueItems: true
 
+    realIpHeader: { enum: [x-real-ip, x-forwarded-for] }
+
   additionalProperties: false
   required:
     - listenIpFamily
@@ -58,3 +60,4 @@
     - cacheBypass
     - storageLocation
     - cetrificatesRenewInterval
+    - realIpHeader

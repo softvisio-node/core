@@ -26,3 +26,5 @@ config:
   httpSetRealIpFrom: [local, private]
 
   streamSetRealIpFrom: [local, private]
+
+  realIpHeader: x-real-ip
