@@ -3,7 +3,7 @@
   properties:
     listenIpFamily: { enum: [0, 4, 6] }
     dockerEnabled: { typ: boolean }
-    maxBodySize: { type: string, format: didital-size-unit }
+    maxBodySize: { type: string, format: digital-size }
 
     cacheEnabled: { type: boolean }
     cacheMaxSize:
@@ -19,7 +19,7 @@
     cacheInactive: { type: string, format: interval }
     cacheBypass: { type: boolean }
 
-    storageLocation: { type: string, format: kebeb-case-root-or-absolute-file-path }
+    storageLocation: { type: string, format: kebab-case-root-or-absolute-file-path }
     cetrificatesRenewInterval: { type: string, format: interval }
 
     acmeEmail: { type: string, format: email }
