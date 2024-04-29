@@ -53,7 +53,7 @@
     - listenIpFamily
     - dockerEnabled
     - maxBodySize
-    - cachEenabled
+    - cacheEnabled
     - cacheInactive
     - cacheBypass
     - storageLocation
