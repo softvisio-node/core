@@ -3,7 +3,6 @@ dependencies: ~
 optionalDependencies:
   - privateHttpServer
   - publicHttpServer
-  - storage
 
 config:
   listenIpFamily: 4
@@ -17,7 +16,6 @@ config:
   cacheInactive: 1 week
   cacheBypass: false
 
-  storageLocation: /nginx
   cetrificatesRenewInterval: 1 week
 
   acmeEmail: zdm@softvisio.net

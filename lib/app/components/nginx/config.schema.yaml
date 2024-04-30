@@ -19,7 +19,6 @@
     cacheInactive: { type: string, format: interval }
     cacheBypass: { type: boolean }
 
-    storageLocation: { type: string, format: kebab-case-root-or-absolute-file-path }
     cetrificatesRenewInterval: { type: string, format: interval }
 
     acmeEmail: { type: string, format: email }
@@ -47,6 +46,5 @@
     - cacheEnabled
     - cacheInactive
     - cacheBypass
-    - storageLocation
     - cetrificatesRenewInterval
     - realIpHeader
