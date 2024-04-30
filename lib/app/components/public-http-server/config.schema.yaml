@@ -5,7 +5,7 @@
     port: { type: integer, format: ip-port }
     exclusive: { type: boolean }
 
-    trustedSubnets:
+    setRealIpFrom:
       anyOf:
         - type: "null"
         - type: array
