@@ -1,0 +1,9 @@
+module: nginx
+type: postgresql
+patch: ~
+
+emits: ~
+
+locks: ~
+
+cron: ~
