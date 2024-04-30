@@ -22,6 +22,7 @@ config:
   acmeEmail: zdm@softvisio.net
   acmeTest: false
   acmeuseFiles: false
+  acmeChallengeMaxAge: 10 minutes
   cloudFlareApiToken: ~
 
   setRealIpFrom: [local, private]
