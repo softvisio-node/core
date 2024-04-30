@@ -20,6 +20,8 @@ config:
   cetrificatesRenewInterval: 1 week
 
   acmeEmail: zdm@softvisio.net
+  acmeTest: false
+  acmeFileStorage: false
   cloudFlareApiToken: ~
 
   setRealIpFrom: [local, private]

@@ -22,6 +22,8 @@
     cetrificatesRenewInterval: { type: string, format: interval }
 
     acmeEmail: { type: string, format: email }
+    acmeTest: { type: boolean }
+    acmeFileStorage: { type: boolean }
 
     cloudFlareApiToken: { type: ["null", string] }
 
@@ -46,5 +48,10 @@
     - cacheEnabled
     - cacheInactive
     - cacheBypass
+
+    - acmeEmail
+    - acmeTest
+    - acmeFileStorage
+
     - cetrificatesRenewInterval
     - realIpHeader
