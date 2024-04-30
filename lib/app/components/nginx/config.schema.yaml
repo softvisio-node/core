@@ -23,7 +23,7 @@
 
     acmeEmail: { type: string, format: email }
     acmeTest: { type: boolean }
-    acmeFileStorage: { type: boolean }
+    acmeuseFiles: { type: boolean }
 
     cloudFlareApiToken: { type: ["null", string] }
 
@@ -51,7 +51,7 @@
 
     - acmeEmail
     - acmeTest
-    - acmeFileStorage
+    - acmeuseFiles
 
     - cetrificatesRenewInterval
     - realIpHeader

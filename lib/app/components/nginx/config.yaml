@@ -21,7 +21,7 @@ config:
 
   acmeEmail: zdm@softvisio.net
   acmeTest: false
-  acmeFileStorage: false
+  acmeuseFiles: false
   cloudFlareApiToken: ~
 
   setRealIpFrom: [local, private]
