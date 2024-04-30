@@ -23,8 +23,6 @@ config:
   acmeEmail: zdm@softvisio.net
   cloudFlareApiToken: ~
 
-  httpSetRealIpFrom: [local, private]
-
-  streamSetRealIpFrom: [local, private]
+  setRealIpFrom: [local, private]
 
   realIpHeader: x-real-ip
