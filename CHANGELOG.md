@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.79.0 (2024-05-01)
+
+Features:
+
+-   feat: nginx db
+
 ### 7.78.0 (2024-05-01)
 
 Features:
