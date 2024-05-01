@@ -1,7 +1,8 @@
-dependencies: ~
+dependencies:
+  - crypto
 
 optionalDependencies:
-  - crypto
+  - dbh
   - privateHttpServer
   - publicHttpServer
 
@@ -21,7 +22,7 @@ config:
 
   acmeEmail: zdm@softvisio.net
   acmeTest: false
-  acmeuseFiles: false
+  acmeuseLocalFilesStorage: false
   acmeChallengeMaxAge: 10 minutes
   cloudFlareApiToken: ~
 
