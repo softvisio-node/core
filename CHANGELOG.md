@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.74.0 (2024-05-01)
+
+Features:
+
+-   feat: nginx db
+
+Fixes:
+
+-   fix: payments
+
 ### 7.73.31 (2024-04-30)
 
 Fixes:
