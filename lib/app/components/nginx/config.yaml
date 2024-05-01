@@ -22,7 +22,7 @@ config:
 
   acmeEmail: zdm@softvisio.net
   acmeTest: false
-  acmeuseLocalFilesStorage: false
+  acmeuseLocalStorage: false
   acmeChallengeMaxAge: 10 minutes
   cloudFlareApiToken: ~
 

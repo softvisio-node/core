@@ -23,7 +23,7 @@
 
     acmeEmail: { type: string, format: email }
     acmeTest: { type: boolean }
-    acmeuseLocalFilesStorage: { type: boolean }
+    acmeuseLocalStorage: { type: boolean }
     acmeChallengeMaxAge: { type: string, format: interval }
 
     cloudFlareApiToken: { type: ["null", string] }
@@ -52,7 +52,7 @@
 
     - acmeEmail
     - acmeTest
-    - acmeuseLocalFilesStorage
+    - acmeuseLocalStorage
     - acmeChallengeMaxAge
 
     - cetrificatesRenewInterval
