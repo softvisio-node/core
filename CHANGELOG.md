@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.83.1 (2024-05-06)
+
+Fixes:
+
+-   fix: locale
+
 ### 7.83.0 (2024-05-01)
 
 Features:
