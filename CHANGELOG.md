@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.83.5 (2024-05-08)
+
+Fixes:
+
+-   fix: ip address geo
+
 ### 7.83.4 (2024-05-06)
 
 Fixes:
