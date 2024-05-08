@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.83.7 (2024-05-08)
+
+Fixes:
+
+-   fix: telegram send
+
 ### 7.83.6 (2024-05-08)
 
 Fixes:
