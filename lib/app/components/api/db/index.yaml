@@ -1,6 +1,6 @@
 module: api
 type: postgresql
-patch: ~
+patch: 1
 
 emits:
   - api/token/delete # user_id
