@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.83.9 (2024-05-09)
+
+Fixes:
+
+-   fix: nginx router
+
 ### 7.83.8 (2024-05-08)
 
 Fixes:
