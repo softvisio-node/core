@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.83.12 (2024-05-10)
+
+Fixes:
+
+-   fix: nginx error messages
+
 ### 7.83.11 (2024-05-10)
 
 Fixes:
