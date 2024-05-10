@@ -80,16 +80,16 @@ msgstr "Дозволи бота лише на читання"
 msgid "bot's statistics"
 msgstr "статистика бота"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:37:24
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:38:20
 #, fuzzy, javascript-format
 msgid ""
-"Bot's statistics:\n"
+"Bot's statistics (${n}):\n"
 "\n"
 "Total users: <b>${n}</b>\n"
 "Subsctibed users: <b>${n}</b>\n"
 "Unsubsctibed users: <b>${n}</b>\n"
 msgstr ""
-"Статистика бота:\n"
+"Статистика бота (${n}):\n"
 "\n"
 "Загальна кількість користувачів: <b>${n}</b>\n"
 "Підписані користувачі: <b>${n}</b>\n"
@@ -345,7 +345,7 @@ msgstr "Розробник проекту"
 msgid "Read-only"
 msgstr "Лише для читання"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:48:40
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:49:40
 msgid "Refresh"
 msgstr "Оновити"
 
@@ -545,7 +545,7 @@ msgstr ""
 msgid "Various security related notifications"
 msgstr "Різні сповіщення щодо безпеки"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:54:40
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:55:40
 #, fuzzy
 msgid "View charts"
 msgstr "Перегляд діаграм"
@@ -695,6 +695,38 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #~ "Unsubsctibed users: <b>${n}</b>\n"
 #~ msgstr ""
 #~ "Статистика ботів:\n"
+#~ "\n"
+#~ "Загальна кількість користувачів: <b>${n}</b>\n"
+#~ "Підписані користувачі: <b>${n}</b>\n"
+#~ "Користувачі, які скасували підписку: <b>${n}</b>\n"
+
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:38:20
+#, fuzzy, javascript-format
+#~ msgid ""
+#~ "Bot's statistics:\n"
+#~ "\n"
+#~ "Date: ${n}\n"
+#~ "Total users: <b>${n}</b>\n"
+#~ "Subsctibed users: <b>${n}</b>\n"
+#~ "Unsubsctibed users: <b>${n}</b>\n"
+#~ msgstr ""
+#~ "Статистика бота:\n"
+#~ "\n"
+#~ "Дата: ${n}\n"
+#~ "Загальна кількість користувачів: <b>${n}</b>\n"
+#~ "Підписані користувачі: <b>${n}</b>\n"
+#~ "Користувачі, які скасували підписку: <b>${n}</b>\n"
+
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:37:24
+#, fuzzy, javascript-format
+#~ msgid ""
+#~ "Bot's statistics:\n"
+#~ "\n"
+#~ "Total users: <b>${n}</b>\n"
+#~ "Subsctibed users: <b>${n}</b>\n"
+#~ "Unsubsctibed users: <b>${n}</b>\n"
+#~ msgstr ""
+#~ "Статистика бота:\n"
 #~ "\n"
 #~ "Загальна кількість користувачів: <b>${n}</b>\n"
 #~ "Підписані користувачі: <b>${n}</b>\n"
