@@ -72,11 +72,11 @@ msgstr "Владелец бота"
 msgid "Bot read-only permissions"
 msgstr "Разрешения бота только на чтение"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:43:19
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:42:19
 msgid "bot's statistics"
 msgstr "статистика бота"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:16:24
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:56:19
 #, fuzzy, javascript-format
 msgid ""
 "Bot's statistics:\n"
@@ -327,6 +327,10 @@ msgstr "Разработчик проекта"
 msgid "Read-only"
 msgstr "Только чтение"
 
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:20:40
+msgid "Refresh"
+msgstr "Обновить"
+
 #: ../../lib/app/components/notifications/config.yaml
 msgid "Security"
 msgstr "Безопасность"
@@ -521,7 +525,7 @@ msgstr ""
 msgid "Various security related notifications"
 msgstr "Различные уведомления, связанные с безопасностью"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:27:40
+#: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:26:40
 msgid "View charts"
 msgstr "Посмотреть графики"
 
