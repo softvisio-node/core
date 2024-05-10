@@ -27,5 +27,6 @@ config:
   cloudFlareApiToken: ~
 
   setRealIpFrom: [local, private]
-
   realIpHeader: x-real-ip
+
+  localAddress: 127.0.0.5:33000

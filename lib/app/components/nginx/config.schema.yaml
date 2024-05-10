@@ -41,6 +41,11 @@
 
     realIpHeader: { enum: [x-real-ip, x-forwarded-for] }
 
+    localAddress:
+      anyOf:
+        - const: "unix:"
+        - { type: string, format: ip-address-port }
+
   additionalProperties: false
   required:
     - listenIpFamily
@@ -57,3 +62,5 @@
 
     - cetrificatesRenewInterval
     - realIpHeader
+
+    - localAddress
