@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.83.13 (2024-05-11)
+
+Fixes:
+
+-   fix: nginx config build
+
 ### 7.83.12 (2024-05-10)
 
 Fixes:
