@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.84.0 (2024-05-13)
+
+Features:
+
+-   feat: app payments
+-   feat: telegram ctx api call
+
+Fixes:
+
+-   fix: db schema
+-   fix: nginx config build
+
 ### 7.83.14 (2024-05-12)
 
 Fixes:
