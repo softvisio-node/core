@@ -1,7 +1,7 @@
 - $id: config
   type: object
   properties:
-    defaultVersion: { type: integer }
+    defaultVersion: { type: integer, minimum: 1 }
 
     avatarUrl: { type: string, format: kebab-case-absolute-folder-path }
     avatarMaxAge: { type: string, format: interval }

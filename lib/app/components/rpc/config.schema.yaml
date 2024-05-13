@@ -1,7 +1,7 @@
 - $id: config
   type: object
   properties:
-    defaultVersion: { type: integer }
+    defaultVersion: { type: integer, minimum: 1 }
 
     frontend:
       type: object
