@@ -1,6 +1,8 @@
 - $id: config
   type: object
   properties:
+    defaultVersion: { type: integer }
+
     frontend:
       type: object
       properties:
@@ -18,4 +20,4 @@
       required: [maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
 
   additionalProperties: false
-  required: [frontend]
+  required: [defaultVersion, frontend]

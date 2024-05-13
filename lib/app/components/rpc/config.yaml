@@ -6,6 +6,8 @@ optionalDependencies:
   - cluster
 
 config:
+  defaultVersion: 1
+
   frontend:
     maxApiRequestLength: 65_535 # 64KB
     maxUploadFileSize: 1_073_741_824 # 1GB
