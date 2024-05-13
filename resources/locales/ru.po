@@ -91,6 +91,11 @@ msgstr ""
 "Подписавшиеся пользователи: <b>${n}</b>\n"
 "Неподписавшиеся пользователи: <b>${n}</b>\n"
 
+#: ../../lib/app/components/payments/component.js:40:31
+#, fuzzy
+msgid "Can create payments accounts"
+msgstr "Можно создавать платежные счета"
+
 #: ../../lib/app/components/telegram/component.js:25:35
 #, fuzzy
 msgid "Can create Telegram bots"
@@ -267,6 +272,7 @@ msgstr "Открытые чаты с клиентами"
 msgid "Open the chat"
 msgstr "Открыть чат"
 
+#: ../../lib/app/components/payments/component.js:23:36
 #: ../../lib/app/components/telegram/bot/sub-component.js:74:24
 msgid "Owner"
 msgstr "Владелец"
@@ -283,6 +289,16 @@ msgstr "Ссылка для сброса пароля"
 #, fuzzy
 msgid "Pay via Wallet"
 msgstr "Оплата через кошелек"
+
+#: ../../lib/app/components/payments/component.js:39:24
+#, fuzzy
+msgid "Payments account creator"
+msgstr "Создатель платежного аккаунта"
+
+#: ../../lib/app/components/payments/component.js:24:43
+#, fuzzy
+msgid "Payments account owner"
+msgstr "Владелец платежного счета"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:173:60
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:193:60
