@@ -93,8 +93,8 @@ msgstr ""
 
 #: ../../lib/app/components/telegram/component.js:25:35
 #, fuzzy
-msgid "Can create telegram bots"
-msgstr "Можно создавать ботов для Telegram"
+msgid "Can create Telegram bots"
+msgstr "Можно создавать ботов Telegram"
 
 #: ../../lib/app/components/telegram-bot-external-chat/bot/commands/setup-external-chat.js:28:44
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:339:40
@@ -423,8 +423,9 @@ msgid "Some error occured. Please, try again."
 msgstr "Произошла какая-то ошибка. Пожалуйста, попробуйте еще раз."
 
 #: ../../lib/app/components/telegram/component.js:24:28
-msgid "Telegram bot owner"
-msgstr "Владелец Telegram-бота"
+#, fuzzy
+msgid "Telegram bot creator"
+msgstr "Создатель Telegram-бота"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:193:44
 #, fuzzy
@@ -709,6 +710,11 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #~ "Подписавшиеся пользователи: <b>${n}</b>\n"
 #~ "Неподписавшиеся пользователи: <b>${n}</b>\n"
 
+#: ../../lib/app/components/telegram/component.js:25:35
+#, fuzzy
+#~ msgid "Can create telegram bots"
+#~ msgstr "Можно создавать ботов для Telegram"
+
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:97:40
 #, fuzzy
 #~ msgid "Change group"
@@ -862,6 +868,10 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:48:19
 #~ msgid "sign in to your account"
 #~ msgstr "войдите в свой аккаунт"
+
+#: ../../lib/app/components/telegram/component.js:24:28
+#~ msgid "Telegram bot owner"
+#~ msgstr "Владелец Telegram-бота"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:341:24
 #, fuzzy
