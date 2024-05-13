@@ -1,6 +1,8 @@
 - $id: config
   type: object
   properties:
+    defaultVersion: { type: integer }
+
     avatarUrl: { type: string, format: kebab-case-absolute-folder-path }
     avatarMaxAge: { type: string, format: interval }
     forceDefaultAvatar: { type: boolean }
@@ -81,6 +83,8 @@
 
   additionalProperties: false
   required:
+    - defaultVersion
+
     - avatarUrl
     - avatarMaxAge
     - forceDefaultAvatar
