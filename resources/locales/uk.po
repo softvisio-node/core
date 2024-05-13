@@ -95,7 +95,7 @@ msgstr ""
 "Підписані користувачі: <b>${n}</b>\n"
 "Користувачі, які скасували підписку: <b>${n}</b>\n"
 
-#: ../../lib/app/components/payments/component.js:40:31
+#: ../../lib/app/components/payments/component.js:20:43
 #, fuzzy
 msgid "Can create payments accounts"
 msgstr "Може створювати платіжні рахунки"
@@ -285,7 +285,7 @@ msgstr "Відкрийте чати з клієнтами"
 msgid "Open the chat"
 msgstr "Відкрийте чат"
 
-#: ../../lib/app/components/payments/component.js:23:36
+#: ../../lib/app/components/payments/component.js:32:36
 #: ../../lib/app/components/telegram/bot/sub-component.js:74:24
 #, fuzzy
 msgid "Owner"
@@ -305,12 +305,12 @@ msgstr "Посилання для зміни пароля"
 msgid "Pay via Wallet"
 msgstr "Оплата через Wallet"
 
-#: ../../lib/app/components/payments/component.js:39:24
+#: ../../lib/app/components/payments/component.js:19:36
 #, fuzzy
 msgid "Payments account creator"
 msgstr "Творець платіжного рахунку"
 
-#: ../../lib/app/components/payments/component.js:24:43
+#: ../../lib/app/components/payments/component.js:33:43
 #, fuzzy
 msgid "Payments account owner"
 msgstr "Власник платіжного рахунку"
