@@ -21,12 +21,16 @@
 
     cetrificatesRenewInterval: { type: string, format: interval }
 
-    acmeEmail: { type: string, format: email }
-    acmeTest: { type: boolean }
-    acmeuseLocalStorage: { type: boolean }
-    acmeChallengeMaxAge: { type: string, format: interval }
-
-    cloudFlareApiToken: { type: ["null", string] }
+    acme:
+      type: object
+      properties:
+        email: { type: string, format: email }
+        test: { type: boolean }
+        useLocalStorage: { type: boolean }
+        challengeMaxAge: { type: string, format: interval }
+        cloudFlareApiToken: { type: ["null", string] }
+      additionalProperties: false
+      required: [email, test, useLocalStorage, challengeMaxAge]
 
     setRealIpFrom:
       anyOf:
@@ -55,10 +59,7 @@
     - cacheInactive
     - cacheBypass
 
-    - acmeEmail
-    - acmeTest
-    - acmeuseLocalStorage
-    - acmeChallengeMaxAge
+    - acme
 
     - cetrificatesRenewInterval
     - realIpHeader
