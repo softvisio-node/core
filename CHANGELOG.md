@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.84.1 (2024-05-14)
+
+Fixes:
+
+-   fix: app payments
+-   fix: nginx config
+
 ### 7.84.0 (2024-05-13)
 
 Features:
