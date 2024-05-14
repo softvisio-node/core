@@ -1,8 +1,8 @@
-dependencies:
-  - crypto
+dependencies: ~
 
 optionalDependencies:
   - dbh
+  - crypto
   - privateHttpServer
   - publicHttpServer
 
