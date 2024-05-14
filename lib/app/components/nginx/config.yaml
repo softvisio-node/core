@@ -25,7 +25,7 @@ config:
     email: ~
     test: false
     useLocalStorage: false
-    httpAuthorizationEnabled: false
+    httpAuthorizationEnabled: true
     challengeMaxAge: 10 minutes
     cloudFlareApiToken: ~
 
