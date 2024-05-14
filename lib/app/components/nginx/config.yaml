@@ -21,7 +21,8 @@ config:
   cetrificatesRenewInterval: 1 week
 
   acme:
-    email: zdm@softvisio.net
+    enabled: false
+    email: ~
     test: false
     useLocalStorage: false
     httpAuthorizationEnabled: false

@@ -24,14 +24,19 @@
     acme:
       type: object
       properties:
-        email: { type: string, format: email }
+        enabled: { type: boolean }
+        email:
+          anyOf:
+            - type: "null"
+            - { type: string, format: email }
+
         test: { type: boolean }
         useLocalStorage: { type: boolean }
         httpAuthorizationEnabled: { type: boolean }
         challengeMaxAge: { type: string, format: interval }
         cloudFlareApiToken: { type: ["null", string] }
       additionalProperties: false
-      required: [email, test, useLocalStorage, httpAuthorizationEnabled, challengeMaxAge]
+      required: [enabled, email, test, useLocalStorage, httpAuthorizationEnabled, challengeMaxAge]
 
     setRealIpFrom:
       anyOf:
