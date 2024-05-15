@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.84.4 (2024-05-15)
+
+Fixes:
+
+-   fix: stats sql
+
 ### 7.84.3 (2024-05-15)
 
 Fixes:
