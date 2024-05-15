@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.84.3 (2024-05-15)
+
+Fixes:
+
+-   fix: nginx config
+
 ### 7.84.2 (2024-05-14)
 
 Fixes:
