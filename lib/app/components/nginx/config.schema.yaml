@@ -32,11 +32,11 @@
 
         test: { type: boolean }
         useLocalStorage: { type: boolean }
-        httpAuthorizationEnabled: { type: boolean }
+        httpEnabled: { type: boolean }
         challengeMaxAge: { type: string, format: interval }
         cloudFlareApiToken: { type: ["null", string] }
       additionalProperties: false
-      required: [enabled, email, test, useLocalStorage, httpAuthorizationEnabled, challengeMaxAge]
+      required: [enabled, email, test, useLocalStorage, httpEnabled, challengeMaxAge]
 
     setRealIpFrom:
       anyOf:
