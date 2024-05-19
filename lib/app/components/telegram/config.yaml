@@ -24,8 +24,6 @@ config:
   filesUrl: /telegram/files/
   avatarUrl: /telegram/avatar/
 
-  allowUsersCreateBots: true
-
   webAppDomain: ~
 
   linkStartParameterName: link

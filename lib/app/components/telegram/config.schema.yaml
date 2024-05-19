@@ -7,8 +7,6 @@
     filesUrl: { type: string, format: kebab-case-absolute-folder-path }
     avatarUrl: { type: string, format: kebab-case-absolute-folder-path }
 
-    allowUsersCreateBots: { type: boolean }
-
     linkStartParameterName: { type: string, format: snake-case }
     signinStartParameterName: { type: string, format: snake-case }
 
@@ -70,8 +68,6 @@
     - filesUrl
 
     - avatarUrl
-
-    - allowUsersCreateBots
 
     - linkStartParameterName
     - signinStartParameterName

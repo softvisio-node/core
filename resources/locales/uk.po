@@ -100,7 +100,7 @@ msgstr ""
 msgid "Can create payments accounts"
 msgstr "Може створювати платіжні рахунки"
 
-#: ../../lib/app/components/telegram/component.js:25:35
+#: ../../lib/app/components/telegram/component.js:20:43
 #, fuzzy
 msgid "Can create Telegram bots"
 msgstr "Може створювати Telegram-ботів"
@@ -457,7 +457,7 @@ msgstr "Сталася якась помилка, спробуйте ще раз
 msgid "Some error occured. Please, try again."
 msgstr "Сталася якась помилка. Будь ласка спробуйте ще раз."
 
-#: ../../lib/app/components/telegram/component.js:24:28
+#: ../../lib/app/components/telegram/component.js:19:36
 #, fuzzy
 msgid "Telegram bot creator"
 msgstr "Творець телеграм-бота"

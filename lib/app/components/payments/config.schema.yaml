@@ -9,4 +9,5 @@
     currencies: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
   additionalProperties: false
-  required: [currencies]
+  required:
+    - currencies
