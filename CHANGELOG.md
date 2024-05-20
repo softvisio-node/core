@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.84.8 (2024-05-20)
+
+Fixes:
+
+-   fix: nginx docker config
+
 ### 7.84.7 (2024-05-20)
 
 Fixes:
