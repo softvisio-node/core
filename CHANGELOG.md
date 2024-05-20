@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.84.5 (2024-05-20)
+
+Fixes:
+
+-   fix: default proxy port
+-   fix: payments
+-   fix: telegram
+
 ### 7.84.4 (2024-05-15)
 
 Fixes:
