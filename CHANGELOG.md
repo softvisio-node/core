@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.84.6 (2024-05-20)
+
+Fixes:
+
+-   fix: proxy port
+
 ### 7.84.5 (2024-05-20)
 
 Fixes:
