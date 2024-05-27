@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.84.11 (2024-05-27)
+
+Fixes:
+
+-   fix: http respirces
+-   fix: postgresql+ssl schema
+-   fix: proxy
+-   fix: proxy client
+-   fix: smtp+ssl schema
+-   fix: softvisio+ssl schema
+-   fix: while syntax
+
 ### 7.84.10 (2024-05-20)
 
 Fixes:
