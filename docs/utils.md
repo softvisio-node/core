@@ -97,8 +97,9 @@ Default ports:
 | postgresql+ssl: |         5432 |
 | redis:          |         6379 |
 | redis+ssl:      |         6379 |
-| smtp:           |          587 |
-| smtp+ssl:       |          465 |
+| smtp:           |           25 |
+| smtp+tls:       |          465 |
+| smtp+starttls:  |          587 |
 | ssh:            |           22 |
 
 ### net.getRandomFreePort( hostname )
