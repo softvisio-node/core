@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.84.12 (2024-06-04)
+
+Fixes:
+
+-   fix: email address
+-   fix: email api
+-   fix: google oauth
+-   fix: proxy client
+-   fix: ssl schema renamed to tls
+
 ### 7.84.11 (2024-05-27)
 
 Fixes:
