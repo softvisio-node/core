@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.84.13 (2024-06-04)
+
+Fixes:
+
+-   fix: ajv ip port
+-   fix: proxy client
+
 ### 7.84.12 (2024-06-04)
 
 Fixes:
