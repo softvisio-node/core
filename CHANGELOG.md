@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.84.21 (2024-06-14)
+
+Fixes:
+
+-   fix: proxy client
+
 ### 7.84.20 (2024-06-14)
 
 Fixes:
