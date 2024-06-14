@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.84.18 (2024-06-14)
+
+Fixes:
+
+-   fix: cli
+-   fix: proxy client
+
 ### 7.84.17 (2024-06-10)
 
 Fixes:
