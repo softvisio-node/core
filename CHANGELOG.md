@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.84.23 (2024-06-15)
+
+Fixes:
+
+-   fix: hola proxy removed
+-   fix: proxy client
+
 ### 7.84.22 (2024-06-15)
 
 Fixes:
