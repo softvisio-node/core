@@ -344,7 +344,6 @@ msgstr ""
 "||текст под спойлером||: <span class=\"tg-spoiler\">текст под спойлером</span>"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:220:25
-#, fuzzy
 msgid ""
 "Send me medfia files (photos, videos, audios, documents) to add to the message.\n"
 "Photos / videos, audios and documents can be grouped to the album. up to 10 files in the album."
