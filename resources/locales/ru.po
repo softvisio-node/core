@@ -344,8 +344,9 @@ msgstr ""
 "||текст под спойлером||: <span class=\"tg-spoiler\">текст под спойлером</span>"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:220:25
+#, fuzzy
 msgid ""
-"Send me medfia files ( photos, videos, audios, documents ) to add to the message.\n"
+"Send me medfia files (photos, videos, audios, documents) to add to the message.\n"
 "Photos / videos, audios and documents can be grouped to the album. up to 10 files in the album."
 msgstr ""
 "Отправьте мне медиафайлы (фотографии, видео, аудио, документы), чтобы добавить их к сообщению.\n"
@@ -770,6 +771,14 @@ msgstr "Ваши настройки"
 #, fuzzy
 #~ msgid "Send me group link or ID"
 #~ msgstr "Отправьте мне ссылку на группу или идентификатор"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-message.js:220:25
+#~ msgid ""
+#~ "Send me medfia files ( photos, videos, audios, documents ) to add to the message.\n"
+#~ "Photos / videos, audios and documents can be grouped to the album. up to 10 files in the album."
+#~ msgstr ""
+#~ "Отправьте мне медиафайлы (фотографии, видео, аудио, документы), чтобы добавить их к сообщению.\n"
+#~ "Фотографии/видео, аудио и документы можно группировать в альбом. до 10 файлов в альбоме."
 
 #, fuzzy
 #~ msgid "Send me new link to thw chat."

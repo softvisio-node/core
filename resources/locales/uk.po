@@ -326,7 +326,6 @@ msgid "Send me a phone number in the international format"
 msgstr "Надішліть мені номер телефону в міжнародному форматі"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:195:25
-#, fuzzy
 msgid ""
 "Send me a text to add to the message.\n"
 "\n"
@@ -345,9 +344,8 @@ msgstr ""
 "||текст під спойлером||: <span class=\"tg-spoiler\">текст під спойлером</span>"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:220:25
-#, fuzzy
 msgid ""
-"Send me medfia files ( photos, videos, audios, documents ) to add to the message.\n"
+"Send me medfia files (photos, videos, audios, documents) to add to the message.\n"
 "Photos / videos, audios and documents can be grouped to the album. up to 10 files in the album."
 msgstr ""
 "Надсилайте мені файли медіа (фото, відео, аудіо, документи), щоб додати їх до повідомлення.\n"
@@ -389,7 +387,6 @@ msgstr "Вийти"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:339:43
 #: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
-#, fuzzy
 msgid "Some error occured. Please, try again."
 msgstr "Сталася якась помилка. Будь ласка спробуйте ще раз."
 
@@ -410,7 +407,6 @@ msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:214:24
-#, fuzzy
 msgid ""
 "To complete sign in, please, click on link which I just sent to your email address.\n"
 "If you didn't received emaul in several minutes you can send it again."
@@ -431,7 +427,7 @@ msgid "To write me a message, please, go to the chat."
 msgstr "Щоб написати мені повідомлення, будь ласка, зайдіть в чат."
 
 #: ../../lib/app/components/api/config.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Use the following link to change your email address to ${n}:\n"
 "\n"
@@ -450,7 +446,7 @@ msgstr ""
 "Якщо ви отримали цей електронний лист помилково, просто проігноруйте його.\n"
 
 #: ../../lib/app/components/api/config.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Use the following link to confirm your email:\n"
 "\n"
@@ -469,7 +465,7 @@ msgstr ""
 "Якщо ви отримали цей електронний лист помилково, просто проігноруйте його.\n"
 
 #: ../../lib/app/components/api/config.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Use the following link to reset your password:\n"
 "\n"
@@ -497,20 +493,18 @@ msgstr "Перегляд діаграм"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:51:28
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:54:51
-#, fuzzy
 msgid ""
 "Write me a message.\n"
 "To exit chat use \"Menu\" button."
 msgstr ""
 "Напишіть мені повідомлення.\n"
-"Щоб вийти з чату, скористайтеся кнопкою «Меню»."
+"Щоб вийти з чату, скористайтеся кнопкою \"Меню\"."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:262:20
 msgid "You are signed in as"
 msgstr "Ви ввійшли як"
 
 #: ../../lib/app/components/telegram/bot/command.js:402:56
-#, fuzzy
 msgid ""
 "You can use these commands:\n"
 msgstr ""
@@ -557,7 +551,7 @@ msgid "Your email address was changed"
 msgstr "Вашу адресу електронної пошти було змінено"
 
 #: ../../lib/app/components/api/config.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Your email address was changed.\n"
 "\n"
@@ -774,6 +768,15 @@ msgstr "Ваші налаштування"
 #, fuzzy
 #~ msgid "Send me group link or ID"
 #~ msgstr "Надішліть мені посилання на групу або ID"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-message.js:220:25
+#, fuzzy
+#~ msgid ""
+#~ "Send me medfia files ( photos, videos, audios, documents ) to add to the message.\n"
+#~ "Photos / videos, audios and documents can be grouped to the album. up to 10 files in the album."
+#~ msgstr ""
+#~ "Надсилайте мені файли медіа (фото, відео, аудіо, документи), щоб додати їх до повідомлення.\n"
+#~ "Фотографії/відео, аудіо та документи можна згрупувати в альбом. до 10 файлів в альбомі."
 
 #, fuzzy
 #~ msgid "Send me new link to thw chat."
