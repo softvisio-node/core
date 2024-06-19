@@ -66,7 +66,7 @@ msgid "bot's statistics"
 msgstr "статистика бота"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:38:20
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Bot's statistics (${n}):\n"
 "\n"
@@ -275,13 +275,13 @@ msgid "Please, choose what you want to do"
 msgstr "Виберіть, будь ласка, що ви хочете зробити"
 
 #: ../../lib/app/components/telegram/config.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Please, click following link to sign in to \"${n}\" Telegram bot:\n"
 "\n"
 "${n}\n"
 msgstr ""
-"Натисніть це посилання, щоб увійти в бот Telegram &quot;${n}&quot;:\n"
+"Натисніть це посилання, щоб увійти в бот Telegram \"${n}\":\n"
 "\n"
 "${n}\n"
 
