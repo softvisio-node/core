@@ -505,8 +505,10 @@ msgid "You are signed in as"
 msgstr "Вы вошли в систему как"
 
 #: ../../lib/app/components/telegram/bot/command.js:402:56
-msgid "You can use these commands:\n"
-msgstr "Вы можете использовать эти команды:\n"
+msgid ""
+"You can use these commands:\n"
+msgstr ""
+"Вы можете использовать эти команды:\n"
 
 #: ../../lib/app/components/api/config.yaml:4:16
 #, javascript-format
@@ -827,8 +829,10 @@ msgstr "Ваши настройки"
 #~ msgstr "Вы вошли как: ${n}"
 
 #, fuzzy
-#~ msgid "You can use these commands::\n"
-#~ msgstr "Вы можете использовать эти команды::\n"
+#~ msgid ""
+#~ "You can use these commands::\n"
+#~ msgstr ""
+#~ "Вы можете использовать эти команды::\n"
 
 #, fuzzy
 #~ msgid "Ypir message has no content. You need to add text and media."
