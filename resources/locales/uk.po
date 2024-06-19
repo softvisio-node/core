@@ -231,7 +231,6 @@ msgstr "редагувати свої контакти"
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:213:60
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:233:60
 #: ../../lib/app/components/telegram/bot/contact.js:184:38
-#, fuzzy
 msgid "Email"
 msgstr "Електронна пошта"
 
@@ -318,7 +317,6 @@ msgstr "Власник платіжного рахунку"
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:173:60
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:193:60
 #: ../../lib/app/components/telegram/bot/contact.js:179:38
-#, fuzzy
 msgid "Phone"
 msgstr "Телефон"
 
