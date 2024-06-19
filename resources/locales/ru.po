@@ -543,7 +543,7 @@ msgstr ""
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:46:19
 msgid "your account"
-msgstr "ваа учетная запись"
+msgstr "ваш аккаунт"
 
 #: ../../lib/app/components/api/config.yaml
 msgid "Your email address was changed"
