@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.84.24 (2024-06-19)
+
+Fixes:
+
+-   fix: translations
+-   fix: typo
+
 ### 7.84.23 (2024-06-15)
 
 Fixes:
