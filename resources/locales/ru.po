@@ -271,7 +271,8 @@ msgid "Phone"
 msgstr "Телефон"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:181:24
-msgid "Please, choose what you want to dp"
+#, fuzzy
+msgid "Please, choose what you want to do"
 msgstr "Пожалуйста, выберите, что вы хотите сделать"
 
 #: ../../lib/app/components/telegram/config.yaml:4:16
@@ -754,6 +755,10 @@ msgstr "Ваши настройки"
 #, fuzzy, javascript-format
 #~ msgid "Phone: ${n}"
 #~ msgstr "Телефон: ${n}"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-message.js:181:24
+#~ msgid "Please, choose what you want to dp"
+#~ msgstr "Пожалуйста, выберите, что вы хотите сделать"
 
 #, fuzzy
 #~ msgid "Renew invite link"

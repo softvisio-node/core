@@ -14,34 +14,28 @@ msgstr ""
 "X-Generator: Poedit 3.3.1\n"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:62:44
-#, fuzzy
 msgid "/start - Exit from the chat"
 msgstr "/start - Вийти з чату"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:279:48
-#, fuzzy
 msgid "Add address"
 msgstr "Додайте адресу"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:168:28
-#, fuzzy
 msgid "Add media"
 msgstr "Додайте медіа"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:319:48
-#, fuzzy
 msgid "Add notes"
 msgstr "Додайте примітки"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:148:32
-#, fuzzy
 msgid "Add text"
 msgstr "Додайте текст"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:253:60
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:273:60
 #: ../../lib/app/components/telegram/bot/contact.js:189:38
-#, fuzzy
 msgid "Address"
 msgstr "Адреса"
 
@@ -56,22 +50,18 @@ msgid "Back"
 msgstr "Назад"
 
 #: ../../lib/app/components/telegram/bot/commands/start.js:65:19
-#, fuzzy
 msgid "back to the start"
 msgstr "повернутися до початку"
 
 #: ../../lib/app/components/telegram/bot/sub-component.js:88:31
-#, fuzzy
 msgid "Bot administrator. Full access, but can't delete bot."
-msgstr "Адміністратор бота. Повний доступ, але неможливо видалити бота."
+msgstr "Адміністратор бота. Повний доступ, але неможе видалити бота."
 
 #: ../../lib/app/components/telegram/bot/sub-component.js:75:31
-#, fuzzy
 msgid "Bot owner"
 msgstr "Власник бота"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:21:19
-#, fuzzy
 msgid "bot's statistics"
 msgstr "статистика бота"
 
@@ -91,12 +81,10 @@ msgstr ""
 "Користувачі, які скасували підписку: <b>${n}</b>\n"
 
 #: ../../lib/app/components/payments/component.js:20:43
-#, fuzzy
 msgid "Can create payments accounts"
 msgstr "Може створювати платіжні рахунки"
 
 #: ../../lib/app/components/telegram/component.js:20:43
-#, fuzzy
 msgid "Can create Telegram bots"
 msgstr "Може створювати Telegram-ботів"
 
@@ -110,12 +98,10 @@ msgid "Cancel"
 msgstr "Скасувати"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:259:48
-#, fuzzy
 msgid "Change address"
 msgstr "Змінити адресу"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/locale.js:21:19
-#, fuzzy
 msgid "change communication language"
 msgstr "змінити мову спілкування"
 
@@ -124,82 +110,66 @@ msgid "Change email"
 msgstr "Змінити email"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:226:40
-#, fuzzy
 msgid "Change email address"
 msgstr "Змінити адресу електронної пошти"
 
 #: ../../lib/app/components/telegram-bot-external-chat/bot/commands/setup-external-chat.js:43:40
-#, fuzzy
 msgid "Change link"
 msgstr "Змінити посилання"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:299:48
-#, fuzzy
 msgid "Change notes"
 msgstr "Змінити нотатки"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:179:48
-#, fuzzy
 msgid "Change phone"
 msgstr "Змінити телефон"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:156:32
-#, fuzzy
 msgid "Change text"
 msgstr "Змінити текст"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:83:24
-#, fuzzy
 msgid "Chat closed"
 msgstr "Чат закрито"
 
 #: ../../lib/app/components/telegram/bot/commands/start.js:46:44
-#, fuzzy
 msgid "Command is unknown. Please, use commands from \"Menu\"."
-msgstr "Команда невідома. Будь ласка, використовуйте команди з «Меню»."
+msgstr "Команда невідома. Будь ласка, використовуйте команди з \"Меню\"."
 
 #: ../../lib/app/components/api/config.yaml
-#, fuzzy
 msgid "Confirm your email address"
 msgstr "Підтвердіть Вашу електронну адресу"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:136:32
-#, fuzzy
 msgid "Confirmation link is not valid. Please, try again."
 msgstr "Посилання для підтвердження недійсне. Будь ласка спробуйте ще раз."
 
 #: ../../lib/app/components/telegram-bot-external-chat/bot/commands/setup-external-chat.js:38:41
-#, fuzzy
 msgid "Current chat link"
 msgstr "Поточне посилання на чат"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:263:48
-#, fuzzy
 msgid "Delete address"
 msgstr "Видалити адресу"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:223:48
-#, fuzzy
 msgid "Delete email"
 msgstr "Видалити електронну пошту"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:250:44
-#, fuzzy
 msgid "Delete media file"
 msgstr "Видалити медіафайл"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:303:48
-#, fuzzy
 msgid "Delete notes"
 msgstr "Видалити нотатки"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:183:48
-#, fuzzy
 msgid "Delete phone"
 msgstr "Видалити телефон"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:160:32
-#, fuzzy
 msgid "Delete text"
 msgstr "Видалити текст"
 
@@ -208,7 +178,6 @@ msgid "Developer"
 msgstr "Розробник"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:175:28
-#, fuzzy
 msgid "Edit media"
 msgstr "Редагувати медіа"
 
@@ -219,7 +188,6 @@ msgstr "редагувати початкове повідомлення"
 #: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:12:19
 #: ../../lib/app/components/telegram-bot-payments/bot/commands/edit-contact.js:12:19
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:85:19
-#, fuzzy
 msgid "edit your contacts"
 msgstr "редагувати свої контакти"
 
@@ -230,12 +198,10 @@ msgid "Email"
 msgstr "Електронна пошта"
 
 #: ../../lib/app/components/api/config.yaml
-#, fuzzy
 msgid "Email address change"
 msgstr "Зміна електронної адреси"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:168:40
-#, fuzzy
 msgid "Email address is not correct"
 msgstr "Адреса електронної пошти неправильна"
 
@@ -243,12 +209,10 @@ msgstr "Адреса електронної пошти неправильна"
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:233:100
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:273:102
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:313:100
-#, fuzzy
 msgid "field not specified"
 msgstr "поле не вказано"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:374:40
-#, fuzzy
 msgid "Go to the chat"
 msgstr "Зайти в чат"
 
@@ -259,29 +223,24 @@ msgstr "Новий пристрій"
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:293:60
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:313:60
 #: ../../lib/app/components/telegram/bot/contact.js:194:38
-#, fuzzy
 msgid "Notes"
 msgstr "Примітки"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:35:40
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:330:44
-#, fuzzy
 msgid "Open chats"
 msgstr "Відкрити чати"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:30:24
-#, fuzzy
 msgid "Open chats with customers"
 msgstr "Відкрийте чати з клієнтами"
 
 #: ../../lib/app/components/telegram-bot-external-chat/bot/commands/external-chat.js:37:40
-#, fuzzy
 msgid "Open the chat"
 msgstr "Відкрийте чат"
 
 #: ../../lib/app/components/payments/component.js:32:36
 #: ../../lib/app/components/telegram/bot/sub-component.js:74:24
-#, fuzzy
 msgid "Owner"
 msgstr "Власник"
 
@@ -290,22 +249,18 @@ msgid "Password changed"
 msgstr "Пароль змінено"
 
 #: ../../lib/app/components/api/config.yaml
-#, fuzzy
 msgid "Password reset link"
 msgstr "Посилання для зміни пароля"
 
 #: ../../lib/app/components/telegram-bot-payments/bot/payments.js:65:45
-#, fuzzy
 msgid "Pay via Wallet"
 msgstr "Оплата через Wallet"
 
 #: ../../lib/app/components/payments/component.js:19:36
-#, fuzzy
 msgid "Payments account creator"
 msgstr "Творець платіжного рахунку"
 
 #: ../../lib/app/components/payments/component.js:33:43
-#, fuzzy
 msgid "Payments account owner"
 msgstr "Власник платіжного рахунку"
 
@@ -316,9 +271,8 @@ msgid "Phone"
 msgstr "Телефон"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:181:24
-#, fuzzy
-msgid "Please, choose what you want to dp"
-msgstr "Будь ласка, виберіть, що ви хочете дп"
+msgid "Please, choose what you want to do"
+msgstr "Виберіть, будь ласка, що ви хочете зробити"
 
 #: ../../lib/app/components/telegram/config.yaml:4:16
 #, fuzzy, javascript-format
@@ -332,12 +286,10 @@ msgstr ""
 "${n}\n"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/locale.js:62:24
-#, fuzzy
 msgid "Please, select your communication language:"
 msgstr "Виберіть мову спілкування:"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:264:24
-#, fuzzy
 msgid "Press button when you will finish edit media:"
 msgstr "Натисніть кнопку, коли закінчите редагувати медіа:"
 
@@ -350,12 +302,10 @@ msgid "Project developer"
 msgstr "Розробник проекту"
 
 #: ../../lib/app/components/telegram-support-bot/config.yaml
-#, fuzzy
 msgid "Read-only"
 msgstr "Лише для читання"
 
 #: ../../lib/app/components/telegram-support-bot/config.yaml
-#, fuzzy
 msgid "Read-only permissions"
 msgstr "Дозволи лише для читання"
 
@@ -368,12 +318,10 @@ msgid "Security"
 msgstr "Безпека"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:220:40
-#, fuzzy
 msgid "Send confirmation email again"
-msgstr "Ще раз надішліть електронний лист із підтвердженням"
+msgstr "Ще раз надіслати електронний лист із підтвердженням"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:334:24
-#, fuzzy
 msgid "Send me a phone number in the international format"
 msgstr "Надішліть мені номер телефону в міжнародному форматі"
 
@@ -406,40 +354,34 @@ msgstr ""
 "Фотографії/відео, аудіо та документи можна згрупувати в альбом. до 10 файлів в альбомі."
 
 #: ../../lib/app/components/telegram-bot-external-chat/bot/commands/setup-external-chat.js:23:28
-#, fuzzy
 msgid "Send me new link to the chat."
 msgstr "Надішліть мені нове посилання на чат."
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:366:24
-#, fuzzy
 msgid "Send me your address"
 msgstr "Надішліть мені свою адресу"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:350:24
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:8:19
-#, fuzzy
 msgid "Send me your emaul address"
 msgstr "Надішліть мені свою електронну адресу"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:239:48
-#, fuzzy
 msgid "Set email"
 msgstr "Налаштувати електронну адресу"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:199:48
-#, fuzzy
 msgid "Set phone"
 msgstr "Налаштувати телефон"
 
 #: ../../lib/app/components/telegram/bot/contact.js:204:24
-#, fuzzy
 msgid "Show on the map"
-msgstr "Покажіть на карті"
+msgstr "Показати на карті"
 
 #: ../../lib/app/components/telegram/config.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Sign in to \"${n}\" bot"
-msgstr "Увійдіть до бота &quot;${n}&quot;."
+msgstr "Увійдіть до бота \"${n}\"."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:254:32
 msgid "Sign out"
@@ -452,17 +394,14 @@ msgid "Some error occured. Please, try again."
 msgstr "Сталася якась помилка. Будь ласка спробуйте ще раз."
 
 #: ../../lib/app/components/telegram/component.js:19:36
-#, fuzzy
 msgid "Telegram bot creator"
 msgstr "Творець телеграм-бота"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:193:44
-#, fuzzy
 msgid "This email address is already used by the other user"
 msgstr "Ця електронна адреса вже використовується іншим користувачем"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:180:48
-#, fuzzy
 msgid "This email address is not registered"
 msgstr "Ця електронна адреса не зареєстрована"
 
@@ -480,17 +419,14 @@ msgstr ""
 "Якщо ви не отримали лист протягом кількох хвилин, ви можете надіслати його ще раз."
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:369:24
-#, fuzzy
 msgid "To reply, please, go to the chat."
 msgstr "Щоб відповісти, будь ласка, зайдіть в чат."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:206:24
-#, fuzzy
 msgid "To sign in, please, enter yoour email address"
 msgstr "Щоб увійти, будь ласка, введіть свою електронну адресу"
 
 #: ../../lib/app/components/telegram-bot-external-chat/bot/commands/external-chat.js:32:24
-#, fuzzy
 msgid "To write me a message, please, go to the chat."
 msgstr "Щоб написати мені повідомлення, будь ласка, зайдіть в чат."
 
@@ -556,7 +492,6 @@ msgid "Various security related notifications"
 msgstr "Різні сповіщення щодо безпеки"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:55:40
-#, fuzzy
 msgid "View charts"
 msgstr "Перегляд діаграм"
 
@@ -571,7 +506,6 @@ msgstr ""
 "Щоб вийти з чату, скористайтеся кнопкою «Меню»."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:262:20
-#, fuzzy
 msgid "You are signed in as"
 msgstr "Ви ввійшли як"
 
@@ -619,7 +553,6 @@ msgid "your account"
 msgstr "ваш рахунок"
 
 #: ../../lib/app/components/api/config.yaml
-#, fuzzy
 msgid "Your email address was changed"
 msgstr "Вашу адресу електронної пошти було змінено"
 
@@ -639,17 +572,14 @@ msgstr ""
 "Стара електронна адреса: ${n}\n"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:350:43
-#, fuzzy
 msgid "Your group join request has been declined."
 msgstr "Ваш запит на приєднання до групи відхилено."
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:325:28
-#, fuzzy
 msgid "Your join request has been approved."
 msgstr "Ваш запит на приєднання схвалено."
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:191:33
-#, fuzzy
 msgid "Your message has no content. You need to add text and media."
 msgstr "Ваше повідомлення не має змісту. Потрібно додати текст і медіа."
 
@@ -866,6 +796,11 @@ msgstr "Ваші налаштування"
 #, fuzzy, javascript-format
 #~ msgid "Phone: ${n}"
 #~ msgstr "Телефон: ${n}"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-message.js:181:24
+#, fuzzy
+#~ msgid "Please, choose what you want to dp"
+#~ msgstr "Будь ласка, виберіть, що ви хочете дп"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:103:40
 #, fuzzy
