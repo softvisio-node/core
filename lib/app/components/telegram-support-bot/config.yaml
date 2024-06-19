@@ -13,6 +13,6 @@ config:
       roles:
         read-only:
           name: !l10nt Read-only
-          description: !l10nt Bot read-only permissions
+          description: !l10nt Read-only permissions
           permissions:
             - telegram/bot:read

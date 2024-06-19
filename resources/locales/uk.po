@@ -70,11 +70,6 @@ msgstr "Адміністратор бота. Повний доступ, але �
 msgid "Bot owner"
 msgstr "Власник бота"
 
-#: ../../lib/app/components/telegram-support-bot/config.yaml
-#, fuzzy
-msgid "Bot read-only permissions"
-msgstr "Дозволи бота лише на читання"
-
 #: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:21:19
 #, fuzzy
 msgid "bot's statistics"
@@ -358,6 +353,11 @@ msgstr "Розробник проекту"
 #, fuzzy
 msgid "Read-only"
 msgstr "Лише для читання"
+
+#: ../../lib/app/components/telegram-support-bot/config.yaml
+#, fuzzy
+msgid "Read-only permissions"
+msgstr "Дозволи лише для читання"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/bot-statistics.js:49:40
 msgid "Refresh"
@@ -689,6 +689,11 @@ msgstr "Ваші налаштування"
 #, fuzzy
 #~ msgid "Back to the start"
 #~ msgstr "Назад до початку"
+
+#: ../../lib/app/components/telegram-support-bot/config.yaml
+#, fuzzy
+#~ msgid "Bot read-only permissions"
+#~ msgstr "Дозволи бота лише на читання"
 
 #: ../../lib/app/components/telegram/bot/commands/bot-statistics.js:13:19
 #, fuzzy
