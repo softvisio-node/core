@@ -271,7 +271,6 @@ msgid "Phone"
 msgstr "Телефон"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-message.js:181:24
-#, fuzzy
 msgid "Please, choose what you want to do"
 msgstr "Пожалуйста, выберите, что вы хотите сделать"
 
