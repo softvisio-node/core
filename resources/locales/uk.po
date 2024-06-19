@@ -407,7 +407,7 @@ msgstr ""
 
 #: ../../lib/app/components/telegram-bot-external-chat/bot/commands/setup-external-chat.js:23:28
 #, fuzzy
-msgid "Send me new link to thw chat."
+msgid "Send me new link to the chat."
 msgstr "Надішліть мені нове посилання на чат."
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:366:24
@@ -423,13 +423,13 @@ msgstr "Надішліть мені свою електронну адресу"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:239:48
 #, fuzzy
-msgid "Sett email"
+msgid "Set email"
 msgstr "Налаштувати електронну адресу"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:199:48
 #, fuzzy
-msgid "Sett phone"
-msgstr "Встановити телефон"
+msgid "Set phone"
+msgstr "Налаштувати телефон"
 
 #: ../../lib/app/components/telegram/bot/contact.js:204:24
 #, fuzzy
@@ -447,7 +447,7 @@ msgstr "Вийти"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
 #, fuzzy
-msgid "Some error occured, pleast try again."
+msgid "Some error occured, please try again."
 msgstr "Сталася якась помилка, спробуйте ще раз."
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:339:43
@@ -881,10 +881,25 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #~ msgid "Send me group link or ID"
 #~ msgstr "Надішліть мені посилання на групу або ID"
 
+#: ../../lib/app/components/telegram-bot-external-chat/bot/commands/setup-external-chat.js:23:28
+#, fuzzy
+#~ msgid "Send me new link to thw chat."
+#~ msgstr "Надішліть мені нове посилання на чат."
+
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:81:40
 #, fuzzy
 #~ msgid "Set group"
 #~ msgstr "Встановити групу"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:239:48
+#, fuzzy
+#~ msgid "Sett email"
+#~ msgstr "Налаштувати електронну адресу"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-contact.js:199:48
+#, fuzzy
+#~ msgid "Sett phone"
+#~ msgstr "Встановити телефон"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/setup-chat.js:44:19
 #, fuzzy
@@ -899,6 +914,11 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #: ../../lib/app/components/telegram/bot/commands/settings/api-account.js:48:19
 #~ msgid "sign in to your account"
 #~ msgstr "увійдіть у свій обліковий запис"
+
+#: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
+#, fuzzy
+#~ msgid "Some error occured, pleast try again."
+#~ msgstr "Сталася якась помилка, спробуйте ще раз."
 
 #: ../../lib/app/components/telegram/component.js:24:28
 #, fuzzy
