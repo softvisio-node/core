@@ -494,25 +494,22 @@ msgstr "Посмотреть графики"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:51:28
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:54:51
-#, fuzzy
 msgid ""
 "Write me a message.\n"
 "To exit chat use \"Menu\" button."
 msgstr ""
 "Напишите мне сообщение.\n"
-"Для выхода из чата используйте кнопку «Меню»."
+"Для выхода из чата используйте кнопку \"Меню\"."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:262:20
-#, fuzzy
 msgid "You are signed in as"
 msgstr "Вы вошли в систему как"
 
 #: ../../lib/app/components/telegram/bot/command.js:402:56
-#, fuzzy
 msgid ""
-"You can use these commands::\n"
+"You can use these commands:\n"
 msgstr ""
-"Вы можете использовать эти команды::\n"
+"Вы можете использовать эти команды:\n"
 
 #: ../../lib/app/components/api/config.yaml:4:16
 #, javascript-format
@@ -546,16 +543,15 @@ msgstr ""
 "Если это были не вы, пожалуйста, измените свой пароль и удалите эту сессию из сессий вашей учетной записи.\n"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:46:19
-#, fuzzy
 msgid "your account"
-msgstr "ваш счет"
+msgstr "ваа учетная запись"
 
 #: ../../lib/app/components/api/config.yaml
 msgid "Your email address was changed"
 msgstr "Ваш адрес электронной почты был изменен"
 
 #: ../../lib/app/components/api/config.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Your email address was changed.\n"
 "\n"
@@ -570,14 +566,16 @@ msgstr ""
 "Старый адрес электронной почты: ${n}\n"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:350:43
-#, fuzzy
 msgid "Your group join request has been declined."
 msgstr "Ваш запрос на вступление в группу был отклонен."
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:325:28
-#, fuzzy
 msgid "Your join request has been approved."
 msgstr "Ваш запрос на присоединение был одобрен."
+
+#: ../../lib/app/components/telegram/bot/commands/edit-message.js:191:33
+msgid "Your message has no content. You need to add text and media."
+msgstr "Ваше сообщение не имеет содержания. Вам нужно добавить текст и медиа."
 
 #: ../../lib/app/components/api/config.yaml
 msgid "Your password was just changed."
@@ -590,11 +588,6 @@ msgstr "ваши настройки"
 #: ../../lib/app/components/telegram/bot/commands/settings.js:18:19
 msgid "Your settings"
 msgstr "Ваши настройки"
-
-#: ../../lib/app/components/telegram/bot/commands/edit-message.js:191:33
-#, fuzzy
-msgid "Ypir message has no content. You need to add text and media."
-msgstr "Сообщение Ypir не имеет содержания. Вам нужно добавить текст и медиа."
 
 #: ../../lib/app/components/telegram/bot/contact.js:188:27
 #, fuzzy
@@ -888,6 +881,18 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #, fuzzy, javascript-format
 #~ msgid "You are signed in as: ${n}"
 #~ msgstr "Вы вошли как: ${n}"
+
+#: ../../lib/app/components/telegram/bot/command.js:402:56
+#, fuzzy
+#~ msgid ""
+#~ "You can use these commands::\n"
+#~ msgstr ""
+#~ "Вы можете использовать эти команды::\n"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-message.js:191:33
+#, fuzzy
+#~ msgid "Ypir message has no content. You need to add text and media."
+#~ msgstr "Сообщение Ypir не имеет содержания. Вам нужно добавить текст и медиа."
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:224:28
 #, fuzzy

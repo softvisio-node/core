@@ -578,7 +578,7 @@ msgstr "Ви ввійшли як"
 #: ../../lib/app/components/telegram/bot/command.js:402:56
 #, fuzzy
 msgid ""
-"You can use these commands::\n"
+"You can use these commands:\n"
 msgstr ""
 "Ви можете використовувати ці команди:\n"
 
@@ -648,6 +648,11 @@ msgstr "Ваш запит на приєднання до групи відхил
 msgid "Your join request has been approved."
 msgstr "Ваш запит на приєднання схвалено."
 
+#: ../../lib/app/components/telegram/bot/commands/edit-message.js:191:33
+#, fuzzy
+msgid "Your message has no content. You need to add text and media."
+msgstr "Ваше повідомлення не має змісту. Потрібно додати текст і медіа."
+
 #: ../../lib/app/components/api/config.yaml
 msgid "Your password was just changed."
 msgstr "Ваш пароль щойно змінено."
@@ -659,11 +664,6 @@ msgstr "ваші налаштування"
 #: ../../lib/app/components/telegram/bot/commands/settings.js:18:19
 msgid "Your settings"
 msgstr "Ваші налаштування"
-
-#: ../../lib/app/components/telegram/bot/commands/edit-message.js:191:33
-#, fuzzy
-msgid "Ypir message has no content. You need to add text and media."
-msgstr "Повідомлення Ypir не має вмісту. Потрібно додати текст і медіа."
 
 #: ../../lib/app/components/telegram/bot/contact.js:188:27
 #, fuzzy
@@ -955,6 +955,18 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #, fuzzy, javascript-format
 #~ msgid "You are signed in as: ${n}"
 #~ msgstr "Ви ввійшли як: ${n}"
+
+#: ../../lib/app/components/telegram/bot/command.js:402:56
+#, fuzzy
+#~ msgid ""
+#~ "You can use these commands::\n"
+#~ msgstr ""
+#~ "Ви можете використовувати ці команди:\n"
+
+#: ../../lib/app/components/telegram/bot/commands/edit-message.js:191:33
+#, fuzzy
+#~ msgid "Ypir message has no content. You need to add text and media."
+#~ msgstr "Повідомлення Ypir не має вмісту. Потрібно додати текст і медіа."
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:224:28
 #, fuzzy
