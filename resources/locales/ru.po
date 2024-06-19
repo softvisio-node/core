@@ -386,28 +386,20 @@ msgstr "Войдите в бот \"${n}\";"
 msgid "Sign out"
 msgstr "Выйти"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
-#, fuzzy
-msgid "Some error occured, please try again."
-msgstr "Произошла ошибка, попробуйте еще раз."
-
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:339:43
-#, fuzzy
+#: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
 msgid "Some error occured. Please, try again."
 msgstr "Произошла какая-то ошибка. Пожалуйста, попробуйте еще раз."
 
 #: ../../lib/app/components/telegram/component.js:19:36
-#, fuzzy
 msgid "Telegram bot creator"
 msgstr "Создатель Telegram-бота"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:193:44
-#, fuzzy
 msgid "This email address is already used by the other user"
 msgstr "Этот адрес электронной почты уже используется другим пользователем"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:180:48
-#, fuzzy
 msgid "This email address is not registered"
 msgstr "Этот адрес электронной почты не зарегистрирован"
 
@@ -416,7 +408,6 @@ msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Это бот уведомлений. Он не поддерживает никаких дополнительных команд."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:214:24
-#, fuzzy
 msgid ""
 "To complete sign in, please, click on link which I just sent to your email address.\n"
 "If you didn't received emaul in several minutes you can send it again."
@@ -425,22 +416,19 @@ msgstr ""
 "Если вы не получили электронное письмо в течение нескольких минут, вы можете отправить его еще раз."
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:369:24
-#, fuzzy
 msgid "To reply, please, go to the chat."
 msgstr "Чтобы ответить, пожалуйста, зайдите в чат."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:206:24
-#, fuzzy
 msgid "To sign in, please, enter yoour email address"
 msgstr "Для входа, пожалуйста, введите свой адрес электронной почты"
 
 #: ../../lib/app/components/telegram-bot-external-chat/bot/commands/external-chat.js:32:24
-#, fuzzy
 msgid "To write me a message, please, go to the chat."
 msgstr "Чтобы написать мне сообщение, пожалуйста, зайдите в чат."
 
 #: ../../lib/app/components/api/config.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Use the following link to change your email address to ${n}:\n"
 "\n"
@@ -459,7 +447,7 @@ msgstr ""
 "Если вы получили это письмо по ошибке, просто проигнорируйте его.\n"
 
 #: ../../lib/app/components/api/config.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Use the following link to confirm your email:\n"
 "\n"
@@ -478,7 +466,7 @@ msgstr ""
 "Если вы получили это письмо по ошибке, просто проигнорируйте его.\n"
 
 #: ../../lib/app/components/api/config.yaml:4:16
-#, fuzzy, javascript-format
+#, javascript-format
 msgid ""
 "Use the following link to reset your password:\n"
 "\n"
@@ -509,10 +497,10 @@ msgstr "Посмотреть графики"
 #, fuzzy
 msgid ""
 "Write me a message.\n"
-"To exit chat use \"Start\" menu."
+"To exit chat use \"Menu\" button."
 msgstr ""
 "Напишите мне сообщение.\n"
-"Для выхода из чата используйте меню «Пуск»."
+"Для выхода из чата используйте кнопку «Меню»."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:262:20
 #, fuzzy
@@ -859,6 +847,10 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #~ msgstr "войдите в свой аккаунт"
 
 #: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
+#~ msgid "Some error occured, please try again."
+#~ msgstr "Произошла ошибка, попробуйте еще раз."
+
+#: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
 #, fuzzy
 #~ msgid "Some error occured, pleast try again."
 #~ msgstr "Произошла ошибка. Повторите попытку."
@@ -876,6 +868,16 @@ msgstr "Сообщение Ypir не имеет содержания. Вам н�
 #, fuzzy
 #~ msgid "To reply please go to the chat."
 #~ msgstr "Чтобы ответить, пожалуйста, зайдите в чат."
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:51:28
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:54:51
+#, fuzzy
+#~ msgid ""
+#~ "Write me a message.\n"
+#~ "To exit chat use \"Start\" menu."
+#~ msgstr ""
+#~ "Напишите мне сообщение.\n"
+#~ "Для выхода из чата используйте меню «Пуск»."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:257:24
 #, fuzzy, javascript-format

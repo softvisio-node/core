@@ -445,12 +445,8 @@ msgstr "Увійдіть до бота &quot;${n}&quot;."
 msgid "Sign out"
 msgstr "Вийти"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
-#, fuzzy
-msgid "Some error occured, please try again."
-msgstr "Сталася якась помилка, спробуйте ще раз."
-
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:339:43
+#: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
 #, fuzzy
 msgid "Some error occured. Please, try again."
 msgstr "Сталася якась помилка. Будь ласка спробуйте ще раз."
@@ -569,10 +565,10 @@ msgstr "Перегляд діаграм"
 #, fuzzy
 msgid ""
 "Write me a message.\n"
-"To exit chat use \"Start\" menu."
+"To exit chat use \"Menu\" button."
 msgstr ""
 "Напишіть мені повідомлення.\n"
-"Для виходу з чату використовуйте меню «Пуск»."
+"Щоб вийти з чату, скористайтеся кнопкою «Меню»."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:262:20
 #, fuzzy
@@ -917,6 +913,11 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 
 #: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
 #, fuzzy
+#~ msgid "Some error occured, please try again."
+#~ msgstr "Сталася якась помилка, спробуйте ще раз."
+
+#: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
+#, fuzzy
 #~ msgid "Some error occured, pleast try again."
 #~ msgstr "Сталася якась помилка, спробуйте ще раз."
 
@@ -934,6 +935,16 @@ msgstr "Повідомлення Ypir не має вмісту. Потрібно
 #, fuzzy
 #~ msgid "To reply please go to the chat."
 #~ msgstr "Щоб відповісти, перейдіть у чат."
+
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:51:28
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:54:51
+#, fuzzy
+#~ msgid ""
+#~ "Write me a message.\n"
+#~ "To exit chat use \"Start\" menu."
+#~ msgstr ""
+#~ "Напишіть мені повідомлення.\n"
+#~ "Для виходу з чату використовуйте меню «Пуск»."
 
 #: ../../lib/app/components/telegram/bot/commands/settings/account.js:257:24
 #, fuzzy, javascript-format
