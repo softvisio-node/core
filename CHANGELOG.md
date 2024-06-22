@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.84.25 (2024-06-22)
+
+Fixes:
+
+-   fix: resources
+
 ### 7.84.24 (2024-06-19)
 
 Fixes:
