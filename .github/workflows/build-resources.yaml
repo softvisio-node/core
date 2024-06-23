@@ -3,16 +3,18 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 12 * * *" # every day at 12:00
+
 jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/zerocluster/core
+      image: ghcr.io/zerocluster/node
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         MAXMIND_LICENSE_KEY: ${{ secrets.MAXMIND_LICENSE_KEY }}
     steps:
+      - uses: actions/checkout@v3
       - run: |
-          npm explore @softvisio/core -- npm run build
+          npm i --ignore-scripts
+          npm run build
         shell: bash
-        working-directory: /var/local/package
