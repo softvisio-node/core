@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.84.29 (2024-06-24)
+
+Fixes:
+
+-   fix: block user
+
 ### 7.84.28 (2024-06-23)
 
 Fixes:
