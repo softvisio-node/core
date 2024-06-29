@@ -7,17 +7,17 @@
         name:
           anyOf:
             - type: "null"
-            - { type: object, format: translation }
+            - { type: object, format: l10nt }
 
         description:
           anyOf:
             - type: "null"
-            - { type: object, format: translation }
+            - { type: object, format: l10nt }
 
         shortDescription:
           anyOf:
             - type: "null"
-            - { type: object, format: translation }
+            - { type: object, format: l10nt }
 
         locales:
           anyOf:

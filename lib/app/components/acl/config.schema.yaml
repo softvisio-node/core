@@ -20,8 +20,8 @@
             additionalProperties:
               type: object
               properties:
-                name: { type: object, format: translation }
-                description: { type: object, format: translation }
+                name: { type: object, format: l10nt }
+                description: { type: object, format: l10nt }
                 permissions: { type: array, items: { type: string }, format: kebab-case-glob-pattern, minItems: 1, uniqueItems: true }
 
               additionalProperties: false
@@ -37,8 +37,8 @@
                 additionalProperties:
                   type: object
                   properties:
-                    name: { type: object, format: translation }
-                    description: { type: object, format: translation }
+                    name: { type: object, format: l10nt }
+                    description: { type: object, format: l10nt }
                     roles:
                       anyOf:
                         - type: "null"
