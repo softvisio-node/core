@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.84.30 (2024-06-29)
+
+Fixes:
+
+-   fix: github actions schedule
+-   fix: http cookies
+-   fix: telegram bot component
+-   fix: telegram bot component config
+-   fix: typo
+
 ### 7.84.29 (2024-06-24)
 
 Fixes:
