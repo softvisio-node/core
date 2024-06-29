@@ -5,6 +5,10 @@ optionalDependencies: ~
 
 config:
   telegram:
+    name: !l10nt Project support bot
+    description: !l10nt Project support bot. For internal use only.
+    shortDescription: ~
+
     locales: [en-GB, en-US, ru-RU, uk-UA]
     signinRequired: true
     signupEnabled: true

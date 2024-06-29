@@ -4,6 +4,21 @@
     telegram:
       type: object
       properties:
+        name:
+          anyOf:
+            - type: "null"
+            - { type: object, format: translation }
+
+        description:
+          anyOf:
+            - type: "null"
+            - { type: object, format: translation }
+
+        shortDescription:
+          anyOf:
+            - type: "null"
+            - { type: object, format: translation }
+
         locales:
           anyOf:
             - type: "null"
@@ -35,6 +50,6 @@
         acl: { type: object }
 
       additionalProperties: false
-      required: [usersCacheMaxSize, groupsCacheMaxSize, channelsCacheMaxSize, messagesCacheMaxSize, contactsCacheMaxSize, signinRequired, signupEnabled, signoutEnabled]
+      required: [name, usersCacheMaxSize, groupsCacheMaxSize, channelsCacheMaxSize, messagesCacheMaxSize, contactsCacheMaxSize, signinRequired, signupEnabled, signoutEnabled]
 
   required: [telegram]

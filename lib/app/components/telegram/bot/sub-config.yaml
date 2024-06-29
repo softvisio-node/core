@@ -1,4 +1,8 @@
 telegram:
+  name: ~
+  description: ~
+  shortDescription: ~
+
   locales: ~
   defaultLocale: ~
 

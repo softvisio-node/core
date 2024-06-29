@@ -302,6 +302,14 @@ msgid "Project developer"
 msgstr "Разработчик проекта"
 
 #: ../../lib/app/components/telegram-support-bot/config.yaml
+msgid "Project support bot"
+msgstr "Бот поддержки проекта"
+
+#: ../../lib/app/components/telegram-support-bot/config.yaml
+msgid "Project support bot. For internal use only."
+msgstr "Бот поддержки проекта. Только для внутреннего использования."
+
+#: ../../lib/app/components/telegram-support-bot/config.yaml
 msgid "Read-only"
 msgstr "Только чтение"
 
