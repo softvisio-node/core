@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.84.31 (2024-06-29)
+
+Fixes:
+
+-   fix: ajv translation renamed to l10nt
+
 ### 7.84.30 (2024-06-29)
 
 Fixes:
