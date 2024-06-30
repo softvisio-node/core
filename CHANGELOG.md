@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.84.33 (2024-06-30)
+
+Fixes:
+
+-   fix: nginx lockl storage
+
 ### 7.84.32 (2024-06-30)
 
 Fixes:
