@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.84.34 (2024-06-30)
+
+Fixes:
+
+-   fix: app component name renamed to id
+
 ### 7.84.33 (2024-06-30)
 
 Fixes:
