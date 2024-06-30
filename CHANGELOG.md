@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.84.32 (2024-06-30)
+
+Fixes:
+
+-   fix: add nginx storage log
+-   fix: locale l10nt
+
 ### 7.84.31 (2024-06-29)
 
 Fixes:
