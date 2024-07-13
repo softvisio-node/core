@@ -56,14 +56,6 @@ methods:
               additionalProperties: false
               required: [oauth_provider, oauth_code, oauth_redirect_uri]
 
-            # telegram webapp
-            - type: object
-              properties:
-                telegram_bot_id: { type: integer }
-                telegram_webapp_init_data: { type: string }
-              additionalProperties: false
-              required: [telegram_bot_id, telegram_webapp_init_data]
-
   authorize:
     title: Authorize session
     permission: users
