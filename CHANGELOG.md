@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.84.36 (2024-07-15)
+
+Fixes:
+
+-   fix: ctx token
+-   fix: ctx user
+-   fix: telegram app
+-   fix: typo
+
 ### 7.84.35 (2024-06-30)
 
 Fixes:
