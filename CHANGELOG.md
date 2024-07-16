@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.84.37 (2024-07-16)
+
+Fixes:
+
+-   fix: telegram api user id
+
 ### 7.84.36 (2024-07-15)
 
 Fixes:
