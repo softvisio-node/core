@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.84.38 (2024-07-16)
+
+Fixes:
+
+-   fix: telegram settings
+
 ### 7.84.37 (2024-07-16)
 
 Fixes:
