@@ -109,7 +109,7 @@ msgstr "змінити мову спілкування"
 msgid "Change email"
 msgstr "Змінити email"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:226:40
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:227:40
 msgid "Change email address"
 msgstr "Змінити адресу електронної пошти"
 
@@ -141,7 +141,7 @@ msgstr "Команда невідома. Будь ласка, використо
 msgid "Confirm your email address"
 msgstr "Підтвердіть Вашу електронну адресу"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:136:32
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:137:32
 msgid "Confirmation link is not valid. Please, try again."
 msgstr "Посилання для підтвердження недійсне. Будь ласка спробуйте ще раз."
 
@@ -201,7 +201,7 @@ msgstr "Електронна пошта"
 msgid "Email address change"
 msgstr "Зміна електронної адреси"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:168:40
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:169:40
 msgid "Email address is not correct"
 msgstr "Адреса електронної пошти неправильна"
 
@@ -325,7 +325,7 @@ msgstr "Оновити"
 msgid "Security"
 msgstr "Безпека"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:220:40
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:221:40
 msgid "Send confirmation email again"
 msgstr "Ще раз надіслати електронний лист із підтвердженням"
 
@@ -389,7 +389,7 @@ msgstr "Показати на карті"
 msgid "Sign in to \"${n}\" bot"
 msgstr "Увійдіть до бота \"${n}\""
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:254:32
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:255:32
 msgid "Sign out"
 msgstr "Вийти"
 
@@ -402,11 +402,11 @@ msgstr "Сталася якась помилка. Будь ласка спроб
 msgid "Telegram bot creator"
 msgstr "Творець телеграм-бота"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:193:44
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:194:44
 msgid "This email address is already used by the other user"
 msgstr "Ця електронна адреса вже використовується іншим користувачем"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:180:48
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:181:48
 msgid "This email address is not registered"
 msgstr "Ця електронна адреса не зареєстрована"
 
@@ -414,7 +414,7 @@ msgstr "Ця електронна адреса не зареєстрована"
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:214:24
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:215:24
 msgid ""
 "To complete sign in, please, click on link which I just sent to your email address.\n"
 "If you didn't received emaul in several minutes you can send it again."
@@ -426,7 +426,7 @@ msgstr ""
 msgid "To reply, please, go to the chat."
 msgstr "Щоб відповісти, будь ласка, зайдіть в чат."
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:206:24
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:207:24
 msgid "To sign in, please, enter yoour email address"
 msgstr "Щоб увійти, будь ласка, введіть свою електронну адресу"
 
@@ -508,7 +508,7 @@ msgstr ""
 "Напишіть мені повідомлення.\n"
 "Щоб вийти з чату, скористайтеся кнопкою \"Меню\"."
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:262:20
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:263:20
 msgid "You are signed in as"
 msgstr "Ви ввійшли як"
 
@@ -549,7 +549,7 @@ msgstr ""
 "\n"
 "Якщо це були не ви, будь ласка, змініть свій пароль і видаліть цей сеанс із сеансів свого облікового запису.\n"
 
-#: ../../lib/app/components/telegram/bot/commands/settings/account.js:46:19
+#: ../../lib/app/components/telegram/bot/commands/settings/account.js:47:19
 msgid "your account"
 msgstr "ваш аккаунт"
 
