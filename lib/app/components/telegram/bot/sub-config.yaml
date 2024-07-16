@@ -15,7 +15,7 @@ telegram:
   webAppDomain: ~
 
   signinRequired: false
-  signupEnabled: true
+  signupEnabled: false
   signoutEnabled: true
 
   acl: {}
