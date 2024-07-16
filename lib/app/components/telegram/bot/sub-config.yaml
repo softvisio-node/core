@@ -16,6 +16,6 @@ telegram:
 
   signinRequired: false
   signupEnabled: true
-  signoutEnabled: false
+  signoutEnabled: true
 
   acl: {}
