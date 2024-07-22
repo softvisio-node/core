@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.84.40 (2024-07-22)
+
+Fixes:
+
+-   fix: encodeCallbackData
+-   fix: mime
+
 ### 7.84.39 (2024-07-22)
 
 Fixes:
