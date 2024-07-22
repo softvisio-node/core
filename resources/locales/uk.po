@@ -512,7 +512,7 @@ msgstr ""
 msgid "You are signed in as"
 msgstr "Ви ввійшли як"
 
-#: ../../lib/app/components/telegram/bot/command.js:402:56
+#: ../../lib/app/components/telegram/bot/command.js:394:56
 msgid ""
 "You can use these commands:\n"
 msgstr ""
