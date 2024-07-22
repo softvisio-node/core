@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.84.39 (2024-07-22)
+
+Fixes:
+
+-   fix: catch fetch errors
+-   fix: ctx user
+-   fix: mime
+-   fix: sql default direction
+-   fix: telegram context
+-   fix: user isAuthenticated
+
 ### 7.84.38 (2024-07-16)
 
 Fixes:
