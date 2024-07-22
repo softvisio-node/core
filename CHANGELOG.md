@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.84.41 (2024-07-22)
+
+Fixes:
+
+-   fix: svitlo
+-   fix: telegram
+
 ### 7.84.40 (2024-07-22)
 
 Fixes:
