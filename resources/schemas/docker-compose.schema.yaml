@@ -3,7 +3,6 @@
 type: object
 
 properties:
-  version: { type: [number] }
   name: { type: string }
 
   services:
