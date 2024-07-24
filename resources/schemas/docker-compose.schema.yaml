@@ -3,7 +3,7 @@
 type: object
 
 properties:
-  version: { const: "3.9" }
+  version: { type: [number] }
   name: { type: string }
 
   services:
@@ -185,5 +185,5 @@ properties:
         name: { type: string }
       required: [name]
 
-required: [version, services]
+required: [services]
 additionalProperties: false
