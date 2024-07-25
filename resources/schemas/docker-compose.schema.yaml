@@ -222,14 +222,17 @@
       type: object
       propertyNames: { type: string }
       additionalProperties:
-        type: object
-        properties:
-          driver: { type: string }
-          driver_opts: { type: object }
-          external: { type: boolean }
-          labels: { $ref: labels }
-          name: { type: string }
-        required: []
+        anyOf:
+          - type: "null"
+
+          - type: object
+            properties:
+              driver: { type: string }
+              driver_opts: { type: object }
+              external: { type: boolean }
+              labels: { $ref: labels }
+              name: { type: string }
+            required: []
 
   required: [services]
   additionalProperties: false
