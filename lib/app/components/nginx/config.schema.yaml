@@ -54,7 +54,7 @@
     localAddress:
       anyOf:
         - const: "unix:"
-        - { type: string, format: ip-address-port }
+        - { type: string, format: ip-address+port }
 
   additionalProperties: false
   required:

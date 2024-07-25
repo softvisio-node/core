@@ -193,7 +193,7 @@
                     gateway: { type: string, format: ip-address }
                     aux_addresses:
                       type: object
-                      propertyNames: { type: string, format: domain }
+                      propertyNames: { type: string, format: domain-name }
                       additionalProperties: { type: string, format: ip-address }
                   additionalProperties: false
               options: { type: object }
