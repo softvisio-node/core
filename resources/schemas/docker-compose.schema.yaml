@@ -172,8 +172,13 @@ properties:
     additionalProperties:
       type: object
       properties:
-        name: { enum: [host] }
+        name: { type: string }
         external: { type: boolean }
+        driver: { enum: [bridge, host, overlay, ipvlan, macvlan, none] }
+        driver_opts: { type: object }
+        attachable: { type: boolean }
+        internal: { type: boolean }
+        enable_ipv6: { type: boolean }
 
   volumes:
     type: object
