@@ -187,36 +187,39 @@
       type: object
       propertyNames: { type: string }
       additionalProperties:
-        type: object
-        properties:
-          name: { type: string }
-          external: { type: boolean }
-          driver: { enum: [bridge, host, overlay, ipvlan, macvlan, none] }
-          driver_opts: { type: object }
-          attachable: { type: boolean }
-          internal: { type: boolean }
-          enable_ipv6: { type: boolean }
-          labels: { $ref: labels }
-          ipam:
-            type: object
+        anyOf:
+          - type: "null"
+
+          - type: object
             properties:
+              name: { type: string }
+              external: { type: boolean }
               driver: { enum: [bridge, host, overlay, ipvlan, macvlan, none] }
-              config:
-                type: array
-                minItems: 1
-                items:
-                  type: object
-                  properties:
-                    subnet: { type: string, format: ip-subnet }
-                    ip_range: { type: string, format: ip-subnet }
-                    gateway: { type: string, format: ip-address }
-                    aux_addresses:
+              driver_opts: { type: object }
+              attachable: { type: boolean }
+              internal: { type: boolean }
+              enable_ipv6: { type: boolean }
+              labels: { $ref: labels }
+              ipam:
+                type: object
+                properties:
+                  driver: { enum: [bridge, host, overlay, ipvlan, macvlan, none] }
+                  config:
+                    type: array
+                    minItems: 1
+                    items:
                       type: object
-                      propertyNames: { type: string, format: domain-name }
-                      additionalProperties: { type: string, format: ip-address }
-                  additionalProperties: false
-              options: { type: object }
-            additionalProperties: false
+                      properties:
+                        subnet: { type: string, format: ip-subnet }
+                        ip_range: { type: string, format: ip-subnet }
+                        gateway: { type: string, format: ip-address }
+                        aux_addresses:
+                          type: object
+                          propertyNames: { type: string, format: domain-name }
+                          additionalProperties: { type: string, format: ip-address }
+                      additionalProperties: false
+                  options: { type: object }
+                additionalProperties: false
 
     volumes:
       type: object
