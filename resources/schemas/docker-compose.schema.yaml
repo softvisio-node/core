@@ -224,8 +224,12 @@
       additionalProperties:
         type: object
         properties:
+          driver: { type: string }
+          driver_opts: { type: object }
+          external: { type: boolean }
+          labels: { $ref: labels }
           name: { type: string }
-        required: [name]
+        required: []
 
   required: [services]
   additionalProperties: false
