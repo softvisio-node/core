@@ -3,6 +3,7 @@
 - $id: docker-compose
   type: object
   properties:
+    version: { type: string }
     name: { type: string }
 
     services:
