@@ -140,14 +140,31 @@
         anyOf:
           - type: object
             properties:
+              name: { type: string }
               file: { type: string }
             additionalProperties: false
             required: [file]
+
           - type: object
             properties:
+              name: { type: string }
+              environment: { type: string }
+            additionalProperties: false
+            required: [environment]
+
+          - type: object
+            properties:
+              name: { type: string }
+              content: { type: string }
+            additionalProperties: false
+            required: [content]
+
+          - type: object
+            properties:
+              name: { type: string }
               external: { const: true }
             additionalProperties: false
-            required: [file]
+            required: [external]
 
     secrets:
       type: object
@@ -159,11 +176,12 @@
               file: { type: string }
             additionalProperties: false
             required: [file]
+
           - type: object
             properties:
-              external: { const: true }
+              environment: { type: string }
             additionalProperties: false
-            required: [file]
+            required: [environment]
 
     networks:
       type: object
