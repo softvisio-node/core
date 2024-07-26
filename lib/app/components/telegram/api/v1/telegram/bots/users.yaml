@@ -23,7 +23,7 @@ methods:
               created: { type: string, sortable: true }
               last_activity: { type: string, sortable: true }
               subscribed: { type: boolean, operator: "=" }
-              banned: { type: boolean, operator: "=" }
+              enabled: { type: boolean, operator: "=" }
             order_by: [[username, asc]]
             limit: { maxLimit: 100 }
 
