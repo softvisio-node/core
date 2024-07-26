@@ -1,5 +1,21 @@
 # Changelog
 
+### 7.84.42 (2024-07-26)
+
+Fixes:
+
+-   fix: ajv domain format
+-   fix: catch fetch errors
+-   fix: catch telegram bots load
+-   fix: compose file version removed
+-   fix: ctx call
+-   fix: ctx is enabled
+-   fix: ctx.isRoot removed
+-   fix: docker compose schema
+-   fix: is banned
+-   fix: telegram users query
+-   fix: typo
+
 ### 7.84.41 (2024-07-22)
 
 Fixes:
