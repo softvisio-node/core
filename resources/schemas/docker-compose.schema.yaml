@@ -190,10 +190,17 @@
         anyOf:
           - type: "null"
 
+          # external
           - type: object
             properties:
               name: { type: string }
-              external: { type: boolean }
+              external: { const: true }
+            additionalProperties: false
+            required: [external]
+
+          - type: object
+            properties:
+              name: { type: string }
               driver: { enum: [bridge, host, overlay, ipvlan, macvlan, none] }
               driver_opts: { type: object }
               attachable: { type: boolean }
@@ -220,6 +227,7 @@
                       additionalProperties: false
                   options: { type: object }
                 additionalProperties: false
+            additionalProperties: false
 
     volumes:
       type: object
