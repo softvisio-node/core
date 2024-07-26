@@ -27,8 +27,8 @@ methods:
             order_by: [[username, asc]]
             limit: { maxLimit: 100 }
 
-  set-user-banned:
-    title: Set user banned
+  set-user-enabled:
+    title: Set user enabled
     permission: telegram/bot/users:update
     params:
       - name: teleram_bot_id
@@ -37,6 +37,6 @@ methods:
       - name: teleram_bot_user_id
         required: true
         schema: { type: integer, aclResolver: telegram-bot-user }
-      - name: banned
+      - name: enabled
         required: true
         schema: { type: boolean }
