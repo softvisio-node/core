@@ -1,11 +1,10 @@
 module: api
 type: postgresql
-patch: 1
+patch: 2
 
 emits:
   - api/token/delete # user_id
   - api/token/update
-  - api/token/enabled/update
 
   - api/session/delete # user_id
   - api/session/update
