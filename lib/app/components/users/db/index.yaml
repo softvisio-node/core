@@ -1,6 +1,6 @@
 module: users
 type: postgresql
-patch: ~
+patch: 1
 
 emits:
   - users/user/delete # user_id
