@@ -4,4 +4,4 @@ optionalDependencies: ~
 
 config:
   id: ~
-  apiUrl: ws://core:81/api
+  apiUrl: ws://cluster:81/api
