@@ -99,7 +99,7 @@ async function schema () {
 
     // XXX filter methods
 
-    console.log( res );
+    console.log( JSON.stringify( res, null, 4 ) );
 
     return res;
 }
@@ -115,7 +115,7 @@ async function call () {
 
     const res = await api.call( process.cli.arguments.method, ...args );
 
-    console.log( res );
+    console.log( JSON.stringify( res, null, 4 ) );
 
     return res;
 }
