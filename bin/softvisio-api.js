@@ -8,8 +8,7 @@ const CLI = {
     "globalOptions": {
         "url": {
             "description": "API url",
-
-            // "required": true,
+            "required": true,
             "schema": {
                 "type": "string",
             },
