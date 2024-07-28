@@ -1,5 +1,20 @@
 # Changelog
 
+### 7.85.0 (2024-07-28)
+
+Features:
+
+-   feat: events.link increaseMaxListeners
+
+Fixes:
+
+-   fix: app events
+-   fix: cluster api url
+-   fix: docker compose schema
+-   fix: telegram api connection
+-   fix: telegram user enabled
+-   fix: user update events
+
 ### 7.84.42 (2024-07-26)
 
 Fixes:
