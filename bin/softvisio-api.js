@@ -117,6 +117,14 @@ async function schema () {
             console.log( JSON.stringify( methods[ process.cli.arguments.method ], null, 4 ) );
         }
         else {
+            console.log( "Emits:\n" );
+
+            for ( const name of res.data.emits ) {
+                console.log( name );
+            }
+
+            console.log( "\nMetods:\n" );
+
             for ( const method of Object.values( methods ) ) {
                 console.log( `${ method.id }    ${ method.title }` );
             }
