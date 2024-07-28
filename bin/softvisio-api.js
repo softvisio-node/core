@@ -86,7 +86,9 @@ const api = new Api( url, {
 } );
 
 if ( process.cli.command === "schema" ) {
-    const res = await api.call( "get-schema" );
+    const res = await api.getSchema();
+
+    // XXX filter methods
 
     console.log( res );
 }
