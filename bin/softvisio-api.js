@@ -79,15 +79,32 @@ var res;
 
 // schema
 if ( process.cli.command === "schema" ) {
-    res = await api.call( "/get-schema" );
-
-    // XXX filter methods
-
-    console.log( res );
+    res = await schema();
 }
 
 // call
 else if ( process.cli.command === "call" ) {
+    res = await call();
+}
+
+if ( res.ok ) {
+    process.exit();
+}
+else {
+    process.exit( 1 );
+}
+
+async function schema () {
+    const res = await api.call( "/get-schema" );
+
+    // XXX filter methods
+
+    console.log( res );
+
+    return res;
+}
+
+async function call () {
     const args = [];
 
     if ( process.cli.arguments.argument ) {
@@ -96,14 +113,9 @@ else if ( process.cli.command === "call" ) {
         }
     }
 
-    res = await api.call( process.cli.arguments.method, ...args );
+    const res = await api.call( process.cli.arguments.method, ...args );
 
     console.log( res );
-}
 
-if ( !res.ok ) {
-    process.exit( 1 );
-}
-else {
-    process.exit();
+    return res;
 }
