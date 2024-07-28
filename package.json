@@ -73,6 +73,7 @@
         }
     },
     "bin": {
+        "call-api": "bin/call-api.js",
         "nenv": "bin/nenv.js"
     },
     "files": [
