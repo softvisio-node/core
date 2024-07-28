@@ -97,9 +97,31 @@ else {
 async function schema () {
     const res = await api.call( "/get-schema" );
 
-    // XXX filter methods
+    if ( !res.ok ) {
+        console.log( JSON.stringify( res, null, 4 ) );
+    }
+    else {
+        const methods = {};
 
-    console.log( JSON.stringify( res, null, 4 ) );
+        for ( const version of Object.keys( res.data.versions ).sort() ) {
+            for ( const module of Object.keys( res.data.versions[ version ] ).sort() ) {
+                for ( const methodId of Object.keys( res.data.versions[ version ][ module ].methods ).sort() ) {
+                    const method = res.data.versions[ version ][ module ].methods[ methodId ];
+
+                    methods[ method.id ] = method;
+                }
+            }
+        }
+
+        if ( process.cli.arguments.method && methods[ process.cli.arguments.method ] ) {
+            console.log( JSON.stringify( methods[ process.cli.arguments.method ], null, 4 ) );
+        }
+        else {
+            for ( const method of Object.values( methods ) ) {
+                console.log( `${ method.id }    ${ method.title }` );
+            }
+        }
+    }
 
     return res;
 }
