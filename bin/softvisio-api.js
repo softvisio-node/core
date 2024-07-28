@@ -67,6 +67,13 @@ const CLI = {
                         "type": "string",
                     },
                 },
+                "argument": {
+                    "description": "API method argument in JSON format",
+                    "schema": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                    },
+                },
             },
         },
     },
@@ -85,6 +92,7 @@ const api = new Api( url, {
     "token": process.cli.globalOptions.token,
 } );
 
+// schema
 if ( process.cli.command === "schema" ) {
     const res = await api.getSchema();
 
@@ -92,8 +100,18 @@ if ( process.cli.command === "schema" ) {
 
     console.log( res );
 }
+
+// call
 else if ( process.cli.command === "call" ) {
-    const res = await api.call( process.cli.arguments.method );
+    const args = [];
+
+    if ( process.cli.arguments.argument ) {
+        for ( const arg of process.cli.arguments.argument ) {
+            args.push( JSON.parse( arg ) );
+        }
+    }
+
+    const res = await api.call( process.cli.arguments.method, ...args );
 
     console.log( res );
 }
