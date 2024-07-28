@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.86.0 (2024-07-28)
+
+Features:
+
+-   feat: admin rpc
+-   feat: api cli
+
+Fixes:
+
+-   fix: cli
+
 ### 7.85.0 (2024-07-28)
 
 Features:
