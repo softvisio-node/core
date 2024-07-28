@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.86.1 (2024-07-28)
+
+Fixes:
+
+-   fix: api cli
+
 ### 7.86.0 (2024-07-28)
 
 Features:
