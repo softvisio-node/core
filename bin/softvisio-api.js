@@ -19,8 +19,9 @@ const CLI = {
             "description": "API url",
 
             // XXX
-            // "default": "http://127.0.0.1:81/api",
-            "required": true,
+            "default": "http://127.0.0.1:81/api",
+
+            // "required": true,
 
             "schema": {
                 "type": "string",
@@ -39,6 +40,14 @@ const CLI = {
             "description": "API token",
             "schema": {
                 "type": "string",
+            },
+        },
+        "json": {
+            "short": "j",
+            "description": "output in JSON format",
+            "default": false,
+            "schema": {
+                "type": "boolean",
             },
         },
     },
@@ -77,39 +86,27 @@ const CLI = {
     },
 };
 
-await Cli.parse( CLI );
+class ApiCli {
+    #url;
+    #version;
+    #token;
+    #json;
+    #_api;
 
-const api = new Api( process.cli.globalOptions.url, {
-    "version": process.cli.globalOptions[ "default-version" ],
-    "token": process.cli.globalOptions.token,
-} );
-
-var res;
-
-// schema
-if ( process.cli.command === "schema" ) {
-    res = await schema();
-}
-
-// call
-else if ( process.cli.command === "call" ) {
-    res = await call();
-}
-
-if ( res.ok ) {
-    process.exit();
-}
-else {
-    process.exit( 1 );
-}
-
-async function schema () {
-    const res = await api.call( "/get-schema" );
-
-    if ( !res.ok ) {
-        console.log( JSON.stringify( res, null, 4 ) );
+    constructor ( { url, version, token, json } ) {
+        this.#url = url;
+        this.#version = version;
+        this.#token = token;
+        this.#json = json;
     }
-    else {
+
+    // public
+    // XXX json
+    async schema ( method ) {
+        const res = await this.#api.call( "/get-schema" );
+
+        if ( !res.ok ) return this.#logError( res );
+
         const methods = {};
 
         for ( const version of Object.keys( res.data.versions ).sort() ) {
@@ -122,7 +119,7 @@ async function schema () {
             }
         }
 
-        if ( process.cli.arguments.method && methods[ process.cli.arguments.method ] ) {
+        if ( method && methods[ method ] ) {
             console.log( JSON.stringify( methods[ process.cli.arguments.method ], null, 4 ) );
         }
         else {
@@ -138,23 +135,71 @@ async function schema () {
                 console.log( `${ method.id }    ${ method.title }` );
             }
         }
+
+        return res;
     }
 
-    return res;
+    async call ( method, ...args ) {
+        const parans = [];
+
+        for ( const arg of args ) {
+            parans.push( JSON.parse( arg ) );
+        }
+
+        const res = await this.#api.call( method, ...parans );
+
+        if ( !res.ok ) return this.#logError( res );
+
+        console.log( JSON.stringify( res, null, 4 ) );
+
+        return res;
+    }
+
+    // private
+    #api () {
+        this.#_api ??= new Api( this.#url, {
+            "version": this.#version,
+            "token": this.#token,
+        } );
+
+        return this.#_api;
+    }
+
+    #logError ( res ) {
+        if ( res.ok ) return;
+
+        if ( this.#json ) {
+            console.log( JSON.stringify( res, null, 4 ) );
+        }
+        else {
+            console.log( res + "" );
+        }
+
+        return res;
+    }
 }
 
-async function call () {
-    const args = [];
+await Cli.parse( CLI );
 
-    if ( process.cli.arguments.argument ) {
-        for ( const arg of process.cli.arguments.argument ) {
-            args.push( JSON.parse( arg ) );
-        }
-    }
+const apiCli = new ApiCli( {
+    "url": process.cli.globalOptions.url,
+    "version": process.cli.globalOptions[ "default-version" ],
+    "token": process.cli.globalOptions.token,
+    "json": process.cli.globalOptions.json,
+} );
 
-    const res = await api.call( process.cli.arguments.method, ...args );
+var res;
 
-    console.log( JSON.stringify( res, null, 4 ) );
+if ( process.cli.command === "schema" ) {
+    res = await apiCli.schema( process.cli.arguments.method );
+}
+else if ( process.cli.command === "call" ) {
+    res = await apiCli.call( process.cli.arguments.method, ...process.cli.arguments.argument );
+}
 
-    return res;
+if ( res.ok ) {
+    process.exit();
+}
+else {
+    process.exit( 1 );
 }
