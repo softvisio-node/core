@@ -7,12 +7,12 @@ const CLI = {
     "title": "Core API client",
     "globalOptions": {
         "url": {
+            "description": "API url",
 
             // XXX
-            // "required": true,
+            // "default": "http://127.0.0.1:81/api",
+            "required": true,
 
-            "description": "API url",
-            "default": "http://127.0.0.1:81/api",
             "schema": {
                 "type": "string",
                 "format": "uri-whatwg",
