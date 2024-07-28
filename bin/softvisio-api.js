@@ -75,9 +75,11 @@ const api = new Api( process.cli.globalOptions.url, {
     "token": process.cli.globalOptions.token,
 } );
 
+var res;
+
 // schema
 if ( process.cli.command === "schema" ) {
-    const res = await api.call( "/get-schema" );
+    res = await api.call( "/get-schema" );
 
     // XXX filter methods
 
@@ -94,7 +96,14 @@ else if ( process.cli.command === "call" ) {
         }
     }
 
-    const res = await api.call( process.cli.arguments.method, ...args );
+    res = await api.call( process.cli.arguments.method, ...args );
 
     console.log( res );
+}
+
+if ( !res.ok ) {
+    process.exit( 1 );
+}
+else {
+    process.exit();
 }
