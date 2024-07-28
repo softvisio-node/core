@@ -13,7 +13,3 @@ commands:
   run:
     title: run application
     short: r
-
-  reset-root-password:
-    title: reset root user password
-    description: Set root password from the ".env" files and exit. If root password is not defined in environment it will be randomly generated.
