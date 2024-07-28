@@ -247,7 +247,7 @@ if ( process.cli.command === "schema" ) {
     res = await apiCli.schema( process.cli.arguments.method );
 }
 else if ( process.cli.command === "call" ) {
-    res = await apiCli.call( process.cli.arguments.method, ...process.cli.arguments.argument );
+    res = await apiCli.call( process.cli.arguments.method, ...( process.cli.arguments.argument || [] ) );
 }
 
 if ( res.ok ) {
