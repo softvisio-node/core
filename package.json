@@ -73,8 +73,8 @@
         }
     },
     "bin": {
-        "call-api": "bin/call-api.js",
-        "nenv": "bin/nenv.js"
+        "nenv": "bin/nenv.js",
+        "softvisio-api": "bin/softvisio-api.js"
     },
     "files": [
         "/bin",
