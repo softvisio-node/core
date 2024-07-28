@@ -18,11 +18,7 @@ const CLI = {
     "globalOptions": {
         "url": {
             "description": "API url",
-
-            // XXX
-            // "default": "http://127.0.0.1:81/api",
-            "required": true,
-
+            "default": "http://127.0.0.1:81/api",
             "schema": {
                 "type": "string",
                 "format": "uri-whatwg",
@@ -60,7 +56,7 @@ const CLI = {
     },
     "commands": {
         "schema": {
-            "title": "get API schema",
+            "title": "Get API schema",
             "arguments": {
                 "method": {
                     "description": "API method pattern",
@@ -72,7 +68,7 @@ const CLI = {
         },
 
         "call": {
-            "title": "make API call",
+            "title": "Make API call",
             "arguments": {
                 "method": {
                     "description": "API method",
