@@ -42,18 +42,34 @@ const CLI = {
                 },
             },
         },
+        "schema": {
+            "title": "get API schema",
+            "arguments": {
+                "method": {
+                    "description": "API method pattern",
+                    "schema": {
+                        "type": "string",
+                    },
+                },
+            },
+        },
     },
 };
 
 await Cli.parse( CLI );
 
-const url = new URL( process.cli.options.url, "http://" );
-
-const api = new Api( url, {
-    "version": process.cli.options[ "default-version" ],
-    "token": process.cli.options.token,
+const api = new Api( process.cli.globalOptions.url, {
+    "version": process.cli.globalOptions[ "default-version" ],
+    "token": process.cli.globalOptions.token,
 } );
 
-const res = await api.call( process.cli.arguments.method );
+if ( process.cli.command === "schema" ) {
+    const res = await api.call( "get-schema" );
 
-console.log( res );
+    console.log( res );
+}
+else if ( process.cli.command === "call" ) {
+    const res = await api.call( process.cli.arguments.method );
+
+    console.log( res );
+}
