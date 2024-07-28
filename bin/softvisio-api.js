@@ -226,7 +226,12 @@ class ApiCli {
 
     // XXX text / json
     #logMethod ( method ) {
-        console.log( JSON.stringify( method, null, 4 ) );
+        if ( this.#json ) {
+            console.log( JSON.stringify( method, null, 4 ) );
+        }
+        else {
+            console.log( JSON.stringify( method, null, 4 ) );
+        }
     }
 }
 
