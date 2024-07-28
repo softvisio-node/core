@@ -5,6 +5,15 @@ import Api from "#lib/api";
 
 const CLI = {
     "title": "Core API client",
+    "description": `
+# Connect to the docker stack:
+
+    docker run --rm -it --entrypoint=/bin/bash --network=<STACK-NETWORK-NAME> ghcr.io/zerocluster/cluster
+
+# Connect to the docker container:
+
+    docker exec -it <CONTAINER-ID> /bin/bash
+`.trim(),
     "globalOptions": {
         "url": {
             "description": "API url",
