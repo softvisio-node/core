@@ -8,7 +8,8 @@ const CLI = {
     "globalOptions": {
         "url": {
             "description": "API url",
-            "required": true,
+
+            // "required": true,
             "schema": {
                 "type": "string",
             },
@@ -29,23 +30,38 @@ const CLI = {
         },
     },
     "commands": {
-        "call": {
-            "title": "make API call",
+        "schema": {
+            "title": "get API schema",
             "arguments": {
-                "method": {
-                    "description": "API method",
+                "url": {
+                    "description": "API url",
                     "required": true,
+                    "schema": {
+                        "type": "string",
+                    },
+                },
+                "method": {
+                    "description": "API method pattern",
                     "schema": {
                         "type": "string",
                     },
                 },
             },
         },
-        "schema": {
-            "title": "get API schema",
+
+        "call": {
+            "title": "make API call",
             "arguments": {
+                "url": {
+                    "description": "API url",
+                    "required": true,
+                    "schema": {
+                        "type": "string",
+                    },
+                },
                 "method": {
-                    "description": "API method pattern",
+                    "description": "API method",
+                    "required": true,
                     "schema": {
                         "type": "string",
                     },
@@ -57,7 +73,13 @@ const CLI = {
 
 await Cli.parse( CLI );
 
-const api = new Api( process.cli.globalOptions.url, {
+var url = process.cli.arguments.url;
+
+if ( !url.startsWith( "http://" ) && !url.startsWith( "https://" ) && !url.startsWith( "ws://" ) && !url.startsWith( "wss://" ) ) {
+    url = "http://" + url;
+}
+
+const api = new Api( url, {
     "version": process.cli.globalOptions[ "default-version" ],
     "token": process.cli.globalOptions.token,
 } );
