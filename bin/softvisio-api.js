@@ -91,7 +91,7 @@ class ApiCli {
     #version;
     #token;
     #json;
-    #_api;
+    #api;
 
     constructor ( { url, version, token, json } ) {
         this.#url = url;
@@ -103,7 +103,7 @@ class ApiCli {
     // public
     // XXX json
     async schema ( method ) {
-        const res = await this.#api.call( "/get-schema" );
+        const res = await this.#getApi().call( "/get-schema" );
 
         if ( !res.ok ) return this.#logError( res );
 
@@ -146,7 +146,7 @@ class ApiCli {
             parans.push( JSON.parse( arg ) );
         }
 
-        const res = await this.#api.call( method, ...parans );
+        const res = await this.#getApi().call( method, ...parans );
 
         if ( !res.ok ) return this.#logError( res );
 
@@ -156,13 +156,13 @@ class ApiCli {
     }
 
     // private
-    #api () {
-        this.#_api ??= new Api( this.#url, {
+    #getApi () {
+        this.#api ??= new Api( this.#url, {
             "version": this.#version,
             "token": this.#token,
         } );
 
-        return this.#_api;
+        return this.#api;
     }
 
     #logError ( res ) {
