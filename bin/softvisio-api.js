@@ -19,9 +19,8 @@ const CLI = {
             "description": "API url",
 
             // XXX
-            "default": "http://127.0.0.1:81/api",
-
-            // "required": true,
+            // "default": "http://127.0.0.1:81/api",
+            "required": true,
 
             "schema": {
                 "type": "string",
