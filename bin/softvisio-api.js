@@ -6,10 +6,11 @@ import Api from "#lib/api";
 const CLI = {
     "title": "Core API client",
     "globalOptions": {
+
+        // XXX
         "url": {
             "description": "API url",
-
-            // "required": true,
+            "required": true,
             "schema": {
                 "type": "string",
             },
