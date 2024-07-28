@@ -3,6 +3,7 @@
 import Cli from "#lib/cli";
 import Api from "#lib/api";
 import { ansi, Table } from "#lib/text";
+import yaml from "#lib/yaml";
 
 const CLI = {
     "title": "Core API client",
@@ -220,13 +221,12 @@ class ApiCli {
         table.end();
     }
 
-    // XXX text / json
     #logMethod ( method ) {
         if ( this.#json ) {
             console.log( JSON.stringify( method, null, 4 ) );
         }
         else {
-            console.log( JSON.stringify( method, null, 4 ) );
+            console.log( yaml.stringify( method ) );
         }
     }
 }
