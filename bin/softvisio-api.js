@@ -41,6 +41,13 @@ const CLI = {
                 "type": "string",
             },
         },
+        "locale": {
+            "description": "API locale",
+            "schema": {
+                "type": "string",
+                "format": "locale",
+            },
+        },
         "json": {
             "short": "j",
             "description": "output in JSON format",
@@ -89,13 +96,15 @@ class ApiCli {
     #url;
     #version;
     #token;
+    #locale;
     #json;
     #api;
 
-    constructor ( { url, version, token, json } ) {
+    constructor ( { url, version, token, locale, json } ) {
         this.#url = url;
         this.#version = version;
         this.#token = token;
+        this.#locale = locale;
         this.#json = json;
     }
 
@@ -159,6 +168,7 @@ class ApiCli {
         this.#api ??= new Api( this.#url, {
             "version": this.#version,
             "token": this.#token,
+            "locale": this.#locale,
         } );
 
         return this.#api;
@@ -184,6 +194,7 @@ const apiCli = new ApiCli( {
     "url": process.cli.globalOptions.url,
     "version": process.cli.globalOptions[ "default-version" ],
     "token": process.cli.globalOptions.token,
+    "locale": process.cli.globalOptions.locale,
     "json": process.cli.globalOptions.json,
 } );
 
