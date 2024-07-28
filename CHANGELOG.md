@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.86.2 (2024-07-28)
+
+Fixes:
+
+-   fix: api cli
+-   fix: http resources
+-   fix: telegram api user update event
+
 ### 7.86.1 (2024-07-28)
 
 Fixes:
