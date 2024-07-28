@@ -77,7 +77,7 @@ const api = new Api( process.cli.globalOptions.url, {
 
 // schema
 if ( process.cli.command === "schema" ) {
-    const res = await api.getSchema();
+    const res = await api.call( "/get-schema" );
 
     // XXX filter methods
 
