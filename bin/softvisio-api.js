@@ -50,6 +50,7 @@ await Cli.parse( CLI );
 const url = new URL( process.cli.options.url, "http://" );
 
 const api = new Api( url, {
+    "version": process.cli.options[ "default-version" ],
     "token": process.cli.options.token,
 } );
 
