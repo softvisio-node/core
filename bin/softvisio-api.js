@@ -6,16 +6,18 @@ import Api from "#lib/api";
 const CLI = {
     "title": "Core API client",
     "globalOptions": {
-
-        // XXX
         "url": {
+
+            // XXX
+            // "required": true,
+
             "description": "API url",
-            "required": true,
+            "default": "http://127.0.0.1:81/api",
             "schema": {
                 "type": "string",
+                "format": "uri-whatwg",
             },
         },
-
         "default-version": {
             "short": "v",
             "description": "default API version",
@@ -35,13 +37,6 @@ const CLI = {
         "schema": {
             "title": "get API schema",
             "arguments": {
-                "url": {
-                    "description": "API url",
-                    "required": true,
-                    "schema": {
-                        "type": "string",
-                    },
-                },
                 "method": {
                     "description": "API method pattern",
                     "schema": {
@@ -54,13 +49,6 @@ const CLI = {
         "call": {
             "title": "make API call",
             "arguments": {
-                "url": {
-                    "description": "API url",
-                    "required": true,
-                    "schema": {
-                        "type": "string",
-                    },
-                },
                 "method": {
                     "description": "API method",
                     "required": true,
@@ -82,13 +70,7 @@ const CLI = {
 
 await Cli.parse( CLI );
 
-var url = process.cli.arguments.url;
-
-if ( !url.startsWith( "http://" ) && !url.startsWith( "https://" ) && !url.startsWith( "ws://" ) && !url.startsWith( "wss://" ) ) {
-    url = "http://" + url;
-}
-
-const api = new Api( url, {
+const api = new Api( process.cli.globalOptions.url, {
     "version": process.cli.globalOptions[ "default-version" ],
     "token": process.cli.globalOptions.token,
 } );
