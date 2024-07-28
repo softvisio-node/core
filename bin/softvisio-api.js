@@ -2,6 +2,7 @@
 
 import Cli from "#lib/cli";
 import Api from "#lib/api";
+import { ansi, Table } from "#lib/text";
 
 const CLI = {
     "title": "Core API client",
@@ -109,7 +110,6 @@ class ApiCli {
     }
 
     // public
-    // XXX json
     async schema ( method ) {
         const res = await this.#getApi().call( "/get-schema" );
 
@@ -117,6 +117,7 @@ class ApiCli {
 
         const methods = {};
 
+        // index methods
         for ( const version of Object.keys( res.data.versions ).sort() ) {
             for ( const module of Object.keys( res.data.versions[ version ] ).sort() ) {
                 for ( const methodId of Object.keys( res.data.versions[ version ][ module ].methods ).sort() ) {
@@ -128,19 +129,18 @@ class ApiCli {
         }
 
         if ( method && methods[ method ] ) {
-            console.log( JSON.stringify( methods[ process.cli.arguments.method ], null, 4 ) );
+            this.#logMethod( methods[ process.cli.arguments.method ] );
         }
         else {
-            console.log( "Emits:\n" );
-
-            for ( const name of res.data.emits ) {
-                console.log( name );
+            if ( this.#json ) {
+                console.log( JSON.stringify( res.data, null, 4 ) );
             }
+            else {
+                this.#logEmits( res.data.emits );
 
-            console.log( "\nMetods:\n" );
+                console.log( "" );
 
-            for ( const method of Object.values( methods ) ) {
-                console.log( `${ method.id }    ${ method.title }` );
+                this.#logMethods( Object.values( methods ) );
             }
         }
 
@@ -185,6 +185,48 @@ class ApiCli {
         }
 
         return res;
+    }
+
+    #logEmits ( emits ) {
+        console.log( "Emits:\n" );
+
+        for ( const name of emits ) {
+            console.log( name );
+        }
+    }
+
+    #logMethods ( methods ) {
+        console.log( "Methods:\n" );
+
+        const table = new Table( {
+            "console": true,
+            "lazy": true,
+            "style": "borderless",
+            "header": false,
+            "columns": {
+                "id": {
+                    "title": ansi.hl( "ID" ),
+                    "headerAlign": "left",
+                    "headerValign": "bottom",
+                },
+                "title": {
+                    "title": ansi.hl( "TITLE" ),
+                    "headerAlign": "left",
+                    "headerValign": "bottom",
+                },
+            },
+        } );
+
+        for ( const method of methods ) {
+            table.add( method );
+        }
+
+        table.end();
+    }
+
+    // XXX text / json
+    #logMethod ( method ) {
+        console.log( JSON.stringify( method, null, 4 ) );
     }
 }
 
