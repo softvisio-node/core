@@ -111,7 +111,7 @@ class ApiCli {
 
     // public
     async schema ( method ) {
-        const res = await this.#getApi().call( "/get-schema" );
+        const res = await this.#getApi().call( "/schema" );
 
         if ( !res.ok ) return this.#logError( res );
 
