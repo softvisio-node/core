@@ -8,13 +8,13 @@ const CLI = {
     "globalOptions": {
 
         // XXX
-        // "url": {
-        //     "description": "API url",
-        //     "required": true,
-        //     "schema": {
-        //         "type": "string",
-        //     },
-        // },
+        "url": {
+            "description": "API url",
+            "required": true,
+            "schema": {
+                "type": "string",
+            },
+        },
 
         "default-version": {
             "short": "v",
