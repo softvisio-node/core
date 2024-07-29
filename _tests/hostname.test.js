@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import test from "node:test";
+import { describe, test } from "node:test";
 import assert from "node:assert";
 import Hostname from "#lib/hostname";
 
@@ -31,20 +31,22 @@ const TESTS = [
     { "hostname": "zzz.fuck", "tld": "fuck", "isTld": false, "tldIsValid": false },
 ];
 
-for ( let n = 0; n < TESTS.length; n++ ) {
-    _test( n, TESTS[ n ] );
-}
-
-function _test ( id, spec ) {
-    const hostname = new Hostname( spec.hostname );
-
-    for ( const property in spec ) {
-        if ( property === "hostname" ) continue;
-
-        test( `${ id }-${ spec.hostname }-${ property }`, () => {
-            const res = hostname[ property ];
-
-            assert.strictEqual( res instanceof Hostname ? res.unicode : res, spec[ property ] );
-        } );
+describe( "hostname", () => {
+    for ( let n = 0; n < TESTS.length; n++ ) {
+        _test( n, TESTS[ n ] );
     }
-}
+
+    function _test ( id, spec ) {
+        const hostname = new Hostname( spec.hostname );
+
+        for ( const property in spec ) {
+            if ( property === "hostname" ) continue;
+
+            test( `${ id }-${ spec.hostname }-${ property }`, () => {
+                const res = hostname[ property ];
+
+                assert.strictEqual( res instanceof Hostname ? res.unicode : res, spec[ property ] );
+            } );
+        }
+    }
+} );
