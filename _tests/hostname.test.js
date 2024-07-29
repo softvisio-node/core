@@ -33,16 +33,14 @@ const TESTS = [
 
 suite( "hostname", () => {
     for ( let n = 0; n < TESTS.length; n++ ) {
-        _test( n, TESTS[ n ] );
-    }
+        const spec = TESTS[ n ];
 
-    function _test ( id, spec ) {
         const hostname = new Hostname( spec.hostname );
 
         for ( const property in spec ) {
             if ( property === "hostname" ) continue;
 
-            test( `${ id }-${ spec.hostname }-${ property }`, () => {
+            test( `${ n }-${ spec.hostname }-${ property }`, () => {
                 const res = hostname[ property ];
 
                 assert.strictEqual( res instanceof Hostname ? res.unicode : res, spec[ property ] );
