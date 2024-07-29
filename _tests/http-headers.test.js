@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import test from "node:test";
+import { suite, test } from "node:test";
 import assert from "node:assert";
 import Headers from "#lib/http/headers";
 import { camelToKebabCase } from "#lib/naming-conventions";
@@ -80,18 +80,20 @@ const TESTS = [
     },
 ];
 
-for ( let n = 0; n < TESTS.length; n++ ) {
-    const _test = TESTS[ n ],
-        id = `http-headers-${ camelToKebabCase( _test.method ) }-${ n }`;
+suite( "http", () => {
+    for ( let n = 0; n < TESTS.length; n++ ) {
+        const _test = TESTS[ n ],
+            id = `http-headers-${ camelToKebabCase( _test.method ) }-${ n }`;
 
-    test( `${ id }`, () => {
-        const headers = new Headers( _test.headers );
+        test( `${ id }`, () => {
+            const headers = new Headers( _test.headers );
 
-        const res = typeof headers[ _test.method ] === "function" ? headers[ _test.method ]() : headers[ _test.method ];
+            const res = typeof headers[ _test.method ] === "function" ? headers[ _test.method ]() : headers[ _test.method ];
 
-        // console.log( "expected:", JSON.stringify( _test.result, null, 4 ) );
-        // console.log( "result:", JSON.stringify( res, null, 4 ) );
+            // console.log( "expected:", JSON.stringify( _test.result, null, 4 ) );
+            // console.log( "result:", JSON.stringify( res, null, 4 ) );
 
-        assert.deepStrictEqual( res, _test.result );
-    } );
-}
+            assert.deepStrictEqual( res, _test.result );
+        } );
+    }
+} );
