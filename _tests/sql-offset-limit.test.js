@@ -30,7 +30,7 @@ suite( "sql", () => {
         test( `${ id }`, () => {
             const res = sql.calcOffsetLimit( ...spec.params );
 
-            console.log( JSON.stringify( res ) );
+            // console.log( JSON.stringify( res ) );
 
             assert.strictEqual( res.offset, spec.result.offset );
             assert.strictEqual( res.limit, spec.result.limit );
