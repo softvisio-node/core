@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { describe, test } from "node:test";
+import { suite, test } from "node:test";
 import assert from "node:assert";
 import Hostname from "#lib/hostname";
 
@@ -31,7 +31,7 @@ const TESTS = [
     { "hostname": "zzz.fuck", "tld": "fuck", "isTld": false, "tldIsValid": false },
 ];
 
-describe( "hostname", () => {
+suite( "hostname", () => {
     for ( let n = 0; n < TESTS.length; n++ ) {
         _test( n, TESTS[ n ] );
     }
