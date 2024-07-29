@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import test from "node:test";
+import { suite, test } from "node:test";
 import assert from "node:assert";
 import sql from "#lib/sql";
 
@@ -21,17 +21,19 @@ const TESTS = [
     { "params": [ 0, null, { "maxResults": 100, "defaultLimit": 0, "maxLimit": 0 } ], "result": { "offset": 0, "limit": 100 } },
 ];
 
-for ( let n = 0; n < TESTS.length; n++ ) _test( n );
+suite( "sql", () => {
+    for ( let n = 0; n < TESTS.length; n++ ) _test( n );
 
-function _test ( id ) {
-    const spec = TESTS[ id ];
+    function _test ( id ) {
+        const spec = TESTS[ id ];
 
-    test( `${ id }`, () => {
-        const res = sql.calcOffsetLimit( ...spec.params );
+        test( `${ id }`, () => {
+            const res = sql.calcOffsetLimit( ...spec.params );
 
-        console.log( JSON.stringify( res ) );
+            console.log( JSON.stringify( res ) );
 
-        assert.strictEqual( res.offset, spec.result.offset );
-        assert.strictEqual( res.limit, spec.result.limit );
-    } );
-}
+            assert.strictEqual( res.offset, spec.result.offset );
+            assert.strictEqual( res.limit, spec.result.limit );
+        } );
+    }
+} );
