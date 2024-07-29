@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { describe, test } from "node:test";
+import { suite, test } from "node:test";
 import assert from "node:assert";
 import _stream from "#lib/stream";
 
@@ -47,36 +47,39 @@ const READ_CHUNK = [
 
 const sleep = () => new Promise( resolve => setTimeout( resolve, 1 ) );
 
-// read line
-describe( "readline", () => {
-    for ( let n = 0; n < READ_LINE.length; n++ ) {
-        test( "read_line_" + n, async () => {
-            const data = READ_LINE[ n ];
+suite( "stream", () => {
 
-            const [ line, rest, exception ] = await readLine( data );
+    // read line
+    suite( "readline", () => {
+        for ( let n = 0; n < READ_LINE.length; n++ ) {
+            test( "read_line_" + n, async () => {
+                const data = READ_LINE[ n ];
 
-            assert.strictEqual( line, data.line );
+                const [ line, rest, exception ] = await readLine( data );
 
-            assert.strictEqual( rest, data.rest );
+                assert.strictEqual( line, data.line );
 
-            assert.strictEqual( !!exception, !!data.exception );
-        } );
-    }
-} );
+                assert.strictEqual( rest, data.rest );
 
-// read chunk
-describe( "readchunk", () => {
-    for ( let n = 0; n < READ_CHUNK.length; n++ ) {
-        test( "read_chunk_" + n, async () => {
-            const data = READ_CHUNK[ n ];
+                assert.strictEqual( !!exception, !!data.exception );
+            } );
+        }
+    } );
 
-            const [ line, rest ] = await readChunk( data );
+    // read chunk
+    suite( "readchunk", () => {
+        for ( let n = 0; n < READ_CHUNK.length; n++ ) {
+            test( "read_chunk_" + n, async () => {
+                const data = READ_CHUNK[ n ];
 
-            assert.strictEqual( line, data.line );
+                const [ line, rest ] = await readChunk( data );
 
-            assert.strictEqual( rest, data.rest );
-        } );
-    }
+                assert.strictEqual( line, data.line );
+
+                assert.strictEqual( rest, data.rest );
+            } );
+        }
+    } );
 } );
 
 async function readLine ( data ) {
