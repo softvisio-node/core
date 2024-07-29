@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.86.3 (2024-07-29)
+
+Fixes:
+
+-   fix: test refactor
+
 ### 7.86.2 (2024-07-28)
 
 Fixes:
