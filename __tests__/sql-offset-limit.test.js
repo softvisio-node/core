@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+import test from "node:test";
+import assert from "node:assert";
 import sql from "#lib/sql";
 
 const TESTS = [
@@ -27,7 +31,7 @@ function _test ( id ) {
 
         console.log( JSON.stringify( res ) );
 
-        expect( res.offset ).toBe( spec.result.offset );
-        expect( res.limit ).toBe( spec.result.limit );
+        assert.strictEqual( res.offset, spec.result.offset );
+        assert.strictEqual( res.limit, spec.result.limit );
     } );
 }

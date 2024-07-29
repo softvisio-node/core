@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+import { describe, test } from "node:test";
+import assert from "node:assert";
 import IpAddress from "#lib/ip/address";
 import IpRange from "#lib/ip/range";
 
@@ -26,7 +30,7 @@ describe( "addr", () => {
             test( `addr-${ _test.addr }-${ property }`, () => {
                 addr ??= new IpAddress( _test.addr );
 
-                expect( typeof addr[ property ] === "function" ? addr[ property ]() : addr[ property ] ).toBe( _test[ property ] );
+                assert.strictEqual( typeof addr[ property ] === "function" ? addr[ property ]() : addr[ property ], _test[ property ] );
             } );
         }
     }
@@ -61,7 +65,7 @@ describe( "range", () => {
             test( `range-${ _test.range }-${ property }`, () => {
                 range ??= new IpRange( ..._test.range );
 
-                expect( typeof range[ property ] === "function" ? range[ property ]() : range[ property ] ).toBe( _test[ property ] );
+                assert.strictEqual( typeof range[ property ] === "function" ? range[ property ]() : range[ property ], _test[ property ] );
             } );
         }
     }

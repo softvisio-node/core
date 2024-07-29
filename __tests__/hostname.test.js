@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+import test from "node:test";
+import assert from "node:assert";
 import Hostname from "#lib/hostname";
 
 const TESTS = [
@@ -40,7 +44,7 @@ function _test ( id, spec ) {
         test( `${ id }-${ spec.hostname }-${ property }`, () => {
             const res = hostname[ property ];
 
-            expect( res instanceof Hostname ? res.unicode : res ).toBe( spec[ property ] );
+            assert.strictEqual( res instanceof Hostname ? res.unicode : res, spec[ property ] );
         } );
     }
 }

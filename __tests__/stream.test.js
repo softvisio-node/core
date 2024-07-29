@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+import { describe, test } from "node:test";
+import assert from "node:assert";
 import _stream from "#lib/stream";
 
 const buffer = "12-34--56--78-90";
@@ -51,11 +55,11 @@ describe( "readline", () => {
 
             const [ line, rest, exception ] = await readLine( data );
 
-            expect( line ).toBe( data.line );
+            assert.strictEqual( line, data.line );
 
-            expect( rest ).toBe( data.rest );
+            assert.strictEqual( rest, data.rest );
 
-            expect( !!exception ).toBe( !!data.exception );
+            assert.strictEqual( !!exception, !!data.exception );
         } );
     }
 } );
@@ -68,9 +72,9 @@ describe( "readchunk", () => {
 
             const [ line, rest ] = await readChunk( data );
 
-            expect( line ).toBe( data.line );
+            assert.strictEqual( line, data.line );
 
-            expect( rest ).toBe( data.rest );
+            assert.strictEqual( rest, data.rest );
         } );
     }
 } );

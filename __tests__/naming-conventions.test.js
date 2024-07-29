@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+import test from "node:test";
+import assert from "node:assert";
 import * as namingConventions from "#lib/naming-conventions";
 
 const tests = {
@@ -80,7 +84,7 @@ const tests = {
 for ( const name in tests ) {
     for ( const _test of tests[ name ].tests ) {
         test( `${ name }_${ _test[ 0 ] }`, () => {
-            expect( namingConventions[ tests[ name ].method ]( _test[ 0 ], tests[ name ].options || {} ) ).toBe( _test[ 1 ] );
+            assert.strictEqual( namingConventions[ tests[ name ].method ]( _test[ 0 ], tests[ name ].options || {} ), _test[ 1 ] );
         } );
     }
 }

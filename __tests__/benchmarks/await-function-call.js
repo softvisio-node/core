@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+import bench from "#lib/benchmark";
+
 function test1 () {
     return 1;
 }

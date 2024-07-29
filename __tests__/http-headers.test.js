@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+import test from "node:test";
+import assert from "node:assert";
 import Headers from "#lib/http/headers";
 import { camelToKebabCase } from "#lib/naming-conventions";
 
@@ -85,9 +89,9 @@ for ( let n = 0; n < TESTS.length; n++ ) {
 
         const res = typeof headers[ _test.method ] === "function" ? headers[ _test.method ]() : headers[ _test.method ];
 
-        console.log( "expected:", JSON.stringify( _test.result, null, 4 ) );
-        console.log( "result:", JSON.stringify( res, null, 4 ) );
+        // console.log( "expected:", JSON.stringify( _test.result, null, 4 ) );
+        // console.log( "result:", JSON.stringify( res, null, 4 ) );
 
-        expect( res ).toStrictEqual( _test.result );
+        assert.deepStrictEqual( res, _test.result );
     } );
 }
