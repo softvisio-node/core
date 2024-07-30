@@ -1,5 +1,22 @@
 # Changelog
 
+### 7.87.0 (2024-07-30)
+
+Features:
+
+-   feat: linkedom
+-   feat: locale format list
+
+Fixes:
+
+-   fix: ajv formats
+-   fix: format duration
+-   fix: interval
+-   fix: telegram users cache
+-   fix: tests
+-   fix: user events
+-   fix: websocket max connections
+
 ### 7.86.3 (2024-07-29)
 
 Fixes:
