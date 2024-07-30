@@ -7,7 +7,7 @@ function test () {
 }
 
 const tests = {
-    sync () {
+    async sync () {
         return test();
     },
 
