@@ -2,13 +2,17 @@
 
 import benchmark from "#lib/benchmark";
 
+function test () {
+    return 1;
+}
+
 const tests = {
-    async [ "async" ] () {
-        return 1;
+    sync () {
+        return test();
     },
 
-    sync () {
-        return 1;
+    async [ "async" ] () {
+        return await test();
     },
 };
 
