@@ -2,7 +2,9 @@
 
 import benchmark from "#lib/benchmark";
 
-function test () {}
+function test () {
+    return 1;
+}
 
 const tests = {
     [ "no try / catch" ] () {
