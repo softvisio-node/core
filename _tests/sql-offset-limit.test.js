@@ -32,8 +32,8 @@ suite( "sql", () => {
 
             // console.log( JSON.stringify( res ) );
 
-            assert.strictEqual( res.offset, spec.result.offset );
-            assert.strictEqual( res.limit, spec.result.limit );
+            assert.equal( res.offset, spec.result.offset );
+            assert.equal( res.limit, spec.result.limit );
         } );
     }
 } );

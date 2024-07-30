@@ -93,7 +93,7 @@ suite( "http", () => {
             // console.log( "expected:", JSON.stringify( _test.result, null, 4 ) );
             // console.log( "result:", JSON.stringify( res, null, 4 ) );
 
-            assert.deepStrictEqual( res, _test.result );
+            assert.deepEqual( res, _test.result );
         } );
     }
 } );

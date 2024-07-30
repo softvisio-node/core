@@ -85,7 +85,7 @@ suite( "naming-conventions", () => {
     for ( const name in tests ) {
         for ( const _test of tests[ name ].tests ) {
             test( `${ name }_${ _test[ 0 ] }`, () => {
-                assert.strictEqual( namingConventions[ tests[ name ].method ]( _test[ 0 ], tests[ name ].options || {} ), _test[ 1 ] );
+                assert.equal( namingConventions[ tests[ name ].method ]( _test[ 0 ], tests[ name ].options || {} ), _test[ 1 ] );
             } );
         }
     }
