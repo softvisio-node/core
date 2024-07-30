@@ -11,8 +11,16 @@ const tests = {
         return test();
     },
 
-    async [ "async" ] () {
+    async [ "await" ] () {
         return await test();
+    },
+
+    async promise () {
+        return new Promise( resolve => {
+            test();
+
+            resolve();
+        } );
     },
 };
 
