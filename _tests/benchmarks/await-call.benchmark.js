@@ -11,16 +11,17 @@ async function test2 () {
 }
 
 const tests = {
-    async asyncCall () {
+    async [ "async" ] () {
         for ( let n = 0; n < 10; n++ ) await test2();
     },
 
-    syncCall () {
+    sync () {
         for ( let n = 0; n < 10; n++ ) test1();
     },
 };
 
-await benchmark( "Sync / async speed test", tests, {
+await benchmark( "Await speed test", tests, {
     "iterations": 1_000_000,
-    "time": 3,
+    "seconds": 3,
+    "threads": 1,
 } );
