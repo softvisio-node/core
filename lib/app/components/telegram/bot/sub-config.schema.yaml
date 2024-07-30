@@ -38,7 +38,7 @@
         webAppDomain:
           anyOf:
             - type: "null"
-            - { type: string, format: domain-name }
+            - { type: string, format: domain }
 
         signinRequired:
           anyOf:
