@@ -2,26 +2,23 @@
 
 import benchmark from "#lib/benchmark";
 
-function test1 () {
-    return 1;
-}
-
-async function test2 () {
-    return 1;
-}
+function test () {}
 
 const tests = {
-    async [ "async" ] () {
-        for ( let n = 0; n < 10; n++ ) await test2();
+    [ "no try / catch" ] () {
+        test();
     },
 
-    sync () {
-        for ( let n = 0; n < 10; n++ ) test1();
+    [ "try / catch" ] () {
+        try {
+            test();
+        }
+        catch ( e ) {}
     },
 };
 
 await benchmark( "Try / catch speed test", tests, {
-    "iterations": 1_000_000,
+    "iterations": 100_000_000,
     "seconds": 3,
     "threads": 1,
 } );
