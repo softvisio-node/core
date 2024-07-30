@@ -19,5 +19,7 @@ const t = {
 };
 
 await benchmark( t, {
-    "iterations": 1000000,
+
+    // "iterations": 10_000_000,
+    "time": 2,
 } );
