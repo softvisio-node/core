@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.87.2 (2024-08-01)
+
+Fixes:
+
+-   fix: docker depends_on
+
 ### 7.87.1 (2024-08-01)
 
 Fixes:
