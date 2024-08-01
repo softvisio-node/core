@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.87.1 (2024-08-01)
+
+Fixes:
+
+-   fix: lint
+
 ### 7.87.0 (2024-07-30)
 
 Features:
