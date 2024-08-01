@@ -40,7 +40,7 @@ msgid "Address"
 msgstr "Адрес"
 
 #: ../../lib/app/components/acl/config.yaml
-#: ../../lib/app/components/telegram/bot/sub-component.js:87:24
+#: ../../lib/app/components/telegram/bot/sub-component.js:85:24
 msgid "Administrator"
 msgstr "Администратор"
 
@@ -53,11 +53,11 @@ msgstr "Назад"
 msgid "back to the start"
 msgstr "вернуться к началу"
 
-#: ../../lib/app/components/telegram/bot/sub-component.js:88:31
+#: ../../lib/app/components/telegram/bot/sub-component.js:86:31
 msgid "Bot administrator. Full access, but can't delete bot."
 msgstr "Администратор бота. Полный доступ, но не может удалить бота."
 
-#: ../../lib/app/components/telegram/bot/sub-component.js:75:31
+#: ../../lib/app/components/telegram/bot/sub-component.js:73:31
 msgid "Bot owner"
 msgstr "Владелец бота"
 
@@ -212,7 +212,7 @@ msgstr "Адрес электронной почты неверен"
 msgid "field not specified"
 msgstr "поле не указано"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:374:40
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:373:40
 msgid "Go to the chat"
 msgstr "Перейти в чат"
 
@@ -227,7 +227,7 @@ msgid "Notes"
 msgstr "Примечания"
 
 #: ../../lib/app/components/telegram-bot-forum-chat/bot/commands/forum-chat.js:35:40
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:330:44
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:329:44
 msgid "Open chats"
 msgstr "Открытые чаты"
 
@@ -240,7 +240,7 @@ msgid "Open the chat"
 msgstr "Открыть чат"
 
 #: ../../lib/app/components/payments/component.js:32:36
-#: ../../lib/app/components/telegram/bot/sub-component.js:74:24
+#: ../../lib/app/components/telegram/bot/sub-component.js:72:24
 msgid "Owner"
 msgstr "Владелец"
 
@@ -393,7 +393,7 @@ msgstr "Войдите в бот \"${n}\""
 msgid "Sign out"
 msgstr "Выйти"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:339:43
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:338:43
 #: ../../lib/app/components/telegram/bot/commands/settings/locale.js:28:36
 msgid "Some error occured. Please, try again."
 msgstr "Произошла какая-то ошибка. Пожалуйста, попробуйте еще раз."
@@ -422,7 +422,7 @@ msgstr ""
 "Чтобы завершить вход, пожалуйста, нажмите на ссылку, которую я только что отправил на ваш адрес электронной почты.\n"
 "Если вы не получили электронное письмо в течение нескольких минут, вы можете отправить его еще раз."
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:369:24
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:368:24
 msgid "To reply, please, go to the chat."
 msgstr "Чтобы ответить, пожалуйста, зайдите в чат."
 
@@ -572,11 +572,11 @@ msgstr ""
 "\n"
 "Старый адрес электронной почты: ${n}\n"
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:350:43
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:349:43
 msgid "Your group join request has been declined."
 msgstr "Ваш запрос на вступление в группу был отклонен."
 
-#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:325:28
+#: ../../lib/app/components/telegram-bot-forum-chat/bot/forum-chat.js:324:28
 msgid "Your join request has been approved."
 msgstr "Ваш запрос на присоединение был одобрен."
 
