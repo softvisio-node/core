@@ -1,6 +1,6 @@
 # NOTE https://docs.docker.com/compose/compose-file/
 
-- $id: docker-compose
+- $id: compose
   type: object
   properties:
     version: { type: string }
