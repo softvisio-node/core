@@ -28,7 +28,7 @@ suite( "sql", () => {
         const spec = TESTS[ id ];
 
         test( `${ id }`, () => {
-            const res = sql.calcOffsetLimit( ...spec.params );
+            const res = sql.createOffsetLimit( ...spec.params );
 
             // console.log( JSON.stringify( res ) );
 
