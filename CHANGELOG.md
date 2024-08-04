@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.88.1 (2024-08-04)
+
+Fixes:
+
+-   fix: glob follow symlinks
+
 ### 7.88.0 (2024-08-04)
 
 Features:
