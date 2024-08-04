@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.88.0 (2024-08-04)
+
+Features:
+
+-   feat: openai api
+-   feat: sql cache
+
+Fixes:
+
+-   fix: load component config
+-   fix: nenv
+-   fix: nenv removed
+
 ### 7.87.4 (2024-08-01)
 
 Fixes:
