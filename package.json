@@ -73,6 +73,7 @@
         }
     },
     "bin": {
+        "nenv": "bin/nenv.js",
         "softvisio-api": "bin/softvisio-api.js"
     },
     "files": [
