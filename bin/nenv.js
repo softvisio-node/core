@@ -10,15 +10,21 @@ while ( process.argv.length ) {
 
     if ( arg === "--" ) break;
 
-    const idx = arg.indexOf( "=" );
-
-    if ( idx < 1 ) {
-        console.warn( `Invalid nenv agrument: ${ arg }` );
-
-        process.exit( 1 );
+    if ( arg === "--preserve-symlinks" ) {
+        process.env.NODE_PRESERVE_SYMLINKS = 1;
+        process.env.NODE_PRESERVE_SYMLINKS_MAIN = 1;
     }
+    else {
+        const idx = arg.indexOf( "=" );
 
-    process.env[ arg.substring( 0, idx ) ] = arg.substring( idx + 1 );
+        if ( idx < 1 ) {
+            console.warn( `Invalid nenv agrument: ${ arg }` );
+
+            process.exit( 1 );
+        }
+
+        process.env[ arg.substring( 0, idx ) ] = arg.substring( idx + 1 );
+    }
 }
 
 if ( !process.argv.length ) {
