@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.89.0 (2024-08-05)
+
+Features:
+
+-   feat: glob followSymlinks option
+
 ### 7.88.2 (2024-08-04)
 
 Fixes:
