@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.90.0 (2024-08-08)
+
+Features:
+
+-   feat: Temporal
+
+Fixes:
+
+-   fix: cron ported to Temporal
+-   fix: luxon removed
+
 ### 7.89.0 (2024-08-05)
 
 Features:
