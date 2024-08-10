@@ -1,5 +1,20 @@
 # Changelog
 
+### 7.91.0 (2024-08-10)
+
+Features:
+
+-   feat: api hasRef property
+-   feat: cron add support for random values
+-   feat: env.getUserEnv cache option
+-   feat: setTimeout for long intervals
+
+Fixes:
+
+-   fix: .softvisio-cli.yaml renamed to .cli.yaml
+-   fix: cron format renamed to expression
+-   fix: dns api
+
 ### 7.90.0 (2024-08-08)
 
 Features:
