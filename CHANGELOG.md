@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.92.0 (2024-08-10)
+
+Features:
+
+-   feat: env.isBrowser property
+-   feat: is-browser module
+
 ### 7.91.0 (2024-08-10)
 
 Features:
