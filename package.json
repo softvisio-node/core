@@ -59,6 +59,10 @@
             "browser": "./lib/_browser/form-data.js",
             "node": "./lib/form-data.js"
         },
+        "./is-browser": {
+            "browser": "./lib/_browser/is-browser.js",
+            "node": "./lib/is-browser.js"
+        },
         "./utils": {
             "browser": "./lib/_browser/utils.js",
             "node": "./lib/utils.js"
