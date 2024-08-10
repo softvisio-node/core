@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.92.1 (2024-08-10)
+
+Fixes:
+
+-   fix: typo
+
 ### 7.92.0 (2024-08-10)
 
 Features:
