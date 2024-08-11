@@ -13,7 +13,7 @@
 
       - type: object
         properties:
-          url: { type: strng, format: uri-whatwg }
+          url: { type: string, format: uri-whatwg }
           options:
             type: object
             properties:
