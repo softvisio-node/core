@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import childProcess from "child_process";
+import childProcess from "node:child_process";
 
 process.argv.shift();
 process.argv.shift();
