@@ -6,25 +6,23 @@
       - type: object
         properties:
           type: { type: string }
-          constructor: { type: array, minItems: 1 }
+          options: { type: array, minItems: 1 }
+
         additionalProperties: false
         required: [type]
 
       - type: object
         properties:
-          type: { const: api }
-          constructor:
-            type: array
-            items:
-              - { type: strng, format: uri-whatwg }
-              - type: object
-                properties:
-                  token: { type: string }
-                  persistent: { type: boolean }
-                  version: { type: integer, minimum: 1 }
-                  locale: { type: string, format: locale }
-                  maxConnections: { type: integer, minimum: 1 }
-                additionalProperties: false
+          url: { type: strng, format: uri-whatwg }
+          options:
+            type: object
+            properties:
+              token: { type: string }
+              persistent: { type: boolean }
+              version: { type: integer, minimum: 1 }
+              locale: { type: string, format: locale }
+              maxConnections: { type: integer, minimum: 1 }
+            additionalProperties: false
 
         additionalProperties: false
-        required: [type, constructor]
+        required: [url]
