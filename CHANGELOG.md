@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.93.0 (2024-08-12)
+
+Features:
+
+-   feat: app services
+-   feat: timers
+
+Fixes:
+
+-   fix: timeout.close()
+
 ### 7.92.1 (2024-08-10)
 
 Fixes:
