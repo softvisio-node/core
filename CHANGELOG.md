@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.93.1 (2024-08-14)
+
+Fixes:
+
+-   fix: public suffixes resource builder
+
 ### 7.93.0 (2024-08-12)
 
 Features:
