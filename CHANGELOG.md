@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.94.0 (2024-08-15)
+
+Features:
+
+-   feat: nginx http2 enabled
+
+Fixes:
+
+-   fix: google geotargets handle csv parsing error
+-   fix: public suffixes etag
+
 ### 7.93.1 (2024-08-14)
 
 Fixes:
