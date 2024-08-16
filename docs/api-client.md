@@ -1,14 +1,14 @@
 # API Client
 
-## Class: APIClient
+## Class: ApiClient
 
 ```javascript
-import API from "@softvisio/core/api";
+import Api from "@softvisio/core/api";
 
-const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 });
+const api = new Api("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 });
 ```
 
-### API.new( url, options )
+### new Api( url, options )
 
 -   `url` <string\> | <URL\> API server url. Under browser `url` can be relative and will be resolved relative to the `window.location`.
 -   `options?` <Object\> API options:
@@ -25,9 +25,9 @@ const api = API.new("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
         -   `method` <string\> Called RPC method name.
         -   `args` <Array\> RPC method arguments.
         -   Returns: <Result\> Must return instance of the <Result\>.
--   Returns: <APIClient\>
+-   Returns: <ApiClient\>
 
-Creates new <APIClient\> instance.
+Creates new <ApiClient\> instance.
 
 ### Event: "connect"
 
@@ -125,13 +125,13 @@ Publish event to the remote server.
 -   `method` <string\> API method name.
 -   `file` <File\> | <Object\> | <string\> File to upload. If <Object\> is passed it will be used as `options` for <File\> constructor. <string\> - file path.
 -   `...args` <any\> Additional arguments, that will be sent to the server together with the uploading file.
--   Returns: <APIClientUpload\>
+-   Returns: <ApiClientUpload\>
 
 Creates file upload object instance.
 
 ### api.getConnection()
 
--   Returns: <Promise\> Fullfils with <APIClientConnection\>.
+-   Returns: <Promise\> Fullfils with <ApiClientConnection\>.
 
 ### api.waitConnect()
 
@@ -141,17 +141,17 @@ Wait for at least one sebsockets connection will be established.
 
 ### api.ref()
 
--   Returns: <APIClient\> `this`.
+-   Returns: <ApiClient\> `this`.
 
 Ref websockets connectiona.
 
 ### api.unref()
 
--   Returns: <APIClient\> `this`.
+-   Returns: <ApiClient\> `this`.
 
 Unref websockets connectiona.
 
-## Class: APIClientUpload
+## Class: ApiClientUpload
 
 ```javascript
 const upload = api.upload("/v1/test/upload", File).on("progress", upload => console.log(upload.progressText));
@@ -161,7 +161,7 @@ const res = await upload.start();
 
 ### Event: "progress"
 
--   <APIClientUpload\> `this` instance.
+-   <ApiClientUpload\> `this` instance.
 
 Emitted when upload status changed.
 
@@ -231,7 +231,7 @@ Emitted when upload status changed.
 
 Aborts upload if it was not finished.
 
-## Class: APIClientConnection
+## Class: ApiClientConnection
 
 Implements the persistent websocket connection to the api server. You can not construct this object directly, it returned as result of [`api.getConnection()`](#getconnection) call.
 
@@ -260,7 +260,7 @@ Emitted on event from the server received.
 
 ### connection.api
 
--   Returns: <APIClient\> Parent API client instance.
+-   Returns: <ApiClient\> Parent API client instance.
 
 ### connection.isBrowser
 
@@ -324,123 +324,12 @@ Close this connection.
 
 ### connection.ref()
 
--   Returns: <APIClientConnection\> `this`.
+-   Returns: <ApiClientConnection\> `this`.
 
 Ref this connection socket.
 
 ### connection.unref()
 
--   Returns: <APIClientConnection\> `this`.
+-   Returns: <ApiClientConnection\> `this`.
 
 Unref this connection socket.
-
-## Class: APIServices
-
-```javascript
-import APIServices from "@softvisio/core/api/services";
-
-const services = new APIServices({
-    test: "wss://test.com/8080/rpc",
-});
-
-const res = await APIServices.call("test", "/v1/method");
-```
-
-### new APIServices( services )
-
--   `services?` <Object\>
-
-### Event: "connect"
-
--   `service` <string\> Connected service name.
-
-### Event: "disconnect"
-
--   `service` <string\> Disconnected service name.
-
-### Event: "event"
-
--   `service` <string\> Source service name.
--   `event` <string\> Remote event name.
--   `...args` <any\> Remote event arguments.
-
-### services.num
-
--   Returns: <integer\> Number of services.
-
-### services.addService( name, url, options )
-
--   `name` <string\> Service name.
--   `url` <string\> | <URL\> Service URL.
--   `options?` <Object\> Service options.
-
-### services.addServices( services )
-
--   `services` <Object\>:
-    -   Key: service name.
-    -   Value: service url or <Array\> [`url`, `options`].
-
-### services.addServicesFromEnv( options )
-
--   `options?` <Object\>
-    -   `prefix` <string\> **Default:** `APP_SERVICE_`.
-    -   `names` <string[]\> If defined, add only services, which names are enumerated.
-
-### services.getService( service )
-
--   `service` <string\> Service name.
--   Returns: <APIClient\> API client associated withe the given service name.
-
-### services.publish( services, name, ...args )
-
--   `services` <string\> | <string[]> Target services names.
--   `name` <string\> Event name.
--   `...args` <any\> Event arguments.
-
-Publish event to the remote services.
-
-### services.ping( service )
-
--   `service` <string\> Target service name.
--   Returns: <Promise\> Fullfils with the call <Result\>.
-
-### services.heathcheck( service )
-
--   `service` <string\> Target service name.
--   Returns: <Promise\> Fullfils with the call <Result\>.
-
-### services.call( service, method, ...args )
-
--   `service` <string\> Target service name.
--   `method` <string\> Remote method name.
--   `...args` <any\> Method arguments.
--   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
-
-### services.callVoid( service, method, ...args )
-
--   `service` <string\> Target service name.
--   `method` <string\> Remote method name.
--   `...args` <any\> Method arguments.
--   Returns: <undefined\>.
-
-### services.callCached( service, method, cache, ...args )
-
--   `service` <string\> Target service name.
--   `method` <string\> Remote method name.
--   `cache` <Object\> Cache options:
-    -   `key` <any\> Cache key.
-    -   `maxAge?` <integer\> Cache max age.
--   `...args` <any\> Method arguments.
--   Returns: <Promise\> Fullfils with the RPC method call <Result\>.
-
-### services.ref()
-
--   Returns: <APIServices\> `this`.
-
-Calls `ref()` on the added services.
-
-### services.unref()
-
--   Returns: <APIServices\> `this`.
-
-Calls `unref()` on the added services.

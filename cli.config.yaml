@@ -12,10 +12,9 @@ docs:
     ProxyClient:
     Blob: "/blob.md#Class: Blob"
     File: "/file.md#Class: File"
-    APIClient: "/api-client.md#Class: APIClient"
-    APIClientUpload: "/api-client.md#Class: APIClientUpload"
-    APIClientConnection: "/api-client.md#Class: APIClientConnection"
-    APIServices: "/api-client.md#Class: APIServices"
+    ApiClient: "/api-client.md#Class: ApiClient"
+    ApiClientUpload: "/api-client.md#Class: ApiClientUpload"
+    ApiClientConnection: "/api-client.md#Class: ApIClientConnection"
     TmpFile: "/tmp.md#Class: TmpFile"
     TmpDir: "/tmp.md#Class: TmpDir"
     DoublyLinkedList: "/doubly-linked-list.md"
