@@ -70,10 +70,6 @@
         "./uuid": {
             "browser": "./lib/_browser/uuid.js",
             "node": "./lib/uuid.js"
-        },
-        "./websocket": {
-            "browser": "./lib/_browser/websocket.js",
-            "node": "./lib/websocket.js"
         }
     },
     "bin": {
@@ -102,7 +98,6 @@
         "ajv-formats": "^3.0.0",
         "ajv-formats-draft2019": "^1.4.3",
         "ajv-keywords": "^5.0.0",
-        "bufferutil": "^4.0.3",
         "decimal.js": "^10.4.3",
         "ejs": "^3.1.5",
         "fast-xml-parser": "^4.2.2",
@@ -115,8 +110,7 @@
         "semver": "^7.3.7",
         "temporal-polyfill": "^0.2.5",
         "ua-parser-js": "^1.0.2",
-        "utf-8-validate": "^6.0.0",
-        "ws": "^8.0.0"
+        "undici": "^6.19.7"
     },
     "engines": {
         "node": ">=20.10.0",
