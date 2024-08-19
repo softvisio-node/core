@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.95.1 (2024-08-19)
+
+Fixes:
+
+-   fix: headers translation removed
+
 ### 7.95.0 (2024-08-19)
 
 Features:
