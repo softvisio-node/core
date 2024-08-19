@@ -120,7 +120,7 @@ Emitted on event from the server received.
 
 Publish event to the remote server.
 
-### api.upload( methos, file, ...args )
+### api.upload( method, file, ...args )
 
 -   `method` <string\> API method name.
 -   `file` <File\> | <Object\> | <string\> File to upload. If <Object\> is passed it will be used as `options` for <File\> constructor. <string\> - file path.
