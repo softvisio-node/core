@@ -1,5 +1,21 @@
 # Changelog
 
+### 7.95.0 (2024-08-19)
+
+Features:
+
+-   feat: Api checkCertificate option
+-   feat: fetch checkCertificate option
+-   feat: undici
+-   feat: undici fetch
+
+Fixes:
+
+-   fix: api client constructor
+-   fix: api client update to node websocket
+-   fix: benchmark async test
+-   fix: benchmark speed matrix
+
 ### 7.94.0 (2024-08-15)
 
 Features:
