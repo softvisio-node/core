@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.95.8 (2024-08-20)
+
+Fixes:
+
+-   fix: fetch error
+
 ### 7.95.7 (2024-08-20)
 
 No notable changes since the previous release.
