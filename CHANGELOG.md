@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.95.2 (2024-08-20)
+
+Fixes:
+
+-   fix: headers toHeaders()
+
 ### 7.95.1 (2024-08-19)
 
 Fixes:
