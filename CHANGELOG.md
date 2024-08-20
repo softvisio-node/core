@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.95.4 (2024-08-20)
+
+Fixes:
+
+-   fix: headers date
+
 ### 7.95.3 (2024-08-20)
 
 No notable changes since the previous release.
