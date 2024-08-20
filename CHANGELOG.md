@@ -1,5 +1,9 @@
 # Changelog
 
+### 7.95.9 (2024-08-20)
+
+No notable changes since the previous release.
+
 ### 7.95.8 (2024-08-20)
 
 Fixes:
