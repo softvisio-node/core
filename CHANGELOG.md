@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.95.6 (2024-08-20)
+
+Fixes:
+
+-   fix: headers original names
+
 ### 7.95.5 (2024-08-20)
 
 Fixes:
