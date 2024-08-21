@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.96.0 (2024-08-21)
+
+Features:
+
+-   feat: http server request body
+
+Fixes:
+
+-   fix: fetch user agent
+-   fix: github api timeout
+
 ### 7.95.9 (2024-08-20)
 
 No notable changes since the previous release.
