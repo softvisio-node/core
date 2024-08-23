@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.96.1 (2024-08-23)
+
+Fixes:
+
+-   fix: request hasBody()
+
 ### 7.96.0 (2024-08-21)
 
 Features:
