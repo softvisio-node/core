@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.97.0 (2024-08-25)
+
+Features:
+
+-   feat: add sql body number and bool support
+-   feat: sql postgres arrays
+
+Fixes:
+
+-   fix: assert.equal
+-   fix: google geotargets builder
+-   fix: sql error types
+
 ### 7.96.1 (2024-08-23)
 
 Fixes:
