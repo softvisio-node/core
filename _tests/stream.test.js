@@ -57,11 +57,11 @@ suite( "stream", () => {
 
                 const [ line, rest, exception ] = await readLine( data );
 
-                assert.equal( line, data.line );
+                assert.strictEqual( line, data.line );
 
-                assert.equal( rest, data.rest );
+                assert.strictEqual( rest, data.rest );
 
-                assert.equal( !!exception, !!data.exception );
+                assert.strictEqual( !!exception, !!data.exception );
             } );
         }
     } );
@@ -74,9 +74,9 @@ suite( "stream", () => {
 
                 const [ line, rest ] = await readChunk( data );
 
-                assert.equal( line, data.line );
+                assert.strictEqual( line, data.line );
 
-                assert.equal( rest, data.rest );
+                assert.strictEqual( rest, data.rest );
             } );
         }
     } );

@@ -31,7 +31,7 @@ suite( "ip", () => {
                 test( `address-${ _test.addr }-${ property }`, () => {
                     addr ??= new IpAddress( _test.addr );
 
-                    assert.equal( typeof addr[ property ] === "function" ? addr[ property ]() : addr[ property ], _test[ property ] );
+                    assert.strictEqual( typeof addr[ property ] === "function" ? addr[ property ]() : addr[ property ], _test[ property ] );
                 } );
             }
         }
@@ -66,7 +66,7 @@ suite( "ip", () => {
                 test( `range-${ _test.range }-${ property }`, () => {
                     range ??= new IpRange( ..._test.range );
 
-                    assert.equal( typeof range[ property ] === "function" ? range[ property ]() : range[ property ], _test[ property ] );
+                    assert.strictEqual( typeof range[ property ] === "function" ? range[ property ]() : range[ property ], _test[ property ] );
                 } );
             }
         }
