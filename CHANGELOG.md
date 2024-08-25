@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.97.1 (2024-08-25)
+
+Fixes:
+
+-   fix: export sql type functions
+
 ### 7.97.0 (2024-08-25)
 
 Features:
