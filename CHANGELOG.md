@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.97.2 (2024-08-26)
+
+Fixes:
+
+-   fix: external resources builder
+-   fix: google geotargets
+-   fix: sql types decoders
+
 ### 7.97.1 (2024-08-25)
 
 Fixes:
