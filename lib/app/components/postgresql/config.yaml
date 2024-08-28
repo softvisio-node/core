@@ -37,4 +37,5 @@ config:
       replicateFrom: sync
 
   settings:
+    maintenance_work_mem: 512MB
     # shared_preload_libraries: ~ # timescaledb
