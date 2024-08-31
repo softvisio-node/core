@@ -1,6 +1,6 @@
 module: monitoring
 type: postgresql
-patch: ~
+patch: 1
 
 emits: ~
 
