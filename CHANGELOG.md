@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.98.0 (2024-08-31)
+
+Features:
+
+-   feat: sql explain
+
+Fixes:
+
+-   fix: http headers
+-   fix: postgres maintenance_work_mem
+-   fix: sql types
+
 ### 7.97.2 (2024-08-26)
 
 Fixes:
