@@ -14,4 +14,4 @@ methods:
         schema: { type: integer }
       - name: period
         required: true
-        schema: { enum: [1 hour, 30 days] }
+        schema: { enum: [1 hour, 7 days, 30 days] }
