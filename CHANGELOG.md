@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.98.1 (2024-09-01)
+
+Fixes:
+
+-   fix: monitoring
+-   fix: worker thread url
+
 ### 7.98.0 (2024-08-31)
 
 Features:
