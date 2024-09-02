@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.98.2 (2024-09-02)
+
+Fixes:
+
+-   fix: docs config
+
 ### 7.98.1 (2024-09-01)
 
 Fixes:
