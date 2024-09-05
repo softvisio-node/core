@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.98.3 (2024-09-05)
+
+Fixes:
+
+-   fix: external resources builder cache
+-   fix: google geotargets
+
 ### 7.98.2 (2024-09-02)
 
 Fixes:
