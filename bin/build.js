@@ -33,11 +33,11 @@ const res = await ExternalResourceBuilder.build(
         Geolite2Asn,
         Geolite2City,
         Geolite2Country,
+        GoogleGeotargets,
         Http,
         PublicSuffixes,
         Subnets,
         Tld,
-        GoogleGeotargets,
     ],
     { "force": process.cli.options.force }
 );
