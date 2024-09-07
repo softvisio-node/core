@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.98.4 (2024-09-07)
+
+Fixes:
+
+-   fix: editor config
+
 ### 7.98.3 (2024-09-05)
 
 Fixes:
