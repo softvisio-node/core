@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.98.5 (2024-09-09)
+
+Fixes:
+
+-   fix: acme dns attempts set to 100
+-   fix: fetch preserve 407 status
+
 ### 7.98.4 (2024-09-07)
 
 Fixes:
