@@ -35,7 +35,7 @@ async function getHeaders ( url ) {
 
     // console.log( content );
 
-    const match = content.match( /{\s+"headers":(.+?\})/s );
+    const match = content.match( /{\s+"headers":(.+?})/s );
 
     const json = match[ 1 ].trim();
 
