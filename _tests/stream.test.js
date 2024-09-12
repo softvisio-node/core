@@ -96,7 +96,9 @@ async function readLine ( data ) {
 
     const rest = await stream.buffer();
 
-    return [ line, rest ? rest.toString() : rest, exception ];
+    return [ line, rest
+        ? rest.toString()
+        : rest, exception ];
 }
 
 async function readChunk ( data ) {

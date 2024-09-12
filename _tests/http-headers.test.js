@@ -88,7 +88,9 @@ suite( "http", () => {
         test( `${ id }`, () => {
             const headers = new Headers( _test.headers );
 
-            const res = typeof headers[ _test.method ] === "function" ? headers[ _test.method ]() : headers[ _test.method ];
+            const res = typeof headers[ _test.method ] === "function"
+                ? headers[ _test.method ]()
+                : headers[ _test.method ];
 
             // console.log( "expected:", JSON.stringify( _test.result, null, 4 ) );
             // console.log( "result:", JSON.stringify( res, null, 4 ) );

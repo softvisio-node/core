@@ -43,7 +43,9 @@ suite( "hostname", () => {
             test( `${ n }-${ spec.hostname }-${ property }`, () => {
                 const res = hostname[ property ];
 
-                assert.strictEqual( res instanceof Hostname ? res.unicode : res, spec[ property ] );
+                assert.strictEqual( res instanceof Hostname
+                    ? res.unicode
+                    : res, spec[ property ] );
             } );
         }
     }
