@@ -23,7 +23,7 @@ while ( process.argv.length ) {
             process.exit( 1 );
         }
 
-        process.env[ arg.substring( 0, idx ) ] = arg.substring( idx + 1 );
+        process.env[ arg.slice( 0, idx ) ] = arg.slice( idx + 1 );
     }
 }
 
