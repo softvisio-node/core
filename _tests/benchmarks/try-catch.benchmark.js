@@ -15,7 +15,7 @@ const tests = {
         try {
             test();
         }
-        catch ( e ) {}
+        catch {}
     },
 };
 
