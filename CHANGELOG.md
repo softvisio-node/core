@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.99.0 (2024-09-13)
+
+Features:
+
+-   feat: glob patterns .test()
+
+Fixes:
+
+-   fix: date validation
+
 ### 7.98.6 (2024-09-11)
 
 No notable changes since the previous release.
