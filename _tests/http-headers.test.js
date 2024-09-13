@@ -29,7 +29,7 @@ const TESTS = [
         },
     },
 
-    // set-cookkie
+    // set-cookie
     {
         "headers": {
             "set-cookie": `name=val; expires=Tue, 19-Jul-2022 12:53:28 GMT; path=/  ; domain = .google.com  ;Secure; HttpOnly; SameSite=none`,
