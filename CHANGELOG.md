@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.100.2 (2024-09-14)
+
+Fixes:
+
+-   fix: getRandomFreePort default host
+
 ### 7.100.1 (2024-09-14)
 
 Fixes:
