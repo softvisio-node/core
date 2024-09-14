@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.100.0 (2024-09-14)
+
+Features:
+
+-   feat: app
+
 ### 7.99.0 (2024-09-13)
 
 Features:
