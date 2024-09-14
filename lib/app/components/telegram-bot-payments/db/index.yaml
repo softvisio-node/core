@@ -1,9 +1,0 @@
-module: telegram-bot-payments
-type: postgresql
-patch: ~
-
-emits: ~
-
-locks: ~
-
-cron: ~

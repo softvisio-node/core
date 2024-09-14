@@ -1,9 +1,5 @@
 -   [Introduction](/)
 
-**Application**
-
--   [Application 🡢](/app/)
-
 **Modules**
 
 -   [API Client](/api-client.md)
