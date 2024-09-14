@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.100.1 (2024-09-14)
+
+Fixes:
+
+-   fix: translations removed
+
 ### 7.100.0 (2024-09-14)
 
 Features:
