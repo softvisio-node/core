@@ -34,6 +34,7 @@ if ( !process.argv.length ) {
 }
 
 const res = childProcess.spawnSync( process.argv.shift(), process.argv, {
+    "cwd": process.cwd(),
     "stdio": "inherit",
     "shell": true,
 } );
