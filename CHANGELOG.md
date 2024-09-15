@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.101.5 (2024-09-15)
+
+Fixes:
+
+-   fix: smtp connect
+
 ### 7.101.4 (2024-09-15)
 
 Fixes:
