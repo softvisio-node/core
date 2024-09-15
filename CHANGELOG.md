@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.101.1 (2024-09-15)
+
+Fixes:
+
+-   fix: preserve symlinks
+
 ### 7.101.0 (2024-09-15)
 
 Features:
