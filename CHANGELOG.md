@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.101.4 (2024-09-15)
+
+Fixes:
+
+-   fix: fetch default connect timeout
+
 ### 7.101.3 (2024-09-15)
 
 Fixes:
