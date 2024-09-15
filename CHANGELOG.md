@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.101.0 (2024-09-15)
+
+Features:
+
+-   feat: cli preserve symlinks
+
+Fixes:
+
+-   fix: fetch connect options
+
 ### 7.100.2 (2024-09-14)
 
 Fixes:
