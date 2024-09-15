@@ -5,14 +5,16 @@ import childProcess from "node:child_process";
 process.argv.shift();
 process.argv.shift();
 
+const env = {};
+
 while ( process.argv.length ) {
     const arg = process.argv.shift();
 
     if ( arg === "--" ) break;
 
     if ( arg === "--preserve-symlinks" ) {
-        process.env.NODE_PRESERVE_SYMLINKS = 1;
-        process.env.NODE_PRESERVE_SYMLINKS_MAIN = 1;
+        env.NODE_PRESERVE_SYMLINKS = 1;
+        env.NODE_PRESERVE_SYMLINKS_MAIN = 1;
     }
     else {
         const idx = arg.indexOf( "=" );
@@ -23,7 +25,7 @@ while ( process.argv.length ) {
             process.exit( 1 );
         }
 
-        process.env[ arg.slice( 0, idx ) ] = arg.slice( idx + 1 );
+        env[ arg.slice( 0, idx ) ] = arg.slice( idx + 1 );
     }
 }
 
@@ -35,8 +37,12 @@ if ( !process.argv.length ) {
 
 const res = childProcess.spawnSync( process.argv.shift(), process.argv, {
     "cwd": process.cwd(),
-    "stdio": "inherit",
+    "env": {
+        ...process.env,
+        ...env,
+    },
     "shell": true,
+    "stdio": "inherit",
 } );
 
 process.exit( res.status );
