@@ -1,0 +1,10 @@
+module: telegram-bot-external-chat
+type: postgresql
+patch: ~
+
+emits:
+  - telegram-bot-external-chat/update
+
+locks: ~
+
+cron: ~

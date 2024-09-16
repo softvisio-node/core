@@ -1,0 +1,12 @@
+dependencies: ~
+
+optionalDependencies: ~
+
+config:
+  address: 0.0.0.0
+  port: 81
+  exclusive: true
+  nginx:
+    maxBodySize: 10 MB
+    cacheEnabled: true
+    cacheBypass: false

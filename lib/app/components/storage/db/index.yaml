@@ -1,0 +1,9 @@
+module: storage
+type: postgresql
+patch: ~
+
+emits:
+  - storage/file/update
+  - storage/file/delete
+
+cron: ~

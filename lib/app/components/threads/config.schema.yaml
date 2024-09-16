@@ -1,0 +1,3 @@
+- $id: config
+  type: object
+  additionalProperties: false

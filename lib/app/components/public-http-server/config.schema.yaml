@@ -1,0 +1,44 @@
+- $id: config
+  type: object
+  properties:
+    address: { type: string, format: ip-address }
+    port: { type: integer, format: ip-port }
+    exclusive: { type: boolean }
+
+    setRealIpFrom:
+      anyOf:
+        - type: "null"
+        - type: array
+          items: { type: string, format: kebab-case }
+          minItems: 1
+          uniqueItems: true
+
+    realIpHeader:
+      anyOf:
+        - type: "null"
+        - enum: [x-real-ip, x-forwarded-for]
+
+    nginxApiUrl: { type: string, format: uri-whatwg }
+    nginxProxyName:
+      anyOf:
+        - type: "null"
+        - { type: string, fotmat: kebab-case }
+
+    nginx:
+      type: object
+      properties:
+        serverName:
+          anyOf:
+            - type: "null"
+            - { type: string, format: nginx-server-name }
+            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+
+        maxBodySize: { type: string, format: digital-size }
+        cacheEnabled: { type: boolean }
+        cacheBypass: { type: boolean }
+
+      additionalProperties: false
+      required: [serverName]
+
+  additionalProperties: false
+  required: [address, port, exclusive, nginx, nginxApiUrl]

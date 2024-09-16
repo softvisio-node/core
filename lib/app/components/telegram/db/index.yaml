@@ -1,0 +1,34 @@
+module: telegram
+type: postgresql
+patch: 4
+
+emits:
+  - telegram/telegram-client/create
+  - telegram/telegram-client/update
+  - telegram/telegram-client/delete
+
+  - telegram/telegram-bot/create
+  - telegram/telegram-bot/update
+  - telegram/telegram-bot/deleted/update
+
+  - telegram/telegram-bot-update/*/create
+
+  - telegram/telegram-user/update
+  - telegram/telegram-group/update
+  - telegram/telegram-channel/update
+
+  - telegram/telegram-bot-user/*/update
+  - telegram/telegram-bot-group/*/update
+  - telegram/telegram-bot-channel/*/update
+
+  - telegram/telegram-bot-message/*/update
+  - telegram/telegram-bot-message/*/delete
+
+  - telegram/telegram-bot-contact/*/update
+  - telegram/telegram-bot-contact/*/delete
+
+locks:
+  - telegram/telegram-client/create
+  - telegram/telegram-bot/create
+
+cron: ~

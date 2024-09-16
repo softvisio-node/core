@@ -1,0 +1,7 @@
+dependencies: ~
+
+optionalDependencies: ~
+
+config:
+  id: ~
+  apiUrl: ws://cluster:81/api

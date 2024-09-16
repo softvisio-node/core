@@ -1,0 +1,5 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Language-Team: \n"
+"X-Search-Path: /lib/**\n"
