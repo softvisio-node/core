@@ -5,7 +5,7 @@ Backend application framework.
 ## Install
 
 ```shell
-npm i @softvisio/app
+npm i @softvisio/core
 ```
 
 ## Usage
