@@ -1,5 +1,12 @@
 # Changelog
 
+### 7.101.9 (2024-09-17)
+
+Fixes:
+
+-   fix: websocket connection events
+-   fix: ws onDisconnect handler removed
+
 ### 7.101.8 (2024-09-16)
 
 No notable changes since the previous release.
