@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.102.0 (2024-09-20)
+
+Features:
+
+-   feat: open-url
+
 ### 7.101.9 (2024-09-17)
 
 Fixes:
