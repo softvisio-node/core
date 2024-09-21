@@ -63,6 +63,10 @@
             "browser": "./lib/_browser/is-browser.js",
             "node": "./lib/is-browser.js"
         },
+        "./numeric/numeric": {
+            "browser": "./lib/_browser/numeric/numeric.js",
+            "node": "./lib/numeric/numeric.js"
+        },
         "./utils": {
             "browser": "./lib/_browser/utils.js",
             "node": "./lib/utils.js"
