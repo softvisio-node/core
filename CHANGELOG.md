@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.103.0 (2024-09-22)
+
+Features:
+
+-   feat: math
+-   feat: numeric
+
+Fixes:
+
+-   fix: api onRpc -> onCall
+-   fix: sql types
+-   fix: uuid export
+
 ### 7.102.0 (2024-09-20)
 
 Features:
