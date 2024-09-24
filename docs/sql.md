@@ -11,7 +11,7 @@ import sql from "@softvisio/core/sql";
 ```javascript
 import sql from "@softvisio/core/sql";
 
-const dbh = await sql.new("pgsql://user:password@host");
+const dbh = sql.new("pgsql://user:password@host");
 ```
 
 ### SQLite
@@ -19,7 +19,7 @@ const dbh = await sql.new("pgsql://user:password@host");
 ```javascript
 import sql from "@softvisio/core/sql";
 
-const dbh = await sql.new("sqlite:");
+const dbh = sql.new("sqlite:");
 ```
 
 ## Class: sql.Query
