@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { suite, test } from "node:test";
-import assert from "node:assert";
+import { strictEqual } from "node:assert";
 import * as namingConventions from "#lib/naming-conventions";
 
 const tests = {
@@ -85,7 +85,7 @@ suite( "naming-conventions", () => {
     for ( const name in tests ) {
         for ( const _test of tests[ name ].tests ) {
             test( `${ name }_${ _test[ 0 ] }`, () => {
-                assert.strictEqual( namingConventions[ tests[ name ].method ]( _test[ 0 ], tests[ name ].options || {} ), _test[ 1 ] );
+                strictEqual( namingConventions[ tests[ name ].method ]( _test[ 0 ], tests[ name ].options || {} ), _test[ 1 ] );
             } );
         }
     }

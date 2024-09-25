@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { suite, test } from "node:test";
-import assert from "node:assert";
+import { deepStrictEqual } from "node:assert";
 import Headers from "#lib/http/headers";
 import { camelToKebabCase } from "#lib/naming-conventions";
 
@@ -95,7 +95,7 @@ suite( "http", () => {
             // console.log( "expected:", JSON.stringify( _test.result, null, 4 ) );
             // console.log( "result:", JSON.stringify( res, null, 4 ) );
 
-            assert.deepStrictEqual( res, _test.result );
+            deepStrictEqual( res, _test.result );
         } );
     }
 } );

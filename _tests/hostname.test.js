@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { suite, test } from "node:test";
-import assert from "node:assert";
+import { strictEqual } from "node:assert";
 import Hostname from "#lib/hostname";
 
 const TESTS = [
@@ -43,7 +43,7 @@ suite( "hostname", () => {
             test( `${ n }-${ spec.hostname }-${ property }`, () => {
                 const res = hostname[ property ];
 
-                assert.strictEqual( res instanceof Hostname
+                strictEqual( res instanceof Hostname
                     ? res.unicode
                     : res, spec[ property ] );
             } );

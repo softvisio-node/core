@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { suite, test } from "node:test";
-import assert from "node:assert";
+import { strictEqual } from "node:assert";
 import IpAddress from "#lib/ip/address";
 import IpRange from "#lib/ip/range";
 
@@ -31,7 +31,7 @@ suite( "ip", () => {
                 test( `address-${ _test.addr }-${ property }`, () => {
                     addr ??= new IpAddress( _test.addr );
 
-                    assert.strictEqual( typeof addr[ property ] === "function"
+                    strictEqual( typeof addr[ property ] === "function"
                         ? addr[ property ]()
                         : addr[ property ], _test[ property ] );
                 } );
@@ -68,7 +68,7 @@ suite( "ip", () => {
                 test( `range-${ _test.range }-${ property }`, () => {
                     range ??= new IpRange( ..._test.range );
 
-                    assert.strictEqual( typeof range[ property ] === "function"
+                    strictEqual( typeof range[ property ] === "function"
                         ? range[ property ]()
                         : range[ property ], _test[ property ] );
                 } );

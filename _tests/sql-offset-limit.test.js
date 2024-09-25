@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { suite, test } from "node:test";
-import assert from "node:assert";
+import { strictEqual } from "node:assert";
 import sql from "#lib/sql";
 
 const TESTS = [
@@ -32,8 +32,8 @@ suite( "sql", () => {
 
             // console.log( JSON.stringify( res ) );
 
-            assert.strictEqual( res.offset, spec.result.offset );
-            assert.strictEqual( res.limit, spec.result.limit );
+            strictEqual( res.offset, spec.result.offset );
+            strictEqual( res.limit, spec.result.limit );
         } );
     }
 } );

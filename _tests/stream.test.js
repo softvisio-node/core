@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { suite, test } from "node:test";
-import assert from "node:assert";
+import { strictEqual } from "node:assert";
 import _stream from "#lib/stream";
 
 const buffer = "12-34--56--78-90";
@@ -57,11 +57,11 @@ suite( "stream", () => {
 
                 const [ line, rest, exception ] = await readLine( data );
 
-                assert.strictEqual( line, data.line );
+                strictEqual( line, data.line );
 
-                assert.strictEqual( rest, data.rest );
+                strictEqual( rest, data.rest );
 
-                assert.strictEqual( !!exception, !!data.exception );
+                strictEqual( !!exception, !!data.exception );
             } );
         }
     } );
@@ -74,9 +74,9 @@ suite( "stream", () => {
 
                 const [ line, rest ] = await readChunk( data );
 
-                assert.strictEqual( line, data.line );
+                strictEqual( line, data.line );
 
-                assert.strictEqual( rest, data.rest );
+                strictEqual( rest, data.rest );
             } );
         }
     } );
