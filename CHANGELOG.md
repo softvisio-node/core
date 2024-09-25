@@ -1,5 +1,19 @@
 # Changelog
 
+### 7.104.0 (2024-09-25)
+
+Features:
+
+-   feat: sql add numeric support
+
+Fixes:
+
+-   fix: cli help
+-   fix: cli options
+-   fix: http resources
+-   fix: sql types
+-   fix: sql.new sync
+
 ### 7.103.0 (2024-09-22)
 
 Features:
