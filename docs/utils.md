@@ -24,17 +24,6 @@ import * as utils from "@softvisio/utils";
 -   `array` <Array\>
 -   Returns: <any\> Random array value.
 
-### utils.getRandomBigInt( min, max )
-
--   `min` <bigint\>
--   `max` <bigint\>
--   Returns: <bigint\> Random <bigint\> between `min` and `max`.
-
-### utils.getRandomWeight( weights )
-
--   `weights` <Object\> Object with any keys and <number\> values.
--   Returns: <any\> Random key, probabitily bases on provided weights.
-
 ### utils.objectIsPlain( object )
 
 -   `object` <Object\> Object to check.
