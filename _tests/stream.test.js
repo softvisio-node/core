@@ -52,7 +52,7 @@ suite( "stream", () => {
     // read line
     suite( "readline", () => {
         for ( let n = 0; n < READ_LINE.length; n++ ) {
-            test( "read_line_" + n, async () => {
+            test( n + "", async () => {
                 const data = READ_LINE[ n ];
 
                 const [ line, rest, exception ] = await readLine( data );
@@ -69,7 +69,7 @@ suite( "stream", () => {
     // read chunk
     suite( "readchunk", () => {
         for ( let n = 0; n < READ_CHUNK.length; n++ ) {
-            test( "read_chunk_" + n, async () => {
+            test( n + "", async () => {
                 const data = READ_CHUNK[ n ];
 
                 const [ line, rest ] = await readChunk( data );

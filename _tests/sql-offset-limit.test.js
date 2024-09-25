@@ -2,6 +2,7 @@
 
 import { suite, test } from "node:test";
 import { strictEqual } from "node:assert";
+
 import sql from "#lib/sql";
 
 const TESTS = [
@@ -22,18 +23,20 @@ const TESTS = [
 ];
 
 suite( "sql", () => {
-    for ( let n = 0; n < TESTS.length; n++ ) _test( n );
+    suite( "offset-limit", () => {
+        for ( let n = 0; n < TESTS.length; n++ ) _test( n );
 
-    function _test ( id ) {
-        const spec = TESTS[ id ];
+        function _test ( id ) {
+            const spec = TESTS[ id ];
 
-        test( `${ id }`, () => {
-            const res = sql.createOffsetLimit( ...spec.params );
+            test( `${ id }`, () => {
+                const res = sql.createOffsetLimit( ...spec.params );
 
-            // console.log( JSON.stringify( res ) );
+                // console.log( JSON.stringify( res ) );
 
-            strictEqual( res.offset, spec.result.offset );
-            strictEqual( res.limit, spec.result.limit );
-        } );
-    }
+                strictEqual( res.offset, spec.result.offset );
+                strictEqual( res.limit, spec.result.limit );
+            } );
+        }
+    } );
 } );

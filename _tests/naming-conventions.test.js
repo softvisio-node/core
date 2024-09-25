@@ -2,6 +2,7 @@
 
 import { suite, test } from "node:test";
 import { strictEqual } from "node:assert";
+
 import * as namingConventions from "#lib/naming-conventions";
 
 const tests = {

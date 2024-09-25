@@ -2,6 +2,7 @@
 
 import { suite, test } from "node:test";
 import { strictEqual } from "node:assert";
+
 import Hostname from "#lib/hostname";
 
 const TESTS = [

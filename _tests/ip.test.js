@@ -2,6 +2,7 @@
 
 import { suite, test } from "node:test";
 import { strictEqual } from "node:assert";
+
 import IpAddress from "#lib/ip/address";
 import IpRange from "#lib/ip/range";
 
@@ -28,7 +29,7 @@ suite( "ip", () => {
             for ( const property in _test ) {
                 if ( property === "addr" ) continue;
 
-                test( `address-${ _test.addr }-${ property }`, () => {
+                test( `${ _test.addr }-${ property }`, () => {
                     addr ??= new IpAddress( _test.addr );
 
                     strictEqual( typeof addr[ property ] === "function"
@@ -65,7 +66,7 @@ suite( "ip", () => {
             for ( const property in _test ) {
                 if ( property === "range" ) continue;
 
-                test( `range-${ _test.range }-${ property }`, () => {
+                test( `${ _test.range }-${ property }`, () => {
                     range ??= new IpRange( ..._test.range );
 
                     strictEqual( typeof range[ property ] === "function"
