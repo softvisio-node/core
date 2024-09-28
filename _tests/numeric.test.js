@@ -103,6 +103,14 @@ suite( "numeric", () => {
                 "constructor": [ "123.123456", { "precision": 4, "scale": 2 } ],
                 "result": null,
             },
+            {
+                "constructor": [ "123.129999", { "precision": 10, "scale": 2 } ],
+                "result": "123.13",
+            },
+            {
+                "constructor": [ "123.129999", { "precision": 10, "scale": 3 } ],
+                "result": "123.13",
+            },
         ];
 
         for ( let n = 0; n < tests.length; n++ ) {
