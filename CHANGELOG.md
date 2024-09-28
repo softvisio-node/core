@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.104.1 (2024-09-28)
+
+Fixes:
+
+-   fix: app cli options
+-   fix: geotargets
+-   fix: numeric props
+
 ### 7.104.0 (2024-09-25)
 
 Features:
