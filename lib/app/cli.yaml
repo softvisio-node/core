@@ -1,10 +1,10 @@
 globalOptions:
   service:
-    description: Application service name to run
+    description: application service name to run
     schema: { type: string, format: kebab-case }
 
   mode:
-    description: 'Set application mode. Set NODE_ENV variable. Allowed values: "production", "development"'
+    description: "Set application environment mode. Set NODE_ENV variable."
     schema:
       type: string
       enum: [production, development]
