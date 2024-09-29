@@ -10,7 +10,7 @@ function generateRandomIntegers ( { min, max, num, crypto, threshold = 0.03 } ) 
         stat = {};
 
     for ( let n = 0; n < num; n++ ) {
-        const value = Numeric.randomInteger( {
+        const value = Numeric.getRandomInt( {
             crypto,
             min,
             max,
