@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.104.2 (2024-09-29)
+
+Fixes:
+
+-   fix: numeric .toFixed() removed
+-   fix: numeric random
+-   fix: numeric random integer
+-   fix: numeric rounding
+-   fix: numeric valueof
+
 ### 7.104.1 (2024-09-28)
 
 Fixes:
