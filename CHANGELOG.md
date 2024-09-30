@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.105.0 (2024-09-30)
+
+Features:
+
+-   feat: Git.new()
+
 ### 7.104.2 (2024-09-29)
 
 Fixes:
