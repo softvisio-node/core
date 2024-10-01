@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.106.0 (2024-10-01)
+
+Features:
+
+-   feat: local.softvisio.ner certs
+
 ### 7.105.1 (2024-10-01)
 
 No notable changes since the previous release.
