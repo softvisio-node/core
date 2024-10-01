@@ -10,6 +10,7 @@ import PublicSuffixes from "#lib/external-resources/public-suffixes";
 import Subnets from "#lib/external-resources/subnets";
 import Tld from "#lib/external-resources/tld";
 import GoogleGeotargets from "#lib/external-resources/google-geotargets";
+import LocalSoftvisioNet from "#lib/external-resources/local.softvisio.net";
 
 const CLI = {
     "title": "Update resources",
@@ -35,6 +36,7 @@ const res = await ExternalResourceBuilder.build(
         Geolite2Country,
         GoogleGeotargets,
         Http,
+        LocalSoftvisioNet,
         PublicSuffixes,
         Subnets,
         Tld,
