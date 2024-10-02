@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.106.1 (2024-10-02)
+
+Fixes:
+
+-   fix: postgresql cluster upgrade
+
 ### 7.106.0 (2024-10-01)
 
 Features:
