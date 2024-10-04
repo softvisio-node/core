@@ -24,9 +24,6 @@ externalResources.add( "softvisio-node/core/resources/public-suffixes" );
 externalResources.add( "softvisio-node/core/resources/subnets" );
 externalResources.add( "softvisio-node/core/resources/tld" );
 
-const res = await externalResources.update( {
-    "force": process.cli.options.force,
-    "silent": false,
-} );
+const res = await externalResources.install();
 
 if ( !res.ok ) process.exit( 1 );
