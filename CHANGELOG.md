@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.107.0 (2024-10-04)
+
+Features:
+
+-   feat: ffmpeg resource
+-   feat: glob absolute
+-   feat: zip
+
 ### 7.106.3 (2024-10-02)
 
 Fixes:
