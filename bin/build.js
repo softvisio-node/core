@@ -11,6 +11,7 @@ import Subnets from "#lib/external-resources/subnets";
 import Tld from "#lib/external-resources/tld";
 import GoogleGeotargets from "#lib/external-resources/google-geotargets";
 import LocalSoftvisioNet from "#lib/external-resources/local.softvisio.net";
+import Ffmpeg from "#lib/external-resources/ffmpeg";
 
 const CLI = {
     "title": "Update resources",
@@ -31,6 +32,7 @@ const res = await ExternalResourceBuilder.build(
     [
 
         //
+        Ffmpeg,
         Geolite2Asn,
         Geolite2City,
         Geolite2Country,
