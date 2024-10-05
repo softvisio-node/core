@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import benchmark from "#lib/benchmark";
 import "#lib/result";
+import benchmark from "#lib/benchmark";
 
 const tests = {
     statusOnly () {

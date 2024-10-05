@@ -2,7 +2,6 @@
 
 import { strictEqual } from "node:assert";
 import { suite, test } from "node:test";
-
 import IpAddress from "#lib/ip/address";
 import IpRange from "#lib/ip/range";
 

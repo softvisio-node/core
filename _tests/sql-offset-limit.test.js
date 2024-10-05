@@ -2,7 +2,6 @@
 
 import { strictEqual } from "node:assert";
 import { suite, test } from "node:test";
-
 import sql from "#lib/sql";
 
 const TESTS = [

@@ -2,7 +2,6 @@
 
 import { deepStrictEqual } from "node:assert";
 import { suite, test } from "node:test";
-
 import Headers from "#lib/http/headers";
 import { camelToKebabCase } from "#lib/naming-conventions";
 
