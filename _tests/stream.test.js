@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { suite, test } from "node:test";
 import { strictEqual } from "node:assert";
+import { suite, test } from "node:test";
 import _stream from "#lib/stream";
 
 const buffer = "12-34--56--78-90";

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import Cli from "#lib/cli";
 import Api from "#lib/api";
+import Cli from "#lib/cli";
 import { ansi, Table } from "#lib/text";
 import yaml from "#lib/yaml";
 
