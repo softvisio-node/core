@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.107.1 (2024-10-09)
+
+Fixes:
+
+-   fix: cyclic deps
+-   fix: dependabot
+-   fix: install cli options
+-   fix: install script
+
 ### 7.107.0 (2024-10-04)
 
 Features:
