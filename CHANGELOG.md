@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.107.2 (2024-10-09)
+
+Fixes:
+
+-   fix: git push status
+
 ### 7.107.1 (2024-10-09)
 
 Fixes:
