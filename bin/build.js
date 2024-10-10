@@ -14,10 +14,10 @@ import Subnets from "#lib/external-resources/subnets";
 import Tld from "#lib/external-resources/tld";
 
 const CLI = {
-    "title": "Update resources",
+    "title": "Build resources",
     "options": {
         "force": {
-            "description": "Force build",
+            "description": "force build",
             "default": false,
             "schema": {
                 "type": "boolean",
