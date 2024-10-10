@@ -12,5 +12,5 @@ globalOptions:
 
 commands:
   run:
-    title: run application
+    title: Run application
     short: r
