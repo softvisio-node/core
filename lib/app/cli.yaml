@@ -1,15 +1,15 @@
 globalOptions:
   service:
-    description: application service name to run
+    description: Application service name to run
     schema: { type: string, format: kebab-case }
 
   mode:
-    description: "Set application environment mode. Set NODE_ENV variable."
+    description: Set application environment mode. Set NODE_ENV variable.
     schema:
       type: string
       enum: [production, development]
 
 commands:
   run:
-    title: run application
+    title: Run application
     short: r
