@@ -1,7 +1,7 @@
 # Introduction
 
 ```shell
-npm i @softvisio/core
+npm install @softvisio/core
 ```
 
 ## Usage

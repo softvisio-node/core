@@ -5,7 +5,7 @@ Link to the resources: [https://github.com/softvisio-node/core/releases/tag/reso
 ## Install
 
 ```shell
-npm i @softvisio/core
+npm install @softvisio/core
 ```
 
 ## Usage
