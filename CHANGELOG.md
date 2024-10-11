@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.108.0 (2024-10-11)
+
+Features:
+
+-   feat: git upstream .getCompareUrl()
+
+Fixes:
+
+-   fix: file tree write
+
+[Full list of the changes](https://github.com/softvisio-node/core/compare/v7.107.2...v7.108.0)
+
 ### 7.107.2 (2024-10-09)
 
 Fixes:
