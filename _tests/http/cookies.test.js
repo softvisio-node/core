@@ -12,6 +12,12 @@ const TESTS = [
         "name": `test1`,
         "value": ` test- \x04-;",\\ мама`,
     },
+    {
+        "name": "test1",
+    },
+    {
+        "value": "test1",
+    },
 ];
 
 suite( "http", () => {
