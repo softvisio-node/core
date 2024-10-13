@@ -22,10 +22,17 @@ const TESTS = [
             "cookie": `a=1; b = 2 ; c=  1=2 3   `,
         },
         "method": "cookie",
-        "result": {
-            "a": "1",
-            "b": "2",
-            "c": "1=2 3",
+        result ( res ) {
+            for ( const name in res ) res[ name ] = res[ name ].value;
+
+            deepStrictEqual(
+                {
+                    "a": "1",
+                    "b": "2",
+                    "c": "1=2 3",
+                },
+                res
+            );
         },
     },
 
@@ -35,18 +42,27 @@ const TESTS = [
             "set-cookie": `name=val; expires=Tue, 19-Jul-2022 12:53:28 GMT; path=/  ; domain = .google.com  ;Secure; HttpOnly; SameSite=none`,
         },
         "method": "setCookie",
-        "result": [
-            {
-                "name": `name`,
-                "value": `val`,
-                "expires": new Date( `Tue, 19-Jul-2022 12:53:28 GMT` ),
-                "path": `/`,
-                "domain": `.google.com`,
-                "secure": true,
-                "httpOnly": true,
-                "sameSite": "none",
-            },
-        ],
+        result ( res ) {
+            res = res.map( cookie => cookie.toJSON() );
+
+            deepStrictEqual(
+                [
+                    {
+                        "name": `name`,
+                        "value": `val`,
+                        "maxAge": undefined,
+                        "expires": new Date( `Tue, 19-Jul-2022 12:53:28 GMT` ),
+                        "path": `/`,
+                        "domain": `google.com`,
+                        "secure": true,
+                        "httpOnly": true,
+                        "sameSite": "none",
+                        "partitioned": false,
+                    },
+                ],
+                res
+            );
+        },
     },
 
     // www-authenticate
@@ -96,7 +112,12 @@ suite( "http", () => {
                 // console.log( "expected:", JSON.stringify( _test.result, null, 4 ) );
                 // console.log( "result:", JSON.stringify( res, null, 4 ) );
 
-                deepStrictEqual( res, _test.result );
+                if ( typeof _test.result === "function" ) {
+                    _test.result( res );
+                }
+                else {
+                    deepStrictEqual( res, _test.result );
+                }
             } );
         }
     } );
