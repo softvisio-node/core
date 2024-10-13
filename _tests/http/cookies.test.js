@@ -10,7 +10,7 @@ import { sleep } from "#lib/utils";
 const TESTS = [
     {
         "name": `test1`,
-        "value": ` test- \x04-;",\\ `,
+        "value": ` test- \x04-;",\\ мама`,
     },
 ];
 
@@ -61,5 +61,5 @@ async function testCookies ( cookie ) {
         } );
     } );
 
-    strictEqual( cookie.value, headers.cookie[ cookie.name ]?.value );
+    strictEqual( headers.cookie[ cookie.name ]?.value, cookie.value );
 }
