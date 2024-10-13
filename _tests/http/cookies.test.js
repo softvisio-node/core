@@ -44,7 +44,7 @@ async function testCookies ( cookie ) {
 
                 await server.stop();
 
-                await sleep( 1 );
+                await sleep( 10 );
 
                 resolve( req.headers );
             }
@@ -60,6 +60,8 @@ async function testCookies ( cookie ) {
         } );
 
         server.start().then( res => {
+            if ( !res.ok ) throw res + "";
+
             browser = new Browser( "http://local.softvisio.net/", {
                 "incognito": true,
                 "headless": true,
