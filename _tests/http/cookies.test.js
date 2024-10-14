@@ -3,6 +3,7 @@
 import { strictEqual } from "node:assert";
 import { suite, test } from "node:test";
 import Browser from "#lib/browser";
+import fetch from "#lib/fetch";
 import Cookie from "#lib/http/cookie";
 import Server from "#lib/http/server";
 import { sleep } from "#lib/utils";
@@ -27,15 +28,25 @@ const TESTS = [
 
 suite( "http", () => {
     suite( "cookies", () => {
-        for ( let n = 0; n < TESTS.length; n++ ) {
-            test( n + "", async () => {
-                await testCookies( TESTS[ n ] );
-            } );
-        }
+        suite( "browser", () => {
+            for ( let n = 0; n < TESTS.length; n++ ) {
+                test( n + "", async () => {
+                    await testCookies( TESTS[ n ], true );
+                } );
+            }
+        } );
+
+        suite( "fetch", () => {
+            for ( let n = 0; n < TESTS.length; n++ ) {
+                test( n + "", async () => {
+                    await testCookies( TESTS[ n ], false );
+                } );
+            }
+        } );
     } );
 } );
 
-async function testCookies ( cookie ) {
+async function testCookies ( cookie, useBrowser ) {
     cookie = Cookie.new( cookie );
 
     const headers = await new Promise( resolve => {
@@ -45,11 +56,11 @@ async function testCookies ( cookie ) {
             if ( req.url.searchParams?.has( "done" ) ) {
                 await req.end();
 
-                browser.close();
+                browser?.close();
 
                 await server.stop();
 
-                await sleep( 10 );
+                await sleep( 5 );
 
                 resolve( req.headers );
             }
@@ -67,10 +78,19 @@ async function testCookies ( cookie ) {
         server.start().then( res => {
             if ( !res.ok ) throw res + "";
 
-            browser = new Browser( "http://local.softvisio.net/", {
-                "incognito": true,
-                "headless": true,
-            } );
+            const url = "http://local.softvisio.net/";
+
+            if ( useBrowser ) {
+                browser = new Browser( url, {
+                    "incognito": true,
+                    "headless": true,
+                } );
+            }
+            else {
+                fetch( url, {
+                    "cookies": true,
+                } );
+            }
         } );
     } );
 
