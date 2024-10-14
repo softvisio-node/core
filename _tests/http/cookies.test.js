@@ -75,10 +75,10 @@ async function testCookies ( cookie, useBrowser ) {
             }
         } );
 
-        server.start().then( res => {
+        server.start( { "port": 0 } ).then( async res => {
             if ( !res.ok ) throw res + "";
 
-            const url = "http://localhost/";
+            const url = `http://localhost:${ res.data.port }/`;
 
             if ( useBrowser ) {
                 browser = new Browser( url, {
@@ -87,9 +87,9 @@ async function testCookies ( cookie, useBrowser ) {
                 } );
             }
             else {
-                fetch( url, {
+                await fetch( url, {
                     "cookies": true,
-                } ).then( res => console.log( "---", res + "" ) );
+                } );
             }
         } );
     } );
