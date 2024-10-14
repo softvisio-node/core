@@ -1,23 +1,32 @@
 #!/usr/bin/env node
 
-import playwright from "file:///d:/projects/softvisio-node/playwright/lib/index.js";
+import Browser from "#lib/browser";
 import * as config from "#lib/config";
+import externalResources from "#lib/external-resources";
+import Server from "#lib/http/server";
+import Interval from "#lib/interval";
+import { sleep } from "#lib/utils";
 
-const browser = await playwright.chromium.launch( {
+const resource = await externalResources.add( "softvisio-node/core/resources/local.softvisio.net" ).check();
 
-    // "headless": true,
-} );
+if ( new Interval( "1 week" ).toDate() >= new Date( resource.meta.expires ) ) {
+    await externalResources.add( "softvisio-node/core/resources/local.softvisio.net" ).check( {
+        "remote": true,
+    } );
+}
 
-const page = await browser.newPage( {} );
+const defaultHttpsDomain = "local.softvisio.net",
+    defaultHttpsCert = resource.location + "/certificate.pem",
+    defaultHttpsKey = resource.location + "/key.pem";
 
 const data = {
     "userAgent": null,
 };
 
-var headers = await getHeaders( "http://httpbin.org/headers" );
+var headers = await getHeaders( "http:" );
 parseHeaders( "http:", headers );
 
-headers = await getHeaders( "https://httpbin.org/headers" );
+headers = await getHeaders( "https:" );
 parseHeaders( "https:", headers );
 
 const http = config.readConfig( "http.yaml" );
@@ -26,28 +35,43 @@ http[ "edge-windows" ] = data;
 
 config.writeConfig( "http.yaml", http );
 
-process.exit();
+async function getHeaders ( protocol ) {
+    return new Promise( resolve => {
+        var server, browser;
 
-async function getHeaders ( url ) {
-    await page.goto( url );
+        server = new Server( {
+            "ssl": protocol === "https:",
+            "cert_file_name": defaultHttpsCert,
+            "key_file_name": defaultHttpsKey,
+        } ).get( "/*", async req => {
+            await req.end();
 
-    const content = await page.content();
+            browser?.close();
 
-    // console.log( content );
+            await server.stop();
 
-    const match = content.match( /{\s+"headers":(.+?})/s );
+            await sleep( 10 );
 
-    const json = match[ 1 ].trim();
+            resolve( req.headers );
+        } );
 
-    const data = JSON.parse( json );
+        server.start( { "port": 0 } ).then( async res => {
+            if ( !res.ok ) throw res + "";
 
-    return data;
+            const url = `${ protocol }//${ defaultHttpsDomain }:${ res.data.port }/`;
+
+            browser = new Browser( url, {
+                "incognito": true,
+                "headless": true,
+            } );
+        } );
+    } );
 }
 
 function parseHeaders ( type, headers ) {
     data[ type ] = {};
 
-    for ( const [ header, value ] of Object.entries( headers ) ) {
+    for ( const [ header, value ] of headers.entries() ) {
         const name = header.toLowerCase();
 
         if ( name === "user-agent" ) {
