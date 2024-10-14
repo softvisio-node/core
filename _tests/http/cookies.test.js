@@ -13,10 +13,15 @@ const TESTS = [
         "value": ` test- \x04-;",\\ мама`,
     },
     {
-        "name": "test1",
+        "name": "test",
     },
     {
-        "value": "test1",
+        "value": "test",
+    },
+    {
+        "name": "test",
+        "value": "test",
+        "path": "/aaa;/мама",
     },
 ];
 
@@ -37,7 +42,7 @@ async function testCookies ( cookie ) {
         var server, browser;
 
         server = new Server().get( "/*", async req => {
-            if ( req.url.pathname === "/done" ) {
+            if ( req.url.searchParams?.has( "done" ) ) {
                 await req.end();
 
                 browser.close();
@@ -52,7 +57,7 @@ async function testCookies ( cookie ) {
                 await req.end( {
                     "status": 307,
                     "headers": {
-                        "location": "/done",
+                        "location": `${ cookie.path || "/" }?done`,
                         "set-cookie": cookie,
                     },
                 } );
