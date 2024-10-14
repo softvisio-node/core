@@ -60,7 +60,7 @@ async function testCookies ( cookie, useBrowser ) {
 
                 await server.stop();
 
-                await sleep( 5 );
+                await sleep( 10 );
 
                 resolve( req.headers );
             }
@@ -78,7 +78,7 @@ async function testCookies ( cookie, useBrowser ) {
         server.start().then( res => {
             if ( !res.ok ) throw res + "";
 
-            const url = "http://local.softvisio.net/";
+            const url = "http://localhost/";
 
             if ( useBrowser ) {
                 browser = new Browser( url, {
@@ -89,7 +89,7 @@ async function testCookies ( cookie, useBrowser ) {
             else {
                 fetch( url, {
                     "cookies": true,
-                } );
+                } ).then( res => console.log( "---", res + "" ) );
             }
         } );
     } );
