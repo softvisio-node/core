@@ -71,23 +71,21 @@ async function getHeaders ( protocol ) {
 function parseHeaders ( type, headers ) {
     data[ type ] = {};
 
-    for ( const [ header, value ] of headers.entries() ) {
-        const name = header.toLowerCase();
-
+    for ( const [ name, value ] of headers.entries() ) {
         if ( name === "user-agent" ) {
-            data[ "userAgent" ] = value;
+            data[ "userAgent" ] = value.replaceAll( "Headless", "" );
         }
         else if ( name === "dnt" ) {
-            data[ type ][ header ] = value;
+            data[ type ][ headers.getOriginalName( name ) ] = value;
         }
         else if ( name === "accept" ) {
-            data[ type ][ header ] = value;
+            data[ type ][ headers.getOriginalName( name ) ] = value;
         }
         else if ( name === "accept-language" ) {
-            data[ type ][ header ] = value;
+            data[ type ][ headers.getOriginalName( name ) ] = value;
         }
         else if ( name.startsWith( "sec-" ) ) {
-            data[ type ][ header ] = value;
+            data[ type ][ headers.getOriginalName( name ) ] = value;
         }
     }
 }
