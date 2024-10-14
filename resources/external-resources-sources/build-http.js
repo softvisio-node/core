@@ -1,23 +1,10 @@
 #!/usr/bin/env node
 
 import Browser from "#lib/browser";
+import certificates from "#lib/certificates";
 import * as config from "#lib/config";
-import externalResources from "#lib/external-resources";
 import Server from "#lib/http/server";
-import Interval from "#lib/interval";
 import { sleep } from "#lib/utils";
-
-const resource = await externalResources.add( "softvisio-node/core/resources/local.softvisio.net" ).check();
-
-if ( new Interval( "1 week" ).toDate() >= new Date( resource.meta.expires ) ) {
-    await externalResources.add( "softvisio-node/core/resources/local.softvisio.net" ).check( {
-        "remote": true,
-    } );
-}
-
-const defaultHttpsDomain = "local.softvisio.net",
-    defaultHttpsCert = resource.location + "/certificate.pem",
-    defaultHttpsKey = resource.location + "/key.pem";
 
 const data = {
     "userAgent": null,
@@ -41,8 +28,8 @@ async function getHeaders ( protocol, headless = false ) {
 
         server = new Server( {
             "ssl": protocol === "https:",
-            "cert_file_name": defaultHttpsCert,
-            "key_file_name": defaultHttpsKey,
+            "cert_file_name": certificates.defaultHttpsCertificate,
+            "key_file_name": certificates.defaultHttpsKey,
         } ).get( "/*", async req => {
             await req.end();
 
@@ -58,7 +45,7 @@ async function getHeaders ( protocol, headless = false ) {
         server.start( { "port": 0 } ).then( async res => {
             if ( !res.ok ) throw res + "";
 
-            const url = `${ protocol }//${ defaultHttpsDomain }:${ res.data.port }/`;
+            const url = `${ protocol }//${ certificates.defaultHttpsDomain }:${ res.data.port }/`;
 
             browser = new Browser( url, {
                 "incognito": true,
