@@ -72,20 +72,22 @@ function parseHeaders ( type, headers ) {
     data[ type ] = {};
 
     for ( const [ name, value ] of headers.entries() ) {
+        const originalName = headers.getOriginalName( name );
+
         if ( name === "user-agent" ) {
             data[ "userAgent" ] = value.replaceAll( "Headless", "" );
         }
         else if ( name === "dnt" ) {
-            data[ type ][ headers.getOriginalName( name ) ] = value;
+            data[ type ][ originalName ] = value;
         }
         else if ( name === "accept" ) {
-            data[ type ][ headers.getOriginalName( name ) ] = value;
+            data[ type ][ originalName ] = value;
         }
         else if ( name === "accept-language" ) {
-            data[ type ][ headers.getOriginalName( name ) ] = value;
+            data[ type ][ originalName ] = value;
         }
         else if ( name.startsWith( "sec-" ) ) {
-            data[ type ][ headers.getOriginalName( name ) ] = value;
+            data[ type ][ originalName ] = value;
         }
     }
 }
