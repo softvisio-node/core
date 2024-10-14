@@ -89,6 +89,9 @@ async function testCookies ( cookie, useBrowser ) {
             else {
                 await fetch( url, {
                     "cookies": true,
+                    "dispatcher": new fetch.Dispatcher( {
+                        "pipelining": 0,
+                    } ),
                 } );
             }
         } );
