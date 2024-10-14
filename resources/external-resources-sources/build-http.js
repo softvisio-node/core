@@ -87,7 +87,7 @@ function parseHeaders ( type, headers ) {
             data[ type ][ originalName ] = value;
         }
         else if ( name.startsWith( "sec-" ) ) {
-            data[ type ][ originalName ] = value;
+            data[ type ][ originalName ] = value.replaceAll( "Headless", "" );
         }
     }
 }
