@@ -39,7 +39,7 @@ const TESTS = [
     // set-cookie
     {
         "headers": {
-            "set-cookie": `name=value; expires=Tue, 19-Jul-2022 12:53:28 GMT; path=/  ; domain = .google.com  ;Secure; HttpOnly; SameSite=none`,
+            "set-cookie": `name=value; expires=Tue, 19-Jul-2022 12:53:28 GMT; path=/  ; domain = .мама.google.com  ;Secure; HttpOnly; SameSite=none`,
         },
         "method": "setCookie",
         result ( res ) {
@@ -53,7 +53,7 @@ const TESTS = [
                         "maxAge": undefined,
                         "expires": new Date( "Tue, 19-Jul-2022 12:53:28 GMT" ),
                         "path": "/",
-                        "domain": "google.com",
+                        "domain": "xn--80aa8ab.google.com",
                         "secure": true,
                         "httpOnly": true,
                         "sameSite": "none",
