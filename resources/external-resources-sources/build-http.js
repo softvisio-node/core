@@ -35,7 +35,7 @@ http[ "edge-windows" ] = data;
 
 config.writeConfig( "http.yaml", http );
 
-async function getHeaders ( protocol ) {
+async function getHeaders ( protocol, headless = false ) {
     return new Promise( resolve => {
         var server, browser;
 
@@ -62,7 +62,7 @@ async function getHeaders ( protocol ) {
 
             browser = new Browser( url, {
                 "incognito": true,
-                "headless": true,
+                headless,
             } );
         } );
     } );
