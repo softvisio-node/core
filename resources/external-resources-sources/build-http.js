@@ -33,7 +33,7 @@ const http = config.readConfig( "http.yaml" );
 
 http[ "edge-windows" ] = data;
 
-config.writeConfig( "http.yaml", http );
+config.writeConfig( "http.json", http, { "readable": true } );
 
 async function getHeaders ( protocol, headless = false ) {
     return new Promise( resolve => {
