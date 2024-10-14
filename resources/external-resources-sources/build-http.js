@@ -71,7 +71,7 @@ async function getHeaders ( protocol ) {
 function parseHeaders ( type, headers ) {
     data[ type ] = {};
 
-    for ( const [ name, value ] of headers.entries() ) {
+    for ( const [ name, value ] of [ ...headers.entries() ].sort( ( a, b ) => a[ 0 ].localeCompare( b[ 0 ] ) ) ) {
         const originalName = headers.getOriginalName( name );
 
         if ( name === "user-agent" ) {
