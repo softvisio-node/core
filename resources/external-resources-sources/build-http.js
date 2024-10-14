@@ -29,7 +29,7 @@ parseHeaders( "http:", headers );
 headers = await getHeaders( "https:" );
 parseHeaders( "https:", headers );
 
-const http = config.readConfig( "http.yaml" );
+const http = config.readConfig( "http.json" );
 
 http[ "edge-windows" ] = data;
 
