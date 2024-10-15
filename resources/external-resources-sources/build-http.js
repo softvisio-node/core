@@ -4,7 +4,6 @@ import Browser from "#lib/browser";
 import certificates from "#lib/certificates";
 import * as config from "#lib/config";
 import Server from "#lib/http/server";
-import { sleep } from "#lib/utils";
 
 const data = {
     "userAgent": null,
@@ -36,8 +35,6 @@ async function getHeaders ( protocol, headless = false ) {
             browser?.close();
 
             await server.stop();
-
-            await sleep( 10 );
 
             resolve( req.headers );
         } );

@@ -6,7 +6,6 @@ import Browser from "#lib/browser";
 import fetch from "#lib/fetch";
 import Cookie from "#lib/http/cookie";
 import Server from "#lib/http/server";
-import { sleep } from "#lib/utils";
 
 const TESTS = [
     {
@@ -59,8 +58,6 @@ async function testCookies ( cookie, useBrowser ) {
                 browser?.close();
 
                 await server.stop();
-
-                await sleep( 10 );
 
                 resolve( req.headers );
             }
