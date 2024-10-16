@@ -9,10 +9,10 @@ const data = {
     "userAgent": null,
 };
 
-var headers = await getHeaders( "http:" );
+var headers = await getHeaders( "msedge", "http:" );
 parseHeaders( "http:", headers );
 
-headers = await getHeaders( "https:" );
+headers = await getHeaders( "msedge", "https:" );
 parseHeaders( "https:", headers );
 
 const http = config.readConfig( "http.json" );
@@ -21,7 +21,7 @@ http[ "edge-windows" ] = data;
 
 config.writeConfig( "http.json", http, { "readable": true } );
 
-async function getHeaders ( protocol, headless = false ) {
+async function getHeaders ( browser, protocol, headless = false ) {
     return new Promise( resolve => {
         var server, browser;
 
@@ -45,6 +45,7 @@ async function getHeaders ( protocol, headless = false ) {
             const url = `${ protocol }//${ certificates.defaultHttpsDomain }:${ res.data.port }/`;
 
             browser = new Browser( url, {
+                browser,
                 "incognito": true,
                 headless,
             } );
