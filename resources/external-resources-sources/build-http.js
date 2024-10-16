@@ -56,7 +56,6 @@ async function getHeaders ( browser, protocol, headless = false ) {
                 browser,
                 "incognito": true,
                 headless,
-                "standalone": true,
             } );
         } );
     } );
