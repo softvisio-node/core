@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import fs from "node:fs";
 import Browser from "#lib/browser";
 import certificates from "#lib/certificates";
 import * as config from "#lib/config";
@@ -15,7 +16,14 @@ parseHeaders( "http:", headers );
 headers = await getHeaders( "msedge", "https:" );
 parseHeaders( "https:", headers );
 
-const http = config.readConfig( "http.json" );
+var http;
+
+if ( fs.existsSync( "http.json" ) ) {
+    http = config.readConfig( "http.json" );
+}
+else {
+    http = {};
+}
 
 http[ "edge-windows" ] = data;
 
