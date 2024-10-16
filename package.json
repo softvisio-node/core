@@ -89,7 +89,6 @@
     "scripts": {
         "build": "node bin/build.js",
         "install": "node bin/install.js",
-        "publish": "softvisio-cli package publish",
         "test": "node --test '_tests/**/*.test.js'"
     },
     "dependencies": {
