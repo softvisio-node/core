@@ -1,5 +1,22 @@
 # Changelog
 
+### 7.109.0 (2024-10-17)
+
+Features:
+
+-   feat: add browser incognito and headless modes
+-   feat: add hostname .parent property
+-   feat: add ip address compare methods
+-   feat: add text table column format row
+-   feat: cookie class
+-   feat: package test script
+
+Fixes:
+
+-   fix: update google geotargets builder
+
+[Full list of the changes](https://github.com/softvisio-node/core/compare/v7.108.0...v7.109.0)
+
 ### 7.108.0 (2024-10-11)
 
 Features:
