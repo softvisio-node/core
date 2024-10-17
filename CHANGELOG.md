@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.110.0 (2024-10-17)
+
+Features:
+
+-   feat: add git.getIsDirty() method
+
+[Full list of the changes](https://github.com/softvisio-node/core/compare/v7.109.0...v7.110.0)
+
 ### 7.109.0 (2024-10-17)
 
 Features:
