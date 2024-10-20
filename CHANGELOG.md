@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.111.1 (2024-10-20)
+
+No notable changes since the previous release.
+
+[Full list of the changes](https://github.com/softvisio-node/core/compare/v7.111.0...v7.111.1)
+
 ### 7.111.0 (2024-10-20)
 
 Features:
