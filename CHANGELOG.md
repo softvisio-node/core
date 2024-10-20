@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.111.0 (2024-10-20)
+
+Features:
+
+-   feat: threads pool queue
+
+[Full list of the changes](https://github.com/softvisio-node/core/compare/v7.110.0...v7.111.0)
+
 ### 7.110.0 (2024-10-17)
 
 Features:
