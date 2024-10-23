@@ -54,7 +54,6 @@ async function getHeaders ( browser, protocol, headless = false ) {
 
             browser = new Browser( url, {
                 browser,
-                "incognito": true,
                 headless,
             } );
         } );
