@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.111.2 (2024-10-23)
+
+Other changes:
+
+-   chore: refactor numeric
+-   chore: update freezeObjectRecursively() to return object
+-   chore: update http resources
+
+[Compare with the previous release: v7.111.1 ... v7.111.2](https://github.com/softvisio-node/core/compare/v7.111.1...v7.111.2)
+
 ### 7.111.1 (2024-10-20)
 
 No notable changes since the previous release.
