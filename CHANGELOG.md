@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.111.3 (2024-10-24)
+
+Other changes:
+
+-   chore: update package metadata
+
+[Compare with the previous release: v7.111.2 ... v7.111.3](https://github.com/softvisio-node/core/compare/v7.111.2...v7.111.3)
+
 ### 7.111.2 (2024-10-23)
 
 Other changes:
