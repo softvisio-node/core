@@ -49,7 +49,7 @@ import * as utils from "@softvisio/utils";
 ### utils.confirm( text, options )
 
 -   `text` <string\> Prompt.
--   `options` <string[]> Answers. First element become default answer.
+-   `options` <string[]\> Answers. First element become default answer.
 -   Returns: <Promise\> Fulfils with the user input.
 
 ### utils.resolve( path, module )
