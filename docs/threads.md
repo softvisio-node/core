@@ -218,7 +218,7 @@ Resume semaphore.
 ### semaphore.runThread( method, ...args )
 
 -   `method` {string|Function} Method to call.
--   `...args` {an}> Method arguments.
+-   `...args` {any} Method arguments.
 -   Returns: {Promise} resolves to {Result}.
 
 ### semaphore.unshiftThread( method, ...args )
