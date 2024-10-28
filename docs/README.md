@@ -7,5 +7,3 @@ Link to the resources: [https://github.com/softvisio-node/core/releases/tag/reso
 ```shell
 npm install @softvisio/core
 ```
-
-## Usage
