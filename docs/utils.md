@@ -37,19 +37,19 @@ import * as utils from "@softvisio/utils";
 ### utils.objectPick( object, keys )
 
 -   `object` {Object} Source object.
--   `keys` {string[]} Keys to pick.
+-   `keys` {string\[]} Keys to pick.
 -   Returns: {Object} New object, with the selected properties copied from the source object.
 
 ### utils.objectOmit( object, keys )
 
 -   `object` {Object} Source object.
--   `keys` {string[]} Keys to omin.
+-   `keys` {string\[]} Keys to omin.
 -   Returns: {Object} New object, with the all properties copied from the source object, exceping omitted.
 
 ### utils.confirm( text, options )
 
 -   `text` {string} Prompt.
--   `options` {string[]} Answers. First element become default answer.
+-   `options` {string\[]} Answers. First element become default answer.
 -   Returns: {Promise} Fulfils with the user input.
 
 ### utils.resolve( path, module )

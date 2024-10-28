@@ -51,7 +51,7 @@ Disables ANSI codes.
 ### ansi.defineColor( name, color )
 
 -   `name` {string} New color name.
--   `color` {string|integer|integer[]} Color definitions. Examples of the correct `RGB` colors definitions:
+-   `color` {string|integer|integer\[]} Color definitions. Examples of the correct `RGB` colors definitions:
     ```javascript
     ansi.defineColor("teal", "008080");
     ansi.defineColor("teal", "#008080");
@@ -70,11 +70,11 @@ Defines named `RGB` colors.
 
 ### ansi.color( color )
 
--   `color` {string|integer|integer[]}
+-   `color` {string|integer|integer\[]}
 
 ### ansi.onColor( color )
 
--   `color` {string|integer|integer[]}
+-   `color` {string|integer|integer\[]}
 
 ### ansi.reset( string )
 
@@ -147,7 +147,7 @@ Table.defineStyle("ascii", {
     -   `lazy` {boolean} Render table header on first row added. **Default:** `false`.
     -   `header` {boolean} Render table header. **Default:** `true`.
     -   `columnWidth?` {integer} Default column width.
-    -   `margin` {integer[]} Default column margin. Should be specified as [leftMargin, rightMargin]. **Default:** `[0, 0]`.
+    -   `margin` {integer\[]} Default column margin. Should be specified as `[ leftMargin, rightMargin ]`. **Default:** `[0, 0]`.
     -   `trim` {boolean} Trim cell content.
     -   `wordWrap` {boolean} Split words at spaces.
     -   `align` {string} Default column cell content horizontal align for all columns. Possible values: `"left"`, `"center"`, `"right"`.
@@ -159,7 +159,7 @@ Table.defineStyle("ascii", {
         -   `minWidth?` {integer} Minimal column width.
         -   `flex` {integer} Column flex. **Default:** `1`.
         -   `title` {string} Column title.
-        -   `margin` {Array} Column margin. Should be specified as [leftMargin, rightMargin]. **Default:** `[0, 0]`.
+        -   `margin` {Array} Column margin. Should be specified as `[ leftMargin, rightMargin ]`. **Default:** `[0, 0]`.
         -   `trim` {boolean} Trim cell content. **Default:** `false`.
         -   `wordWrap` {boolean} Split words at spaces. **Default:** `true`.
         -   `align` {string} Cell content horizontal align. Possible values: `"left"`, `"center"`, `"right"`.

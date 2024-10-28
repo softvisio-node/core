@@ -1,6 +1,6 @@
 # Doubly linked list
 
-[https://en.wikipedia.org/wiki/Doubly_linked_list](https://en.wikipedia.org/wiki/Doubly_linked_list)
+<https://en.wikipedia.org/wiki/Doubly_linked_list>
 
 ```javascript
 import DoublyLinkedList from "@softvisio/utils/doubly-linked-list";

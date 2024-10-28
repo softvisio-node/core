@@ -81,13 +81,14 @@ app.publish("api", users, name, ...args);
     -   `"guest"` All not authenticated users.
 
 -   `name` {string} Event name.
+
 -   `...args` {any} Event arguments.
 
 ### RPC events
 
 RPC events - events, emitted by connected RPC clients. You also can send events to the connected RPC clients.
 
-#### Event: rpc/event/<event-name>`
+#### Event: `rpc/event/<event-name>`
 
 -   `...args` {any} Event arguments.
 
@@ -108,6 +109,7 @@ app.publish("rpc", clients, name, ...args);
     -   `event name` - Arbitrary event name, to which particular RPC clients are subscribed.
 
 -   `name` {string} Event name.
+
 -   `...args` {any} Event arguments.
 
 ### Client events

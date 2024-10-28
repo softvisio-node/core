@@ -20,7 +20,7 @@ const api = new Api("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 })
     -   `maxConnections` {integer} Max number of the websockets connections. Use `0` or `Infinity` for unlimited connections. For browser this option is always `1`. **Default:** `1`.
     -   `cacheMaxSize` {integer} Maximum cache size. **Default:** `10000`.
     -   `cacheMaxAge` {integer} Default cached item max age. **Default:** `0`.
-    -   `cacheReset` {string[]} Array of the events names to automatically reset cache. For example `cacheReset: ["disconnect"]` means that cache will be dropped automatically on `"disconnect"` event received.
+    -   `cacheReset` {string\[]} Array of the events names to automatically reset cache. For example `cacheReset: ["disconnect"]` means that cache will be dropped automatically on `"disconnect"` event received.
     -   `onRPC` {Function} Called on remote RPC call.
         -   `method` {string} Called RPC method name.
         -   `args` {Array} RPC method arguments.
