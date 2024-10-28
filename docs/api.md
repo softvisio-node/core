@@ -20,16 +20,16 @@ Vue.prototype.$api = api;
 
 ## Constructor arguments
 
--   url - Api endpoint url, url is resolved using current window.location as base.
+-   url - Api endpoint url, url is resolved using current `window.location` as base.
 
 Examples, where `window.location` is `https://domain.com/path/`:
 
-| url                     | connection url               |
-| :---------------------- | :--------------------------- |
-| /api/                   | https://domain.com/api/      |
-| api/                    | https://domain.com/path/api/ |
-| //domain1.com/api/      | https://domain1.com/api/     |
-| http://domain1.com/api/ | http://domain1.com/api/      |
+| url                       | connection url                 |
+| :------------------------ | :----------------------------- |
+| /api/                     | <https://domain.com/api/>      |
+| api/                      | <https://domain.com/path/api/> |
+| //domain1.com/api/        | <https://domain1.com/api/>     |
+| <http://domain1.com/api/> | <http://domain1.com/api/>      |
 
 -   token - Authentication token, you can set it later using `auth()` method;
 
