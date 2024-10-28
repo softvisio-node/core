@@ -34,12 +34,12 @@ const res = await dbh.migrate();
 
 ### dbh.loadSchema( url, module? )
 
--   `url` <string\> | <URL\> File URL, location of the database schema directory.
--   `module?` <string\> Schema module name. **Default:** `"main"`.
+-   `url` {string|URL} File URL, location of the database schema directory.
+-   `module?` {string} Schema module name. **Default:** `"main"`.
 
 ### dbh.migrate()
 
--   Returns: <Promise\> Fulfils with the schema migration <Result\>.
+-   Returns: {Promise} Fulfils with the schema migration {Result}.
 
 ### Database schema
 
@@ -75,34 +75,34 @@ const res = await dbh.addType(name, { encode, decode });
 
 ### Default types encoders
 
-| Type       | Encoded         |
-| ---------- | --------------- |
-| <null\>    | null            |
-| <number\>  | integer         |
-| <BigInt\>  | int8            |
-| <boolean\> | bool            |
-| <string\>  | text            |
-| <Buffer\>  | bytea           |
-| <Object\>  | json string     |
-| <Date\>    | date ISO string |
+| Type      | Encoded         |
+| --------- | --------------- |
+| {null}    | null            |
+| {number}  | integer         |
+| {BigInt}  | int8            |
+| {boolean} | bool            |
+| {string}  | text            |
+| {Buffer}  | bytea           |
+| {Object}  | json string     |
+| {Date}    | date ISO string |
 
 ### Default types decoders
 
-| Name    |  OID | Decoded    |
-| ------- | ---: | ---------- |
-| int2    |   21 | <number\>  |
-| int4    |   23 | <number\>  |
-| float4  |  700 | <number\>  |
-| float8  |  701 | <number\>  |
-| oid     |   26 | <number\>  |
-| numeric | 1700 | <string\>  |
-| int8    |   20 | <string\>  |
-| integer |      | <string\>  |
-| money   |  790 | <string\>  |
-| bool    |   16 | <boolean\> |
-| json    |  114 | <Object\>  |
-| jsonb   | 3802 | <Object\>  |
-| bytea   |   17 | <Buffer\>  |
-| bigint  |      | <BigInt\>  |
+| Name    |  OID | Decoded   |
+| ------- | ---: | --------- |
+| int2    |   21 | {number}  |
+| int4    |   23 | {number}  |
+| float4  |  700 | {number}  |
+| float8  |  701 | {number}  |
+| oid     |   26 | {number}  |
+| numeric | 1700 | {string}  |
+| int8    |   20 | {string}  |
+| integer |      | {string}  |
+| money   |  790 | {string}  |
+| bool    |   16 | {boolean} |
+| json    |  114 | {Object}  |
+| jsonb   | 3802 | {Object}  |
+| bytea   |   17 | {Buffer}  |
+| bigint  |      | {BigInt}  |
 
-All other types are encoded to the `UTF-8` <string\> by default.
+All other types are encoded to the `UTF-8` {string} by default.
