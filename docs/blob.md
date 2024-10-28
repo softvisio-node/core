@@ -6,49 +6,49 @@ import Blob from "@softvisio/core/blob";
 
 ### Blob.new( content?, options? )
 
--   `content?` <Buffer\> | <Array\> Blob content.
--   `options` <Object\>:
-    -   `type` <string\> MIME type.
+-   `content?` {Buffer|Array} Blob content.
+-   `options` {Object}:
+    -   `type` {string} MIME type.
 
 ### blob.type
 
--   Returns: <string\> MIME type, if defined.
+-   Returns: {string} MIME type, if defined.
 
 ### blob.size
 
--   Returns: <integer\> Blob buffer size.
+-   Returns: {integer} Blob buffer size.
 
 ### blob.buffer()
 
--   Returns: <Promise\> Fullfils with the file content as <Buffer\>.
+-   Returns: {Promise} Fullfils with the file content as {Buffer}.
 
 ### blob.arrayBuffer()
 
--   Returns: <Promise\> Fullfils with the file content as <ArrayBuffer\>.
+-   Returns: {Promise} Fullfils with the file content as {ArrayBuffer}.
 
 ### blob.text( options? )
 
--   `options?` <Object\>:
-    -   `encoding?` <string\> Text encoding. **Default:** `utf8`.
--   Returns: <Promise\> Fullfils with the file content as <string\>.
+-   `options?` {Object}:
+    -   `encoding?` {string} Text encoding. **Default:** `utf8`.
+-   Returns: {Promise} Fullfils with the file content as {string}.
 
 ### blob.stream()
 
--   Returns: <stream.Readable\> File content as readable stream.
+-   Returns: {stream.Readable} File content as readable stream.
 
 ### blob.slice( start, end, type )
 
--   `start` <integer\> Start offset.
--   `end` <integer\> End offset.
--   `type?` <string\> MIME type.
--   Returns: <Blob\>.
+-   `start` {integer} Start offset.
+-   `end` {integer} End offset.
+-   `type?` {string} MIME type.
+-   Returns: {Blob}.
 
-Slice blob buffer and returns new <Blob\> object instance.
+Slice blob buffer and returns new {Blob} object instance.
 
 ### blob.getContent()
 
--   Returns: <Blob\> | <undefined\> Internal buffer.
+-   Returns: {Blob|undefined} Internal buffer.
 
 ### blob.setContent( content? )
 
--   `content?` <Buffer\> | <Array\> Content to set.
+-   `content?` {Buffer|Array} Content to set.
