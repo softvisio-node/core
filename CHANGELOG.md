@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.111.4 (2024-10-29)
+
+Fixes:
+
+-   fix: fix type tag
+
+Other changes:
+
+-   chore: add vivaldi browser
+-   chore: update docs
+
+[Compare with the previous release: v7.111.3 ... v7.111.4](https://github.com/softvisio-node/core/compare/v7.111.3...v7.111.4)
+
 ### 7.111.3 (2024-10-24)
 
 Other changes:
