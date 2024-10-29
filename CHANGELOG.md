@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.111.5 (2024-10-29)
+
+Other changes:
+
+-   chore: update docs
+
+[Compare with the previous release: v7.111.4 ... v7.111.5](https://github.com/softvisio-node/core/compare/v7.111.4...v7.111.5)
+
 ### 7.111.4 (2024-10-29)
 
 Fixes:
