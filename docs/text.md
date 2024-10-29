@@ -124,7 +124,6 @@ table.end();
 
 Define table style. Example of `ascii` style definition:
 
-<!-- prettier-ignore -->
 ```javascript
 Table.defineStyle( "ascii", {
     "topLine": "+-++",
