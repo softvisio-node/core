@@ -9,7 +9,6 @@
 
 #### **WebSockets**
 
-<!-- prettier-ignore -->
 ```javascript
 import Api from "@softvisio/core/api";
 
@@ -18,7 +17,6 @@ const api = new Api( "<%- webSocketsUrl %>" );
 
 #### **HTTP**
 
-<!-- prettier-ignore -->
 ```javascript
 import Api from "@softvisio/core/api";
 
@@ -49,14 +47,12 @@ Method access permission: "<%- method.permission %>".
 
 #### **JavaScript**
 
-<!-- prettier-ignore -->
 ```javascript
 const res = await api.call( "<%- method.id %>"<%- method.params ? ", " + generator.getMethodMarkdownSignature( method ) : "" %> );
 ```
 
 #### **Shell**
 
-<!-- prettier-ignore -->
 ```shell
 <% if ( method.markdownSignature ) { -%>
 curl \
