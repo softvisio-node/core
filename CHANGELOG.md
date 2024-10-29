@@ -9146,7 +9146,7 @@ Changed:
 -   stream readLine fixed;
 -   cli refactored;
 -   rpc methods permissions not required;
--   threads RPC* prefix changed to API*;
+-   threads RPC\* prefix changed to API\*;
 -   api rpc added;
 -   app rpc default port 8080;
 -   cli special argument --;
@@ -9380,7 +9380,7 @@ Changed:
 Changed:
 
 -   result moved to own package;
--   #index imports added;
+-   \#index imports added;
 
 ### 2.17.0 (2021-04-21)
 
@@ -9769,7 +9769,7 @@ Changed:
 -   proxy rotation refactored;
 -   api token refactored;
 -   luminati session;
--   sql where condition [!=, null] converted to IS NOT NULL;
+-   sql where condition \[!=, null] converted to IS NOT NULL;
 -   ajv api keywords;
 -   require global index;
 -   max threads replaced with semaphore;

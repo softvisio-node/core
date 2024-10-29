@@ -5,7 +5,7 @@ Provides set of function to manage project environment.
 ```javascript
 import env from "@softvisio/core/env";
 
-console.log(env.root);
+console.log( env.root );
 ```
 
 ### env.mode
