@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.112.0 (2024-10-30)
+
+Features:
+
+-   feat: update package engines
+
+[Compare with the previous release: v7.111.5 ... v7.112.0](https://github.com/softvisio-node/core/compare/v7.111.5...v7.112.0)
+
 ### 7.111.5 (2024-10-29)
 
 Other changes:
