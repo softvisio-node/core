@@ -196,7 +196,7 @@ class ApiCli {
         console.log( "Methods:\n" );
 
         const table = new Table( {
-            "console": true,
+            "output": process.stdout,
             "lazy": true,
             "style": "borderless",
             "header": false,
