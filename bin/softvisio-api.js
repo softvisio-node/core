@@ -196,7 +196,6 @@ class ApiCli {
         console.log( "Methods:\n" );
 
         const table = new Table( {
-            "output": process.stdout,
             "style": "borderless",
             "header": false,
             "columns": {
@@ -211,7 +210,7 @@ class ApiCli {
                     "headerValign": "end",
                 },
             },
-        } );
+        } ).pipe( process.stdout );
 
         for ( const method of methods ) {
             table.add( method );
