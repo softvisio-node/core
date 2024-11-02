@@ -203,13 +203,13 @@ class ApiCli {
             "columns": {
                 "id": {
                     "title": ansi.hl( "ID" ),
-                    "headerAlign": "left",
-                    "headerValign": "bottom",
+                    "headerAlign": "start",
+                    "headerValign": "end",
                 },
                 "title": {
                     "title": ansi.hl( "TITLE" ),
-                    "headerAlign": "left",
-                    "headerValign": "bottom",
+                    "headerAlign": "start",
+                    "headerValign": "end",
                 },
             },
         } );
