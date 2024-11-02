@@ -197,7 +197,6 @@ class ApiCli {
 
         const table = new Table( {
             "output": process.stdout,
-            "lazy": true,
             "style": "borderless",
             "header": false,
             "columns": {
