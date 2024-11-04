@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.113.1 (2024-11-04)
+
+Fixes:
+
+-   fix: fix table margin
+
+[Compare with the previous release: v7.113.0 ... v7.113.1](https://github.com/softvisio-node/core/compare/v7.113.0...v7.113.1)
+
 ### 7.113.0 (2024-11-04)
 
 Features:
