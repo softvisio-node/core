@@ -1,5 +1,21 @@
 # Changelog
 
+### 7.113.0 (2024-11-04)
+
+Features:
+
+-   feat: add markdown api
+
+Fixes:
+
+-   fix: fix wrap ansi text
+
+Other changes:
+
+-   chore: refactor table api
+
+[Compare with the previous release: v7.112.0 ... v7.113.0](https://github.com/softvisio-node/core/compare/v7.112.0...v7.113.0)
+
 ### 7.112.0 (2024-10-30)
 
 Features:
