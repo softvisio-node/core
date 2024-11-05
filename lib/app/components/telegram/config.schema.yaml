@@ -27,12 +27,10 @@
     clients:
       anyOf:
         - tyoe: "null"
-        - type: object
-          properties:
-            phoneNumber: { type: string }
-            session: { type: string }
-          additionalProperties: false
-          required: [phoneNumber, session]
+        - type: array
+          items: { type: string }
+          minItems: 1
+          uniqueItems: true
 
     bots:
       anyOf:
