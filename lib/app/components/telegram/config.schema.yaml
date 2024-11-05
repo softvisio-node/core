@@ -30,13 +30,9 @@
         - type: object
           properties:
             phoneNumber: { type: string }
-            phoneCode:
-              anyOf:
-                - type: "null"
-                - { type: string, minLength: 5, maxLength: 5 }
-            password: { type: ["null", string] }
+            session: { type: string }
           additionalProperties: false
-          required: [phoneNumber]
+          required: [phoneNumber, session]
 
     bots:
       anyOf:
