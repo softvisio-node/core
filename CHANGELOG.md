@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.113.2 (2024-11-07)
+
+Other changes:
+
+-   chore: cleanup code
+-   chore: fix external resource index build
+-   chore: refactor telegram client
+-   chore: update package metadata
+
+[Compare with the previous release: v7.113.1 ... v7.113.2](https://github.com/softvisio-node/core/compare/v7.113.1...v7.113.2)
+
 ### 7.113.1 (2024-11-04)
 
 Fixes:
