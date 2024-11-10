@@ -1,5 +1,20 @@
 # Changelog
 
+### 7.114.0 (2024-11-10)
+
+Features:
+
+-   feat: bits
+-   feat: fs
+
+Other changes:
+
+-   chore: chmod files
+-   chore: refactor telegram client api
+-   chore: update chmod
+
+[Compare with the previous release: v7.113.2 ... v7.114.0](https://github.com/softvisio-node/core/compare/v7.113.2...v7.114.0)
+
 ### 7.113.2 (2024-11-07)
 
 Other changes:
