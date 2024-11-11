@@ -2,13 +2,13 @@
 
 import Cli from "#lib/cli";
 import ExternalResourceBuilder from "#lib/external-resource-builder";
+import Certificates from "#lib/external-resources/certificates";
 import Ffmpeg from "#lib/external-resources/ffmpeg";
 import Geolite2Asn from "#lib/external-resources/geolite2-asn";
 import Geolite2City from "#lib/external-resources/geolite2-city";
 import Geolite2Country from "#lib/external-resources/geolite2-country";
 import GoogleGeotargets from "#lib/external-resources/google-geotargets";
 import Http from "#lib/external-resources/http";
-import LocalSoftvisioNet from "#lib/external-resources/local.softvisio.net";
 import PublicSuffixes from "#lib/external-resources/public-suffixes";
 import Subnets from "#lib/external-resources/subnets";
 import Tld from "#lib/external-resources/tld";
@@ -38,7 +38,7 @@ const res = await ExternalResourceBuilder.build(
         Geolite2Country,
         GoogleGeotargets,
         Http,
-        LocalSoftvisioNet,
+        Certificates,
         PublicSuffixes,
         Subnets,
         Tld,
