@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.114.1 (2024-11-11)
+
+Fixes:
+
+-   fix: set acme dns server to 1.1.1.1
+
+Other changes:
+
+-   chore: refactor external resource builder
+
+[Compare with the previous release: v7.114.0 ... v7.114.1](https://github.com/softvisio-node/core/compare/v7.114.0...v7.114.1)
+
 ### 7.114.0 (2024-11-10)
 
 Features:
