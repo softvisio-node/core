@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.114.2 (2024-11-14)
+
+Other changes:
+
+-   chore: fix typo
+-   chore: update certificates metadata
+-   chore: update git upstream api
+
+[Compare with the previous release: v7.114.1 ... v7.114.2](https://github.com/softvisio-node/core/compare/v7.114.1...v7.114.2)
+
 ### 7.114.1 (2024-11-11)
 
 Fixes:
