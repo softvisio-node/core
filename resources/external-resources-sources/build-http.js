@@ -36,7 +36,7 @@ async function getHeaders ( browser, protocol, headless = false ) {
         server = new Server( {
             "ssl": protocol === "https:",
             "cert_file_name": certificates.defaultHttpsCertificate,
-            "key_file_name": certificates.defaultHttpsKey,
+            "key_file_name": certificates.defaultHttpsPrivateKey,
         } ).get( "/*", async req => {
             await req.end();
 
