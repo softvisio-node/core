@@ -35,8 +35,8 @@ async function getHeaders ( browser, protocol, headless = false ) {
 
         server = new Server( {
             "ssl": protocol === "https:",
-            "cert_file_name": certificates.defaultHttpsCertificate,
-            "key_file_name": certificates.defaultHttpsPrivateKey,
+            "cert_file_name": certificates.defaultTlsCertificate,
+            "key_file_name": certificates.defaultTlsPrivateKey,
         } ).get( "/*", async req => {
             await req.end();
 
@@ -50,7 +50,7 @@ async function getHeaders ( browser, protocol, headless = false ) {
         server.start( { "port": 0 } ).then( async res => {
             if ( !res.ok ) throw res + "";
 
-            const url = `${ protocol }//${ certificates.defaultHttpsDomain }:${ res.data.port }/`;
+            const url = `${ protocol }//${ certificates.defaultTlsDomain }:${ res.data.port }/`;
 
             browser = new Browser( url, {
                 browser,
