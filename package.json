@@ -119,7 +119,6 @@
         "semver": "^7.3.7",
         "telegram": "^2.26.6",
         "temporal-polyfill": "^0.2.5",
-        "ua-parser-js": "^2.0.0",
         "undici": "^6.19.7"
     },
     "engines": {
