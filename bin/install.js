@@ -24,6 +24,7 @@ externalResources.add( "softvisio-node/core/resources/http" );
 externalResources.add( "softvisio-node/core/resources/public-suffixes" );
 externalResources.add( "softvisio-node/core/resources/subnets" );
 externalResources.add( "softvisio-node/core/resources/tld" );
+externalResources.add( "softvisio-node/core/resources/user-agent" );
 
 const res = await externalResources.install( {
     "force": process.cli.options.force,

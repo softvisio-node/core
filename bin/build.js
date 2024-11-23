@@ -12,6 +12,7 @@ import Http from "#lib/external-resources/http";
 import PublicSuffixes from "#lib/external-resources/public-suffixes";
 import Subnets from "#lib/external-resources/subnets";
 import Tld from "#lib/external-resources/tld";
+import UserAgent from "#lib/external-resources/user-agent";
 
 const CLI = {
     "title": "Build resources",
@@ -42,6 +43,7 @@ const res = await ExternalResourceBuilder.build(
         PublicSuffixes,
         Subnets,
         Tld,
+        UserAgent,
     ],
     { "force": process.cli.options.force }
 );
