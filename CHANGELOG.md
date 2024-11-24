@@ -1,5 +1,27 @@
 # Changelog
 
+### 7.115.0 (2024-11-24)
+
+Features:
+
+-   feat: add Hostname.sort(), IpAddress.sort()
+-   feat: add IpRange.compare()
+-   feat: add threads start manager
+-   feat: refactor user-agent
+-   feat: upgrade ua-parser to v2
+
+Other changes:
+
+-   chore: add http server start manager
+-   chore: fix acme wildcard domains
+-   chore: refactor telegram client
+-   chore: update certificates resource
+-   chore: update external certificates builder
+-   chore: update external resources
+-   chore: update http recource
+
+[Compare with the previous release: v7.114.2 ... v7.115.0](https://github.com/softvisio-node/core/compare/v7.114.2...v7.115.0)
+
 ### 7.114.2 (2024-11-14)
 
 Other changes:
