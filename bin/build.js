@@ -33,13 +33,13 @@ const res = await ExternalResourceBuilder.build(
     [
 
         //
+        Certificates,
         Ffmpeg,
         Geolite2Asn,
         Geolite2City,
         Geolite2Country,
         GoogleGeotargets,
         Http,
-        Certificates,
         PublicSuffixes,
         Subnets,
         Tld,
