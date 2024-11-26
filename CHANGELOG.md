@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.115.15 (2024-11-26)
+
+No changes since the previous release.
+
+[Compare with the previous release: v7.115.14 ... v7.115.15](https://github.com/softvisio-node/core/compare/v7.115.14...v7.115.15)
+
 ### 7.115.14 (2024-11-26)
 
 Other changes:
