@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.115.11 (2024-11-26)
+
+Other changes:
+
+- chore: fix github api rate limit
+
+[Compare with the previous release: v7.115.10 ... v7.115.11](https://github.com/softvisio-node/core/compare/v7.115.10...v7.115.11)
+
 ### 7.115.10 (2024-11-26)
 
 Other changes:
