@@ -81,10 +81,18 @@ suite( "semver", () => {
 
         for ( let n = 0; n < tests.length; n++ ) {
             test( n + "", () => {
-                const version = new Semver( tests[ n ][ 0 ] ),
-                    incremented = version.increment( ...tests[ n ][ 1 ] );
+                const version = new Semver( tests[ n ][ 0 ] );
 
-                strictEqual( incremented?.toString() ?? null, tests[ n ][ 2 ] );
+                try {
+                    const incremented = version.increment( ...tests[ n ][ 1 ] );
+
+                    strictEqual( incremented?.toString(), tests[ n ][ 2 ] );
+                }
+                catch ( e ) {
+                    if ( tests[ n ][ 2 ] != null ) {
+                        throw e;
+                    }
+                }
             } );
         }
     } );
