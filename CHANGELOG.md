@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.115.14 (2024-11-26)
+
+Other changes:
+
+- chore: fix acme dns check
+
+[Compare with the previous release: v7.115.13 ... v7.115.14](https://github.com/softvisio-node/core/compare/v7.115.13...v7.115.14)
+
 ### 7.115.13 (2024-11-26)
 
 Fixes:
