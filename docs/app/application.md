@@ -4,7 +4,7 @@
 
 Application has three events type:
 
--   **global** - Events delivered to the local application listeners, local threads and and applicaiotn instances and threads in the cluster. Cluster must be initialized, otherwise events will not be delivered to the cluster listeners. **Global events are prefixed with the `"/"`**.
+- **global** - Events delivered to the local application listeners, local threads and and applicaiotn instances and threads in the cluster. Cluster must be initialized, otherwise events will not be delivered to the cluster listeners. **Global events are prefixed with the `"/"`**.
 
     ```javascript
     // listen
@@ -24,7 +24,7 @@ Application has three events type:
     app.publish( "//namespace/global-event-name" );
     ```
 
--   **local** - Local events are delivered to the local application and local threads.
+- **local** - Local events are delivered to the local application and local threads.
 
     ```javascript
     // listen
@@ -34,7 +34,7 @@ Application has three events type:
     app.publish( "local-event-name" );
     ```
 
--   **application** - Application events are delivered to the local application only.
+- **application** - Application events are delivered to the local application only.
 
     ```javascript
     // listen
@@ -58,8 +58,8 @@ Emitted on API backend disconnected. Means, that API unable to use backend until
 
 #### Event: `api/event/<event-name>`
 
--   `auth` {Auth} Sender authentication descriptor.
--   `...args` {any} Event arguments.
+- `auth` {Auth} Sender authentication descriptor.
+- `...args` {any} Event arguments.
 
 Events from the externally connected API users. All such events names are prefixed with the `api/event/` prefix. For example, if you want to handle event named `test` from the external API user you need to listen for `api/event/test`.
 
@@ -71,18 +71,18 @@ To send events to the connected API users you need to publish them to the `api` 
 app.publish( "api", users, name, ...args );
 ```
 
--   `users` {string|Array} Target user identificators. Each identificator can be the one of:
+- `users` {string|Array} Target user identificators. Each identificator can be the one of:
 
-    -   `user id` {integer} Target user id.
-    -   `users group name` {string} Application specific users group name.
-    -   `"*"` All connected users.
-    -   `"root"` Root user.
-    -   `"user"` All authenticated users.
-    -   `"guest"` All not authenticated users.
+    - `user id` {integer} Target user id.
+    - `users group name` {string} Application specific users group name.
+    - `"*"` All connected users.
+    - `"root"` Root user.
+    - `"user"` All authenticated users.
+    - `"guest"` All not authenticated users.
 
--   `name` {string} Event name.
+- `name` {string} Event name.
 
--   `...args` {any} Event arguments.
+- `...args` {any} Event arguments.
 
 ### RPC events
 
@@ -90,7 +90,7 @@ RPC events - events, emitted by connected RPC clients. You also can send events 
 
 #### Event: `rpc/event/<event-name>`
 
--   `...args` {any} Event arguments.
+- `...args` {any} Event arguments.
 
 Events from the externally connected RPC clients. All such events names are prefixed with the `rpc/event/` prefix. For example, if you want to handle event named `test` from the external RPC user you need to listen for `rpc/event/test`.
 
@@ -102,31 +102,31 @@ To send events to the connected RPC users you need to publish them to the `rpc` 
 app.publish( "rpc", clients, name, ...args );
 ```
 
--   `clients` {string|Array} RPC client identificators. Each identificator can be the one of:
+- `clients` {string|Array} RPC client identificators. Each identificator can be the one of:
 
-    -   `"*"` All connected RPC clients.
-    -   `"guest"` All connected RPC clients.
-    -   `event name` - Arbitrary event name, to which particular RPC clients are subscribed.
+    - `"*"` All connected RPC clients.
+    - `"guest"` All connected RPC clients.
+    - `event name` - Arbitrary event name, to which particular RPC clients are subscribed.
 
--   `name` {string} Event name.
+- `name` {string} Event name.
 
--   `...args` {any} Event arguments.
+- `...args` {any} Event arguments.
 
 ### Client events
 
 #### Event: "client/connect"
 
--   `options` {Object} Options:
-    -   `connectionId` {string} Client connection id (`uuid`);
-    -   `type` {string} Connection type: `"api"`, `"rpc"`.
+- `options` {Object} Options:
+    - `connectionId` {string} Client connection id (`uuid`);
+    - `type` {string} Connection type: `"api"`, `"rpc"`.
 
 Emitted on new client connected using persistent connection.
 
 #### Event: "client/disconnect"
 
--   `options` {Object} Options:
-    -   `connectionId` {string} Client connection id (`uuid`);
-    -   `type` {string} Connection type: `"api"`, `"rpc"`.
+- `options` {Object} Options:
+    - `connectionId` {string} Client connection id (`uuid`);
+    - `type` {string} Connection type: `"api"`, `"rpc"`.
 
 Emitted on persistent client disconnected.
 
@@ -142,7 +142,7 @@ Emitted on cluster disconnected.
 
 #### Event: "cluster/error"
 
--   `error` {string} Error message.
+- `error` {string} Error message.
 
 Emitted on cluster error.
 
@@ -160,7 +160,7 @@ Emitted on service with the specified name become disconnected.
 
 #### Event: `service/event/<service-name>/<event-name>`
 
--   `...args` {any} Event arguments.
+- `...args` {any} Event arguments.
 
 Events from the connected serivce.
 
@@ -172,6 +172,6 @@ To send events to the connected service you need to publish them to the `service
 app.publish( "service", services, name, ...args );
 ```
 
--   `services` {string|Array} Target services names. You can use `"*"` to send event to the all connected services.
--   `name` {string} Event name.
--   `...args` {any} Event arguments.
+- `services` {string|Array} Target services names. You can use `"*"` to send event to the all connected services.
+- `name` {string} Event name.
+- `...args` {any} Event arguments.

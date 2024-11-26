@@ -20,7 +20,7 @@ Vue.prototype.$api = api;
 
 ## Constructor arguments
 
--   url - Api endpoint url, url is resolved using current `window.location` as base.
+- url - Api endpoint url, url is resolved using current `window.location` as base.
 
 Examples, where `window.location` is `https://domain.com/path/`:
 
@@ -31,17 +31,17 @@ Examples, where `window.location` is `https://domain.com/path/`:
 | //domain1.com/api/        | <https://domain1.com/api/>     |
 | <http://domain1.com/api/> | <http://domain1.com/api/>      |
 
--   token - Authentication token, you can set it later using `auth()` method;
+- token - Authentication token, you can set it later using `auth()` method;
 
--   version - Default api version to use;
+- version - Default api version to use;
 
 ## Methods
 
--   auth( token ) - set authentication token.
+- auth( token ) - set authentication token.
 
     Use `null` to drop authentication.
 
--   call( "method", "arg1", "arg2", ... "argN", callback ) - call remote method.
+- call( "method", "arg1", "arg2", ... "argN", callback ) - call remote method.
 
 Can be used in synchronous or asynchronous mode:
 
@@ -58,11 +58,11 @@ api.call( "path/to/method", arg1, function ( res ) {
 
 Params:
 
--   method - Api method to call, must start with the api version (eg: `/v1/method`) or be relative (eg: `method/path`). If method path is relative - default api version will be substituted automatically.
+- method - Api method to call, must start with the api version (eg: `/v1/method`) or be relative (eg: `method/path`). If method path is relative - default api version will be substituted automatically.
 
--   arg1, ... argN - not mandatory, arbitrary number of arguments, that will be passed to the remote method;
+- arg1, ... argN - not mandatory, arbitrary number of arguments, that will be passed to the remote method;
 
--   callback - not mandatory, callback function, called, when api call is completed;
+- callback - not mandatory, callback function, called, when api call is completed;
 
 Result:
 
@@ -81,26 +81,26 @@ else {
 
 Properties:
 
--   status - response status code;
+- status - response status code;
 
--   reason - response status reason;
+- reason - response status reason;
 
--   data - contains response data;
+- data - contains response data;
 
 Other properties can be present, depends on method called.
 
 Methods:
 
--   toString() - returns concatenated res.status + res.reason;
+- toString() - returns concatenated res.status + res.reason;
 
--   isOk() - checks, if api call was successfull, has 2xx status code;
+- isOk() - checks, if api call was successfull, has 2xx status code;
 
--   isInfo() - has 1xx status code;
+- isInfo() - has 1xx status code;
 
--   isRedirect() - has 3xx status code;
+- isRedirect() - has 3xx status code;
 
--   isError() - has 4xx or 5xx status code;
+- isError() - has 4xx or 5xx status code;
 
--   isClientError() - has 4xx status code;
+- isClientError() - has 4xx status code;
 
--   isServerError() - has 5xx status code;
+- isServerError() - has 5xx status code;

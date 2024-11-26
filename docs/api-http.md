@@ -19,5 +19,5 @@ curl \
 
 ## Allowed conten types
 
--   `application/json` (default);
--   `application/msgpack`;
+- `application/json` (default);
+- `application/msgpack`;

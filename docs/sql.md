@@ -34,12 +34,12 @@ const res = await dbh.migrate();
 
 ### dbh.loadSchema( url, module? )
 
--   `url` {string|URL} File URL, location of the database schema directory.
--   `module?` {string} Schema module name. **Default:** `"main"`.
+- `url` {string|URL} File URL, location of the database schema directory.
+- `module?` {string} Schema module name. **Default:** `"main"`.
 
 ### dbh.migrate()
 
--   Returns: {Promise} Fulfils with the schema migration {Result}.
+- Returns: {Promise} Fulfils with the schema migration {Result}.
 
 ### Database schema
 

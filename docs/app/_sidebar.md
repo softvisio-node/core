@@ -1,4 +1,4 @@
 [🡠 Back](/)
 
--   [Introduction](/app/)
--   [Application](/app/application.md)
+- [Introduction](/app/)
+- [Application](/app/application.md)
