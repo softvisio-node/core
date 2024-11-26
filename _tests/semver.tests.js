@@ -83,7 +83,7 @@ suite( "semver", () => {
             test( n + "", () => {
                 const version = new Semver( tests[ n ][ 0 ] ),
                     incremented = version.increment( ...tests[ n ][ 1 ], {
-                        "throwError": false,
+                        "throwErrors": false,
                     } );
 
                 strictEqual( incremented?.toString() ?? null, tests[ n ][ 2 ] );
