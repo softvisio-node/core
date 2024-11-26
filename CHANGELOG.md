@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.115.13 (2024-11-26)
+
+Fixes:
+
+- fix: fix git stderr
+
+Other changes:
+
+- chore: refactor semver
+
+[Compare with the previous release: v7.115.12 ... v7.115.13](https://github.com/softvisio-node/core/compare/v7.115.12...v7.115.13)
+
 ### 7.115.12 (2024-11-26)
 
 Other changes:
