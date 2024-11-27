@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.116.1 (2024-11-27)
+
+Other changes:
+
+- chore: fix test filename
+- chore: update pub suffixes builder
+
+[Compare with the previous release: v7.116.0 ... v7.116.1](https://github.com/softvisio-node/core/compare/v7.116.0...v7.116.1)
+
 ### 7.116.0 (2024-11-27)
 
 Features:
