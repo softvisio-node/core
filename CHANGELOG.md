@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.116.0 (2024-11-27)
+
+Features:
+
+- feat: separate external resources index
+
+[Compare with the previous release: v7.115.17 ... v7.116.0](https://github.com/softvisio-node/core/compare/v7.115.17...v7.116.0)
+
 ### 7.115.17 (2024-11-27)
 
 Other changes:
