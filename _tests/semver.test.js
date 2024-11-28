@@ -5,6 +5,87 @@ import { suite, test } from "node:test";
 import Semver from "#lib/semver";
 
 suite( "semver", () => {
+    suite( "constructor", () => {
+        const tests = [
+
+            //
+            [ "0.0.0", "0.0.0" ],
+            [ null, "0.0.0" ],
+            [ "1", "1.0.0" ],
+            [ "1.2", "1.2.0" ],
+            [ "1.2.3", "1.2.3" ],
+            [ "-1.2.3", undefined ],
+            [ "1.2.3-a.1+b.1", "1.2.3-a.1+b.1" ],
+            [ "1.2.3-a.1+тест.1", undefined ],
+        ];
+
+        for ( let n = 0; n < tests.length; n++ ) {
+            test( n + "", () => {
+                const version = Semver.new( tests[ n ][ 0 ], {
+                    "throwErrors": false,
+                } );
+
+                strictEqual( version?.toString(), tests[ n ][ 1 ] );
+            } );
+        }
+    } );
+
+    suite( "properties", () => {
+        const tests = [
+
+            //
+            [ "0.0.0", "isNull", true ],
+            [ "0.0.0", "isPatch", true ],
+            [ "0.0.0", "isMinor", false ],
+            [ "0.0.0", "isMajor", false ],
+
+            [ "1.2.3", "isNull", false ],
+            [ "1.2.3", "isPatch", true ],
+            [ "1.2.3", "isMinor", false ],
+            [ "1.2.3", "isMajor", false ],
+
+            [ "1.2.0", "isPatch", false ],
+            [ "1.2.0", "isMinor", true ],
+            [ "1.2.0", "isMajor", false ],
+
+            [ "1.0.0", "isPatch", false ],
+            [ "1.0.0", "isMinor", false ],
+            [ "1.0.0", "isMajor", true ],
+        ];
+
+        for ( let n = 0; n < tests.length; n++ ) {
+            test( n + "", () => {
+                const version = new Semver( tests[ n ][ 0 ] );
+
+                strictEqual( version[ tests[ n ][ 1 ] ], tests[ n ][ 2 ] );
+            } );
+        }
+    } );
+
+    suite( "compare", () => {
+        const tests = [
+
+            //
+            [ "0.0.0", "0.0.0", 0 ],
+
+            [ "1.2.3", "1.2.3", 0 ],
+            [ "1.2.3", "1.2.1", 1 ],
+            [ "1.2.3", "1.2.4", -1 ],
+
+            [ "1.2.3-b.2", "1.2.3-a.1", 1 ],
+            [ "1.2.3-b.2", "1.2.3-b.1", 1 ],
+            [ "1.2.3-b.2", "1.2.3-b.3", -1 ],
+            [ "1.2.3-b.2", "1.2.3-c.1", -1 ],
+            [ "1.2.3-b.2", "1.2.3-b", 1 ],
+        ];
+
+        for ( let n = 0; n < tests.length; n++ ) {
+            test( n + "", () => {
+                strictEqual( Semver.compare( tests[ n ][ 0 ], tests[ n ][ 1 ] ), tests[ n ][ 2 ] );
+            } );
+        }
+    } );
+
     suite( "increment", () => {
         const tests = [
 
