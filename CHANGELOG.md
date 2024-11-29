@@ -1,5 +1,19 @@
 # Changelog
 
+### 7.116.2 (2024-11-29)
+
+Fixes:
+
+- fix: fix semver boolean props
+
+Other changes:
+
+- chore: refactor semver
+- chore: remove browser_major
+- chore: update undici to v7
+
+[Compare with the previous release: v7.116.1 ... v7.116.2](https://github.com/softvisio-node/core/compare/v7.116.1...v7.116.2)
+
 ### 7.116.1 (2024-11-27)
 
 Other changes:
