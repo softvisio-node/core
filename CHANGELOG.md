@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.116.3 (2024-11-29)
+
+Other changes:
+
+- chore: rename tests directory
+- chore: update package metadata
+
+[Compare with the previous release: v7.116.2 ... v7.116.3](https://github.com/softvisio-node/core/compare/v7.116.2...v7.116.3)
+
 ### 7.116.2 (2024-11-29)
 
 Fixes:
