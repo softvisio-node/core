@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.117.0 (2024-12-03)
+
+Features:
+
+- feat: add auto delete expired entries on cache lru
+
+Other changes:
+
+- chore: refactor interval
+- chore: refactor timeout
+
+[Compare with the previous release: v7.116.3 ... v7.117.0](https://github.com/softvisio-node/core/compare/v7.116.3...v7.117.0)
+
 ### 7.116.3 (2024-11-29)
 
 Other changes:
