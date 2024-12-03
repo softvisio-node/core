@@ -1,5 +1,20 @@
 # Changelog
 
+### 7.118.0 (2024-12-03)
+
+Features:
+
+- feat: add interval styles
+- feat: add scale to math methods
+
+Other changes:
+
+- chore: add interval unit aliases
+- chore: fix interval relative format params
+- chore: fix interval to unit converters
+
+[Compare with the previous release: v7.117.0 ... v7.118.0](https://github.com/softvisio-node/core/compare/v7.117.0...v7.118.0)
+
 ### 7.117.0 (2024-12-03)
 
 Features:
