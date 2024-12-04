@@ -72,7 +72,7 @@ async function testCookies ( cookie, useBrowser ) {
             }
         } );
 
-        server.start( { "port": 0 } ).then( async res => {
+        server.start( { "address": "localhost", "port": 0 } ).then( async res => {
             if ( !res.ok ) throw res + "";
 
             const url = `http://localhost:${ res.data.port }/`;
