@@ -34,9 +34,10 @@ async function getHeaders ( browser, protocol, headless = false ) {
         var server, browser;
 
         server = new Server( {
-            "ssl": protocol === "https:",
-            "cert_file_name": certificates.localCertificatePath,
-            "key_file_name": certificates.localPrivateKeyPath,
+            "certificatePath": protocol === "https:"
+                ? certificates.localCertificatePath
+                : null,
+            "privateKeyPath": certificates.localPrivateKeyPath,
         } ).get( "/*", async req => {
             await req.end();
 
