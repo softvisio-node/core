@@ -1,5 +1,19 @@
 # Changelog
 
+### 7.118.1 (2024-12-06)
+
+Other changes:
+
+- chore: fix http server listen on unix socket
+- chore: fix interval parser
+- chore: refactor http server tls
+- chore: refactor interval
+- chore: update external resources path
+- chore: update local certificates names
+- chore: update package dependencies
+
+[Compare with the previous release: v7.118.0 ... v7.118.1](https://github.com/softvisio-node/core/compare/v7.118.0...v7.118.1)
+
 ### 7.118.0 (2024-12-03)
 
 Features:
