@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.119.2 (2024-12-06)
+
+Other changes:
+
+- chore: fix api docs template
+
+[Compare with the previous release: v7.119.1 ... v7.119.2](https://github.com/softvisio-node/core/compare/v7.119.1...v7.119.2)
+
 ### 7.119.1 (2024-12-06)
 
 Other changes:
