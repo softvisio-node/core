@@ -77,9 +77,21 @@ curl \
 <details>
     <summary>JSON schema</summary>
 
+<!-- tabs:start -->
+
+#### **JSON**
+
 ```json
 <%- JSON.stringify( param.schema, null, 4 ) %>
 ```
+
+#### **YAML**
+
+```yaml
+<%- yaml.stringify( param.schema ) %>
+```
+
+<!-- tabs:end -->
 
 </details>
 
