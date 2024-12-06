@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.119.3 (2024-12-06)
+
+Other changes:
+
+- chore: add yaml to markdown code blocks
+- chore: fix api docs template
+- chore: set yaml indent to 4 spaces
+
+[Compare with the previous release: v7.119.2 ... v7.119.3](https://github.com/softvisio-node/core/compare/v7.119.2...v7.119.3)
+
 ### 7.119.2 (2024-12-06)
 
 Other changes:
