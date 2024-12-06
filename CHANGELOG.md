@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.119.1 (2024-12-06)
+
+Other changes:
+
+- chore: update nginx ssl config
+
+[Compare with the previous release: v7.119.0 ... v7.119.1](https://github.com/softvisio-node/core/compare/v7.119.0...v7.119.1)
+
 ### 7.119.0 (2024-12-06)
 
 Features:
