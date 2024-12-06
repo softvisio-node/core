@@ -21,6 +21,7 @@
 -   `limit` {integer} Max rows to return.<%- limit?.maxLimit ? ` Maximum allowed value: \`${limit.maxLimit}\`.` : "" %><%- limit?.defaultLimit || limit?.maxLimit ? ` **Default:** \`${limit?.defaultLimit || limit?.maxLimit}\`.` : "" %><%- limit?.maxResults ? ` This method returns \`${limit?.maxResults}\` rows maximum.` : "" %>
 <% } -%>
 -   Example (this is the abstract data structure example, not related to the current method):
+
     ```json
     {
         "where": {
