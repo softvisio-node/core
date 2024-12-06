@@ -1,79 +1,79 @@
 title: User account
 
 methods:
-  get-account:
-    title: Get your account data
-    permission: users
+    get-account:
+        title: Get your account data
+        permission: users
 
-  set-password:
-    title: Set password
-    permission: users
-    authorizationRequired: true
-    params:
-      - name: password
-        description: New password.
-        required: true
-        schema:
-          type: string
+    set-password:
+        title: Set password
+        permission: users
+        authorizationRequired: true
+        params:
+            - name: password
+              description: New password.
+              required: true
+              schema:
+                  type: string
 
-  send-email-change-token:
-    title: Send email change token
-    permission: users
-    params:
-      - name: email
-        required: true
-        schema: { type: string, format: email }
+    send-email-change-token:
+        title: Send email change token
+        permission: users
+        params:
+            - name: email
+              required: true
+              schema: { type: string, format: email }
 
-  set-email-by-token:
-    title: Set email using token
-    params:
-      - name: token
-        required: true
-        schema: { type: string }
-      - name: credentials
-        required: true
-        schema:
-          anyOf:
-            - type: object
-              properties:
-                password: { type: string }
-              additionalProperties: false
-              required: [password]
-            - type: object
-              properties:
-                oauth_provider: { enum: [google, facebook, github] }
-                oauth_code: { type: string }
-                oauth_redirect_uri: { type: string, format: uri }
-              additionalProperties: false
-              required: [oauth_provider, oauth_code, oauth_redirect_uri]
+    set-email-by-token:
+        title: Set email using token
+        params:
+            - name: token
+              required: true
+              schema: { type: string }
+            - name: credentials
+              required: true
+              schema:
+                  anyOf:
+                      - type: object
+                        properties:
+                            password: { type: string }
+                        additionalProperties: false
+                        required: [password]
+                      - type: object
+                        properties:
+                            oauth_provider: { enum: [google, facebook, github] }
+                            oauth_code: { type: string }
+                            oauth_redirect_uri: { type: string, format: uri }
+                        additionalProperties: false
+                        required: [oauth_provider, oauth_code, oauth_redirect_uri]
 
-  set-locale:
-    title: Set locale
-    permission: users
-    params:
-      - name: locale
-        required: true
-        schema:
-          type: string
-          format: locale
+    set-locale:
+        title: Set locale
+        permission: users
+        params:
+            - name: locale
+              required: true
+              schema:
+                  type: string
+                  format: locale
 
-  delete:
-    title: Delete account
-    permission: users
-    authorizationRequired: true
+    delete:
+        title: Delete account
+        permission: users
+        authorizationRequired: true
 
-  get-sessions:
-    title: Get sessions list
-    permission: users
+    get-sessions:
+        title: Get sessions list
+        permission: users
 
-  sign-out-session:
-    title: Sign out of session
-    permission: users
-    params:
-      - name: session_id
-        required: true
-        schema: { type: integer }
+    sign-out-session:
+        title: Sign out of session
+        permission: users
+        params:
+            - name: session_id
+              required: true
+              schema: { type: integer }
 
-  sign-out-all-sessions:
-    title: Sign out of all sessions
-    permission: users
+    sign-out-all-sessions:
+        title: Sign out of all sessions
+        permission: users

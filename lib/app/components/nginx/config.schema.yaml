@@ -1,73 +1,73 @@
 - $id: config
   type: object
   properties:
-    listenIpFamily: { enum: [0, 4, 6] }
-    dockerEnabled: { typ: boolean }
-    maxBodySize: { type: string, format: digital-size }
+      listenIpFamily: { enum: [0, 4, 6] }
+      dockerEnabled: { typ: boolean }
+      maxBodySize: { type: string, format: digital-size }
 
-    cacheEnabled: { type: boolean }
-    cacheMaxSize:
-      anyOf:
-        - type: "null"
-        - { type: string, format: digital-size }
-
-    cacheMinFree:
-      anyOf:
-        - type: "null"
-        - { type: string, format: digital-size }
-
-    cacheInactive: { type: string, format: interval }
-    cacheBypass: { type: boolean }
-
-    cetrificatesRenewInterval: { type: string, format: interval }
-
-    acme:
-      type: object
-      properties:
-        enabled: { type: boolean }
-        email:
+      cacheEnabled: { type: boolean }
+      cacheMaxSize:
           anyOf:
-            - type: "null"
-            - { type: string, format: email }
+              - type: "null"
+              - { type: string, format: digital-size }
 
-        test: { type: boolean }
-        useLocalStorage: { type: boolean }
-        httpEnabled: { type: boolean }
-        challengeMaxAge: { type: string, format: interval }
-        cloudFlareApiToken: { type: ["null", string] }
-      additionalProperties: false
-      required: [enabled, email, test, useLocalStorage, httpEnabled, challengeMaxAge]
+      cacheMinFree:
+          anyOf:
+              - type: "null"
+              - { type: string, format: digital-size }
 
-    setRealIpFrom:
-      anyOf:
-        - type: "null"
-        - type: array
-          items:
-            anyOf:
-              - { type: string, format: kebab-case }
-              - { type: string, format: ip-subnet }
-          minItems: 1
-          uniqueItems: true
+      cacheInactive: { type: string, format: interval }
+      cacheBypass: { type: boolean }
 
-    realIpHeader: { enum: [x-real-ip, x-forwarded-for] }
+      cetrificatesRenewInterval: { type: string, format: interval }
 
-    localAddress:
-      anyOf:
-        - const: "unix:"
-        - { type: string, format: ip-address+port }
+      acme:
+          type: object
+          properties:
+              enabled: { type: boolean }
+              email:
+                  anyOf:
+                      - type: "null"
+                      - { type: string, format: email }
+
+              test: { type: boolean }
+              useLocalStorage: { type: boolean }
+              httpEnabled: { type: boolean }
+              challengeMaxAge: { type: string, format: interval }
+              cloudFlareApiToken: { type: ["null", string] }
+          additionalProperties: false
+          required: [enabled, email, test, useLocalStorage, httpEnabled, challengeMaxAge]
+
+      setRealIpFrom:
+          anyOf:
+              - type: "null"
+              - type: array
+                items:
+                    anyOf:
+                        - { type: string, format: kebab-case }
+                        - { type: string, format: ip-subnet }
+                minItems: 1
+                uniqueItems: true
+
+      realIpHeader: { enum: [x-real-ip, x-forwarded-for] }
+
+      localAddress:
+          anyOf:
+              - const: "unix:"
+              - { type: string, format: ip-address+port }
 
   additionalProperties: false
   required:
-    - listenIpFamily
-    - dockerEnabled
-    - maxBodySize
-    - cacheEnabled
-    - cacheInactive
-    - cacheBypass
+      - listenIpFamily
+      - dockerEnabled
+      - maxBodySize
+      - cacheEnabled
+      - cacheInactive
+      - cacheBypass
 
-    - acme
+      - acme
 
-    - cetrificatesRenewInterval
-    - realIpHeader
+      - cetrificatesRenewInterval
+      - realIpHeader
 
-    - localAddress
+      - localAddress

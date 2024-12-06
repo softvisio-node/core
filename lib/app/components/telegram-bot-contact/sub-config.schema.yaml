@@ -5,15 +5,15 @@
 - $id: config
   type: object
   properties:
-    botContact:
-      type: object
-      properties:
-        phoneEnabled: { type: boolean }
-        emailEnabled: { type: boolean }
-        addressEnabled: { type: boolean }
-        notesEnabled: { type: boolean }
+      botContact:
+          type: object
+          properties:
+              phoneEnabled: { type: boolean }
+              emailEnabled: { type: boolean }
+              addressEnabled: { type: boolean }
+              notesEnabled: { type: boolean }
 
-      additionalProperties: false
-      required: [phoneEnabled, emailEnabled, addressEnabled, notesEnabled]
+          additionalProperties: false
+          required: [phoneEnabled, emailEnabled, addressEnabled, notesEnabled]
 
   required: [botContact]

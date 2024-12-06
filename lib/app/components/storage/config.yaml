@@ -1,29 +1,29 @@
 dependencies:
-  - dbh
+    - dbh
 
 optionalDependencies:
-  - cluster
-  - crypto
+    - cluster
+    - crypto
 
 config:
-  clearInterval: 10 minutes
-  maxCacheSize: 1000
-  location: /storage
-  listenPublicHttpServer: true
-  listenPrivateHttpServer: true
+    clearInterval: 10 minutes
+    maxCacheSize: 1000
+    location: /storage
+    listenPublicHttpServer: true
+    listenPrivateHttpServer: true
 
-  buckets:
-    /:
-      type: local
+    buckets:
+        /:
+            type: local
 
-  locations:
-    /:
-      private: false
-      encrypt: false
-      deduplicate: false
-      cacheControl: public, max-age=1
-    /private:
-      private: false
-      encrypt: false
-      deduplicate: false
-      cacheControl: public, max-age=1
+    locations:
+        /:
+            private: false
+            encrypt: false
+            deduplicate: false
+            cacheControl: public, max-age=1
+        /private:
+            private: false
+            encrypt: false
+            deduplicate: false
+            cacheControl: public, max-age=1

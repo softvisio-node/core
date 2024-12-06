@@ -2,29 +2,29 @@
   type: object
   propertyNames: { type: string, format: kebab-case }
   additionalProperties:
-    anyOf:
-      - { type: string, format: uri-whatwg }
+      anyOf:
+          - { type: string, format: uri-whatwg }
 
-      - type: object
-        properties:
-          url: { type: string, format: uri-whatwg }
-          options:
-            type: object
+          - type: object
             properties:
-              token: { type: string }
-              persistent: { type: boolean }
-              version: { type: integer, minimum: 1 }
-              locale: { type: string, format: locale }
-              maxConnections: { type: integer, minimum: 1 }
+                url: { type: string, format: uri-whatwg }
+                options:
+                    type: object
+                    properties:
+                        token: { type: string }
+                        persistent: { type: boolean }
+                        version: { type: integer, minimum: 1 }
+                        locale: { type: string, format: locale }
+                        maxConnections: { type: integer, minimum: 1 }
+                    additionalProperties: false
+
             additionalProperties: false
+            required: [url]
 
-        additionalProperties: false
-        required: [url]
+          - type: object
+            properties:
+                type: { type: string }
+                options: { type: array, minItems: 1 }
 
-      - type: object
-        properties:
-          type: { type: string }
-          options: { type: array, minItems: 1 }
-
-        additionalProperties: false
-        required: [type]
+            additionalProperties: false
+            required: [type]

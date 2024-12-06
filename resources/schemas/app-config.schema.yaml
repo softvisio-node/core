@@ -1,61 +1,61 @@
 type: object
 properties:
-  env:
-    anyOf:
-      - type: "null"
-      - type: object
-        additionalProperties: { type: string }
-
-  dependencies:
-    anyOf:
-      - type: "null"
-      - type: array
-        items: { type: string }
-        uniqueItems: true
-
-  cli: { type: ["null", "object"] }
-
-  services:
-    anyOf:
-      - type: "null"
-      - type: object
-        propertyNames: { type: string, format: kebab-case }
-        minProperties: 1
-        additionalProperties:
-          anyOf:
+    env:
+        anyOf:
             - type: "null"
             - type: object
-              properties:
-                components:
-                  anyOf:
-                    - type: "null"
-                    - type: object
-                      propertyNames: { type: string, format: camel-case-strict }
-                      minProperties: 1
-                      additionalProperties: { type: [boolean, object] }
+              additionalProperties: { type: string }
 
-                config: { type: object }
+    dependencies:
+        anyOf:
+            - type: "null"
+            - type: array
+              items: { type: string }
+              uniqueItems: true
 
+    cli: { type: ["null", "object"] }
+
+    services:
+        anyOf:
+            - type: "null"
+            - type: object
+              propertyNames: { type: string, format: kebab-case }
               minProperties: 1
-              additionalProperties: false
+              additionalProperties:
+                  anyOf:
+                      - type: "null"
+                      - type: object
+                        properties:
+                            components:
+                                anyOf:
+                                    - type: "null"
+                                    - type: object
+                                      propertyNames: { type: string, format: camel-case-strict }
+                                      minProperties: 1
+                                      additionalProperties: { type: [boolean, object] }
 
-  defaultService: { type: ["null", string] }
+                            config: { type: object }
 
-  templates:
-    anyOf:
-      - type: "null"
-      - type: object
-        propertyNames: { type: string, formap: kebab-case-relative-file-path }
+                        minProperties: 1
+                        additionalProperties: false
 
-  components:
-    anyOf:
-      - type: "null"
-      - type: object
-        propertyNames: { type: string, format: camel-case-strict }
-        additionalProperties:
-          type: object
+    defaultService: { type: ["null", string] }
 
-  config: { type: ["null", object] }
+    templates:
+        anyOf:
+            - type: "null"
+            - type: object
+              propertyNames: { type: string, formap: kebab-case-relative-file-path }
+
+    components:
+        anyOf:
+            - type: "null"
+            - type: object
+              propertyNames: { type: string, format: camel-case-strict }
+              additionalProperties:
+                  type: object
+
+    config: { type: ["null", object] }
 
 additionalProperties: false
 required: []

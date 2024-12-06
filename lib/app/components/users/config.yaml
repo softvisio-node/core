@@ -1,14 +1,14 @@
 dependencies:
-  - dbh
-  - argon2
+    - dbh
+    - argon2
 
 optionalDependencies: ~
 
 config:
-  root:
-    email: ~
-    password: ~
+    root:
+        email: ~
+        password: ~
 
-  cacheMaxSize: 10_000
-  newUserEnabledByDefault: true # new users are enabled by default
-  passwordsStrength: strong
+    cacheMaxSize: 10_000
+    newUserEnabledByDefault: true # new users are enabled by default
+    passwordsStrength: strong

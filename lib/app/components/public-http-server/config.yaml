@@ -3,18 +3,18 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-  address: 0.0.0.0
-  port: 80
-  exclusive: true
+    address: 0.0.0.0
+    port: 80
+    exclusive: true
 
-  setRealIpFrom: [local, private]
-  realIpHeader: x-real-ip
+    setRealIpFrom: [local, private]
+    realIpHeader: x-real-ip
 
-  nginxApiUrl: ws://nginx:81/api
-  nginxProxyName: ~
+    nginxApiUrl: ws://nginx:81/api
+    nginxProxyName: ~
 
-  nginx:
-    serverName: ~
-    maxBodySize: 10 MB
-    cacheEnabled: true
-    cacheBypass: false
+    nginx:
+        serverName: ~
+        maxBodySize: 10 MB
+        cacheEnabled: true
+        cacheBypass: false

@@ -1,49 +1,49 @@
 title: Nginx
 
 methods:
-  add-proxy:
-    title: Add nginx proxy
-    persistentConnectionRequired: true
-    params:
-      - name: proxy_id
-        required: true
-        schema:
-          type: string
-          fotmat: kebab-case
-      - name: upstream_port
-        required: true
-        schema:
-          type: integer
-          format: ip-port
-      - name: options
-        required: true
-        schema:
-          type: object
-          properties:
-            upstreamProxyProtocol: { type: boolean }
+    add-proxy:
+        title: Add nginx proxy
+        persistentConnectionRequired: true
+        params:
+            - name: proxy_id
+              required: true
+              schema:
+                  type: string
+                  fotmat: kebab-case
+            - name: upstream_port
+              required: true
+              schema:
+                  type: integer
+                  format: ip-port
+            - name: options
+              required: true
+              schema:
+                  type: object
+                  properties:
+                      upstreamProxyProtocol: { type: boolean }
 
-            servers:
-              type: array
-              minItems: 1
-              items:
-                type: object
-                properties:
-                  port: { type: integer, format: ip-port }
-                  type: { enum: [http, tcp, udp] }
-                  serverName:
-                    anyOf:
-                      - type: "null"
-                      - { type: string, format: nginx-server-name }
-                      - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+                      servers:
+                          type: array
+                          minItems: 1
+                          items:
+                              type: object
+                              properties:
+                                  port: { type: integer, format: ip-port }
+                                  type: { enum: [http, tcp, udp] }
+                                  serverName:
+                                      anyOf:
+                                          - type: "null"
+                                          - { type: string, format: nginx-server-name }
+                                          - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
-                  sslEnabled: { type: boolean }
-                  maxBodySize: { type: string, format: digital-size }
-                  cacheEnabled: { type: boolean }
-                  cacheBypass: { type: boolean }
-                  proxyProtocol: { type: boolean }
+                                  sslEnabled: { type: boolean }
+                                  maxBodySize: { type: string, format: digital-size }
+                                  cacheEnabled: { type: boolean }
+                                  cacheBypass: { type: boolean }
+                                  proxyProtocol: { type: boolean }
 
-                additionalProperties: false
-                required: [port]
+                              additionalProperties: false
+                              required: [port]
 
-          additionalProperties: false
-          required: [servers]
+                  additionalProperties: false
+                  required: [servers]

@@ -1,9 +1,9 @@
 dependencies:
-  - dbh
-  - users
-  - acl
+    - dbh
+    - users
+    - acl
 
 optionalDependencies: ~
 
 config:
-  currencies: [USD, USDT]
+    currencies: [USD, USDT]

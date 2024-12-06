@@ -7,8 +7,8 @@ emits: ~
 locks: ~
 
 cron:
-  cleanup:
-    cron: "0 1 * * *" # 01:00 everyday
-    timezone: ~
-    query: |-
-      DELETE FROM action_token WHERE expires <= CURRENT_TIMESTAMP;
+    cleanup:
+        cron: "0 1 * * *" # 01:00 everyday
+        timezone: ~
+        query: |-
+            DELETE FROM action_token WHERE expires <= CURRENT_TIMESTAMP;

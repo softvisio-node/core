@@ -1,23 +1,23 @@
 - $id: config
   type: object
   properties:
-    defaultVersion: { type: integer, minimum: 1 }
+      defaultVersion: { type: integer, minimum: 1 }
 
-    frontend:
-      type: object
-      properties:
-        maxApiRequestLength: { type: integer, minimum: 1 }
-        maxUploadFileSize: { type: integer, minimum: 1 }
-        idleTimeout: { type: integer, minimum: 0 }
-        sendPingsAutomatically: { type: boolean }
-        compress:
-          anyOf:
-            - type: "null" # use server default
-            - type: boolean
-            - { type: integer, minimum: 0 }
+      frontend:
+          type: object
+          properties:
+              maxApiRequestLength: { type: integer, minimum: 1 }
+              maxUploadFileSize: { type: integer, minimum: 1 }
+              idleTimeout: { type: integer, minimum: 0 }
+              sendPingsAutomatically: { type: boolean }
+              compress:
+                  anyOf:
+                      - type: "null" # use server default
+                      - type: boolean
+                      - { type: integer, minimum: 0 }
 
-      additionalProperties: false
-      required: [maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
+          additionalProperties: false
+          required: [maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
 
   additionalProperties: false
   required: [defaultVersion, frontend]

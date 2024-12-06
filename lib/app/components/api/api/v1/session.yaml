@@ -1,153 +1,153 @@
 title: Session
 
 emits:
-  - session/email/confirm
+    - session/email/confirm
 
 methods:
-  init-session:
-    title: Init sessions
-    params:
-      - name: options
-        schema:
-          type: object
-          properties:
-            locale:
-              anyOf:
-                - type: "null"
-                - { type: string, format: locale }
-            locales:
-              anyOf:
-                - type: "null"
-                - { type: array, item: { type: string, format: locale }, uniqueItem: true }
-            defaultLocale:
-              anyOf:
-                - type: "null"
-                - { type: string, format: locale }
-            forceLocale: { type: ["null", boolean] }
-            detectLocaleByClientIpAddress: { type: ["null", boolean] }
+    init-session:
+        title: Init sessions
+        params:
+            - name: options
+              schema:
+                  type: object
+                  properties:
+                      locale:
+                          anyOf:
+                              - type: "null"
+                              - { type: string, format: locale }
+                      locales:
+                          anyOf:
+                              - type: "null"
+                              - { type: array, item: { type: string, format: locale }, uniqueItem: true }
+                      defaultLocale:
+                          anyOf:
+                              - type: "null"
+                              - { type: string, format: locale }
+                      forceLocale: { type: ["null", boolean] }
+                      detectLocaleByClientIpAddress: { type: ["null", boolean] }
 
-          additionalProperties: false
+                  additionalProperties: false
 
-  check-authentication:
-    title: Check session status
-    permission: users
+    check-authentication:
+        title: Check session status
+        permission: users
 
-  sign-in:
-    title: Sign in
-    params:
-      - name: credentials
-        required: true
-        schema:
-          anyOf:
-            # password
-            - type: object
-              properties:
-                email: { type: string, format: email }
-                password: { type: string }
-              additionalProperties: false
-              required: [email, password]
+    sign-in:
+        title: Sign in
+        params:
+            - name: credentials
+              required: true
+              schema:
+                  anyOf:
+                      # password
+                      - type: object
+                        properties:
+                            email: { type: string, format: email }
+                            password: { type: string }
+                        additionalProperties: false
+                        required: [email, password]
 
-            # oauth
-            - type: object
-              properties:
-                oauth_provider: { enum: [google, facebook, github] }
-                oauth_code: { type: string }
-                oauth_redirect_uri: { type: string, format: uri }
-              additionalProperties: false
-              required: [oauth_provider, oauth_code, oauth_redirect_uri]
+                      # oauth
+                      - type: object
+                        properties:
+                            oauth_provider: { enum: [google, facebook, github] }
+                            oauth_code: { type: string }
+                            oauth_redirect_uri: { type: string, format: uri }
+                        additionalProperties: false
+                        required: [oauth_provider, oauth_code, oauth_redirect_uri]
 
-  authorize:
-    title: Authorize session
-    permission: users
-    params:
-      - name: credentials
-        required: true
-        schema:
-          anyOf:
-            - type: object
-              properties:
-                password: { type: string }
-              additionalProperties: false
-              required: [password]
-            - type: object
-              properties:
-                oauth_provider: { enum: [google, facebook, github] }
-                oauth_code: { type: string }
-                oauth_redirect_uri: { type: string, format: uri }
-              additionalProperties: false
-              required: [oauth_provider, oauth_code, oauth_redirect_uri]
+    authorize:
+        title: Authorize session
+        permission: users
+        params:
+            - name: credentials
+              required: true
+              schema:
+                  anyOf:
+                      - type: object
+                        properties:
+                            password: { type: string }
+                        additionalProperties: false
+                        required: [password]
+                      - type: object
+                        properties:
+                            oauth_provider: { enum: [google, facebook, github] }
+                            oauth_code: { type: string }
+                            oauth_redirect_uri: { type: string, format: uri }
+                        additionalProperties: false
+                        required: [oauth_provider, oauth_code, oauth_redirect_uri]
 
-  sign-out:
-    title: Sign out
-    permission: users
+    sign-out:
+        title: Sign out
+        permission: users
 
-  sign-up:
-    title: Sign up
-    permission: guests
-    params:
-      - name: email
-        required: true
-        schema:
-          anyOf:
-            - { type: string, format: email }
-            - type: object
-              properties:
-                oauth_provider: { enum: [google, facebook, github] }
-                oauth_code: { type: string }
-                oauth_redirect_uri: { type: string, format: uri }
-              additionalProperties: false
-              required: [oauth_provider, oauth_code, oauth_redirect_uri]
-      - name: fields
-        schema:
-          type: object
-          properties:
-            password: { type: string }
-            locale: { type: string }
-          additionalProperties: false
+    sign-up:
+        title: Sign up
+        permission: guests
+        params:
+            - name: email
+              required: true
+              schema:
+                  anyOf:
+                      - { type: string, format: email }
+                      - type: object
+                        properties:
+                            oauth_provider: { enum: [google, facebook, github] }
+                            oauth_code: { type: string }
+                            oauth_redirect_uri: { type: string, format: uri }
+                        additionalProperties: false
+                        required: [oauth_provider, oauth_code, oauth_redirect_uri]
+            - name: fields
+              schema:
+                  type: object
+                  properties:
+                      password: { type: string }
+                      locale: { type: string }
+                  additionalProperties: false
 
-  send-confirmation-email:
-    title: Send confirmation email
-    permission: users
+    send-confirmation-email:
+        title: Send confirmation email
+        permission: users
 
-  confirm-email-by-token:
-    title: Confirm user email using email confirmation token
-    params:
-      - name: token
-        description: Email confirmation token.
-        required: true
-        schema:
-          type: string
+    confirm-email-by-token:
+        title: Confirm user email using email confirmation token
+        params:
+            - name: token
+              description: Email confirmation token.
+              required: true
+              schema:
+                  type: string
 
-  send-password-recovery-email:
-    title: Send password recovery email
-    params:
-      - name: email
-        required: true
-        schema: { type: string, format: email }
+    send-password-recovery-email:
+        title: Send password recovery email
+        params:
+            - name: email
+              required: true
+              schema: { type: string, format: email }
 
-  set-password-by-token:
-    title: Set user password using password recovery token
-    params:
-      - name: token
-        required: true
-        schema:
-          type: string
-      - name: password
-        required: true
-        schema:
-          type: string
+    set-password-by-token:
+        title: Set user password using password recovery token
+        params:
+            - name: token
+              required: true
+              schema:
+                  type: string
+            - name: password
+              required: true
+              schema:
+                  type: string
 
-  register-push-notifications-token:
-    title: Register push notifications token
-    params:
-      - name: token
-        required: true
-        schema: { type: string }
+    register-push-notifications-token:
+        title: Register push notifications token
+        params:
+            - name: token
+              required: true
+              schema: { type: string }
 
-  get-acl-permissions:
-    title: Get ACL permissions
-    permission: users
-    params:
-      - name: acl_id
-        required: true
-        schema: { type: integer }
+    get-acl-permissions:
+        title: Get ACL permissions
+        permission: users
+        params:
+            - name: acl_id
+              required: true
+              schema: { type: integer }

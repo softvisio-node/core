@@ -1,4 +1,4 @@
 forumChat:
-  clientPhoneNumber: ~
-  deleteGroupCreator: true
-  hideGeneralTopic: true
+    clientPhoneNumber: ~
+    deleteGroupCreator: true
+    hideGeneralTopic: true

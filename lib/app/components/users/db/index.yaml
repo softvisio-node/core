@@ -3,11 +3,11 @@ type: postgresql
 patch: 1
 
 emits:
-  - users/user/delete # user_id
-  - users/user/update
+    - users/user/delete # user_id
+    - users/user/update
 
-  - users/user-password-hash/update
-  - users/user-notification/update
+    - users/user-password-hash/update
+    - users/user-notification/update
 
 locks: ~
 

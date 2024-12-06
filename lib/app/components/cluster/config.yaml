@@ -3,5 +3,5 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-  id: ~
-  apiUrl: ws://cluster:81/api
+    id: ~
+    apiUrl: ws://cluster:81/api

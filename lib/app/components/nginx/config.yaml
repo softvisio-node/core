@@ -1,35 +1,35 @@
 dependencies: ~
 
 optionalDependencies:
-  - dbh
-  - crypto
-  - privateHttpServer
-  - publicHttpServer
+    - dbh
+    - crypto
+    - privateHttpServer
+    - publicHttpServer
 
 config:
-  listenIpFamily: 4
-  dockerEnabled: false
+    listenIpFamily: 4
+    dockerEnabled: false
 
-  maxBodySize: 50 MB
+    maxBodySize: 50 MB
 
-  cacheEnabled: true
-  cacheMaxSize: ~
-  cacheMinFree: 1 GB
-  cacheInactive: 1 week
-  cacheBypass: false
+    cacheEnabled: true
+    cacheMaxSize: ~
+    cacheMinFree: 1 GB
+    cacheInactive: 1 week
+    cacheBypass: false
 
-  cetrificatesRenewInterval: 1 week
+    cetrificatesRenewInterval: 1 week
 
-  acme:
-    enabled: false
-    email: ~
-    test: false
-    useLocalStorage: false
-    httpEnabled: true
-    challengeMaxAge: 10 minutes
-    cloudFlareApiToken: ~
+    acme:
+        enabled: false
+        email: ~
+        test: false
+        useLocalStorage: false
+        httpEnabled: true
+        challengeMaxAge: 10 minutes
+        cloudFlareApiToken: ~
 
-  setRealIpFrom: [local, private]
-  realIpHeader: x-real-ip
+    setRealIpFrom: [local, private]
+    realIpHeader: x-real-ip
 
-  localAddress: 127.0.0.5:33000
+    localAddress: 127.0.0.5:33000

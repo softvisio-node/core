@@ -1,87 +1,87 @@
 - $id: config
   anyOf:
-    - type: object
-      properties:
-        title: { type: string }
-        description: { type: string }
-        globalOptions: { $ref: options }
-        commands: { $ref: commands }
-      additionalProperties: false
-      required: [title, commands]
-    - type: object
-      properties:
-        title: { type: string }
-        description: { type: string }
-        globalOptions: { $ref: options }
-        options: { $ref: options }
-        arguments: { $ref: arguments }
-      additionalProperties: false
-      required: [title]
+      - type: object
+        properties:
+            title: { type: string }
+            description: { type: string }
+            globalOptions: { $ref: options }
+            commands: { $ref: commands }
+        additionalProperties: false
+        required: [title, commands]
+      - type: object
+        properties:
+            title: { type: string }
+            description: { type: string }
+            globalOptions: { $ref: options }
+            options: { $ref: options }
+            arguments: { $ref: arguments }
+        additionalProperties: false
+        required: [title]
 
 - $id: commands
   anyOf:
-    - type: "null"
-    - type: object
-      propertyNames: { type: string, format: kebab-case }
-      additionalProperties: { $res: command }
+      - type: "null"
+      - type: object
+        propertyNames: { type: string, format: kebab-case }
+        additionalProperties: { $res: command }
 
 - $id: command
   anyOf:
-    - type: "null"
-    - type: object
-      properties:
-        title: { type: string }
-        short: { $ref: short }
-        module: { type: string, format: uri }
-      additionalProperties: false
-      required: [title, module]
-    - type: object
-      properties:
-        title: { type: string }
-        short: { $ref: short }
-      required: [title]
+      - type: "null"
+      - type: object
+        properties:
+            title: { type: string }
+            short: { $ref: short }
+            module: { type: string, format: uri }
+        additionalProperties: false
+        required: [title, module]
+      - type: object
+        properties:
+            title: { type: string }
+            short: { $ref: short }
+        required: [title]
 
 - $id: options
   anyOf:
-    - type: "null"
-    - type: object
-      propertyNames: { type: string, format: kebab-case }
-      additionalProperties: { $ref: option }
+      - type: "null"
+      - type: object
+        propertyNames: { type: string, format: kebab-case }
+        additionalProperties: { $ref: option }
 
 - $id: option
   anyOf:
-    - type: "null"
-    - type: object
-      properties:
-        short: { $ref: short }
-        description: { type: string }
-        required: { type: boolean }
-        default: { type: [string, integer, boolean] }
-        schema: { type: object }
-      additionalProperties: false
-      required: [description, schema]
+      - type: "null"
+      - type: object
+        properties:
+            short: { $ref: short }
+            description: { type: string }
+            required: { type: boolean }
+            default: { type: [string, integer, boolean] }
+            schema: { type: object }
+        additionalProperties: false
+        required: [description, schema]
 
 - $id: arguments
   anyOf:
-    - type: "null"
-    - type: object
-      propertyNames: { type: string, format: kebab-case }
-      additionalProperties: { $ref: argument }
+      - type: "null"
+      - type: object
+        propertyNames: { type: string, format: kebab-case }
+        additionalProperties: { $ref: argument }
 
 - $id: argument
   anyOf:
-    - type: "null"
-    - type: object
-      properties:
-        description: { type: string }
-        required: { type: boolean }
-        default: { type: [string, integer] }
-        schema: { type: object }
-      additionalProperties: false
-      required: [description, schema]
+      - type: "null"
+      - type: object
+        properties:
+            description: { type: string }
+            required: { type: boolean }
+            default: { type: [string, integer] }
+            schema: { type: object }
+        additionalProperties: false
+        required: [description, schema]
 
 - $id: short
   anyOf:
-    - const: false
-    - type: "null"
-    - { type: string, minLength: 1, maxLength: 1 }
+      - const: false
+      - type: "null"
+      - { type: string, minLength: 1, maxLength: 1 }

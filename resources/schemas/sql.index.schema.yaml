@@ -1,41 +1,41 @@
 type: object
 properties:
-  module: { type: string, format: kebab-case }
+    module: { type: string, format: kebab-case }
 
-  type:
-    anyOf:
-      - { type: string, enum: [postgresql, sqlite] }
-      - { type: array, items: { type: string, enum: [postgresql, sqlite] }, minItems: 1, uniqueItems: true }
+    type:
+        anyOf:
+            - { type: string, enum: [postgresql, sqlite] }
+            - { type: array, items: { type: string, enum: [postgresql, sqlite] }, minItems: 1, uniqueItems: true }
 
-  patch: { type: integer, minimum: 0 }
+    patch: { type: integer, minimum: 0 }
 
-  emits:
-    anyOf:
-      - type: "null"
-      - { type: array, items: { type: string, format: kebab-case-glob-pattern }, uniqueItems: true }
+    emits:
+        anyOf:
+            - type: "null"
+            - { type: array, items: { type: string, format: kebab-case-glob-pattern }, uniqueItems: true }
 
-  locks:
-    anyOf:
-      - type: "null"
-      - { type: array, items: { type: string, format: kebab-case-relative-file-path }, uniqueItems: true }
+    locks:
+        anyOf:
+            - type: "null"
+            - { type: array, items: { type: string, format: kebab-case-relative-file-path }, uniqueItems: true }
 
-  cron:
-    anyOf:
-      - type: "null"
-      - type: object
-        additionalProperties:
-          type: object
-          properties:
-            cron: { type: string, format: cron }
-            timezone: { type: string }
-            query:
-              anyOf:
-                - type: string
-                - { type: array, items: { type: string }, minIntems: 1, uniqueItems: true }
-            runMissed: { type: boolean, default: true }
+    cron:
+        anyOf:
+            - type: "null"
+            - type: object
+              additionalProperties:
+                  type: object
+                  properties:
+                      cron: { type: string, format: cron }
+                      timezone: { type: string }
+                      query:
+                          anyOf:
+                              - type: string
+                              - { type: array, items: { type: string }, minIntems: 1, uniqueItems: true }
+                      runMissed: { type: boolean, default: true }
 
-          additionalProperties: false
-          required: [cron, query]
+                  additionalProperties: false
+                  required: [cron, query]
 
 additionalProperties: false
 required: [module, type, patch]

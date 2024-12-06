@@ -1,73 +1,73 @@
 - $id: config
   type: object
   properties:
-    clearInterval: { type: string, format: interval }
-    maxCacheSize: { type: integer, minimum: 1 }
-    location: { type: string, format: kebab-case-root-or-absolute-file-path }
-    listenPublicHttpServer: { type: boolean }
-    listenPrivateHttpServer: { type: boolean }
+      clearInterval: { type: string, format: interval }
+      maxCacheSize: { type: integer, minimum: 1 }
+      location: { type: string, format: kebab-case-root-or-absolute-file-path }
+      listenPublicHttpServer: { type: boolean }
+      listenPrivateHttpServer: { type: boolean }
 
-    buckets:
-      type: object
-      propertyNames: { type: string, format: kebab-case-root-or-absolute-file-path }
-      additionalProperties:
-        anyOf:
-          - type: object
-            properties:
-              type: { const: local }
-            additionalProperties: false
-            required: [type]
+      buckets:
+          type: object
+          propertyNames: { type: string, format: kebab-case-root-or-absolute-file-path }
+          additionalProperties:
+              anyOf:
+                  - type: object
+                    properties:
+                        type: { const: local }
+                    additionalProperties: false
+                    required: [type]
 
-          - type: object
-            properties:
-              type: { const: google }
-              bucket: { type: string, format: kebab-case }
-              serviceAccount:
-                type: object
-                properties:
-                  type: { type: string }
-                  project_id: { type: string }
-                  private_key_id: { type: string }
-                  private_key: { type: string }
-                  client_email: { type: string }
-                  client_id: { type: string }
-                  auth_uri: { type: string }
-                  token_uri: { type: string }
-                  auth_provider_x509_cert_url: { type: string }
-                  client_x509_cert_url: { type: string }
+                  - type: object
+                    properties:
+                        type: { const: google }
+                        bucket: { type: string, format: kebab-case }
+                        serviceAccount:
+                            type: object
+                            properties:
+                                type: { type: string }
+                                project_id: { type: string }
+                                private_key_id: { type: string }
+                                private_key: { type: string }
+                                client_email: { type: string }
+                                client_id: { type: string }
+                                auth_uri: { type: string }
+                                token_uri: { type: string }
+                                auth_provider_x509_cert_url: { type: string }
+                                client_x509_cert_url: { type: string }
 
-                additionalProperties: false
-                required: [project_id, private_key, client_email, token_uri]
+                            additionalProperties: false
+                            required: [project_id, private_key, client_email, token_uri]
 
-            additionalProperties: false
-            required: [type, bucket, serviceAccount]
+                    additionalProperties: false
+                    required: [type, bucket, serviceAccount]
 
-      required: ["/"]
+          required: ["/"]
 
-    locations:
-      type: object
-      propertyNames: { type: string, format: kebab-case-root-or-absolute-file-path }
-      additionalProperties:
-        type: object
-        properties:
-          private: { type: boolean }
-          encrypt: { type: boolean }
-          deduplicate: { type: boolean }
-          cacheControl: { type: ["null", string] }
+      locations:
+          type: object
+          propertyNames: { type: string, format: kebab-case-root-or-absolute-file-path }
+          additionalProperties:
+              type: object
+              properties:
+                  private: { type: boolean }
+                  encrypt: { type: boolean }
+                  deduplicate: { type: boolean }
+                  cacheControl: { type: ["null", string] }
 
-          maxAge:
-            anyOf:
-              - type: "null"
-              - { type: string, format: interval }
+                  maxAge:
+                      anyOf:
+                          - type: "null"
+                          - { type: string, format: interval }
 
-          inactiveMaxAge:
-            anyOf:
-              - type: "null"
-              - { type: string, format: interval }
+                  inactiveMaxAge:
+                      anyOf:
+                          - type: "null"
+                          - { type: string, format: interval }
 
-        additionalProperties: false
-        required: []
-      required: ["/"]
+              additionalProperties: false
+              required: []
+          required: ["/"]
 
   additionalProperties: false
   required: [clearInterval, maxCacheSize, location, listenPublicHttpServer, listenPrivateHttpServer, buckets, locations]

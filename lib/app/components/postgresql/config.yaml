@@ -3,39 +3,39 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-  storageLocation: /postgresql
+    storageLocation: /postgresql
 
-  mode: primary
-  clusterName: main
-  dataRootDir: ~
+    mode: primary
+    clusterName: main
+    dataRootDir: ~
 
-  access:
-    - { host: local, database: all, user: all, address: ~, auth-method: trust, auth-options: ~ }
-    - { host: local, database: replication, user: replication, address: ~, auth-method: trust, auth-options: ~ }
-    - { host: host, database: replication, user: replication, address: 0.0.0.0/0, auth-method: scram-sha-256, auth-options: ~ }
-    - { host: host, database: all, user: all, address: 0.0.0.0/0, auth-method: scram-sha-256, auth-options: ~ }
+    access:
+        - { host: local, database: all, user: all, address: ~, auth-method: trust, auth-options: ~ }
+        - { host: local, database: replication, user: replication, address: ~, auth-method: trust, auth-options: ~ }
+        - { host: host, database: replication, user: replication, address: 0.0.0.0/0, auth-method: scram-sha-256, auth-options: ~ }
+        - { host: host, database: all, user: all, address: 0.0.0.0/0, auth-method: scram-sha-256, auth-options: ~ }
 
-  backups:
-    - 1 day
-    - 2 days
-    - 1 week
-    - 1 month
+    backups:
+        - 1 day
+        - 2 days
+        - 1 week
+        - 1 month
 
-  replication:
-    port: 5432
-    username: replication
-    password: ~
+    replication:
+        port: 5432
+        username: replication
+        password: ~
 
-    primary:
-      hostname: postgresql
+        primary:
+            hostname: postgresql
 
-    sync:
-      hostname: postgresql-sync
-      numberOfStandbys: 0
+        sync:
+            hostname: postgresql-sync
+            numberOfStandbys: 0
 
-    async:
-      replicateFrom: sync
+        async:
+            replicateFrom: sync
 
-  settings:
-    maintenance_work_mem: 512MB
-    # shared_preload_libraries: ~ # timescaledb
+    settings:
+        maintenance_work_mem: 512MB
+        # shared_preload_libraries: ~ # timescaledb

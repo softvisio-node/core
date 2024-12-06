@@ -3,4 +3,4 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-  preset: default
+    preset: default
