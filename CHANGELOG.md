@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.118.2 (2024-12-06)
+
+Other changes:
+
+- chore: fix numeric compare
+
+[Compare with the previous release: v7.118.1 ... v7.118.2](https://github.com/softvisio-node/core/compare/v7.118.1...v7.118.2)
+
 ### 7.118.1 (2024-12-06)
 
 Other changes:
