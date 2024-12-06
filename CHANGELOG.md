@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.118.3 (2024-12-06)
+
+Other changes:
+
+- chore: update Numeric constructor
+
+[Compare with the previous release: v7.118.2 ... v7.118.3](https://github.com/softvisio-node/core/compare/v7.118.2...v7.118.3)
+
 ### 7.118.2 (2024-12-06)
 
 Other changes:
