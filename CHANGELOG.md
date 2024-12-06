@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.119.0 (2024-12-06)
+
+Features:
+
+- feat: add dh-params.pem
+
+Other changes:
+
+- chore: fix interval hasValue
+- chore: update nginx ssl config
+
+[Compare with the previous release: v7.118.3 ... v7.119.0](https://github.com/softvisio-node/core/compare/v7.118.3...v7.119.0)
+
 ### 7.118.3 (2024-12-06)
 
 Other changes:
