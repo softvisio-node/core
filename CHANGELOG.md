@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.119.4 (2024-12-09)
+
+Other changes:
+
+- chore: add more markdown languages
+- chore: update yaml stringify options
+
+[Compare with the previous release: v7.119.3 ... v7.119.4](https://github.com/softvisio-node/core/compare/v7.119.3...v7.119.4)
+
 ### 7.119.3 (2024-12-06)
 
 Other changes:
