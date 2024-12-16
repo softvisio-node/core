@@ -53,11 +53,11 @@ Disables ANSI codes.
 - `name` {string} New color name.
 - `color` {string|integer|integer\[]} Color definitions. Examples of the correct `RGB` colors definitions:
     ```javascript
-    ansi.defineColor("teal", "008080");
-    ansi.defineColor("teal", "#008080");
-    ansi.defineColor("teal", 0x80_80);
-    ansi.defineColor("teal", 32_896);
-    ansi.defineColor("teal", [0, 128, 128]);
+    ansi.defineColor( "teal", "008080" );
+    ansi.defineColor( "teal", "#008080" );
+    ansi.defineColor( "teal", 0x80_80 );
+    ansi.defineColor( "teal", 32_896 );
+    ansi.defineColor( "teal", [ 0, 128, 128 ] );
     ```
 
 Defines named `RGB` color.
@@ -125,14 +125,14 @@ table.end();
 Define table style. Example of `ascii` style definition:
 
 ```javascript
-Table.defineStyle("ascii", {
-    topLine: "+-++",
-    headerRow: "| ||",
-    headerLine: "|=+|",
-    dataRow: "| ||",
-    dataLine: "|-+|",
-    bottomLine: "+-++",
-});
+Table.defineStyle( "ascii", {
+    "topLine": "+-++",
+    "headerRow": "| ||",
+    "headerLine": "|=+|",
+    "dataRow": "| ||",
+    "dataLine": "|-+|",
+    "bottomLine": "+-++",
+} );
 ```
 
 ### new Table( options )

@@ -7,7 +7,7 @@ import DoublyLinkedList from "@softvisio/utils/doubly-linked-list";
 
 const list = new DoublyLinkedList();
 
-list.push(1, 2, 3);
+list.push( 1, 2, 3 );
 ```
 
 ## Class: DoublyLinkedList
