@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.119.6 (2024-12-16)
+
+Fixes:
+
+- fix: external resource index sort
+
+Other changes:
+
+- chore: refactor mime
+
+[Compare with the previous release: v7.119.5 ... v7.119.6](https://github.com/softvisio-node/core/compare/v7.119.5...v7.119.6)
+
 ### 7.119.5 (2024-12-16)
 
 Other changes:
