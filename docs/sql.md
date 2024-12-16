@@ -11,7 +11,7 @@ import sql from "@softvisio/core/sql";
 ```javascript
 import sql from "@softvisio/core/sql";
 
-const dbh = sql.new( "pgsql://user:password@host" );
+const dbh = sql.new("pgsql://user:password@host");
 ```
 
 ### SQLite
@@ -19,7 +19,7 @@ const dbh = sql.new( "pgsql://user:password@host" );
 ```javascript
 import sql from "@softvisio/core/sql";
 
-const dbh = sql.new( "sqlite:" );
+const dbh = sql.new("sqlite:");
 ```
 
 ## Class: sql.Query
@@ -27,7 +27,7 @@ const dbh = sql.new( "sqlite:" );
 ## Migration
 
 ```javascript
-await dbh.loadSchema( new URL( "db", import.meta.url ) );
+await dbh.loadSchema(new URL("db", import.meta.url));
 
 const res = await dbh.migrate();
 ```
@@ -70,7 +70,7 @@ When you merged patch with the main schema, you need to update `version` field i
 ### Add custom type
 
 ```javascript
-const res = await dbh.addType( name, { encode, decode } );
+const res = await dbh.addType(name, { encode, decode });
 ```
 
 ### Default types encoders

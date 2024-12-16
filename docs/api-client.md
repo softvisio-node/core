@@ -5,7 +5,7 @@
 ```javascript
 import Api from "@softvisio/core/api";
 
-const api = new Api( "wss://devel:8080/api?maxConnections=1", { "cacheMax": 1000 } );
+const api = new Api("wss://devel:8080/api?maxConnections=1", { cacheMax: 1000 });
 ```
 
 ### new Api( url, options )
@@ -154,7 +154,7 @@ Unref websockets connectiona.
 ## Class: ApiClientUpload
 
 ```javascript
-const upload = api.upload( "/v1/test/upload", File ).on( "progress", upload => console.log( upload.progressText ) );
+const upload = api.upload("/v1/test/upload", File).on("progress", upload => console.log(upload.progressText));
 
 const res = await upload.start();
 ```

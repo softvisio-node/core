@@ -3,7 +3,7 @@
 ```javascript
 import CacheLRU from "@softvisio/utils/cache-lru";
 
-const cache = new CacheLRU( { "max": 10 } );
+const cache = new CacheLRU({ max: 10 });
 ```
 
 ## Class: CacheLRU

@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.119.5 (2024-12-16)
+
+Other changes:
+
+- chore: refactor mime
+
+[Compare with the previous release: v7.119.4 ... v7.119.5](https://github.com/softvisio-node/core/compare/v7.119.4...v7.119.5)
+
 ### 7.119.4 (2024-12-09)
 
 Other changes:

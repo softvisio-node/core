@@ -5,7 +5,7 @@ Class, representing hostname.
 ```javascript
 import Hostname from "@softvisio/core/hostname";
 
-const hostname = new Hostname( "www.google.com" );
+const hostname = new Hostname("www.google.com");
 ```
 
 ### new Hostname( hostname )

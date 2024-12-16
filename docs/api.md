@@ -9,11 +9,11 @@ npm install @softvisio/core
 ```javascript
 import Api from "@softvisio/core/api";
 
-const api = new Api( {
-    "url": "/api/",
-    "token": null,
-    "version": "v1",
-} );
+const api = new Api({
+    url: "/api/",
+    token: null,
+    version: "v1",
+});
 
 Vue.prototype.$api = api;
 ```
@@ -47,13 +47,12 @@ Can be used in synchronous or asynchronous mode:
 
 ```javascript
 // synchronous call
-var res = await api.call( "path/to/method", arg1, arg2 );
+var res = await api.call("path/to/method", arg1, arg2);
 
 // async call with callback
-api.call( "path/to/method", arg1, function ( res ) {
-
+api.call("path/to/method", arg1, function (res) {
     // do something with the results
-} );
+});
 ```
 
 Params:
@@ -69,13 +68,12 @@ Result:
 Each api call returns single result class instance. Usage example:
 
 ```javascript
-var res = api.call( "/v1/session/signin", [ username, password ] );
+var res = api.call("/v1/session/signin", [username, password]);
 
-if ( res.ok ) {
-    console.log( res.data );
-}
-else {
-    console.log( res.toString() );
+if (res.ok) {
+    console.log(res.data);
+} else {
+    console.log(res.toString());
 }
 ```
 

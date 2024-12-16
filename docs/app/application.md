@@ -8,40 +8,40 @@ Application has three events type:
 
     ```javascript
     // listen
-    app.on( "/global-event-name", callback );
+    app.on("/global-event-name", callback);
 
     // publish
-    app.publish( "/global-event-name" );
+    app.publish("/global-event-name");
     ```
 
     To send events to the other cluster namespace you need to use `"//"` prefix. You are unable to listen for events from the other namespace. For example:
 
     ```javascript
     // ERROR
-    app.on( "//namespace/global-event-name", callback );
+    app.on("//namespace/global-event-name", callback);
 
     // OK
-    app.publish( "//namespace/global-event-name" );
+    app.publish("//namespace/global-event-name");
     ```
 
 - **local** - Local events are delivered to the local application and local threads.
 
     ```javascript
     // listen
-    app.on( "local-event-name", callback );
+    app.on("local-event-name", callback);
 
     // publish
-    app.publish( "local-event-name" );
+    app.publish("local-event-name");
     ```
 
 - **application** - Application events are delivered to the local application only.
 
     ```javascript
     // listen
-    app.on( "app-event-name", callback );
+    app.on("app-event-name", callback);
 
     // publish
-    app.emit( "all-event-name" );
+    app.emit("all-event-name");
     ```
 
 ### API events
@@ -68,7 +68,7 @@ Events from the externally connected API users. All such events names are prefix
 To send events to the connected API users you need to publish them to the `api` endpoint.
 
 ```javascript
-app.publish( "api", users, name, ...args );
+app.publish("api", users, name, ...args);
 ```
 
 - `users` {string|Array} Target user identificators. Each identificator can be the one of:
@@ -99,7 +99,7 @@ Events from the externally connected RPC clients. All such events names are pref
 To send events to the connected RPC users you need to publish them to the `rpc` endpoint.
 
 ```javascript
-app.publish( "rpc", clients, name, ...args );
+app.publish("rpc", clients, name, ...args);
 ```
 
 - `clients` {string|Array} RPC client identificators. Each identificator can be the one of:
@@ -169,7 +169,7 @@ Events from the connected serivce.
 To send events to the connected service you need to publish them to the `service` endpoint.
 
 ```javascript
-app.publish( "service", services, name, ...args );
+app.publish("service", services, name, ...args);
 ```
 
 - `services` {string|Array} Target services names. You can use `"*"` to send event to the all connected services.

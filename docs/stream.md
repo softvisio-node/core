@@ -75,9 +75,9 @@ Reads stream and decode as JSON.
 Reads chunk of data with the deifned length. Example:
 
 ```javascript
-const buffer = await stream.readChunk( 100 ); // reads 100 bytes, returns Buffer
+const buffer = await stream.readChunk(100); // reads 100 bytes, returns Buffer
 
-const string = await stream.readChunk( 100, { "encoding": "utf8" } ); // reads 100 bytes, returns utf8 string
+const string = await stream.readChunk(100, { encoding: "utf8" }); // reads 100 bytes, returns utf8 string
 ```
 
 ### readable.readLine( options? )
@@ -91,7 +91,7 @@ const string = await stream.readChunk( 100, { "encoding": "utf8" } ); // reads 1
 Reads line ended with the specified EOL separator and with the defined maximum length. This method is optimized for speed and can be used to read lines from large buffers, for example to parse `multipart/form-data` streams. Example:
 
 ```javascript
-const string = await stream.readLine( { "eol": "\r\n", "maxLength": 100, "encoding": "utf8" } );
+const string = await stream.readLine({ eol: "\r\n", maxLength: 100, encoding: "utf8" });
 ```
 
 ### readable.readHttpHeaders( options? )
