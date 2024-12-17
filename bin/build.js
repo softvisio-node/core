@@ -9,6 +9,7 @@ import Geolite2City from "#lib/external-resources/geolite2-city";
 import Geolite2Country from "#lib/external-resources/geolite2-country";
 import GoogleGeotargets from "#lib/external-resources/google-geotargets";
 import Http from "#lib/external-resources/http";
+import Mime from "#lib/external-resources/mime";
 import PublicSuffixes from "#lib/external-resources/public-suffixes";
 import Subnets from "#lib/external-resources/subnets";
 import Tld from "#lib/external-resources/tld";
@@ -40,6 +41,7 @@ const res = await ExternalResourceBuilder.build(
         Geolite2Country,
         GoogleGeotargets,
         Http,
+        Mime,
         PublicSuffixes,
         Subnets,
         Tld,

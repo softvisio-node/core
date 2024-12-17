@@ -21,6 +21,7 @@ await Cli.parse( CLI );
 externalResources.add( "softvisio-node/core/resources/certificates" );
 externalResources.add( "softvisio-node/core/resources/geolite2-country" );
 externalResources.add( "softvisio-node/core/resources/http" );
+externalResources.add( "softvisio-node/core/resources/mime" );
 externalResources.add( "softvisio-node/core/resources/public-suffixes" );
 externalResources.add( "softvisio-node/core/resources/subnets" );
 externalResources.add( "softvisio-node/core/resources/tld" );
