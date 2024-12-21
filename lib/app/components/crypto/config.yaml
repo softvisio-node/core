@@ -1,7 +1,7 @@
 dependencies: ~
 
 optionalDependencies:
-    - dbi
+    - dbh
 
 config:
     key: ~
