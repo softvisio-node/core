@@ -5,3 +5,4 @@ optionalDependencies:
 
 config:
     key: ~
+    useLocalStorage: false

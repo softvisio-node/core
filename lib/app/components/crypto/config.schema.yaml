@@ -2,6 +2,7 @@
   type: object
   properties:
       key: { type: ["null", string] }
+      useLocalStorage: { type: boolean }
 
   additionalProperties: false
-  required: [key]
+  required: [key, useLocalStorage]
