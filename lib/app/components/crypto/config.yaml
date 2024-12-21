@@ -1,6 +1,7 @@
 dependencies: ~
 
-optionalDependencies: ~
+optionalDependencies:
+    - dbi
 
 config:
-    privateKey: ~
+    key: ~
