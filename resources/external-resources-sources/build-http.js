@@ -2,8 +2,8 @@
 
 import fs from "node:fs";
 import Browser from "#lib/browser";
-import certificates from "#lib/certificates";
 import * as config from "#lib/config";
+import * as crypto from "#lib/crypto";
 import Server from "#lib/http/server";
 
 const data = {
@@ -35,9 +35,9 @@ async function getHeaders ( browser, protocol, headless = false ) {
 
         server = new Server( {
             "certificatePath": protocol === "https:"
-                ? certificates.localCertificatePath
+                ? crypto.localCertificatePath
                 : null,
-            "privateKeyPath": certificates.localPrivateKeyPath,
+            "privateKeyPath": crypto.localPrivateKeyPath,
         } ).get( "/*", async req => {
             await req.end();
 
@@ -51,7 +51,7 @@ async function getHeaders ( browser, protocol, headless = false ) {
         server.start( { "port": 0 } ).then( async res => {
             if ( !res.ok ) throw res + "";
 
-            const url = `${ protocol }//${ certificates.localDomain }:${ res.data.port }/`;
+            const url = `${ protocol }//${ crypto.localDomain }:${ res.data.port }/`;
 
             browser = new Browser( url, {
                 browser,
