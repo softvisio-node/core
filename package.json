@@ -116,6 +116,7 @@
         "mmdb-lib": "^2.0.2",
         "node-forge": "^1.3.1",
         "semver": "^7.3.7",
+        "simple-asn1": "^4.0.1",
         "telegram": "^2.26.6",
         "temporal-polyfill": "^0.2.5",
         "undici": "^7.0.0"
