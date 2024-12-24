@@ -1,5 +1,24 @@
 # Changelog
 
+### 7.120.0 (2024-12-24)
+
+Features:
+
+- feat: add crypto module
+- feat: add utils copyToClipboard
+- feat: refactor app crypto
+
+Other changes:
+
+- chore: fix postgresql component
+- chore: refactor certificates
+- chore: refactor mime
+- chore: rename dh-params
+- chore: rename start-manager to activity-manager
+- chore: update msgpack decodeStream
+
+[Compare with the previous release: v7.119.8 ... v7.120.0](https://github.com/softvisio-node/core/compare/v7.119.8...v7.120.0)
+
 ### 7.119.8 (2024-12-18)
 
 Other changes:
