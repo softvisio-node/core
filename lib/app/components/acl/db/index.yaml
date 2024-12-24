@@ -9,9 +9,3 @@ emits:
 
 locks:
     - acl/sync
-# cron:
-#   cleanup:
-#     cron: "0 1 * * *" # 01:00 everyday
-#     timezone: ~
-#     query: |-
-#       DELETE FROM api_session WHERE expires <= CURRENT_TIMESTAMP;
