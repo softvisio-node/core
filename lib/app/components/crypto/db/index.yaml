@@ -2,8 +2,7 @@ module: crypto
 type: postgresql
 patch: ~
 
-emits:
-    - crypto/update
+emits: ~
 
 locks:
     - crypto/generate-key
