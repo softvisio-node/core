@@ -31,7 +31,7 @@
                       - { type: string, format: email }
 
               test: { type: boolean }
-              useLocalStorage: { type: boolean }
+              useLocalStorage: { type: ["null", boolean] }
               httpEnabled: { type: boolean }
               challengeMaxAge: { type: string, format: interval }
               cloudFlareApiToken: { type: ["null", string] }

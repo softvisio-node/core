@@ -2,6 +2,7 @@ dependencies: ~
 
 optionalDependencies:
     - dbh
+    - cluster
 
 config:
     key: ~
