@@ -1,5 +1,20 @@
 # Changelog
 
+### 7.121.0 (2024-12-26)
+
+Features:
+
+- feat: refactor app crypto
+
+Other changes:
+
+- chore: add verbose app init log
+- chore: refactor certificates
+- chore: update telegram imports
+- chore: use async pipeline
+
+[Compare with the previous release: v7.120.0 ... v7.121.0](https://github.com/softvisio-node/core/compare/v7.120.0...v7.121.0)
+
 ### 7.120.0 (2024-12-24)
 
 Features:
