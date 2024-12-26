@@ -5,5 +5,4 @@ patch: ~
 emits:
     - crypto/key/revoked/update
 
-locks:
-    - crypto/generate-key
+locks: ~
