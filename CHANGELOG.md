@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.121.1 (2024-12-27)
+
+Other changes:
+
+- chore: fix certificates private key path
+- chore: fix crypto shared locks
+- chore: refactor telegram api
+- chore: refactor telegram clients
+- chore: update telegram imports
+
+[Compare with the previous release: v7.121.0 ... v7.121.1](https://github.com/softvisio-node/core/compare/v7.121.0...v7.121.1)
+
 ### 7.121.0 (2024-12-26)
 
 Features:
