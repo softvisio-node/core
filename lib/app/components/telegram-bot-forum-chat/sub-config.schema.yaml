@@ -8,11 +8,11 @@
       forumChat:
           type: object
           properties:
-              clientPhoneNumber: { type: ["null", string] }
+              clientId: { type: ["null", string] }
               deleteGroupCreator: { type: boolean }
               hideGeneralTopic: { type: boolean }
 
           additionalProperties: false
-          required: [clientPhoneNumber, deleteGroupCreator, hideGeneralTopic]
+          required: [clientId, deleteGroupCreator, hideGeneralTopic]
 
   required: [forumChat]
