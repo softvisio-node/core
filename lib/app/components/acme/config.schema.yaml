@@ -1,17 +1,14 @@
 - $id: config
   type: object
   properties:
-      email:
-          anyOf:
-              - type: "null"
-              - { type: string, format: email }
-
+      email: { type: string, format: email }
       test: { type: boolean }
       useLocalStorage: { type: ["null", boolean] }
       cetrificatesRenewInterval: { type: string, format: interval }
       challengeMaxAge: { type: string, format: interval }
-      httpEnabled: { type: boolean }
+      httpEnabled: { type: ["null", boolean] }
+      dnsEnabled: { type: ["null", boolean] }
       cloudFlareApiToken: { type: ["null", string] }
 
   additionalProperties: false
-  required: [email, test, useLocalStorage, cetrificatesRenewInterval, challengeMaxAge, httpEnabled]
+  required: [email, test, useLocalStorage, cetrificatesRenewInterval, challengeMaxAge, httpEnabled, dnsEnabled]

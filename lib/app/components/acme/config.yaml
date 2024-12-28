@@ -13,5 +13,6 @@ config:
     useLocalStorage: ~
     cetrificatesRenewInterval: 1 week
     challengeMaxAge: 10 minutes
-    httpEnabled: true
+    httpEnabled: ~
+    dnsEnabled: ~
     cloudFlareApiToken: ~
