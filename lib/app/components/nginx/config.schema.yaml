@@ -19,8 +19,6 @@
       cacheInactive: { type: string, format: interval }
       cacheBypass: { type: boolean }
 
-      cetrificatesRenewInterval: { type: string, format: interval }
-
       acme:
           type: object
           properties:
@@ -67,7 +65,6 @@
 
       - acme
 
-      - cetrificatesRenewInterval
       - realIpHeader
 
       - localAddress

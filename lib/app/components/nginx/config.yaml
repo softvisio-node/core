@@ -1,9 +1,7 @@
 dependencies: ~
 
 optionalDependencies:
-    - dbh
-    - cluster
-    - crypto
+    - acme
     - privateHttpServer
     - publicHttpServer
 
@@ -18,8 +16,6 @@ config:
     cacheMinFree: 1 GB
     cacheInactive: 1 week
     cacheBypass: false
-
-    cetrificatesRenewInterval: 1 week
 
     acme:
         enabled: false

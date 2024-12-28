@@ -8,7 +8,6 @@ optionalDependencies:
     - privateHttpServer
 
 config:
-    enabled: false
     email: ~
     test: false
     useLocalStorage: ~
