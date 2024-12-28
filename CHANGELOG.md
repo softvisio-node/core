@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.122.0 (2024-12-28)
+
+Features:
+
+- feat: add acme component
+
+Other changes:
+
+- chore: handle components callbacks
+
+[Compare with the previous release: v7.121.1 ... v7.122.0](https://github.com/softvisio-node/core/compare/v7.121.1...v7.122.0)
+
 ### 7.121.1 (2024-12-27)
 
 Other changes:
