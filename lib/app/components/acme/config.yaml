@@ -5,6 +5,7 @@ optionalDependencies:
     - dbh
     - cluster
     - publicHttpServer
+    - privateHttpServer
 
 config:
     enabled: false
