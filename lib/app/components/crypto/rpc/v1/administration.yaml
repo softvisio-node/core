@@ -1,0 +1,11 @@
+title: Administration
+
+methods:
+    revoke-key:
+        title: Revoke current encryption key
+
+    revoke-master-key:
+        title: Revoke current master key
+        params:
+            - name: new-master-key
+              schema: { type: string }
