@@ -7,5 +7,5 @@ methods:
     revoke-master-key:
         title: Revoke current master key
         params:
-            - name: new-master-key
+            - name: master_key
               schema: { type: string }
