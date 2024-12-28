@@ -19,23 +19,6 @@
       cacheInactive: { type: string, format: interval }
       cacheBypass: { type: boolean }
 
-      acme:
-          type: object
-          properties:
-              enabled: { type: boolean }
-              email:
-                  anyOf:
-                      - type: "null"
-                      - { type: string, format: email }
-
-              test: { type: boolean }
-              useLocalStorage: { type: ["null", boolean] }
-              httpEnabled: { type: boolean }
-              challengeMaxAge: { type: string, format: interval }
-              cloudFlareApiToken: { type: ["null", string] }
-          additionalProperties: false
-          required: [enabled, email, test, useLocalStorage, httpEnabled, challengeMaxAge]
-
       setRealIpFrom:
           anyOf:
               - type: "null"
@@ -62,8 +45,6 @@
       - cacheEnabled
       - cacheInactive
       - cacheBypass
-
-      - acme
 
       - realIpHeader
 
