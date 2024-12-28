@@ -1,0 +1,17 @@
+dependencies:
+    - crypto
+
+optionalDependencies:
+    - dbh
+    - cluster
+    - publicHttpServer
+
+config:
+    enabled: false
+    email: ~
+    test: false
+    useLocalStorage: ~
+    cetrificatesRenewInterval: 1 week
+    challengeMaxAge: 10 minutes
+    httpEnabled: true
+    cloudFlareApiToken: ~
