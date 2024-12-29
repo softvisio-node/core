@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.123.1 (2024-12-29)
+
+Other changes:
+
+- chore: refactor dbh cron connection
+
+[Compare with the previous release: v7.123.0 ... v7.123.1](https://github.com/softvisio-node/core/compare/v7.123.0...v7.123.1)
+
 ### 7.123.0 (2024-12-29)
 
 Features:
