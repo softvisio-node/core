@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.123.0 (2024-12-29)
+
+Features:
+
+- feat: add activity controller
+
+Other changes:
+
+- chore: add crypto rpc
+
+[Compare with the previous release: v7.122.0 ... v7.123.0](https://github.com/softvisio-node/core/compare/v7.122.0...v7.123.0)
+
 ### 7.122.0 (2024-12-28)
 
 Features:
