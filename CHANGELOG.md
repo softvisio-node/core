@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.125.1 (2024-12-30)
+
+Fixes:
+
+- fix: fix typo
+
+[Compare with the previous release: v7.125.0 ... v7.125.1](https://github.com/softvisio-node/core/compare/v7.125.0...v7.125.1)
+
 ### 7.125.0 (2024-12-30)
 
 Features:
