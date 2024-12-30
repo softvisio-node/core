@@ -1,5 +1,20 @@
 # Changelog
 
+### 7.125.0 (2024-12-30)
+
+Features:
+
+- feat: add net proxy
+
+Other changes:
+
+- chore: add crypto key revoke date
+- chore: add interval microseconds alias
+- chore: update postgeresql config generator
+- chore: update postgresql config generator
+
+[Compare with the previous release: v7.124.0 ... v7.125.0](https://github.com/softvisio-node/core/compare/v7.124.0...v7.125.0)
+
 ### 7.124.0 (2024-12-30)
 
 Features:
