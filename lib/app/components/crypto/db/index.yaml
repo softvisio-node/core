@@ -1,6 +1,6 @@
 module: crypto
 type: postgresql
-patch: 1
+patch: ~
 
 emits:
     - crypto/key/revoked/update
