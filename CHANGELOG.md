@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.124.0 (2024-12-30)
+
+Features:
+
+- feat: process destroy controller
+
+[Compare with the previous release: v7.123.1 ... v7.124.0](https://github.com/softvisio-node/core/compare/v7.123.1...v7.124.0)
+
 ### 7.123.1 (2024-12-29)
 
 Other changes:
