@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.126.0 (2024-12-31)
+
+Features:
+
+- feat: add fs fileExists function
+- feat: add fs.exists function
+
+Other changes:
+
+- chore: use async fs.exists where possible
+
+[Compare with the previous release: v7.125.1 ... v7.126.0](https://github.com/softvisio-node/core/compare/v7.125.1...v7.126.0)
+
 ### 7.125.1 (2024-12-30)
 
 Fixes:
