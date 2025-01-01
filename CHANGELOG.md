@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.127.0 (2025-01-01)
+
+Features:
+
+- feat: add validatePath function
+
+[Compare with the previous release: v7.126.0 ... v7.127.0](https://github.com/softvisio-node/core/compare/v7.126.0...v7.127.0)
+
 ### 7.126.0 (2024-12-31)
 
 Features:
