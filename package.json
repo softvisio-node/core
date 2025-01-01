@@ -113,6 +113,7 @@
         "mdast-util-gfm": "^3.0.0",
         "mdast-util-to-markdown": "^2.1.0",
         "micromark-extension-gfm": "^3.0.0",
+        "micromatch": "^4.0.8",
         "mmdb-lib": "^2.0.2",
         "pkijs": "^3.2.4",
         "semver": "^7.3.7",
