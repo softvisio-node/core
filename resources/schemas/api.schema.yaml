@@ -5,7 +5,7 @@
       emits:
           anyOf:
               - type: "null"
-              - { type: array, items: { type: string, format: kebab-case-glob-pattern }, uniqueItems: true }
+              - { type: array, items: { type: string, format: glob-pattern }, uniqueItems: true }
 
   additionalProperties: false
 
@@ -18,7 +18,7 @@
       emits:
           anyOf:
               - type: "null"
-              - { type: array, items: { type: string, format: kebab-case-glob-pattern }, uniqueItems: true }
+              - { type: array, items: { type: string, format: glob-pattern }, uniqueItems: true }
 
       aclResolvers:
           anyOf:
