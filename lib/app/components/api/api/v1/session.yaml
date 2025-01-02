@@ -5,7 +5,7 @@ emits:
 
 methods:
     init-session:
-        title: Init sessions
+        title: Init session
         params:
             - name: options
               schema:
