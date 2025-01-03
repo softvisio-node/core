@@ -34,7 +34,7 @@ function testPattern ( tests ) {
 }
 
 suite( "glob-patterns", () => {
-    suite( "static", () => {
+    suite( "static-pattern", () => {
         const tests = [
             {
                 "pattern": [
@@ -83,6 +83,43 @@ suite( "glob-patterns", () => {
                         "normalize": true,
                     },
                 ],
+                "result": true,
+            },
+        ];
+
+        testPattern( tests );
+    } );
+
+    suite( "dynamic-pattern", () => {
+        const tests = [
+            {
+                "pattern": [
+                    "**",
+                    {
+                        "caseSensitive": false,
+                    },
+                ],
+                "property": [ "test", "PATH" ],
+                "result": true,
+            },
+            {
+                "pattern": [
+                    "/**",
+                    {
+                        "caseSensitive": false,
+                    },
+                ],
+                "property": [ "test", "/aaa/bbb/ccc" ],
+                "result": true,
+            },
+            {
+                "pattern": [
+                    "/**/",
+                    {
+                        "caseSensitive": false,
+                    },
+                ],
+                "property": [ "test", "/aaa/bbb/ccc/" ],
                 "result": true,
             },
         ];
