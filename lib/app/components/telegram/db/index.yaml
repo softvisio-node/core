@@ -11,21 +11,21 @@ emits:
     - telegram/telegram-bot/update
     - telegram/telegram-bot/deleted/update
 
-    - telegram/telegram-bot-update/*/create
+    - telegram/telegram-bot-update/+([[:digit:]])/create
 
     - telegram/telegram-user/update
     - telegram/telegram-group/update
     - telegram/telegram-channel/update
 
-    - telegram/telegram-bot-user/*/update
-    - telegram/telegram-bot-group/*/update
-    - telegram/telegram-bot-channel/*/update
+    - telegram/telegram-bot-user/+([[:digit:]])/update
+    - telegram/telegram-bot-group/+([[:digit:]])/update
+    - telegram/telegram-bot-channel/+([[:digit:]])/update
 
-    - telegram/telegram-bot-message/*/update
-    - telegram/telegram-bot-message/*/delete
+    - telegram/telegram-bot-message/+([[:digit:]])/update
+    - telegram/telegram-bot-message/+([[:digit:]])/delete
 
-    - telegram/telegram-bot-contact/*/update
-    - telegram/telegram-bot-contact/*/delete
+    - telegram/telegram-bot-contact/+([[:digit:]])/update
+    - telegram/telegram-bot-contact/+([[:digit:]])/delete
 
 locks:
     - telegram/telegram-client/create
