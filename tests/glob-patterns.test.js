@@ -13,11 +13,11 @@ function testPattern ( tests ) {
 
             let property, args, res;
 
-            if ( Array.isArray( tests[ n ].test ) ) {
-                [ property, ...args ] = tests[ n ].test;
+            if ( Array.isArray( tests[ n ].property ) ) {
+                [ property, ...args ] = tests[ n ].property;
             }
             else {
-                property = tests[ n ].test;
+                property = tests[ n ].property;
                 args = [];
             }
 
@@ -37,8 +37,52 @@ suite( "glob-patterns", () => {
     suite( "static", () => {
         const tests = [
             {
-                "pattern": "aaa",
-                "test": [ "test", "aaa" ],
+                "pattern": [
+                    "path",
+                    {
+                        "caseSensitive": false,
+                    },
+                ],
+                "property": [ "test", "PATH" ],
+                "result": true,
+            },
+            {
+                "pattern": [
+                    "path",
+                    {
+                        "caseSensitive": true,
+                    },
+                ],
+                "property": [ "test", "PATH" ],
+                "result": false,
+            },
+            {
+                "pattern": [
+                    "aaa/bbb",
+                    {
+                        "caseSensitive": true,
+                    },
+                ],
+                "property": [ "test", "aaa/bbb" ],
+                "result": true,
+            },
+
+            // prefix, normalize
+            {
+                "pattern": [
+                    "aaa/ccc///aaa/bbb",
+                    {
+                        "caseSensitive": true,
+                    },
+                ],
+                "property": [
+                    "test",
+                    "aaa/bbb",
+                    {
+                        "prefix": "aaa/bbb\\../ccc\\\\",
+                        "normalize": true,
+                    },
+                ],
                 "result": true,
             },
         ];
