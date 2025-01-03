@@ -1,5 +1,19 @@
 # Changelog
 
+### 7.128.0 (2025-01-03)
+
+Features:
+
+- feat: add async glob
+
+Other changes:
+
+- chore: fix api method name
+- chore: refactor glob patterns
+- chore: update postgres lifecycle
+
+[Compare with the previous release: v7.127.0 ... v7.128.0](https://github.com/softvisio-node/core/compare/v7.127.0...v7.128.0)
+
 ### 7.127.0 (2025-01-01)
 
 Features:
