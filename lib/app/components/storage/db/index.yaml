@@ -1,6 +1,6 @@
 module: storage
 type: postgresql
-patch: ~
+patch: 1
 
 emits:
     - storage/file/update
