@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.128.1 (2025-01-04)
+
+Other changes:
+
+- chore: add glob patterns tests
+- chore: add storage glob index
+- chore: migrate glob patterns
+
+[Compare with the previous release: v7.128.0 ... v7.128.1](https://github.com/softvisio-node/core/compare/v7.128.0...v7.128.1)
+
 ### 7.128.0 (2025-01-03)
 
 Features:
