@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.128.2 (2025-01-06)
+
+Other changes:
+
+- chore: add chrome headless shell resource
+- chore: add ffmpeg-win32 resource buider
+- chore: add glob pattern allowGlobstar option
+- chore: refactor glob
+- chore: update env xdg
+- chore: use async glob
+
+[Compare with the previous release: v7.128.1 ... v7.128.2](https://github.com/softvisio-node/core/compare/v7.128.1...v7.128.2)
+
 ### 7.128.1 (2025-01-04)
 
 Other changes:
