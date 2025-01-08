@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.129.1 (2025-01-08)
+
+Other changes:
+
+- chore: update package metadata
+
+[Compare with the previous release: v7.129.0 ... v7.129.1](https://github.com/softvisio-node/core/compare/v7.129.0...v7.129.1)
+
 ### 7.129.0 (2025-01-08)
 
 Features:
