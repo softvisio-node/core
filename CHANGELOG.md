@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.129.0 (2025-01-08)
+
+Features:
+
+- feat: add glob pattern matchBasename option
+
+Other changes:
+
+- chore: fix external resource id
+- chore: refactor glob
+
+[Compare with the previous release: v7.128.2 ... v7.129.0](https://github.com/softvisio-node/core/compare/v7.128.2...v7.129.0)
+
 ### 7.128.2 (2025-01-06)
 
 Other changes:
