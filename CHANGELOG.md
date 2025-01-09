@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.129.2 (2025-01-09)
+
+Fixes:
+
+- fix: fix tar create
+
+Other changes:
+
+- chore: fix glob patterns
+
+[Compare with the previous release: v7.129.1 ... v7.129.2](https://github.com/softvisio-node/core/compare/v7.129.1...v7.129.2)
+
 ### 7.129.1 (2025-01-08)
 
 Other changes:
