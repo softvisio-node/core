@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.129.3 (2025-01-09)
+
+Other changes:
+
+- chore: refactor nginx docker listener
+
+[Compare with the previous release: v7.129.2 ... v7.129.3](https://github.com/softvisio-node/core/compare/v7.129.2...v7.129.3)
+
 ### 7.129.2 (2025-01-09)
 
 Fixes:
