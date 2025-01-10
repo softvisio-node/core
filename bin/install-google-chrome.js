@@ -5,6 +5,15 @@ import Cli from "#lib/cli";
 
 const CLI = {
     "title": "Install Google Chrome browser",
+    "options": {
+        "log": {
+            "description": "show install log",
+            "default": true,
+            "schema": {
+                "type": "boolean",
+            },
+        },
+    },
     "arguments": {
         "products": {
             "description": "Products to install.",
@@ -34,6 +43,7 @@ const res = await Browser.installChrome( {
     "chromeForTesting": products.has( "chrome-for-testing" ),
     "chromeHeadlessShell": products.has( "chrome-headless-shell" ),
     "installDependencies": products.has( "dependencies" ),
+    "log": process.cli.options.log,
 } );
 
 if ( !res.ok ) process.exit( 1 );
