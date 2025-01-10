@@ -42,7 +42,7 @@ const products = new Set( process.cli.arguments.products );
 const res = await Browser.installChrome( {
     "chromeForTesting": products.has( "chrome-for-testing" ),
     "chromeHeadlessShell": products.has( "chrome-headless-shell" ),
-    "installDependencies": products.has( "dependencies" ),
+    "dependencies": products.has( "dependencies" ),
     "log": process.cli.options.log,
 } );
 

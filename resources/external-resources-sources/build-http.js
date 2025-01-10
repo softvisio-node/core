@@ -41,6 +41,11 @@ async function getMsedge () {
 // XXX install goole chrome
 // XXX chrome linux
 async function getChrome () {
+    await Browser.installChrome( {
+        "chromeHeadlessShell": true,
+        "dependencies": true,
+    } );
+
     const data = {
         "userAgent": null,
     };
