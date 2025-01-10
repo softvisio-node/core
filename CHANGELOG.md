@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.129.4 (2025-01-10)
+
+Other changes:
+
+- chore: refactor browser
+
+[Compare with the previous release: v7.129.3...v7.129.4](https://github.com/softvisio-node/core/compare/v7.129.3...v7.129.4)
+
 ### 7.129.3 (2025-01-09)
 
 Other changes:
