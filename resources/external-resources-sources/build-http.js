@@ -119,7 +119,7 @@ function addHeaders ( browser, protocol, headers, { platform, ...additionalHeade
                     http[ browser ][ "userAgent" ] = http[ browser ][ "userAgent" ].replace( PLATFORMS.linux, platform );
                 }
                 else if ( http[ browser ][ "userAgent" ].includes( PLATFORMS.win32 ) ) {
-                    http[ browser ][ "userAgent" ] = http[ browser ][ "userAgent" ].replace( PLATFORMS.win21, platform );
+                    http[ browser ][ "userAgent" ] = http[ browser ][ "userAgent" ].replace( PLATFORMS.win32, platform );
                 }
                 else {
                     throw new Error( `Unable to patch platform for user agent: ${ value }` );
