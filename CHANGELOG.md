@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.129.5 (2025-01-10)
+
+Other changes:
+
+- chore: do not update http browsers at runtime
+- chore: fix browser path under darwin
+
+[Compare with the previous release: v7.129.4...v7.129.5](https://github.com/softvisio-node/core/compare/v7.129.4...v7.129.5)
+
 ### 7.129.4 (2025-01-10)
 
 Other changes:
