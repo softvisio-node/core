@@ -15,7 +15,9 @@ else {
     http = {};
 }
 
+// XXX remove???
 await getMsedge();
+
 await getChrome();
 
 config.writeConfig( "http.json", http, { "readable": true } );
@@ -50,10 +52,10 @@ async function getChrome () {
         "userAgent": null,
     };
 
-    var headers = await getHeaders( "chrome", "http:", { "headless": true } );
+    var headers = await getHeaders( "chrome-headless-shell", "http:", { "headless": true } );
     parseHeaders( data, "http:", headers );
 
-    headers = await getHeaders( "chrome", "https:", { "headless": true } );
+    headers = await getHeaders( "chrome-headless-shell", "https:", { "headless": true } );
     parseHeaders( data, "https:", headers );
 
     http[ "chrome-win32" ] = data;
