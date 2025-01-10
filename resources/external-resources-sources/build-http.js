@@ -7,6 +7,11 @@ import * as config from "#lib/config";
 import Headers from "#lib/http/headers";
 import Server from "#lib/http/server";
 
+const PLATFORMS = {
+    "linux": "(X11; Linux x86_64)",
+    "win32": "(Windows NT 10.0; Win64; x64)",
+};
+
 var http;
 
 if ( fs.existsSync( "http.json" ) ) {
@@ -33,12 +38,12 @@ async function getChrome () {
 
     // http, win32
     addHeaders( "chrome-win32", "http:", headers, {
-        "platform": "(Windows NT 10.0; Win64; x64)",
+        "platform": PLATFORMS.win32,
     } );
 
     // http, linux
     addHeaders( "chrome-linux", "http:", headers, {
-        "platform": "(X11; Linux x86_64)",
+        "platform": PLATFORMS.linux,
     } );
 
     // https
@@ -46,13 +51,13 @@ async function getChrome () {
 
     // https, win32
     addHeaders( "chrome-win32", "https:", headers, {
-        "platform": "(Windows NT 10.0; Win64; x64)",
+        "platform": PLATFORMS.win32,
         "Sec-CH-UA-Platform": '"Windows"',
     } );
 
     // https, linux
     addHeaders( "chrome-linux", "https:", headers, {
-        "platform": "(X11; Linux x86_64)",
+        "platform": PLATFORMS.linux,
         "Sec-CH-UA-Platform": '"Linux"',
     } );
 }
@@ -90,7 +95,9 @@ async function getHeaders ( browser, protocol, { headless = false } = {} ) {
 }
 
 function addHeaders ( browser, protocol, headers, { platform, ...additionalHeaders } = {} ) {
-    http[ browser ] ??= {};
+    http[ browser ] ??= {
+        "userAgent": null,
+    };
     http[ browser ][ protocol ] = {};
 
     // clone headers
@@ -106,7 +113,18 @@ function addHeaders ( browser, protocol, headers, { platform, ...additionalHeade
         if ( name === "user-agent" ) {
             http[ browser ][ "userAgent" ] = value.replaceAll( "Headless", "" );
 
-            // XXX patch platform
+            // patch platform
+            if ( platform ) {
+                if ( http[ browser ][ "userAgent" ].includes( PLATFORMS.linux ) ) {
+                    http[ browser ][ "userAgent" ] = http[ browser ][ "userAgent" ].replace( PLATFORMS.linux, platform );
+                }
+                else if ( http[ browser ][ "userAgent" ].includes( PLATFORMS.win32 ) ) {
+                    http[ browser ][ "userAgent" ] = http[ browser ][ "userAgent" ].replace( PLATFORMS.win21, platform );
+                }
+                else {
+                    throw new Error( `Unable to patch platform for user agent: ${ value }` );
+                }
+            }
         }
         else if ( name === "dnt" ) {
             http[ browser ][ protocol ][ originalName ] = value;
