@@ -10,10 +10,10 @@ const data = {
     "userAgent": null,
 };
 
-var headers = await getHeaders( "msedge", "http:" );
+var headers = await getHeaders( "msedge", "http:", { "headless": false } );
 parseHeaders( "http:", headers );
 
-headers = await getHeaders( "msedge", "https:" );
+headers = await getHeaders( "msedge", "https:", { "headless": false } );
 parseHeaders( "https:", headers );
 
 var http;
@@ -29,7 +29,7 @@ http[ "edge-windows" ] = data;
 
 config.writeConfig( "http.json", http, { "readable": true } );
 
-async function getHeaders ( browser, protocol, headless = false ) {
+async function getHeaders ( browser, protocol, { headless = false } = {} ) {
     return new Promise( resolve => {
         var server, browser;
 
