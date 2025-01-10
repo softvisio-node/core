@@ -6,6 +6,9 @@ import * as certificates from "#lib/certificates";
 import * as config from "#lib/config";
 import Server from "#lib/http/server";
 
+// XXX move to function
+// XXX add chrome
+
 const data = {
     "userAgent": null,
 };
