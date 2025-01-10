@@ -4,6 +4,7 @@ import fs from "node:fs";
 import Browser from "#lib/browser";
 import * as certificates from "#lib/certificates";
 import * as config from "#lib/config";
+import Headers from "#lib/http/headers";
 import Server from "#lib/http/server";
 
 var http;
@@ -93,11 +94,11 @@ function addHeaders ( browser, protocol, headers, { platform, ...additionalHeade
     http[ browser ][ protocol ] = {};
 
     // clone headers
-    headers = new Headers( headers.toJSON() );
-
-    // add common headers
-    headers.set( "Accept-Language", "en-US,en;q=0.9" );
-    headers.set( additionalHeaders );
+    headers = new Headers( {
+        ...headers.toJSON(),
+        "Accept-Language": "en-US,en;q=0.9",
+        ...additionalHeaders,
+    } );
 
     for ( const [ name, value ] of [ ...headers.entries() ].sort( ( a, b ) => a[ 0 ].localeCompare( b[ 0 ] ) ) ) {
         const originalName = headers.getOriginalName( name );
