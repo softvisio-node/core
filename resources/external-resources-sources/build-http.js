@@ -15,50 +15,45 @@ else {
     http = {};
 }
 
-// XXX remove???
-await getMsedge();
-
 await getChrome();
 
 config.writeConfig( "http.json", http, { "readable": true } );
 
-// XXX msedge-linux
-// XXX headless mode
-async function getMsedge () {
-    if ( process.platform !== "win32" ) return;
-
-    const data = {
-        "userAgent": null,
-    };
-
-    var headers = await getHeaders( "msedge", "http:", { "headless": false } );
-    parseHeaders( data, "http:", headers );
-
-    headers = await getHeaders( "msedge", "https:", { "headless": false } );
-    parseHeaders( data, "https:", headers );
-
-    http[ "msedge-win32" ] = data;
-}
-
-// XXX install goole chrome
-// XXX chrome linux
 async function getChrome () {
     await Browser.installChrome( {
         "chromeHeadlessShell": true,
         "dependencies": true,
     } );
 
-    const data = {
-        "userAgent": null,
-    };
+    var headers;
 
-    var headers = await getHeaders( "chrome-headless-shell", "http:", { "headless": true } );
-    parseHeaders( data, "http:", headers );
+    // http
+    headers = await getHeaders( "chrome-headless-shell", "http:", { "headless": true } );
 
+    // http, win32
+    addHeaders( "chrome-win32", "http:", headers, {
+        "platform": "(Windows NT 10.0; Win64; x64)",
+    } );
+
+    // http, linux
+    addHeaders( "chrome-linux", "http:", headers, {
+        "platform": "(X11; Linux x86_64)",
+    } );
+
+    // https
     headers = await getHeaders( "chrome-headless-shell", "https:", { "headless": true } );
-    parseHeaders( data, "https:", headers );
 
-    http[ "chrome-win32" ] = data;
+    // https, win32
+    addHeaders( "chrome-win32", "https:", headers, {
+        "platform": "(Windows NT 10.0; Win64; x64)",
+        "Sec-CH-UA-Platform": '"Windows"',
+    } );
+
+    // https, linux
+    addHeaders( "chrome-linux", "https:", headers, {
+        "platform": "(X11; Linux x86_64)",
+        "Sec-CH-UA-Platform": '"Linux"',
+    } );
 }
 
 async function getHeaders ( browser, protocol, { headless = false } = {} ) {
@@ -93,26 +88,36 @@ async function getHeaders ( browser, protocol, { headless = false } = {} ) {
     } );
 }
 
-function parseHeaders ( data, type, headers ) {
-    data[ type ] = {};
+function addHeaders ( browser, protocol, headers, { platform, ...additionalHeaders } = {} ) {
+    http[ browser ] ??= {};
+    http[ browser ][ protocol ] = {};
+
+    // clone headers
+    headers = new Headers( headers.toJSON() );
+
+    // add common headers
+    headers.set( "Accept-Language", "en-US,en;q=0.9" );
+    headers.set( additionalHeaders );
 
     for ( const [ name, value ] of [ ...headers.entries() ].sort( ( a, b ) => a[ 0 ].localeCompare( b[ 0 ] ) ) ) {
         const originalName = headers.getOriginalName( name );
 
         if ( name === "user-agent" ) {
-            data[ "userAgent" ] = value.replaceAll( "Headless", "" );
+            http[ browser ][ "userAgent" ] = value.replaceAll( "Headless", "" );
+
+            // XXX patch platform
         }
         else if ( name === "dnt" ) {
-            data[ type ][ originalName ] = value;
+            http[ browser ][ protocol ][ originalName ] = value;
         }
         else if ( name === "accept" ) {
-            data[ type ][ originalName ] = value;
+            http[ browser ][ protocol ][ originalName ] = value;
         }
         else if ( name === "accept-language" ) {
-            data[ type ][ originalName ] = value;
+            http[ browser ][ protocol ][ originalName ] = value;
         }
         else if ( name.startsWith( "sec-" ) ) {
-            data[ type ][ originalName ] = value.replaceAll( "Headless", "" );
+            http[ browser ][ protocol ][ originalName ] = value.replaceAll( "Headless", "" );
         }
     }
 }
