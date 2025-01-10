@@ -6,19 +6,6 @@ import * as certificates from "#lib/certificates";
 import * as config from "#lib/config";
 import Server from "#lib/http/server";
 
-// XXX move to function
-// XXX add chrome
-
-const data = {
-    "userAgent": null,
-};
-
-var headers = await getHeaders( "msedge", "http:", { "headless": false } );
-parseHeaders( "http:", headers );
-
-headers = await getHeaders( "msedge", "https:", { "headless": false } );
-parseHeaders( "https:", headers );
-
 var http;
 
 if ( fs.existsSync( "http.json" ) ) {
@@ -28,9 +15,44 @@ else {
     http = {};
 }
 
-http[ "edge-windows" ] = data;
+await getMsedge();
+await getChrome();
 
 config.writeConfig( "http.json", http, { "readable": true } );
+
+// XXX msedge-linux
+// XXX headless mode
+async function getMsedge () {
+    if ( process.platform !== "win32" ) return;
+
+    const data = {
+        "userAgent": null,
+    };
+
+    var headers = await getHeaders( "msedge", "http:", { "headless": false } );
+    parseHeaders( data, "http:", headers );
+
+    headers = await getHeaders( "msedge", "https:", { "headless": false } );
+    parseHeaders( data, "https:", headers );
+
+    http[ "msedge-win32" ] = data;
+}
+
+// XXX install goole chrome
+// XXX chrome linux
+async function getChrome () {
+    const data = {
+        "userAgent": null,
+    };
+
+    var headers = await getHeaders( "chrome", "http:", { "headless": true } );
+    parseHeaders( data, "http:", headers );
+
+    headers = await getHeaders( "chrome", "https:", { "headless": true } );
+    parseHeaders( data, "https:", headers );
+
+    http[ "chrome-win32" ] = data;
+}
 
 async function getHeaders ( browser, protocol, { headless = false } = {} ) {
     return new Promise( resolve => {
@@ -64,7 +86,7 @@ async function getHeaders ( browser, protocol, { headless = false } = {} ) {
     } );
 }
 
-function parseHeaders ( type, headers ) {
+function parseHeaders ( data, type, headers ) {
     data[ type ] = {};
 
     for ( const [ name, value ] of [ ...headers.entries() ].sort( ( a, b ) => a[ 0 ].localeCompare( b[ 0 ] ) ) ) {
