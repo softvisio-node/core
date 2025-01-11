@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.130.0 (2025-01-11)
+
+Features:
+
+- feat: refactor env dirs
+
+Compare with the previous release: [`v7.129.5...v7.130.0`](https://github.com/softvisio-node/core/compare/v7.129.5...v7.130.0)
+
 ### 7.129.5 (2025-01-10)
 
 Other changes:
