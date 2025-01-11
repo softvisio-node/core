@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.131.0 (2025-01-11)
+
+Features:
+
+- feat: add fetch headersTimeout, bodyTimeout options
+
+Other changes:
+
+- chore: enable github api keep-alive
+- chore: update http dispatcher default options
+
+Compare with the previous release: [`v7.130.1...v7.131.0`](https://github.com/softvisio-node/core/compare/v7.130.1...v7.131.0)
+
 ### 7.130.1 (2025-01-11)
 
 Other changes:
