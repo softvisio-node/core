@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.131.3 (2025-01-12)
+
+Other changes:
+
+- chore: tune nginx events settings
+- chore: update nginx to send files in threads
+
+Compare with the previous release: [`v7.131.2...v7.131.3`](https://github.com/softvisio-node/core/compare/v7.131.2...v7.131.3)
+
 ### 7.131.2 (2025-01-12)
 
 Other changes:
