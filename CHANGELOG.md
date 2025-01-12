@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.131.4 (2025-01-12)
+
+Other changes:
+
+- chore: add nginx reuseport directive
+
+Compare with the previous release: [`v7.131.3...v7.131.4`](https://github.com/softvisio-node/core/compare/v7.131.3...v7.131.4)
+
 ### 7.131.3 (2025-01-12)
 
 Other changes:
