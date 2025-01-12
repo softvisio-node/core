@@ -1,5 +1,20 @@
 # Changelog
 
+### 7.131.1 (2025-01-12)
+
+Other changes:
+
+- chore: fix telegram api body timeout
+- chore: move files
+- chore: refactor docker cloudflare api
+- chore: refactor docker engine api
+- chore: refactor docker telegram bot api
+- chore: refactor github api
+- chore: update http browsers
+- chore: update nginx ssl settings
+
+Compare with the previous release: [`v7.131.0...v7.131.1`](https://github.com/softvisio-node/core/compare/v7.131.0...v7.131.1)
+
 ### 7.131.0 (2025-01-11)
 
 Features:
