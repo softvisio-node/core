@@ -37,6 +37,10 @@
               - const: "unix:"
               - { type: string, format: ip-address+port }
 
+      sslProtocols: { type: string }
+      sslCiphers: { type: string }
+      sslEcdhCurve: { type: string }
+
   additionalProperties: false
   required:
       - listenIpFamily
@@ -49,3 +53,7 @@
       - realIpHeader
 
       - localAddress
+
+      - sslProtocols
+      - sslCiphers
+      - sslEcdhCurve
