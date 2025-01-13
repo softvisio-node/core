@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.131.5 (2025-01-13)
+
+Fixes:
+
+- fix: fix http browser name
+
+Other changes:
+
+- chore: enable nginx cork
+
+Compare with the previous release: [`v7.131.4...v7.131.5`](https://github.com/softvisio-node/core/compare/v7.131.4...v7.131.5)
+
 ### 7.131.4 (2025-01-12)
 
 Other changes:
