@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.131.8 (2025-01-13)
+
+Other changes:
+
+- chore: refactor nginx ssl
+
+Compare with the previous release: [`v7.131.7...v7.131.8`](https://github.com/softvisio-node/core/compare/v7.131.7...v7.131.8)
+
 ### 7.131.7 (2025-01-13)
 
 Other changes:
