@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.131.6 (2025-01-13)
+
+Other changes:
+
+- chore: enable nginx stream ssl stapling
+
+Compare with the previous release: [`v7.131.5...v7.131.6`](https://github.com/softvisio-node/core/compare/v7.131.5...v7.131.6)
+
 ### 7.131.5 (2025-01-13)
 
 Fixes:
