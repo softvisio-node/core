@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.131.7 (2025-01-13)
+
+Other changes:
+
+- chore: remove nginx ssl_buffer_size
+
+Compare with the previous release: [`v7.131.6...v7.131.7`](https://github.com/softvisio-node/core/compare/v7.131.6...v7.131.7)
+
 ### 7.131.6 (2025-01-13)
 
 Other changes:
