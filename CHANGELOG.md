@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.131.9 (2025-01-15)
+
+Fixes:
+
+- fix: fix mutex unlock
+
+Other changes:
+
+- chore: add fetch reset, blocking options
+
+Compare with the previous release: [`v7.131.8...v7.131.9`](https://github.com/softvisio-node/core/compare/v7.131.8...v7.131.9)
+
 ### 7.131.8 (2025-01-13)
 
 Other changes:
