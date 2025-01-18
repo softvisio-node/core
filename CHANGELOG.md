@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.132.0 (2025-01-18)
+
+Features:
+
+- feat: add user agent browser isChromium property
+
+Other changes:
+
+- chore: fix user agent version parser
+- chore: refactor user agent
+
+Compare with the previous release: [`v7.131.9...v7.132.0`](https://github.com/softvisio-node/core/compare/v7.131.9...v7.132.0)
+
 ### 7.131.9 (2025-01-15)
 
 Fixes:
