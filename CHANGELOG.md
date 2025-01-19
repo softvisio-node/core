@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.132.2 (2025-01-19)
+
+Other changes:
+
+- chore: refactor digital size
+- chore: update browser constructor options
+- chore: update user agent platforms
+
+Compare with the previous release: [`v7.132.1...v7.132.2`](https://github.com/softvisio-node/core/compare/v7.132.1...v7.132.2)
+
 ### 7.132.1 (2025-01-18)
 
 Other changes:
