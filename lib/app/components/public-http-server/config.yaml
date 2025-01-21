@@ -15,6 +15,6 @@ config:
 
     nginx:
         serverName: ~
-        maxBodySize: 10 MB
+        maxBodySize: 10 MiB
         cacheEnabled: true
         cacheBypass: false
