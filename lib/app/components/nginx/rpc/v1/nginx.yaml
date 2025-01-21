@@ -31,7 +31,7 @@ methods:
                                   port: { type: integer, format: ip-port }
                                   type: { enum: [http, tcp, udp] }
                                   proxyProtocol: { type: boolean }
-                                  sslEnabled: { type: boolean }
+                                  ssl: { type: boolean }
                                   serverName:
                                       anyOf:
                                           - type: "null"
