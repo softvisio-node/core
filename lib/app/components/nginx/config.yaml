@@ -9,11 +9,11 @@ config:
     listenIpFamily: 4
     dockerEnabled: false
 
-    maxBodySize: 50 MB
+    maxBodySize: 50 MiB
 
     cacheEnabled: true
     cacheMaxSize: ~
-    cacheMinFree: 1 GB
+    cacheMinFree: 1 GiB
     cacheInactive: 1 week
     cacheBypass: false
 
