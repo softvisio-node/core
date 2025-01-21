@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.133.0 (2025-01-21)
+
+Features:
+
+- feat: create nginx server per server name
+- feat: refactor nginx
+
+Other changes:
+
+- chore: refactor interval, digital-size parsers
+
+Compare with the previous release: [`v7.132.2...v7.133.0`](https://github.com/softvisio-node/core/compare/v7.132.2...v7.133.0)
+
 ### 7.132.2 (2025-01-19)
 
 Other changes:
