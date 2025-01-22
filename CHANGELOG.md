@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.133.1 (2025-01-22)
+
+Other changes:
+
+- chore: update nginx server options
+
+Compare with the previous release: [`v7.133.0...v7.133.1`](https://github.com/softvisio-node/core/compare/v7.133.0...v7.133.1)
+
 ### 7.133.0 (2025-01-21)
 
 Features:
