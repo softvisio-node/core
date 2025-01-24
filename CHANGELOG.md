@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.133.3 (2025-01-24)
+
+Other changes:
+
+- chore: use ECDSA P-384
+
+Compare with the previous release: [`v7.133.2...v7.133.3`](https://github.com/softvisio-node/core/compare/v7.133.2...v7.133.3)
+
 ### 7.133.2 (2025-01-22)
 
 Other changes:
