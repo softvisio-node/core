@@ -104,7 +104,6 @@
         "ajv-formats": "^3.0.0",
         "ajv-formats-draft2019": "^1.4.3",
         "ajv-keywords": "^5.0.0",
-        "braces": "^3.0.3",
         "decimal.js": "^10.4.3",
         "ejs": "^3.1.5",
         "fast-xml-parser": "^4.2.2",
