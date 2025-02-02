@@ -43,6 +43,10 @@ suite( "glob-braces", () => {
         "{a|b,c}": "@(a|b|c)",
         "{a,b{c,d},{e,f}}": "@(a|b@(c|d)|@(e|f))",
 
+        // invalid sequences
+        "{a..1}": "{a..1}",
+        "{a..ф}": "{a..ф}",
+
         // char sequences
         "{a..z}": "[a-z]",
         "{z..a}": "[a-z]",
