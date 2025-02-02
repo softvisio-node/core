@@ -40,7 +40,8 @@ suite( "glob-braces", () => {
 
         // groups
         "{a,b}": "@(a|b)",
-        "{a|b,c}": "@(a\\|b|c)",
+        "{a|b,c}": "@(a|b|c)",
+        "{a,b{c,d},{e,f}}": "@(a|b@(c|d)|@(e|f))",
     };
 
     for ( const [ pattern, res ] of Object.entries( tests ) ) {
