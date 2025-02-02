@@ -19,6 +19,7 @@ suite( "glob-braces", () => {
         "{}": "{}",
         "{,}": "",
         "{,,}": "",
+        "{a}": "{a}",
         "}": "}",
         "a}": "a}",
         ",": ",",
@@ -36,6 +37,10 @@ suite( "glob-braces", () => {
         // partial complete patterns
         "{,{},,,": "{,{},,,",
         "{,{,,,},,,": "{,,,,",
+
+        // groups
+        "{a,b}": "@(a|b)",
+        "{a|b,c}": "@(a\\|b|c)",
     };
 
     for ( const [ pattern, res ] of Object.entries( tests ) ) {
