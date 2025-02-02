@@ -5,21 +5,25 @@ import { suite, test } from "node:test";
 import GlobBraces from "#lib/glob/braces";
 
 suite( "glob-braces", () => {
-    const tests = [
+    const tests = {
 
-        //
-        [ "{}", "{}" ],
-        [ "{,}", "" ],
-        [ "{,,}", "" ],
+        // not a patterns
+        "": "",
+        "{}": "{}",
+        "{,}": "",
+        "{,,}": "",
+        "}": "}",
+        "a}": "a}",
+        ",": ",",
+        "a,a": "a,a",
 
         // incomplete patterns
-        [ "{", "{" ],
-    ];
+        "{": "{",
+    };
 
-    for ( let n = 0; n < tests.length; n++ ) {
-        test( n + "", () => {
-            const [ pattern, res ] = tests[ n ],
-                globBraces = new GlobBraces( pattern );
+    for ( const [ pattern, res ] of Object.entries( tests ) ) {
+        test( pattern || '""', () => {
+            const globBraces = new GlobBraces( pattern );
 
             strictEqual( globBraces.expand(), res );
         } );
