@@ -22,7 +22,7 @@ suite( "glob-braces", () => {
     };
 
     for ( const [ pattern, res ] of Object.entries( tests ) ) {
-        test( pattern || '""', () => {
+        test( `"${ pattern }"`, () => {
             const globBraces = new GlobBraces( pattern );
 
             strictEqual( globBraces.expand(), res );
