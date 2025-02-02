@@ -7,6 +7,13 @@ import GlobBraces from "#lib/glob/braces";
 suite( "glob-braces", () => {
     const tests = {
 
+        // incomplete escape
+        "\\": "\\",
+        "\\a\\": "\\a\\",
+        "a\\": "a\\",
+        "{\\": "{\\",
+        "{a\\": "{a\\",
+
         // not a patterns
         "": "",
         "{}": "{}",
@@ -24,6 +31,7 @@ suite( "glob-braces", () => {
         "{,,": "{,,",
         "{,{,,,": "{,{,,,",
         "{|": "{|",
+        "{\\}": "{\\}",
 
         // partial complete patterns
         "{,{},,,": "{,{},,,",
