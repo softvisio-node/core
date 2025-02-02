@@ -49,6 +49,8 @@ suite( "glob-braces", () => {
         "{a..g..2}": "[aceg]",
         "{0a..g..2}": "0[aceg]",
         "{0a..00g..2}": "00[aceg]",
+        "{a..b..100}": "a",
+        "{a..000b..100}": "000a",
     };
 
     for ( const [ pattern, res ] of Object.entries( tests ) ) {
