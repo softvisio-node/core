@@ -19,6 +19,15 @@ suite( "glob-braces", () => {
 
         // incomplete patterns
         "{": "{",
+        "{{": "{{",
+        "{,": "{,",
+        "{,,": "{,,",
+        "{,{,,,": "{,{,,,",
+        "{|": "{|",
+
+        // partial complete patterns
+        "{,{},,,": "{,{},,,",
+        "{,{,,,},,,": "{,,,,",
     };
 
     for ( const [ pattern, res ] of Object.entries( tests ) ) {
