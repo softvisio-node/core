@@ -9,14 +9,16 @@ suite( "glob-braces", () => {
 
         //
         [ "{}", "{}" ],
+        [ "{,}", "" ],
+        [ "{,,}", "" ],
     ];
 
-    for ( let n = 0; n < tests.lengtg; n++ ) {
+    for ( let n = 0; n < tests.length; n++ ) {
         test( n + "", () => {
             const [ pattern, res ] = tests[ n ],
                 globBraces = new GlobBraces( pattern );
 
-            strictEqual( res, globBraces.expand() );
+            strictEqual( globBraces.expand(), res );
         } );
     }
 } );
