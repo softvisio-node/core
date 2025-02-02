@@ -11,6 +11,9 @@ suite( "glob-braces", () => {
         [ "{}", "{}" ],
         [ "{,}", "" ],
         [ "{,,}", "" ],
+
+        // incomplete patterns
+        [ "{", "{" ],
     ];
 
     for ( let n = 0; n < tests.length; n++ ) {
