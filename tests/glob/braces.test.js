@@ -39,9 +39,9 @@ suite( "glob-braces", () => {
         "{,{,,,},,,": "{,,,,",
 
         // groups
-        "{a,b}": "@(a|b)",
-        "{a|b,c}": "@(a|b|c)",
-        "{a,b{c,d},{e,f}}": "@(a|b@(c|d)|@(e|f))",
+        "{a,b}": "(?:a|b)",
+        "{a|b,c}": "(?:a|b|c)",
+        "{a,b{c,d},{e,f}}": "(?:a|b(?:c|d)|(?:e|f))",
 
         // invalid sequences
         "{a..1}": "{a..1}",
@@ -57,7 +57,7 @@ suite( "glob-braces", () => {
         "{a..000b..100}": "000a",
 
         // numeric sequences
-        "{1..10..2}": "@(1|3|5|7|9)",
+        "{1..10..2}": "(?:1|3|5|7|9)",
     };
 
     for ( const [ pattern, res ] of Object.entries( tests ) ) {
