@@ -43,7 +43,7 @@ suite( "glob-braces", () => {
         "{a|b,c}": "@(a|b|c)",
         "{a,b{c,d},{e,f}}": "@(a|b@(c|d)|@(e|f))",
 
-        // string sequences
+        // char sequences
         "{a..z}": "[a-z]",
         "{z..a}": "[a-z]",
         "{a..g..2}": "[aceg]",
@@ -51,6 +51,9 @@ suite( "glob-braces", () => {
         "{0a..00g..2}": "00[aceg]",
         "{a..b..100}": "a",
         "{a..000b..100}": "000a",
+
+        // numeric sequences
+        "{1..10..2}": "@(1|3|5|7|9)",
     };
 
     for ( const [ pattern, res ] of Object.entries( tests ) ) {
