@@ -1,5 +1,22 @@
 # Changelog
 
+### 7.134.0 (2025-02-03)
+
+Features:
+
+- feat: add api call http, void, bodyTimeout options
+- feat: refactor glob
+- feat: refactor read / write config
+- feat: refactor utils confirm
+
+Other changes:
+
+- chore: add confirm default answers
+- chore: add more markdown code types
+- chore: minor code update
+
+Compare with the previous release: [`v7.133.3...v7.134.0`](https://github.com/softvisio-node/core/compare/v7.133.3...v7.134.0)
+
 ### 7.133.3 (2025-01-24)
 
 Other changes:
