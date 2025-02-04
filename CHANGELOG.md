@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.134.1 (2025-02-04)
+
+Other changes:
+
+- chore: update postgres default log format
+
+Compare with the previous release: [`v7.134.0...v7.134.1`](https://github.com/softvisio-node/core/compare/v7.134.0...v7.134.1)
+
 ### 7.134.0 (2025-02-03)
 
 Features:
