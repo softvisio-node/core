@@ -33,7 +33,7 @@ function testPattern ( tests ) {
     }
 }
 
-suite( "glob-patterns", () => {
+suite( "glob-pattern", () => {
     suite( "static-pattern", () => {
         const tests = [
             {
