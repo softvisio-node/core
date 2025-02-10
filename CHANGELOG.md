@@ -1,5 +1,25 @@
 # Changelog
 
+### 7.135.0 (2025-02-10)
+
+Features:
+
+- feat: refactor glob
+
+Fixes:
+
+- fix: fix select statement
+
+Other changes:
+
+- chore: add config json5 extname
+- chore: highlight cli options tags
+- chore: refactor ansi
+- chore: refactor callable
+- chore: update log text
+
+Compare with the previous release: [`v7.134.1...v7.135.0`](https://github.com/softvisio-node/core/compare/v7.134.1...v7.135.0)
+
 ### 7.134.1 (2025-02-04)
 
 Other changes:
