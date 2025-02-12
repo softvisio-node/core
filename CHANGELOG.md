@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.135.1 (2025-02-12)
+
+Other changes:
+
+- chore: add benchmark garbage collector
+- chore: update log
+
+Compare with the previous release: [`v7.135.0...v7.135.1`](https://github.com/softvisio-node/core/compare/v7.135.0...v7.135.1)
+
 ### 7.135.0 (2025-02-10)
 
 Features:
