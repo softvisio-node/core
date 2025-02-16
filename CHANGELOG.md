@@ -1,5 +1,19 @@
 # Changelog
 
+### 7.136.0 (2025-02-16)
+
+Features:
+
+- feat: update github api
+
+Other changes:
+
+- chore: add worker threads name
+- chore: refactor benchmark
+- chore: update code
+
+Compare with the previous release: [`v7.135.1...v7.136.0`](https://github.com/softvisio-node/core/compare/v7.135.1...v7.136.0)
+
 ### 7.135.1 (2025-02-12)
 
 Other changes:
