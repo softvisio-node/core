@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.136.1 (2025-02-17)
+
+Other changes:
+
+- chore: refactor http headers
+- chore: update github api
+
+Compare with the previous release: [`v7.136.0...v7.136.1`](https://github.com/softvisio-node/core/compare/v7.136.0...v7.136.1)
+
 ### 7.136.0 (2025-02-16)
 
 Features:
