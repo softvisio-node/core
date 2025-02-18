@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.136.2 (2025-02-18)
+
+Other changes:
+
+- chore: allow cli --no options
+
+Compare with the previous release: [`v7.136.1...v7.136.2`](https://github.com/softvisio-node/core/compare/v7.136.1...v7.136.2)
+
 ### 7.136.1 (2025-02-17)
 
 Other changes:
