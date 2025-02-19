@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.136.3 (2025-02-19)
+
+Other changes:
+
+- chore: update cli config
+- chore: update postgre backup log
+
+Compare with the previous release: [`v7.136.2...v7.136.3`](https://github.com/softvisio-node/core/compare/v7.136.2...v7.136.3)
+
 ### 7.136.2 (2025-02-18)
 
 Other changes:
