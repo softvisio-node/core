@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.136.4 (2025-02-19)
+
+Other changes:
+
+- chore: update package dependencies
+- chore: update xml parser
+
+Compare with the previous release: [`v7.136.3...v7.136.4`](https://github.com/softvisio-node/core/compare/v7.136.3...v7.136.4)
+
 ### 7.136.3 (2025-02-19)
 
 Other changes:
