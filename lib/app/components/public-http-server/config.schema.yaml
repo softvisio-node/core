@@ -27,7 +27,7 @@
       nginx:
           type: object
           properties:
-              serverName:
+              serverNames:
                   anyOf:
                       - type: "null"
                       - { type: string, format: nginx-server-name }
@@ -38,7 +38,7 @@
               cacheBypass: { type: boolean }
 
           additionalProperties: false
-          required: [serverName]
+          required: [serverNames]
 
   additionalProperties: false
   required: [address, port, exclusive, nginx, nginxApiUrl]

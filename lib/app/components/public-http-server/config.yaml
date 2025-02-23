@@ -14,7 +14,7 @@ config:
     nginxProxyName: ~
 
     nginx:
-        serverName: ~
+        serverNames: ~
         maxBodySize: 10 MiB
         cacheEnabled: true
         cacheBypass: false
