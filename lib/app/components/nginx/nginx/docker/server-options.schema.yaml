@@ -6,6 +6,12 @@ properties:
         properties:
             upstreamProxyProtocol: { type: boolean }
 
+            serverNames:
+                anyOf:
+                    - type: "null"
+                    - { type: string, format: nginx-server-name }
+                    - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+
             servers:
                 type: array
                 minItems: 1
@@ -16,12 +22,6 @@ properties:
                         type: { enum: [http, tcp, udp] }
                         proxyProtocol: { type: boolean }
                         ssl: { type: boolean }
-                        serverName:
-                            anyOf:
-                                - type: "null"
-                                - { type: string, format: nginx-server-name }
-                                - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
-
                         maxBodySize: { type: string, format: digital-size }
                         cacheEnabled: { type: boolean }
                         cacheBypass: { type: boolean }
