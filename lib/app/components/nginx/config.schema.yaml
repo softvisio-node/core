@@ -38,8 +38,8 @@
               - { type: string, format: ip-address+port }
 
       sslProtocols: { type: string }
-      sslCiphers: { type: string }
       sslEcdhCurve: { type: string }
+      sslCiphers: { type: ["null", string] }
 
   additionalProperties: false
   required:
@@ -55,5 +55,5 @@
       - localAddress
 
       - sslProtocols
-      - sslCiphers
       - sslEcdhCurve
+      - sslCiphers
