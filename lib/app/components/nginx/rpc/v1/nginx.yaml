@@ -29,12 +29,12 @@ methods:
                               - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
                       servers:
-                          type: array
-                          minItems: 1
-                          items:
+                          type: object
+                          propertyNames: { type: integer, format: ip-port }
+                          minProperties: 1
+                          additionalProperties:
                               type: object
                               properties:
-                                  port: { type: integer, format: ip-port }
                                   type: { enum: [http, tcp, udp] }
                                   proxyProtocol: { type: boolean }
                                   ssl: { type: boolean }
@@ -46,7 +46,7 @@ methods:
                                   hstsSubdomains: { type: boolean }
 
                               additionalProperties: false
-                              required: [port]
+                              required: []
 
                   additionalProperties: false
                   required: [servers]
