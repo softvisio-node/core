@@ -18,15 +18,15 @@
               - type: "null"
               - enum: [x-real-ip, x-forwarded-for]
 
-      nginxApiUrl: { type: string, format: uri-whatwg }
-      nginxProxyName:
-          anyOf:
-              - type: "null"
-              - { type: string, fotmat: kebab-case }
-
       nginx:
           type: object
           properties:
+              apiUrl: { type: string, format: uri-whatwg }
+              proxyName:
+                  anyOf:
+                      - type: "null"
+                      - { type: string, fotmat: kebab-case }
+
               serverNames:
                   anyOf:
                       - type: "null"
@@ -44,7 +44,7 @@
                   required: [maxBodySize, cacheEnabled, cacheBypass]
 
           additionalProperties: false
-          required: [serverNames, server]
+          required: [apiUrl, proxyName, serverNames, server]
 
   additionalProperties: false
-  required: [address, port, exclusive, nginx, nginxApiUrl]
+  required: [address, port, exclusive, nginx]

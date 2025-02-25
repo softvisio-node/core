@@ -10,11 +10,12 @@ config:
     setRealIpFrom: [local, private]
     realIpHeader: x-real-ip
 
-    nginxApiUrl: ws://nginx:81/api
-    nginxProxyName: ~
-
     nginx:
+        apiUrl: ws://nginx:81/api
+        proxyName: ~
+
         serverNames: ~
+
         server:
             maxBodySize: 10 MiB
             cacheEnabled: true
