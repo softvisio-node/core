@@ -50,3 +50,7 @@ methods:
 
                   additionalProperties: false
                   required: [servers]
+
+    delete-upstream:
+        title: Delete nginx proxy upstream
+        persistentConnectionRequired: true
