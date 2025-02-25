@@ -1,7 +1,7 @@
 title: Nginx
 
 methods:
-    add-proxy:
+    add-proxies:
         title: Add nginx proxies
         persistentConnectionRequired: true
         params:
