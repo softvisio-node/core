@@ -15,6 +15,7 @@ config:
 
     nginx:
         serverNames: ~
-        maxBodySize: 10 MiB
-        cacheEnabled: true
-        cacheBypass: false
+        server:
+            maxBodySize: 10 MiB
+            cacheEnabled: true
+            cacheBypass: false

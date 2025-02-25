@@ -33,12 +33,18 @@
                       - { type: string, format: nginx-server-name }
                       - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
-              maxBodySize: { type: string, format: digital-size }
-              cacheEnabled: { type: boolean }
-              cacheBypass: { type: boolean }
+              server:
+                  type: object
+                  properties:
+                      maxBodySize: { type: string, format: digital-size }
+                      cacheEnabled: { type: boolean }
+                      cacheBypass: { type: boolean }
+
+                  additionalProperties: false
+                  required: [maxBodySize, cacheEnabled, cacheBypass]
 
           additionalProperties: false
-          required: [serverNames]
+          required: [serverNames, server]
 
   additionalProperties: false
   required: [address, port, exclusive, nginx, nginxApiUrl]
