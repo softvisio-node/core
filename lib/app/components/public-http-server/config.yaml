@@ -12,7 +12,7 @@ config:
 
     nginx:
         apiUrl: ws://nginx:81/api
-        proxyName: ~
+        proxyId: ~
 
         serverNames: ~
 

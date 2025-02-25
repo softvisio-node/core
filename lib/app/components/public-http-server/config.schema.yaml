@@ -22,7 +22,7 @@
           type: object
           properties:
               apiUrl: { type: string, format: uri-whatwg }
-              proxyName:
+              proxyId:
                   anyOf:
                       - type: "null"
                       - { type: string, fotmat: kebab-case }
@@ -44,7 +44,7 @@
                   required: [maxBodySize, cacheEnabled, cacheBypass]
 
           additionalProperties: false
-          required: [apiUrl, proxyName, serverNames, server]
+          required: [apiUrl, proxyId, serverNames, server]
 
   additionalProperties: false
   required: [address, port, exclusive, nginx]

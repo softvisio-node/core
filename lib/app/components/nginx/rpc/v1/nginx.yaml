@@ -10,16 +10,12 @@ methods:
               schema:
                   type: string
                   fotmat: kebab-case
-            - name: upstream_port
-              required: true
-              schema:
-                  type: integer
-                  format: ip-port
             - name: options
               required: true
               schema:
                   type: object
                   properties:
+                      upstreamPort: { type: integer, format: ip-port }
                       upstreamProxyProtocol: { type: boolean }
 
                       serverNames:
@@ -49,7 +45,7 @@ methods:
                               required: [port]
 
                   additionalProperties: false
-                  required: [servers]
+                  required: [upstreamPort, servers]
 
     delete-upstream:
         title: Delete nginx proxy upstream
