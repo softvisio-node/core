@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.136.6 (2025-02-26)
+
+Other changes:
+
+- chore: add dh-params generator
+- chore: fix nginx private http server upstream name
+
+Compare with the previous release: [`v7.136.5...v7.136.6`](https://github.com/softvisio-node/core/compare/v7.136.5...v7.136.6)
+
 ### 7.136.5 (2025-02-26)
 
 Other changes:
