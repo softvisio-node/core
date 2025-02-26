@@ -1,5 +1,16 @@
 # Changelog
 
+### 7.136.5 (2025-02-26)
+
+Other changes:
+
+- chore: catch api call params validation errors
+- chore: cleanup code
+- chore: refactor nginx
+- chore: update editorconfig
+
+Compare with the previous release: [`v7.136.4...v7.136.5`](https://github.com/softvisio-node/core/compare/v7.136.4...v7.136.5)
+
 ### 7.136.4 (2025-02-19)
 
 Other changes:
