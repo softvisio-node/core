@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.136.9 (2025-02-27)
+
+Other changes:
+
+- chore: fix nginx api
+
+Compare with the previous release: [`v7.136.8...v7.136.9`](https://github.com/softvisio-node/core/compare/v7.136.8...v7.136.9)
+
 ### 7.136.8 (2025-02-27)
 
 Other changes:
