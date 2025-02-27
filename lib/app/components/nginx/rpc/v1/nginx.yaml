@@ -36,8 +36,14 @@ methods:
                                       maxBodySize: { type: string, format: digital-size }
                                       cacheEnabled: { type: boolean }
                                       cacheBypass: { type: boolean }
-                                      httpsRedirectPort: { type: integer, format: ip-port }
-                                      hstsMaxAge: { type: string, format: interval }
+                                      httpsRedirectPort:
+                                          anyOf:
+                                              - type: "null"
+                                              - { type: integer, format: ip-port }
+                                      hstsMaxAge:
+                                          anyOf:
+                                              - type: "null"
+                                              - { type: string, format: interval }
                                       hstsSubdomains: { type: boolean }
 
                                   additionalProperties: false
