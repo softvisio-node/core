@@ -5,6 +5,19 @@
       port: { type: integer, format: ip-port }
       exclusive: { type: boolean }
 
+      setRealIpFrom:
+          anyOf:
+              - type: "null"
+              - type: array
+                items: { type: string, format: kebab-case }
+                minItems: 1
+                uniqueItems: true
+
+      realIpHeader:
+          anyOf:
+              - type: "null"
+              - enum: [x-real-ip, x-forwarded-for]
+
       nginx:
           type: object
           properties:
@@ -28,4 +41,4 @@
           required: [serverNames, server]
 
   additionalProperties: false
-  required: [address, port, exclusive, nginx]
+  required: [address, port, exclusive, setRealIpFrom, realIpHeader, nginx]

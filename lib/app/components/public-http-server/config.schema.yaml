@@ -56,4 +56,4 @@
           required: [apiUrl, proxyId, serverNames, server]
 
   additionalProperties: false
-  required: [address, port, exclusive, nginx]
+  required: [address, port, exclusive, setRealIpFrom, realIpHeader, nginx]
