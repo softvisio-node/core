@@ -21,5 +21,5 @@ config:
             cacheEnabled: true
             cacheBypass: false
             # httpsRedirectPort: ~
-            # hstsMaxAge: ~
+            # hstsMaxAge: 1 year
             # hstsSubdomains: false
