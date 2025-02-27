@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.136.12 (2025-02-27)
+
+Other changes:
+
+- chore: fix rpc remote address detection
+
+Compare with the previous release: [`v7.136.11...v7.136.12`](https://github.com/softvisio-node/core/compare/v7.136.11...v7.136.12)
+
 ### 7.136.11 (2025-02-27)
 
 Other changes:
