@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.136.7 (2025-02-27)
+
+Other changes:
+
+- chore: destroy tmp files async
+- chore: fix nginx docker
+- chore: update nvim rpc mime types
+
+Compare with the previous release: [`v7.136.6...v7.136.7`](https://github.com/softvisio-node/core/compare/v7.136.6...v7.136.7)
+
 ### 7.136.6 (2025-02-26)
 
 Other changes:
