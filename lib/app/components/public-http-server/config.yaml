@@ -20,6 +20,6 @@ config:
             maxBodySize: 10 MiB
             cacheEnabled: true
             cacheBypass: false
-            # httpsRedirectPort: ~
-            # hstsMaxAge: 1 year
-            # hstsSubdomains: false
+            httpsRedirectPort: 443
+            hstsMaxAge: 1 year
+            hstsSubdomains: false
