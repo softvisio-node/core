@@ -1,7 +1,7 @@
 dependencies: ~
 
 optionalDependencies:
-    - dbh
+  - dbh
 
 config:
-    enabled: true
+  enabled: true

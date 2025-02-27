@@ -1,7 +1,7 @@
 - $id: env
   type: object
   properties:
-      POSTGRESQL_VERSION: { type: integer }
+    POSTGRESQL_VERSION: { type: integer }
   required: [POSTGRESQL_VERSION]
 
 - $id: public-config
@@ -11,74 +11,74 @@
 - $id: config
   type: object
   properties:
-      storageLocation: { type: string, format: kebab-case-root-or-absolute-file-path }
+    storageLocation: { type: string, format: kebab-case-root-or-absolute-file-path }
 
-      mode: { enum: [primary, standby-sync, standby-async] }
-      clusterName: { type: string }
-      dataRootDir: { type: ["null", string] }
+    mode: { enum: [primary, standby-sync, standby-async] }
+    clusterName: { type: string }
+    dataRootDir: { type: ["null", string] }
 
-      access:
-          type: array
-          items:
-              type: object
-              properties:
-                  host: { enum: [local, host, hostssl, hostnossl, hostgssenc, hostnogssenc] }
+    access:
+      type: array
+      items:
+        type: object
+        properties:
+          host: { enum: [local, host, hostssl, hostnossl, hostgssenc, hostnogssenc] }
 
-                  database: { type: string }
+          database: { type: string }
 
-                  user: { type: string }
+          user: { type: string }
 
-                  address: { type: ["null", string] }
+          address: { type: ["null", string] }
 
-                  auth-method: { enum: [trust, reject, scram-sha-256, md5, password, gss, sspi, ident, peer, ldap, radius, cert, pam, bsd] }
+          auth-method: { enum: [trust, reject, scram-sha-256, md5, password, gss, sspi, ident, peer, ldap, radius, cert, pam, bsd] }
 
-                  auth-options: { type: ["null", string] }
+          auth-options: { type: ["null", string] }
 
-              additionalProperties: false
-              required: [host, database, user, address, auth-method, auth-options]
+        additionalProperties: false
+        required: [host, database, user, address, auth-method, auth-options]
 
-      backups:
-          anyOf:
-              - type: "null"
-              - type: array
-                items: { type: string, format: interval }
-                minItems: 1
-                uniqueItems: true
+    backups:
+      anyOf:
+        - type: "null"
+        - type: array
+          items: { type: string, format: interval }
+          minItems: 1
+          uniqueItems: true
 
-      replication:
+    replication:
+      type: object
+      properties:
+        port: { type: integer, format: ip-port }
+        username: { type: string }
+        password: { type: string }
+
+        primary:
           type: object
           properties:
-              port: { type: integer, format: ip-port }
-              username: { type: string }
-              password: { type: string }
-
-              primary:
-                  type: object
-                  properties:
-                      hostname: { type: string }
-                  additionalProperties: false
-                  required: [hostname]
-
-              sync:
-                  type: object
-                  properties:
-                      hostname: { type: string }
-                      numberOfStandbys: { type: integer, minimum: 0 }
-                  additionalProperties: false
-                  required: [hostname, numberOfStandbys]
-
-              async:
-                  type: object
-                  properties:
-                      replicateFrom: { enum: [primary, sync] }
-                  additionalProperties: false
-                  required: [replicateFrom]
-
+            hostname: { type: string }
           additionalProperties: false
-          required: [port, username, password]
+          required: [hostname]
 
-      settings:
-          type: ["null", object]
+        sync:
+          type: object
+          properties:
+            hostname: { type: string }
+            numberOfStandbys: { type: integer, minimum: 0 }
+          additionalProperties: false
+          required: [hostname, numberOfStandbys]
+
+        async:
+          type: object
+          properties:
+            replicateFrom: { enum: [primary, sync] }
+          additionalProperties: false
+          required: [replicateFrom]
+
+      additionalProperties: false
+      required: [port, username, password]
+
+    settings:
+      type: ["null", object]
 
   additionalProperties: false
   required: [storageLocation, mode, clusterName, dataRootDir, access, backups]

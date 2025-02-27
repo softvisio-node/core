@@ -1,6 +1,6 @@
 dependencies:
-    - dbh
-    - users
+  - dbh
+  - users
 
 optionalDependencies: ~
 

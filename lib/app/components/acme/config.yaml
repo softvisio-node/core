@@ -1,18 +1,18 @@
 dependencies:
-    - crypto
+  - crypto
 
 optionalDependencies:
-    - dbh
-    - cluster
-    - publicHttpServer
-    - privateHttpServer
+  - dbh
+  - cluster
+  - publicHttpServer
+  - privateHttpServer
 
 config:
-    email: ~
-    test: false
-    useLocalStorage: ~
-    cetrificatesRenewInterval: 1 week
-    challengeMaxAge: 10 minutes
-    httpEnabled: false
-    dnsEnabled: ~
-    cloudFlareApiToken: ~
+  email: ~
+  test: false
+  useLocalStorage: ~
+  cetrificatesRenewInterval: 1 week
+  challengeMaxAge: 10 minutes
+  httpEnabled: false
+  dnsEnabled: ~
+  cloudFlareApiToken: ~

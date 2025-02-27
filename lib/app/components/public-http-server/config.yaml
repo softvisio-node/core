@@ -3,23 +3,23 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-    address: 0.0.0.0
-    port: 80
-    exclusive: true
+  address: 0.0.0.0
+  port: 80
+  exclusive: true
 
-    setRealIpFrom: [local, private]
-    realIpHeader: x-real-ip
+  setRealIpFrom: [local, private]
+  realIpHeader: x-real-ip
 
-    nginx:
-        apiUrl: ws://nginx:81/api
-        proxyId: ~
+  nginx:
+    apiUrl: ws://nginx:81/api
+    proxyId: ~
 
-        serverNames: ~
+    serverNames: ~
 
-        server:
-            maxBodySize: 10 MiB
-            cacheEnabled: true
-            cacheBypass: false
-            httpsRedirectPort: 443
-            hstsMaxAge: 1 year
-            hstsSubdomains: false
+    server:
+      maxBodySize: 10 MiB
+      cacheEnabled: true
+      cacheBypass: false
+      httpsRedirectPort: 443
+      hstsMaxAge: 1 year
+      hstsSubdomains: false

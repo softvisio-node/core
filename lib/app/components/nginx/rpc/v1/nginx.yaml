@@ -1,57 +1,57 @@
 title: Nginx
 
 methods:
-    add-proxies:
-        title: Add nginx proxies
-        persistentConnectionRequired: true
-        params:
-            - name: proxies
-              required: true
-              schema:
+  add-proxies:
+    title: Add nginx proxies
+    persistentConnectionRequired: true
+    params:
+      - name: proxies
+        required: true
+        schema:
+          type: object
+          propertyNames: { type: string, format: kebab-case }
+          minProperties: 1
+          additionalProperties:
+            type: object
+            properties:
+              upstreamPort: { type: integer, format: ip-port }
+              upstreamProxyProtocol: { type: boolean }
+
+              serverNames:
+                anyOf:
+                  - type: "null"
+                  - { type: string, format: nginx-server-name }
+                  - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+
+              servers:
+                type: array
+                minItems: 1
+                items:
                   type: object
-                  propertyNames: { type: string, format: kebab-case }
-                  minProperties: 1
-                  additionalProperties:
-                      type: object
-                      properties:
-                          upstreamPort: { type: integer, format: ip-port }
-                          upstreamProxyProtocol: { type: boolean }
+                  properties:
+                    port: { type: integer, format: ip-port }
+                    type: { enum: [http, tcp, udp] }
+                    proxyProtocol: { type: boolean }
+                    ssl: { type: boolean }
+                    maxBodySize: { type: string, format: digital-size }
+                    cacheEnabled: { type: boolean }
+                    cacheBypass: { type: boolean }
+                    httpsRedirectPort:
+                      anyOf:
+                        - type: "null"
+                        - { type: integer, format: ip-port }
+                    hstsMaxAge:
+                      anyOf:
+                        - type: "null"
+                        - { type: string, format: interval }
+                    hstsSubdomains: { type: boolean }
 
-                          serverNames:
-                              anyOf:
-                                  - type: "null"
-                                  - { type: string, format: nginx-server-name }
-                                  - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+                  additionalProperties: false
+                  required: [port]
 
-                          servers:
-                              type: array
-                              minItems: 1
-                              items:
-                                  type: object
-                                  properties:
-                                      port: { type: integer, format: ip-port }
-                                      type: { enum: [http, tcp, udp] }
-                                      proxyProtocol: { type: boolean }
-                                      ssl: { type: boolean }
-                                      maxBodySize: { type: string, format: digital-size }
-                                      cacheEnabled: { type: boolean }
-                                      cacheBypass: { type: boolean }
-                                      httpsRedirectPort:
-                                          anyOf:
-                                              - type: "null"
-                                              - { type: integer, format: ip-port }
-                                      hstsMaxAge:
-                                          anyOf:
-                                              - type: "null"
-                                              - { type: string, format: interval }
-                                      hstsSubdomains: { type: boolean }
+            additionalProperties: false
+            required: [upstreamPort, servers]
 
-                                  additionalProperties: false
-                                  required: [port]
-
-                      additionalProperties: false
-                      required: [upstreamPort, servers]
-
-    delete-upstream:
-        title: Delete nginx proxy upstream
-        persistentConnectionRequired: true
+  delete-upstream:
+    title: Delete nginx proxy upstream
+    persistentConnectionRequired: true

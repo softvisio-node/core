@@ -1,21 +1,21 @@
 name: build-resources
 on:
-    workflow_dispatch:
-    schedule:
-        - cron: "0 0 * * *" # every day at 00:00
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *" # every day at 00:00
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        container:
-            image: ghcr.io/zerocluster/node
-            env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                MAXMIND_LICENSE_KEY: ${{ secrets.MAXMIND_LICENSE_KEY }}
-                CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
-        steps:
-            - uses: actions/checkout@v4
-            - run: |
-                  npm install --ignore-scripts
-                  npm run build
-              shell: bash
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/zerocluster/node
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        MAXMIND_LICENSE_KEY: ${{ secrets.MAXMIND_LICENSE_KEY }}
+        CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          npm install --ignore-scripts
+          npm run build
+        shell: bash

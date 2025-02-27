@@ -1,8 +1,8 @@
 - $id: config
   type: object
   properties:
-      key: { type: ["null", string] }
-      useLocalStorage: { type: boolean }
+    key: { type: ["null", string] }
+    useLocalStorage: { type: boolean }
 
   additionalProperties: false
   required: [key, useLocalStorage]

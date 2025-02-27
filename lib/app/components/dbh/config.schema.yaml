@@ -1,7 +1,7 @@
 - $id: config
   type: object
   properties:
-      uri: { type: string, format: uri-whatwg }
+    uri: { type: string, format: uri-whatwg }
 
   additionalProperties: false
   required: []

@@ -1,9 +1,9 @@
 dependencies: ~
 
 optionalDependencies:
-    - dbh
-    - cluster
+  - dbh
+  - cluster
 
 config:
-    key: ~
-    useLocalStorage: false
+  key: ~
+  useLocalStorage: false

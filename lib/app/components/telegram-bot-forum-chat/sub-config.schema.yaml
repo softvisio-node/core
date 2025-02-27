@@ -5,14 +5,14 @@
 - $id: config
   type: object
   properties:
-      forumChat:
-          type: object
-          properties:
-              clientId: { type: ["null", string] }
-              deleteGroupCreator: { type: boolean }
-              hideGeneralTopic: { type: boolean }
+    forumChat:
+      type: object
+      properties:
+        clientId: { type: ["null", string] }
+        deleteGroupCreator: { type: boolean }
+        hideGeneralTopic: { type: boolean }
 
-          additionalProperties: false
-          required: [clientId, deleteGroupCreator, hideGeneralTopic]
+      additionalProperties: false
+      required: [clientId, deleteGroupCreator, hideGeneralTopic]
 
   required: [forumChat]

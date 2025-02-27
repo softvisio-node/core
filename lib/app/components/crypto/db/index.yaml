@@ -3,6 +3,6 @@ type: postgresql
 patch: ~
 
 emits:
-    - crypto/key/revoked/update
+  - crypto/key/revoked/update
 
 locks: ~

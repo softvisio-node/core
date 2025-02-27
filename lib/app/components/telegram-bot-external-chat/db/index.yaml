@@ -3,7 +3,7 @@ type: postgresql
 patch: ~
 
 emits:
-    - telegram-bot-external-chat/update
+  - telegram-bot-external-chat/update
 
 locks: ~
 

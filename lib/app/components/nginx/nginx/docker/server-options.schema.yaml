@@ -1,33 +1,33 @@
 type: object
 properties:
-    upstreamPort: { type: integer, format: ip-port }
-    upstreamProxyProtocol: { type: boolean }
+  upstreamPort: { type: integer, format: ip-port }
+  upstreamProxyProtocol: { type: boolean }
 
-    serverNames:
-        anyOf:
-            - type: "null"
-            - { type: string, format: nginx-server-name }
-            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+  serverNames:
+    anyOf:
+      - type: "null"
+      - { type: string, format: nginx-server-name }
+      - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
-    servers:
-        type: array
-        minItems: 1
-        items:
-            type: object
-            properties:
-                port: { type: integer, format: ip-port }
-                type: { enum: [http, tcp, udp] }
-                proxyProtocol: { type: boolean }
-                ssl: { type: boolean }
-                maxBodySize: { type: string, format: digital-size }
-                cacheEnabled: { type: boolean }
-                cacheBypass: { type: boolean }
-                httpsRedirectPort: { type: integer, format: ip-port }
-                hstsMaxAge: { type: string, format: interval }
-                hstsSubdomains: { type: boolean }
+  servers:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      properties:
+        port: { type: integer, format: ip-port }
+        type: { enum: [http, tcp, udp] }
+        proxyProtocol: { type: boolean }
+        ssl: { type: boolean }
+        maxBodySize: { type: string, format: digital-size }
+        cacheEnabled: { type: boolean }
+        cacheBypass: { type: boolean }
+        httpsRedirectPort: { type: integer, format: ip-port }
+        hstsMaxAge: { type: string, format: interval }
+        hstsSubdomains: { type: boolean }
 
-            additionalProperties: false
-            required: [port]
+      additionalProperties: false
+      required: [port]
 
 additionalProperties: false
 required: [upstreamPort, servers]

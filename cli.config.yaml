@@ -1,31 +1,31 @@
 releasable: true
 
 docs:
-    location: /docs
+  location: /docs
 
-    logo: true
+  logo: true
 
-    externalTypes:
-        - softvisio-node/result
+  externalTypes:
+    - softvisio-node/result
 
-    types:
-        Auth:
-        Table: "/text.md#Class: Table"
-        ProxyClient:
-        Blob: "/blob.md#Class: Blob"
-        File: "/file.md#Class: File"
-        ApiClient: "/api-client.md#Class: ApiClient"
-        ApiClientUpload: "/api-client.md#Class: ApiClientUpload"
-        ApiClientConnection: "/api-client.md#Class: ApIClientConnection"
-        TmpFile: "/tmp.md#Class: TmpFile"
-        TmpDir: "/tmp.md#Class: TmpDir"
-        DoublyLinkedList: "/doubly-linked-list.md"
-        DoublyLinkedListNode: "/doubly-linked-list.md#Class: DoublyLinkedListNode"
-        CacheLRU: "/cache-lru.md"
-        Threads: "/threads.md#Class: Threads"
-        CondVar: "/threads.md#Class: CondVar"
-        Semaphore: "/threads.md#Class: Semaphore"
-        SemaphoreSet: "/threads.md#Class: SemaphoreSet"
-        Mutex: "/threads.md#Class: Mutex"
-        Signal: "/threads.md#Class: Signal"
-        Hostname: "/hostname.md"
+  types:
+    Auth:
+    Table: "/text.md#Class: Table"
+    ProxyClient:
+    Blob: "/blob.md#Class: Blob"
+    File: "/file.md#Class: File"
+    ApiClient: "/api-client.md#Class: ApiClient"
+    ApiClientUpload: "/api-client.md#Class: ApiClientUpload"
+    ApiClientConnection: "/api-client.md#Class: ApIClientConnection"
+    TmpFile: "/tmp.md#Class: TmpFile"
+    TmpDir: "/tmp.md#Class: TmpDir"
+    DoublyLinkedList: "/doubly-linked-list.md"
+    DoublyLinkedListNode: "/doubly-linked-list.md#Class: DoublyLinkedListNode"
+    CacheLRU: "/cache-lru.md"
+    Threads: "/threads.md#Class: Threads"
+    CondVar: "/threads.md#Class: CondVar"
+    Semaphore: "/threads.md#Class: Semaphore"
+    SemaphoreSet: "/threads.md#Class: SemaphoreSet"
+    Mutex: "/threads.md#Class: Mutex"
+    Signal: "/threads.md#Class: Signal"
+    Hostname: "/hostname.md"

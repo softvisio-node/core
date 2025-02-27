@@ -1,17 +1,17 @@
 title: Instances monitoring
 
 methods:
-    get-instances:
-        title: Get monitored instances metrics
-        permission: development:read
+  get-instances:
+    title: Get monitored instances metrics
+    permission: development:read
 
-    get-instance-stats:
-        title: Get the instance stats
-        permission: development:read
-        params:
-            - name: instance_id
-              required: true
-              schema: { type: integer }
-            - name: period
-              required: true
-              schema: { enum: [1 hour, 7 days, 30 days] }
+  get-instance-stats:
+    title: Get the instance stats
+    permission: development:read
+    params:
+      - name: instance_id
+        required: true
+        schema: { type: integer }
+      - name: period
+        required: true
+        schema: { enum: [1 hour, 7 days, 30 days] }

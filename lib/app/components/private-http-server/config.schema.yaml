@@ -1,44 +1,44 @@
 - $id: config
   type: object
   properties:
-      address: { type: string, format: ip-address }
-      port: { type: integer, format: ip-port }
-      exclusive: { type: boolean }
+    address: { type: string, format: ip-address }
+    port: { type: integer, format: ip-port }
+    exclusive: { type: boolean }
 
-      setRealIpFrom:
+    setRealIpFrom:
+      anyOf:
+        - type: "null"
+        - type: array
+          items: { type: string, format: kebab-case }
+          minItems: 1
+          uniqueItems: true
+
+    realIpHeader:
+      anyOf:
+        - type: "null"
+        - enum: [x-real-ip, x-forwarded-for]
+
+    nginx:
+      type: object
+      properties:
+        serverNames:
           anyOf:
-              - type: "null"
-              - type: array
-                items: { type: string, format: kebab-case }
-                minItems: 1
-                uniqueItems: true
+            - type: "null"
+            - { type: string, format: nginx-server-name }
+            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
-      realIpHeader:
-          anyOf:
-              - type: "null"
-              - enum: [x-real-ip, x-forwarded-for]
-
-      nginx:
+        server:
           type: object
           properties:
-              serverNames:
-                  anyOf:
-                      - type: "null"
-                      - { type: string, format: nginx-server-name }
-                      - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
-
-              server:
-                  type: object
-                  properties:
-                      maxBodySize: { type: string, format: digital-size }
-                      cacheEnabled: { type: boolean }
-                      cacheBypass: { type: boolean }
-
-                  additionalProperties: false
-                  required: [maxBodySize, cacheEnabled, cacheBypass]
+            maxBodySize: { type: string, format: digital-size }
+            cacheEnabled: { type: boolean }
+            cacheBypass: { type: boolean }
 
           additionalProperties: false
-          required: [serverNames, server]
+          required: [maxBodySize, cacheEnabled, cacheBypass]
+
+      additionalProperties: false
+      required: [serverNames, server]
 
   additionalProperties: false
   required: [address, port, exclusive, setRealIpFrom, realIpHeader, nginx]

@@ -1,21 +1,21 @@
 telegram:
-    name: ~
-    description: ~
-    shortDescription: ~
+  name: ~
+  description: ~
+  shortDescription: ~
 
-    locales: ~
-    defaultLocale: ~
+  locales: ~
+  defaultLocale: ~
 
-    usersCacheMaxSize: 1000
-    groupsCacheMaxSize: 1000
-    channelsCacheMaxSize: 1000
-    messagesCacheMaxSize: 1000
-    contactsCacheMaxSize: 1000
+  usersCacheMaxSize: 1000
+  groupsCacheMaxSize: 1000
+  channelsCacheMaxSize: 1000
+  messagesCacheMaxSize: 1000
+  contactsCacheMaxSize: 1000
 
-    webAppDomain: ~
+  webAppDomain: ~
 
-    signinRequired: false
-    signupEnabled: false
-    signoutEnabled: true
+  signinRequired: false
+  signupEnabled: false
+  signoutEnabled: true
 
-    acl: {}
+  acl: {}

@@ -5,6 +5,6 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-    enabled: true
-    port: 82
-    interval: 10 seconds
+  enabled: true
+  port: 82
+  interval: 10 seconds

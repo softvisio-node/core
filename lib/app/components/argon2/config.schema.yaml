@@ -1,12 +1,12 @@
 - $id: config
   type: object
   properties:
-      preset: { enum: [default] }
-      type: { enum: [argon2d, argon2i, argon2id] }
-      timeCost: { type: integer, minimum: 2, maximum: 4_294_967_295 }
-      parallelism: { type: integer, minimum: 1, maximum: 16_777_215 }
-      memoryCost: { type: integer, minimum: 1_024, maximum: 4_294_967_295 }
-      saltLength: { type: integer, minimum: 16 }
-      hashLength: { type: integer, minimum: 4, maximum: 4_294_967_295 }
+    preset: { enum: [default] }
+    type: { enum: [argon2d, argon2i, argon2id] }
+    timeCost: { type: integer, minimum: 2, maximum: 4_294_967_295 }
+    parallelism: { type: integer, minimum: 1, maximum: 16_777_215 }
+    memoryCost: { type: integer, minimum: 1_024, maximum: 4_294_967_295 }
+    saltLength: { type: integer, minimum: 16 }
+    hashLength: { type: integer, minimum: 4, maximum: 4_294_967_295 }
 
   additionalProperties: false

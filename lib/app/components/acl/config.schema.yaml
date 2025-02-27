@@ -1,68 +1,68 @@
 - $id: public-config
   type: object
   properties:
-      types: false
+    types: false
 
 - $id: config
   type: object
   properties:
-      cacheMaxSize: { type: integer, minimum: 0 }
+    cacheMaxSize: { type: integer, minimum: 0 }
 
-      types:
-          type: object
-          propertyNames: { type: string }
-          additionalProperties:
+    types:
+      type: object
+      propertyNames: { type: string }
+      additionalProperties:
+        type: object
+        properties:
+          roles:
+            type: object
+            propertyNames: { type: string }
+            additionalProperties:
               type: object
               properties:
-                  roles:
-                      type: object
-                      propertyNames: { type: string }
-                      additionalProperties:
-                          type: object
-                          properties:
-                              name: { type: object, format: l10nt }
-                              description: { type: object, format: l10nt }
-                              permissions: { type: array, items: { type: string, format: glob-pattern }, minItems: 1, uniqueItems: true }
-
-                          additionalProperties: false
-                          required: [name, description, permissions]
-
-                      minProperties: 1
-
-                  notifications:
-                      anyOf:
-                          - type: "null"
-                          - type: object
-                            propertyNames: { type: string }
-                            additionalProperties:
-                                type: object
-                                properties:
-                                    name: { type: object, format: l10nt }
-                                    description: { type: object, format: l10nt }
-                                    roles:
-                                        anyOf:
-                                            - type: "null"
-                                            - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
-                                    channels:
-                                        type: object
-                                        propertyNames: { enum: [internal, email, telegram, push] }
-                                        additionalProperties:
-                                            type: object
-                                            properties:
-                                                enabled: { type: boolean }
-                                                subscribed: { type: boolean }
-                                                editable: { type: boolean }
-
-                                            additionalProperties: false
-
-                                additionalProperties: false
-                                required: [name, description]
-                            minProperties: 1
+                name: { type: object, format: l10nt }
+                description: { type: object, format: l10nt }
+                permissions: { type: array, items: { type: string, format: glob-pattern }, minItems: 1, uniqueItems: true }
 
               additionalProperties: false
-              required: [roles]
+              required: [name, description, permissions]
 
-          required: [main] # main acl is required
+            minProperties: 1
+
+          notifications:
+            anyOf:
+              - type: "null"
+              - type: object
+                propertyNames: { type: string }
+                additionalProperties:
+                  type: object
+                  properties:
+                    name: { type: object, format: l10nt }
+                    description: { type: object, format: l10nt }
+                    roles:
+                      anyOf:
+                        - type: "null"
+                        - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+                    channels:
+                      type: object
+                      propertyNames: { enum: [internal, email, telegram, push] }
+                      additionalProperties:
+                        type: object
+                        properties:
+                          enabled: { type: boolean }
+                          subscribed: { type: boolean }
+                          editable: { type: boolean }
+
+                        additionalProperties: false
+
+                  additionalProperties: false
+                  required: [name, description]
+                minProperties: 1
+
+        additionalProperties: false
+        required: [roles]
+
+      required: [main] # main acl is required
 
   additionalProperties: false
   required: [cacheMaxSize, types]

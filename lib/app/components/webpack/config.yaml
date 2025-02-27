@@ -1,8 +1,8 @@
 dependencies:
-    - publicHttpServer
+  - publicHttpServer
 
 optionalDependencies: ~
 
 config:
-    locations:
-        "/": "../frontend/www"
+  locations:
+    "/": "../frontend/www"

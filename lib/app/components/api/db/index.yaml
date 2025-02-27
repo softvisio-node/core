@@ -3,17 +3,17 @@ type: postgresql
 patch: 4
 
 emits:
-    - api/token/delete # user_id
-    - api/token/update
+  - api/token/delete # user_id
+  - api/token/update
 
-    - api/session/delete # user_id
-    - api/session/update
+  - api/session/delete # user_id
+  - api/session/update
 
 locks: ~
 
 cron:
-    cleanup:
-        cron: "0 1 * * *" # 01:00 everyday
-        timezone: ~
-        query: |-
-            DELETE FROM api_session WHERE expires <= CURRENT_TIMESTAMP;
+  cleanup:
+    cron: "0 1 * * *" # 01:00 everyday
+    timezone: ~
+    query: |-
+      DELETE FROM api_session WHERE expires <= CURRENT_TIMESTAMP;

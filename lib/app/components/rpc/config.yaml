@@ -1,16 +1,16 @@
 dependencies:
-    - privateHttpServer
-    - monitoring
+  - privateHttpServer
+  - monitoring
 
 optionalDependencies:
-    - cluster
+  - cluster
 
 config:
-    defaultVersion: 1
+  defaultVersion: 1
 
-    frontend:
-        maxApiRequestLength: 65_535 # 64KB
-        maxUploadFileSize: 1_073_741_824 # 1GB
-        idleTimeout: 120
-        sendPingsAutomatically: true
-        compress: false # do not compress RPC messages
+  frontend:
+    maxApiRequestLength: 65_535 # 64KB
+    maxUploadFileSize: 1_073_741_824 # 1GB
+    idleTimeout: 120
+    sendPingsAutomatically: true
+    compress: false # do not compress RPC messages

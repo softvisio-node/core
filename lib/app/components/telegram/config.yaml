@@ -1,38 +1,38 @@
 dependencies:
-    - users
-    - acl
-    - notifications
-    - actionTokens
-    - crypto
+  - users
+  - acl
+  - notifications
+  - actionTokens
+  - crypto
 
 optionalDependencies:
-    - cluster
+  - cluster
 
 templates:
-    telegram/sign-in-email/subject: !ejs <%- locale.l10n( msgid`Sign in to "${data.telegramBotName}" bot`) %>
+  telegram/sign-in-email/subject: !ejs <%- locale.l10n( msgid`Sign in to "${data.telegramBotName}" bot`) %>
 
-    telegram/sign-in-email/body: !ejs |-
-        <%- locale.l10n( msgid`Please, click following link to sign in to "${data.telegramBotName}" Telegram bot:
+  telegram/sign-in-email/body: !ejs |-
+    <%- locale.l10n( msgid`Please, click following link to sign in to "${data.telegramBotName}" Telegram bot:
 
-        ${data.url}
-        ` ) %>
+    ${data.url}
+    ` ) %>
 
 config:
-    runUpdater: true
-    runProcessor: true
+  runUpdater: true
+  runProcessor: true
 
-    filesUrl: /telegram/files/
-    avatarUrl: /telegram/avatar/
+  filesUrl: /telegram/files/
+  avatarUrl: /telegram/avatar/
 
-    webAppDomain: ~
+  webAppDomain: ~
 
-    linkStartParameterName: link
-    signinStartParameterName: signin
+  linkStartParameterName: link
+  signinStartParameterName: signin
 
-    app:
-        apiId: ~
-        apiHash: ~
+  app:
+    apiId: ~
+    apiHash: ~
 
-    clients: ~
+  clients: ~
 
-    bots: ~
+  bots: ~

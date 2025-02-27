@@ -1,8 +1,8 @@
 - $id: config
   type: object
   properties:
-      id: { type: ["null", string] }
-      apiUrl: { type: string, format: uri-whatwg }
+    id: { type: ["null", string] }
+    apiUrl: { type: string, format: uri-whatwg }
 
   additionalProperties: false
   required: [id, apiUrl]

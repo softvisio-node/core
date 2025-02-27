@@ -1,24 +1,24 @@
 dependencies:
-    - users
-    - notifications
+  - users
+  - notifications
 
 optionalDependencies: ~
 
 config:
-    cacheMaxSize: 10_000
+  cacheMaxSize: 10_000
 
-    types:
-        main:
-            roles:
-                developer:
-                    name: !l10nt Developer
-                    description: !l10nt Project developer
-                    permissions:
-                        - development:*
+  types:
+    main:
+      roles:
+        developer:
+          name: !l10nt Developer
+          description: !l10nt Project developer
+          permissions:
+            - development:*
 
-                administrator:
-                    name: !l10nt Administrator
-                    description: !l10nt Project administrator
-                    permissions:
-                        - acl:*
-                        - administration:*
+        administrator:
+          name: !l10nt Administrator
+          description: !l10nt Project administrator
+          permissions:
+            - acl:*
+            - administration:*
