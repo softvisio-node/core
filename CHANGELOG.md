@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.136.8 (2025-02-27)
+
+Other changes:
+
+- chore: fix nginx ssl server name
+
+Compare with the previous release: [`v7.136.7...v7.136.8`](https://github.com/softvisio-node/core/compare/v7.136.7...v7.136.8)
+
 ### 7.136.7 (2025-02-27)
 
 Other changes:
