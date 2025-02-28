@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.136.16 (2025-02-28)
+
+Other changes:
+
+- chore: update nginx config
+
+Compare with the previous release: [`v7.136.15...v7.136.16`](https://github.com/softvisio-node/core/compare/v7.136.15...v7.136.16)
+
 ### 7.136.15 (2025-02-28)
 
 Other changes:
