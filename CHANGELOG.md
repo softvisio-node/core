@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.136.15 (2025-02-28)
+
+Other changes:
+
+- chore: add endpoint_mode to compose schema
+- chore: remove nginx x-forwarded-for header
+
+Compare with the previous release: [`v7.136.14...v7.136.15`](https://github.com/softvisio-node/core/compare/v7.136.14...v7.136.15)
+
 ### 7.136.14 (2025-02-27)
 
 Other changes:
