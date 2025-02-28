@@ -35,11 +35,14 @@
               - type: object
                 properties:
                   mode: { const: global }
+                  endpoint_mode: { enum: [vip, dnsrr] }
+                  labels: { $ref: labels }
                 required: [mode]
                 additionalProperties: false
               - type: object
                 properties:
                   mode: { const: replicated }
+                  endpoint_mode: { enum: [vip, dnsrr] }
                   replicas: { type: integer, minimum: 0 }
                   placement:
                     type: object
