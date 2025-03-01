@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.137.0 (2025-03-01)
+
+Features:
+
+- feat: add nginx get-certificates api
+
+Other changes:
+
+- chore: rename upstream repository id
+
+Compare with the previous release: [`v7.136.17...v7.137.0`](https://github.com/softvisio-node/core/compare/v7.136.17...v7.137.0)
+
 ### 7.136.17 (2025-02-28)
 
 Other changes:
