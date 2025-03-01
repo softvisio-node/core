@@ -1,6 +1,16 @@
 title: Nginx
 
 methods:
+  get-certificates:
+    title: Get TLS certificates
+    params:
+      - name: server-names
+        required: true
+        schema:
+          anyOf:
+            - { type: string, format: nginx-server-name }
+            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+
   add-proxies:
     title: Add nginx proxies
     persistentConnectionRequired: true
