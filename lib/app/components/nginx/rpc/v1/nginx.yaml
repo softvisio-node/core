@@ -4,7 +4,7 @@ methods:
   get-certificates:
     title: Get TLS certificates
     params:
-      - name: server-names
+      - name: server_names
         required: true
         schema:
           anyOf:
