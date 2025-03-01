@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.137.1 (2025-03-01)
+
+Other changes:
+
+- chore: fix rpc spec
+
+Compare with the previous release: [`v7.137.0...v7.137.1`](https://github.com/softvisio-node/core/compare/v7.137.0...v7.137.1)
+
 ### 7.137.0 (2025-03-01)
 
 Features:
