@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.137.3 (2025-03-03)
+
+Other changes:
+
+- chore: fix cli help
+- chore: lint
+
+Compare with the previous release: [`v7.137.2...v7.137.3`](https://github.com/softvisio-node/core/compare/v7.137.2...v7.137.3)
+
 ### 7.137.2 (2025-03-03)
 
 Other changes:
