@@ -65,3 +65,25 @@ methods:
   delete-upstream:
     title: Delete nginx proxy upstream
     persistentConnectionRequired: true
+
+  add-server-names:
+    title: Add server names
+    persistentConnectionRequired: true
+    params:
+      - name: server_names
+        required: true
+        schema:
+          anyOf:
+            - { type: string, format: nginx-server-name }
+            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+
+  delete-server-names:
+    title: Delete server names
+    persistentConnectionRequired: true
+    params:
+      - name: server_names
+        required: true
+        schema:
+          anyOf:
+            - { type: string, format: nginx-server-name }
+            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
