@@ -32,7 +32,7 @@ methods:
               anyOf:
                 - type: "null"
                 - { type: string, format: nginx-server-name }
-                - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+                - { type: array, items: { type: string, format: nginx-server-name }, uniqueItems: true }
 
             servers:
               type: array
@@ -75,8 +75,9 @@ methods:
         required: true
         schema:
           anyOf:
+            - { type: "null" }
             - { type: string, format: nginx-server-name }
-            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+            - { type: array, items: { type: string, format: nginx-server-name }, uniqueItems: true }
 
   add-server-names:
     title: Add server names
@@ -86,8 +87,9 @@ methods:
         required: true
         schema:
           anyOf:
+            - { type: "null" }
             - { type: string, format: nginx-server-name }
-            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+            - { type: array, items: { type: string, format: nginx-server-name }, uniqueItems: true }
 
   delete-server-names:
     title: Delete server names
@@ -97,5 +99,6 @@ methods:
         required: true
         schema:
           anyOf:
+            - { type: "null" }
             - { type: string, format: nginx-server-name }
-            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+            - { type: array, items: { type: string, format: nginx-server-name }, uniqueItems: true }
