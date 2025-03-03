@@ -15,12 +15,12 @@ methods:
     title: Add nginx proxy
     persistentConnectionRequired: true
     params:
-      - name: proxy-id
+      - name: proxy_id
         required: true
         schema:
           type: string
           format: kebab-case
-      - name: proxy-options
+      - name: proxy_options
         required: true
         schema:
           type: object
