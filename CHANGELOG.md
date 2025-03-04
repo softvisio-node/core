@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.138.0 (2025-03-04)
+
+Features:
+
+- feat: add ajv temporal formats
+
+Other changes:
+
+- chore: update package metadata
+
+Compare with the previous release: [`v7.137.4...v7.138.0`](https://github.com/softvisio-node/core/compare/v7.137.4...v7.138.0)
+
 ### 7.137.4 (2025-03-04)
 
 Other changes:
