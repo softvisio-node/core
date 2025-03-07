@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.140.0 (2025-03-07)
+
+Features:
+
+- feat: add fs sliceFile methods
+
+Compare with the previous release: [`v7.139.0...v7.140.0`](https://github.com/softvisio-node/core/compare/v7.139.0...v7.140.0)
+
 ### 7.139.0 (2025-03-07)
 
 Features:
