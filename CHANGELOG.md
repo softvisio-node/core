@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.139.0 (2025-03-07)
+
+Features:
+
+- feat: add File slice
+
+Compare with the previous release: [`v7.138.0...v7.139.0`](https://github.com/softvisio-node/core/compare/v7.138.0...v7.139.0)
+
 ### 7.138.0 (2025-03-04)
 
 Features:
