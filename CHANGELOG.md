@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.140.1 (2025-03-08)
+
+Other changes:
+
+- chore: fix shebang
+
+Compare with the previous release: [`v7.140.0...v7.140.1`](https://github.com/softvisio-node/core/compare/v7.140.0...v7.140.1)
+
 ### 7.140.0 (2025-03-07)
 
 Features:
