@@ -10,11 +10,11 @@ const CLI = {
     "description": `
 # Connect to the docker stack:
 
-    docker run --rm -it --entrypoint=/bin/bash --network=<STACK-NETWORK-NAME> ghcr.io/zerocluster/cluster
+    docker run --rm -it --entrypoint=/usr/bin/bash --network=<STACK-NETWORK-NAME> ghcr.io/zerocluster/cluster
 
 # Connect to the docker container:
 
-    docker exec -it <CONTAINER-ID> /bin/bash
+    docker exec -it <CONTAINER-ID> /usr/bin/env bash
 `.trim(),
     "globalOptions": {
         "url": {
