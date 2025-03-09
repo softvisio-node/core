@@ -3,6 +3,7 @@
 import Cli from "#lib/cli";
 import ExternalResourceBuilder from "#lib/external-resource-builder";
 import Certificates from "#lib/external-resources/certificates";
+import DhParams from "#lib/external-resources/dh-params";
 import Ffmpeg from "#lib/external-resources/ffmpeg-win32";
 import Geolite2Asn from "#lib/external-resources/geolite2-asn";
 import Geolite2City from "#lib/external-resources/geolite2-city";
@@ -40,6 +41,7 @@ const res = await ExternalResourceBuilder.build(
     [
 
         //
+        DhParams,
         Certificates,
         Ffmpeg,
         Geolite2Asn,
