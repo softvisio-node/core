@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.141.1 (2025-03-09)
+
+Other changes:
+
+- chore: sort resources
+
+Compare with the previous release: [`v7.141.0...v7.141.1`](https://github.com/softvisio-node/core/compare/v7.141.0...v7.141.1)
+
 ### 7.141.0 (2025-03-09)
 
 Features:
