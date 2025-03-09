@@ -41,8 +41,8 @@ const res = await ExternalResourceBuilder.build(
     [
 
         //
-        DhParams,
         Certificates,
+        DhParams,
         Ffmpeg,
         Geolite2Asn,
         Geolite2City,

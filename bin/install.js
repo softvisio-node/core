@@ -18,8 +18,8 @@ const CLI = {
 
 await Cli.parse( CLI );
 
-externalResources.add( "softvisio-node/core/resources/dh-params" );
 externalResources.add( "softvisio-node/core/resources/certificates" );
+externalResources.add( "softvisio-node/core/resources/dh-params" );
 externalResources.add( "softvisio-node/core/resources/geolite2-country" );
 externalResources.add( "softvisio-node/core/resources/http" );
 externalResources.add( "softvisio-node/core/resources/mime" );
