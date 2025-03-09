@@ -80,10 +80,6 @@ msgstr ""
 "Подписавшиеся пользователи: <b>${n}</b>\n"
 "Отписавшиеся пользователи: <b>${n}</b>\n"
 
-#: ../../lib/app/components/payments/component.js:20:43
-msgid "Can create payments accounts"
-msgstr "Может создавать платежные счета"
-
 #: ../../lib/app/components/telegram/component.js:20:43
 msgid "Can create Telegram bots"
 msgstr "Может создавать ботов Telegram"
@@ -186,7 +182,6 @@ msgid "edit start message"
 msgstr "редактировать стартовое сообщение"
 
 #: ../../lib/app/components/telegram-bot-contact/bot/commands/edit-contact.js:12:19
-#: ../../lib/app/components/telegram-bot-payments/bot/commands/edit-contact.js:12:19
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:85:19
 msgid "edit your contacts"
 msgstr "редактировать свои контакты"
@@ -239,7 +234,6 @@ msgstr "Открыть чаты с клиентами"
 msgid "Open the chat"
 msgstr "Открыть чат"
 
-#: ../../lib/app/components/payments/component.js:32:36
 #: ../../lib/app/components/telegram/bot/sub-component.js:72:24
 msgid "Owner"
 msgstr "Владелец"
@@ -251,18 +245,6 @@ msgstr "Пароль изменен"
 #: ../../lib/app/components/api/config.yaml
 msgid "Password reset link"
 msgstr "Ссылка для сброса пароля"
-
-#: ../../lib/app/components/telegram-bot-payments/bot/payments.js:65:45
-msgid "Pay via Wallet"
-msgstr "Оплата через Кошелек"
-
-#: ../../lib/app/components/payments/component.js:19:36
-msgid "Payments account creator"
-msgstr "Создатель платежного аккаунта"
-
-#: ../../lib/app/components/payments/component.js:33:43
-msgid "Payments account owner"
-msgstr "Владелец платежного счета"
 
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:181:60
 #: ../../lib/app/components/telegram/bot/commands/edit-contact.js:201:60
@@ -667,6 +649,10 @@ msgstr "Ваши настройки"
 #~ "Подписавшиеся пользователи: <b>${n}</b>\n"
 #~ "Неподписавшиеся пользователи: <b>${n}</b>\n"
 
+#: ../../lib/app/components/payments/component.js:20:43
+#~ msgid "Can create payments accounts"
+#~ msgstr "Может создавать платежные счета"
+
 #, fuzzy
 #~ msgid "Can create telegram bots"
 #~ msgstr "Можно создавать ботов для Telegram"
@@ -758,6 +744,18 @@ msgstr "Ваши настройки"
 #, fuzzy
 #~ msgid "Open PRIVATE JOIN"
 #~ msgstr "Открыть ЧАСТНОЕ ПРИСОЕДИНЕНИЕ"
+
+#: ../../lib/app/components/telegram-bot-payments/bot/payments.js:65:45
+#~ msgid "Pay via Wallet"
+#~ msgstr "Оплата через Кошелек"
+
+#: ../../lib/app/components/payments/component.js:19:36
+#~ msgid "Payments account creator"
+#~ msgstr "Создатель платежного аккаунта"
+
+#: ../../lib/app/components/payments/component.js:33:43
+#~ msgid "Payments account owner"
+#~ msgstr "Владелец платежного счета"
 
 #, fuzzy, javascript-format
 #~ msgid "Phone: ${n}"
