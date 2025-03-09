@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.141.0 (2025-03-09)
+
+Features:
+
+- feat: add dh-params resource
+
+Other changes:
+
+- chore: update translations
+
+Compare with the previous release: [`v7.140.2...v7.141.0`](https://github.com/softvisio-node/core/compare/v7.140.2...v7.141.0)
+
 ### 7.140.2 (2025-03-08)
 
 Other changes:
