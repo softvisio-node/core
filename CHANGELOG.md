@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.141.2 (2025-03-14)
+
+Other changes:
+
+- chore: fix mime read only accessor
+- chore: split mime classes to files
+
+Compare with the previous release: [`v7.141.1...v7.141.2`](https://github.com/softvisio-node/core/compare/v7.141.1...v7.141.2)
+
 ### 7.141.1 (2025-03-09)
 
 Other changes:
