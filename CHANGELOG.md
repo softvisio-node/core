@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.141.3 (2025-03-14)
+
+Other changes:
+
+- chore: refactor mime updater
+
+Compare with the previous release: [`v7.141.2...v7.141.3`](https://github.com/softvisio-node/core/compare/v7.141.2...v7.141.3)
+
 ### 7.141.2 (2025-03-14)
 
 Other changes:
