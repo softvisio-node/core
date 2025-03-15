@@ -22,7 +22,7 @@ const CLI = {
             "default": "http://127.0.0.1:81/api",
             "schema": {
                 "type": "string",
-                "format": "uri-whatwg",
+                "format": "url",
             },
         },
         "default-version": {

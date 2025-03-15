@@ -21,7 +21,7 @@
 
     internalNotificationsMaxAge: { type: string, format: interval }
 
-    smtp: { type: string, format: uri-whatwg }
+    smtp: { type: string, format: url }
 
     telegramBot:
       type: object

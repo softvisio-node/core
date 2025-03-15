@@ -2,7 +2,7 @@
   type: object
   properties:
     id: { type: ["null", string] }
-    apiUrl: { type: string, format: uri-whatwg }
+    apiUrl: { type: string, format: url }
 
   additionalProperties: false
   required: [id, apiUrl]

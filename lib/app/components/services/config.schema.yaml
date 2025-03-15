@@ -3,11 +3,11 @@
   propertyNames: { type: string, format: kebab-case }
   additionalProperties:
     anyOf:
-      - { type: string, format: uri-whatwg }
+      - { type: string, format: url }
 
       - type: object
         properties:
-          url: { type: string, format: uri-whatwg }
+          url: { type: string, format: url }
           options:
             type: object
             properties:
