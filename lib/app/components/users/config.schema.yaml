@@ -11,7 +11,7 @@
       required: [email, password]
 
     cacheMaxSize: { type: integer, minimum: 1 }
-    newUserEnabledByDefault: { typs: boolean } # new users are enabled by default
+    newUserEnabledByDefault: { type: boolean } # new users are enabled by default
     passwordsStrength: { enum: [weak, normal, strong] }
 
   additionalProperties: false

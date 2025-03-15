@@ -34,7 +34,7 @@
       required: [maxParallelCallsPerClient, maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
 
     # users
-    signupEnabled: { typs: boolean }
+    signupEnabled: { type: boolean }
 
     # tokens
     apiTokensCacheMaxSize: { type: integer, minimum: 1 }
