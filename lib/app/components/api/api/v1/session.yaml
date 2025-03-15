@@ -18,7 +18,7 @@ methods:
             locales:
               anyOf:
                 - type: "null"
-                - { type: array, item: { type: string, format: locale }, uniqueItem: true }
+                - { type: array, items: { type: string, format: locale }, uniqueItems: true }
             defaultLocale:
               anyOf:
                 - type: "null"
