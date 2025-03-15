@@ -23,7 +23,7 @@
     - type: "null"
     - type: object
       propertyNames: { type: string, format: kebab-case }
-      additionalProperties: { $res: command }
+      additionalProperties: { $ref: command }
 
 - $id: command
   anyOf:
