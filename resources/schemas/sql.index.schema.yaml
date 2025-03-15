@@ -32,7 +32,7 @@ properties:
               anyOf:
                 - type: string
                 - { type: array, items: { type: string }, minIntems: 1, uniqueItems: true }
-            runMissed: { type: boolean, default: true }
+            runMissed: { type: boolean }
 
           additionalProperties: false
           required: [cron, query]
