@@ -31,7 +31,7 @@ properties:
             query:
               anyOf:
                 - type: string
-                - { type: array, items: { type: string }, minIntems: 1, uniqueItems: true }
+                - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
             runMissed: { type: boolean }
 
           additionalProperties: false
