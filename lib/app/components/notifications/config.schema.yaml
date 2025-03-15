@@ -9,15 +9,12 @@
     channels:
       type: object
       propertyNames: { type: string }
-      additionalProperties:
-        type: object
-        properties:
-          enabled: { type: boolean }
-          editable: { type: boolean }
-          subscribed: { type: boolean }
-        additionalProperties: false
-        required: [enabled, editable, subscribed]
-      # XXX
+      properties:
+        internal: { $ref: defs#/$defs/channel }
+        email: { $ref: defs#/$defs/channel }
+        telegram: { $ref: defs#/$defs/channel }
+        push: { $ref: defs#/$defs/channel }
+      additionalProperties: { $ref: defs#/$defs/channel }
       required: [internal, email, telegram, push]
 
     internalNotificationsMaxAge: { type: string, format: interval }
@@ -37,28 +34,10 @@
       anyOf:
         - type: "null"
         - type: object
+          properties:
+            security: { $ref: defs#/$defs/type }
           propertyNames: { type: string, format: kebab-case }
-          additionalProperties:
-            type: object
-            properties:
-              name: { type: object, instanceof: Locale.L10nt }
-              description: { type: object, instanceof: Locale.L10nt }
-              channels:
-                type: object
-                propertyNames: { enum: [internal, email, telegram, push] }
-                additionalProperties:
-                  type: object
-                  properties:
-                    enabled: { type: boolean }
-                    editable: { type: boolean }
-                    subscribed: { type: boolean }
-
-                  additionalProperties: false
-
-            additionalProperties: false
-            required: [name, description]
-
-          # XXX
+          additionalProperties: { $ref: defs#/$defs/type }
           required: [security]
 
     firebase:
@@ -99,3 +78,34 @@
     - telegramBot
     - types
     - firebase
+
+- $id: defs
+  $defs:
+    channel:
+      type: object
+      properties:
+        enabled: { type: boolean }
+        editable: { type: boolean }
+        subscribed: { type: boolean }
+      additionalProperties: false
+      required: [enabled, editable, subscribed]
+
+    type:
+      type: object
+      properties:
+        name: { type: object, instanceof: Locale.L10nt }
+        description: { type: object, instanceof: Locale.L10nt }
+        channels:
+          type: object
+          propertyNames: { enum: [internal, email, telegram, push] }
+          additionalProperties:
+            type: object
+            properties:
+              enabled: { type: boolean }
+              editable: { type: boolean }
+              subscribed: { type: boolean }
+
+            additionalProperties: false
+
+      additionalProperties: false
+      required: [name, description]
