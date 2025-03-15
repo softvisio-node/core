@@ -45,7 +45,7 @@ properties:
     anyOf:
       - type: "null"
       - type: object
-        propertyNames: { type: string, formap: kebab-case-relative-file-path }
+        propertyNames: { type: string, format: kebab-case-relative-file-path }
 
   components:
     anyOf:
