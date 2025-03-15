@@ -26,7 +26,7 @@
         - type: object
           propertyNames: { type: string, format: kebab-case }
           minProperties: 1
-          additionalPropertoes: { type: ["null", string] }
+          additionalProperties: { type: ["null", string] }
 
     methods:
       type: object
