@@ -17,6 +17,7 @@
           subscribed: { type: boolean }
         additionalProperties: false
         required: [enabled, editable, subscribed]
+      # XXX
       required: [internal, email, telegram, push]
 
     internalNotificationsMaxAge: { type: string, format: interval }
@@ -40,8 +41,8 @@
           additionalProperties:
             type: object
             properties:
-              name: { type: object, format: l10nt }
-              description: { type: object, format: l10nt }
+              name: { type: object, instanceof: Locale.L10nt }
+              description: { type: object, instanceof: Locale.L10nt }
               channels:
                 type: object
                 propertyNames: { enum: [internal, email, telegram, push] }
@@ -57,6 +58,7 @@
             additionalProperties: false
             required: [name, description]
 
+          # XXX
           required: [security]
 
     firebase:
@@ -65,7 +67,7 @@
         - type: object
           properties:
             prefix:
-              anOf:
+              anyOf:
                 - type: "null"
                 - { type: string, format: kebab-case }
             serviceAccount:
@@ -84,7 +86,7 @@
                     auth_provider_x509_cert_url: { type: string, format: uri }
                     client_x509_cert_url: { type: string, format: uri }
 
-                  additionalPropertirs: false
+                  additionalProperties: false
                   required: [project_id, private_key, client_email, token_uri]
 
           additionalProperties: false
