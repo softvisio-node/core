@@ -7,17 +7,17 @@
         name:
           anyOf:
             - type: "null"
-            - { type: object, format: l10nt }
+            - { type: object, instanceof: Locale.L10nt }
 
         description:
           anyOf:
             - type: "null"
-            - { type: object, format: l10nt }
+            - { type: object, instanceof: Locale.L10nt }
 
         shortDescription:
           anyOf:
             - type: "null"
-            - { type: object, format: l10nt }
+            - { type: object, instanceof: Locale.L10nt }
 
         locales:
           anyOf:
