@@ -42,6 +42,7 @@
             additionalProperties: false
             required: [type, bucket, serviceAccount]
 
+      # XXX
       required: ["/"]
 
     locations:
@@ -67,6 +68,8 @@
 
         additionalProperties: false
         required: []
+
+      # XXX
       required: ["/"]
 
   additionalProperties: false

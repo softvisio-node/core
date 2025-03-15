@@ -2,7 +2,7 @@
   type: object
   properties:
     listenIpFamily: { enum: [0, 4, 6] }
-    dockerEnabled: { typ: boolean }
+    dockerEnabled: { type: boolean }
     maxBodySize: { type: string, format: digital-size }
 
     cacheEnabled: { type: boolean }
