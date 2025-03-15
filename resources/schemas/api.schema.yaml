@@ -13,8 +13,8 @@
 - $id: module
   type: object
   properties:
-    title: { $ref: "components#/$defs/title-text" }
-    description: { $ref: "components#/$defs/description-text" }
+    title: { $ref: "defs#/$defs/title-text" }
+    description: { $ref: "defs#/$defs/description-text" }
     emits:
       anyOf:
         - type: "null"
@@ -34,8 +34,8 @@
       additionalProperties:
         type: object
         properties:
-          title: { $ref: "components#/$defs/title-text" }
-          description: { $ref: "components#/$defs/description-text" }
+          title: { $ref: "defs#/$defs/title-text" }
+          description: { $ref: "defs#/$defs/description-text" }
           deprecated: { type: boolean }
           permission: { type: ["null", string] }
           authorizationRequired: { type: "boolean" }
@@ -51,7 +51,7 @@
               type: object
               properties:
                 name: { type: string, format: snake-case }
-                description: { $ref: "components#/$defs/description-text" }
+                description: { $ref: "defs#/$defs/description-text" }
                 required: { type: boolean }
                 schema: { type: object }
 
@@ -64,8 +64,7 @@
   additionalProperties: false
   required: [title]
 
-# shared components
-- $id: components
+- $id: defs
   $defs:
     title-text:
       type: string
