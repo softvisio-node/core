@@ -14,7 +14,7 @@
   type: object
   properties:
     title: { $ref: "common#/$defs/title-text" }
-    description: { $ref: "common#/$defs/description-text" }
+    description: { type: ["null", string] }
     emits:
       anyOf:
         - type: "null"
@@ -35,7 +35,7 @@
         type: object
         properties:
           title: { $ref: "common#/$defs/title-text" }
-          description: { $ref: "common#/$defs/description-text" }
+          description: { type: ["null", string] }
           deprecated: { type: boolean }
           permission: { type: ["null", string] }
           authorizationRequired: { type: "boolean" }
@@ -69,7 +69,4 @@
 - $id: common
   $defs:
     title-text:
-      type: string
-
-    description-text:
       type: string
