@@ -13,7 +13,7 @@
 - $id: module
   type: object
   properties:
-    title: { $ref: "common#/$defs/title-text" }
+    title: { type: string }
     description: { type: ["null", string] }
     emits:
       anyOf:
@@ -34,7 +34,7 @@
       additionalProperties:
         type: object
         properties:
-          title: { $ref: "common#/$defs/title-text" }
+          title: { type: string }
           description: { type: ["null", string] }
           deprecated: { type: boolean }
           permission: { type: ["null", string] }
@@ -65,8 +65,3 @@
 
   additionalProperties: false
   required: [title]
-
-- $id: common
-  $defs:
-    title-text:
-      type: string
