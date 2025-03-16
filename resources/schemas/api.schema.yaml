@@ -45,18 +45,20 @@
               - type: "null"
               - { type: integer, minimum: 1 }
           params:
-            type: array
-            minItems: 1
-            items:
-              type: object
-              properties:
-                name: { type: string, format: snake-case }
-                description: { $ref: "common#/$defs/description-text" }
-                required: { type: boolean }
-                schema: { type: object }
+            anyOf:
+              - type: "null"
+              - type: array
+                minItems: 1
+                items:
+                  type: object
+                  properties:
+                    name: { type: string, format: snake-case }
+                    description: { $ref: "common#/$defs/description-text" }
+                    required: { type: boolean }
+                    schema: { type: object }
 
-              additionalProperties: false
-              required: [name, schema]
+                  additionalProperties: false
+                  required: [name, schema]
 
         additionalProperties: false
         required: [title]
