@@ -38,8 +38,8 @@
           description: { type: ["null", string] }
           deprecated: { type: boolean }
           permission: { type: ["null", string] }
-          authorizationRequired: { type: "boolean" }
-          persistentConnectionRequired: { type: "boolean" }
+          authorizationRequired: { type: boolean }
+          persistentConnectionRequired: { type: boolean }
           maxParallelCallsPerClient:
             anyOf:
               - type: "null"
@@ -53,7 +53,7 @@
                   type: object
                   properties:
                     name: { type: string, format: snake-case }
-                    description: { $ref: "common#/$defs/description-text" }
+                    description: { type: string }
                     required: { type: boolean }
                     schema: { type: object }
 
