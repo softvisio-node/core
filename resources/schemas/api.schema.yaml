@@ -24,12 +24,13 @@
       anyOf:
         - type: "null"
         - type: object
-          propertyNames: { type: string, format: kebab-case }
           minProperties: 1
+          propertyNames: { type: string, format: kebab-case }
           additionalProperties: { type: ["null", string] }
 
     methods:
       type: object
+      minProperties: 1
       propertyNames: { type: string, format: kebab-case }
       additionalProperties:
         type: object
