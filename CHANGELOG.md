@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.141.4 (2025-03-16)
+
+Other changes:
+
+- chore: add temporal duration support to interval
+- chore: enabled ajv strict mode
+- chore: refactor fs calculateMode
+- chore: refactor fs file slice
+- chore: rename ajv format uri-whatwg to url
+- chore: update ajv formats
+
+Compare with the previous release: [`v7.141.3...v7.141.4`](https://github.com/softvisio-node/core/compare/v7.141.3...v7.141.4)
+
 ### 7.141.3 (2025-03-14)
 
 Other changes:
