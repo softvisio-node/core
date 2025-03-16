@@ -1,5 +1,15 @@
 # Changelog
 
+### 7.141.5 (2025-03-16)
+
+Other changes:
+
+- chore: improve interval Temporal duration support
+- chore: refactor api method params schema builder
+- chore: update ajv date / time formats
+
+Compare with the previous release: [`v7.141.4...v7.141.5`](https://github.com/softvisio-node/core/compare/v7.141.4...v7.141.5)
+
 ### 7.141.4 (2025-03-16)
 
 Other changes:
