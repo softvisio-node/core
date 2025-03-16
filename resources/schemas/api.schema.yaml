@@ -61,7 +61,7 @@
                   required: [name, schema]
 
         additionalProperties: false
-        required: [title]
+        required: []
 
   additionalProperties: false
-  required: [title]
+  required: []
