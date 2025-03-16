@@ -10,23 +10,23 @@
     buckets:
       type: object
       properties:
-        "/": { $ref: defs#/$defs/bucket }
+        "/": { $ref: common#/$defs/bucket }
       propertyNames: { type: string, format: kebab-case-root-or-absolute-file-path }
-      additionalProperties: { $ref: defs#/$defs/bucket }
+      additionalProperties: { $ref: common#/$defs/bucket }
       required: ["/"]
 
     locations:
       type: object
       properties:
-        "/": { $ref: defs#/$defs/location }
+        "/": { $ref: common#/$defs/location }
       propertyNames: { type: string, format: kebab-case-root-or-absolute-file-path }
-      additionalProperties: { $ref: defs#/$defs/location }
+      additionalProperties: { $ref: common#/$defs/location }
       required: ["/"]
 
   additionalProperties: false
   required: [clearInterval, maxCacheSize, location, listenPublicHttpServer, listenPrivateHttpServer, buckets, locations]
 
-- $id: defs
+- $id: common
   $defs:
     bucket:
       anyOf:

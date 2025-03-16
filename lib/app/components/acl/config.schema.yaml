@@ -11,15 +11,15 @@
     types:
       type: object
       properties:
-        main: { $ref: defs#/$defs/type }
+        main: { $ref: common#/$defs/type }
       propertyNames: { type: string }
-      additionalProperties: { $ref: defs#/$defs/type }
+      additionalProperties: { $ref: common#/$defs/type }
       required: [main] # main acl is required
 
   additionalProperties: false
   required: [cacheMaxSize, types]
 
-- $id: defs
+- $id: common
   $defs:
     type:
       type: object

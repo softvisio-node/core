@@ -10,11 +10,11 @@
       type: object
       propertyNames: { type: string }
       properties:
-        internal: { $ref: defs#/$defs/channel }
-        email: { $ref: defs#/$defs/channel }
-        telegram: { $ref: defs#/$defs/channel }
-        push: { $ref: defs#/$defs/channel }
-      additionalProperties: { $ref: defs#/$defs/channel }
+        internal: { $ref: common#/$defs/channel }
+        email: { $ref: common#/$defs/channel }
+        telegram: { $ref: common#/$defs/channel }
+        push: { $ref: common#/$defs/channel }
+      additionalProperties: { $ref: common#/$defs/channel }
       required: [internal, email, telegram, push]
 
     internalNotificationsMaxAge: { type: string, format: interval }
@@ -35,9 +35,9 @@
         - type: "null"
         - type: object
           properties:
-            security: { $ref: defs#/$defs/type }
+            security: { $ref: common#/$defs/type }
           propertyNames: { type: string, format: kebab-case }
-          additionalProperties: { $ref: defs#/$defs/type }
+          additionalProperties: { $ref: common#/$defs/type }
           required: [security]
 
     firebase:
@@ -79,7 +79,7 @@
     - types
     - firebase
 
-- $id: defs
+- $id: common
   $defs:
     channel:
       type: object
