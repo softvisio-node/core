@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.141.6 (2025-03-19)
+
+Fixes:
+
+- fix: fix mime type delete
+
+Compare with the previous release: [`v7.141.5...v7.141.6`](https://github.com/softvisio-node/core/compare/v7.141.5...v7.141.6)
+
 ### 7.141.5 (2025-03-16)
 
 Other changes:
