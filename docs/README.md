@@ -4,6 +4,6 @@ Link to the resources: <https://github.com/softvisio-node/core/releases/tag/reso
 
 ## Install
 
-```shell
+```sh
 npm install @softvisio/core
 ```

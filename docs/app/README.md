@@ -4,7 +4,7 @@ Backend application framework.
 
 ## Install
 
-```shell
+```sh
 npm install @softvisio/core
 ```
 

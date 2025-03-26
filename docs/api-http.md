@@ -1,6 +1,6 @@
 # GET
 
-```shell
+```sh
 curl \
     -H "Authorization:Bearer <YOUR-API-TOKEN>" \
     "http://devel/api/v1/tasks/create?key1=val1&key2=val2"
@@ -8,7 +8,7 @@ curl \
 
 # POST
 
-```shell
+```sh
 curl \
     -X POST \
     -H "Authorization:Bearer <YOUR-API-TOKEN>" \

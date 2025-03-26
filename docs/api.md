@@ -1,6 +1,6 @@
 # Introduction
 
-```shell
+```sh
 npm install @softvisio/core
 ```
 
