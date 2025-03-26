@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.141.7 (2025-03-26)
+
+Other changes:
+
+- chore: update markdown code tags
+
+Compare with the previous release: [`v7.141.6...v7.141.7`](https://github.com/softvisio-node/core/compare/v7.141.6...v7.141.7)
+
 ### 7.141.6 (2025-03-19)
 
 Fixes:
