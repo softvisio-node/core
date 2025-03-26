@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.142.0 (2025-03-26)
+
+Features:
+
+- feat: add prism-js resource
+
+Other changes:
+
+- chore: refactor markdown module
+- chore: update markdown code tags
+
+Compare with the previous release: [`v7.141.7...v7.142.0`](https://github.com/softvisio-node/core/compare/v7.141.7...v7.142.0)
+
 ### 7.141.7 (2025-03-26)
 
 Other changes:
