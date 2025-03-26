@@ -45,7 +45,7 @@ const res = await dbh.migrate();
 
 Database schema is the set of the files. Example:
 
-```text
+```
 lib
 └─ db
    ├─ index.json
