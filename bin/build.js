@@ -17,6 +17,7 @@ import GoogleChromeHeadlessShellStableWin32X64 from "#lib/external-resources/goo
 import GoogleGeotargets from "#lib/external-resources/google-geotargets";
 import Http from "#lib/external-resources/http";
 import Mime from "#lib/external-resources/mime";
+import PrismJs from "#lib/external-resources/prism-js";
 import PublicSuffixes from "#lib/external-resources/public-suffixes";
 import Subnets from "#lib/external-resources/subnets";
 import Tld from "#lib/external-resources/tld";
@@ -56,6 +57,7 @@ const res = await ExternalResourceBuilder.build(
         GoogleGeotargets,
         Http,
         Mime,
+        PrismJs,
         PublicSuffixes,
         Subnets,
         Tld,
