@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.142.1 (2025-03-29)
+
+Other changes:
+
+- chore: bump dependencies
+
+Compare with the previous release: [`v7.142.0...v7.142.1`](https://github.com/softvisio-node/core/compare/v7.142.0...v7.142.1)
+
 ### 7.142.0 (2025-03-26)
 
 Features:
