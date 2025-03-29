@@ -119,7 +119,7 @@
         "pkijs": "^3.2.4",
         "semver": "^7.3.7",
         "telegram": "^2.26.6",
-        "temporal-polyfill": "^0.2.5",
+        "temporal-polyfill": "^0.3.0",
         "undici": "^7.0.0"
     },
     "engines": {
