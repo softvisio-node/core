@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.142.2 (2025-03-30)
+
+Other changes:
+
+- chore: update Temporal usage
+
+Compare with the previous release: [`v7.142.1...v7.142.2`](https://github.com/softvisio-node/core/compare/v7.142.1...v7.142.2)
+
 ### 7.142.1 (2025-03-29)
 
 Other changes:
