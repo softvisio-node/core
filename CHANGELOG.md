@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.142.9 (2025-04-03)
+
+Other changes:
+
+- chore: fix compose schema
+
+Compare with the previous release: [`v7.142.8...v7.142.9`](https://github.com/softvisio-node/core/compare/v7.142.8...v7.142.9)
+
 ### 7.142.8 (2025-04-03)
 
 Other changes:
