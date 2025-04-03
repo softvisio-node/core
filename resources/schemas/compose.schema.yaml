@@ -141,7 +141,7 @@
                   dockerfile: { type: string }
                   args:
                     type: object
-                    additionalProperties: { type: string }
+                    additionalProperties: { type: [number, string] }
                     minProperties: 1
                 additionalProperties: false
 
