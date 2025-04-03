@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.142.4 (2025-04-03)
+
+Fixes:
+
+- fix: fix cli config
+
+Compare with the previous release: [`v7.142.3...v7.142.4`](https://github.com/softvisio-node/core/compare/v7.142.3...v7.142.4)
+
 ### 7.142.3 (2025-04-03)
 
 Fixes:
