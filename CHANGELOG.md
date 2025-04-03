@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.142.7 (2025-04-03)
+
+Other changes:
+
+- chore: fix typo
+
+Compare with the previous release: [`v7.142.6...v7.142.7`](https://github.com/softvisio-node/core/compare/v7.142.6...v7.142.7)
+
 ### 7.142.6 (2025-04-03)
 
 Other changes:
