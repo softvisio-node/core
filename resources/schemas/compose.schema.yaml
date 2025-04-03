@@ -69,7 +69,7 @@
 
           environment:
             type: object
-            additionalProperties: { type: string }
+            additionalProperties: { type: [number, string] }
 
           command: { type: string }
 
