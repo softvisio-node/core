@@ -7,7 +7,10 @@ properties:
       - { type: string, enum: [postgresql, sqlite] }
       - { type: array, items: { type: string, enum: [postgresql, sqlite] }, minItems: 1, uniqueItems: true }
 
-  patch: { type: integer, minimum: 0 }
+  patch:
+    anyOf:
+      - type: "null"
+      - { type: integer, minimum: 1 }
 
   emits:
     anyOf:
@@ -23,11 +26,12 @@ properties:
     anyOf:
       - type: "null"
       - type: object
+        propertyNames: { type: string, format: kebab-case }
         additionalProperties:
           type: object
           properties:
             cron: { type: string, format: cron }
-            timezone: { type: string }
+            timezone: { type: ["null", string] }
             query:
               anyOf:
                 - type: string
