@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.142.3 (2025-04-03)
+
+Fixes:
+
+- fix: do not coerce ajv types
+
+Other changes:
+
+- chore: fix sql index scheme
+- chore: improve debul log
+
+Compare with the previous release: [`v7.142.2...v7.142.3`](https://github.com/softvisio-node/core/compare/v7.142.2...v7.142.3)
+
 ### 7.142.2 (2025-03-30)
 
 Other changes:
