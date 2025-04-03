@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.142.5 (2025-04-03)
+
+Other changes:
+
+- chore: fix app config validation
+
+Compare with the previous release: [`v7.142.4...v7.142.5`](https://github.com/softvisio-node/core/compare/v7.142.4...v7.142.5)
+
 ### 7.142.4 (2025-04-03)
 
 Fixes:
