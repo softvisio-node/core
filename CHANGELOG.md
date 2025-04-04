@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.142.10 (2025-04-04)
+
+Other changes:
+
+- chore: refactor api method param validation
+
+Compare with the previous release: [`v7.142.9...v7.142.10`](https://github.com/softvisio-node/core/compare/v7.142.9...v7.142.10)
+
 ### 7.142.9 (2025-04-03)
 
 Other changes:
