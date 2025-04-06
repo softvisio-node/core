@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.142.11 (2025-04-06)
+
+Other changes:
+
+- chore: fix postgres schema
+
+Compare with the previous release: [`v7.142.10...v7.142.11`](https://github.com/softvisio-node/core/compare/v7.142.10...v7.142.11)
+
 ### 7.142.10 (2025-04-04)
 
 Other changes:
