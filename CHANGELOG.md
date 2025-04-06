@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.142.12 (2025-04-06)
+
+Other changes:
+
+- chore: fix read keyword schema
+
+Compare with the previous release: [`v7.142.11...v7.142.12`](https://github.com/softvisio-node/core/compare/v7.142.11...v7.142.12)
+
 ### 7.142.11 (2025-04-06)
 
 Other changes:
