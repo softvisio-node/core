@@ -1,5 +1,18 @@
 # Changelog
 
+### 7.143.0 (2025-04-09)
+
+Features:
+
+- feat: add mime filename patterns
+
+Other changes:
+
+- chore: lint code
+- chore: rename dockerfile
+
+Compare with the previous release: [`v7.142.13...v7.143.0`](https://github.com/softvisio-node/core/compare/v7.142.13...v7.143.0)
+
 ### 7.142.13 (2025-04-06)
 
 Other changes:
