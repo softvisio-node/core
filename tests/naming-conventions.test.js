@@ -79,6 +79,18 @@ const tests = {
             [ "ABbbCC", false ],
         ],
     },
+
+    "toKebabCase": {
+        "method": "toKebabCase",
+        "options": { "allowProtected": true },
+        "tests": [
+
+            //
+            [ "aaa", "aaa" ],
+            [ "aa--a", "aa-a" ],
+            [ "__aa--__a", "__aa-a" ],
+        ],
+    },
 };
 
 suite( "naming-conventions", () => {
