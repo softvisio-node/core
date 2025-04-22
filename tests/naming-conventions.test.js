@@ -82,7 +82,7 @@ const tests = {
 
     "toKebabCase": {
         "method": "toKebabCase",
-        "options": { "allowProtected": true },
+        "options": { "allowProtected": true, "strict": false },
         "tests": [
 
             //
