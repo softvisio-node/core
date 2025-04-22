@@ -89,6 +89,30 @@ const tests = {
             [ "aaa", "aaa" ],
             [ "aa--a", "aa-a" ],
             [ "__aa--__a", "__aa-a" ],
+
+            [ "AAA", "a-a-a" ],
+            [ "Aaa", "aaa" ],
+            [ "AaA", "aa-a" ],
+            [ "AaaBbb", "aaa-bbb" ],
+            [ "aaaBbb", "aaa-bbb" ],
+            [ "AAABbb", "a-a-a-bbb" ],
+            [ "AAABbbC", "a-a-a-bbb-c" ],
+        ],
+    },
+
+    "toKebabCaseStrict": {
+        "method": "toKebabCase",
+        "options": { "allowProtected": true, "strict": true },
+        "tests": [
+
+            //
+            [ "AAA", "aaa" ],
+            [ "Aaa", "aaa" ],
+            [ "AaA", "aa-a" ],
+            [ "AaaBbb", "aaa-bbb" ],
+            [ "aaaBbb", "aaa-bbb" ],
+            [ "AAABbb", "aaa-bbb" ],
+            [ "AAABbbC", "aaa-bbb-c" ],
         ],
     },
 };
