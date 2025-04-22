@@ -33,7 +33,7 @@ const tests = {
         ],
     },
 
-    "isCamelCaseStrict": {
+    "isStrictCamelCase": {
         "method": "isCamelCase",
         "options": { "strict": true },
         "tests": [
@@ -62,7 +62,7 @@ const tests = {
         ],
     },
 
-    "isPascalCaseStrict": {
+    "isStrictPascalCase": {
         "method": "isPascalCase",
         "options": { "strict": true },
         "tests": [
