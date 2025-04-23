@@ -1,5 +1,20 @@
 # Changelog
 
+### 7.143.1 (2025-04-23)
+
+Fixes:
+
+- fix: external resource index sort
+
+Other changes:
+
+- chore: fix glob readdir permissions
+- chore: refactor naming conventions
+- chore: update naming conventions
+- chore: update threads methods names parser
+
+Compare with the previous release: [`v7.143.0...v7.143.1`](https://github.com/softvisio-node/core/compare/v7.143.0...v7.143.1)
+
 ### 7.143.0 (2025-04-09)
 
 Features:
