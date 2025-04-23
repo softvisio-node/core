@@ -3,7 +3,7 @@
 import { deepStrictEqual } from "node:assert";
 import { suite, test } from "node:test";
 import Headers from "#lib/http/headers";
-import { camelToKebabCase } from "#lib/naming-conventions";
+import { toKebabCase } from "#lib/naming-conventions";
 
 const TESTS = [
 
@@ -100,7 +100,7 @@ suite( "http", () => {
     suite( "headers", () => {
         for ( let n = 0; n < TESTS.length; n++ ) {
             const _test = TESTS[ n ],
-                id = `${ n }-${ camelToKebabCase( _test.method ) }`;
+                id = `${ n }-${ toKebabCase( _test.method ) }`;
 
             test( `${ id }`, () => {
                 const headers = new Headers( _test.headers );
