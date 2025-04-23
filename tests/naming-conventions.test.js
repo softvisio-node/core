@@ -117,6 +117,23 @@ const tests = {
             [ "fileURLToPath", "file-url-to-path" ],
         ],
     },
+
+    "toPascalCase": {
+        "method": "toPascalCase",
+        "options": { "allowProtected": true, "strict": true },
+        "tests": [
+
+            //
+            [ "AAA", "Aaa" ],
+            [ "Aaa", "Aaa" ],
+            [ "AaA", "AaA" ],
+            [ "AaaBbb", "AaaBbb" ],
+            [ "aaaBbb", "AaaBbb" ],
+            [ "AAABbb", "AaaBbb" ],
+            [ "AAABbbC", "AaaBbbC" ],
+            [ "fileURLToPath", "FileUrlToPath" ],
+        ],
+    },
 };
 
 suite( "naming-conventions", () => {
