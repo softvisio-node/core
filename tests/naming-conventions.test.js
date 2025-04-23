@@ -82,7 +82,7 @@ const tests = {
 
     "toKebabCase": {
         "method": "toKebabCase",
-        "options": { "allowProtected": true, "strict": false },
+        "options": { "allowProtected": true, "isStrictCase": true },
         "tests": [
 
             //
@@ -103,7 +103,7 @@ const tests = {
 
     "toKebabCaseStrict": {
         "method": "toKebabCase",
-        "options": { "allowProtected": true, "strict": true },
+        "options": { "allowProtected": true, "isStrictCase": false },
         "tests": [
 
             //
@@ -120,7 +120,7 @@ const tests = {
 
     "toPascalCase": {
         "method": "toPascalCase",
-        "options": { "allowProtected": true, "strict": true },
+        "options": { "allowProtected": true, "isStrictCase": false },
         "tests": [
 
             //
