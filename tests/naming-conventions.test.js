@@ -97,6 +97,7 @@ const tests = {
             [ "aaaBbb", "aaa-bbb" ],
             [ "AAABbb", "a-a-a-bbb" ],
             [ "AAABbbC", "a-a-a-bbb-c" ],
+            [ "fileURLToPath", "file-u-r-l-to-path" ],
         ],
     },
 
@@ -113,6 +114,7 @@ const tests = {
             [ "aaaBbb", "aaa-bbb" ],
             [ "AAABbb", "aaa-bbb" ],
             [ "AAABbbC", "aaa-bbb-c" ],
+            [ "fileURLToPath", "file-url-to-path" ],
         ],
     },
 };
