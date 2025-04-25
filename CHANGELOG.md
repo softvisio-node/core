@@ -1,5 +1,14 @@
 # Changelog
 
+### 7.143.2 (2025-04-25)
+
+Other changes:
+
+- chore: refactor argon2
+- chore: refactor git api
+
+Compare with the previous release: [`v7.143.1...v7.143.2`](https://github.com/softvisio-node/core/compare/v7.143.1...v7.143.2)
+
 ### 7.143.1 (2025-04-23)
 
 Fixes:
