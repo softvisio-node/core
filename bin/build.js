@@ -36,7 +36,7 @@ const CLI = {
     },
     "arguments": {
         "pattern": {
-            "description": `Filter resources using patterns.`,
+            "description": `Filter resources using glob patterns.`,
             "schema": { "type": "array", "items": { "type": "string" } },
         },
     },
