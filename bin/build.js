@@ -34,6 +34,12 @@ const CLI = {
             },
         },
     },
+    "arguments": {
+        "pattern": {
+            "description": `Filter resources using patterns.`,
+            "schema": { "type": "array", "items": { "type": "string" } },
+        },
+    },
 };
 
 await Cli.parse( CLI );
@@ -63,7 +69,10 @@ const res = await ExternalResourceBuilder.build(
         Tld,
         UserAgent,
     ],
-    { "force": process.cli.options.force }
+    {
+        "force": process.cli.options.force,
+        "patterns": process.cli.arguments.pattern,
+    }
 );
 
 if ( !res.ok ) process.exit( 1 );
