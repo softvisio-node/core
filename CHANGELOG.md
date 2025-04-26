@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.143.3 (2025-04-26)
+
+Other changes:
+
+- chore: add git api cwd options
+
+Compare with the previous release: [`v7.143.2...v7.143.3`](https://github.com/softvisio-node/core/compare/v7.143.2...v7.143.3)
+
 ### 7.143.2 (2025-04-25)
 
 Other changes:
