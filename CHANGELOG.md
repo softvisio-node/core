@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.143.4 (2025-04-26)
+
+Other changes:
+
+- chore: update git api
+
+Compare with the previous release: [`v7.143.3...v7.143.4`](https://github.com/softvisio-node/core/compare/v7.143.3...v7.143.4)
+
 ### 7.143.3 (2025-04-26)
 
 Other changes:
