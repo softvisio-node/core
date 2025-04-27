@@ -1,5 +1,20 @@
 # Changelog
 
+### 7.144.0 (2025-04-27)
+
+Features:
+
+- feat: add resource build patterns filter
+
+Other changes:
+
+- chore: fix git api
+- chore: refactor git api
+- chore: update API\_ prefix
+- chore: update threads api
+
+Compare with the previous release: [`v7.143.4...v7.144.0`](https://github.com/softvisio-node/core/compare/v7.143.4...v7.144.0)
+
 ### 7.143.4 (2025-04-26)
 
 Other changes:
