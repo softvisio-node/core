@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.144.1 (2025-04-27)
+
+Fixes:
+
+- fix: fix telegram api
+
+Compare with the previous release: [`v7.144.0...v7.144.1`](https://github.com/softvisio-node/core/compare/v7.144.0...v7.144.1)
+
 ### 7.144.0 (2025-04-27)
 
 Features:
