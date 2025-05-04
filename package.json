@@ -115,7 +115,7 @@
         "mdast-util-to-markdown": "^2.1.0",
         "micromark-extension-gfm": "^3.0.0",
         "minimatch": "^10.0.1",
-        "mmdb-lib": "^2.0.2",
+        "mmdb-lib": "^3.0.0",
         "pkijs": "^3.2.4",
         "semver": "^7.3.7",
         "telegram": "^2.26.6",
