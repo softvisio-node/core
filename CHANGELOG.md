@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.144.2 (2025-05-04)
+
+Other changes:
+
+- chore: update dependencies
+
+Compare with the previous release: [`v7.144.1...v7.144.2`](https://github.com/softvisio-node/core/compare/v7.144.1...v7.144.2)
+
 ### 7.144.1 (2025-04-27)
 
 Fixes:
