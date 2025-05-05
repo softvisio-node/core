@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.144.3 (2025-05-05)
+
+Other changes:
+
+- chore: refactor json container
+
+Compare with the previous release: [`v7.144.2...v7.144.3`](https://github.com/softvisio-node/core/compare/v7.144.2...v7.144.3)
+
 ### 7.144.2 (2025-05-04)
 
 Other changes:
