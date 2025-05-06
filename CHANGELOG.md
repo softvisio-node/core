@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.145.0 (2025-05-06)
+
+Features:
+
+- feat: add git upstream readme url
+
+Other changes:
+
+- chore: add comments
+
+Compare with the previous release: [`v7.144.3...v7.145.0`](https://github.com/softvisio-node/core/compare/v7.144.3...v7.145.0)
+
 ### 7.144.3 (2025-05-05)
 
 Other changes:
