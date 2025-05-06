@@ -1,5 +1,11 @@
 # Changelog
 
+### 7.145.5 (2025-05-06)
+
+No changes since the previous release.
+
+Compare with the previous release: [`v7.145.4...v7.145.5`](https://github.com/softvisio-node/core/compare/v7.145.4...v7.145.5)
+
 ### 7.145.4 (2025-05-06)
 
 No changes since the previous release.
