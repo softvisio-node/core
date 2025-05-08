@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.146.0 (2025-05-08)
+
+Features:
+
+- feat: markdown to text ansi link
+
+Compare with the previous release: [`v7.145.6...v7.146.0`](https://github.com/softvisio-node/core/compare/v7.145.6...v7.146.0)
+
 ### 7.145.6 (2025-05-06)
 
 No changes since the previous release.
