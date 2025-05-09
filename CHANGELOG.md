@@ -1,5 +1,13 @@
 # Changelog
 
+### 7.146.1 (2025-05-09)
+
+Fixes:
+
+- fix: fix git release destance
+
+Compare with the previous release: [`v7.146.0...v7.146.1`](https://github.com/softvisio-node/core/compare/v7.146.0...v7.146.1)
+
 ### 7.146.0 (2025-05-08)
 
 Features:
