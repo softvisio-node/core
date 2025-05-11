@@ -134,6 +134,20 @@ const tests = {
             [ "fileURLToPath", "FileUrlToPath" ],
         ],
     },
+
+    "toHeaderCase": {
+        "method": "toHeaderCase",
+        "options": null,
+        "tests": [
+
+            //
+            [ "AAA", "Aaa" ],
+            [ "AAA-bbb", "Aaa-Bbb" ],
+            [ "AAA-BBB", "Aaa-Bbb" ],
+            [ "aaa-bbb", "Aaa-Bbb" ],
+            [ "AAABbb", "Aaabbb" ],
+        ],
+    },
 };
 
 suite( "naming-conventions", () => {
