@@ -1,5 +1,17 @@
 # Changelog
 
+### 7.147.0 (2025-05-11)
+
+**Features:**
+
+- \[MINOR] feat: add toHeaderCase() function
+
+- \[MINOR] feat: convert toVersionString() to property
+
+    Semver `.toVersionString()` method converted to property.
+
+Compare with the previous release: [`v7.146.1...v7.147.0`](https://github.com/softvisio-node/core/compare/v7.146.1...v7.147.0)
+
 ### 7.146.1 (2025-05-09)
 
 Fixes:
