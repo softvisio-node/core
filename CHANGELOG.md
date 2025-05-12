@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.147.1 (2025-05-12)
+
+**Fixes:**
+
+- \[PATCH] fix: coerse type in cli params validation (👬 zdm)
+
+Compare with the previous release: [`v7.147.0...v7.147.1`](https://github.com/softvisio-node/core/compare/v7.147.0...v7.147.1)
+
 ### 7.147.0 (2025-05-11)
 
 **Features:**
