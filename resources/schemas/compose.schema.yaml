@@ -290,21 +290,18 @@
           properties:
             cpus: { type: number }
             memory: { type: string, format: digital-size }
-            devices:
+            generic_resources:
               type: array
               items:
                 type: object
                 properties:
-                  capabilities: { type: array, items: { type: string } }
-                  driver: { type: string }
-                  # XXX couut || device_ids are exclusive
-                  count:
-                    anyOf:
-                      - const: all
-                      - type: integer
-                  device_ids: { type: array, items: { type: string } }
-                  options: { type: object }
-                additionalProperties: false
+                  discrete_resource_spec:
+                    type: object
+                    properties:
+                      kind: { type: string }
+                      value: { type: integer }
+                    additionalProperties: false
+                    required: [kind, value]
           additionalProperties: false
       additionalProperties: false
       minProperties: 1
