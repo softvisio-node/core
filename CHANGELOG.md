@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.147.2 (2025-05-13)
+
+**Other changes:**
+
+- \[PATCH] chore: update docker compose schema (👬 zdm)
+
+Compare with the previous release: [`v7.147.1...v7.147.2`](https://github.com/softvisio-node/core/compare/v7.147.1...v7.147.2)
+
 ### v7.147.1 (2025-05-12)
 
 **Fixes:**
