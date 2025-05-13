@@ -297,7 +297,7 @@
                 properties:
                   capabilities: { type: array, items: { type: string } }
                   driver: { type: string }
-                  # XXX couut || device_ids
+                  # XXX couut || device_ids are exclusive
                   count:
                     anyOf:
                       - const: all
