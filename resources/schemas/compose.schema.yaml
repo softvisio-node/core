@@ -30,12 +30,14 @@
           init: { type: boolean }
           stop_grace_period: { type: string }
 
+          # DOCS: https://docs.docker.com/reference/compose-file/deploy/
           deploy:
             anyOf:
               - type: object
                 properties:
                   mode: { const: global }
                   endpoint_mode: { enum: [vip, dnsrr] }
+                  resources: { $ref: resources }
                   labels: { $ref: labels }
                 required: [mode]
                 additionalProperties: false
@@ -51,6 +53,7 @@
                       constraints: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
                     required: []
                     additionalProperties: false
+                  resources: { $ref: resources }
                   labels: { $ref: labels }
                 required: [replicas]
                 additionalProperties: false
@@ -269,3 +272,39 @@
       additionalProperties: { type: string }
     - type: array
       items: { type: string }
+
+- $id: resources
+  anyOf:
+    - type: "null"
+    - type: object
+      properties:
+        limits:
+          type: object
+          properties:
+            cpus: { type: number }
+            memory: { type: string, format: digital-size }
+            pids: { type: integer }
+          additionalProperties: false
+        reservations:
+          type: object
+          properties:
+            cpus: { type: number }
+            memory: { type: string, format: digital-size }
+            devices:
+              type: array
+              items:
+                type: object
+                properties:
+                  capabilities: { type: array, items: { type: string } }
+                  driver: { type: string }
+                  # XXX couut || device_ids
+                  count:
+                    anyOf:
+                      - const: all
+                      - type: integer
+                  device_ids: { type: array, items: { type: string } }
+                  options: { type: object }
+                additionalProperties: false
+          additionalProperties: false
+      additionalProperties: false
+      minProperties: 1
