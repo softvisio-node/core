@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.147.3 (2025-05-15)
+
+**Fixes:**
+
+- \[PATCH] fix: fix vivaldi location (👬 zdm)
+
+Compare with the previous release: [`v7.147.2...v7.147.3`](https://github.com/softvisio-node/core/compare/v7.147.2...v7.147.3)
+
 ### v7.147.2 (2025-05-13)
 
 **Other changes:**
