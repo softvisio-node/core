@@ -1,5 +1,25 @@
 # Changelog
 
+### v7.148.0 (2025-05-16)
+
+**Features:**
+
+- \[MINOR] feat: add numeric .ne() method (👬 zdm)
+
+- \[MINOR] feat: add semver .ne() method (👬 zdm)
+
+- \[MINOR] feat: add utils repeatAction() function (👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: fix git semver match (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: refactor git api (👬 zdm)
+
+Compare with the previous release: [`v7.147.3...v7.148.0`](https://github.com/softvisio-node/core/compare/v7.147.3...v7.148.0)
+
 ### v7.147.3 (2025-05-15)
 
 **Fixes:**
