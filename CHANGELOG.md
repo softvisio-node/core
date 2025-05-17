@@ -1,5 +1,25 @@
 # Changelog
 
+### v7.149.0 (2025-05-17)
+
+**Features:**
+
+- \[MINOR] feat: add ai api (👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: fix git api (👬 zdm)
+
+- \[PATCH] fix: fix git push status (👬 zdm)
+
+- \[PATCH] fix: fix sql schema patch value (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: truncate changelog (👬 zdm)
+
+Compare with the previous release: [`v7.148.0...v7.149.0`](https://github.com/softvisio-node/core/compare/v7.148.0...v7.149.0)
+
 ### v7.148.0 (2025-05-16)
 
 **Features:**
