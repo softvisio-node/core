@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.150.2 (2025-05-20)
+
+**Fixes:**
+
+- \[PATCH] fix: remove app env TmpFile, TmpDir (👬 zdm)
+
+Compare with the previous release: [`v7.150.1...v7.150.2`](https://github.com/softvisio-node/core/compare/v7.150.1...v7.150.2)
+
 ### v7.150.1 (2025-05-20)
 
 **Fixes:**
