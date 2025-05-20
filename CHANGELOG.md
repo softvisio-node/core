@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.150.0 (2025-05-20)
+
+**Features:**
+
+- \[MINOR] feat: add api upload options (👬 zdm)
+
+Compare with the previous release: [`v7.149.0...v7.150.0`](https://github.com/softvisio-node/core/compare/v7.149.0...v7.150.0)
+
 ### v7.149.0 (2025-05-17)
 
 **Features:**
