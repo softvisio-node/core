@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.151.1 (2025-05-21)
+
+**Fixes:**
+
+- \[PATCH] fix: fix ollama api (👬 zdm)
+
+Compare with the previous release: [`v7.151.0...v7.151.1`](https://github.com/softvisio-node/core/compare/v7.151.0...v7.151.1)
+
 ### v7.151.0 (2025-05-21)
 
 **Features:**
