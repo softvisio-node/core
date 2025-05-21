@@ -120,14 +120,13 @@ Emitted on event from the server received.
 
 Publish event to the remote server.
 
-### api.upload( method, file, ...args )
+### api.upload( method, ...args )
 
 - `method` {string} API method name.
-- `file` {File|Object|string} File to upload. If {Object} is passed it will be used as `options` for {File} constructor. {string} - file path.
-- `...args` {any} Additional arguments, that will be sent to the server together with the uploading file.
+- `...args` {any} Arguments, that will be sent to the server together with the uploading file.
 - Returns: {ApiClientUpload}
 
-Creates file upload object instance.
+Creates `Upload` object instance.
 
 ### api.getConnection()
 
