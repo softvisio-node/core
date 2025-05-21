@@ -1,5 +1,25 @@
 # Changelog
 
+### v7.152.0 (2025-05-21)
+
+**Features:**
+
+- \[MINOR] feat: refactor api upload (👬 zdm)
+
+- \[MINOR] feat: remove File toString, toJSON apis (👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: fix null values in whisper api (👬 zdm)
+
+- \[PATCH] fix: ignore undefined body in form data stream (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: update ai api (👬 zdm)
+
+Compare with the previous release: [`v7.151.1...v7.152.0`](https://github.com/softvisio-node/core/compare/v7.151.1...v7.152.0)
+
 ### v7.151.1 (2025-05-21)
 
 **Fixes:**
