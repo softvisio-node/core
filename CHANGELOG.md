@@ -1,5 +1,19 @@
 # Changelog
 
+### v7.152.1 (2025-05-22)
+
+**Fixes:**
+
+- \[PATCH] fix: fix json container (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: update telegram files upload (👬 zdm)
+
+- \[PATCH] chore: update translations (👬 zdm)
+
+Compare with the previous release: [`v7.152.0...v7.152.1`](https://github.com/softvisio-node/core/compare/v7.152.0...v7.152.1)
+
 ### v7.152.0 (2025-05-21)
 
 **Features:**
