@@ -1,5 +1,25 @@
 # Changelog
 
+### v7.153.0 (2025-05-23)
+
+**Features:**
+
+- \[MINOR] feat: add file stream (👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: remove TmpDir name option (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: fix telegram bot getFile options (👬 zdm)
+
+- \[PATCH] chore: refactor File (👬 zdm)
+
+- \[PATCH] chore: refactor TmpFile (👬 zdm)
+
+Compare with the previous release: [`v7.152.1...v7.153.0`](https://github.com/softvisio-node/core/compare/v7.152.1...v7.153.0)
+
 ### v7.152.1 (2025-05-22)
 
 **Fixes:**
