@@ -21,9 +21,7 @@ suite( "semantic-version", () => {
 
         for ( let n = 0; n < tests.length; n++ ) {
             test( n + "", () => {
-                const version = SemanticVersion.new( tests[ n ][ 0 ], {
-                    "throwErrors": false,
-                } );
+                const version = SemanticVersion.new( tests[ n ][ 0 ] );
 
                 strictEqual( version?.toString(), tests[ n ][ 1 ] );
             } );
