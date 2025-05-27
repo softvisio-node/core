@@ -53,7 +53,7 @@ suite( "semantic-version", () => {
 
         for ( let n = 0; n < tests.length; n++ ) {
             test( n + "", () => {
-                const version = new SemanticVersion( tests[ n ][ 0 ] );
+                const version = SemanticVersion.new( tests[ n ][ 0 ] );
 
                 strictEqual( version[ tests[ n ][ 1 ] ], tests[ n ][ 2 ] );
             } );
@@ -160,7 +160,7 @@ suite( "semantic-version", () => {
 
         for ( let n = 0; n < tests.length; n++ ) {
             test( n + "", () => {
-                const version = new SemanticVersion( tests[ n ][ 0 ] );
+                const version = SemanticVersion.new( tests[ n ][ 0 ] );
 
                 try {
                     const incremented = version.increment( ...tests[ n ][ 1 ] );
