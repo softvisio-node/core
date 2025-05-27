@@ -10,7 +10,7 @@ suite( "semantic-version", () => {
 
             //
             [ "0.0.0", "0.0.0" ],
-            [ null, "0.0.0" ],
+            [ null, undefined ],
             [ "1", "1.0.0" ],
             [ "1.2", "1.2.0" ],
             [ "1.2.3", "1.2.3" ],
@@ -21,9 +21,12 @@ suite( "semantic-version", () => {
 
         for ( let n = 0; n < tests.length; n++ ) {
             test( n + "", () => {
-                const version = SemanticVersion.new( tests[ n ][ 0 ] );
+                try {
+                    var version = SemanticVersion.new( tests[ n ][ 0 ] );
+                }
+                catch {}
 
-                strictEqual( version?.toString(), tests[ n ][ 1 ] );
+                strictEqual( version?.version, tests[ n ][ 1 ] );
             } );
         }
     } );
@@ -32,12 +35,10 @@ suite( "semantic-version", () => {
         const tests = [
 
             //
-            [ "0.0.0", "isNull", true ],
             [ "0.0.0", "isPatch", true ],
             [ "0.0.0", "isMinor", false ],
             [ "0.0.0", "isMajor", false ],
 
-            [ "1.2.3", "isNull", false ],
             [ "1.2.3", "isPatch", true ],
             [ "1.2.3", "isMinor", false ],
             [ "1.2.3", "isMajor", false ],
