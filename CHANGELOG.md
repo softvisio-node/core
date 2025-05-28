@@ -1,3 +1,11 @@
+# Changelog
+
+### v7.155.0 (2025-05-28)
+
+**Features:**
+
+- \[MINOR] feat: add git commit isBranchHead property (👬 zdm)
+
 ### v7.154.0 (2025-05-28)
 
 **Features:**
