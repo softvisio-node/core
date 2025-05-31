@@ -1,5 +1,23 @@
 # Changelog
 
+### v7.157.0 (2025-05-31)
+
+**Features:**
+
+- \[MINOR] feat: add git getUpstream method (👬 zdm)
+
+- \[MINOR] feat: add repository slug option to the upstream linkify message (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: add devel domains to the certificates resource (👬 zdm)
+
+- \[PATCH] chore: refactor git upstream (👬 zdm)
+
+- \[PATCH] chore: rename linkifyMessage to linkifyText (👬 zdm)
+
+Compare with the previous release: [`v7.156.0...v7.157.0`](https://github.com/softvisio-node/core/compare/v7.156.0...v7.157.0)
+
 ### v7.156.0 (2025-05-30)
 
 **Features:**
