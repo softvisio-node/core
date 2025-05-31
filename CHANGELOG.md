@@ -1,5 +1,25 @@
 # Changelog
 
+### v7.158.0 (2025-05-31)
+
+**Features:**
+
+- \[MINOR] feat: add threads terminateThread method (👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: fix docker builder (👬 zdm)
+
+- \[PATCH] fix: fix whisper api (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: refactor git api (👬 zdm)
+
+- \[PATCH] chore: refactor git id (👬 zdm)
+
+Compare with the previous release: [`v7.157.1...v7.158.0`](https://github.com/softvisio-node/core/compare/v7.157.1...v7.158.0)
+
 ### v7.157.1 (2025-05-31)
 
 **Fixes:**
