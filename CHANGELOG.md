@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.157.1 (2025-05-31)
+
+**Fixes:**
+
+- \[PATCH] fix: ignore merge commits in git changes (👬 zdm)
+
+Compare with the previous release: [`v7.157.0...v7.157.1`](https://github.com/softvisio-node/core/compare/v7.157.0...v7.157.1)
+
 ### v7.157.0 (2025-05-31)
 
 **Features:**
