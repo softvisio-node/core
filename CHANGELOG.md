@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.158.2 (2025-06-01)
+
+**Fixes:**
+
+- \[PATCH] fix: fix docker builder clone conditions (👬 zdm)
+
+Compare with the previous release: [`v7.158.1...v7.158.2`](https://github.com/softvisio-node/core/compare/v7.158.1...v7.158.2)
+
 ### v7.158.1 (2025-06-01)
 
 **Other changes:**
