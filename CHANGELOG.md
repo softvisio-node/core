@@ -1,5 +1,15 @@
 # Changelog
 
+### v7.158.3 (2025-06-01)
+
+**Other changes:**
+
+- \[PATCH] chore: refactor git api (👬 zdm)
+
+- \[PATCH] chore: update docker builder options (👬 zdm)
+
+Compare with the previous release: [`v7.158.2...v7.158.3`](https://github.com/softvisio-node/core/compare/v7.158.2...v7.158.3)
+
 ### v7.158.2 (2025-06-01)
 
 **Fixes:**
