@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.158.1 (2025-06-01)
+
+**Other changes:**
+
+- \[PATCH] chore: minor code refactoring (👬 zdm)
+
+Compare with the previous release: [`v7.158.0...v7.158.1`](https://github.com/softvisio-node/core/compare/v7.158.0...v7.158.1)
+
 ### v7.158.0 (2025-05-31)
 
 **Features:**
