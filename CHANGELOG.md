@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.158.4 (2025-06-01)
+
+**Other changes:**
+
+- \[PATCH] chore: clone repo after confirmation in docker builder (👬 zdm)
+
+Compare with the previous release: [`v7.158.3...v7.158.4`](https://github.com/softvisio-node/core/compare/v7.158.3...v7.158.4)
+
 ### v7.158.3 (2025-06-01)
 
 **Other changes:**
