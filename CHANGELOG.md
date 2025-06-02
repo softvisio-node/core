@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.159.1 (2025-06-02)
+
+**Fixes:**
+
+- \[PATCH] fix: fix docker builder clone ordeer (👬 zdm)
+
+Compare with the previous release: [v7.159.0](https://github.com/softvisio-node/core/compare/v7.159.0...v7.159.1)
+
 ### v7.159.0 (2025-06-02)
 
 **Features:**
