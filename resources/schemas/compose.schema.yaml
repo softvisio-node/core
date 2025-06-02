@@ -108,7 +108,9 @@
                 target: { type: integer, format: ip-port }
                 protocol: { enum: [tcp, udp] }
                 mode: { enum: [ingress, host] }
-                host_ip: { type: string, format: host } # XXX ip-address
+
+                # NOTE: not allowed in stack
+                # host_ip: { type: string, format: host } # NOTE: try format ip-address instead
               required: [published, target]
               additionalProperties: false
             minItems: 1
