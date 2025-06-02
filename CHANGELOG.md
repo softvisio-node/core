@@ -1,5 +1,17 @@
 # Changelog
 
+### v7.159.0 (2025-06-02)
+
+**Features:**
+
+- \[MINOR] feat: add nginx support to private http server (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: update compose schema (👬 zdm)
+
+Compare with the previous release: [v7.158.7](https://github.com/softvisio-node/core/compare/v7.158.7...v7.159.0)
+
 ### v7.158.7 (2025-06-02)
 
 **Other changes:**
