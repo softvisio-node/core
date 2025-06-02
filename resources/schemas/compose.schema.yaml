@@ -103,10 +103,12 @@
             items:
               type: object
               properties:
+                name: { type: string }
                 published: { type: integer, format: ip-port }
                 target: { type: integer, format: ip-port }
                 protocol: { enum: [tcp, udp] }
                 mode: { enum: [ingress, host] }
+                host_ip: { type: string, format: host } # XXX ip-address
               required: [published, target]
               additionalProperties: false
             minItems: 1
