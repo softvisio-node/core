@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.158.7 (2025-06-02)
+
+**Other changes:**
+
+- \[PATCH] chore: update compose schema (👬 zdm)
+
+Compare with the previous release: [v7.158.6](https://github.com/softvisio-node/core/compare/v7.158.6...v7.158.7)
+
 ### v7.158.6 (2025-06-01)
 
 **Other changes:**
