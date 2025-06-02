@@ -21,6 +21,12 @@
     nginx:
       type: object
       properties:
+        apiUrl: { type: string, format: url }
+        proxyId:
+          anyOf:
+            - type: "null"
+            - { type: string, format: kebab-case }
+
         serverNames:
           anyOf:
             - type: "null"
@@ -38,7 +44,7 @@
           required: [maxBodySize, cacheEnabled, cacheBypass]
 
       additionalProperties: false
-      required: [serverNames, server]
+      required: [apiUrl, proxyId, serverNames, server]
 
   additionalProperties: false
   required: [address, port, exclusive, setRealIpFrom, realIpHeader, nginx]

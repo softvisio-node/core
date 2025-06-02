@@ -11,7 +11,11 @@ config:
   realIpHeader: x-real-ip
 
   nginx:
+    apiUrl: ws://nginx:81/api
+    proxyId: ~
+
     serverNames: ~
+
     server:
       maxBodySize: 10 MiB
       cacheEnabled: true
