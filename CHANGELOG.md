@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.160.1 (2025-06-03)
+
+**Other changes:**
+
+- \[PATCH] chore: refactor app cluster component (👬 zdm)
+
+Compare with the previous release: [v7.160.0](https://github.com/softvisio-node/core/compare/v7.160.0...v7.160.1)
+
 ### v7.160.0 (2025-06-03)
 
 **Features:**
