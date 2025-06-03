@@ -1,5 +1,15 @@
 # Changelog
 
+### v7.160.3 (2025-06-03)
+
+**Other changes:**
+
+- \[PATCH] chore: update components deps (👬 zdm)
+
+- \[PATCH] chore: update nginx config builder (👬 zdm)
+
+Compare with the previous release: [v7.160.2](https://github.com/softvisio-node/core/compare/v7.160.2...v7.160.3)
+
 ### v7.160.2 (2025-06-03)
 
 **Fixes:**
