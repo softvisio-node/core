@@ -29,7 +29,7 @@
         port:
           anyOf:
             - type: "null"
-            - type: { type: string, format: ip-port }
+            - { type: string, format: ip-port }
 
         serverNames:
           anyOf:
