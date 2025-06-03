@@ -1,0 +1,7 @@
+- $id: config
+  type: object
+  properties:
+    name: { type: string, format: kebab-case }
+
+  additionalProperties: false
+  required: [name]

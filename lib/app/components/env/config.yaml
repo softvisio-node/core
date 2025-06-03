@@ -1,0 +1,8 @@
+global: true
+
+dependencies: ~
+
+optionalDependencies: ~
+
+config:
+  name: ~
