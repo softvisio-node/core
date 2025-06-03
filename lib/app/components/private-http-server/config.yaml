@@ -11,9 +11,9 @@ config:
   realIpHeader: x-real-ip
 
   nginx:
+    enabled: false
     apiUrl: ws://nginx:81/api
-    proxyId: ~
-    port: ~
+    port: 81
 
     serverNames: ~
 
