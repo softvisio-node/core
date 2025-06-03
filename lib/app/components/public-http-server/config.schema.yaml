@@ -2,7 +2,7 @@
   type: object
   properties:
     address: { type: string, format: ip-address }
-    port: { type: integer, format: ip-port }
+    port: { type: integer, format: random-ip-port }
     exclusive: { type: boolean }
 
     setRealIpFrom:
@@ -26,6 +26,10 @@
           anyOf:
             - type: "null"
             - { type: string, format: kebab-case }
+        port:
+          anyOf:
+            - type: "null"
+            - type: { string, format: ip-port }
 
         serverNames:
           anyOf:
