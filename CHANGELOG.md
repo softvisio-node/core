@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.160.4 (2025-06-03)
+
+**Fixes:**
+
+- \[PATCH] fix: fix cyclic dependency (👬 zdm)
+
+Compare with the previous release: [v7.160.3](https://github.com/softvisio-node/core/compare/v7.160.3...v7.160.4)
+
 ### v7.160.3 (2025-06-03)
 
 **Other changes:**
