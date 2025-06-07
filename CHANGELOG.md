@@ -1,5 +1,29 @@
 # Changelog
 
+### v7.161.0 (2025-06-07)
+
+**Features:**
+
+- \[MINOR] feat: add ajv timestamp format (👬 zdm)
+
+- \[MINOR] feat: add nginx-upstream component (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: refactor docker builder (👬 zdm)
+
+- \[PATCH] chore: refactor git branch status (👬 zdm)
+
+- \[PATCH] chore: refactor git working tree status (👬 zdm)
+
+- \[PATCH] chore: update api schema (👬 zdm)
+
+- \[PATCH] chore: update cli config (👬 zdm)
+
+- \[PATCH] chore: update status when commit not found (👬 zdm)
+
+Compare with the previous release: [v7.160.4](https://github.com/softvisio-node/core/compare/v7.160.4...v7.161.0)
+
 ### v7.160.4 (2025-06-03)
 
 **Fixes:**
