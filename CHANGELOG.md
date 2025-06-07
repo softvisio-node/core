@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.162.0 (2025-06-07)
+
+**Features:**
+
+- \[MINOR] feat: add nginx proxy upstreams set method (👬 zdm)
+
+Compare with the previous release: [v7.161.1](https://github.com/softvisio-node/core/compare/v7.161.1...v7.162.0)
+
 ### v7.161.1 (2025-06-07)
 
 **Other changes:**
