@@ -1,0 +1,6 @@
+- $id: config
+  type: object
+  properties:
+    apiUrl: { type: string, format: url }
+  additionalProperties: false
+  required: [apiUrl]
