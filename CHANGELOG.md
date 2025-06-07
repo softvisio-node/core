@@ -1,5 +1,15 @@
 # Changelog
 
+### v7.161.1 (2025-06-07)
+
+**Other changes:**
+
+- \[PATCH] chore: fix git id (👬 zdm)
+
+- \[PATCH] chore: update nginx-upstream component (👬 zdm)
+
+Compare with the previous release: [v7.161.0](https://github.com/softvisio-node/core/compare/v7.161.0...v7.161.1)
+
 ### v7.161.0 (2025-06-07)
 
 **Features:**
