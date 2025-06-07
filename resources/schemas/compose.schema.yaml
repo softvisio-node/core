@@ -1,4 +1,4 @@
-# NOTE: https://docs.docker.com/compose/compose-file/
+# DOCS: https://docs.docker.com/compose/compose-file/
 
 - $id: compose
   type: object
@@ -139,18 +139,7 @@
                   required: [type, source, target]
                   additionalProperties: false
 
-          build:
-            anyOf:
-              - type: string
-              - type: object
-                properties:
-                  context: { type: string }
-                  dockerfile: { type: string }
-                  args:
-                    type: object
-                    additionalProperties: { type: [number, string] }
-                    minProperties: 1
-                additionalProperties: false
+          build: { $ref: build }
 
         required: [image]
         additionalProperties: false
@@ -309,3 +298,17 @@
           additionalProperties: false
       additionalProperties: false
       minProperties: 1
+
+- $id: build
+  # DOCS: https://docs.docker.com/reference/compose-file/build/
+  anyOf:
+    - type: string
+    - type: object
+      properties:
+        context: { type: string }
+        dockerfile: { type: string }
+        args:
+          type: object
+          additionalProperties: { type: [number, string] }
+          minProperties: 1
+      additionalProperties: false
