@@ -1,6 +1,7 @@
 - $id: config
   type: object
   properties:
+    enabled: { type: boolean }
     apiUrl: { type: string, format: url }
   additionalProperties: false
-  required: [apiUrl]
+  required: [enabled, apiUrl]

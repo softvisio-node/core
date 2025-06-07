@@ -3,4 +3,5 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
+  enabled: false
   apiUrl: ws://nginx:81/api
