@@ -1,5 +1,17 @@
 # Changelog
 
+### v7.163.0 (2025-06-07)
+
+**Features:**
+
+- \[MINOR] feat: add websocket connection remote address (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: add support for IpAddress to the nginx proxy upstreams (👬 zdm)
+
+Compare with the previous release: [v7.162.0](https://github.com/softvisio-node/core/compare/v7.162.0...v7.163.0)
+
 ### v7.162.0 (2025-06-07)
 
 **Features:**
