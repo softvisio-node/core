@@ -13,7 +13,7 @@ methods:
 
   add-proxy:
     title: Add nginx proxy
-    persistentConnectionRequired: true
+    requirePersistentConnection: true
     params:
       - name: proxy_id
         required: true
@@ -65,11 +65,11 @@ methods:
 
   delete-upstream:
     title: Delete nginx proxy upstream
-    persistentConnectionRequired: true
+    requirePersistentConnection: true
 
   set-server-names:
     title: Set server names
-    persistentConnectionRequired: true
+    requirePersistentConnection: true
     params:
       - name: server_names
         required: true
@@ -81,7 +81,7 @@ methods:
 
   add-server-names:
     title: Add server names
-    persistentConnectionRequired: true
+    requirePersistentConnection: true
     params:
       - name: server_names
         required: true
@@ -93,7 +93,7 @@ methods:
 
   delete-server-names:
     title: Delete server names
-    persistentConnectionRequired: true
+    requirePersistentConnection: true
     params:
       - name: server_names
         required: true

@@ -29,7 +29,7 @@ methods:
   delete:
     title: Remove token
     permission: users
-    authorizationRequired: true
+    requireAuthorization: true
     params:
       - name: token_id
         required: true

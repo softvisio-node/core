@@ -45,7 +45,7 @@ methods:
   delete:
     title: Delete user
     permission: administration:delete
-    authorizationRequired: true
+    requireAuthorization: true
     params:
       - name: user_id
         required: true
@@ -69,7 +69,7 @@ methods:
   set-password:
     title: Set user password
     permission: administration:update
-    authorizationRequired: true
+    requireAuthorization: true
     params:
       - name: user_id
         description: User id or name.

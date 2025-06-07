@@ -8,7 +8,7 @@ methods:
   set-password:
     title: Set password
     permission: users
-    authorizationRequired: true
+    requireAuthorization: true
     params:
       - name: password
         description: New password.
@@ -60,7 +60,7 @@ methods:
   delete:
     title: Delete account
     permission: users
-    authorizationRequired: true
+    requireAuthorization: true
 
   get-sessions:
     title: Get sessions list

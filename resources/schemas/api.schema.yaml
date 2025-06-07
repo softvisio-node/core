@@ -37,8 +37,8 @@
           description: { type: ["null", string] }
           deprecated: { type: boolean }
           permission: { type: ["null", string] }
-          authorizationRequired: { type: boolean }
-          persistentConnectionRequired: { type: boolean }
+          requireAuthorization: { type: boolean }
+          requirePersistentConnection: { type: boolean }
           maxParallelCallsPerClient:
             anyOf:
               - type: "null"
