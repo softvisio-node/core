@@ -15,7 +15,12 @@ methods:
     title: Update nginx proxies
     requirePersistentConnection: true
     params:
-      - name: app_id
+      - name: app_name
+        required: true
+        schema:
+          type: string
+          format: kebab-case
+      - name: service_name
         required: true
         schema:
           type: string
