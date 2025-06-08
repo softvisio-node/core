@@ -20,7 +20,7 @@ methods:
         schema:
           type: string
           format: kebab-case
-      - name: service_name
+      - name: app_service_name
         required: true
         schema:
           type: string
