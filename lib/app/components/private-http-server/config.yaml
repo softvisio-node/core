@@ -12,7 +12,7 @@ config:
   realIpHeader: x-real-ip
 
   nginx:
-    enabled: false
+    enabled: true
     apiUrl: ws://nginx:81/api
     port: 81
 
