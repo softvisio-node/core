@@ -1,5 +1,31 @@
 # Changelog
 
+### v7.164.0 (2025-06-09)
+
+**Features:**
+
+- \[MINOR] feat: add activity controller start / stop abort signals (👬 zdm)
+
+- \[MINOR] feat: add build version (👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: fix docker image labels (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: log docker build version (👬 zdm)
+
+- \[PATCH] chore: refactor nginx api client (👬 zdm)
+
+- \[PATCH] chore: set default server names for http servers (👬 zdm)
+
+- \[PATCH] chore: set http servers nginx enabled by default (👬 zdm)
+
+- \[PATCH] chore: use app service name in nginx upstream id (👬 zdm)
+
+Compare with the previous release: [v7.163.0](https://github.com/softvisio-node/core/compare/v7.163.0...v7.164.0)
+
 ### v7.163.0 (2025-06-07)
 
 **Features:**
