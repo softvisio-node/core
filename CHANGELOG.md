@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.164.3 (2025-06-09)
+
+**Fixes:**
+
+- \[PATCH] fix: update git build version format (👬 zdm)
+
+Compare with the previous release: [v7.164.2](https://github.com/softvisio-node/core/compare/v7.164.2...v7.164.3)
+
 ### v7.164.2 (2025-06-09)
 
 **Fixes:**
