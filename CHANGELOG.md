@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.164.4 (2025-06-10)
+
+**Fixes:**
+
+- \[PATCH] fix: re-throw SIGINT in utils confirm (👬 zdm)
+
+Compare with the previous release: [v7.164.3](https://github.com/softvisio-node/core/compare/v7.164.3...v7.164.4)
+
 ### v7.164.3 (2025-06-09)
 
 **Fixes:**
