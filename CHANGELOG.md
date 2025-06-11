@@ -1,5 +1,17 @@
 # Changelog
 
+### v7.165.0 (2025-06-11)
+
+**New features:**
+
+- \[MINOR] feat: add `defaultPreReleaseTag` option to the semantic version `increment()` (● [428dcdc](https://github.com/softvisio-node/core/commit/428dcdcae); 👬 zdm)
+
+**Other changes:**
+
+- chore(style): fix typo (● [0259b39](https://github.com/softvisio-node/core/commit/0259b394e); 👬 zdm)
+
+Compare with the previous release: [v7.164.6](https://github.com/softvisio-node/core/compare/v7.164.6...v7.165.0)
+
 ### v7.164.6 (2025-06-11)
 
 **Fixes:**
