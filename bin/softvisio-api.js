@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
+import ansi from "#lib/ansi";
 import Api from "#lib/api";
 import Cli from "#lib/cli";
-import { ansi, Table } from "#lib/text";
+import Table from "#lib/text/table";
 import yaml from "#lib/yaml";
 
 const CLI = {
