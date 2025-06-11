@@ -1,5 +1,21 @@
 # Changelog
 
+### v7.164.5 (2025-06-11)
+
+**New features:**
+
+- \[MINOR] feat: add commits to changelog entry (● 0a6c860d5; 👬 zdm)
+
+- \[MINOR] feat: add linkify commits (● 9399414a0; 👬 zdm)
+
+**Refactoring:**
+
+- \[PATCH] refactor: rename ansi classs (● ac985a09d; 👬 zdm)
+
+- \[PATCH] refactor: rename git api classes (● c7a861436; 👬 zdm)
+
+Compare with the previous release: [v7.164.4](https://github.com/softvisio-node/core/compare/v7.164.4...v7.164.5)
+
 ### v7.164.4 (2025-06-10)
 
 **Fixes:**
