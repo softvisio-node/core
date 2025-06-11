@@ -1,5 +1,17 @@
 # Changelog
 
+### v7.164.6 (2025-06-11)
+
+**Fixes:**
+
+- \[PATCH] fix: fix git commit hash regexp (● aad323de2; 👬 zdm)
+
+**Refactoring:**
+
+- \[PATCH] refactor: update git changelog subject generator (● 5ed3c0bd4; 👬 zdm)
+
+Compare with the previous release: [v7.164.5](https://github.com/softvisio-node/core/compare/v7.164.5...v7.164.6)
+
 ### v7.164.5 (2025-06-11)
 
 **New features:**
