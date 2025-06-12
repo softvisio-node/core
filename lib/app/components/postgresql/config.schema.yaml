@@ -92,7 +92,7 @@
             - type: "null"
             - { type: string, format: nginx-server-name }
             - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
-      defaultServer: { type: boolean }
+        defaultServer: { type: boolean }
 
       additionalProperties: false
       required: [enabled, serverNames, defaultServer]
