@@ -48,3 +48,4 @@ config:
   nginx:
     enabled: true
     serverNames: ~
+    defaultServer: false # true - to accept non-ssl connections

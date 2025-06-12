@@ -92,9 +92,10 @@
             - type: "null"
             - { type: string, format: nginx-server-name }
             - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+      defaultServer: { type: boolean }
 
       additionalProperties: false
-      required: [enabled, serverNames]
+      required: [enabled, serverNames, defaultServer]
 
   additionalProperties: false
   required: [storageLocation, mode, clusterName, dataRootDir, access, backups, nginx]
