@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.167.0 (2025-06-12)
+
+**New features:**
+
+- \[MINOR] feat: integrate postgresql nginx upstream (● [caf1dc0](https://github.com/softvisio-node/core/commit/caf1dc0de), [c2502d6](https://github.com/softvisio-node/core/commit/c2502d67e), [8957e47](https://github.com/softvisio-node/core/commit/8957e47f9); 👬 zdm)
+
+Compare with the previous release: [v7.166.0](https://github.com/softvisio-node/core/compare/v7.166.0...v7.167.0)
+
 ### v7.166.0 (2025-06-12)
 
 **New features:**
