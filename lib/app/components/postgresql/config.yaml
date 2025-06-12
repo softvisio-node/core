@@ -46,6 +46,6 @@ config:
     log_line_prefix: "[%t] "
 
   nginx:
-    enabled: true
+    enabled: false
     serverNames: ~
     defaultServer: false # true - to accept non-ssl connections
