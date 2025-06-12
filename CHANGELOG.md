@@ -1,5 +1,19 @@
 # Changelog
 
+### v7.167.2 (2025-06-12)
+
+**Fixes:**
+
+- \[PATCH] fix: fix postgresql nginx config (● [3883359](https://github.com/softvisio-node/core/commit/388335972); 👬 zdm)
+
+- \[PATCH] fix: fix postgresql nginx server name (● [1be84a6](https://github.com/softvisio-node/core/commit/1be84a651); 👬 zdm)
+
+**Included pre-releases:**
+
+- chore(release): release v7.167.2-rc.0 (● [b7e419e](https://github.com/softvisio-node/core/commit/b7e419e52); 👬 zdm)
+
+Compare with the previous release: [v7.167.1](https://github.com/softvisio-node/core/compare/v7.167.1...v7.167.2)
+
 ### v7.167.2-rc.0 (2025-06-12)
 
 **Fixes:**
