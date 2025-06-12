@@ -20,9 +20,9 @@
           anyOf:
             - type: "null"
             - { type: integer, minimum: 1 }
-        maxApiRequestLength: { type: integer, minimum: 1 }
-        maxUploadFileSize: { type: integer, minimum: 1 }
-        idleTimeout: { type: integer, minimum: 0 }
+        maxApiRequestLength: { type: string, format: digital-size }
+        maxUploadFileSize: { type: string, format: digital-size }
+        idleTimeout: { type: string, format: interval }
         sendPingsAutomatically: { type: boolean }
         compress:
           anyOf:
