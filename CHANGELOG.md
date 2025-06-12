@@ -1,5 +1,31 @@
 # Changelog
 
+### v7.166.0 (2025-06-12)
+
+**New features:**
+
+- \[MINOR] feat: add semantic version `isInitialVersion` property (● [36a36ee](https://github.com/softvisio-node/core/commit/36a36ee21); 👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: decrease websocket idle timeout for rpc to 40 seconds (● [e855c62](https://github.com/softvisio-node/core/commit/e855c628e); 👬 zdm)
+
+- \[PATCH] fix: fix http dispatcher certificates check (● [2da7dbb](https://github.com/softvisio-node/core/commit/2da7dbb5a); 👬 zdm)
+
+- \[PATCH] fix: update nginx api update id generation (● [5156f31](https://github.com/softvisio-node/core/commit/5156f3193); 👬 zdm)
+
+**Refactoring:**
+
+- \[PATCH] refactor: convert http size params from bytes to digital size in config (● [98a6c53](https://github.com/softvisio-node/core/commit/98a6c53dc); 👬 zdm)
+
+- \[PATCH] refactor: tmp default tmp dir (● [ca1124c](https://github.com/softvisio-node/core/commit/ca1124c37); 👬 zdm)
+
+**Other changes:**
+
+- chore(style): fix typo (● [739f08b](https://github.com/softvisio-node/core/commit/739f08bf9); 👬 zdm)
+
+Compare with the previous release: [v7.165.0](https://github.com/softvisio-node/core/compare/v7.165.0...v7.166.0)
+
 ### v7.165.0 (2025-06-11)
 
 **New features:**
