@@ -1,5 +1,17 @@
 # Changelog
 
+### v7.167.2-rc.0 (2025-06-12)
+
+**Fixes:**
+
+- \[PATCH] fix: fix postgresql nginx server name (● [1be84a6](https://github.com/softvisio-node/core/commit/1be84a651); 👬 zdm)
+
+**Refactoring:**
+
+- \[PATCH] refactor: add debug log (● [0a75b40](https://github.com/softvisio-node/core/commit/0a75b40fb); 👬 zdm)
+
+Compare with the previous release: [v7.167.1](https://github.com/softvisio-node/core/compare/v7.167.1...v7.167.2-rc.0)
+
 ### v7.167.1 (2025-06-12)
 
 **Fixes:**
