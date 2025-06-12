@@ -13,7 +13,6 @@ config:
 
   nginx:
     enabled: true
-    apiUrl: ws://nginx:81/api
     port: 80
 
     serverNames: ~

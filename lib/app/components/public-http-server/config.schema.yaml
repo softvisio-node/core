@@ -22,7 +22,6 @@
       type: object
       properties:
         enabled: { type: boolean }
-        apiUrl: { type: string, format: url }
         port: { type: integer, format: ip-port }
 
         serverNames:

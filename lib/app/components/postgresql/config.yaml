@@ -1,6 +1,7 @@
 dependencies: ~
 
-optionalDependencies: ~
+optionalDependencies:
+  - nginxUpstream
 
 config:
   storageLocation: /postgresql
@@ -43,3 +44,7 @@ config:
     # log
     log_checkpoints: false
     log_line_prefix: "[%t] "
+
+  nginx:
+    enabled: true
+    serverNames: ~

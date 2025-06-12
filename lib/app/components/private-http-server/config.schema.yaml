@@ -22,7 +22,6 @@
       type: object
       properties:
         enabled: { type: boolean }
-        apiUrl: { type: string, format: url }
         port: { type: integer, format: ip-port }
 
         serverNames:
@@ -42,7 +41,7 @@
           required: [maxBodySize, cacheEnabled, cacheBypass]
 
       additionalProperties: false
-      required: [enabled, apiUrl, serverNames, server]
+      required: [enabled, serverNames, server]
 
   additionalProperties: false
   required: [address, port, exclusive, setRealIpFrom, realIpHeader, nginx]
