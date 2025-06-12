@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.167.1 (2025-06-12)
+
+**Fixes:**
+
+- \[PATCH] fix: fix postgresql component schema (● [6297ca7](https://github.com/softvisio-node/core/commit/6297ca717); 👬 zdm)
+
+Compare with the previous release: [v7.167.0](https://github.com/softvisio-node/core/compare/v7.167.0...v7.167.1)
+
 ### v7.167.0 (2025-06-12)
 
 **New features:**
