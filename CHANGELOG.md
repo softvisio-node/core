@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.168.2 (2025-06-13)
+
+**Fixes:**
+
+- \[PATCH] fix: disable websocket over H2 (● [4f7ea99](https://github.com/softvisio-node/core/commit/4f7ea991b); 👬 zdm)
+
+Compare with the previous release: [v7.168.1](https://github.com/softvisio-node/core/compare/v7.168.1...v7.168.2)
+
 ### v7.168.1 (2025-06-13)
 
 **Fixes:**
