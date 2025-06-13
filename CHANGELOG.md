@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.168.1 (2025-06-13)
+
+**Fixes:**
+
+- \[PATCH] fix: handle undfeined websocket protocol (● [5381d20](https://github.com/softvisio-node/core/commit/5381d20f6); 👬 zdm)
+
+Compare with the previous release: [v7.168.0](https://github.com/softvisio-node/core/compare/v7.168.0...v7.168.1)
+
 ### v7.168.0 (2025-06-13)
 
 **New features:**
