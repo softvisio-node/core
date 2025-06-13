@@ -14,7 +14,6 @@ config:
   nginx:
     enabled: true
     port: 81
-
     serverNames: ~
 
     server:

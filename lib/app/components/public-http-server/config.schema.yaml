@@ -50,7 +50,7 @@
           required: [maxBodySize, cacheEnabled, cacheBypass]
 
       additionalProperties: false
-      required: [enabled, apiUrl, serverNames, server]
+      required: [enabled, port, serverNames, server]
 
   additionalProperties: false
   required: [address, port, exclusive, setRealIpFrom, realIpHeader, nginx]
