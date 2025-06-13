@@ -1,5 +1,17 @@
 # Changelog
 
+### v7.169.0 (2025-06-13)
+
+**New features:**
+
+- \[MINOR] feat: create individual self-signed certificates for nginx server names (● [6b22b08](https://github.com/softvisio-node/core/commit/6b22b0807); 👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: fix postgresql tls connection (● [ff8b125](https://github.com/softvisio-node/core/commit/ff8b12597); 👬 zdm)
+
+Compare with the previous release: [v7.168.2](https://github.com/softvisio-node/core/compare/v7.168.2...v7.169.0)
+
 ### v7.168.2 (2025-06-13)
 
 **Fixes:**
