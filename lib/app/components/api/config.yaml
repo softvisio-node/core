@@ -99,7 +99,7 @@ config:
     maxParallelCallsPerClient: 1
     maxApiRequestLength: 64 KB
     maxUploadFileSize: 1 GB
-    idleTimeout: 40 seconds # send ping every 40 seconds, required for CloudFlare, Nginx
+    idleTimeout: 960 seconds # send pings, required for Nginx, CloudFlare
     sendPingsAutomatically: true
     compress: ~ # user server default value
 
