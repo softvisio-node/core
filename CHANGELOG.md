@@ -1,5 +1,19 @@
 # Changelog
 
+### v7.168.0 (2025-06-13)
+
+**New features:**
+
+- \[MINOR] feat: add postgresql nginx upstream port (● [590e45f](https://github.com/softvisio-node/core/commit/590e45f6f); 👬 zdm)
+
+- \[MINOR] feat: increate nginx read timeout to 30 minutes (● [66d2fba](https://github.com/softvisio-node/core/commit/66d2fba05); 👬 zdm)
+
+**Fixes:**
+
+- \[PATCH] fix: fix http servers config schema (● [794df87](https://github.com/softvisio-node/core/commit/794df877a); 👬 zdm)
+
+Compare with the previous release: [v7.167.2](https://github.com/softvisio-node/core/compare/v7.167.2...v7.168.0)
+
 ### v7.167.2 (2025-06-12)
 
 **Fixes:**
