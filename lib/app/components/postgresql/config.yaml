@@ -47,5 +47,6 @@ config:
 
   nginx:
     enabled: false
+    port: 5432
     serverNames: ~
     defaultServer: false # true - to accept non-ssl connections
