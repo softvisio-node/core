@@ -16,6 +16,7 @@
               version: { type: integer, minimum: 1 }
               locale: { type: string, format: locale }
               maxConnections: { type: integer, minimum: 1 }
+              checkCertificate: { type: boolean }
             additionalProperties: false
 
         additionalProperties: false
@@ -23,8 +24,16 @@
 
       - type: object
         properties:
-          type: { type: string }
-          options: { type: array, minItems: 1 }
+          import: { type: string }
+          arguments: { type: array, minItems: 1 }
 
         additionalProperties: false
-        required: [type]
+        required: [import]
+
+      - type: object
+        properties:
+          import: { type: string }
+          options: { type: object }
+
+        additionalProperties: false
+        required: [import]
