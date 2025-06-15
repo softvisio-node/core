@@ -11,7 +11,7 @@ config:
   email: ~
   test: false
   useLocalStorage: ~
-  cetrificatesRenewInterval: 1 week
+  certificatesRenewInterval: 1 week
   challengeMaxAge: 10 minutes
   httpEnabled: false
   dnsEnabled: ~

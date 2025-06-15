@@ -4,11 +4,11 @@
     email: { type: string, format: email }
     test: { type: boolean }
     useLocalStorage: { type: ["null", boolean] }
-    cetrificatesRenewInterval: { type: string, format: interval }
+    certificatesRenewInterval: { type: string, format: interval }
     challengeMaxAge: { type: string, format: interval }
     httpEnabled: { type: ["null", boolean] }
     dnsEnabled: { type: ["null", boolean] }
     cloudFlareApiToken: { type: ["null", string] }
 
   additionalProperties: false
-  required: [email, test, useLocalStorage, cetrificatesRenewInterval, challengeMaxAge, httpEnabled, dnsEnabled]
+  required: [email, test, useLocalStorage, certificatesRenewInterval, challengeMaxAge, httpEnabled, dnsEnabled]
