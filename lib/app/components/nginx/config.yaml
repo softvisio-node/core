@@ -2,6 +2,7 @@ dependencies: ~
 
 optionalDependencies:
   - acme
+  - nginxUpstream
 
 config:
   listenIpFamily: 4
