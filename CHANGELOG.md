@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.170.2 (2025-06-16)
+
+**Fixes:**
+
+- \[PATCH] fix: fix get certificates from nginx upstream (● [ead5d93](https://github.com/softvisio-node/core/commit/ead5d9395); 👬 zdm)
+
+Compare with the previous release: [v7.170.1](https://github.com/softvisio-node/core/compare/v7.170.1...v7.170.2)
+
 ### v7.170.1 (2025-06-16)
 
 **Fixes:**
