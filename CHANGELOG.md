@@ -1,5 +1,25 @@
 # Changelog
 
+### v7.170.0 (2025-06-16)
+
+**New features:**
+
+- \[MINOR] feat: add nginx get certificates from nginx upstream (● [1adaf8e](https://github.com/softvisio-node/core/commit/1adaf8edb), [c8e29f9](https://github.com/softvisio-node/core/commit/c8e29f916); 👬 zdm)
+
+**Refactoring:**
+
+- \[PATCH] refactor: do not use user env to access clouflare token in acme component (● [ccaa71e](https://github.com/softvisio-node/core/commit/ccaa71ea3); 👬 zdm)
+
+- \[PATCH] refactor: make acme use cloudflare service (● [383322f](https://github.com/softvisio-node/core/commit/383322fd5); 👬 zdm)
+
+- \[PATCH] refactor: update services component schema (● [f19151a](https://github.com/softvisio-node/core/commit/f19151ace); 👬 zdm)
+
+**Other changes:**
+
+- chore(style): fix typo (● [d985ff7](https://github.com/softvisio-node/core/commit/d985ff7a4); 👬 zdm)
+
+Compare with the previous release: [v7.169.0](https://github.com/softvisio-node/core/compare/v7.169.0...v7.170.0)
+
 ### v7.169.0 (2025-06-13)
 
 **New features:**
