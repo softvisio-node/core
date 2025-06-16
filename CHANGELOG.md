@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.170.3 (2025-06-16)
+
+**Fixes:**
+
+- \[PATCH] fix: fix service component init (● [3b566ec](https://github.com/softvisio-node/core/commit/3b566ecd7); 👬 zdm)
+
+Compare with the previous release: [v7.170.2](https://github.com/softvisio-node/core/compare/v7.170.2...v7.170.3)
+
 ### v7.170.2 (2025-06-16)
 
 **Fixes:**
