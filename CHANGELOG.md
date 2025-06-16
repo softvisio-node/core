@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.170.1 (2025-06-16)
+
+**Fixes:**
+
+- \[PATCH] fix: fix property access (● [b89e2d1](https://github.com/softvisio-node/core/commit/b89e2d10b); 👬 zdm)
+
+Compare with the previous release: [v7.170.0](https://github.com/softvisio-node/core/compare/v7.170.0...v7.170.1)
+
 ### v7.170.0 (2025-06-16)
 
 **New features:**
