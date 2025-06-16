@@ -6,9 +6,9 @@
     useLocalStorage: { type: ["null", boolean] }
     certificatesRenewInterval: { type: string, format: interval }
     challengeMaxAge: { type: string, format: interval }
-    httpEnabled: { type: ["null", boolean] }
-    dnsEnabled: { type: ["null", boolean] }
-    cloudFlareApiToken: { type: ["null", string] }
+    httpEnabled: { type: boolean }
+    dnsEnabled: { type: boolean }
+    cloudFlareServiceName: { type: string, format: kebab-case }
 
   additionalProperties: false
-  required: [email, test, useLocalStorage, certificatesRenewInterval, challengeMaxAge, httpEnabled, dnsEnabled]
+  required: [email, test, useLocalStorage, certificatesRenewInterval, challengeMaxAge, httpEnabled, dnsEnabled, cloudFlareServiceName]
