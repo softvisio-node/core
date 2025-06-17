@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.170.4 (2025-06-17)
+
+**Fixes:**
+
+- \[PATCH] fix: return etderr as status text in git api (● [0b41e6b](https://github.com/softvisio-node/core/commit/0b41e6be9); 👬 zdm)
+
+Compare with the previous release: [v7.170.3](https://github.com/softvisio-node/core/compare/v7.170.3...v7.170.4)
+
 ### v7.170.3 (2025-06-16)
 
 **Fixes:**
