@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.170.5 (2025-06-17)
+
+**Fixes:**
+
+- \[PATCH] fix: fix git api error parser (● [75a947e](https://github.com/softvisio-node/core/commit/75a947e0e); 👬 zdm)
+
+Compare with the previous release: [v7.170.4](https://github.com/softvisio-node/core/compare/v7.170.4...v7.170.5)
+
 ### v7.170.4 (2025-06-17)
 
 **Fixes:**
