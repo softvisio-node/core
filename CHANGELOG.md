@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.170.6 (2025-06-17)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix git api (● [e6dc2d7](https://github.com/softvisio-node/core/commit/e6dc2d731); 👬 zdm)
+
+Compare with the previous release: [v7.170.5](https://github.com/softvisio-node/core/compare/v7.170.5...v7.170.6)
+
 ### v7.170.5 (2025-06-17)
 
 **Fixes:**
