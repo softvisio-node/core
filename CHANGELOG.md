@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.170.7 (2025-06-18)
+
+**Other changes:**
+
+- style: fix empty console log (● [2686dd2](https://github.com/softvisio-node/core/commit/2686dd200); 👬 zdm)
+
+Compare with the previous release: [v7.170.6](https://github.com/softvisio-node/core/compare/v7.170.6...v7.170.7)
+
 ### v7.170.6 (2025-06-17)
 
 **Bug fixes:**
