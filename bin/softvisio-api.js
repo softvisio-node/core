@@ -136,7 +136,7 @@ class ApiCli {
             else {
                 this.#logEmits( res.data.emits );
 
-                console.log( "" );
+                console.log();
 
                 this.#logMethods( Object.values( methods ) );
             }
