@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.171.0 (2025-06-20)
+
+**New features:**
+
+- \[MINOR] feat: add glob patterns matchIfEmpty option (● [4a19b73](https://github.com/softvisio-node/core/commit/4a19b7303), [2d03d3b](https://github.com/softvisio-node/core/commit/2d03d3b33); 👬 zdm)
+
+Compare with the previous release: [v7.170.7](https://github.com/softvisio-node/core/compare/v7.170.7...v7.171.0)
+
 ### v7.170.7 (2025-06-18)
 
 **Other changes:**
