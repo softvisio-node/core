@@ -57,7 +57,6 @@ Emitted, when no more remote threads listening for `eventName`.
 ### threads.run( options )
 
 - `options` {Object} Threads to run. Property name is a thread name. Property value {Object}:
-
     - `num` {integer} Number of threads to run. **Default:** number of CPUs.
     - `path` {URL|string} File URL or path to the worker module.
     - `arguments?` {Array} Arguments for worker constructor.

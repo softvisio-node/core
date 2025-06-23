@@ -138,7 +138,6 @@ Table.defineStyle( "ascii", {
 ### new Table( options )
 
 - `options` {Object} Table options:
-
     - `style` {string} Table style. Pre-defined styles: `"ascii"`, `"unicode"`, `"markdown"`, `"compact"`, `"borderless"`. **Default:** `"ascii"`.
     - `console` {boolean} Output table content to the console.
     - `ansi` {boolean} Allow ANSI escape codes in the output. **Default:** if `console` is set to `true` - `process.stdout.isTTY` value is used.

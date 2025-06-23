@@ -72,7 +72,6 @@ app.publish( "api", users, name, ...args );
 ```
 
 - `users` {string|Array} Target user identificators. Each identificator can be the one of:
-
     - `user id` {integer} Target user id.
     - `users group name` {string} Application specific users group name.
     - `"*"` All connected users.
@@ -103,7 +102,6 @@ app.publish( "rpc", clients, name, ...args );
 ```
 
 - `clients` {string|Array} RPC client identificators. Each identificator can be the one of:
-
     - `"*"` All connected RPC clients.
     - `"guest"` All connected RPC clients.
     - `event name` - Arbitrary event name, to which particular RPC clients are subscribed.
