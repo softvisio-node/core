@@ -15,7 +15,7 @@ const CLI = {
 
 # Connect to the docker container:
 
-    docker exec -it <CONTAINER-ID> /usr/bin/env bash
+    docker exec -it <CONTAINER-ID> bash
 `.trim(),
     "globalOptions": {
         "url": {
