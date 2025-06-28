@@ -80,7 +80,7 @@ const res = await dbh.addType( name, { encode, decode } );
 | {null}    | null            |
 | {number}  | integer         |
 | {BigInt}  | int8            |
-| {boolean} | bool            |
+| {boolean} | boolean         |
 | {string}  | text            |
 | {Buffer}  | bytea           |
 | {Object}  | json string     |
@@ -99,7 +99,7 @@ const res = await dbh.addType( name, { encode, decode } );
 | int8    |   20 | {string}  |
 | integer |      | {string}  |
 | money   |  790 | {string}  |
-| bool    |   16 | {boolean} |
+| boolean |   16 | {boolean} |
 | json    |  114 | {Object}  |
 | jsonb   | 3802 | {Object}  |
 | bytea   |   17 | {Buffer}  |
