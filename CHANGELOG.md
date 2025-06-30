@@ -1,5 +1,25 @@
 # Changelog
 
+### v7.172.0-alpha.0 (2025-06-30)
+
+**New features:**
+
+- \[MINOR] feat: add base64 stream decoder (● [fbe715e](https://github.com/softvisio-node/core/commit/fbe715eec); 👬 zdm)
+
+- \[MINOR] feat: add crypto encode / decode ssh (● [206371f](https://github.com/softvisio-node/core/commit/206371f0a); 👬 zdm)
+
+- \[MINOR] feat: add hex stream (● [0ed0b6a](https://github.com/softvisio-node/core/commit/0ed0b6a3a); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix errors in base64 / hex streams (● [88d76c6](https://github.com/softvisio-node/core/commit/88d76c633); 👬 zdm)
+
+**Other changes:**
+
+- style: rename sql bool to boolean (● [67e7eab](https://github.com/softvisio-node/core/commit/67e7eabf3); 👬 zdm)
+
+Compare with the previous release: [v7.171.2](https://github.com/softvisio-node/core/compare/v7.171.2...v7.172.0-alpha.0)
+
 ### v7.171.2 (2025-06-26)
 
 **Code refactoring:**
