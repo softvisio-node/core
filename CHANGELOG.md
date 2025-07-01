@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.172.0-alpha.1 (2025-07-01)
+
+**New features:**
+
+- \[MINOR] feat: add cli negated short options (● [1927478](https://github.com/softvisio-node/core/commit/192747884); 👬 zdm)
+
+Compare with the previous release: [v7.172.0-alpha.0](https://github.com/softvisio-node/core/compare/v7.172.0-alpha.0...v7.172.0-alpha.1)
+
 ### v7.172.0-alpha.0 (2025-06-30)
 
 **New features:**
