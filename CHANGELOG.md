@@ -1,5 +1,17 @@
 # Changelog
 
+### v7.172.0-alpha.5 (2025-07-02)
+
+**Bug fixes:**
+
+- \[PATCH] fix: cli help options padding (● [1775c4b](https://github.com/softvisio-node/core/commit/1775c4bf5); 👬 zdm)
+
+**Other changes:**
+
+- chore: fix spelling (● [c147ecf](https://github.com/softvisio-node/core/commit/c147ecf83); 👬 zdm)
+
+Compare with the previous release: [v7.172.0-alpha.4](https://github.com/softvisio-node/core/compare/v7.172.0-alpha.4...v7.172.0-alpha.5)
+
 ### v7.172.0-alpha.4 (2025-07-02)
 
 **Bug fixes:**
