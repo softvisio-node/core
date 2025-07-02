@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.172.0-alpha.3 (2025-07-02)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: cli invertable property renamed to negatable (● [738bf31](https://github.com/softvisio-node/core/commit/738bf3110); 👬 zdm)
+
+Compare with the previous release: [v7.172.0-alpha.2](https://github.com/softvisio-node/core/compare/v7.172.0-alpha.2...v7.172.0-alpha.3)
+
 ### v7.172.0-alpha.2 (2025-07-01)
 
 **Code refactoring:**
