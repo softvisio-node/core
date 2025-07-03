@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.172.0-alpha.8 (2025-07-03)
+
+**Other changes:**
+
+- chore: add ws connection log (● [f6d3fa2](https://github.com/softvisio-node/core/commit/f6d3fa285), [ab39001](https://github.com/softvisio-node/core/commit/ab39001b1); 👬 zdm)
+
+Compare with the previous release: [v7.172.0-alpha.7](https://github.com/softvisio-node/core/compare/v7.172.0-alpha.7...v7.172.0-alpha.8)
+
 ### v7.172.0-alpha.7 (2025-07-03)
 
 **New features:**
