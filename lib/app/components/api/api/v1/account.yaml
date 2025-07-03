@@ -43,9 +43,9 @@ methods:
               properties:
                 oauth_provider: { enum: [google, facebook, github] }
                 oauth_code: { type: string }
-                oauth_redirect_uri: { type: string, format: uri }
+                oauth_redirect_url: { type: string, format: url }
               additionalProperties: false
-              required: [oauth_provider, oauth_code, oauth_redirect_uri]
+              required: [oauth_provider, oauth_code, oauth_redirect_url]
 
   set-locale:
     title: Set locale

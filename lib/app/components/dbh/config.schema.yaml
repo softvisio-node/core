@@ -1,7 +1,7 @@
 - $id: config
   type: object
   properties:
-    uri: { type: string, format: url }
+    url: { type: string, format: url }
 
   additionalProperties: false
   required: []
