@@ -1,5 +1,69 @@
 # Changelog
 
+### v7.172.0 (2025-07-03)
+
+**New features:**
+
+- \[MINOR] feat: add base64 stream decoder (● [fbe715e](https://github.com/softvisio-node/core/commit/fbe715eec); 👬 zdm)
+
+- \[MINOR] feat: add cli negated short options (● [1927478](https://github.com/softvisio-node/core/commit/192747884); 👬 zdm)
+
+- \[MINOR] feat: add crypto encode / decode ssh (● [206371f](https://github.com/softvisio-node/core/commit/206371f0a); 👬 zdm)
+
+- \[MINOR] feat: add hex stream (● [0ed0b6a](https://github.com/softvisio-node/core/commit/0ed0b6a3a); 👬 zdm)
+
+- \[MINOR] feat: refactor crypto (● [3c00b82](https://github.com/softvisio-node/core/commit/3c00b82c4); 👬 zdm)
+
+- \[MINOR] feat: rename realRemoteAddress to remoteAddress (● [d8f0db1](https://github.com/softvisio-node/core/commit/d8f0db1fb); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: cli help options padding (● [1775c4b](https://github.com/softvisio-node/core/commit/1775c4bf5), [9403061](https://github.com/softvisio-node/core/commit/9403061e9), [6d160d0](https://github.com/softvisio-node/core/commit/6d160d0c3); 👬 zdm)
+
+- \[PATCH] fix: fix errors in base64 / hex streams (● [88d76c6](https://github.com/softvisio-node/core/commit/88d76c633); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: cli invertable property renamed to negatable (● [738bf31](https://github.com/softvisio-node/core/commit/738bf3110), [c03a018](https://github.com/softvisio-node/core/commit/c03a018be); 👬 zdm)
+
+- \[PATCH] refactor: remove default api urls (● [638946b](https://github.com/softvisio-node/core/commit/638946b72); 👬 zdm)
+
+- \[PATCH] refactor: update nginx log (● [04813b2](https://github.com/softvisio-node/core/commit/04813b2dd); 👬 zdm)
+
+- \[PATCH] refactor: update openssl presets (● [ad8e2dd](https://github.com/softvisio-node/core/commit/ad8e2dd16); 👬 zdm)
+
+**Other changes:**
+
+- chore: fix spelling (● [c147ecf](https://github.com/softvisio-node/core/commit/c147ecf83); 👬 zdm)
+
+- style: rename sql bool to boolean (● [67e7eab](https://github.com/softvisio-node/core/commit/67e7eabf3); 👬 zdm)
+
+- style: use uppercase crypto constants (● [e90bb6b](https://github.com/softvisio-node/core/commit/e90bb6b79), [19369ca](https://github.com/softvisio-node/core/commit/19369ca1d); 👬 zdm)
+
+**Included pre-releases:**
+
+- build(release): release v7.172.0-alpha.0 (● [d2cc56f](https://github.com/softvisio-node/core/commit/d2cc56f99); 👬 zdm)
+
+- build(release): release v7.172.0-alpha.1 (● [1879a2c](https://github.com/softvisio-node/core/commit/1879a2cb1); 👬 zdm)
+
+- build(release): release v7.172.0-alpha.2 (● [5f43792](https://github.com/softvisio-node/core/commit/5f43792be); 👬 zdm)
+
+- build(release): release v7.172.0-alpha.3 (● [9b24407](https://github.com/softvisio-node/core/commit/9b24407f3); 👬 zdm)
+
+- build(release): release v7.172.0-alpha.4 (● [8240459](https://github.com/softvisio-node/core/commit/8240459bf); 👬 zdm)
+
+- build(release): release v7.172.0-alpha.5 (● [832a59f](https://github.com/softvisio-node/core/commit/832a59f70); 👬 zdm)
+
+- build(release): release v7.172.0-alpha.6 (● [ea50c53](https://github.com/softvisio-node/core/commit/ea50c5302); 👬 zdm)
+
+- build(release): release v7.172.0-alpha.7 (● [ca0164f](https://github.com/softvisio-node/core/commit/ca0164ffd); 👬 zdm)
+
+- build(release): release v7.172.0-alpha.8 (● [a34250c](https://github.com/softvisio-node/core/commit/a34250ce6); 👬 zdm)
+
+- build(release): release v7.172.0-alpha.9 (● [af38510](https://github.com/softvisio-node/core/commit/af385109b); 👬 zdm)
+
+Compare with the previous release: [v7.171.2](https://github.com/softvisio-node/core/compare/v7.171.2...v7.172.0)
+
 ### v7.172.0-alpha.9 (2025-07-03)
 
 **Other changes:**
