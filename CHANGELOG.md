@@ -1,5 +1,15 @@
 # Changelog
 
+### v7.172.0-alpha.9 (2025-07-03)
+
+**Other changes:**
+
+- Revert "chore: add ws connection log" (● [504ef8a](https://github.com/softvisio-node/core/commit/504ef8afd), [da92c2e](https://github.com/softvisio-node/core/commit/da92c2e44); 👬 zdm)
+
+    This reverts commit [ab39001](https://github.com/softvisio-node/core/commit/ab39001b19071fb57f4a3139b4f7a76da8cc1b8a).
+
+Compare with the previous release: [v7.172.0-alpha.8](https://github.com/softvisio-node/core/compare/v7.172.0-alpha.8...v7.172.0-alpha.9)
+
 ### v7.172.0-alpha.8 (2025-07-03)
 
 **Other changes:**
