@@ -1,5 +1,23 @@
 # Changelog
 
+### v7.172.0-alpha.7 (2025-07-03)
+
+**New features:**
+
+- \[MINOR] feat: rename realRemoteAddress to remoteAddress (● [d8f0db1](https://github.com/softvisio-node/core/commit/d8f0db1fb); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update nginx log (● [04813b2](https://github.com/softvisio-node/core/commit/04813b2dd); 👬 zdm)
+
+- \[PATCH] refactor: update openssl presets (● [ad8e2dd](https://github.com/softvisio-node/core/commit/ad8e2dd16); 👬 zdm)
+
+**Other changes:**
+
+- style: use uppercase crypto constants (● [e90bb6b](https://github.com/softvisio-node/core/commit/e90bb6b79), [19369ca](https://github.com/softvisio-node/core/commit/19369ca1d); 👬 zdm)
+
+Compare with the previous release: [v7.172.0-alpha.6](https://github.com/softvisio-node/core/compare/v7.172.0-alpha.6...v7.172.0-alpha.7)
+
 ### v7.172.0-alpha.6 (2025-07-02)
 
 **New features:**
