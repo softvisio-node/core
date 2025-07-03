@@ -5,4 +5,4 @@ optionalDependencies: ~
 config:
   enabled: false
   id: ~
-  apiUrl: ws://cluster:81/api
+  url: ws://cluster:81/api
