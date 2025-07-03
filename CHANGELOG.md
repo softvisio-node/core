@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.172.1 (2025-07-03)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: use url instead of uri (● [77d7939](https://github.com/softvisio-node/core/commit/77d7939f2); 👬 zdm)
+
+Compare with the previous release: [v7.172.0](https://github.com/softvisio-node/core/compare/v7.172.0...v7.172.1)
+
 ### v7.172.0 (2025-07-03)
 
 **New features:**
