@@ -1,5 +1,21 @@
 # Changelog
 
+### v7.173.0 (2025-07-03)
+
+**New features:**
+
+- \[MINOR] feat: add crypto.hash and stream.crypto.Hash components (● [bbc4ab2](https://github.com/softvisio-node/core/commit/bbc4ab2ab); 👬 zdm)
+
+- \[MINOR] feat: add crypto.sign and stream.crypto.Sign components (● [07d103d](https://github.com/softvisio-node/core/commit/07d103dcf); 👬 zdm)
+
+- \[MINOR] feat: add crypto.verify components (● [35ff5ba](https://github.com/softvisio-node/core/commit/35ff5baa0); 👬 zdm)
+
+**Other changes:**
+
+- style: rename apiUrl to url (● [4bc1dab](https://github.com/softvisio-node/core/commit/4bc1dab76); 👬 zdm)
+
+Compare with the previous release: [v7.172.1](https://github.com/softvisio-node/core/compare/v7.172.1...v7.173.0)
+
 ### v7.172.1 (2025-07-03)
 
 **Code refactoring:**
