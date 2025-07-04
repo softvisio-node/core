@@ -1,0 +1,8 @@
+dependencies: ~
+
+optionalDependencies:
+  - dbh
+  - services
+
+config:
+  googleTranslateServiceName: google-translate

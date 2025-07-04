@@ -1,0 +1,8 @@
+module: translations
+type: postgresql
+patch: ~
+
+emits:
+  - translations/update
+
+locks: ~

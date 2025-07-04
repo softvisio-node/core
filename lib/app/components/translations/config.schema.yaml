@@ -1,0 +1,6 @@
+- $id: config
+  type: object
+  properties:
+    googleTranslateServiceName: { type: string, format: kebab-case }
+  additionalProperties: false
+  required: []
