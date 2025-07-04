@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.174.0 (2025-07-04)
+
+**New features:**
+
+- \[MINOR] feat: refactor crypto (● [4072664](https://github.com/softvisio-node/core/commit/4072664e2); 👬 zdm)
+
+Compare with the previous release: [v7.173.0](https://github.com/softvisio-node/core/compare/v7.173.0...v7.174.0)
+
 ### v7.173.0 (2025-07-03)
 
 **New features:**
