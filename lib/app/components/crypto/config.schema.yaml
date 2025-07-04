@@ -1,8 +1,9 @@
 - $id: config
   type: object
   properties:
+    algorithm: { type: string }
     key: { type: ["null", string] }
     useLocalStorage: { type: boolean }
 
   additionalProperties: false
-  required: [key, useLocalStorage]
+  required: [algorithm, key, useLocalStorage]
