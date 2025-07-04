@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.174.1 (2025-07-04)
+
+**Other changes:**
+
+- style: rename crypto protected methods (● [9a51c4d](https://github.com/softvisio-node/core/commit/9a51c4d32); 👬 zdm)
+
+Compare with the previous release: [v7.174.0](https://github.com/softvisio-node/core/compare/v7.174.0...v7.174.1)
+
 ### v7.174.0 (2025-07-04)
 
 **New features:**
