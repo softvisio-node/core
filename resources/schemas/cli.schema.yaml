@@ -32,7 +32,7 @@
       properties:
         title: { type: string }
         short: { $ref: short }
-        module: { type: string, format: uri }
+        module: { type: string, format: url }
       additionalProperties: false
       required: [title, module]
     - type: object

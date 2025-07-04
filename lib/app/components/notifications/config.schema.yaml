@@ -62,8 +62,8 @@
                     client_id: { type: string }
                     auth_uri: { type: string, format: uri }
                     token_uri: { type: string, format: uri }
-                    auth_provider_x509_cert_url: { type: string, format: uri }
-                    client_x509_cert_url: { type: string, format: uri }
+                    auth_provider_x509_cert_url: { type: string, format: url }
+                    client_x509_cert_url: { type: string, format: url }
 
                   additionalProperties: false
                   required: [project_id, private_key, client_email, token_uri]
