@@ -1,5 +1,17 @@
 # Changelog
 
+### v7.174.2 (2025-07-04)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix url format in schemas (● [96ea775](https://github.com/softvisio-node/core/commit/96ea77561); 👬 zdm)
+
+**Other changes:**
+
+- style: update acme component log (● [971416a](https://github.com/softvisio-node/core/commit/971416ad7); 👬 zdm)
+
+Compare with the previous release: [v7.174.1](https://github.com/softvisio-node/core/compare/v7.174.1...v7.174.2)
+
 ### v7.174.1 (2025-07-04)
 
 **Other changes:**
