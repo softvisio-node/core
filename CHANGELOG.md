@@ -1,5 +1,31 @@
 # Changelog
 
+### v7.175.0-alpha.0 (2025-07-09)
+
+**New features:**
+
+- \[MINOR] feat: add crypto hmac (● [d6cdbf6](https://github.com/softvisio-node/core/commit/d6cdbf61c); 👬 zdm)
+
+- \[MINOR] feat: add file-stream static constructor (● [aad7eaf](https://github.com/softvisio-node/core/commit/aad7eaf16); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix pipeline (● [156c83f](https://github.com/softvisio-node/core/commit/156c83f77); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: remote crypto chunk support (● [1075cb0](https://github.com/softvisio-node/core/commit/1075cb02b); 👬 zdm)
+
+- \[PATCH] refactor: rename internal props (● [d0708e6](https://github.com/softvisio-node/core/commit/d0708e630); 👬 zdm)
+
+- \[PATCH] refactor: update crypto methods (● [a05278c](https://github.com/softvisio-node/core/commit/a05278c16); 👬 zdm)
+
+- \[PATCH] refactor: update file stream (● [2b1eda8](https://github.com/softvisio-node/core/commit/2b1eda855); 👬 zdm)
+
+- \[PATCH] refactor: update get cipher info (● [8815fcb](https://github.com/softvisio-node/core/commit/8815fcb2f); 👬 zdm)
+
+Compare with the previous release: [v7.174.2](https://github.com/softvisio-node/core/compare/v7.174.2...v7.175.0-alpha.0)
+
 ### v7.174.2 (2025-07-04)
 
 **Bug fixes:**
