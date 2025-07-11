@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.175.0-alpha.1 (2025-07-11)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor symantic version range (● [c704bc0](https://github.com/softvisio-node/core/commit/c704bc05e); 👬 zdm)
+
+Compare with the previous release: [v7.175.0-alpha.0](https://github.com/softvisio-node/core/compare/v7.175.0-alpha.0...v7.175.0-alpha.1)
+
 ### v7.175.0-alpha.0 (2025-07-09)
 
 **New features:**
