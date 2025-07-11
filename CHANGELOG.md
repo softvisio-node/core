@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.175.0-alpha.2 (2025-07-11)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update semver regexps (● [08ba537](https://github.com/softvisio-node/core/commit/08ba53771); 👬 zdm)
+
+Compare with the previous release: [v7.175.0-alpha.1](https://github.com/softvisio-node/core/compare/v7.175.0-alpha.1...v7.175.0-alpha.2)
+
 ### v7.175.0-alpha.1 (2025-07-11)
 
 **Code refactoring:**
