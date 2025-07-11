@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.175.0-alpha.3 (2025-07-11)
+
+**New features:**
+
+- \[MINOR] feat: add semantic range operator property (● [f6539ba](https://github.com/softvisio-node/core/commit/f6539ba0b); 👬 zdm)
+
+Compare with the previous release: [v7.175.0-alpha.2](https://github.com/softvisio-node/core/compare/v7.175.0-alpha.2...v7.175.0-alpha.3)
+
 ### v7.175.0-alpha.2 (2025-07-11)
 
 **Code refactoring:**
