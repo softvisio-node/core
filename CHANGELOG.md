@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.175.0-alpha.4 (2025-07-12)
+
+**New features:**
+
+- \[MINOR] feat: add semantic range version property (● [2c69c72](https://github.com/softvisio-node/core/commit/2c69c727e); 👬 zdm)
+
+Compare with the previous release: [v7.175.0-alpha.3](https://github.com/softvisio-node/core/compare/v7.175.0-alpha.3...v7.175.0-alpha.4)
+
 ### v7.175.0-alpha.3 (2025-07-11)
 
 **New features:**
