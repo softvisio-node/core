@@ -1,5 +1,51 @@
 # Changelog
 
+### v7.175.0 (2025-07-12)
+
+**New features:**
+
+- \[MINOR] feat: add crypto hmac (● [d6cdbf6](https://github.com/softvisio-node/core/commit/d6cdbf61c); 👬 zdm)
+
+- \[MINOR] feat: add file-stream static constructor (● [aad7eaf](https://github.com/softvisio-node/core/commit/aad7eaf16); 👬 zdm)
+
+- \[MINOR] feat: add semantic range operator property (● [f6539ba](https://github.com/softvisio-node/core/commit/f6539ba0b); 👬 zdm)
+
+- \[MINOR] feat: add semantic range version property (● [2c69c72](https://github.com/softvisio-node/core/commit/2c69c727e); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix pipeline (● [156c83f](https://github.com/softvisio-node/core/commit/156c83f77); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor semantic version range (● [c704bc0](https://github.com/softvisio-node/core/commit/c704bc05e); 👬 zdm)
+
+- \[PATCH] refactor: remote crypto chunk support (● [1075cb0](https://github.com/softvisio-node/core/commit/1075cb02b); 👬 zdm)
+
+- \[PATCH] refactor: rename internal props (● [d0708e6](https://github.com/softvisio-node/core/commit/d0708e630); 👬 zdm)
+
+- \[PATCH] refactor: update crypto methods (● [a05278c](https://github.com/softvisio-node/core/commit/a05278c16); 👬 zdm)
+
+- \[PATCH] refactor: update file stream (● [2b1eda8](https://github.com/softvisio-node/core/commit/2b1eda855); 👬 zdm)
+
+- \[PATCH] refactor: update get cipher info (● [8815fcb](https://github.com/softvisio-node/core/commit/8815fcb2f); 👬 zdm)
+
+- \[PATCH] refactor: update semver regexps (● [08ba537](https://github.com/softvisio-node/core/commit/08ba53771); 👬 zdm)
+
+**Included pre-releases:**
+
+- build(release): release v7.175.0-alpha.0 (● [eeab10f](https://github.com/softvisio-node/core/commit/eeab10fba); 👬 zdm)
+
+- build(release): release v7.175.0-alpha.1 (● [7aa1cda](https://github.com/softvisio-node/core/commit/7aa1cdad4); 👬 zdm)
+
+- build(release): release v7.175.0-alpha.2 (● [645cdb1](https://github.com/softvisio-node/core/commit/645cdb1e4); 👬 zdm)
+
+- build(release): release v7.175.0-alpha.3 (● [512f366](https://github.com/softvisio-node/core/commit/512f366b0); 👬 zdm)
+
+- build(release): release v7.175.0-alpha.4 (● [09e1956](https://github.com/softvisio-node/core/commit/09e1956e7); 👬 zdm)
+
+Compare with the previous release: [v7.174.2](https://github.com/softvisio-node/core/compare/v7.174.2...v7.175.0)
+
 ### v7.175.0-alpha.4 (2025-07-12)
 
 **New features:**
