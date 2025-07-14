@@ -1,5 +1,19 @@
 # Changelog
 
+### v7.175.1 (2025-07-14)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update ansi enable / disable methods (● [3a9705c](https://github.com/softvisio-node/core/commit/3a9705c47); 👬 zdm)
+
+- \[PATCH] refactor: update markdown styles (● [d968410](https://github.com/softvisio-node/core/commit/d96841079); 👬 zdm)
+
+**Other changes:**
+
+- style: fix dynamic import (● [a295a7a](https://github.com/softvisio-node/core/commit/a295a7ac6); 👬 zdm)
+
+Compare with the previous release: [v7.175.0](https://github.com/softvisio-node/core/compare/v7.175.0...v7.175.1)
+
 ### v7.175.0 (2025-07-12)
 
 **New features:**
