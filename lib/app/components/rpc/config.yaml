@@ -9,7 +9,8 @@ config:
   defaultVersion: 1
 
   frontend:
-    maxApiRequestLength: 64 KB
+    location: /api
+    maxApiRequestBodySize: 10 MB
     maxUploadFileSize: 1 GB
     idleTimeout: 960 seconds # send pings, required for Nginx, CloudFlare
     sendPingsAutomatically: true

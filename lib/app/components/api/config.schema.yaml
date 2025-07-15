@@ -16,11 +16,12 @@
     frontend:
       type: object
       properties:
+        location: { type: string, format: kebab-case-root-or-absolute-file-path }
         maxParallelCallsPerClient:
           anyOf:
             - type: "null"
             - { type: integer, minimum: 1 }
-        maxApiRequestLength: { type: string, format: digital-size }
+        maxApiRequestBodySize: { type: string, format: digital-size }
         maxUploadFileSize: { type: string, format: digital-size }
         idleTimeout: { type: string, format: interval }
         sendPingsAutomatically: { type: boolean }
@@ -31,7 +32,7 @@
             - { type: integer, minimum: 0 }
 
       additionalProperties: false
-      required: [maxParallelCallsPerClient, maxApiRequestLength, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
+      required: [location, maxParallelCallsPerClient, maxApiRequestBodySize, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
 
     # users
     signupEnabled: { type: boolean }

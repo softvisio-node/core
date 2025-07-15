@@ -96,8 +96,9 @@ config:
   # forntend
   frontendUrl: ~
   frontend:
+    location: /api
     maxParallelCallsPerClient: 1
-    maxApiRequestLength: 64 KB
+    maxApiRequestBodySize: 10 MB
     maxUploadFileSize: 1 GB
     idleTimeout: 960 seconds # send pings, required for Nginx, CloudFlare
     sendPingsAutomatically: true
