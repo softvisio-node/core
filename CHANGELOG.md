@@ -1,5 +1,19 @@
 # Changelog
 
+### v7.175.2 (2025-07-15)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: remove api maxUploadFileSize (● [c407e00](https://github.com/softvisio-node/core/commit/c407e00fc); 👬 zdm)
+
+- \[PATCH] refactor: update api component (● [e28ab73](https://github.com/softvisio-node/core/commit/e28ab7313); 👬 zdm)
+
+**Other changes:**
+
+- style: fix error message (● [122d339](https://github.com/softvisio-node/core/commit/122d33959); 👬 zdm)
+
+Compare with the previous release: [v7.175.1](https://github.com/softvisio-node/core/compare/v7.175.1...v7.175.2)
+
 ### v7.175.1 (2025-07-14)
 
 **Code refactoring:**
