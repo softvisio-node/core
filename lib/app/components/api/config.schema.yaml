@@ -22,7 +22,6 @@
             - type: "null"
             - { type: integer, minimum: 1 }
         maxApiRequestBodySize: { type: string, format: digital-size }
-        maxUploadFileSize: { type: string, format: digital-size }
         idleTimeout: { type: string, format: interval }
         sendPingsAutomatically: { type: boolean }
         compress:
@@ -32,7 +31,7 @@
             - { type: integer, minimum: 0 }
 
       additionalProperties: false
-      required: [location, maxParallelCallsPerClient, maxApiRequestBodySize, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
+      required: [location, maxParallelCallsPerClient, maxApiRequestBodySize, idleTimeout, sendPingsAutomatically, compress]
 
     # users
     signupEnabled: { type: boolean }

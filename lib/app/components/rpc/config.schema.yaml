@@ -8,7 +8,6 @@
       properties:
         location: { type: string, format: kebab-case-root-or-absolute-file-path }
         maxApiRequestBodySize: { type: string, format: digital-size }
-        maxUploadFileSize: { type: string, format: digital-size }
         idleTimeout: { type: string, format: interval }
         sendPingsAutomatically: { type: boolean }
         compress:
@@ -18,7 +17,7 @@
             - { type: integer, minimum: 0 }
 
       additionalProperties: false
-      required: [location, maxApiRequestBodySize, maxUploadFileSize, idleTimeout, sendPingsAutomatically, compress]
+      required: [location, maxApiRequestBodySize, idleTimeout, sendPingsAutomatically, compress]
 
   additionalProperties: false
   required: [defaultVersion, frontend]
