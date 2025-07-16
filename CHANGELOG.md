@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.175.5 (2025-07-16)
+
+**Other changes:**
+
+- style: lint (● [58f7d47](https://github.com/softvisio-node/core/commit/58f7d4735); 👬 zdm)
+
+Compare with the previous release: [v7.175.4](https://github.com/softvisio-node/core/compare/v7.175.4...v7.175.5)
+
 ### v7.175.4 (2025-07-16)
 
 **Other changes:**
