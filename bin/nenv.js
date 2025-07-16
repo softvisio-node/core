@@ -30,7 +30,7 @@ while ( process.argv.length ) {
 }
 
 if ( !process.argv.length ) {
-    console.warn( `Invalid nenv arguments` );
+    console.warn( "Invalid nenv arguments" );
 
     process.exit( 1 );
 }
