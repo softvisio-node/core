@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.175.4 (2025-07-16)
+
+**Other changes:**
+
+- docs: update (● [71b04cf](https://github.com/softvisio-node/core/commit/71b04cf5e); 👬 zdm)
+
+Compare with the previous release: [v7.175.3](https://github.com/softvisio-node/core/compare/v7.175.3...v7.175.4)
+
 ### v7.175.3 (2025-07-16)
 
 **Bug fixes:**
