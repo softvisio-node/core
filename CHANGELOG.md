@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.175.3 (2025-07-16)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix app frontend location (● [732aac1](https://github.com/softvisio-node/core/commit/732aac18d); 👬 zdm)
+
+Compare with the previous release: [v7.175.2](https://github.com/softvisio-node/core/compare/v7.175.2...v7.175.3)
+
 ### v7.175.2 (2025-07-15)
 
 **Code refactoring:**
