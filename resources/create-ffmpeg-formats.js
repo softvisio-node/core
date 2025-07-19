@@ -17,6 +17,21 @@ else {
 
 const formats = getFormats();
 
+const extnames = {};
+
+for ( const format of Object.values( formats ) ) {
+    for ( const extname of format.extnames ) {
+        extnames[ extname ] ||= [];
+        extnames[ extname ].push( format.format );
+    }
+}
+
+for ( const extname in extnames ) {
+    if ( extnames[ extname ].length > 1 ) {
+        console.log( `Extname conflict: "${ extname }", formats:`, extnames[ extname ] );
+    }
+}
+
 writeConfigSync( "ffmpeg-formats.json", formats, { "readable": true } );
 
 function getFormats () {
