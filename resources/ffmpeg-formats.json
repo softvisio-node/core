@@ -1,0 +1,3890 @@
+{
+    "3dostr": {
+        "format": "3dostr",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "str"
+        ],
+        "type": null
+    },
+    "3g2": {
+        "format": "3g2",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "3gp": {
+        "format": "3gp",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "4xm": {
+        "format": "4xm",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "a64": {
+        "format": "a64",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "aa": {
+        "format": "aa",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "aa"
+        ],
+        "type": null
+    },
+    "aac": {
+        "format": "aac",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "aac"
+        ],
+        "type": null
+    },
+    "aax": {
+        "format": "aax",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "aax"
+        ],
+        "type": null
+    },
+    "ac3": {
+        "format": "ac3",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ac3"
+        ],
+        "type": "audio/x-ac3"
+    },
+    "ac4": {
+        "format": "ac4",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ac4"
+        ],
+        "type": "audio/ac4"
+    },
+    "ace": {
+        "format": "ace",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "acm": {
+        "format": "acm",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "acm"
+        ],
+        "type": null
+    },
+    "act": {
+        "format": "act",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "adf": {
+        "format": "adf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "adf"
+        ],
+        "type": null
+    },
+    "adp": {
+        "format": "adp",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "adp",
+            "dtk"
+        ],
+        "type": null
+    },
+    "ads": {
+        "format": "ads",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ads",
+            "ss2"
+        ],
+        "type": null
+    },
+    "adts": {
+        "format": "adts",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "adx": {
+        "format": "adx",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "adx"
+        ],
+        "type": null
+    },
+    "aea": {
+        "format": "aea",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "aea"
+        ],
+        "type": null
+    },
+    "afc": {
+        "format": "afc",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "afc"
+        ],
+        "type": null
+    },
+    "aiff": {
+        "format": "aiff",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "afc",
+            "aif",
+            "aifc",
+            "aiff"
+        ],
+        "type": "audio/aiff"
+    },
+    "aix": {
+        "format": "aix",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "aix"
+        ],
+        "type": null
+    },
+    "alaw": {
+        "format": "alaw",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "al"
+        ],
+        "type": null
+    },
+    "alias_pix": {
+        "format": "alias_pix",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "alp": {
+        "format": "alp",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "pcm",
+            "tun"
+        ],
+        "type": null
+    },
+    "amr": {
+        "format": "amr",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "amr"
+        ],
+        "type": "audio/amr"
+    },
+    "amrnb": {
+        "format": "amrnb",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "amrwb": {
+        "format": "amrwb",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "amv": {
+        "format": "amv",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "anm": {
+        "format": "anm",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "apac": {
+        "format": "apac",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "apc"
+        ],
+        "type": null
+    },
+    "apc": {
+        "format": "apc",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ape": {
+        "format": "ape",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ape",
+            "apl",
+            "mac"
+        ],
+        "type": null
+    },
+    "apm": {
+        "format": "apm",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "apm"
+        ],
+        "type": null
+    },
+    "apng": {
+        "format": "apng",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "apng"
+        ],
+        "type": "image/png"
+    },
+    "aptx": {
+        "format": "aptx",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "aptx"
+        ],
+        "type": null
+    },
+    "aptx_hd": {
+        "format": "aptx_hd",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "aptxhd"
+        ],
+        "type": null
+    },
+    "aqtitle": {
+        "format": "aqtitle",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "aqt"
+        ],
+        "type": null
+    },
+    "argo_asf": {
+        "format": "argo_asf",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "argo_brp": {
+        "format": "argo_brp",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "argo_cvg": {
+        "format": "argo_cvg",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "cvg"
+        ],
+        "type": null
+    },
+    "asf": {
+        "format": "asf",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "asf",
+            "wma",
+            "wmv"
+        ],
+        "type": "video/x-ms-asf"
+    },
+    "asf_o": {
+        "format": "asf_o",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "asf_stream": {
+        "format": "asf_stream",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ass": {
+        "format": "ass",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ass",
+            "ssa"
+        ],
+        "type": "text/x-ass"
+    },
+    "ast": {
+        "format": "ast",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ast"
+        ],
+        "type": null
+    },
+    "au": {
+        "format": "au",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "au"
+        ],
+        "type": "audio/basic"
+    },
+    "av1": {
+        "format": "av1",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "obu"
+        ],
+        "type": null
+    },
+    "avi": {
+        "format": "avi",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "avi"
+        ],
+        "type": "video/x-msvideo"
+    },
+    "avif": {
+        "format": "avif",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "avisynth": {
+        "format": "avisynth",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "avs"
+        ],
+        "type": null
+    },
+    "avm2": {
+        "format": "avm2",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "avr": {
+        "format": "avr",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "avr"
+        ],
+        "type": null
+    },
+    "avs": {
+        "format": "avs",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "avs2": {
+        "format": "avs2",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "avs",
+            "avs2"
+        ],
+        "type": null
+    },
+    "avs3": {
+        "format": "avs3",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "avs3"
+        ],
+        "type": null
+    },
+    "bethsoftvid": {
+        "format": "bethsoftvid",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "bfi": {
+        "format": "bfi",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "bfstm": {
+        "format": "bfstm",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "bcstm",
+            "bfstm"
+        ],
+        "type": null
+    },
+    "bin": {
+        "format": "bin",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "bink": {
+        "format": "bink",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "binka": {
+        "format": "binka",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "binka"
+        ],
+        "type": null
+    },
+    "bit": {
+        "format": "bit",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "bit"
+        ],
+        "type": "audio/bit"
+    },
+    "bitpacked": {
+        "format": "bitpacked",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "bitpacked"
+        ],
+        "type": null
+    },
+    "bmp_pipe": {
+        "format": "bmp_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "bmv": {
+        "format": "bmv",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "bmv"
+        ],
+        "type": null
+    },
+    "boa": {
+        "format": "boa",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "bonk": {
+        "format": "bonk",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "bonk"
+        ],
+        "type": null
+    },
+    "brender_pix": {
+        "format": "brender_pix",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "brstm": {
+        "format": "brstm",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "brstm"
+        ],
+        "type": null
+    },
+    "c93": {
+        "format": "c93",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "caf": {
+        "format": "caf",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "caf"
+        ],
+        "type": "audio/x-caf"
+    },
+    "cavsvideo": {
+        "format": "cavsvideo",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "avs",
+            "cavs"
+        ],
+        "type": null
+    },
+    "cdg": {
+        "format": "cdg",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "cdg"
+        ],
+        "type": null
+    },
+    "cdxl": {
+        "format": "cdxl",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "cdxl",
+            "xl"
+        ],
+        "type": null
+    },
+    "cine": {
+        "format": "cine",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "codec2": {
+        "format": "codec2",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "c2"
+        ],
+        "type": null
+    },
+    "codec2raw": {
+        "format": "codec2raw",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "concat": {
+        "format": "concat",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "crc": {
+        "format": "crc",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "cri_pipe": {
+        "format": "cri_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "dash": {
+        "format": "dash",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mpd"
+        ],
+        "type": null
+    },
+    "data": {
+        "format": "data",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "daud": {
+        "format": "daud",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "302",
+            "daud"
+        ],
+        "type": null
+    },
+    "dcstr": {
+        "format": "dcstr",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "str"
+        ],
+        "type": null
+    },
+    "dds_pipe": {
+        "format": "dds_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "derf": {
+        "format": "derf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "adp"
+        ],
+        "type": null
+    },
+    "dfa": {
+        "format": "dfa",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "dfpwm": {
+        "format": "dfpwm",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "dfpwm"
+        ],
+        "type": null
+    },
+    "dhav": {
+        "format": "dhav",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "dav"
+        ],
+        "type": null
+    },
+    "dirac": {
+        "format": "dirac",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "drc",
+            "vc2"
+        ],
+        "type": null
+    },
+    "dnxhd": {
+        "format": "dnxhd",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "dnxhd",
+            "dnxhr"
+        ],
+        "type": null
+    },
+    "dpx_pipe": {
+        "format": "dpx_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "dsf": {
+        "format": "dsf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "d": {
+        "format": "d",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "dsicin": {
+        "format": "dsicin",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "dss": {
+        "format": "dss",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "dss"
+        ],
+        "type": null
+    },
+    "dts": {
+        "format": "dts",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "dts"
+        ],
+        "type": "audio/x-dca"
+    },
+    "dtshd": {
+        "format": "dtshd",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "dtshd"
+        ],
+        "type": null
+    },
+    "dv": {
+        "format": "dv",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "dif",
+            "dv"
+        ],
+        "type": null
+    },
+    "dvbsub": {
+        "format": "dvbsub",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "dvbtxt": {
+        "format": "dvbtxt",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "dvd": {
+        "format": "dvd",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "dxa": {
+        "format": "dxa",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ea": {
+        "format": "ea",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ea_cdata": {
+        "format": "ea_cdata",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "cdata"
+        ],
+        "type": null
+    },
+    "eac3": {
+        "format": "eac3",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "eac3",
+            "ec3"
+        ],
+        "type": "audio/x-eac3"
+    },
+    "epaf": {
+        "format": "epaf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "fap",
+            "paf"
+        ],
+        "type": null
+    },
+    "evc": {
+        "format": "evc",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "evc"
+        ],
+        "type": null
+    },
+    "exr_pipe": {
+        "format": "exr_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "f32be": {
+        "format": "f32be",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "f32le": {
+        "format": "f32le",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "f4v": {
+        "format": "f4v",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "f64be": {
+        "format": "f64be",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "f64le": {
+        "format": "f64le",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ffmetadata": {
+        "format": "ffmetadata",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ffmeta"
+        ],
+        "type": null
+    },
+    "fifo": {
+        "format": "fifo",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "film_cpk": {
+        "format": "film_cpk",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "cpk"
+        ],
+        "type": null
+    },
+    "filmstrip": {
+        "format": "filmstrip",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "flm"
+        ],
+        "type": null
+    },
+    "fits": {
+        "format": "fits",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "fits"
+        ],
+        "type": null
+    },
+    "flac": {
+        "format": "flac",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "flac"
+        ],
+        "type": "audio/x-flac"
+    },
+    "flic": {
+        "format": "flic",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "flv": {
+        "format": "flv",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "flv"
+        ],
+        "type": "video/x-flv"
+    },
+    "framecrc": {
+        "format": "framecrc",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "framehash": {
+        "format": "framehash",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "framemd5": {
+        "format": "framemd5",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "frm": {
+        "format": "frm",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "fsb": {
+        "format": "fsb",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "fsb"
+        ],
+        "type": null
+    },
+    "fwse": {
+        "format": "fwse",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "fwse"
+        ],
+        "type": null
+    },
+    "g722": {
+        "format": "g722",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "722",
+            "g722"
+        ],
+        "type": "audio/G722"
+    },
+    "g723_1": {
+        "format": "g723_1",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "g723_1",
+            "rco",
+            "tco"
+        ],
+        "type": "audio/g723"
+    },
+    "g726": {
+        "format": "g726",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "g726le": {
+        "format": "g726le",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "g729": {
+        "format": "g729",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "g729"
+        ],
+        "type": null
+    },
+    "gdv": {
+        "format": "gdv",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "gem_pipe": {
+        "format": "gem_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "genh": {
+        "format": "genh",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "genh"
+        ],
+        "type": null
+    },
+    "gif": {
+        "format": "gif",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "gif"
+        ],
+        "type": "image/gif"
+    },
+    "gif_pipe": {
+        "format": "gif_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "gsm": {
+        "format": "gsm",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "gsm"
+        ],
+        "type": "audio/x-gsm"
+    },
+    "gxf": {
+        "format": "gxf",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "gxf"
+        ],
+        "type": null
+    },
+    "h261": {
+        "format": "h261",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "h261"
+        ],
+        "type": "video/x-h261"
+    },
+    "h263": {
+        "format": "h263",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "h263"
+        ],
+        "type": "video/x-h263"
+    },
+    "h264": {
+        "format": "h264",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "264",
+            "avc",
+            "h264",
+            "h26l"
+        ],
+        "type": null
+    },
+    "hash": {
+        "format": "hash",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "hca": {
+        "format": "hca",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "hca"
+        ],
+        "type": null
+    },
+    "hcom": {
+        "format": "hcom",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "hdr_pipe": {
+        "format": "hdr_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "hds": {
+        "format": "hds",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "hevc": {
+        "format": "hevc",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "265",
+            "h265",
+            "hevc"
+        ],
+        "type": null
+    },
+    "hls": {
+        "format": "hls",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "m3u8"
+        ],
+        "type": null
+    },
+    "hnm": {
+        "format": "hnm",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "iamf": {
+        "format": "iamf",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "iamf"
+        ],
+        "type": null
+    },
+    "ico": {
+        "format": "ico",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ico"
+        ],
+        "type": "image/vnd.microsoft.icon"
+    },
+    "idcin": {
+        "format": "idcin",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "idf": {
+        "format": "idf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "idf"
+        ],
+        "type": null
+    },
+    "iff": {
+        "format": "iff",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ifv": {
+        "format": "ifv",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ifv"
+        ],
+        "type": null
+    },
+    "ilbc": {
+        "format": "ilbc",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "lbc"
+        ],
+        "type": "audio/iLBC"
+    },
+    "image2": {
+        "format": "image2",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "avif",
+            "bmp",
+            "dpx",
+            "exr",
+            "hdr",
+            "im1",
+            "im24",
+            "im8",
+            "j2c",
+            "j2k",
+            "jls",
+            "jp2",
+            "jpeg",
+            "jpg",
+            "jxl",
+            "ljpg",
+            "pam",
+            "pbm",
+            "pcx",
+            "pfm",
+            "pgm",
+            "pgmyuv",
+            "phm",
+            "pix",
+            "png",
+            "ppm",
+            "qoi",
+            "ras",
+            "rs",
+            "sgi",
+            "sun",
+            "sunras",
+            "tga",
+            "tif",
+            "tiff",
+            "vbn",
+            "wbmp",
+            "xbm",
+            "xface",
+            "xwd",
+            "y"
+        ],
+        "type": null
+    },
+    "image2pipe": {
+        "format": "image2pipe",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "imf": {
+        "format": "imf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ingenient": {
+        "format": "ingenient",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "cgi"
+        ],
+        "type": null
+    },
+    "ipmovie": {
+        "format": "ipmovie",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ipod": {
+        "format": "ipod",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ipu": {
+        "format": "ipu",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ipu"
+        ],
+        "type": null
+    },
+    "ircam": {
+        "format": "ircam",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ircam",
+            "sf"
+        ],
+        "type": null
+    },
+    "ismv": {
+        "format": "ismv",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "iss": {
+        "format": "iss",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "iv8": {
+        "format": "iv8",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ivf": {
+        "format": "ivf",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ivf"
+        ],
+        "type": null
+    },
+    "ivr": {
+        "format": "ivr",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ivr"
+        ],
+        "type": null
+    },
+    "j2k_pipe": {
+        "format": "j2k_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "jacosub": {
+        "format": "jacosub",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "js",
+            "jss"
+        ],
+        "type": "text/x-jacosub"
+    },
+    "jpeg_pipe": {
+        "format": "jpeg_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "jpegls_pipe": {
+        "format": "jpegls_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "jpegxl_anim": {
+        "format": "jpegxl_anim",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "jxl"
+        ],
+        "type": null
+    },
+    "jpegxl_pipe": {
+        "format": "jpegxl_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "jv": {
+        "format": "jv",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "kux": {
+        "format": "kux",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "kux"
+        ],
+        "type": null
+    },
+    "kvag": {
+        "format": "kvag",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "vag"
+        ],
+        "type": null
+    },
+    "laf": {
+        "format": "laf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "laf"
+        ],
+        "type": null
+    },
+    "latm": {
+        "format": "latm",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "lc3": {
+        "format": "lc3",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "lc3"
+        ],
+        "type": null
+    },
+    "libgme": {
+        "format": "libgme",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "libopenmpt": {
+        "format": "libopenmpt",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "669",
+            "amf",
+            "ams",
+            "dbm",
+            "digi",
+            "dmf",
+            "dsm",
+            "dtm",
+            "far",
+            "gdm",
+            "ice",
+            "imf",
+            "it",
+            "j2b",
+            "m15",
+            "mdl",
+            "med",
+            "mmcmp",
+            "mms",
+            "mo3",
+            "mod",
+            "mptm",
+            "mt2",
+            "mtm",
+            "nst",
+            "okt",
+            "plm",
+            "ppm",
+            "psm",
+            "pt36",
+            "ptm",
+            "s3m",
+            "sfx",
+            "sfx2",
+            "st26",
+            "stk",
+            "stm",
+            "stp",
+            "ult",
+            "umx",
+            "wow",
+            "xm",
+            "xpk"
+        ],
+        "type": null
+    },
+    "live_flv": {
+        "format": "live_flv",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "flv"
+        ],
+        "type": null
+    },
+    "lmlm4": {
+        "format": "lmlm4",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "loas": {
+        "format": "loas",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "lrc": {
+        "format": "lrc",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "lrc"
+        ],
+        "type": null
+    },
+    "luodat": {
+        "format": "luodat",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "dat"
+        ],
+        "type": null
+    },
+    "lvf": {
+        "format": "lvf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "lvf"
+        ],
+        "type": null
+    },
+    "lxf": {
+        "format": "lxf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "m4v": {
+        "format": "m4v",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "m4v"
+        ],
+        "type": null
+    },
+    "matroska": {
+        "format": "matroska",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "matroska,webm": {
+        "format": "matroska,webm",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mk3d",
+            "mka",
+            "mks",
+            "mkv",
+            "webm"
+        ],
+        "type": null
+    },
+    "mca": {
+        "format": "mca",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mca"
+        ],
+        "type": null
+    },
+    "mcc": {
+        "format": "mcc",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mcc"
+        ],
+        "type": null
+    },
+    "md5": {
+        "format": "md5",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mgsts": {
+        "format": "mgsts",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "microdvd": {
+        "format": "microdvd",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sub"
+        ],
+        "type": "text/x-microdvd"
+    },
+    "mjpeg": {
+        "format": "mjpeg",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mjpeg",
+            "mjpg",
+            "mpo"
+        ],
+        "type": "video/x-mjpeg"
+    },
+    "mjpeg_2000": {
+        "format": "mjpeg_2000",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "j2k"
+        ],
+        "type": null
+    },
+    "mkvtimestamp_v2": {
+        "format": "mkvtimestamp_v2",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mlp": {
+        "format": "mlp",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mlp"
+        ],
+        "type": null
+    },
+    "mlv": {
+        "format": "mlv",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mm": {
+        "format": "mm",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mmf": {
+        "format": "mmf",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mmf"
+        ],
+        "type": "application/vnd.smaf"
+    },
+    "mods": {
+        "format": "mods",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mods"
+        ],
+        "type": null
+    },
+    "moflex": {
+        "format": "moflex",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "moflex"
+        ],
+        "type": null
+    },
+    "mov": {
+        "format": "mov",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mov,mp4,m4a,3gp,3g2,mj2": {
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "3g2",
+            "3gp",
+            "avif",
+            "f4v",
+            "heic",
+            "heif",
+            "ism",
+            "isma",
+            "ismv",
+            "m4a",
+            "m4b",
+            "mj2",
+            "mov",
+            "mp4",
+            "psp"
+        ],
+        "type": null
+    },
+    "mp2": {
+        "format": "mp2",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mp3": {
+        "format": "mp3",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "m2a",
+            "mp2",
+            "mp3",
+            "mpa"
+        ],
+        "type": "audio/mpeg"
+    },
+    "mp4": {
+        "format": "mp4",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mpc": {
+        "format": "mpc",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mpc"
+        ],
+        "type": null
+    },
+    "mpc8": {
+        "format": "mpc8",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mpeg": {
+        "format": "mpeg",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mpeg",
+            "mpg"
+        ],
+        "type": "video/mpeg"
+    },
+    "mpeg1video": {
+        "format": "mpeg1video",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mpeg2video": {
+        "format": "mpeg2video",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mpegts": {
+        "format": "mpegts",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "m2t",
+            "m2ts",
+            "mts",
+            "ts"
+        ],
+        "type": "video/MP2T"
+    },
+    "mpegtsraw": {
+        "format": "mpegtsraw",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mpegvideo": {
+        "format": "mpegvideo",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mpjpeg": {
+        "format": "mpjpeg",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mjpg"
+        ],
+        "type": "multipart/x-mixed-replace;boundary=ffmpeg"
+    },
+    "mpl2": {
+        "format": "mpl2",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mpl2",
+            "txt"
+        ],
+        "type": null
+    },
+    "mpsub": {
+        "format": "mpsub",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sub"
+        ],
+        "type": null
+    },
+    "msf": {
+        "format": "msf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "msf"
+        ],
+        "type": null
+    },
+    "msnwctcp": {
+        "format": "msnwctcp",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "msp": {
+        "format": "msp",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mtaf": {
+        "format": "mtaf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mtaf"
+        ],
+        "type": null
+    },
+    "mtv": {
+        "format": "mtv",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mulaw": {
+        "format": "mulaw",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ul"
+        ],
+        "type": null
+    },
+    "musx": {
+        "format": "musx",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "musx"
+        ],
+        "type": null
+    },
+    "mv": {
+        "format": "mv",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mvi": {
+        "format": "mvi",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mvi"
+        ],
+        "type": null
+    },
+    "mxf": {
+        "format": "mxf",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mxf"
+        ],
+        "type": "application/mxf"
+    },
+    "mxf_d10": {
+        "format": "mxf_d10",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mxf_opatom": {
+        "format": "mxf_opatom",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "mxg": {
+        "format": "mxg",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mxg"
+        ],
+        "type": null
+    },
+    "nc": {
+        "format": "nc",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "v"
+        ],
+        "type": null
+    },
+    "nistsphere": {
+        "format": "nistsphere",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "nist",
+            "sph"
+        ],
+        "type": null
+    },
+    "nsp": {
+        "format": "nsp",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "nsp"
+        ],
+        "type": null
+    },
+    "nsv": {
+        "format": "nsv",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "null": {
+        "format": "null",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "nut": {
+        "format": "nut",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "nut"
+        ],
+        "type": "video/x-nut"
+    },
+    "nuv": {
+        "format": "nuv",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "obu": {
+        "format": "obu",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "obu"
+        ],
+        "type": null
+    },
+    "oga": {
+        "format": "oga",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ogg": {
+        "format": "ogg",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ogg"
+        ],
+        "type": "application/ogg"
+    },
+    "ogv": {
+        "format": "ogv",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "oma": {
+        "format": "oma",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "aa3",
+            "oma",
+            "omg"
+        ],
+        "type": "audio/x-oma"
+    },
+    "opus": {
+        "format": "opus",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "osq": {
+        "format": "osq",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "osq"
+        ],
+        "type": null
+    },
+    "paf": {
+        "format": "paf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "pam_pipe": {
+        "format": "pam_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "pbm_pipe": {
+        "format": "pbm_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "pcx_pipe": {
+        "format": "pcx_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "pdv": {
+        "format": "pdv",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "pdv"
+        ],
+        "type": null
+    },
+    "pfm_pipe": {
+        "format": "pfm_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "pgm_pipe": {
+        "format": "pgm_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "pgmyuv_pipe": {
+        "format": "pgmyuv_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "pgx_pipe": {
+        "format": "pgx_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "phm_pipe": {
+        "format": "phm_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "photocd_pipe": {
+        "format": "photocd_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "pictor_pipe": {
+        "format": "pictor_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "pjs": {
+        "format": "pjs",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "pjs"
+        ],
+        "type": null
+    },
+    "pmp": {
+        "format": "pmp",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "png_pipe": {
+        "format": "png_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "pp_bnk": {
+        "format": "pp_bnk",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ppm_pipe": {
+        "format": "ppm_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "psd_pipe": {
+        "format": "psd_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "psp": {
+        "format": "psp",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "psxstr": {
+        "format": "psxstr",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "pva": {
+        "format": "pva",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "pvf": {
+        "format": "pvf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "pvf"
+        ],
+        "type": null
+    },
+    "qcp": {
+        "format": "qcp",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "qdraw_pipe": {
+        "format": "qdraw_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "qoa": {
+        "format": "qoa",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "qoa"
+        ],
+        "type": null
+    },
+    "qoi_pipe": {
+        "format": "qoi_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "r3d": {
+        "format": "r3d",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "rawvideo": {
+        "format": "rawvideo",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "cif",
+            "qcif",
+            "rgb",
+            "yuv"
+        ],
+        "type": null
+    },
+    "rcwt": {
+        "format": "rcwt",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "realtext": {
+        "format": "realtext",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "rt"
+        ],
+        "type": null
+    },
+    "redspark": {
+        "format": "redspark",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "rsd"
+        ],
+        "type": null
+    },
+    "rka": {
+        "format": "rka",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "rka"
+        ],
+        "type": null
+    },
+    "rl2": {
+        "format": "rl2",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "rm": {
+        "format": "rm",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ra",
+            "rm"
+        ],
+        "type": "application/vnd.rn-realmedia"
+    },
+    "roq": {
+        "format": "roq",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "roq"
+        ],
+        "type": null
+    },
+    "rpl": {
+        "format": "rpl",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "rsd": {
+        "format": "rsd",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "rsd"
+        ],
+        "type": null
+    },
+    "rso": {
+        "format": "rso",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "rso"
+        ],
+        "type": null
+    },
+    "rtp": {
+        "format": "rtp",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "rtp_mpegts": {
+        "format": "rtp_mpegts",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "rtsp": {
+        "format": "rtsp",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "s16be": {
+        "format": "s16be",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "s16le": {
+        "format": "s16le",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sw"
+        ],
+        "type": null
+    },
+    "s24be": {
+        "format": "s24be",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "s24le": {
+        "format": "s24le",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "s32be": {
+        "format": "s32be",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "s32le": {
+        "format": "s32le",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "s337m": {
+        "format": "s337m",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "s8": {
+        "format": "s8",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sb"
+        ],
+        "type": null
+    },
+    "sami": {
+        "format": "sami",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sami",
+            "smi"
+        ],
+        "type": null
+    },
+    "sap": {
+        "format": "sap",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "sbc": {
+        "format": "sbc",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "msbc",
+            "sbc"
+        ],
+        "type": "audio/x-sbc"
+    },
+    "sbg": {
+        "format": "sbg",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sbg"
+        ],
+        "type": null
+    },
+    "scc": {
+        "format": "scc",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "scc"
+        ],
+        "type": null
+    },
+    "scd": {
+        "format": "scd",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "sdl,sdl2": {
+        "format": "sdl,sdl2",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "sdns": {
+        "format": "sdns",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sdns"
+        ],
+        "type": null
+    },
+    "sdp": {
+        "format": "sdp",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "sdr2": {
+        "format": "sdr2",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sdr2"
+        ],
+        "type": null
+    },
+    "sds": {
+        "format": "sds",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sds"
+        ],
+        "type": null
+    },
+    "sdx": {
+        "format": "sdx",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sdx"
+        ],
+        "type": null
+    },
+    "segment": {
+        "format": "segment",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ser": {
+        "format": "ser",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ser"
+        ],
+        "type": null
+    },
+    "sga": {
+        "format": "sga",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sga"
+        ],
+        "type": null
+    },
+    "sgi_pipe": {
+        "format": "sgi_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "shn": {
+        "format": "shn",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "shn"
+        ],
+        "type": null
+    },
+    "siff": {
+        "format": "siff",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "son",
+            "vb"
+        ],
+        "type": null
+    },
+    "simbiosis_imx": {
+        "format": "simbiosis_imx",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "imx"
+        ],
+        "type": null
+    },
+    "sln": {
+        "format": "sln",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sln"
+        ],
+        "type": null
+    },
+    "smjpeg": {
+        "format": "smjpeg",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "mjpg"
+        ],
+        "type": null
+    },
+    "smk": {
+        "format": "smk",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "smoothstreaming": {
+        "format": "smoothstreaming",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "smush": {
+        "format": "smush",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "sol": {
+        "format": "sol",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "sox": {
+        "format": "sox",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sox"
+        ],
+        "type": null
+    },
+    "spdif": {
+        "format": "spdif",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "spdif"
+        ],
+        "type": null
+    },
+    "spx": {
+        "format": "spx",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "srt": {
+        "format": "srt",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "srt"
+        ],
+        "type": "application/x-subrip"
+    },
+    "stl": {
+        "format": "stl",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "stl"
+        ],
+        "type": null
+    },
+    "stream_segment,ssegment": {
+        "format": "stream_segment,ssegment",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "streamhash": {
+        "format": "streamhash",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "subviewer": {
+        "format": "subviewer",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sub"
+        ],
+        "type": null
+    },
+    "subviewer1": {
+        "format": "subviewer1",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sub"
+        ],
+        "type": null
+    },
+    "sunrast_pipe": {
+        "format": "sunrast_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "sup": {
+        "format": "sup",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "sup"
+        ],
+        "type": "application/x-pgs"
+    },
+    "svag": {
+        "format": "svag",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "svag"
+        ],
+        "type": null
+    },
+    "svcd": {
+        "format": "svcd",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "svg_pipe": {
+        "format": "svg_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "svs": {
+        "format": "svs",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "svs"
+        ],
+        "type": null
+    },
+    "swf": {
+        "format": "swf",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "swf"
+        ],
+        "type": "application/x-shockwave-flash"
+    },
+    "tak": {
+        "format": "tak",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "tak"
+        ],
+        "type": null
+    },
+    "tedcaptions": {
+        "format": "tedcaptions",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "tee": {
+        "format": "tee",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "thp": {
+        "format": "thp",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "tiertexseq": {
+        "format": "tiertexseq",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "tiff_pipe": {
+        "format": "tiff_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "tmv": {
+        "format": "tmv",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "truehd": {
+        "format": "truehd",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "thd"
+        ],
+        "type": null
+    },
+    "tta": {
+        "format": "tta",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "tta"
+        ],
+        "type": "audio/x-tta"
+    },
+    "ttml": {
+        "format": "ttml",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "tty": {
+        "format": "tty",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ans",
+            "art",
+            "asc",
+            "diz",
+            "ice",
+            "nfo",
+            "txt",
+            "vt"
+        ],
+        "type": null
+    },
+    "txd": {
+        "format": "txd",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "ty": {
+        "format": "ty",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ty",
+            "ty+"
+        ],
+        "type": null
+    },
+    "u16be": {
+        "format": "u16be",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "u16le": {
+        "format": "u16le",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "uw"
+        ],
+        "type": null
+    },
+    "u24be": {
+        "format": "u24be",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "u24le": {
+        "format": "u24le",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "u32be": {
+        "format": "u32be",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "u32le": {
+        "format": "u32le",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "u8": {
+        "format": "u8",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "ub"
+        ],
+        "type": null
+    },
+    "uncodedframecrc": {
+        "format": "uncodedframecrc",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "usm": {
+        "format": "usm",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "usm"
+        ],
+        "type": null
+    },
+    "v210": {
+        "format": "v210",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "v210"
+        ],
+        "type": null
+    },
+    "v210x": {
+        "format": "v210x",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "yuv10"
+        ],
+        "type": null
+    },
+    "vag": {
+        "format": "vag",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "vag"
+        ],
+        "type": null
+    },
+    "vbn_pipe": {
+        "format": "vbn_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "vc1": {
+        "format": "vc1",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "vc1"
+        ],
+        "type": null
+    },
+    "vc1test": {
+        "format": "vc1test",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "rcv"
+        ],
+        "type": null
+    },
+    "vcd": {
+        "format": "vcd",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "vidc": {
+        "format": "vidc",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "vividas": {
+        "format": "vividas",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "vivo": {
+        "format": "vivo",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "viv"
+        ],
+        "type": null
+    },
+    "vmd": {
+        "format": "vmd",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "vob": {
+        "format": "vob",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "vobsub": {
+        "format": "vobsub",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "idx"
+        ],
+        "type": null
+    },
+    "voc": {
+        "format": "voc",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "voc"
+        ],
+        "type": "audio/x-voc"
+    },
+    "vpk": {
+        "format": "vpk",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "vpk"
+        ],
+        "type": null
+    },
+    "vplayer": {
+        "format": "vplayer",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "txt"
+        ],
+        "type": null
+    },
+    "vqf": {
+        "format": "vqf",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "vqe",
+            "vqf",
+            "vql"
+        ],
+        "type": null
+    },
+    "vvc": {
+        "format": "vvc",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "266",
+            "h266",
+            "vvc"
+        ],
+        "type": null
+    },
+    "w64": {
+        "format": "w64",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "w64"
+        ],
+        "type": null
+    },
+    "wady": {
+        "format": "wady",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "way"
+        ],
+        "type": null
+    },
+    "wav": {
+        "format": "wav",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "wav"
+        ],
+        "type": "audio/x-wav"
+    },
+    "wavarc": {
+        "format": "wavarc",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "wa"
+        ],
+        "type": null
+    },
+    "wc3movie": {
+        "format": "wc3movie",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "webm": {
+        "format": "webm",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "webm_chunk": {
+        "format": "webm_chunk",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "webm_dash_manifest": {
+        "format": "webm_dash_manifest",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "xml"
+        ],
+        "type": "application/xml"
+    },
+    "webp": {
+        "format": "webp",
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "webp_pipe": {
+        "format": "webp_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "webvtt": {
+        "format": "webvtt",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "vtt"
+        ],
+        "type": "text/vtt"
+    },
+    "wsaud": {
+        "format": "wsaud",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "aud"
+        ],
+        "type": null
+    },
+    "wsd": {
+        "format": "wsd",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "wsd"
+        ],
+        "type": null
+    },
+    "wsvqa": {
+        "format": "wsvqa",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "wtv": {
+        "format": "wtv",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "wtv"
+        ],
+        "type": null
+    },
+    "wv": {
+        "format": "wv",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "wv"
+        ],
+        "type": "audio/x-wavpack"
+    },
+    "wve": {
+        "format": "wve",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "xa": {
+        "format": "xa",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "xbin": {
+        "format": "xbin",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "xbm_pipe": {
+        "format": "xbm_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "xmd": {
+        "format": "xmd",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "xmd"
+        ],
+        "type": null
+    },
+    "xmv": {
+        "format": "xmv",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "xmv"
+        ],
+        "type": null
+    },
+    "xpm_pipe": {
+        "format": "xpm_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "xvag": {
+        "format": "xvag",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "xvag"
+        ],
+        "type": null
+    },
+    "xwd_pipe": {
+        "format": "xwd_pipe",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "xwma": {
+        "format": "xwma",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [],
+        "type": null
+    },
+    "yop": {
+        "format": "yop",
+        "encode": false,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "yop"
+        ],
+        "type": null
+    },
+    "yuv4mpegpipe": {
+        "format": "yuv4mpegpipe",
+        "encode": true,
+        "decode": true,
+        "device": false,
+        "extnames": [
+            "y4m"
+        ],
+        "type": null
+    },
+    "undefined": {
+        "encode": false,
+        "decode": false,
+        "device": false,
+        "extnames": [],
+        "type": null
+    }
+}
