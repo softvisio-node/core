@@ -8,7 +8,7 @@ config:
   listenIpFamily: 4
   dockerEnabled: false
 
-  maxBodySize: 10 MiB
+  maxBodySize: 10 MB
 
   cacheEnabled: true
   cacheMaxSize: ~

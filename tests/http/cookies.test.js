@@ -11,7 +11,7 @@ suite( "http", () => {
     suite( "cookies", () => {
         const TESTS = [
             {
-                "name": `test1`,
+                "name": "test1",
                 "value": ` test- \x04-;",\\ мама`,
             },
             {

@@ -1,5 +1,57 @@
 # Changelog
 
+### v7.175.5 (2025-07-16)
+
+**Other changes:**
+
+- style: lint (● [58f7d47](https://github.com/softvisio-node/core/commit/58f7d4735); 👬 zdm)
+
+Compare with the previous release: [v7.175.4](https://github.com/softvisio-node/core/compare/v7.175.4...v7.175.5)
+
+### v7.175.4 (2025-07-16)
+
+**Other changes:**
+
+- docs: update (● [71b04cf](https://github.com/softvisio-node/core/commit/71b04cf5e); 👬 zdm)
+
+Compare with the previous release: [v7.175.3](https://github.com/softvisio-node/core/compare/v7.175.3...v7.175.4)
+
+### v7.175.3 (2025-07-16)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix app frontend location (● [732aac1](https://github.com/softvisio-node/core/commit/732aac18d); 👬 zdm)
+
+Compare with the previous release: [v7.175.2](https://github.com/softvisio-node/core/compare/v7.175.2...v7.175.3)
+
+### v7.175.2 (2025-07-15)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: remove api maxUploadFileSize (● [c407e00](https://github.com/softvisio-node/core/commit/c407e00fc); 👬 zdm)
+
+- \[PATCH] refactor: update api component (● [e28ab73](https://github.com/softvisio-node/core/commit/e28ab7313); 👬 zdm)
+
+**Other changes:**
+
+- style: fix error message (● [122d339](https://github.com/softvisio-node/core/commit/122d33959); 👬 zdm)
+
+Compare with the previous release: [v7.175.1](https://github.com/softvisio-node/core/compare/v7.175.1...v7.175.2)
+
+### v7.175.1 (2025-07-14)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update ansi enable / disable methods (● [3a9705c](https://github.com/softvisio-node/core/commit/3a9705c47); 👬 zdm)
+
+- \[PATCH] refactor: update markdown styles (● [d968410](https://github.com/softvisio-node/core/commit/d96841079); 👬 zdm)
+
+**Other changes:**
+
+- style: fix dynamic import (● [a295a7a](https://github.com/softvisio-node/core/commit/a295a7ac6); 👬 zdm)
+
+Compare with the previous release: [v7.175.0](https://github.com/softvisio-node/core/compare/v7.175.0...v7.175.1)
+
 ### v7.175.0 (2025-07-12)
 
 **New features:**

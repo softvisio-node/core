@@ -10,7 +10,7 @@ const TESTS = [
     // accept-encoding
     {
         "headers": {
-            "accept-encoding": `br;q=0.1, deflate, gzip;q=1.0, *;q=0.5    `,
+            "accept-encoding": "br;q=0.1, deflate, gzip;q=1.0, *;q=0.5    ",
         },
         "method": "acceptEncoding",
         "result": [ "deflate", "gzip", "*", "br" ],
@@ -19,7 +19,7 @@ const TESTS = [
     // cookie
     {
         "headers": {
-            "cookie": `a=1; b = 2 ; c=  1=2 3   `,
+            "cookie": "a=1; b = 2 ; c=  1=2 3   ",
         },
         "method": "cookie",
         result ( res ) {
@@ -39,7 +39,7 @@ const TESTS = [
     // set-cookie
     {
         "headers": {
-            "set-cookie": `name=value; expires=Tue, 19-Jul-2022 12:53:28 GMT; path=/  ; domain = .мама.google.com  ;Secure; HttpOnly; SameSite=none`,
+            "set-cookie": "name=value; expires=Tue, 19-Jul-2022 12:53:28 GMT; path=/  ; domain = .мама.google.com  ;Secure; HttpOnly; SameSite=none",
         },
         "method": "setCookie",
         result ( res ) {

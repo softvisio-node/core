@@ -36,13 +36,13 @@ console.log(ansi.cold.while.onRed("test"));
 
 - {boolean} ANSI enabled or disabled. Writable property.
 
-### ansi.enable()
+### ansi.setEnable( enabled, callback? )
 
-Enables ANSI codes.
+- `enabled` {boolean|stream.Writable} ANSI enabled status. If value is {stream.Writable} `isTTY` property is checked.
+- `callback?` {Function} Callback function. Current status will be restores after callback executed.
+- Returns: `this`
 
-### ansi.disable()
-
-Disables ANSI codes.
+Enable / disable ANSI codes.
 
 ### ansi.defineStyle( name, style )
 
