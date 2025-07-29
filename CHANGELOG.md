@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.176.1 (2025-07-29)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix TmpFile import (● [8890fbb](https://github.com/softvisio-node/core/commit/8890fbb83); 👬 zdm)
+
+Compare with the previous release: [v7.176.0](https://github.com/softvisio-node/core/compare/v7.176.0...v7.176.1)
+
 ### v7.176.0 (2025-07-29)
 
 **New features:**
