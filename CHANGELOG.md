@@ -1,5 +1,33 @@
 # Changelog
 
+### v7.176.0 (2025-07-29)
+
+**New features:**
+
+- \[MINOR] feat: add events hasListeners() method (● [3bb9478](https://github.com/softvisio-node/core/commit/3bb947880); 👬 zdm)
+
+- \[MINOR] feat: add utils.sortObject() (● [fbb2bf9](https://github.com/softvisio-node/core/commit/fbb2bf9bf); 👬 zdm)
+
+- \[MINOR] feat: remove file stream, refactor stream (● [965230c](https://github.com/softvisio-node/core/commit/965230c70), [b407e47](https://github.com/softvisio-node/core/commit/b407e47e6); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix cyclic import (● [3a53a27](https://github.com/softvisio-node/core/commit/3a53a2716); 👬 zdm)
+
+- \[PATCH] fix: fix editorconfig (● [def65c3](https://github.com/softvisio-node/core/commit/def65c344); 👬 zdm)
+
+**Other changes:**
+
+- style: code cleanup (● [163c637](https://github.com/softvisio-node/core/commit/163c63770); 👬 zdm)
+
+- style: format configs (● [a415799](https://github.com/softvisio-node/core/commit/a415799ce); 👬 zdm)
+
+- style: lint (● [68b70bf](https://github.com/softvisio-node/core/commit/68b70bf99); 👬 zdm)
+
+- style: update .npmrc (● [99a9c09](https://github.com/softvisio-node/core/commit/99a9c0906); 👬 zdm)
+
+Compare with the previous release: [v7.175.5](https://github.com/softvisio-node/core/compare/v7.175.5...v7.176.0)
+
 ### v7.175.5 (2025-07-16)
 
 **Other changes:**
