@@ -4,7 +4,7 @@ import ansi from "#lib/ansi";
 import Api from "#lib/api";
 import Cli from "#lib/cli";
 import Table from "#lib/text/table";
-import yaml from "#lib/yaml";
+import * as yaml from "#lib/yaml";
 
 const CLI = {
     "title": "Core API client",
