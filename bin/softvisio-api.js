@@ -225,7 +225,7 @@ class ApiCli {
             console.log( JSON.stringify( method, null, 4 ) );
         }
         else {
-            console.log( yaml.stringify( method ) );
+            console.log( yaml.toYaml( method ) );
         }
     }
 }
