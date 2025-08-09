@@ -1,5 +1,25 @@
 # Changelog
 
+### v7.177.0 (2025-08-09)
+
+**New features:**
+
+- \[MINOR] feat: add phc api (● [01c22dd](https://github.com/softvisio-node/core/commit/01c22dd27); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor argon2 api (● [9a75b6e](https://github.com/softvisio-node/core/commit/9a75b6e7f); 👬 zdm)
+
+- \[PATCH] refactor: update json5 api (● [9f5e61e](https://github.com/softvisio-node/core/commit/9f5e61e1f); 👬 zdm)
+
+- \[PATCH] refactor: update msgpack api (● [b16307c](https://github.com/softvisio-node/core/commit/b16307cc9); 👬 zdm)
+
+- \[PATCH] refactor: update xml api (● [bd4d247](https://github.com/softvisio-node/core/commit/bd4d2471f); 👬 zdm)
+
+- \[PATCH] refactor: update yaml api (● [0d81ae3](https://github.com/softvisio-node/core/commit/0d81ae3bc), [def043b](https://github.com/softvisio-node/core/commit/def043bcc); 👬 zdm)
+
+Compare with the previous release: [v7.176.1](https://github.com/softvisio-node/core/compare/v7.176.1...v7.177.0)
+
 ### v7.176.1 (2025-07-29)
 
 **Bug fixes:**
