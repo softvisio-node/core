@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.177.1 (2025-08-10)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix stream type setter (● [d3da718](https://github.com/softvisio-node/core/commit/d3da71842), [87261f9](https://github.com/softvisio-node/core/commit/87261f9de), [c4be670](https://github.com/softvisio-node/core/commit/c4be67054); 👬 zdm)
+
+Compare with the previous release: [v7.177.0](https://github.com/softvisio-node/core/compare/v7.177.0...v7.177.1)
+
 ### v7.177.0 (2025-08-09)
 
 **New features:**
