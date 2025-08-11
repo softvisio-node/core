@@ -1,7 +1,7 @@
 - $id: config
   type: object
   properties:
-    preset: { enum: [owasp, rfc9106-high-memory, rfc9106-low-memory] }
+    preset: { enum: [owasp, rfc-9106-high, rfc-9106-low] }
     id: { enum: [argon2d, argon2i, argon2id] }
     version: { enum: [16, 19] }
     memoryCost: { type: integer, minimum: 1_024, maximum: 4_294_967_295 }
