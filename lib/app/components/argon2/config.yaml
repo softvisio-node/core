@@ -3,10 +3,4 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-  id: argon2id
-  version: 19
-  memoryCost: 65536
-  timeCost: 3
-  parallelism: 4
-  saltLength: 16
-  hashLength: 32
+  preset: owasp

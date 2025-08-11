@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.177.2 (2025-08-11)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update default argon2 settings (● [3d2c0fa](https://github.com/softvisio-node/core/commit/3d2c0fa50), [b8df0ef](https://github.com/softvisio-node/core/commit/b8df0ef9c); 👬 zdm)
+
+Compare with the previous release: [v7.177.1](https://github.com/softvisio-node/core/compare/v7.177.1...v7.177.2)
+
 ### v7.177.1 (2025-08-10)
 
 **Bug fixes:**
