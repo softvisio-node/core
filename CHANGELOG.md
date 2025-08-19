@@ -1,5 +1,17 @@
 # Changelog
 
+### v7.178.0 (2025-08-19)
+
+**New features:**
+
+- \[MINOR] feat: add crypto/password-hash api (● [a77597b](https://github.com/softvisio-node/core/commit/a77597b3b); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bunp actions/checkout\@v5 (● [57a61db](https://github.com/softvisio-node/core/commit/57a61db95); 👬 zdm)
+
+Compare with the previous release: [v7.177.3](https://github.com/softvisio-node/core/compare/v7.177.3...v7.178.0)
+
 ### v7.177.3 (2025-08-11)
 
 **Code refactoring:**
