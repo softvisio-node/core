@@ -8,6 +8,7 @@
     parallelism: { type: integer, minimum: 1, maximum: 255 }
     cost: { type: integer, minimum: 2 }
     blockSize: { type: integer, minimum: 1 }
+    maxMemory: { type: integer, minimum: 1 }
     iterations: { type: integer, minimum: 1 }
     saltLength: { type: integer, minimum: 8, maximum: 48 }
     hashLength: { type: integer, minimum: 12, maximum: 64 }
