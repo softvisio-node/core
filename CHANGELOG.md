@@ -1,5 +1,35 @@
 # Changelog
 
+### v7.179.1 (2025-08-23)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update app token format (● [8184382](https://github.com/softvisio-node/core/commit/818438207), [2901cb0](https://github.com/softvisio-node/core/commit/2901cb094), [2de7d0e](https://github.com/softvisio-node/core/commit/2de7d0e03), [d86cfb7](https://github.com/softvisio-node/core/commit/d86cfb711); 👬 zdm)
+
+Compare with the previous release: [v7.179.0](https://github.com/softvisio-node/core/compare/v7.179.0...v7.179.1)
+
+### v7.179.0 (2025-08-21)
+
+**New features:**
+
+- \[MINOR] feat: add crypto generateSalt function (● [13e79b5](https://github.com/softvisio-node/core/commit/13e79b5ed); 👬 zdm)
+
+- \[MINOR] feat: add ffmpeg-linux resource (● [f965383](https://github.com/softvisio-node/core/commit/f96538359), [ff78169](https://github.com/softvisio-node/core/commit/ff78169bb); 👬 zdm)
+
+- \[MINOR] feat: add more github api methods (● [1cb28cb](https://github.com/softvisio-node/core/commit/1cb28cb98); 👬 zdm)
+
+- \[MINOR] feat: add password hash hmac functions (● [22a143d](https://github.com/softvisio-node/core/commit/22a143d1a), [62d4246](https://github.com/softvisio-node/core/commit/62d4246ce); 👬 zdm)
+
+- \[MINOR] feat: add xz stream (● [215fd3f](https://github.com/softvisio-node/core/commit/215fd3fff); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: make token generation async (● [225ee87](https://github.com/softvisio-node/core/commit/225ee871e); 👬 zdm)
+
+- \[PATCH] refactor: update password-hash api (● [b0a566d](https://github.com/softvisio-node/core/commit/b0a566d70); 👬 zdm)
+
+Compare with the previous release: [v7.178.0](https://github.com/softvisio-node/core/compare/v7.178.0...v7.179.0)
+
 ### v7.178.0 (2025-08-19)
 
 **New features:**
