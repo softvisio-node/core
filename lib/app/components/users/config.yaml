@@ -1,6 +1,6 @@
 dependencies:
   - dbh
-  - argon2
+  - passwordHash
 
 optionalDependencies: ~
 
