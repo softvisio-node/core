@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.179.1 (2025-08-23)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update app token format (● [8184382](https://github.com/softvisio-node/core/commit/818438207), [2901cb0](https://github.com/softvisio-node/core/commit/2901cb094), [2de7d0e](https://github.com/softvisio-node/core/commit/2de7d0e03), [d86cfb7](https://github.com/softvisio-node/core/commit/d86cfb711); 👬 zdm)
+
+Compare with the previous release: [v7.179.0](https://github.com/softvisio-node/core/compare/v7.179.0...v7.179.1)
+
 ### v7.179.0 (2025-08-21)
 
 **New features:**
