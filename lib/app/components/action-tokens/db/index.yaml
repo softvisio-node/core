@@ -1,6 +1,6 @@
 module: action-tokens
 type: postgresql
-patch: 1
+patch: 2
 
 emits: ~
 
