@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.179.2 (2025-08-25)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix token verification (● [19c0059](https://github.com/softvisio-node/core/commit/19c0059c9), [fd02a92](https://github.com/softvisio-node/core/commit/fd02a927a), [abadac8](https://github.com/softvisio-node/core/commit/abadac838); 👬 zdm)
+
+Compare with the previous release: [v7.179.1](https://github.com/softvisio-node/core/compare/v7.179.1...v7.179.2)
+
 ### v7.179.1 (2025-08-23)
 
 **Code refactoring:**
