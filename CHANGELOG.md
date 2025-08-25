@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.179.3 (2025-08-25)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix invalid import (● [49e2b65](https://github.com/softvisio-node/core/commit/49e2b659f); 👬 zdm)
+
+Compare with the previous release: [v7.179.2](https://github.com/softvisio-node/core/compare/v7.179.2...v7.179.3)
+
 ### v7.179.2 (2025-08-25)
 
 **Bug fixes:**
