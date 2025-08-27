@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.179.5 (2025-08-27)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix password verification (● [267f7e9](https://github.com/softvisio-node/core/commit/267f7e958); 👬 zdm)
+
+Compare with the previous release: [v7.179.4](https://github.com/softvisio-node/core/compare/v7.179.4...v7.179.5)
+
 ### v7.179.4 (2025-08-25)
 
 **Bug fixes:**
