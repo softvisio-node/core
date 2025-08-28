@@ -1,5 +1,21 @@
 # Changelog
 
+### v7.179.6 (2025-08-28)
+
+**Bug fixes:**
+
+- \[PATCH] fix: argon2 keyId option renamed to secret (● [b3cb0bd](https://github.com/softvisio-node/core/commit/b3cb0bd93); 👬 zdm)
+
+- \[PATCH] fix: fix cyclic import (● [077ec3d](https://github.com/softvisio-node/core/commit/077ec3d7f), [9579629](https://github.com/softvisio-node/core/commit/9579629dc); 👬 zdm)
+
+- \[PATCH] fix: fix github api authorization (● [cc81146](https://github.com/softvisio-node/core/commit/cc8114607); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update github api (● [beadedf](https://github.com/softvisio-node/core/commit/beadedfbc); 👬 zdm)
+
+Compare with the previous release: [v7.179.5](https://github.com/softvisio-node/core/compare/v7.179.5...v7.179.6)
+
 ### v7.179.5 (2025-08-27)
 
 **Bug fixes:**
