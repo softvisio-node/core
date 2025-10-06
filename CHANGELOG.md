@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.179.7 (2025-09-25)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix postgres replication password schema (● [3f1d160](https://github.com/softvisio-node/core/commit/3f1d160a9); 👬 zdm)
+
+Compare with the previous release: [v7.179.6](https://github.com/softvisio-node/core/compare/v7.179.6...v7.179.7)
+
 ### v7.179.6 (2025-08-28)
 
 **Bug fixes:**
