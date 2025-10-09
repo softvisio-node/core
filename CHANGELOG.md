@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.181.0 (2025-10-09)
+
+**New features:**
+
+- \[MINOR] feat: remove postgres backup (● [26c852d](https://github.com/softvisio-node/core/commit/26c852dd1); 👬 zdm)
+
+Compare with the previous release: [v7.180.0](https://github.com/softvisio-node/core/compare/v7.180.0...v7.181.0)
+
 ### v7.180.0 (2025-10-06)
 
 **New features:**
