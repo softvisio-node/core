@@ -13,7 +13,7 @@
   properties:
     mode: { enum: [primary, standby-sync, standby-async] }
     clusterName: { type: string }
-    dataRootDir: { type: ["null", string] }
+    dataDir: { type: ["null", string] }
 
     access:
       type: array
@@ -89,4 +89,4 @@
       required: [enabled, port, serverNames, defaultServer]
 
   additionalProperties: false
-  required: [mode, clusterName, dataRootDir, access, nginx]
+  required: [mode, clusterName, dataDir, access, nginx]
