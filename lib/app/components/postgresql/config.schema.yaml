@@ -35,6 +35,16 @@
         additionalProperties: false
         required: [host, database, user, address, auth-method, auth-options]
 
+    backup:
+      type: object
+      properties:
+        enabled: { type: boolean }
+        maxAge: { type: interval }
+        incrementalBackupInterval: { type: interval }
+
+      additionalProperties: false
+      required: [enabled, maxAge, incrementalBackupInterval]
+
     replication:
       type: object
       properties:
@@ -89,4 +99,4 @@
       required: [enabled, port, serverNames, defaultServer]
 
   additionalProperties: false
-  required: [mode, clusterName, dataDir, access, nginx]
+  required: [mode, clusterName, dataDir, access, backup, nginx]

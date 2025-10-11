@@ -14,6 +14,11 @@ config:
     - { host: host, database: replication, user: replication, address: 0.0.0.0/0, auth-method: scram-sha-256, auth-options: ~ }
     - { host: host, database: all, user: all, address: 0.0.0.0/0, auth-method: scram-sha-256, auth-options: ~ }
 
+  backup:
+    enabled: false
+    maxAge: 1 week
+    incrementalBackupInterval: 1 day
+
   replication:
     port: 5432
     username: replication
