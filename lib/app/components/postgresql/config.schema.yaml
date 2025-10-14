@@ -13,7 +13,7 @@
   properties:
     mode: { enum: [primary, standby-sync, standby-async] }
     clusterName: { type: string }
-    dataRootDir: { type: ["null", string] }
+    dataDir: { type: ["null", string] }
 
     access:
       type: array
@@ -21,19 +21,25 @@
         type: object
         properties:
           host: { enum: [local, host, hostssl, hostnossl, hostgssenc, hostnogssenc] }
-
           database: { type: string }
-
           user: { type: string }
-
           address: { type: ["null", string] }
-
           auth-method: { enum: [trust, reject, scram-sha-256, md5, password, gss, sspi, ident, peer, ldap, radius, cert, pam, bsd] }
-
           auth-options: { type: ["null", string] }
 
         additionalProperties: false
         required: [host, database, user, address, auth-method, auth-options]
+
+    backup:
+      type: object
+      properties:
+        enabled: { type: boolean }
+        pitrEnabled: { type: boolean }
+        maxAge: { type: string, format: interval }
+        incrementalBackupInterval: { type: string, format: interval }
+
+      additionalProperties: false
+      required: [enabled, pitrEnabled, maxAge, incrementalBackupInterval]
 
     replication:
       type: object
@@ -89,4 +95,4 @@
       required: [enabled, port, serverNames, defaultServer]
 
   additionalProperties: false
-  required: [mode, clusterName, dataRootDir, access, nginx]
+  required: [mode, clusterName, dataDir, access, backup, nginx]
