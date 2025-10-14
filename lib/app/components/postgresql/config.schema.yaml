@@ -11,8 +11,6 @@
 - $id: config
   type: object
   properties:
-    storageLocation: { type: string, format: kebab-case-root-or-absolute-file-path }
-
     mode: { enum: [primary, standby-sync, standby-async] }
     clusterName: { type: string }
     dataRootDir: { type: ["null", string] }
@@ -37,20 +35,12 @@
         additionalProperties: false
         required: [host, database, user, address, auth-method, auth-options]
 
-    backups:
-      anyOf:
-        - type: "null"
-        - type: array
-          items: { type: string, format: interval }
-          minItems: 1
-          uniqueItems: true
-
     replication:
       type: object
       properties:
         port: { type: integer, format: ip-port }
         username: { type: string }
-        password: { type: string }
+        password: { type: ["null", string] }
 
         primary:
           type: object
@@ -99,4 +89,4 @@
       required: [enabled, port, serverNames, defaultServer]
 
   additionalProperties: false
-  required: [storageLocation, mode, clusterName, dataRootDir, access, backups, nginx]
+  required: [mode, clusterName, dataRootDir, access, nginx]

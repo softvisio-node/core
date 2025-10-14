@@ -1,5 +1,199 @@
 # Changelog
 
+### v7.181.0 (2025-10-09)
+
+**New features:**
+
+- \[MINOR] feat: remove postgres backup (● [26c852d](https://github.com/softvisio-node/core/commit/26c852dd1); 👬 zdm)
+
+Compare with the previous release: [v7.180.0](https://github.com/softvisio-node/core/compare/v7.180.0...v7.181.0)
+
+### v7.180.0 (2025-10-06)
+
+**New features:**
+
+- \[MINOR] feat: add gpg api (● [5966f52](https://github.com/softvisio-node/core/commit/5966f5247), [8361407](https://github.com/softvisio-node/core/commit/8361407b3), [a631b6b](https://github.com/softvisio-node/core/commit/a631b6be5), [0aa07ed](https://github.com/softvisio-node/core/commit/0aa07ed49), [fba85f0](https://github.com/softvisio-node/core/commit/fba85f0d2), [6f546e1](https://github.com/softvisio-node/core/commit/6f546e12e), [6460e18](https://github.com/softvisio-node/core/commit/6460e1800), [923b904](https://github.com/softvisio-node/core/commit/923b9044e), [b7fd7ed](https://github.com/softvisio-node/core/commit/b7fd7edca), [badf266](https://github.com/softvisio-node/core/commit/badf266ea), [9a0e83c](https://github.com/softvisio-node/core/commit/9a0e83c02), [18ce5ff](https://github.com/softvisio-node/core/commit/18ce5ffee), [4560c4b](https://github.com/softvisio-node/core/commit/4560c4bbd), [dfc062b](https://github.com/softvisio-node/core/commit/dfc062b06), [5867abd](https://github.com/softvisio-node/core/commit/5867abd04), [919174c](https://github.com/softvisio-node/core/commit/919174cbc), [18d3e8a](https://github.com/softvisio-node/core/commit/18d3e8a6f), [95d007a](https://github.com/softvisio-node/core/commit/95d007a07), [5d9936c](https://github.com/softvisio-node/core/commit/5d9936c46), [9e1319a](https://github.com/softvisio-node/core/commit/9e1319a6d), [1759e17](https://github.com/softvisio-node/core/commit/1759e1795), [3aab818](https://github.com/softvisio-node/core/commit/3aab818c0), [457c5fa](https://github.com/softvisio-node/core/commit/457c5fa29), [656be44](https://github.com/softvisio-node/core/commit/656be4420), [865232b](https://github.com/softvisio-node/core/commit/865232b89), [5f6ce81](https://github.com/softvisio-node/core/commit/5f6ce8192), [058b71f](https://github.com/softvisio-node/core/commit/058b71f88), [05061cb](https://github.com/softvisio-node/core/commit/05061cb1f), [8d125b1](https://github.com/softvisio-node/core/commit/8d125b138), [a9da0e4](https://github.com/softvisio-node/core/commit/a9da0e42f), [d596d2b](https://github.com/softvisio-node/core/commit/d596d2bd9), [6e6b995](https://github.com/softvisio-node/core/commit/6e6b99588), [7c5f2ba](https://github.com/softvisio-node/core/commit/7c5f2bae1), [09dc48b](https://github.com/softvisio-node/core/commit/09dc48b3e), [232a490](https://github.com/softvisio-node/core/commit/232a49092), [d591bbc](https://github.com/softvisio-node/core/commit/d591bbc58), [2d4b1fb](https://github.com/softvisio-node/core/commit/2d4b1fbd4), [adfea7e](https://github.com/softvisio-node/core/commit/adfea7e4a), [00c0cbe](https://github.com/softvisio-node/core/commit/00c0cbec2), [f77ee1f](https://github.com/softvisio-node/core/commit/f77ee1ffd), [03711d3](https://github.com/softvisio-node/core/commit/03711d32a), [d688baa](https://github.com/softvisio-node/core/commit/d688baa4d), [80479a0](https://github.com/softvisio-node/core/commit/80479a043), [b16ac80](https://github.com/softvisio-node/core/commit/b16ac80aa), [21526c6](https://github.com/softvisio-node/core/commit/21526c60f), [9ac5bf4](https://github.com/softvisio-node/core/commit/9ac5bf443), [665aaa6](https://github.com/softvisio-node/core/commit/665aaa6e0); 👬 zdm)
+
+Compare with the previous release: [v7.179.7](https://github.com/softvisio-node/core/compare/v7.179.7...v7.180.0)
+
+### v7.179.7 (2025-09-25)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix postgres replication password schema (● [3f1d160](https://github.com/softvisio-node/core/commit/3f1d160a9); 👬 zdm)
+
+Compare with the previous release: [v7.179.6](https://github.com/softvisio-node/core/compare/v7.179.6...v7.179.7)
+
+### v7.179.6 (2025-08-28)
+
+**Bug fixes:**
+
+- \[PATCH] fix: argon2 keyId option renamed to secret (● [b3cb0bd](https://github.com/softvisio-node/core/commit/b3cb0bd93); 👬 zdm)
+
+- \[PATCH] fix: fix cyclic import (● [077ec3d](https://github.com/softvisio-node/core/commit/077ec3d7f), [9579629](https://github.com/softvisio-node/core/commit/9579629dc); 👬 zdm)
+
+- \[PATCH] fix: fix github api authorization (● [cc81146](https://github.com/softvisio-node/core/commit/cc8114607); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update github api (● [beadedf](https://github.com/softvisio-node/core/commit/beadedfbc); 👬 zdm)
+
+Compare with the previous release: [v7.179.5](https://github.com/softvisio-node/core/compare/v7.179.5...v7.179.6)
+
+### v7.179.5 (2025-08-27)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix password verification (● [267f7e9](https://github.com/softvisio-node/core/commit/267f7e958); 👬 zdm)
+
+Compare with the previous release: [v7.179.4](https://github.com/softvisio-node/core/compare/v7.179.4...v7.179.5)
+
+### v7.179.4 (2025-08-25)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix password verification (● [1972199](https://github.com/softvisio-node/core/commit/1972199d2); 👬 zdm)
+
+Compare with the previous release: [v7.179.3](https://github.com/softvisio-node/core/compare/v7.179.3...v7.179.4)
+
+### v7.179.3 (2025-08-25)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix invalid import (● [49e2b65](https://github.com/softvisio-node/core/commit/49e2b659f); 👬 zdm)
+
+Compare with the previous release: [v7.179.2](https://github.com/softvisio-node/core/compare/v7.179.2...v7.179.3)
+
+### v7.179.2 (2025-08-25)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix token verification (● [19c0059](https://github.com/softvisio-node/core/commit/19c0059c9), [fd02a92](https://github.com/softvisio-node/core/commit/fd02a927a), [abadac8](https://github.com/softvisio-node/core/commit/abadac838); 👬 zdm)
+
+Compare with the previous release: [v7.179.1](https://github.com/softvisio-node/core/compare/v7.179.1...v7.179.2)
+
+### v7.179.1 (2025-08-23)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update app token format (● [8184382](https://github.com/softvisio-node/core/commit/818438207), [2901cb0](https://github.com/softvisio-node/core/commit/2901cb094), [2de7d0e](https://github.com/softvisio-node/core/commit/2de7d0e03), [d86cfb7](https://github.com/softvisio-node/core/commit/d86cfb711); 👬 zdm)
+
+Compare with the previous release: [v7.179.0](https://github.com/softvisio-node/core/compare/v7.179.0...v7.179.1)
+
+### v7.179.0 (2025-08-21)
+
+**New features:**
+
+- \[MINOR] feat: add crypto generateSalt function (● [13e79b5](https://github.com/softvisio-node/core/commit/13e79b5ed); 👬 zdm)
+
+- \[MINOR] feat: add ffmpeg-linux resource (● [f965383](https://github.com/softvisio-node/core/commit/f96538359), [ff78169](https://github.com/softvisio-node/core/commit/ff78169bb); 👬 zdm)
+
+- \[MINOR] feat: add more github api methods (● [1cb28cb](https://github.com/softvisio-node/core/commit/1cb28cb98); 👬 zdm)
+
+- \[MINOR] feat: add password hash hmac functions (● [22a143d](https://github.com/softvisio-node/core/commit/22a143d1a), [62d4246](https://github.com/softvisio-node/core/commit/62d4246ce); 👬 zdm)
+
+- \[MINOR] feat: add xz stream (● [215fd3f](https://github.com/softvisio-node/core/commit/215fd3fff); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: make token generation async (● [225ee87](https://github.com/softvisio-node/core/commit/225ee871e); 👬 zdm)
+
+- \[PATCH] refactor: update password-hash api (● [b0a566d](https://github.com/softvisio-node/core/commit/b0a566d70); 👬 zdm)
+
+Compare with the previous release: [v7.178.0](https://github.com/softvisio-node/core/compare/v7.178.0...v7.179.0)
+
+### v7.178.0 (2025-08-19)
+
+**New features:**
+
+- \[MINOR] feat: add crypto/password-hash api (● [a77597b](https://github.com/softvisio-node/core/commit/a77597b3b); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bunp actions/checkout\@v5 (● [57a61db](https://github.com/softvisio-node/core/commit/57a61db95); 👬 zdm)
+
+Compare with the previous release: [v7.177.3](https://github.com/softvisio-node/core/compare/v7.177.3...v7.178.0)
+
+### v7.177.3 (2025-08-11)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update argon2 defaults (● [e54a112](https://github.com/softvisio-node/core/commit/e54a112cf); 👬 zdm)
+
+Compare with the previous release: [v7.177.2](https://github.com/softvisio-node/core/compare/v7.177.2...v7.177.3)
+
+### v7.177.2 (2025-08-11)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update default argon2 settings (● [3d2c0fa](https://github.com/softvisio-node/core/commit/3d2c0fa50), [b8df0ef](https://github.com/softvisio-node/core/commit/b8df0ef9c); 👬 zdm)
+
+Compare with the previous release: [v7.177.1](https://github.com/softvisio-node/core/compare/v7.177.1...v7.177.2)
+
+### v7.177.1 (2025-08-10)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix stream type setter (● [d3da718](https://github.com/softvisio-node/core/commit/d3da71842), [87261f9](https://github.com/softvisio-node/core/commit/87261f9de), [c4be670](https://github.com/softvisio-node/core/commit/c4be67054); 👬 zdm)
+
+Compare with the previous release: [v7.177.0](https://github.com/softvisio-node/core/compare/v7.177.0...v7.177.1)
+
+### v7.177.0 (2025-08-09)
+
+**New features:**
+
+- \[MINOR] feat: add phc api (● [01c22dd](https://github.com/softvisio-node/core/commit/01c22dd27); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor argon2 api (● [9a75b6e](https://github.com/softvisio-node/core/commit/9a75b6e7f); 👬 zdm)
+
+- \[PATCH] refactor: update json5 api (● [9f5e61e](https://github.com/softvisio-node/core/commit/9f5e61e1f); 👬 zdm)
+
+- \[PATCH] refactor: update msgpack api (● [b16307c](https://github.com/softvisio-node/core/commit/b16307cc9); 👬 zdm)
+
+- \[PATCH] refactor: update xml api (● [bd4d247](https://github.com/softvisio-node/core/commit/bd4d2471f); 👬 zdm)
+
+- \[PATCH] refactor: update yaml api (● [0d81ae3](https://github.com/softvisio-node/core/commit/0d81ae3bc), [def043b](https://github.com/softvisio-node/core/commit/def043bcc); 👬 zdm)
+
+Compare with the previous release: [v7.176.1](https://github.com/softvisio-node/core/compare/v7.176.1...v7.177.0)
+
+### v7.176.1 (2025-07-29)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix TmpFile import (● [8890fbb](https://github.com/softvisio-node/core/commit/8890fbb83); 👬 zdm)
+
+Compare with the previous release: [v7.176.0](https://github.com/softvisio-node/core/compare/v7.176.0...v7.176.1)
+
+### v7.176.0 (2025-07-29)
+
+**New features:**
+
+- \[MINOR] feat: add events hasListeners() method (● [3bb9478](https://github.com/softvisio-node/core/commit/3bb947880); 👬 zdm)
+
+- \[MINOR] feat: add utils.sortObject() (● [fbb2bf9](https://github.com/softvisio-node/core/commit/fbb2bf9bf); 👬 zdm)
+
+- \[MINOR] feat: remove file stream, refactor stream (● [965230c](https://github.com/softvisio-node/core/commit/965230c70), [b407e47](https://github.com/softvisio-node/core/commit/b407e47e6); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix cyclic import (● [3a53a27](https://github.com/softvisio-node/core/commit/3a53a2716); 👬 zdm)
+
+- \[PATCH] fix: fix editorconfig (● [def65c3](https://github.com/softvisio-node/core/commit/def65c344); 👬 zdm)
+
+**Other changes:**
+
+- style: code cleanup (● [163c637](https://github.com/softvisio-node/core/commit/163c63770); 👬 zdm)
+
+- style: format configs (● [a415799](https://github.com/softvisio-node/core/commit/a415799ce); 👬 zdm)
+
+- style: lint (● [68b70bf](https://github.com/softvisio-node/core/commit/68b70bf99); 👬 zdm)
+
+- style: update .npmrc (● [99a9c09](https://github.com/softvisio-node/core/commit/99a9c0906); 👬 zdm)
+
+Compare with the previous release: [v7.175.5](https://github.com/softvisio-node/core/compare/v7.175.5...v7.176.0)
+
 ### v7.175.5 (2025-07-16)
 
 **Other changes:**

@@ -1,0 +1,17 @@
+- $id: config
+  type: object
+  properties:
+    preset: { enum: [owasp, argon2, argon2i, argon2d, argon2id, rfc-9106-high, rfc-9106-low, scrypt, pbkdf2, pbkdf2-sha1, pbkdf2-sha256, pbkdf2-sha512, openssl, hmac-sha256, hmac-sha512, hmac-sha3-256, hmac-sha3-512] }
+    version: { enum: [16, 19] }
+    memoryCost: { type: integer, minimum: 1_024, maximum: 4_294_967_295 }
+    timeCost: { type: integer, minimum: 1, maximum: 4_294_967_295 }
+    parallelism: { type: integer, minimum: 1, maximum: 255 }
+    cost: { type: integer, minimum: 2 }
+    blockSize: { type: integer, minimum: 1 }
+    maxMemory: { type: integer, minimum: 1 }
+    iterations: { type: integer, minimum: 1 }
+    saltLength: { type: integer, minimum: 8, maximum: 64 }
+    hashLength: { type: integer, minimum: 12, maximum: 64 }
+
+  additionalProperties: false
+  required: [preset]
