@@ -1,5 +1,21 @@
 # Changelog
 
+### v7.182.0 (2025-10-14)
+
+**New features:**
+
+- \[MINOR] feat: use crypto.argon2 when available (● [035ec5a](https://github.com/softvisio-node/core/commit/035ec5ae2); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: add mime type inspector (● [0596512](https://github.com/softvisio-node/core/commit/0596512ea); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update postgresql component (● [eb50a80](https://github.com/softvisio-node/core/commit/eb50a80c9); 👬 zdm)
+
+Compare with the previous release: [v7.181.0](https://github.com/softvisio-node/core/compare/v7.181.0...v7.182.0)
+
 ### v7.181.0 (2025-10-09)
 
 **New features:**
