@@ -11,7 +11,7 @@
 - $id: config
   type: object
   properties:
-    mode: { enum: [primary, standby-sync, standby-async] }
+    mode: { enum: [primary, standby-sync, standby-async, backup] }
     clusterName: { type: string }
     dataDir: { type: ["null", string] }
 
