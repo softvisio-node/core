@@ -17,6 +17,7 @@ config:
   backup:
     enabled: false
     pitrEnabled: true
+    hostname: postgresql-backup
     maxAge: 1 week
     incrementalBackupInterval: 1 day
 

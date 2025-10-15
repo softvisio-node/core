@@ -35,11 +35,12 @@
       properties:
         enabled: { type: boolean }
         pitrEnabled: { type: boolean }
+        hostname: { type: string }
         maxAge: { type: string, format: interval }
         incrementalBackupInterval: { type: string, format: interval }
 
       additionalProperties: false
-      required: [enabled, pitrEnabled, maxAge, incrementalBackupInterval]
+      required: [enabled, pitrEnabled, hostname. maxAge, incrementalBackupInterval]
 
     replication:
       type: object
