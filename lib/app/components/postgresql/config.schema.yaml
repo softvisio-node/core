@@ -40,7 +40,7 @@
         incrementalBackupInterval: { type: string, format: interval }
 
       additionalProperties: false
-      required: [enabled, pitrEnabled, hostname. maxAge, incrementalBackupInterval]
+      required: [enabled, pitrEnabled, hostname, maxAge, incrementalBackupInterval]
 
     replication:
       type: object
