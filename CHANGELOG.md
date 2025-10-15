@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.182.2 (2025-10-15)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor postgresql component (● [0da68fe](https://github.com/softvisio-node/core/commit/0da68fe15); 👬 zdm)
+
+Compare with the previous release: [v7.182.1](https://github.com/softvisio-node/core/compare/v7.182.1...v7.182.2)
+
 ### v7.182.1 (2025-10-14)
 
 **Bug fixes:**
