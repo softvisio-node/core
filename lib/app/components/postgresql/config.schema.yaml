@@ -11,7 +11,7 @@
 - $id: config
   type: object
   properties:
-    mode: { enum: [primary, standby-sync, standby-async] }
+    mode: { enum: [primary, standby-sync, standby-async, backup] }
     clusterName: { type: string }
     dataDir: { type: ["null", string] }
 
@@ -35,11 +35,12 @@
       properties:
         enabled: { type: boolean }
         pitrEnabled: { type: boolean }
+        hostname: { type: string }
         maxAge: { type: string, format: interval }
         incrementalBackupInterval: { type: string, format: interval }
 
       additionalProperties: false
-      required: [enabled, pitrEnabled, maxAge, incrementalBackupInterval]
+      required: [enabled, pitrEnabled, hostname, maxAge, incrementalBackupInterval]
 
     replication:
       type: object
