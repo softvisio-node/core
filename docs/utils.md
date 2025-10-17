@@ -9,11 +9,6 @@ import * as utils from "@softvisio/utils";
 - `timeout` {integer} Timeout to sleep.
 - Returns: {Promise} Resolves when timeout passed.
 
-### utils.quoteMeta( string )
-
-- `string` {string}
-- Returns: {string} String with the {RegExp} meta characters quoted.
-
 ### utils.getRandomArrayIndex( array )
 
 - `array` {Array}
