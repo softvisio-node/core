@@ -93,7 +93,6 @@
         "test": "node --test tests/**/*.test.js"
     },
     "dependencies": {
-        "@softvisio/argon2": "^1.2.5",
         "@softvisio/msgpack": "^3.0.0",
         "@softvisio/sqlite": "^1.15.39",
         "@softvisio/utils": "^2.0.0",
