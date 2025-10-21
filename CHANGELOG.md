@@ -1,5 +1,21 @@
 # Changelog
 
+### v7.183.0 (2025-10-21)
+
+**New features:**
+
+- \[MINOR] feat: add postgresql large objects (● [93b84a9](https://github.com/softvisio-node/core/commit/93b84a972); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: remove resolve silent option (● [6d52c1c](https://github.com/softvisio-node/core/commit/6d52c1c80); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor postgresql component (● [f97b89b](https://github.com/softvisio-node/core/commit/f97b89b5d); 👬 zdm)
+
+Compare with the previous release: [v7.182.2](https://github.com/softvisio-node/core/compare/v7.182.2...v7.183.0)
+
 ### v7.182.2 (2025-10-15)
 
 **Code refactoring:**
