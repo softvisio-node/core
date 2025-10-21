@@ -1,5 +1,17 @@
 # Changelog
 
+### v7.183.1 (2025-10-21)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix large object unlink (● [f9ae055](https://github.com/softvisio-node/core/commit/f9ae0551e); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor postgresql component (● [5888123](https://github.com/softvisio-node/core/commit/588812306); 👬 zdm)
+
+Compare with the previous release: [v7.183.0](https://github.com/softvisio-node/core/compare/v7.183.0...v7.183.1)
+
 ### v7.183.0 (2025-10-21)
 
 **New features:**
