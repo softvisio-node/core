@@ -14,7 +14,7 @@ config:
 
   buckets:
     /:
-      type: local
+      type: postgresql
 
   locations:
     /:
@@ -23,7 +23,7 @@ config:
       deduplicate: false
       cacheControl: public, max-age=1
     /private:
-      private: false
+      private: true
       encrypt: false
       deduplicate: false
       cacheControl: public, max-age=1

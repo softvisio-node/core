@@ -30,12 +30,21 @@
   $defs:
     bucket:
       anyOf:
+        # postgresql
+        - type: object
+          properties:
+            type: { const: postgresql }
+          additionalProperties: false
+          required: [type]
+
+        # local
         - type: object
           properties:
             type: { const: local }
           additionalProperties: false
           required: [type]
 
+        # google
         - type: object
           properties:
             type: { const: google }
