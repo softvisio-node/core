@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.183.3 (2025-10-26)
+
+**Other changes:**
+
+- style: lint (● [5e6b0ac](https://github.com/softvisio-node/core/commit/5e6b0ac30), [bd22a36](https://github.com/softvisio-node/core/commit/bd22a36e7), [9818cea](https://github.com/softvisio-node/core/commit/9818ceaf9); 👬 zdm)
+
+Compare with the previous release: [v7.183.2](https://github.com/softvisio-node/core/compare/v7.183.2...v7.183.3)
+
 ### v7.183.2 (2025-10-21)
 
 **Code refactoring:**
