@@ -1,5 +1,17 @@
 # Changelog
 
+### v7.184.0 (2025-10-28)
+
+**New features:**
+
+- \[MINOR] feat: megrate to nodejs v24.11.0 lts (● [069becd](https://github.com/softvisio-node/core/commit/069becdec); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename offset to start in postgresql large object (● [28e7c3a](https://github.com/softvisio-node/core/commit/28e7c3a27); 👬 zdm)
+
+Compare with the previous release: [v7.183.3](https://github.com/softvisio-node/core/compare/v7.183.3...v7.184.0)
+
 ### v7.183.3 (2025-10-26)
 
 **Other changes:**
