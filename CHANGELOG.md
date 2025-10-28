@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.184.1 (2025-10-28)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix glob regexp builder (● [7285e9e](https://github.com/softvisio-node/core/commit/7285e9eb7); 👬 zdm)
+
+Compare with the previous release: [v7.184.0](https://github.com/softvisio-node/core/compare/v7.184.0...v7.184.1)
+
 ### v7.184.0 (2025-10-28)
 
 **New features:**
