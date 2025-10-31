@@ -1,5 +1,17 @@
 # Changelog
 
+### v7.186.0 (2025-10-31)
+
+**New features:**
+
+- \[MINOR] feat: add shellQuote function (● [bfb89f7](https://github.com/softvisio-node/core/commit/bfb89f704), [5aeb9fb](https://github.com/softvisio-node/core/commit/5aeb9fb6b); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix spawn shell args (● [f18e664](https://github.com/softvisio-node/core/commit/f18e66400); 👬 zdm)
+
+Compare with the previous release: [v7.185.0](https://github.com/softvisio-node/core/compare/v7.185.0...v7.186.0)
+
 ### v7.185.0 (2025-10-30)
 
 **New features:**
