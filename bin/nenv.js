@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import childProcess from "node:child_process";
-import { shellEscape } from "#lib/utils";
+import { shellQuote } from "#lib/utils";
 
 process.argv.shift();
 process.argv.shift();
@@ -36,7 +36,7 @@ if ( !process.argv.length ) {
     process.exit( 1 );
 }
 
-const res = childProcess.spawnSync( shellEscape( process.argv ), {
+const res = childProcess.spawnSync( shellQuote( process.argv ), {
     "cwd": process.cwd(),
     "env": {
         ...process.env,
