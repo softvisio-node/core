@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.187.0 (2025-11-02)
+
+**New features:**
+
+- \[MINOR] feat: add tar streams (● [a757741](https://github.com/softvisio-node/core/commit/a7577416a); 👬 zdm)
+
+Compare with the previous release: [v7.186.1](https://github.com/softvisio-node/core/compare/v7.186.1...v7.187.0)
+
 ### v7.186.1 (2025-11-02)
 
 **Bug fixes:**
