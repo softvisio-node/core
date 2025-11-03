@@ -1,6 +1,6 @@
 {
     "name": "@softvisio/core",
-    "version": "7.183.3",
+    "version": "7.187.0",
     "description": "Softisio core",
     "keywords": [
         "softvisio",
@@ -93,7 +93,6 @@
         "test": "node --test tests/**/*.test.js"
     },
     "dependencies": {
-        "@softvisio/argon2": "^1.2.5",
         "@softvisio/msgpack": "^3.0.0",
         "@softvisio/sqlite": "^1.15.39",
         "@softvisio/utils": "^2.0.0",
@@ -124,7 +123,7 @@
         "xz-decompress": "^0.2.3"
     },
     "engines": {
-        "node": ">=22.11.0",
-        "npm": ">=10.9.0"
+        "node": ">=24.11.0",
+        "npm": ">=11.6.1"
     }
 }

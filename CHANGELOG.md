@@ -1,5 +1,61 @@
 # Changelog
 
+### v7.187.0 (2025-11-02)
+
+**New features:**
+
+- \[MINOR] feat: add tar streams (● [a757741](https://github.com/softvisio-node/core/commit/a7577416a); 👬 zdm)
+
+Compare with the previous release: [v7.186.1](https://github.com/softvisio-node/core/compare/v7.186.1...v7.187.0)
+
+### v7.186.1 (2025-11-02)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix env root detection for the globally installed packages (● [c5ceff3](https://github.com/softvisio-node/core/commit/c5ceff32a); 👬 zdm)
+
+Compare with the previous release: [v7.186.0](https://github.com/softvisio-node/core/compare/v7.186.0...v7.186.1)
+
+### v7.186.0 (2025-10-31)
+
+**New features:**
+
+- \[MINOR] feat: add shellQuote function (● [bfb89f7](https://github.com/softvisio-node/core/commit/bfb89f704), [5aeb9fb](https://github.com/softvisio-node/core/commit/5aeb9fb6b); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix spawn shell args (● [f18e664](https://github.com/softvisio-node/core/commit/f18e66400); 👬 zdm)
+
+Compare with the previous release: [v7.185.0](https://github.com/softvisio-node/core/compare/v7.185.0...v7.186.0)
+
+### v7.185.0 (2025-10-30)
+
+**New features:**
+
+- \[MINOR] feat: add tar streams (● [50b5186](https://github.com/softvisio-node/core/commit/50b518606); 👬 zdm)
+
+Compare with the previous release: [v7.184.1](https://github.com/softvisio-node/core/compare/v7.184.1...v7.185.0)
+
+### v7.184.1 (2025-10-28)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix glob regexp builder (● [7285e9e](https://github.com/softvisio-node/core/commit/7285e9eb7); 👬 zdm)
+
+Compare with the previous release: [v7.184.0](https://github.com/softvisio-node/core/compare/v7.184.0...v7.184.1)
+
+### v7.184.0 (2025-10-28)
+
+**New features:**
+
+- \[MINOR] feat: megrate to nodejs v24.11.0 lts (● [069becd](https://github.com/softvisio-node/core/commit/069becdec); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename offset to start in postgresql large object (● [28e7c3a](https://github.com/softvisio-node/core/commit/28e7c3a27); 👬 zdm)
+
+Compare with the previous release: [v7.183.3](https://github.com/softvisio-node/core/compare/v7.183.3...v7.184.0)
+
 ### v7.183.3 (2025-10-26)
 
 **Other changes:**
