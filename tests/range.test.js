@@ -51,6 +51,52 @@ suite( "range", () => {
                     "length": undefined,
                 },
             },
+
+            // has content length
+            {
+                "start": null,
+                "end": null,
+                "length": null,
+                "contentLength": 100,
+                "result": {
+                    "start": 0,
+                    "end": 99,
+                    "length": 100,
+                },
+            },
+            {
+                "start": 10,
+                "end": null,
+                "length": null,
+                "contentLength": 100,
+                "result": {
+                    "start": 10,
+                    "end": 99,
+                    "length": 90,
+                },
+            },
+            {
+                "start": 10,
+                "end": 10,
+                "length": null,
+                "contentLength": 100,
+                "result": {
+                    "start": 10,
+                    "end": -1,
+                    "length": 0,
+                },
+            },
+            {
+                "start": 10,
+                "end": 20,
+                "length": null,
+                "contentLength": 100,
+                "result": {
+                    "start": 10,
+                    "end": 19,
+                    "length": 10,
+                },
+            },
         ];
 
         for ( let n = 0; n < tests.length; n++ ) {
