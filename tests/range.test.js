@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { deepStrictEqual, throws } from "node:assert";
+import { deepStrictEqual, fail } from "node:assert";
 import { suite, test } from "node:test";
 import Range from "#lib/range";
 
@@ -19,6 +19,14 @@ suite( "range", () => {
         const tests = [
 
             // no content length
+            {
+                "start": -1,
+                "end": null,
+                "length": null,
+                "contentLength": null,
+                "strict": false,
+                "result": null,
+            },
             {
                 "start": null,
                 "end": null,
@@ -127,7 +135,7 @@ suite( "range", () => {
                     deepStrictEqual( range, tests[ n ].result );
                 }
                 else {
-                    throws( createRange( tests[ n ] ) );
+                    fail( createRange( tests[ n ] ) );
                 }
             } );
         }
