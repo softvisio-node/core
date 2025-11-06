@@ -24,6 +24,7 @@ suite( "range", () => {
                 "end": null,
                 "length": null,
                 "contentLength": null,
+                "strict": false,
                 "result": {
                     "start": 0,
                     "end": undefined,
@@ -35,6 +36,7 @@ suite( "range", () => {
                 "end": null,
                 "length": null,
                 "contentLength": null,
+                "strict": false,
                 "result": {
                     "start": 10,
                     "end": undefined,
@@ -46,6 +48,7 @@ suite( "range", () => {
                 "end": 10,
                 "length": null,
                 "contentLength": null,
+                "strict": false,
                 "result": {
                     "start": 10,
                     "end": -1,
@@ -57,6 +60,7 @@ suite( "range", () => {
                 "end": 20,
                 "length": null,
                 "contentLength": null,
+                "strict": false,
                 "result": {
                     "start": 10,
                     "end": 19,
@@ -70,6 +74,7 @@ suite( "range", () => {
                 "end": null,
                 "length": null,
                 "contentLength": 100,
+                "strict": false,
                 "result": {
                     "start": 0,
                     "end": 99,
@@ -81,6 +86,7 @@ suite( "range", () => {
                 "end": null,
                 "length": null,
                 "contentLength": 100,
+                "strict": false,
                 "result": {
                     "start": 10,
                     "end": 99,
@@ -92,6 +98,7 @@ suite( "range", () => {
                 "end": 10,
                 "length": null,
                 "contentLength": 100,
+                "strict": false,
                 "result": {
                     "start": 10,
                     "end": -1,
@@ -103,6 +110,7 @@ suite( "range", () => {
                 "end": 20,
                 "length": null,
                 "contentLength": 100,
+                "strict": false,
                 "result": {
                     "start": 10,
                     "end": 19,
