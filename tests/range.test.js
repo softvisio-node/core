@@ -4,6 +4,9 @@ import { deepStrictEqual, fail } from "node:assert";
 import { suite, test } from "node:test";
 import Range from "#lib/range";
 
+// XXX assert.fail
+// XXX readFile - start, end
+
 function createRange ( { start, end, length, contentLength, strict } = {} ) {
     return new Range( {
         start,
