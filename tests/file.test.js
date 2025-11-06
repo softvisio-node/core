@@ -34,10 +34,11 @@ suite( "file", () => {
                         "start": TESTS[ n ].start,
                         "end": TESTS[ n ].end,
                     } ),
-                    text = await stream.text();
+                    text = await stream.text(),
+                    slice = content.slice( TESTS[ n ].start ?? undefined, TESTS[ n ].end ?? undefined );
 
-                strictEqual( content.slice( TESTS[ n ].start, TESTS[ n ].end ).length, stream.size );
-                strictEqual( content.slice( TESTS[ n ].start, TESTS[ n ].end ), text );
+                strictEqual( slice.length, stream.size );
+                strictEqual( slice, text );
             } );
         }
     } );
