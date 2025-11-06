@@ -1,8 +1,18 @@
 #!/usr/bin/env node
 
-import { deepStrictEqual } from "node:assert";
+import { deepStrictEqual, throws } from "node:assert";
 import { suite, test } from "node:test";
 import Range from "#lib/range";
+
+function createRange ( { start, end, length, contentLength, strict } = {} ) {
+    return new Range( {
+        start,
+        end,
+        length,
+    } ).calculateReadStreamRange( contentLength, {
+        strict,
+    } );
+}
 
 suite( "range", () => {
     suite( "calculate-readable-stream-range", () => {
@@ -103,13 +113,14 @@ suite( "range", () => {
 
         for ( let n = 0; n < tests.length; n++ ) {
             test( `${ n }`, () => {
-                const range = new Range( {
-                    "start": tests[ n ].start,
-                    "end": tests[ n ].end,
-                    "length": tests[ n ].length,
-                } ).calculateReadStreamRange( tests[ n ].contentLength );
+                if ( tests[ n ].result ) {
+                    const range = createRange( tests[ n ] );
 
-                deepStrictEqual( range, tests[ n ].result );
+                    deepStrictEqual( range, tests[ n ].result );
+                }
+                else {
+                    throws( createRange( tests[ n ] ) );
+                }
             } );
         }
     } );
