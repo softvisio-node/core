@@ -1,11 +1,8 @@
 #!/usr/bin/env node
 
-import { deepStrictEqual, fail } from "node:assert";
+import { deepStrictEqual, throws } from "node:assert";
 import { suite, test } from "node:test";
 import Range from "#lib/range";
-
-// XXX assert.fail
-// XXX readFile - start, end
 
 function createRange ( { start, end, length, contentLength, strict } = {} ) {
     return new Range( {
@@ -138,7 +135,7 @@ suite( "range", () => {
                     deepStrictEqual( range, tests[ n ].result );
                 }
                 else {
-                    fail( createRange( tests[ n ] ) );
+                    throws( () => createRange( tests[ n ] ) );
                 }
             } );
         }
