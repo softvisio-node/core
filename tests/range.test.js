@@ -29,6 +29,20 @@ suite( "range", () => {
     suite( "calculate-range", () => {
         const tests = [
             {
+                "start": 0,
+                "end": 0,
+                "length": null,
+                "contentLength": null,
+                "strict": false,
+                "result": {
+                    "start": 0,
+                    "end": 0,
+                    "length": 0,
+                    "maxEnd": 0,
+                    "maxLength": 0,
+                },
+            },
+            {
                 "start": 10,
                 "end": 10,
                 "length": null,
@@ -40,6 +54,20 @@ suite( "range", () => {
                     "length": 0,
                     "maxEnd": 10,
                     "maxLength": 0,
+                },
+            },
+            {
+                "start": 10,
+                "end": 100,
+                "length": null,
+                "contentLength": null,
+                "strict": false,
+                "result": {
+                    "start": 10,
+                    "end": undefined,
+                    "length": undefined,
+                    "maxEnd": 100,
+                    "maxLength": 90,
                 },
             },
         ];
