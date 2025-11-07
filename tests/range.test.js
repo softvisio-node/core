@@ -79,7 +79,7 @@ suite( "range", () => {
         }
     } );
 
-    suite( "calculate-readable-stream-range", () => {
+    suite( "calculate-read-stream-range", () => {
         const tests = [
 
             // no content length
