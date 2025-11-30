@@ -44,7 +44,7 @@ methods:
             checkImage: { type: boolean }
           additionalProperties: false
 
-  get-meta:
+  get-file-meta:
     title: Get file meta data
     params:
       - name: path
