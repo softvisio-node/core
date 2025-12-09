@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.189.0 (2025-12-09)
+
+**New features:**
+
+- \[MINOR] feat: add release workflow (● [00a91da](https://github.com/softvisio-node/core/commit/00a91dadf); 👬 zdm)
+
+Compare with the previous release: [v7.188.0](https://github.com/softvisio-node/core/compare/v7.188.0...v7.189.0)
+
 ### v7.188.0 (2025-12-09)
 
 **New features:**
