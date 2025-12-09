@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.189.4 (2025-12-09)
+
+**Bug fixes:**
+
+- \[PATCH] fix: remove release workflow (● [eb75882](https://github.com/softvisio-node/core/commit/eb7588222); 👬 zdm)
+
+Compare with the previous release: [v7.189.3](https://github.com/softvisio-node/core/compare/v7.189.3...v7.189.4)
+
 ### v7.189.3 (2025-12-09)
 
 **Bug fixes:**
