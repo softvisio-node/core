@@ -1,5 +1,45 @@
 # Changelog
 
+### v7.188.0 (2025-12-09)
+
+**New features:**
+
+- \[MINOR] feat: add env.setMode() (● [b29e2aa](https://github.com/softvisio-node/core/commit/b29e2aab3); 👬 zdm)
+
+- \[MINOR] feat: add postgresql storage (● [3653e78](https://github.com/softvisio-node/core/commit/3653e7810), [edccfc8](https://github.com/softvisio-node/core/commit/edccfc8bc), [10ce0bc](https://github.com/softvisio-node/core/commit/10ce0bcfd), [209a35d](https://github.com/softvisio-node/core/commit/209a35de0), [074cc56](https://github.com/softvisio-node/core/commit/074cc56ae), [316cfb5](https://github.com/softvisio-node/core/commit/316cfb5ad), [478f823](https://github.com/softvisio-node/core/commit/478f8239c), [8649e4c](https://github.com/softvisio-node/core/commit/8649e4c84), [4d7a002](https://github.com/softvisio-node/core/commit/4d7a002bb), [1f54696](https://github.com/softvisio-node/core/commit/1f54696b8), [b4ef002](https://github.com/softvisio-node/core/commit/b4ef002cf), [c395566](https://github.com/softvisio-node/core/commit/c395566ff), [f28131e](https://github.com/softvisio-node/core/commit/f28131ece), [4d5a431](https://github.com/softvisio-node/core/commit/4d5a43140), [0cb7592](https://github.com/softvisio-node/core/commit/0cb759262), [cd59857](https://github.com/softvisio-node/core/commit/cd5985723), [1003087](https://github.com/softvisio-node/core/commit/1003087b6), [aa1b933](https://github.com/softvisio-node/core/commit/aa1b933c2), [50bc5cb](https://github.com/softvisio-node/core/commit/50bc5cb74), [8608758](https://github.com/softvisio-node/core/commit/8608758d8), [e80500e](https://github.com/softvisio-node/core/commit/e80500ead), [831578c](https://github.com/softvisio-node/core/commit/831578c98), [7431848](https://github.com/softvisio-node/core/commit/743184825), [847cac0](https://github.com/softvisio-node/core/commit/847cac00d), [fdfb9b1](https://github.com/softvisio-node/core/commit/fdfb9b187), [a5aff39](https://github.com/softvisio-node/core/commit/a5aff3946), [908be90](https://github.com/softvisio-node/core/commit/908be9020), [4f142ed](https://github.com/softvisio-node/core/commit/4f142ed3a), [8807fc6](https://github.com/softvisio-node/core/commit/8807fc682), [cc60fd4](https://github.com/softvisio-node/core/commit/cc60fd451), [95827a0](https://github.com/softvisio-node/core/commit/95827a0ac), [b152030](https://github.com/softvisio-node/core/commit/b152030ce), [a9326d6](https://github.com/softvisio-node/core/commit/a9326d65c); 👬 zdm)
+
+- \[MINOR] feat: add ranges (● [3a403f6](https://github.com/softvisio-node/core/commit/3a403f6b6), [0260843](https://github.com/softvisio-node/core/commit/0260843a0), [02bfec6](https://github.com/softvisio-node/core/commit/02bfec620), [7ccffa8](https://github.com/softvisio-node/core/commit/7ccffa80d), [abd141e](https://github.com/softvisio-node/core/commit/abd141ebc), [fdd198d](https://github.com/softvisio-node/core/commit/fdd198d0b), [edf137d](https://github.com/softvisio-node/core/commit/edf137d4b), [2777519](https://github.com/softvisio-node/core/commit/2777519f5), [8dbf361](https://github.com/softvisio-node/core/commit/8dbf361ac), [a8a18f3](https://github.com/softvisio-node/core/commit/a8a18f3c1), [303f8e8](https://github.com/softvisio-node/core/commit/303f8e85d), [1752a55](https://github.com/softvisio-node/core/commit/1752a55a7), [0f09fb7](https://github.com/softvisio-node/core/commit/0f09fb705), [e6dbb9f](https://github.com/softvisio-node/core/commit/e6dbb9f10), [b52abce](https://github.com/softvisio-node/core/commit/b52abcee3), [4b1039b](https://github.com/softvisio-node/core/commit/4b1039b9c), [cced901](https://github.com/softvisio-node/core/commit/cced9018a), [091556a](https://github.com/softvisio-node/core/commit/091556a13), [d81433b](https://github.com/softvisio-node/core/commit/d81433bd4), [5c93a0b](https://github.com/softvisio-node/core/commit/5c93a0b09), [e2ba81e](https://github.com/softvisio-node/core/commit/e2ba81e4d), [99f8575](https://github.com/softvisio-node/core/commit/99f8575a7), [36a8761](https://github.com/softvisio-node/core/commit/36a87617c), [d3c5e42](https://github.com/softvisio-node/core/commit/d3c5e42d0), [c84bc89](https://github.com/softvisio-node/core/commit/c84bc8944), [af35216](https://github.com/softvisio-node/core/commit/af3521694), [29f254b](https://github.com/softvisio-node/core/commit/29f254b04), [ba47c87](https://github.com/softvisio-node/core/commit/ba47c8781), [32445e2](https://github.com/softvisio-node/core/commit/32445e2ac), [1292e8e](https://github.com/softvisio-node/core/commit/1292e8e86), [7a325cb](https://github.com/softvisio-node/core/commit/7a325cb15), [e590ec4](https://github.com/softvisio-node/core/commit/e590ec4ad), [f960d60](https://github.com/softvisio-node/core/commit/f960d60a6), [80c0a1c](https://github.com/softvisio-node/core/commit/80c0a1ccb), [f87937c](https://github.com/softvisio-node/core/commit/f87937c07), [bc2481d](https://github.com/softvisio-node/core/commit/bc2481d51), [bdc8bcd](https://github.com/softvisio-node/core/commit/bdc8bcd03), [1f83fd3](https://github.com/softvisio-node/core/commit/1f83fd3f5), [dc8e78e](https://github.com/softvisio-node/core/commit/dc8e78ec7), [ca1175f](https://github.com/softvisio-node/core/commit/ca1175f2b), [0f4c90b](https://github.com/softvisio-node/core/commit/0f4c90b3f), [b8a9d0c](https://github.com/softvisio-node/core/commit/b8a9d0c80); 👬 zdm)
+
+- \[MINOR] feat: refactor streams (● [f7758d7](https://github.com/softvisio-node/core/commit/f7758d709); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix join stream (● [054651e](https://github.com/softvisio-node/core/commit/054651e13); 👬 zdm)
+
+- \[PATCH] fix: fix stream multipart (● [206cac3](https://github.com/softvisio-node/core/commit/206cac374), [d14b60b](https://github.com/softvisio-node/core/commit/d14b60bbf); 👬 zdm)
+
+- \[PATCH] fix: fix stream/combined (● [f7973be](https://github.com/softvisio-node/core/commit/f7973be18); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor code (● [e44c5a3](https://github.com/softvisio-node/core/commit/e44c5a317); 👬 zdm)
+
+- \[PATCH] refactor: refactor stream/search (● [b50f0bf](https://github.com/softvisio-node/core/commit/b50f0bf6a); 👬 zdm)
+
+- \[PATCH] refactor: remove http/body (● [6432ccf](https://github.com/softvisio-node/core/commit/6432ccfd1); 👬 zdm)
+
+- \[PATCH] refactor: rename stream/combined -> stream.join (● [02e2b21](https://github.com/softvisio-node/core/commit/02e2b2140); 👬 zdm)
+
+- \[PATCH] refactor: update storage component (● [589223b](https://github.com/softvisio-node/core/commit/589223b95); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bump actions/checkout\@v6 (● [bc27239](https://github.com/softvisio-node/core/commit/bc2723956); 👬 zdm)
+
+- chore: refactored (● [587cbb7](https://github.com/softvisio-node/core/commit/587cbb7d1); 👬 zdm)
+
+Compare with the previous release: [v7.187.0](https://github.com/softvisio-node/core/compare/v7.187.0...v7.188.0)
+
 ### v7.187.0 (2025-11-02)
 
 **New features:**
