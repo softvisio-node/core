@@ -1,5 +1,15 @@
 # Changelog
 
+### v7.189.5 (2025-12-10)
+
+**Other changes:**
+
+- build: migrate to c0rejs namespace (● [34c170c](https://github.com/c0rejs/core/commit/34c170cf1), [5d742a0](https://github.com/c0rejs/core/commit/5d742a02a), [94235aa](https://github.com/c0rejs/core/commit/94235aa43), [2750c1b](https://github.com/c0rejs/core/commit/2750c1bdf); 👬 zdm)
+
+- chore(metadata): update package metadata (● [c88a025](https://github.com/c0rejs/core/commit/c88a025fc); 👬 zdm)
+
+Compare with the previous release: [v7.189.4](https://github.com/c0rejs/core/compare/v7.189.4...v7.189.5)
+
 ### v7.189.4 (2025-12-09)
 
 **Bug fixes:**
