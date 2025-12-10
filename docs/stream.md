@@ -3,7 +3,7 @@
 Adds some missed methods to the `node` streams.
 
 ```javascript
-import "@softvisio/core/stream";
+import "@c0rejs/core/stream";
 ```
 
 ## Class: stream.Readable

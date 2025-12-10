@@ -1,7 +1,7 @@
 # Text
 
 ```javascript
-import * as text from "@softvisio/core/text";
+import * as text from "@c0rejs/core/text";
 ```
 
 ### text.wrap( string, maxLength, options )
@@ -16,10 +16,10 @@ import * as text from "@softvisio/core/text";
 ## ansi
 
 ```javascript
-import { ansi } from "@softvisio/core/text";
+import { ansi } from "@c0rejs/core/text";
 
 // or
-import ansi from "@softvisio/core/text/ansi";
+import ansi from "@c0rejs/core/text/ansi";
 
 console.log(ansi.cold.while.onRed("test"));
 ```
@@ -97,10 +97,10 @@ Removes ANSI reset code from the string.
 Draw text table.
 
 ```javascript
-import { Table } from "@softvisio/core/text";
+import { Table } from "@c0rejs/core/text";
 
 // or
-import Table from "@softvisio/core/text/table";
+import Table from "@c0rejs/core/text/table";
 
 const table = new Table({});
 

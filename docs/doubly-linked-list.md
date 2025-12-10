@@ -3,7 +3,7 @@
 <https://en.wikipedia.org/wiki/Doubly_linked_list>
 
 ```javascript
-import DoublyLinkedList from "@softvisio/utils/doubly-linked-list";
+import DoublyLinkedList from "@c0rejs/utils/doubly-linked-list";
 
 const list = new DoublyLinkedList();
 

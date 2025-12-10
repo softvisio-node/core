@@ -1,7 +1,7 @@
 # Class: File
 
 ```javascript
-import File from "@softvisio/core/file";
+import File from "@c0rejs/core/file";
 ```
 
 ### File.new( options? )

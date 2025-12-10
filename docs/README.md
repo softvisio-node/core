@@ -5,5 +5,5 @@ Link to the resources: <https://github.com/softvisio-node/core/releases/tag/reso
 ## Install
 
 ```sh
-npm install @softvisio/core
+npm install @c0rejs/core
 ```

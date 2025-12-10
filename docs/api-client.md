@@ -3,7 +3,7 @@
 ## Class: ApiClient
 
 ```javascript
-import Api from "@softvisio/core/api";
+import Api from "@c0rejs/core/api";
 
 const api = new Api( "wss://devel:8080/api?maxConnections=1", { "cacheMax": 1000 } );
 ```

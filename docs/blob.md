@@ -1,7 +1,7 @@
 # Class: Blob
 
 ```javascript
-import Blob from "@softvisio/core/blob";
+import Blob from "@c0rejs/core/blob";
 ```
 
 ### Blob.new( content?, options? )

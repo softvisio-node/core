@@ -1,7 +1,7 @@
 # SQL
 
 ```javascript
-import sql from "@softvisio/core/sql";
+import sql from "@c0rejs/core/sql";
 ```
 
 ## DBH
@@ -9,7 +9,7 @@ import sql from "@softvisio/core/sql";
 ### PostgreSQL
 
 ```javascript
-import sql from "@softvisio/core/sql";
+import sql from "@c0rejs/core/sql";
 
 const dbh = sql.new( "pgsql://user:password@host" );
 ```
@@ -17,7 +17,7 @@ const dbh = sql.new( "pgsql://user:password@host" );
 ### SQLite
 
 ```javascript
-import sql from "@softvisio/core/sql";
+import sql from "@c0rejs/core/sql";
 
 const dbh = sql.new( "sqlite:" );
 ```

@@ -3,7 +3,7 @@
 Read / write config files, based on file extension.
 
 ```javascript
-import config from "@softvisio/core/config";
+import config from "@c0rejs/core/config";
 
 const data = config.read("cfg.yaml");
 const data = config.read("#resources/cfg.yaml", { resolve: import.meta.url });

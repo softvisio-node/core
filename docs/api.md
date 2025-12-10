@@ -1,13 +1,13 @@
 # Introduction
 
 ```sh
-npm install @softvisio/core
+npm install @c0rejs/core
 ```
 
 ## Usage
 
 ```javascript
-import Api from "@softvisio/core/api";
+import Api from "@c0rejs/core/api";
 
 const api = new Api( {
     "url": "/api/",
