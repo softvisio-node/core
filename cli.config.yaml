@@ -7,7 +7,7 @@ docs:
   logo: true
 
   externalTypes:
-    - softvisio-node/result
+    - c0rejs/result
 
   types:
     Auth: ~
