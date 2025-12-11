@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.189.7 (2025-12-11)
+
+**Other changes:**
+
+- build: migrate to c0rejs namespace (● [72bc469](https://github.com/c0rejs/core/commit/72bc469cd); 👬 zdm)
+
+Compare with the previous release: [v7.189.6](https://github.com/c0rejs/core/compare/v7.189.6...v7.189.7)
+
 ### v7.189.6 (2025-12-11)
 
 **Bug fixes:**
