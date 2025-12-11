@@ -1,5 +1,15 @@
 # Changelog
 
+### v7.189.6 (2025-12-11)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix build workflow (● [a3114f3](https://github.com/c0rejs/core/commit/a3114f345); 👬 zdm)
+
+- \[PATCH] fix: update npmrc (● [93e5f8e](https://github.com/c0rejs/core/commit/93e5f8e7b); 👬 zdm)
+
+Compare with the previous release: [v7.189.5](https://github.com/c0rejs/core/compare/v7.189.5...v7.189.6)
+
 ### v7.189.5 (2025-12-10)
 
 **Other changes:**
