@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.190.0 (2025-12-13)
+
+**New features:**
+
+- \[MINOR] feat: add docker builder secrets (● [79f73a4](https://github.com/c0rejs/core/commit/79f73a478); 👬 zdm)
+
+Compare with the previous release: [v7.189.7](https://github.com/c0rejs/core/compare/v7.189.7...v7.190.0)
+
 ### v7.189.7 (2025-12-11)
 
 **Other changes:**
