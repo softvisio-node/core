@@ -311,4 +311,8 @@
           type: object
           additionalProperties: { type: [number, string] }
           minProperties: 1
+        secrets:
+          type: array
+          items: { type: string }
+          minItems: 1
       additionalProperties: false
