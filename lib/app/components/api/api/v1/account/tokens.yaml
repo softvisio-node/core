@@ -10,6 +10,7 @@ methods:
           read:
             fields:
               id: { type: string }
+              public: { type: string, operator: includes case insensitive, sortable: true }
               name: { type: string, operator: includes case insensitive, sortable: true }
               created: { type: string, sortable: true }
               last_activity: { type: string, sortable: true }
