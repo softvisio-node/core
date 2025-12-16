@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.192.0 (2025-12-16)
+
+**New features:**
+
+- \[MINOR] feat: add npm api (● [dcb8a97](https://github.com/c0rejs/core/commit/dcb8a97e3); 👬 zdm)
+
+Compare with the previous release: [v7.191.0](https://github.com/c0rejs/core/compare/v7.191.0...v7.192.0)
+
 ### v7.191.0 (2025-12-16)
 
 **New features:**
