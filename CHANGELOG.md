@@ -1,5 +1,25 @@
 # Changelog
 
+### v7.191.0 (2025-12-16)
+
+**New features:**
+
+- \[MINOR] feat: add storage.getStream() (● [1e03494](https://github.com/c0rejs/core/commit/1e0349494); 👬 zdm)
+
+- \[MINOR] feat: add stream joiner function chunk (● [12d27f8](https://github.com/c0rejs/core/commit/12d27f843), [2d617e4](https://github.com/c0rejs/core/commit/2d617e438), [f10da07](https://github.com/c0rejs/core/commit/f10da0708); 👬 zdm)
+
+- \[MINOR] feat: track joiner stream size (● [34953ce](https://github.com/c0rejs/core/commit/34953cef8), [9e8968f](https://github.com/c0rejs/core/commit/9e8968fa8), [0f8baaf](https://github.com/c0rejs/core/commit/0f8baaf14), [48a98bd](https://github.com/c0rejs/core/commit/48a98bdbe); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: add telegram api getStream() (● [5cf9016](https://github.com/c0rejs/core/commit/5cf90168f); 👬 zdm)
+
+- \[PATCH] refactor: refactor app token (● [656efea](https://github.com/c0rejs/core/commit/656efeadf); 👬 zdm)
+
+- \[PATCH] refactor: refactor multipart stream (● [e6ff0ad](https://github.com/c0rejs/core/commit/e6ff0ad99); 👬 zdm)
+
+Compare with the previous release: [v7.190.0](https://github.com/c0rejs/core/compare/v7.190.0...v7.191.0)
+
 ### v7.190.0 (2025-12-13)
 
 **New features:**
