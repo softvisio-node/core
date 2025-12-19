@@ -1,5 +1,19 @@
 # Changelog
 
+### v7.192.1 (2025-12-19)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix docker engine api (● [a594561](https://github.com/c0rejs/core/commit/a5945612c), [7df4a70](https://github.com/c0rejs/core/commit/7df4a7041), [9c6363d](https://github.com/c0rejs/core/commit/9c6363dc2); 👬 zdm)
+
+- \[PATCH] fix: fix json stream encoding (● [95a9994](https://github.com/c0rejs/core/commit/95a9994e9); 👬 zdm)
+
+- \[PATCH] fix: fix tar.create() to return PassThrough stream (● [c08bb52](https://github.com/c0rejs/core/commit/c08bb5236); 👬 zdm)
+
+- \[PATCH] fix: update docker engine api to v1.52 (● [082e517](https://github.com/c0rejs/core/commit/082e51703); 👬 zdm)
+
+Compare with the previous release: [v7.192.0](https://github.com/c0rejs/core/compare/v7.192.0...v7.192.1)
+
 ### v7.192.0 (2025-12-16)
 
 **New features:**
