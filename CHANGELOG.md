@@ -1,5 +1,13 @@
 # Changelog
 
+### v7.192.2 (2025-12-22)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor logger (● [2e3c1ac](https://github.com/c0rejs/core/commit/2e3c1ac91); 👬 zdm)
+
+Compare with the previous release: [v7.192.1](https://github.com/c0rejs/core/compare/v7.192.1...v7.192.2)
+
 ### v7.192.1 (2025-12-19)
 
 **Bug fixes:**
