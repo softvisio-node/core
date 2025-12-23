@@ -1,5 +1,25 @@
 # Changelog
 
+### v7.192.3 (2025-12-23)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix base64 stream decoder (● [1afa333](https://github.com/c0rejs/core/commit/1afa333f3); 👬 zdm)
+
+- \[PATCH] fix: fix hex stream decoder (● [0ede809](https://github.com/c0rejs/core/commit/0ede8091d), [cd4d686](https://github.com/c0rejs/core/commit/cd4d686bb), [3fa056f](https://github.com/c0rejs/core/commit/3fa056f00); 👬 zdm)
+
+- \[PATCH] fix: fix json decoder stream (● [ff8b888](https://github.com/c0rejs/core/commit/ff8b88883), [6e7e8aa](https://github.com/c0rejs/core/commit/6e7e8aa1c); 👬 zdm)
+
+- \[PATCH] fix: fix stream .write() arguments (● [85198d6](https://github.com/c0rejs/core/commit/85198d6e6); 👬 zdm)
+
+- \[PATCH] fix: fix stream splitter (● [7622c3a](https://github.com/c0rejs/core/commit/7622c3a1e); 👬 zdm)
+
+- \[PATCH] fix: fix streaming splitter push encoding (● [bea1a11](https://github.com/c0rejs/core/commit/bea1a1161); 👬 zdm)
+
+- \[PATCH] fix: remove logger .write() (● [8b5dfd0](https://github.com/c0rejs/core/commit/8b5dfd0dd); 👬 zdm)
+
+Compare with the previous release: [v7.192.2](https://github.com/c0rejs/core/compare/v7.192.2...v7.192.3)
+
 ### v7.192.2 (2025-12-22)
 
 **Code refactoring:**
