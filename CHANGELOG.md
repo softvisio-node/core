@@ -1,5 +1,23 @@
 # Changelog
 
+### v7.193.0 (2025-12-24)
+
+**New features:**
+
+- \[MINOR] feat: add logger dispose (● [e1618b4](https://github.com/c0rejs/core/commit/e1618b475); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix npm api result (● [3f07ad2](https://github.com/c0rejs/core/commit/3f07ad21a); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor mulripart stream (● [ba622a9](https://github.com/c0rejs/core/commit/ba622a908); 👬 zdm)
+
+- \[PATCH] refactor: rename logger .labels to .enableLabels (● [470e932](https://github.com/c0rejs/core/commit/470e9326a); 👬 zdm)
+
+Compare with the previous release: [v7.192.3](https://github.com/c0rejs/core/compare/v7.192.3...v7.193.0)
+
 ### v7.192.3 (2025-12-23)
 
 **Bug fixes:**
