@@ -1,5 +1,15 @@
 # Changelog
 
+### v7.193.1 (2025-12-25)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix stream multipart push return value (● [0e43eba](https://github.com/c0rejs/core/commit/0e43eba54); 👬 zdm)
+
+- \[PATCH] fix: restore logger.write() (● [05c973e](https://github.com/c0rejs/core/commit/05c973ece); 👬 zdm)
+
+Compare with the previous release: [v7.193.0](https://github.com/c0rejs/core/compare/v7.193.0...v7.193.1)
+
 ### v7.193.0 (2025-12-24)
 
 **New features:**
